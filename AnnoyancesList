@@ -1,0 +1,9 @@
+! Title: yokoffing's Annoyance List
+! Description: Hide annoyances that have yet to be blocked by major lists
+! Updated: 29 Aug 2021
+! License: https://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/yokoffing/filterlists
+
+!#include AdultAnnoyanceList.txt
+!#include click2load.txt
+!#include PureReadingExperience.txt
