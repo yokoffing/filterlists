@@ -4,7 +4,8 @@
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 
-! Use in combination with 
+! Use in combination with AdGuard Annoyancs, AdGuard Social Media, Fanboy's
+! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
 !#include click2load.txt
 !#include PureReadingExperience.txt
