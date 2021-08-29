@@ -7,12 +7,10 @@
 ! Use in combination with AdGuard Annoyancs, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+
 !#include click2load.txt
 !#include PureReadingExperience.txt
 !#include AdultAnnoyanceList.txt
-
-! Blogspot.com
-blogspot.com###cookieChoiceInfo
 
 ! Bitbucket
 bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .lmzGgl.sc-gipzik > .cGINmZ.sc-Rmtcm
@@ -62,8 +60,6 @@ duckduckgo.com##.module__toggle--map
 duckduckgo.com##.place-detail__attribution
 duckduckgo.com##.place-detail__cta-block
 duckduckgo.com##.related-searches
-!duckduckgo.com##[href^="https://www.youtube.com/results"]
-!duckduckgo.com##[href^="https://www.youtube.com/watch"]
 
 ! eOnline
 eonline.com##.dockable
@@ -273,10 +269,6 @@ facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) >
 facebook.com##div[role="complementary"] > div > div > div > div > div > span
 
 ! GOOGLE
-! Hide search results
-! Format: google.*###search .g:has(a[href*="example.com"])
-google.*##.g:has(a[href*="https://www.coursehero.com/"]) 
-google.*##.g:has(a[href*="https://sciemce.com/"]) 
 ! Google consent dialog 
 ! Google consent, "before you continue"
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
