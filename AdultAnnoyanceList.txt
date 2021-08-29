@@ -37,12 +37,8 @@ drtuber.com##.wrapper_frame
 ! GaySimple
 gaysimple.com##.more-videos
 
-! TheGay
-! thegay.com, https://github.com/easylist/easylist/pull/6531
-thegay.com##.iRx9_wrt
-||thegay.com/gagra/
-thegay.com,txxx.com##.fiioed
-thegay.com##.video-page__content > .right
+! ImageFap
+imagefap.com##td.mnu0:nth-of-type(21)
 
 ! Pornhub.com
 ! 3/11/2020 https://www.pornhub.com, https://mypdns.org/my-privacy-dns/issues/-/issues/1425
@@ -69,6 +65,13 @@ pornhub.com###js-abContainterMain
 pornhub.net.co##center
 pornhub.net.co##.video-block-happy
 pornhub.net.co###widget-videos-block-4 > .video-loop > .no-gutters.row > .col-xl-6.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+
+! TheGay
+! thegay.com, https://github.com/easylist/easylist/pull/6531
+thegay.com##.iRx9_wrt
+||thegay.com/gagra/
+thegay.com,txxx.com##.fiioed
+thegay.com##.video-page__content > .right
 
 ! TwinkVideos
 twinkvideos.com##.more-videos
