@@ -7,12 +7,10 @@
 ! Use in combination with AdGuard Annoyancs, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
-
 !#include click2load.txt
 !#include PureReadingExperience.txt
 !#include AdultAnnoyanceList.txt
 
-! Bitbucket
 bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .lmzGgl.sc-gipzik > .cGINmZ.sc-Rmtcm
 bitbucket.org##.ei693ry6.css-kigghj
 bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .bbgDmu.sc-bZQynM > .fHktW.sc-htoDjs
@@ -21,11 +19,7 @@ bitbucket.org##.cjMOOK.styledFlagGroup-sc-1dirlpz-0
 bitbucket.org##.upgrade-banner-container
 bitbucket.org##.success.fadeout.shadowed.closeable.aui-message
 bitbucket.org###id_is_private_group
-
-! Block Crypto
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
-
-! DevDungeon
 devdungeon.com##.col-sm-3
 devdungeon.com##.calendly-badge-widget
 devdungeon.com###block-block-15
@@ -33,11 +27,7 @@ devdungeon.com###block-block-6
 devdungeon.com###block-block-14
 devdungeon.com###popdown
 devdungeon.com##.container.footer
-
-! Digital Trends
 www.digitaltrends.com##.is-loaded.b-docking.dtvideos-container
-
-! DuckDuckGo
 ||duckduckgo.com/?q=$elemhide
 ||duckduckgo.com/html$elemhide
 ||duckduckgo.com/lite$elemhide
@@ -60,20 +50,12 @@ duckduckgo.com##.module__toggle--map
 duckduckgo.com##.place-detail__attribution
 duckduckgo.com##.place-detail__cta-block
 duckduckgo.com##.related-searches
-
-! eOnline
 eonline.com##.dockable
 eonline.com##.featherlight
-
-! Fool.com
 fool.com##.my-5.blk__ecap-wrapper--hubspot-injected.blk__ecap-wrapper.blk__ecap.blk__cta.row
-
-! FMovies
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
-
-! Github
 ||live.github.com/_luau/*$websocket,important
 ||live.github.com/_ws/*$websocket,important
 ||collector.githubapp.com^
@@ -108,8 +90,6 @@ github.com##.rounded-2.border.p-4.mb-6.mx-auto.signup-prompt
 github.com##.ws-normal.text-left.p-3.box-shadow-large.Box.Popover-message
 github.com#@#.flash-error.flash-full.flash
 github.com###sponsor-button-repo
-
-! Gitlab
 ||gitlab.com/-/cable$websocket,important
 gitlab.com###promote_repository_features
 gitlab.com##.content-block.bordered-box
@@ -124,11 +104,7 @@ gitlab.com##.popover-body
 gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
 gitlab.com##.rounded.flash-alert.flash-content
 gitlab.com##.rounded.flash-notice.flash-content
-
-! IG.com
 ig.com##.full-text__warning
-
-! IMDB.com
 imdb.com##.ab_widget
 imdb.com###sidebar
 imdb.com###title-social-sharing-widget
@@ -151,58 +127,32 @@ imdb.com###bio_pro_link
 ||media-amazon.com/images/*/imdbads/*$important
 ||media-amazon.com/images/*/imdb/images-*/android-mobile-*.png$important
 ||media-amazon.com/images/*/imdb/images-*/favicon*.png$important
-
-! LA Times
 latimes.com##div.enhancement > .promo-small.promo-position-small.promo
-
-! Mashable
 mashable.com##.blueprint.article-content > .content-mash-video
-
-! MetroLyrics
 metrolyrics.com###lyrics-body-text > div > .driver-related > .related-container
 metrolyrics.com###lyrics-body-text > div > .driver-related
-
-! MyShipTracking
 myshiptracking.com##.rt_alerts
 myshiptracking.com##div.ads_160_right.listbox:nth-of-type(3)
-
-! NY Times
 nytimes.com##.css-1q1hscp
 nytimes.com##.e1x0szx60.css-1uqnipt.expanded-dock.expanded.shown.gdpr
-
-! Pastebin
 pastebin.com##.page
 pastebin.com##.h_800.share
 pastebin.com###float-box-frame
-
-! Philosophy Now
 philosophynow.org###welcome_box
-
-! Raider.IO
 raider.io##.text-white > .slds-m-bottom--large
-
-! SeekingAlpha
 !seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 !seekingalpha.com##.adsbygoogle
-
-! Sourceforge.net
 sourceforge.net###mirror
 sourceforge.net###newsletter-floating
 sourceforge.net##.m-project-list.m-sidebar-widget
 sourceforge.net##.m-project-related-keywords.m-sidebar-widget
 sourceforge.net##.m-sidebar-compare.m-sidebar-widget
 sourceforge.net##aside.m-sidebar-widget:nth-of-type(3)
-
-! StackOverflow
 stackoverflow.com##.js-theme-selector.bs-md.z-active.overflow-hidden.theme-selector
 stackoverflow.com##.ps-relative.js-freemium-cta
-
-! TechRadar
 techradar.com##.future__jwplayer--carousel
 techradar.com##.region_above_ad
 techradar.com##.region_redirect_popup
-
-! TecMint
 tecmint.com##.top-bar-align-center.top-bar
 tecmint.com###text-28
 tecmint.com###text-27
@@ -213,45 +163,27 @@ tecmint.com##.after-post-box
 tecmint.com##.entry-inner > div:nth-of-type(10)
 tecmint.com###attachment_10195
 tecmint.com###quickiebarpro
-
-! Translation.babylon-software.com
 translation.babylon-software.com###dimScreen
 translation.babylon-software.com##.pc-popup-new
-
-! Trustpulse
 trustpulse.com##.Campaign__innerWrapper.birmingham-c-wrapper
 trustpulse.com##.Campaign--css.CampaignType--popup.Campaign.birmingham-campaign
 trustpulse.com###tp-7bQQ18cB-holder
 trustpulse.com##.tp-widget--compact.tp-bottom-left.tp-widget--rounded.tp-widget-container
-
-! Twitch
 twitch.tv##.channel-panels-container
 twitch.tv##.prime-offers
 twitch.tv##.extension-view__iframe
 twitch.tv##.headliner-ad
 twitch.tv##.front-page-carousel
 twitch.tv##.extension-view__iframe
-
-! USA Today
 www.usatoday.com##.gnt_em__el.gnt_em_vp__tp.gnt_em__fp.gnt_em
-
-! Wikia
 wikia.org##.rxbhWIyq7zN9DBsGKihO9._1qTFYU2AttM0QuKykrEq1
 wikia.org##body > div:nth-of-type(3)
-
-! Wikimedia
 meta.wikimedia.org###mw-anon-edit-warning
-
-! Wikipedia
 wikipedia.org###siteNotice
 en.wikipedia.org###mw-anon-edit-warning
-
-! Wired.com 
 wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
-
-! WSJ
 wsj.com##.wsj-ad-label.wsj-body-ad-placement
 wsj.com##.hide8.hide4.module.banner-ad
 
