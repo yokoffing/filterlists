@@ -1,0 +1,27 @@
+! Title: click2load filters
+! Description: To be used in conjunction with other Annoyances lists
+! Updated: 29 Aug 2021
+! License: https://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/yokoffing/filterlists
+
+! https://raw.githubusercontent.com/llacb47/miscfilters/master/clicktoload.txt
+! https://twitter.com/gorhill/status/1377929952637640705
+!*$3p,frame,redirect-rule=click2load.html
+||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com
+||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com
+||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com
+||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
+||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||docs.google.com/document/d/e/$3p,frame,redirect=click2load.html
+||docs.google.com/presentation/d/e/$3p,frame,redirect=click2load.html
+||drive.google.com/file/$3p,frame,redirect=click2load.html
+!||s3.amazonaws.com^$3p,frame,redirect=click2load.html
+!||s3.amazonaws.com/embed/$3p,frame,redirect=click2load.html
+||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
+||player.twitch.tv/$3p,frame,redirect=click2load.html
+||platform.twitter.com/widgets/$3p,frame,redirect=click2load.html
+||embed.ted.com/$3p,frame,redirect=click2load.html
+!||disqus.com/forums/*/embed.js$script,redirect=disqus_forums_embed.js
+!||disqus.com/embed.js$script,redirect=disqus_embed.js
+!||disqus.com/count.js$script
+!@@||disqus.com/embed.js?_=1457540*$script
