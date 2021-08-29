@@ -27,3 +27,5 @@ tecmint.com##p strong:has-text(/^You might also like:/):upward(p)
 ! Sites that need filters:
 ! usatoday.com Random links. No consistent labels like "read also". Is this possible?
 ! tecmint.com "[ You might also like:"
+
+https://raw.githubusercontent.com/KCaglarCoskun/enur-filter-list/master/enur-filter-list.txt
