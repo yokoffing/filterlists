@@ -1,0 +1,103 @@
+! Title: Adult Annoyances List
+! Description: Block annoyances on adult sites
+! Updated: 29 Aug 2021
+! License: https://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/yokoffing/Better-Fox
+
+@@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
+||cam4.*/ads/directory/$1p,xmlhttprequest
+
+! AZnude
+aznude.com##.recommended
+aznude.com##.random-links
+aznude.com##.watch-all-btn
+aznude.com##.increase-height
+aznude.com##footer
+
+! BoyFriendtv
+||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
+
+! CockMeter
+cockmeter.com##.aside-itempage-col
+cockmeter.com###upp_r
+
+! Cum4k
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.payment-popup
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.epoch-box
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.join
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.t2019-button
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.join-btn-massive
+cum4k.com,passion-hd.com,holed.com,pornpros.com###t2019-previews
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.sale-special-container
+cum4k.com,passion-hd.com,holed.com,pornpros.com##.popup-content
+
+! DrTuber
+drtuber.com##.wrapper_frame
+
+! GaySimple
+gaysimple.com##.more-videos
+
+! TheGay
+! thegay.com, https://github.com/easylist/easylist/pull/6531
+thegay.com##.iRx9_wrt
+||thegay.com/gagra/
+thegay.com,txxx.com##.fiioed
+thegay.com##.video-page__content > .right
+
+! Pornhub.com
+! 3/11/2020 https://www.pornhub.com, https://mypdns.org/my-privacy-dns/issues/-/issues/1425
+pornhub.com###videoSearchResult > .alpha
+pornhub.com##.clearfix.xc6lhd4nney0780v
+! 11/02/2020 https://www.pornhub.com, https://mypdns.org/my-privacy-dns/issues/-/issues/1425
+pornhub.com##.sectionWrapper > .sectionWrapper
+pornhub.com###menuItem4 > .js-topMenuLink
+pornhub.com###streamMateModel
+pornhub.com##.footer-title
+pornhub.com##.footerContentWrapper
+pornhub.com##.streamatesModelsContainer.sectionWrapper
+pornhub.com##h3
+pornhub.com###menuItem4 > .js-topMenuLink
+pornhub.com###streamMateModel
+pornhub.com##.footer-title
+pornhub.com##.footerContentWrapper
+pornhub.com##.streamatesModelsContainer.sectionWrapper
+pornhub.com##h3
+pornhub.com###js-abContainterMain
+
+! Pornhub.net
+! 2020-09-08 http://www.pornhub.net.co
+pornhub.net.co##center
+pornhub.net.co##.video-block-happy
+pornhub.net.co###widget-videos-block-4 > .video-loop > .no-gutters.row > .col-xl-6.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+
+! TwinkVideos
+twinkvideos.com##.more-videos
+twinkvideos.com##.aside > div
+
+! TubeOn
+tubeon.com##.puFloatDiv
+tubeon.com###spot_video_underplayer_livecams
+tubeon.com##.abtext
+
+! Xhamster
+xhamster.com##.wio-cspot-container.wio-cplayer
+xhamster.com##.wio-cspa.wio-cspb
+xhamster.com##.-front.horizontal.as-width-wrap.wio-ccams-widget
+||xhcdn.com/a/*.gif$image,domain=xhamster.com
+! https://mypdns.org/my-privacy-dns/issues/-/issues/2271
+xhamster.com##.dyltv-container
+xhamster.com##div.related-container:nth-of-type(3)
+xhamster.com##.premium-overlay
+! Xhamster13
+xhamster.desi##.wiu-aspa.wiu-aspb
+xhamster.desi##.wiu-aspot-container.wiu-aplayer
+! XHamster13
+xhamster13.desi##.wio-cspb
+xhamster13.desi##.xplayer-hover-menu
+! XHamster2
+xhamster2.com##.wiz-banner
+xhamster2.com##.wiz-spa.wiz-spb
+xhamster13.desi##.xplayer-banner
+
+! YesWeGays
+yeswegays.com##.spot-after.video-spot
