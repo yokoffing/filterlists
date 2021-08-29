@@ -8,6 +8,9 @@
 !#include PureReadingExperience.txt
 !#include AdultAnnoyanceList.txt
 
+! Blogspot.com
+blogspot.com###cookieChoiceInfo
+
 ! Bitbucket
 bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .lmzGgl.sc-gipzik > .cGINmZ.sc-Rmtcm
 bitbucket.org##.ei693ry6.css-kigghj
@@ -60,7 +63,8 @@ duckduckgo.com##.related-searches
 !duckduckgo.com##[href^="https://www.youtube.com/watch"]
 
 ! eOnline
-www.eonline.com##.dockable
+eonline.com##.dockable
+eonline.com##.featherlight
 
 ! Fool.com
 fool.com##.my-5.blk__ecap-wrapper--hubspot-injected.blk__ecap-wrapper.blk__ecap.blk__cta.row
@@ -80,7 +84,6 @@ fmovies.cab##.feedback-icon
 ||github.com/socket-worker-*.js$script,important
 ||github.githubassets.com/assets/socket-worker-*.js.*,important
 ||github.githubassets.com/favicon.ico$image
-!github.com##.flash-notice.flash-full.flash
 @@||github.com^$generichide,badfilter
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
 github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-lg-5.pr-md-4.pr-3.col-lg-3.col-md-3.col-12.team-left-column
@@ -93,7 +96,6 @@ github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.conten
 github.com##.js-cookie-consent-banner
 github.com##.js-cookie-consent-preferences-link-container
 github.com##.js-header-promo-hide
-! Had the next line running for about a week locally without braekage.
 github.com##.js-notice
 github.com##.js-notifications-list-protip.text-gray.flex-items-center.d-flex
 github.com##.js-unwatch-suggestions.js-notice.flash
@@ -239,10 +241,6 @@ wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 ! WSJ
 wsj.com##.wsj-ad-label.wsj-body-ad-placement
 wsj.com##.hide8.hide4.module.banner-ad
-
-
-
-
 
 ! Most of the filters below are from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
 ! Why are these not included by default?
