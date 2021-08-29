@@ -5,9 +5,6 @@
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Credit for most of these entries goes to https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
 
-@@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
-||cam4.*/ads/directory/$1p,xmlhttprequest
-
 ! AZnude
 aznude.com##.recommended
 aznude.com##.random-links
@@ -112,6 +109,8 @@ xhamster13.desi##.xplayer-banner
 xhamster2.com##.wiz-banner
 xhamster2.com##.wiz-spa.wiz-spb
 
-
 ! YesWeGays
 yeswegays.com##.spot-after.video-spot
+
+@@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
+||cam4.*/ads/directory/$1p,xmlhttprequest
