@@ -4,6 +4,8 @@
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 
+! Use in combination with 
+
 !#include click2load.txt
 !#include PureReadingExperience.txt
 !#include AdultAnnoyanceList.txt
@@ -163,6 +165,10 @@ mashable.com##.blueprint.article-content > .content-mash-video
 metrolyrics.com###lyrics-body-text > div > .driver-related > .related-container
 metrolyrics.com###lyrics-body-text > div > .driver-related
 
+! MyShipTracking
+myshiptracking.com##.rt_alerts
+myshiptracking.com##div.ads_160_right.listbox:nth-of-type(3)
+
 ! NY Times
 nytimes.com##.css-1q1hscp
 nytimes.com##.e1x0szx60.css-1uqnipt.expanded-dock.expanded.shown.gdpr
@@ -190,6 +196,10 @@ sourceforge.net##.m-project-related-keywords.m-sidebar-widget
 sourceforge.net##.m-sidebar-compare.m-sidebar-widget
 sourceforge.net##aside.m-sidebar-widget:nth-of-type(3)
 
+! StackOverflow
+stackoverflow.com##.js-theme-selector.bs-md.z-active.overflow-hidden.theme-selector
+stackoverflow.com##.ps-relative.js-freemium-cta
+
 ! TechRadar
 techradar.com##.future__jwplayer--carousel
 techradar.com##.region_above_ad
@@ -207,9 +217,15 @@ tecmint.com##.entry-inner > div:nth-of-type(10)
 tecmint.com###attachment_10195
 tecmint.com###quickiebarpro
 
-! Tanslation.babylon-software.com
+! Translation.babylon-software.com
 translation.babylon-software.com###dimScreen
 translation.babylon-software.com##.pc-popup-new
+
+! Trustpulse
+trustpulse.com##.Campaign__innerWrapper.birmingham-c-wrapper
+trustpulse.com##.Campaign--css.CampaignType--popup.Campaign.birmingham-campaign
+trustpulse.com###tp-7bQQ18cB-holder
+trustpulse.com##.tp-widget--compact.tp-bottom-left.tp-widget--rounded.tp-widget-container
 
 ! Twitch
 twitch.tv##.channel-panels-container
