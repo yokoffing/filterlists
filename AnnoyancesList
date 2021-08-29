@@ -4,6 +4,121 @@
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 
-!#include AdultAnnoyanceList.txt
 !#include click2load.txt
 !#include PureReadingExperience.txt
+!#include AdultAnnoyanceList.txt
+
+! The Block Crypto
+theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
+
+! Fool.com
+fool.com##.my-5.blk__ecap-wrapper--hubspot-injected.blk__ecap-wrapper.blk__ecap.blk__cta.row
+
+! IG.com
+ig.com##.full-text__warning
+
+! LA Times
+latimes.com##div.enhancement > .promo-small.promo-position-small.promo
+
+! NY Times
+nytimes.com##.css-1q1hscp
+nytimes.com##.e1x0szx60.css-1uqnipt.expanded-dock.expanded.shown.gdpr
+
+! Philosophy Now
+philosophynow.org###welcome_box
+
+! SeekingAlpha
+!seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
+!seekingalpha.com##.adsbygoogle
+
+! WSJ
+wsj.com##.wsj-ad-label.wsj-body-ad-placement
+wsj.com##.hide8.hide4.module.banner-ad
+
+! Most of the filters below are from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! Why are these not included by default?
+
+! FACEBOOK
+! Facebook Sponsored https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div:not([data-pagelet*="group" i]))
+! Facebook Suggestions https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child):not(:has(> div > div > span > a)) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
+! Facebook ads
+facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
+! Feb 2021 / Aug 2021
+facebook.com##div[role="complementary"] > div > div > div > div > div > span
+
+! GOOGLE
+! Hide search results
+! Format: google.*###search .g:has(a[href*="example.com"])
+google.*##.g:has(a[href*="https://www.coursehero.com/"]) 
+google.*##.g:has(a[href*="https://sciemce.com/"]) 
+! Google consent dialog 
+! Google consent, "before you continue"
+google.*##+js(aeld, DOMContentLoaded, CONSENT)
+||consent.google.com^
+!block subdomain request can generate breakage - disable network filter if you have any breakage
+! Google "People also searched for"
+google.*##[id^="eob_"]
+
+! REDDIT
+! Hide Reddit 'Top Broadcast Now' & 'Top livestream' https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
+! Block downloading. Please report back if does not work or causes issues. https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+||redd.it/*.m3u8^$xhr,domain=reddit.com
+||strapi.reddit.com^$xhr,domain=reddit.com
+! Misc filters
+reddit.com##.create.sidebox
+reddit.com##.happening-now
+reddit.com##.hohoho.sidebox
+reddit.com##.premium-banner
+reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
+
+! YOUTUBE
+! Block youtube ads
+||www.youtube.com/pagead/*$domain=www.youtube.com
+||www.google.com/pagead/*$image
+||www.youtube.com/pagead/*$image
+||www.youtube.com/get_video_info$xhr
+||www.youtube.com/api/stats/ads$domain=www.youtube.com
+||www.youtube.com/pagead/*$domain=www.youtube.com
+||www.youtube.com/pagead/*$1p
+||www.youtube.com/api/stats/ads$domain=www.youtube.com
+||www.youtube.com/api/stats/ads$1p
+! experimental
+||youtube.com/api/stats/watchtime?
+youtube.com##ytd-horizontal-card-list-renderer
+youtube.com##.ytd-live-chat-frame
+! YOUTUBE
+! YT consent
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+! YT login
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! probably this one is also neded, but I cannot reproduce anymore
+! youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
+! Removes "YouTube" (Music) playlists from the right side panel
+youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
+! Suggested channels by name
+youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
+! Recommend after pause
+youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
+~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+! Misc.
+youtube.com##.yt-upsell-dialog-renderer
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com###sponsor-button
+youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
