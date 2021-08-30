@@ -139,10 +139,7 @@ nytimes.com##.e1x0szx60.css-1uqnipt.expanded-dock.expanded.shown.gdpr
 pastebin.com##.page
 pastebin.com##.h_800.share
 pastebin.com###float-box-frame
-philosophynow.org###welcome_box
 raider.io##.text-white > .slds-m-bottom--large
-!seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
-!seekingalpha.com##.adsbygoogle
 sourceforge.net###mirror
 sourceforge.net###newsletter-floating
 sourceforge.net##.m-project-list.m-sidebar-widget
