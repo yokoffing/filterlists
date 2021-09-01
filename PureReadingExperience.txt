@@ -1,5 +1,5 @@
 ! Title: Pure Reading Experience
-! Description: Hide RELATED, READ MORE text that distracts from reading articles
+! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
 ! Updated: 31 Aug 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
@@ -14,15 +14,15 @@ hollywoodreporter.com##.u-margin-b-3\@desktop-xl.u-margin-t-4\@desktop-xl.u-marg
 hollywoodreporter.com##p strong:has-text(/^PHOTOS/):upward(p)
 hollywoodreporter.com##p strong:has-text(/^STORY/):upward(p)
 mashable.com##.md\:leading-7.md\:text-xl.leading-loose.text-lg.mt-8.font-sans.max-w-3xl.mx-auto.w-full
-www.nbcnews.com##.dn-print.related
-www.newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
+nbcnews.com##.dn-print.related
+newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
 portswigger.net##p strong:has-text(/^Read more/):upward(p)
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
 theverge.com###kYgI66 > .c-read-more
 vox.com##.c-read-more
 vox.com##.c-article-footer
+wired.com##.callout--has-top-border.gYlOfh.GenericCalloutWrapper-zksK
 zdnet.com##p strong:has-text(/^SEE/):upward(p)
-tecmint.com##p strong:has-text(/^You might also like:/):upward(p)
 
 ! Sites that need filters:
 ! usatoday.com Random links. No consistent labels like "read also". Is this possible?
