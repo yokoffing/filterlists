@@ -11,16 +11,13 @@
 !#include PureReadingExperience.txt
 !#include AdultAnnoyanceList.txt
 
-! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
-bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .lmzGgl.sc-gipzik > .cGINmZ.sc-Rmtcm
-bitbucket.org##.ei693ry6.css-kigghj
-bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .bbgDmu.sc-bZQynM > .fHktW.sc-htoDjs
-bitbucket.org##div.atlaskit-portal:nth-of-type(1) > .hCTpf.sc-gzVnrw > .hHLyWY.sc-dnqmqq
-bitbucket.org##.cjMOOK.styledFlagGroup-sc-1dirlpz-0
-bitbucket.org##.upgrade-banner-container
-bitbucket.org##.success.fadeout.shadowed.closeable.aui-message
-bitbucket.org###id_is_private_group
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
+fmovies.cab##.alert-special
+fmovies.cab##.popover
+fmovies.cab##.feedback-icon
+raider.io##.text-white > .slds-m-bottom--large
+
+! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
 devdungeon.com##.col-sm-3
 devdungeon.com##.calendly-badge-widget
 devdungeon.com###block-block-15
@@ -28,107 +25,10 @@ devdungeon.com###block-block-6
 devdungeon.com###block-block-14
 devdungeon.com###popdown
 devdungeon.com##.container.footer
-www.digitaltrends.com##.is-loaded.b-docking.dtvideos-container
-||duckduckgo.com/?q=$elemhide
-||duckduckgo.com/html$elemhide
-||duckduckgo.com/lite$elemhide
-||duckduckgo.com/m.js?$domain=duckduckgo.com
-||duckduckgo.com/share/spice/amazon/$domain=duckduckgo.com
-||duckduckgo.com^*^q=$elemhide
-duckduckgo.com###m1-0
-duckduckgo.com###m2-0
-duckduckgo.com###m5-0
-duckduckgo.com###organic-module
-duckduckgo.com##.footer
-duckduckgo.com##.ia-modules
-duckduckgo.com##.js-feedback-btn-wrap
-duckduckgo.com##.js-ia-modules
-duckduckgo.com##.js-place-detail-directions
-duckduckgo.com##.js-video-privacy-leave
-duckduckgo.com##.module--carousel
-duckduckgo.com##.module__header__map
-duckduckgo.com##.module__toggle--map
-duckduckgo.com##.place-detail__attribution
-duckduckgo.com##.place-detail__cta-block
-duckduckgo.com##.related-searches
+digitaltrends.com##.is-loaded.b-docking.dtvideos-container
 eonline.com##.dockable
 eonline.com##.featherlight
 fool.com##.my-5.blk__ecap-wrapper--hubspot-injected.blk__ecap-wrapper.blk__ecap.blk__cta.row
-fmovies.cab##.alert-special
-fmovies.cab##.popover
-fmovies.cab##.feedback-icon
-||live.github.com/_luau/*$websocket,important
-||live.github.com/_ws/*$websocket,important
-||collector.githubapp.com^
-||github.com/_alive$xhr,important
-||github.com/_private/browser/stats
-||github.com/_ws$xhr,important
-||github.com/socket-worker-*.js$script,important
-||github.githubassets.com/assets/socket-worker-*.js.*,important
-||github.githubassets.com/favicon.ico$image
-@@||github.com^$generichide,badfilter
-github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-3.col-lg-3.col-md-3.col-12.team-left-column
-github.com##.border-bottom.hide-sm.hide-md.hide-lg.mt-5.pr-lg-5.pr-md-4.pr-3.col-lg-3.col-md-3.col-12.team-left-column
-github.com##.box-shadow-large.Box.mt-6.p-3.text-left.Popover-message--large.Popover-message--top-left.Popover-message
-github.com##.box-shadow-large.Box.p-4.left-0.Popover-message--top-left.Popover-message--large.Popover-message
-github.com##.col-3.box-shadow-medium.right-0.top-0.Popover.mr-3.mt-6.d-lg-block.d-none
-github.com##.hx_cookie-banner--show
-github.com##.hx_cookie-banner--show.js-cookie-consent-banner
-github.com##.js-banner.border-gray-light.border.rounded-1.text-center.p-4.content
-github.com##.js-cookie-consent-banner
-github.com##.js-cookie-consent-preferences-link-container
-github.com##.js-header-promo-hide
-github.com##.js-notice
-github.com##.js-notifications-list-protip.text-gray.flex-items-center.d-flex
-github.com##.js-unwatch-suggestions.js-notice.flash
-github.com##.mb-3.js-details-container.Details.border-black-fade.Box-row--yellow.Box
-github.com##.mt-3.flash-warn.flash
-github.com##.p-2.border-bottom.js-notice
-github.com##.protip
-github.com##.rounded-1.mb-4.text-center.p-4.signup-prompt
-github.com##.rounded-1.signup-prompt-bg
-github.com##.rounded-2.border.p-4.mb-6.mx-auto.signup-prompt
-github.com##.ws-normal.text-left.p-3.box-shadow-large.Box.Popover-message
-github.com#@#.flash-error.flash-full.flash
-github.com###sponsor-button-repo
-||gitlab.com/-/cable$websocket,important
-gitlab.com###promote_repository_features
-gitlab.com##.content-block.bordered-box
-gitlab.com##.content-block.landing.bordered-box
-gitlab.com##.d-flex.js-broadcast-notification-100719.broadcast-notification-message
-gitlab.com##.flash-alert
-gitlab.com##.flash-notice
-gitlab.com##.gl-banner.js-autodevops-banner
-gitlab.com##.js-recovery-settings-callout.gl-alert-warning.gl-alert
-gitlab.com##.mb-2.flash-notice
-gitlab.com##.popover-body
-gitlab.com##.prepend-top-10.append-bottom-20.banner-non-empty-state.banner-callout.js-autodevops-banner
-gitlab.com##.rounded.flash-alert.flash-content
-gitlab.com##.rounded.flash-notice.flash-content
-ig.com##.full-text__warning
-imdb.com##.ab_widget
-imdb.com###sidebar
-imdb.com###title-social-sharing-widget
-imdb.com###titleDidYouKnow
-imdb.com###title_completed_pro_link
-imdb.com##.promoted-watch-ad
-imdb.com##.imdb-footer__logo
-imdb.com##.imdb-footer__copyright
-imdb.com##.imdb-footer__socials
-imdb.com##^.ipc-watchlist-ribbon__icon
-imdb.com##.ipc-page-grid__item--span-1
-imdb.com##.contribute.article
-imdb.com##.recently-viewed
-imdb.com##.wtw-option-standalone
-imdb.com##.promoted-watch-ad-link
-imdb.com##.promoted-watch-ad
-imdb.com##.buybox__modal
-imdb.com##.videoPreview--autoPlaybackOnce.videoPreview
-imdb.com###bio_pro_link
-||media-amazon.com/images/*/imdbads/*$important
-||media-amazon.com/images/*/imdb/images-*/android-mobile-*.png$important
-||media-amazon.com/images/*/imdb/images-*/favicon*.png$important
-latimes.com##div.enhancement > .promo-small.promo-position-small.promo
 mashable.com##.blueprint.article-content > .content-mash-video
 metrolyrics.com###lyrics-body-text > div > .driver-related > .related-container
 metrolyrics.com###lyrics-body-text > div > .driver-related
@@ -139,7 +39,6 @@ nytimes.com##.e1x0szx60.css-1uqnipt.expanded-dock.expanded.shown.gdpr
 pastebin.com##.page
 pastebin.com##.h_800.share
 pastebin.com###float-box-frame
-raider.io##.text-white > .slds-m-bottom--large
 sourceforge.net###mirror
 sourceforge.net###newsletter-floating
 sourceforge.net##.m-project-list.m-sidebar-widget
@@ -182,8 +81,6 @@ en.wikipedia.org###mw-anon-edit-warning
 wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
-wsj.com##.wsj-ad-label.wsj-body-ad-placement
-wsj.com##.hide8.hide4.module.banner-ad
 
 ! from https://raw.githubusercontent.com/KCaglarCoskun/enur-filter-list/master/enur-filter-list.txt
 ! Removes side column  on bbc
