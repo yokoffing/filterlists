@@ -18,3 +18,4 @@
 ||player.twitch.tv/$3p,frame,redirect=click2load.html
 ||platform.twitter.com/widgets/$3p,frame,redirect=click2load.html
 ||embed.ted.com/$3p,frame,redirect=click2load.html
+||player.simplecast.com^$3p,frame,redirect=click2load.html
