@@ -38,67 +38,6 @@ wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 
-! from https://raw.githubusercontent.com/KCaglarCoskun/enur-filter-list/master/enur-filter-list.txt
-! Removes side column  on bbc
-bbc.com##.column--secondary
-bbc.co.uk##.column--secondary
-! Removes tag grouped list on bbc
-bbc.com##.container-more-from-this-index
-bbc.co.uk##.container-more-from-this-index
-
-! Removes "news & buzz"  on cnn
-cnn.com##.ob_container
-! Removes "More from CNN"  on cnn
-cnn.com##.ob-last
-cnn.com##.zn-story-bottom-second
-
-! Removes "Trending"  on huffington post
-huffingtonpost.com##.bn-trending
-huffingtonpost.com##.yn-trending
-! Removes "You May Like"  on huffington post
-huffingtonpost.com##.below-entry
-! Removes "Buttom Most Shared"  on huffington post
-huffingtonpost.com##.js-bottom-most-shared
-! Removes "What's Hot"  on huffington post
-huffingtonpost.com##.buttom-trending
-
-! Removes "Just In"  on indiatimes
-indiatimes.com##.just-in
-
-! Removes "Trending" list on nytimes
-nytimes.com##.trending-module
-! Removes "Recommended For You", "More in .." and author lists on nytimes
-nytimes.com###whats-next
-! Removes the news ribbon on nytimes
-nytimes.com##.news-collection
-
-! Removes "Hot Network Topics"
-stackexchange.com###hot-network-questions
-stackoverflow.com###hot-network-questions
-superuser.com###hot-network-questions
-serverfault.com###hot-network-questions
-askubuntu.com###hot-network-questions
-stackapps.com###hot-network-questions
-mathoverflow.net###hot-network-questions
-
-! Removes "Most popular"  on the guardian
-theguardian.com##.right-most-popular
-! Removes "Most viewed"  on the guardian
-theguardian.com##.fc-container
-
-! Removes "Most Read ..."  on the washington post
-washingtonpost.com##.post-most
-! Removes "The Post Recommends"  on the washington post
-washingtonpost.com##.postrecommends
-
-! Removes video suggestions on video pages for desktop view
-youtube.com###related
-! Removes video suggestions on video pages for mobile view
-youtube.com##.ll
-youtube.com##.lub
-! Removes recommended channels on some channels page
-youtube.com##ytd-vertical-channel-section-renderer
-
 ! Most of the filters below are from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
 ! Why are these not included by default?
 
