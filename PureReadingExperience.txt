@@ -7,6 +7,7 @@
 9to5mac.com##p strong:has-text(/^Related/):upward(p)
 cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia
 cnn.com##.zn-body__read-all > div.el__embedded--standard.el__embedded > .el__article--embed.el__storyelement--standard
+cnn.com##.l-container > .el__embedded--standard.el__embedded
 cointelegraph.com##p strong:has-text(/^Related/):upward(p)
 ghacks.net##p strong:has-text(/^Now You/):upward(p)
 ghacks.net##p strong:has-text(/^Tip/):upward(p)
