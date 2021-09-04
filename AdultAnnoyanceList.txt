@@ -6,6 +6,14 @@
 ! Expires: 4 days
 
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
+boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"]
+boyfriendtv.com##.top-tags-box
+boyfriendtv.com##div.js-toggle-content-wrapper:nth-of-type(7)
+boyfriendtv.com##.js-toggle-content.adblock
+boyfriendtv.com##div.related-content:nth-of-type(1)
+eporner.com###pbwuvp
+eporner.com###commentdiv
+gaydudesfucking.com##.playerban
 gotgayporn.com##.aside
 gotgayporn.com##.more-videos
 gotgayporn.com###video_comments_video_comments
@@ -13,6 +21,7 @@ gotgayporn.com##.footer
 gaysearch.com###commentView
 gaysearch.com##.footer
 gaysearch.com##.more-videos
+thegay.tube##.video-page__content > .right
 thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link
 thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
