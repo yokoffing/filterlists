@@ -1,6 +1,6 @@
-! Title: yokoffing's Annoyance List
+! Title: 💁‍♂️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 3 September 2021
+! Updated: 04 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -9,7 +9,7 @@
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
 !#include click2load.txt
-!#include PureReadingExperience.txt
+!#include CleanReadingExperience.txt
 !#include AdultAnnoyanceList.txt
 
 9to5mac.com##.amp-wp-7023da7
@@ -18,6 +18,11 @@
 cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container
 cointelegraph.com##.sidebar
 cointelegraph.com##.related-list
+decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
+decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
+!decrypt.co##div.kXajld.sc-1hi5ot1-0:nth-of-type(7)
+decrypt.co##.adbutler-inline-ad.bOSA.sc-17hoiz4-1
+decrypt.co##.jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdklY.sc-i2xq1s-3.dqSSAG.sc-1kjt2eu-0
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
@@ -28,27 +33,51 @@ seekingalpha.com##.adsbygoogle
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
+thewrap.com##.tpd-live-banner
+washingtonpost.com##.col-4-lg.flex.flex-l.dn.dn-m.mt-md-l.flex-1.right-rail.flex-column.hide-for-print
+washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-column.flex
+washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
+washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list
+washingtonpost.com##.mt-md.mb-lg.mt-md-l.w-100.flex-column.flex
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
 9anime.*##.popover, #tags, .hd-buttons.row, #comment, .comment.widget > .widget-title, .comment.widget > .widget-body, .socials, #social, .twitter-follow-button, .sticky, .share, .text-center.crop.widget, .text-center.widget, .azlist, .mb20, [href*="twitter.com"], .alert, #fb-root, [href*="dynamicadx.com/"], [href*="popmonetizer.com/redirect"], .textlinks:remove()
+anime8.ru##.text-center.alert.ann-home, #btnShowComments:remove()
 animehub.ac##.footer-follow, .sb-subs.goblock > .clearfix, .comments, .detail-anime.goblock > .go-full.goblock-content > .goblock-bottom, .gc-share.gc-icon, .gc-comments.gc-icon, .dialog-ovelay, #sidebar > .clearfix\, #discordapp, #info_player > p, #info_player > div > div:remove()
 animenewsnetwork.com###cover_image,.floating-image,.box.alert,#infinite-scroll-outlet,.spaceRow,#prompt-message,.social-button,.ezoic-ad,div[style$="overflow: hidden;"], .youtube:remove()
+app.slack.com##^meta[http-equiv="Content-Security-Policy"]
+app.slack.com##+js(set, console.info, noopFunc)
+app.slack.com##.p-client__banners,.c-fullscreen_modal__content:remove()
+dnsleaktest.com##p[style="padding-bottom: 100px"]:remove()
 duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge-link, .js-module--products.module--carousel-products:remove()
 fandom.com###WikiaBar, #WikiaRailWrapper, .banner-notifications-placeholder, .aff-unit__disclaimer-message, .mw-notification-area:remove()
 fmovies.*,ffmovies.*##.text, .widget:nth-of-type(5), #tags, .hidden-sm.widget, .hd-buttons.row, .col-right, .widget:nth-of-type(4), [href*="twitter.com"], div[data-go="#comment"], .socials, .twitter-follow-button, [href*="/redirect"], .streamhd, .stream4k, .home-socials, .addthis_native_toolbox, #fb-root, .alert, [href^="https://dynamicadx.com/"], #comment:remove()
 ghacks.net###comments, [href*="/#comments"], .tag-sponsored, [id^="snhb-snhb_ghacks_bottom-"], .widget_stackcommerce_widget:remove()
 github.com##.survey-container, .js-notice-dismiss, .mb-4.bg-white, .code-navigation-banner, .js-notice:remove()
+www.google.*###prm-pt, .b2hzT, .exp-outline, [id^="ed_"], [id^="eob_"], [title*="Share"], #gws-output-pages-elements-homepage_additional_languages__als, #wmxmsg, #prm, .uU7dJb,[class$="middle-slot-promo"]:remove()
 hollywoodreporter.com##.autoload-spinner, .blog-post-thr-newsletter-section, .speedbump-carousel:remove()
 kimcartoon.to,kimcartoon.li##.w-right, #hideAds, .videoAdClose, .kcAds, .alert-info.alert, .mb15.full, #btnShowComments, #videoAd, #divComments, #disqus_thread, .twitter-follow-button, [id*="ScriptRoot"], #adbWarnContainer, #msg, div[style*="width: 300px; height: 250px"], #myContainer > .kcAds1, .top_page_alert, .kcAds1:remove()
 kissanime.nz##.dialog-ovelay,#upgrade_pop,#divComments,.related_news,.full:nth-child(14),.footer_watching_link,.tab-head,#popular_animes:remove()
+kisscartoon.nz###divComments:remove()
 myanimelist.net##body:not(.ownlist):style(background:none !important)
 myanimelist.net##.btn-mal-service,.banner-header-anime-straming,.footer-link-icon-block,.clearfix.index-watch-description,.anime-detail-header-affiliate,.amazon, .anime_discussions.widget,.video-providers,.js-sns-icon-container,.icon-block-small.js-sns-icon-container,.promotional-video,.anime-detail-header-video,.mb4.di-ib,.fb-page,.root,[id^="div-gpt-ad"],.watch-description,.text-ad-links,.right_top_ad,.mal-ad-unit,.gdpr-modal-ad,.ad-skin-side-bg,.mal-side-ad--l,.mal-side-ad--r,.mal-live-pop-up,.free-manga-pop-up,[href^="https://mallive.myanimelist.net"], [href^="https://otsukai.com/"], [src*="/banner/"],.banner-footer-anime-streaming,.btn-affiliate,.left-info-block-manga-store-button,.btn-forum-manga-store,.mb24.mt24.pb24.pt24,.footer-app,div[style="overflow: hidden; padding: 10px 0; border-bottom: solid #cdcdcd 1px"],div[style="padding:16px 0px 0px 0px;"],.amazon-ads,.border_top:remove()
 mega.nz##.ads-left-block, .ads-right-block, .active.top-login-warning, .red.download-button.button, .checkbox-bl.download:remove()
 reddit.com##.promotedlink, [id^="ad_"], #redesign-beta-optin-btn, [href="/premium"], .comment-visits-box, .premium-banner-outer, .share, #adblock-test, .giftgold, .snoovatar-link, .give-gold-button, .bottom > .spacer, .happening-now-wrap, .hohoho-header, .hohoho, #gtm-jail:remove()
+speedtest.net##.high-placeholder.pure-u-1, .u-c.pure-u-custom-ad-rectangle, .u-c.pure-u-custom-ad-skyscraper, .top-placeholder.pure-u-1, .eot-dd-content, .u-c.pure-u-1-4:nth-of-type(1) > ul.menu-footer:nth-of-type(2), .lowerboard-content:remove()
+speed.cloudflare.com##.mapboxgl-map:upward(1):remove()
+thewrap.com##style:has-text(wallkit-paywall-block):remove()
+thewrap.com##+js(ra, style, .wrappro-paywall, stay)
+thewrap.com##.wallkit-paywall-block
+thewrap.com##.wrappro-paywall-member-link-for-reader
 torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer__widget--stats, .preview-article__comments, .hero__comments, .socials:remove()
+translate.google.com##.notification-area,.gt-cc:remove()
+twitter.com##+js(cookie-remover, /^/)
+twitter.com##.r-usiww2:remove()
 ! Block YouTube annoyances, but allow comments
 youtube.com##.ytp-ad-progress-list, #player-ads, #watch-action-panels, #chat, .ytp-ce-covering-overlay, .subscribecard-endscreen, .ytp-ce-element, #ytd-promoted-video-renderer, #watch-sidebar-live-chat, #pla-shelf, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander, .hats-categorical-style-vertical, #movie-upsell-card, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup, .style-default.force-icon-button.ytd-menu-renderer.style-scope, #sponsor-button, .ytp-miniplayer-button, .ytd-metadata-row-header-renderer.style-scope .html5-stop-propagation.ytp-drawer, #masthead-ad, #ticker.ytd-masthead, #merch-shelf, #offer-module, .ytp-cards-teaser, .ytp-paid-content-overlay, .ytp-pause-overlay, .ytp-title-channel, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope, .ytd-search-pyv-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-merch-shelf-renderer, .share-panel-services, .ytp-share-button, #secondarylinks, #content > .ytd-metadata-row-header-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint, #hover-overlays.style-scope.ytd-thumbnail, #dismissable.ytd-compact-promoted-item-renderer.style-scope, #dismissable.ytd-rich-shelf-renderer.style-scope, #clarify-box, .ytd-vertical-product-card-renderer, .ytd-primetime-promo-renderer, .ytd-inline-survey-renderer, #consent-bump, ytd-rich-section-renderer, .ytp-paid-content-overlay-text, ytp-promotooltip-wrapper, [href="/premium"], .yt-tooltip-renderer.style-scope, ytd-feed-nudge-renderer:remove()
+||youtube.com^*/endscreen.js
+||youtube.com^*/annotations_module.js
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
 twitch.tv##.channel-panels-container
