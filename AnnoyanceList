@@ -28,6 +28,7 @@ fmovies.cab##.popover
 fmovies.cab##.feedback-icon
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
+! https://www.reddit.com/r/uBlockOrigin/comments/p1wq0m/seekingalpha_needs_filters/hbj3gm1/?context=3
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 seekingalpha.com##.adsbygoogle
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
