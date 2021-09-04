@@ -1,4 +1,4 @@
-! Title: Clean Reading Experience
+! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
 ! Updated: 04 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
