@@ -6,8 +6,11 @@
 ! Expires: 4 days
 
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
+thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link
+thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
+xvideos.com###tabComments_bottom_page
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
 @@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
