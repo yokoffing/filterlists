@@ -19,6 +19,7 @@ msnbc.com##.styles_hasItems__jrj_I.styles_msnbcDailyRecircBody__M8npG
 nbcnews.com##.dn-print.related
 newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
 portswigger.net##p strong:has-text(/^Read more/):upward(p)
+techcrunch.com##p > .wp-embedded-content
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
 theverge.com###kYgI66 > .c-read-more
 vox.com##.c-read-more
