@@ -1,0 +1,85 @@
+
+! Title: 🔒 Essential Privacy
+! Description: A list to to compliment EasyPrivacy
+! Updated: 04 September 2021
+! License: https://creativecommons.org/licenses/by/3.0/
+! Homepage: https://github.com/yokoffing/filterlists
+! Expires: 4 days
+
+||bing.com^$3p
+
+! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
+*$ping,important
+||ad.$1p
+||stats.$1p
+||analytics.$1p
+||2mdn.net^$3p,important
+||addthis.com^$3p,important
+||adnxs.com^$3p,important
+||adskeeper.co.uk^$3p,important
+||advertising.com^$document,important
+||amazon-adsystem.com^$3p,important
+||animenewsnetwork.com/logger.performance^$1p
+||animenewsnetwork.com/sponsor/$1p
+||api.github.com/_private/browser/errors^
+||arc.io^
+||buymeacoffee.com^
+||cbox.ws^$3p
+||cbsi.com^
+||cbsinteractive.com^
+||chatango.com^$3p
+||chatbro.com^$3p
+||coinmarketcap.com^$3p
+||contributor.google.com^$3p,important
+||cse.google.com^$3p,important
+||discord.com^$3p
+||discordapp.com^$3p
+||disqus.com^$3p
+||doubleclick.net^$3p,important
+||doubleclickbygoogle.com^$3p,important
+||exoclick.com^$3p,important
+||exosrv.com^$3p,important
+||facebook.com^$3p,important,domain=~instagram.com
+||facebook.net^$3p
+||firebase.googleapis.com^
+!||fonts.googleapis.com^,domain=~rezi.ai
+!||fonts.gstatic.com^
+||getsentry.com^$3p
+||gleamjs.io^
+||google.com/cse/cse.js^
+||googleadservices.com^$3p,important
+||google-analytics.com^$3p,important
+||googlesyndication.com^$3p,important
+||googletagmanager.com^$3p,important
+||googletagservices.com^$3p,important
+||gravatar.com^$3p
+||gstatic.com/firebasejs/
+||hollywoodreporter.com/fe_data/$1p,xmlhttprequest
+!||instagram.com^$3p
+||intercom.com^$3p
+||mgid.com^$3p,important
+||myanimelist.net^*/event/$image
+||opta.net^
+||play.google.com/log?$xmlhttprequest,important
+||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
+||scorecardresearch.com^$3p,important
+||scroll.com^$3p,important
+!||search.brave.com/api/feedback^
+||segment.com^$important
+||sentry-cdn.com^$3p,important
+||sharethis.com^$3p,important
+||services.wikia.com^
+||slack.com/api/promo.banner^
+||slack.com/api/ublockworkaround^
+||spot.im^$3p,important
+||stripe.com^$3p
+||stripe.network^$3p
+||taboola.com^$3p,important
+||tawk.to^$3p
+||tinypass.com^
+||typekit.net
+||ubembed.com^
+||vk.com^$3p
+||washingtonpost.com/pwapiv2/$xhr,1p
+||youtube.com/error_204?^$xhr
+||youtube.com/youtubei/v1/log_event^$xhr
