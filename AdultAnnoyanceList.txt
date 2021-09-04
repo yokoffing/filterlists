@@ -1,6 +1,6 @@
-! Title: Adult Annoyances List
+! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 29 Aug 2021
+! Updated: 04 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
