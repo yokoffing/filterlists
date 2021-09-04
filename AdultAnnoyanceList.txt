@@ -10,6 +10,9 @@ gotgayporn.com##.aside
 gotgayporn.com##.more-videos
 gotgayporn.com###video_comments_video_comments
 gotgayporn.com##.footer
+gaysearch.com###commentView
+gaysearch.com##.footer
+gaysearch.com##.more-videos
 thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link
 thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
