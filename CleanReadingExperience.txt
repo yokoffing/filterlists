@@ -1,6 +1,6 @@
-! Title: Pure Reading Experience
+! Title: Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 31 Aug 2021
+! Updated: 04 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 
@@ -15,6 +15,7 @@ hollywoodreporter.com##.u-margin-b-3\@desktop-xl.u-margin-t-4\@desktop-xl.u-marg
 hollywoodreporter.com##p strong:has-text(/^PHOTOS/):upward(p)
 hollywoodreporter.com##p strong:has-text(/^STORY/):upward(p)
 mashable.com##.md\:leading-7.md\:text-xl.leading-loose.text-lg.mt-8.font-sans.max-w-3xl.mx-auto.w-full
+msnbc.com##.styles_hasItems__jrj_I.styles_msnbcDailyRecircBody__M8npG
 nbcnews.com##.dn-print.related
 newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
 portswigger.net##p strong:has-text(/^Read more/):upward(p)
@@ -27,3 +28,4 @@ zdnet.com##p strong:has-text(/^SEE/):upward(p)
 
 ! Sites that need filters:
 ! usatoday.com Random links. No consistent labels like "read also". Is this possible?
+! washingtonpostcom "Read more:" at bottom of article
