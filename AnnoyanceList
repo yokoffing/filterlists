@@ -122,14 +122,14 @@ wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 
 ! FACEBOOK
 ! Sponsored 
-facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div:not([data-pagelet*="group" i]))
+!facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div:not([data-pagelet*="group" i]))
 ! Suggestions
-facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child):not(:has(> div > div > span > a)) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
+!facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child):not(:has(> div > div > span > a)) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
 
 ! Ads in right column
-facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
+!facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
 ! Feb 2021 solution
-facebook.com##div[role="complementary"] > div > div > div > div > div > span
+!facebook.com##div[role="complementary"] > div > div > div > div > div > span
 
 ! GOOGLE
 ! Google consent dialog, "before you continue"
