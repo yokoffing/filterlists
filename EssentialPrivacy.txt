@@ -9,10 +9,10 @@
 ||bing.com^$3p
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
-*$ping,important
-||ad.$1p
-||stats.$1p
-||analytics.$1p
+!*$ping,important
+!||ad.$1p
+!||stats.$1p
+!||analytics.$1p
 ||2mdn.net^$3p,important
 ||addthis.com^$3p,important
 ||adnxs.com^$3p,important
