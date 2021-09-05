@@ -39,6 +39,8 @@ theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
 thewrap.com##.tpd-live-banner
+vox.com##.c-rock-list--trending.c-rock-list--image.c-rock-list
+vox.com##.c-related-list
 washingtonpost.com##.col-4-lg.flex.flex-l.dn.dn-m.mt-md-l.flex-1.right-rail.flex-column.hide-for-print
 washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-column.flex
 washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
