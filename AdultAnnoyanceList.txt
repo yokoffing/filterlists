@@ -33,6 +33,12 @@ twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
 xhamster.com##.clearfix.comments-container.comments-section
 xhamster.com##footer > .width-wrap
+xhamster.desi##.clearfix.comments-container.comments-section
+xhamster.desi##footer
+xhamster13.desi##.clearfix.comments-container.comments-section
+xhamster13.desi##footer
+xhamster2.com##.clearfix.comments-container.comments-section
+xhamster2.com##footer
 xvideos.com###tabComments_bottom_page
 yeswegays.com##div.box:nth-of-type(3)
 yeswegays.com##.video-comment.comments.box
