@@ -14,8 +14,14 @@
 
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes
+cartoonbrew.com##.callout-box.cb-advert.PicoSignal
+cartoonbrew.com##footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent > .sd-content > ul
+cartoonbrew.com##.cb-rec-container
+cartoonbrew.com##.more-category-posts
+cartoonbrew.com##.tag-list.cb-taxonomy-lists
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
 cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container
+cointelegraph.com##.post__block_tags.post__block.tags-list
 cointelegraph.com##.sidebar
 cointelegraph.com##.related-list
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
@@ -26,6 +32,8 @@ decrypt.co##.jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdk
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
+nytimes.com##.css-1wspfld
+nytimes.com##.css-ew4tgv
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 reddit.com##.create.sidebox
