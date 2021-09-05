@@ -34,6 +34,11 @@ twinkvideos.com##.aside > div
 xhamster.com##.clearfix.comments-container.comments-section
 xhamster.com##footer > .width-wrap
 xvideos.com###tabComments_bottom_page
+yeswegays.com##div.box:nth-of-type(3)
+yeswegays.com##.video-comment.comments.box
+yeswegays.com##.wrapper-holder > div.container
+yeswegays.com##.footer
+yeswegays.com##.thumb_spots
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
 @@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
