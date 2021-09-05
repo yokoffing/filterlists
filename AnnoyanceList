@@ -28,6 +28,10 @@ fmovies.cab##.popover
 fmovies.cab##.feedback-icon
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
+reddit.com##.create.sidebox
+reddit.com##.happening-now
+reddit.com##.hohoho.sidebox
+reddit.com##.premium-banner
 ! https://www.reddit.com/r/uBlockOrigin/comments/p1wq0m/seekingalpha_needs_filters/hbj3gm1/?context=3
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 seekingalpha.com##.adsbygoogle
@@ -40,6 +44,29 @@ washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-colum
 washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
 washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list
 washingtonpost.com##.mt-md.mb-lg.mt-md-l.w-100.flex-column.flex
+! YOUTUBE
+||www.youtube.com/pagead/*$domain=www.youtube.com
+||www.google.com/pagead/*$image
+||www.youtube.com/pagead/*$image
+||www.youtube.com/get_video_info$xhr
+||www.youtube.com/api/stats/ads$domain=www.youtube.com
+||www.youtube.com/pagead/*$domain=www.youtube.com
+||www.youtube.com/pagead/*$1p
+||www.youtube.com/api/stats/ads$domain=www.youtube.com
+||www.youtube.com/api/stats/ads$1p
+||youtube.com/api/stats/watchtime?
+youtube.com##ytd-horizontal-card-list-renderer
+youtube.com##.ytd-live-chat-frame
+! Misc.
+youtube.com##.yt-upsell-dialog-renderer
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com###sponsor-button
+youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
+
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
@@ -91,56 +118,39 @@ wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 
-! Most of the filters below are from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
 ! Why are these not included by default?
 
 ! FACEBOOK
-! Facebook Sponsored https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! Sponsored 
 facebook.com##div[role="feed"] div > span > span > a > span:upward(div[role="feed"] > div:not([data-pagelet*="group" i]))
-! Facebook Suggestions https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! Suggestions
 facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child):not(:has(> div > div > span > a)) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
-! Facebook ads
+
+! Ads in right column
 facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
-! Feb 2021 / Aug 2021
+! Feb 2021 solution
 facebook.com##div[role="complementary"] > div > div > div > div > div > span
 
 ! GOOGLE
-! Google consent dialog 
-! Google consent, "before you continue"
+! Google consent dialog, "before you continue"
+www.google.*##^script:has-text(consentCookiePayload)
+www.google.*##+js(acis, document.cookie, YES+)
 google.*##+js(aeld, DOMContentLoaded, CONSENT)
+! block subdomain request can generate breakage - disable network filter if you have any breakage
 ||consent.google.com^
-!block subdomain request can generate breakage - disable network filter if you have any breakage
 ! Google "People also searched for"
 google.*##[id^="eob_"]
+! Google login dialogs on various pages
+||accounts.google.com/gsi/*$xhr,script,3p
 
 ! REDDIT
-! Hide Reddit 'Top Broadcast Now' & 'Top livestream' https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! Hide Reddit 'Top Broadcast Now' & 'Top livestream'
 reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
 ! Block downloading. Please report back if does not work or causes issues. https://www.reddit.com/r/uBlockOrigin/wiki/solutions
 ||redd.it/*.m3u8^$xhr,domain=reddit.com
 ||strapi.reddit.com^$xhr,domain=reddit.com
-! Misc filters
-reddit.com##.create.sidebox
-reddit.com##.happening-now
-reddit.com##.hohoho.sidebox
-reddit.com##.premium-banner
-reddit.com##.redesignbetabar-js.redesignNightmodeBar.onboardingbar.infobar
 
-! YOUTUBE
-! Block youtube ads
-||www.youtube.com/pagead/*$domain=www.youtube.com
-||www.google.com/pagead/*$image
-||www.youtube.com/pagead/*$image
-||www.youtube.com/get_video_info$xhr
-||www.youtube.com/api/stats/ads$domain=www.youtube.com
-||www.youtube.com/pagead/*$domain=www.youtube.com
-||www.youtube.com/pagead/*$1p
-||www.youtube.com/api/stats/ads$domain=www.youtube.com
-||www.youtube.com/api/stats/ads$1p
-! experimental
-||youtube.com/api/stats/watchtime?
-youtube.com##ytd-horizontal-card-list-renderer
-youtube.com##.ytd-live-chat-frame
 ! YOUTUBE
 ! YT consent
 youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
@@ -152,6 +162,7 @@ youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, fals
 youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
 ! probably this one is also neded, but I cannot reproduce anymore
 ! youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.upsellDialogRenderer)
+
 ! Removes Mixes from the Main Page
 youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
 ! Removes Mixes from the right side panel
@@ -160,17 +171,9 @@ youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-radio-renderer
 ! Removes "YouTube" (Music) playlists from the right side panel
 youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
+
 ! Suggested channels by name
 youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
 ! Recommend after pause
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
-! Misc.
-youtube.com##.yt-upsell-dialog-renderer
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-scroll-min.ytp-pause-overlay
-youtube.com###sponsor-button
-youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
