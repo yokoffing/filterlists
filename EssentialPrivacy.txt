@@ -7,6 +7,7 @@
 ! Expires: 4 days
 
 ||bing.com^$3p
+||scroll.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 !*$ping,important
@@ -63,7 +64,7 @@
 ||play.google.com/log?$xmlhttprequest,important
 ||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
 ||scorecardresearch.com^$3p,important
-||scroll.com^$3p,important
+!||scroll.com^$3p,important
 !||search.brave.com/api/feedback^
 ||segment.com^$important
 ||sentry-cdn.com^$3p,important
