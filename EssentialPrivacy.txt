@@ -7,6 +7,7 @@
 ! Expires: 4 days
 
 ||bing.com^$3p
+||pusher.com
 ||scroll.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
