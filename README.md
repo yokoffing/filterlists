@@ -1,6 +1,6 @@
 # filterlists
 
-#### Recommended Filters
+#### Recommended Filters for uBlock Origin
 - **All the uBlock filters under "Built-in"** (default)
 - EasyList (default)
 - EasyPrivacy (default)
