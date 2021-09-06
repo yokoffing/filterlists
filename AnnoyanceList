@@ -25,6 +25,7 @@ cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container
 cointelegraph.com##.post__block_tags.post__block.tags-list
 cointelegraph.com##.sidebar
 cointelegraph.com##.related-list
+cointelegraph.com###article-72206 > .post__content-wrapper > .post-content > .post-content__disclaimer
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
 !decrypt.co##div.kXajld.sc-1hi5ot1-0:nth-of-type(7)
@@ -33,6 +34,7 @@ decrypt.co##.jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdk
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
+msn.com##.clearleft.emsinline.section-layout.ec-module
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
@@ -55,6 +57,9 @@ washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-colum
 washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
 washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list
 washingtonpost.com##.mt-md.mb-lg.mt-md-l.w-100.flex-column.flex
+wsj.com##.at16-offset1.hide8.hide4.col4.column
+wsj.com###comments_sector
+wsj.com##div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-live-chat-frame
 youtube.com##.yt-upsell-dialog-renderer
