@@ -6,11 +6,15 @@
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
 
+||accounts.google.com^$3p
 ||bing.com^$3p
-! Only affects third-party requests to Google Maps
-||maps.google.com
+||cookielaw.org^$3p,important
+||maps.google.com^$3p
+||news.google.com^$3p
+||play.google.com^$3p
 ||pusher.com
 ||scroll.com
+||widgets.outbrain.com^$3p,important
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 !*$ping,important
