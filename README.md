@@ -1,6 +1,6 @@
 # filterlists
 
-#### Recommended Filters for uBlock Origin
+### Recommended Filters for uBlock Origin
 - **All the uBlock filters under "Built-in"** (default)
 - EasyList (default)
 - EasyPrivacy (default)
@@ -19,3 +19,6 @@
   - Essential Privacy | [add](https://github.com/yokoffing/filterlists/blob/main/EssentialPrivacy.txt)
     - a little more hardening than EasyPrivacy provides
   - Anti-paywall filters | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
+
+### Scriplets
+Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
