@@ -15,6 +15,7 @@
 ||cnevids.com^$3p
 ||cookielaw.org^$3p,important
 ||datatables.net^$3p
+||elfsight.com^$3p
 ||geolocation.onetrust.com^$3p,important
 ||launchdarkly.com
 ||maps.google.com^$3p
