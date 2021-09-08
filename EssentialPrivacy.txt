@@ -6,23 +6,27 @@
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
+||abtapp.com
 ||accounts.google.com^$3p
+||azureedge.net
 ||bing.com^$3p
+||botframework.com^$3p
+||cdn.concert.io^$3p,important
+||cnevids.com^$3p
 ||cookielaw.org^$3p,important
+||datatables.net^$3p
 ||launchdarkly.com
 ||maps.google.com^$3p
 ||news.google.com^$3p
 ||omnivirt.com
 ||play.google.com^$3p
+||polyfill.io^$3p
 ||pusher.com
 ||scroll.com
-
-! Experimental
-||cdn.concert.io^$3p,important
-||cnevids.com^$3p
-||polyfill.io^$3p
-||tiqcdn.com
+||spinasale.com^$3p
 ||tinypass.com
+||tiqcdn.com
+||unpkg.com^$3p
 ||vanillicon.com^$3p
 ||widgets.outbrain.com^$3p,important
 ||zencdn.net
