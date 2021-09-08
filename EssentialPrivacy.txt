@@ -4,7 +4,7 @@
 ! Updated: 08 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 4 days
+! Expires: 2 days
 
 ||accounts.google.com^$3p
 ||bing.com^$3p
@@ -16,14 +16,15 @@
 ||play.google.com^$3p
 ||pusher.com
 ||scroll.com
-||vanillicon.com^$3p
-||widgets.outbrain.com^$3p,important
 
 ! Experimental
+||cdn.concert.io^$3p,important
 ||cnevids.com^$3p
 ||polyfill.io^$3p
 ||tiqcdn.com
 ||tinypass.com
+||vanillicon.com^$3p
+||widgets.outbrain.com^$3p,important
 ||zencdn.net
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
