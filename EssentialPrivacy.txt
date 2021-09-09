@@ -80,7 +80,7 @@
 ||googletagmanager.com^$3p,important
 ||googletagservices.com^$3p,important
 ||gravatar.com^$3p
-||gstatic.com/firebasejs/
+!||gstatic.com/firebasejs/
 ||hollywoodreporter.com/fe_data/$1p,xmlhttprequest
 !||instagram.com^$3p
 ||intercom.com^$3p
