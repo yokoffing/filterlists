@@ -8,7 +8,6 @@
 
 ||abtapp.com^$3p
 ||accounts.google.com^$3p
-||azureedge.net^$3p
 ||bing.com^$3p
 ||botframework.com^$3p
 ||concert.io^$3p,important
