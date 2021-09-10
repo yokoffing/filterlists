@@ -48,6 +48,8 @@ reddit.com##.premium-banner
 ! https://www.reddit.com/r/uBlockOrigin/comments/p1wq0m/seekingalpha_needs_filters/hbj3gm1/?context=3
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 seekingalpha.com##.adsbygoogle
+stereogum.com###comments
+stereogum.com##.article-comments
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
