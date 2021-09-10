@@ -36,9 +36,8 @@
 ||unpkg.com^$3p
 ||vanillicon.com^$3p
 ||walkme.com^$3p
-||widgets.outbrain.com^$3p,important
+!||widgets.outbrain.com^$3p,important
 ||zencdn.net
-||zqtk.net^$3p,important
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||2mdn.net^$3p,important
