@@ -1,8 +1,9 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 08 September 2021
+! Updated: 11 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
+! Expires: 4 days
 
 9to5mac.com##p strong:has-text(/^Related/):upward(p)
 aljazeera.com##.more-on
@@ -18,10 +19,12 @@ hollywoodreporter.com##p strong:has-text(/^STORY/):upward(p)
 mashable.com##.md\:leading-7.md\:text-xl.leading-loose.text-lg.mt-8.font-sans.max-w-3xl.mx-auto.w-full
 msnbc.com##.styles_hasItems__jrj_I.styles_msnbcDailyRecircBody__M8npG
 nbcnews.com##.dn-print.related
+nbcnews.com##p strong:has-text(/^Download the/):upward(p)
 newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
 portswigger.net##p strong:has-text(/^Read more/):upward(p)
 techcrunch.com##p > .wp-embedded-content
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
+techtimes.com##p strong:has-text(/^Read Also/):upward(p)
 theintercept.com##.InstreamPromo--promo.InstreamPromo
 theintercept.com##div.PromoteRelatedPost-promo:nth-of-type(6)
 theintercept.com##div.PromoteRelatedPost-promo:nth-of-type(12)
