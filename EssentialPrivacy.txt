@@ -1,13 +1,14 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 10 September 2021
+! Updated: 11 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
 ||abtapp.com^$3p
 ||accounts.google.com^$3p
+||appspot.com^$3p
 ||bing.com^$3p
 ||botframework.com^$3p
 ||concert.io^$3p,important
@@ -22,6 +23,7 @@
 ||omnivirt.com^$3p
 ||onetrust.com^$3p,important
 ||paddle.com^$3p
+||payments.amazon.com^$3p
 ||pinterest.com^$3p
 ||placeholder.com
 ||play.google.com^$3p
@@ -34,6 +36,7 @@
 ||tradingview.com^$3p
 ||unpkg.com^$3p
 ||vanillicon.com^$3p
+||vcomm.io^$3p
 ||walkme.com^$3p
 ||outbrain.com^$3p,important
 ||zencdn.net
