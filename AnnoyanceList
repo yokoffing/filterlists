@@ -15,8 +15,18 @@
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes
 9to5mac.com##.bg-wht-alt.comments-area
+allsides.com##.even.last.block-block.block
+allsides.com##.block-width-100.fundraising-block-flex
 appleinsider.com##.hidden-xs.article-comments.row
+bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(1)
+bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(2)
+bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3)
+bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(4)
 bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc
+businessinsider.com##.content-recommendations-in-post-module-1
+businessinsider.com##.content-recommendations-in-post-module-2
+businessinsider.com##.content-recommendations-in-post-module-3
+businessinsider.com##.content-recommendations-in-post-module-4
 caranddriver.com##.embed-left.embed-editorial-links.embed
 caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(2)
 caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(8)
@@ -38,10 +48,15 @@ dictionaryblog.cambridge.org##.comments-area
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
+foodnetwork.com##.section.capsule.referencePromo
+huffpost.com##.js-right-rail-trending.yr-trending
+huffpost.com##.yr-related-articles.related-articles--recirc.related-articles.js-related-articles
+latimes.com##div.enhancement > .promo-small.promo-position-small.promo
 msn.com##.microsoftNewsCommentModule
 msn.com##.clearleft.emsinline.section-layout.ec-module
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
+nytimes.com##.css-y1f5ai
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 reddit.com##.create.sidebox
@@ -53,11 +68,15 @@ seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[
 seekingalpha.com##.adsbygoogle
 stereogum.com###comments
 stereogum.com##.article-comments
+techtimes.com##.sidebar.col-md-4
+techtimes.com##.s2.section-middle
+theatlantic.com##.ArticleRelatedContentModule_root__1MN9q
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
 theintercept.com###third-party--homepage-banner
 theintercept.com##.Cta-content
+thenation.com##.related-multi.related-newarticle.indents.indent.left
 thewrap.com##.tpd-live-banner
 vox.com##.c-rock-list--trending.c-rock-list--image.c-rock-list
 vox.com##.c-related-list
@@ -72,6 +91,9 @@ wsj.com###comments_sector
 wsj.com##div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
 wsj.com##.article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object
 wsj.com##.article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object
+wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object
+wsj.com##.article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object
+wsj.com##.article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-live-chat-frame
 youtube.com##.yt-upsell-dialog-renderer
@@ -147,9 +169,9 @@ wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjk3x3/getting_ads_on_fb_anyone_knows_how_to_block_this/
-! facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
+facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
 ! "Suggested for you"
-! https://www.reddit.com/r/uBlockOrigin/comments/pjmtma/facebook_suggested_for_you_old_code_doesnt_seem/
+https://www.reddit.com/r/uBlockOrigin/comments/pjmtma/facebook_suggested_for_you_old_code_doesnt_seem/
 facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended)/)
 
 ! from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
