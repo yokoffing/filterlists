@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 05 September 2021
+! Updated: 11 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -63,6 +63,12 @@ cum4k.com,passion-hd.com,holed.com,pornpros.com###t2019-previews
 cum4k.com,passion-hd.com,holed.com,pornpros.com##.sale-special-container
 cum4k.com,passion-hd.com,holed.com,pornpros.com##.popup-content
 gaysimple.com##.more-videos
+hentaitube.info##.video-sidebar
+||cdnp.kink.com/assets/promos
+||a.montlusa.top/loader$subdocument
+kink.com##.store
+kink.com##.product-tag-wrapper
+kink.com##.kink-store-section
 pornhub.com###videoSearchResult > .alpha
 pornhub.com##.clearfix.xc6lhd4nney0780v
 pornhub.com##.sectionWrapper > .sectionWrapper
@@ -82,6 +88,10 @@ pornhub.com###js-abContainterMain
 pornhub.net.co##center
 pornhub.net.co##.video-block-happy
 pornhub.net.co###widget-videos-block-4 > .video-loop > .no-gutters.row > .col-xl-6.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
+redgifs.com##.toast-notification--pro-cta.toast-notification
+redgifs.com##.visible.type3.pro-cta
+redtube.com###block_hottest_videos_by_country > .oruyr3jjndlt9dcvw
+redtube.com.br###block_hottest_videos_by_country > .a68aw
 thegay.com##.iRx9_wrt
 ||thegay.com/gagra/
 thegay.com,txxx.com##.fiioed
