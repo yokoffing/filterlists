@@ -157,9 +157,9 @@ facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended)/)
 
 ! FACEBOOK
 ! Ads in right column
-facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
+! facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
 ! Feb 2021 solution
-facebook.com##div[role="complementary"] > div > div > div > div > div > span
+! facebook.com##div[role="complementary"] > div > div > div > div > div > span
 
 ! GOOGLE
 ! Google consent dialog, "before you continue"
