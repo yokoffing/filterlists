@@ -11,6 +11,7 @@ boyfriendtv.com##.top-tags-box
 boyfriendtv.com##div.js-toggle-content-wrapper:nth-of-type(7)
 boyfriendtv.com##.js-toggle-content.adblock
 boyfriendtv.com##div.related-content:nth-of-type(1)
+boyfriendtv.com##.related-content-wrapper
 eporner.com###pbwuvp
 eporner.com###commentdiv
 gaydudesfucking.com##.playerban
@@ -22,6 +23,7 @@ gotgayporn.com##.footer
 gaysearch.com###commentView
 gaysearch.com##.footer
 gaysearch.com##.more-videos
+gettubetv.com##.table
 pornhub.com###hd-rightColVideoPage, .cmtPrelaodContainer.js-commentReplacement.video-wrapper, .video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
 privatehomeclips.com##.video-page__comments, .footer
 sexytubetop.xyz##.with-sidebar-right.widget-area
