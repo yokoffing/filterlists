@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 08 September 2021
+! Updated: 11 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -17,6 +17,9 @@
 9to5mac.com##.bg-wht-alt.comments-area
 appleinsider.com##.hidden-xs.article-comments.row
 bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc
+caranddriver.com##.embed-left.embed-editorial-links.embed
+caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(2)
+caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(8)
 cartoonbrew.com##.callout-box.cb-advert.PicoSignal
 cartoonbrew.com##footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent > .sd-content > ul
 cartoonbrew.com##.cb-rec-container
@@ -67,6 +70,8 @@ weather.com##.FullViewportLargeScreen--regionSidebar--5j64w.regionSidebar.region
 wsj.com##.at16-offset1.hide8.hide4.col4.column
 wsj.com###comments_sector
 wsj.com##div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
+wsj.com##.article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object
+wsj.com##.article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-live-chat-frame
 youtube.com##.yt-upsell-dialog-renderer
@@ -78,10 +83,16 @@ youtube.com##.ytp-scroll-min.ytp-pause-overlay
 youtube.com###sponsor-button
 youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
 
+! Comment Services not covered by other annoyances lists
+||championat.com^$3p
+||yotpo.com^$3p
+
+! Annoying anti-adblock
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
+
+! Chat modules
 ||pico.tools^$3p
 ||livechatinc.com^$3p
-
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
@@ -136,7 +147,7 @@ wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjk3x3/getting_ads_on_fb_anyone_knows_how_to_block_this/
-facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
+! facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
 ! "Suggested for you"
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjmtma/facebook_suggested_for_you_old_code_doesnt_seem/
 facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended)/)
