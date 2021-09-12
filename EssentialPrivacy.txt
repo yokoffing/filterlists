@@ -78,7 +78,7 @@
 ||contributor.google.com^$3p,important
 ||cse.google.com^$3p,important
 ||discord.com^$3p
-||discordapp.com^$3p
+||discordapp.com^$3p,domain=~discord.com
 ||disqus.com^$3p
 ||doubleclick.net^$3p,important
 ||doubleclickbygoogle.com^$3p,important
