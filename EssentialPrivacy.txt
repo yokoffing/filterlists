@@ -20,12 +20,12 @@
 ||dwcdn.net^$3p
 ||elfsight.com^$3p
 ||firebaseinstallations.googleapis.com
-||firestore.googleapis.com
-||fwmrm.net
+||firestore.googleapis.com^
+||fwmrm.net^
 ||img.youtube.com^$3p,domain=~youtube.com
-||ipgeolocation.io
+||ipgeolocation.io^
 ||kaltura.com^$3p
-||launchdarkly.com
+||launchdarkly.com^
 ||maps.google.com^$3p,domain=~google.com
 ||maps.googleapis.com^$3p,domain=~google.com
 ||maps.gstatic.com^$3p,domain=~google.com
@@ -39,15 +39,16 @@
 ||paddle.com^$3p
 ||payments.amazon.com^$3p
 ||pinterest.com^$3p
-||placeholder.com
-||play.google.com
+||placeholder.com^
+||play.google.com^
 ||polyfill.io^$3p
-||pusher.com
-||scroll.com
+||pusher.com^
+||scroll.com^
 ||spinasale.com^$3p
+||spotify.com^$3p
 ||t.co^$3p,important,domain=~twitter.com
-||tinypass.com
-||tiqcdn.com
+||tinypass.com^
+||tiqcdn.com^
 ||tradingview.com^$3p
 ||typeform.com^$3p
 ||unpkg.com^$3p
@@ -56,9 +57,7 @@
 ||vcomm.io^$3p
 ||virtualearth.net^$3p
 ||walkme.com^$3p
-||zencdn.net
-
-
+||zencdn.net^
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||2mdn.net^$3p,important
@@ -90,8 +89,6 @@
 ||facebook.com^$3p,important,domain=~instagram.com
 ||facebook.net^$3p
 ||firebase.googleapis.com^
-!||fonts.googleapis.com^,domain=~rezi.ai
-!||fonts.gstatic.com^
 ||getsentry.com^$3p
 ||gleamjs.io^
 ||google.com/cse/cse.js^
@@ -125,7 +122,7 @@
 ||taboola.com^$3p,important
 ||tawk.to^$3p
 ||tinypass.com^
-||typekit.net
+||typekit.net^
 ||ubembed.com^
 ||vk.com^$3p
 ||washingtonpost.com/pwapiv2/$xhr,1p
