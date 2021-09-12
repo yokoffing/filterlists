@@ -22,3 +22,6 @@
 
 ### Scriplets
 Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
+
+### Why these lists?
+https://how-i-experience-web-today.com/
