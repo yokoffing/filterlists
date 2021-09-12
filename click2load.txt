@@ -1,8 +1,9 @@
 ! Title: ⛔ click2load filters
 ! Description: To be used in conjunction with other Annoyances lists
-! Updated: 04 September 2021
+! Updated: 12 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
+! Expires 4 days
 
 ! https://raw.githubusercontent.com/llacb47/miscfilters/master/clicktoload.txt
 ! https://twitter.com/gorhill/status/1377929952637640705
@@ -19,3 +20,4 @@
 ||platform.twitter.com/widgets/$3p,frame,redirect=click2load.html
 ||embed.ted.com/$3p,frame,redirect=click2load.html
 ||player.simplecast.com^$3p,frame,redirect=click2load.html
+||embed.podcasts.apple.com/$3p,frame,redirect=click2load.html
