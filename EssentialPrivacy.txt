@@ -31,7 +31,7 @@
 ||maps.gstatic.com^$3p,domain=~google.com
 ||marketo.com^$3p
 ||maxcdn.com^$3p
-||mzstatic.com^$3p
+!||mzstatic.com^$3p
 ||news.google.com^$3p
 ||omnivirt.com^$3p
 ||onetrust.com^$3p,important
