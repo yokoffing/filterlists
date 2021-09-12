@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 11 September 2021
+! Updated: 12 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -22,6 +22,7 @@
 ||firebaseinstallations.googleapis.com
 ||firestore.googleapis.com
 ||fwmrm.net
+||img.youtube.com^$3p,domain=~youtube.com
 ||ipgeolocation.io
 ||kaltura.com^$3p
 ||launchdarkly.com
@@ -34,16 +35,17 @@
 ||news.google.com^$3p
 ||omnivirt.com^$3p
 ||onetrust.com^$3p,important
-||outbrain.com^$3p
+||outbrain.com^$3p,important
 ||paddle.com^$3p
 ||payments.amazon.com^$3p
 ||pinterest.com^$3p
 ||placeholder.com
-||play.google.com^$3p
+||play.google.com
 ||polyfill.io^$3p
 ||pusher.com
 ||scroll.com
 ||spinasale.com^$3p
+||t.co^$3p,important,domain=~twitter.com
 ||tinypass.com
 ||tiqcdn.com
 ||tradingview.com^$3p
@@ -54,8 +56,9 @@
 ||vcomm.io^$3p
 ||virtualearth.net^$3p
 ||walkme.com^$3p
-||outbrain.com^$3p,important
 ||zencdn.net
+
+
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||2mdn.net^$3p,important
