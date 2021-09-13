@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 11 September 2021
+! Updated: 13 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -12,12 +12,20 @@
 !#include CleanReadingExperience.txt
 !#include AdultAnnoyanceList.txt
 
+9to5google.com##.related-guides-container
+9to5google.com##.show-promo.visitor-promo
+9to5mac.com##.show-promo.visitor-promo
+9to5mac.com##.related-guides-container
 9to5mac.com##.amp-wp-7023da7
 9to5mac.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes
 9to5mac.com##.bg-wht-alt.comments-area
 allsides.com##.even.last.block-block.block
 allsides.com##.block-width-100.fundraising-block-flex
 appleinsider.com##.hidden-xs.article-comments.row
+apewisdom.io##.close-ad
+arstechnica.com###social-footer
+arstechnica.com##.story-sidebar-part
+arstechnica.com###social-footer > .icon-comment-bubble-down.comment-count
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(1)
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(2)
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3)
@@ -35,35 +43,57 @@ cartoonbrew.com##footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-shar
 cartoonbrew.com##.cb-rec-container
 cartoonbrew.com##.more-category-posts
 cartoonbrew.com##.tag-list.cb-taxonomy-lists
+cnbc.com##.SidebarArticle-sticky
 cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container
 cointelegraph.com##.post__block_tags.post__block.tags-list
 cointelegraph.com##.sidebar
 cointelegraph.com##.related-list
 cointelegraph.com###article-72206 > .post__content-wrapper > .post-content > .post-content__disclaimer
+cointelegraph.com##.post-content__disclaimer
+cointelegraph.com##.stretch-banner-youtube
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
 decrypt.co##.adbutler-inline-ad.bOSA.sc-17hoiz4-1
 decrypt.co##.jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdklY.sc-i2xq1s-3.dqSSAG.sc-1kjt2eu-0
 dictionaryblog.cambridge.org##.comments-area
+fayobserver.com##.gnt_n_sm__ne_a.gnt_n_sm_a
+fayobserver.com##.gnt_n_sm_a
+fayobserver.com##.gnt_m_fs.gnt_m
+fayobserver.com##.gnt_em_vp__tavp.gnt_em
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
 foodnetwork.com##.section.capsule.referencePromo
+forbes.com##.seo.recirc-module
 huffpost.com##.js-right-rail-trending.yr-trending
 huffpost.com##.yr-related-articles.related-articles--recirc.related-articles.js-related-articles
+investorplace.com##.countdown-banner
+investorplace.com##aside
+investorplace.com##.bg-darkblue.wide.special-reports
+investorplace.com##.wide.newsletters
+investorplace.com##.countdown-homepage
+investorplace.com##.related-articles.related-posts
+kotaku.com##.js_comments-iframe.bGtOjR.sc-73739c-0
+kotaku.com###sidebar_wrapper > .cySkyK.ynugv2-0
+kotaku.com##.branded-item--kinja.branded-item.inset--story.jfFNjl.sc-1rh3ayr-6
 latimes.com##div.enhancement > .promo-small.promo-position-small.promo
 msn.com##.microsoftNewsCommentModule
 msn.com##.clearleft.emsinline.section-layout.ec-module
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
 nytimes.com##.css-y1f5ai
+opensource.com##.callout-float-right.embedded-callout-menu
+pcgamer.com###sidebar
+pcgamer.com##.jump-to-comments
+pcgamer.com##.related-articles-wrap
+pcgamer.com##.read-more-container
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 reddit.com##.create.sidebox
 reddit.com##.happening-now
 reddit.com##.hohoho.sidebox
 reddit.com##.premium-banner
-! https://www.reddit.com/r/uBlockOrigin/comments/p1wq0m/seekingalpha_needs_filters/hbj3gm1/?context=3
+salesforce.com##.helpButton
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 seekingalpha.com##.adsbygoogle
 stereogum.com###comments
@@ -74,9 +104,16 @@ theatlantic.com##.ArticleRelatedContentModule_root__1MN9q
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
+theguardian.com##aside.dcr-1xlf9q:nth-of-type(2)
+theguardian.com###most-viewed-right
+theguardian.com###e4675c50-1165-4a45-b442-b960d1590dd7
+theguardian.com##aside.dcr-1xlf9q > .dcr-ipj0ot
 theintercept.com###third-party--homepage-banner
 theintercept.com##.Cta-content
 thenation.com##.related-multi.related-newarticle.indents.indent.left
+theverge.com##.c-read-more
+theverge.com##.c-comments
+theverge.com##.has-content.p-comment-notification
 thewrap.com##.tpd-live-banner
 vox.com##.c-rock-list--trending.c-rock-list--image.c-rock-list
 vox.com##.c-related-list
@@ -85,6 +122,12 @@ washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-colum
 washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
 washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list
 washingtonpost.com##.mt-md.mb-lg.mt-md-l.w-100.flex-column.flex
+wccftech.com##p.wccf_related_post:nth-of-type(3)
+wccftech.com##p.wccf_related_post:nth-of-type(9)
+wccftech.com##.clearfix.aside-deals.aside
+wccftech.com##[href="https://tidd.ly/3tyom7k"]
+wccftech.com##.clearfix.widget-analytics.related-posts
+wccftech.com##.sidebar
 weather.com##.FullViewportLargeScreen--regionSidebar--5j64w.regionSidebar.region-sidebar
 wsj.com##.at16-offset1.hide8.hide4.col4.column
 wsj.com###comments_sector
@@ -105,6 +148,9 @@ youtube.com##.ytp-scroll-min.ytp-pause-overlay
 youtube.com###sponsor-button
 youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
 
+||hlsmedia.gannett-cdn.com^$3p
+||interactive.guim.co.uk
+
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
 ||yotpo.com^$3p
@@ -115,6 +161,7 @@ youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-co
 ! Chat modules
 ||pico.tools^$3p
 ||livechatinc.com^$3p
+||salesforceliveagent.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
