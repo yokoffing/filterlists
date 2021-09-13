@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 12 September 2021
+! Updated: 13 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -11,10 +11,13 @@
 ||appspot.com^$3p
 ||bbb.org^$3p
 ||bing.com^$3p
+||bizzabo.com^$3p
 ||botframework.com^$3p
 ||buzzfeed.com^$3p
+||cloudquote.net^$3p
 ||concert.io^$3p,important
 ||cnevids.com^$3p
+||consensu.org^$3p
 ||cookielaw.org^$3p,important
 ||datatables.net^$3p
 ||dwcdn.net^$3p
@@ -22,7 +25,7 @@
 ||firebaseinstallations.googleapis.com
 ||firestore.googleapis.com^
 ||fwmrm.net^
-||img.youtube.com^$3p,domain=~youtube.com
+!||img.youtube.com^$3p,domain=~youtube.com
 ||ipgeolocation.io^
 ||kaltura.com^$3p
 ||launchdarkly.com^
