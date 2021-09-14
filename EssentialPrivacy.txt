@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 13 September 2021
+! Updated: 14 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -43,7 +43,7 @@
 ||payments.amazon.com^$3p
 ||pinterest.com^$3p
 ||placeholder.com^
-||play.google.com^
+||play.google.com,important
 ||polyfill.io^$3p
 ||pusher.com^
 ||scroll.com^
