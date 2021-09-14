@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 13 September 2021
+! Updated: 14 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -216,7 +216,7 @@ wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjk3x3/getting_ads_on_fb_anyone_knows_how_to_block_this/
-facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
+! facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
 ! "Suggested for you"
 https://www.reddit.com/r/uBlockOrigin/comments/pjmtma/facebook_suggested_for_you_old_code_doesnt_seem/
 facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended)/)
