@@ -205,6 +205,9 @@ microsoft.com#@##ms-cookie-banner$badfilter
 
 @@||imgadult.com/anex/alt2.js,badfilter
 
+@@||images.sprinklecontent.com/270/170/$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi,badfilter
+@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi,badfilter
+
 ! https://mypdns.org/T1736
 ! https://github.com/easylist/easylist/issues/6128
 ! https://github.com/easylist/easylist/commit/383f7b07e39f24db34591b4365943e6dbca16a70
@@ -309,25 +312,6 @@ telepolis.pl##.social-media-icons.social-media-icons
 ! https://github.com/easylist/easylist/pull/5500
 power.fi###cookie-notification#cookie-notification
 
-! Unknow, Fanboy’s Annoyance - Fanboy’s Social
-@@||platform.twitter.com/widgets/widget_iframe.$subdocument,badfilter
-
-! https://github.com/easylist/easylist/pull/5445
-||cxense.com^$important
-@@||api.cxense.com/public/widget/data?$domain=marketwatch.com,badfilter
-@@||cdn.cxense.com^$script,domain=marketwatch.com,badfilter
-@@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi,badfilter
-@@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi,badfilter
-@@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp,badfilter
-@@||api.cxense.com/public/widget/data?$script,domain=wpb.shueisha.co.jp,badfilter
-@@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net,badfilter
-@@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.kodansha.co.jp,badfilter
-@@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp,badfilter
-@@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp,badfilter
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net,badfilter
-@@||images.sprinklecontent.com/270/170/$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi,badfilter
-@@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|rytmi.com|soundi.fi|tilt.fi,badfilter
-
 ! https://github.com/easylist/easylist/pull/5521
 @@||assets.hcaptcha.com/captcha/$script,subdocument,domain=abcvideo.cc,badfilter
 @@||hcaptcha.com^*/api.js$script,domain=abcvideo.cc,badfilter
@@ -374,10 +358,6 @@ power.fi###cookie-notification#cookie-notification
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57098
 @@||cdn.segment.com/analytics.js/v1/*/analytics.min.js$domain=shop.fender.com,badfilter
-
-! https://github.com/easylist/easylist/commit/023a72799bb58b9f2b3c0ae304e54bdae9445ad2#diff-57814f66f7ce561ca9320be995443b1fR6
-||adobedtm.com^$important
-@@||adobedtm.com^*/launch-$script,badfilter
 
 ! https://github.com/easylist/easylist/pull/4780/files#diff-9e00091554e8e64d830b74ad010e291dR35
 @@||cdn.vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be,badfilter
