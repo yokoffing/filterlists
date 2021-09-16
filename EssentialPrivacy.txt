@@ -41,7 +41,7 @@
 ||infogram.com^$3p
 !||img.youtube.com^$3p,domain=~youtube.com
 ||ipgeolocation.io^
-||jquery.com^$3p
+||jquery.com^$important
 ||jwplatform.com^$3p
 ||kaltura.com^$3p
 ||launchdarkly.com^
