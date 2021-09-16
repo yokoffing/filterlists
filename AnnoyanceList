@@ -31,10 +31,14 @@ bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(2)
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3)
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(4)
 bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc
+bloomberg.com##figure.paywall
+bitcoinmagazine.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
 businessinsider.com##.content-recommendations-in-post-module-1
 businessinsider.com##.content-recommendations-in-post-module-2
 businessinsider.com##.content-recommendations-in-post-module-3
 businessinsider.com##.content-recommendations-in-post-module-4
+businessinsider.com##.content-recommendations-in-post-module-fixed
+businessinsider.com##.post-content-more
 caranddriver.com##.embed-left.embed-editorial-links.embed
 caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(2)
 caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(8)
@@ -43,7 +47,9 @@ cartoonbrew.com##footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-shar
 cartoonbrew.com##.cb-rec-container
 cartoonbrew.com##.more-category-posts
 cartoonbrew.com##.tag-list.cb-taxonomy-lists
+cex.io##.cookie-notifier-section.cex-ui-section
 cnbc.com##.SidebarArticle-sticky
+cnn.com###partner-zone
 cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container
 cointelegraph.com##.post__block_tags.post__block.tags-list
 cointelegraph.com##.sidebar
@@ -51,15 +57,26 @@ cointelegraph.com##.related-list
 cointelegraph.com###article-72206 > .post__content-wrapper > .post-content > .post-content__disclaimer
 cointelegraph.com##.post-content__disclaimer
 cointelegraph.com##.stretch-banner-youtube
+cointelegraph.com##.post-page__youtube-block
+coindesk.com##.fFpIEz.newsletter-ctastyles__Wrapper-sc-1a47sbx-0
+cryptobriefing.com##.ad-container
+cryptobriefing.com##.article-sidebar > .article-sidebar-items
+cryptobriefing.com##.article-content-wrapper > .article-content > .recommended-posts
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
 decrypt.co##.adbutler-inline-ad.bOSA.sc-17hoiz4-1
 decrypt.co##.jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdklY.sc-i2xq1s-3.dqSSAG.sc-1kjt2eu-0
 dictionaryblog.cambridge.org##.comments-area
+digest.bps.org.uk##.widget-area
+digest.bps.org.uk##.post-navigation.navigation
 fayobserver.com##.gnt_n_sm__ne_a.gnt_n_sm_a
 fayobserver.com##.gnt_n_sm_a
 fayobserver.com##.gnt_m_fs.gnt_m
 fayobserver.com##.gnt_em_vp__tavp.gnt_em
+finance.yahoo.com##.Mb\(\$gridMargin\).wafer-rapid-module
+finance.yahoo.com##.caas-non-sticky-sda
+finance.yahoo.com##.Pt\(25px\).W\(300px\).Pos\(r\)
+finance.yahoo.com###Overlay-2-Rmp-Proxy
 fmovies.cab##.alert-special
 fmovies.cab##.popover
 fmovies.cab##.feedback-icon
@@ -67,6 +84,16 @@ foodnetwork.com##.section.capsule.referencePromo
 forbes.com##.seo.recirc-module
 huffpost.com##.js-right-rail-trending.yr-trending
 huffpost.com##.yr-related-articles.related-articles--recirc.related-articles.js-related-articles
+independent.co.uk##div.related.JbffK.sc-jVKKMF:nth-of-type(5)
+independent.co.uk##div.related.JbffK.sc-jVKKMF:nth-of-type(9)
+independent.co.uk##.sidebar.iMvmnF.sc-jEUCxR
+independent.co.uk##.gdwXeb.sc-cxFVwQ.kTNFdA.sc-gqdwHF
+independent.co.uk##.related.JbffK.sc-jVKKMF
+independent.co.uk##.nativeVideoWrapper
+independent.co.uk###indy-top-container-wrapper
+insider.com##.multi-newsletter-signup
+insider.com##.right-rail.commerce-coupons-module
+insider.com##.post-content-more
 investorplace.com##.countdown-banner
 investorplace.com##aside
 investorplace.com##.bg-darkblue.wide.special-reports
@@ -77,8 +104,12 @@ kotaku.com##.js_comments-iframe.bGtOjR.sc-73739c-0
 kotaku.com###sidebar_wrapper > .cySkyK.ynugv2-0
 kotaku.com##.branded-item--kinja.branded-item.inset--story.jfFNjl.sc-1rh3ayr-6
 latimes.com##div.enhancement > .promo-small.promo-position-small.promo
+marketwatch.com##.article__footer.column--full.column
+marketwatch.com##.region--aside.region
 msn.com##.microsoftNewsCommentModule
 msn.com##.clearleft.emsinline.section-layout.ec-module
+news.bitcoin.com###floating_sidebar
+news.bitcoin.com##.full-grid.article > .article__body > .article__body__tags-related > .article__body__tags-related__related
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
 nytimes.com##.css-y1f5ai
@@ -87,6 +118,8 @@ pcgamer.com###sidebar
 pcgamer.com##.jump-to-comments
 pcgamer.com##.related-articles-wrap
 pcgamer.com##.read-more-container
+pcgamer.com##.trending-wrapper
+pcgamer.com###affiliate-disclaimer
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 reddit.com##.create.sidebox
@@ -102,6 +135,7 @@ techtimes.com##.sidebar.col-md-4
 techtimes.com##.s2.section-middle
 theatlantic.com##.ArticleRelatedContentModule_root__1MN9q
 theblockcrypto.com##.justify-content-center.flex-column.d-print-none.d-flex
+theblockcrypto.com##.article-feed
 theguardian.com##.dcr-1aq0rzi
 theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"]
 theguardian.com##aside.dcr-1xlf9q:nth-of-type(2)
@@ -129,6 +163,8 @@ wccftech.com##[href="https://tidd.ly/3tyom7k"]
 wccftech.com##.clearfix.widget-analytics.related-posts
 wccftech.com##.sidebar
 weather.com##.FullViewportLargeScreen--regionSidebar--5j64w.regionSidebar.region-sidebar
+wololo.net##.sidebar-content
+wololo.net###comments
 wsj.com##.at16-offset1.hide8.hide4.col4.column
 wsj.com###comments_sector
 wsj.com##div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
@@ -150,6 +186,7 @@ youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-co
 
 ||hlsmedia.gannett-cdn.com^$3p
 ||interactive.guim.co.uk
+||jwplayer.com^$3p
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
