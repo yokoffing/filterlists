@@ -17,8 +17,7 @@
   - yokoffing's Annoyance List | [add](https://github.com/yokoffing/filterlists/blob/main/AnnoyanceList)
     - captures nuisances that the major maintainers miss
   - Essential Privacy | [add](https://github.com/yokoffing/filterlists/blob/main/EssentialPrivacy.txt)
-    - a little more hardening than EasyPrivacy provides
-  - Anti-paywall filters | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
+    - blocks non-essential scripts on webpages
 
 ### Scriplets
 Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
