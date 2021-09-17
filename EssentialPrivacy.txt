@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 15 September 2021
+! Updated: 17 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -12,7 +12,7 @@
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
 ||ahacdn.me^$3p
 ||aolcdn.com^$3p,domain=~aol.com
-||appspot.com^$3p
+||appspot.com^$3p,domain=~apnews.com
 ||bbb.org^$3p
 ||bing.com^$3p
 ||bizzabo.com^$3p
