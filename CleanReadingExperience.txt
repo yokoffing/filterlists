@@ -1,6 +1,6 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 15 September 2021
+! Updated: 17 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -23,7 +23,8 @@ msnbc.com##.styles_hasItems__jrj_I.styles_msnbcDailyRecircBody__M8npG
 nbcnews.com##.dn-print.related
 nbcnews.com##p strong:has-text(/^Download the/):upward(p)
 newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
-portswigger.net##p strong:has-text(/^Read more/):upward(p)
+portswigger.net##p.text-center > .bold:has-text(/^/):upward(p)
+portswigger.net##p > .bold:has-text(/^/):upward(p)
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
 techtimes.com##p strong:has-text(/^Read Also/):upward(p)
 theintercept.com##.InstreamPromo--promo.InstreamPromo
