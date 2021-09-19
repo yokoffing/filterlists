@@ -105,7 +105,6 @@
 ||skiocheck.com^$3p
 ||snapkit.com^$3p
 ||spinasale.com^$3p
-||spotify.com^$3p
 ||staticxx.s3.amazonaws.com^$3p
 ||stormgain.com^$3p
 ||storystream.ai^$3p
