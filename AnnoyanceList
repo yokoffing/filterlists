@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 14 September 2021
+! Updated: 20 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -186,7 +186,6 @@ youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-co
 
 ||hlsmedia.gannett-cdn.com^$3p
 ||interactive.guim.co.uk
-||jwplayer.com^$3p
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
