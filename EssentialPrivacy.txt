@@ -59,7 +59,9 @@
 ||ionicframework.com^$3p
 ||ipgeolocation.io^
 ||jquery.com^$important
-||jwplatform.com^$3p
+!||jwplayer.com^$3p
+!||jwplatform.com^$3p
+!||jwpcdn.com^$3p
 ||kaltura.com^$3p
 ||klaviyo.com^$3p
 ||launchdarkly.com^
