@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 19 September 2021
+! Updated: 20 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -29,7 +29,7 @@
 ||buzzfeed.com^$3p
 ||cdn13.com
 ||chatcreate.com^$3p
-||cloudinary.com^$3p
+||cloudinary.com^$3p,domain=~blavity.com
 ||cloudquote.net^$3p
 ||cnevids.com^$3p
 ||concert.io^$3p,important
