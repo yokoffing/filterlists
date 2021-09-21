@@ -1,6 +1,6 @@
 ! Title: ⛔ click2load filters
 ! Description: To be used in conjunction with other Annoyances lists
-! Updated: 19 September 2021
+! Updated: 21 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires 4 days
