@@ -23,6 +23,7 @@
 ||embed.acast.com/$3p,frame,redirect=click2load.html
 ||player.megaphone.fm/$3p,frame,redirect=click2load.html
 ||open.spotify.com/embed/$3p,frame,redirect=click2load.html
+||quizlet.com/$3p,frame,redirect=click2load.html
 
 ! Doesn't work?
 ||platform.twitter.com/widgets/$3p,frame,redirect=click2load.html
