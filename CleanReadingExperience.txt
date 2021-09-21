@@ -8,6 +8,7 @@
 9to5mac.com##p strong:has-text(/^Related/):upward(p)
 aljazeera.com##.more-on
 businessinsider.com##p > strong:has-text(/^Read More:/):upward(p)
+carscoops.com##p strong:has-text(/^Also/):upward(p)
 carscoops.com##p strong:has-text(/^Read/):upward(p)
 carscoops.com##p strong:has-text(/^Related/):upward(p)
 carscoops.com##p strong:has-text(/^See Also/):upward(p)
