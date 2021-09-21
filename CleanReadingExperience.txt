@@ -1,16 +1,21 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 17 September 2021
+! Updated: 21 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
 
 9to5mac.com##p strong:has-text(/^Related/):upward(p)
 aljazeera.com##.more-on
+businessinsider.com##p > strong:has-text(/^Read More:/):upward(p)
+carscoops.com##p strong:has-text(/^Read/):upward(p)
+carscoops.com##p strong:has-text(/^Related/):upward(p)
+carscoops.com##p strong:has-text(/^See Also/):upward(p)
 cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia
 cnn.com##.zn-body__read-all > div.el__embedded--standard.el__embedded > .el__article--embed.el__storyelement--standard
 cnn.com##.l-container > .el__embedded--standard.el__embedded
 cointelegraph.com##p strong:has-text(/^Related/):upward(p)
+cryptonews.net##p strong:has-text(/^Related/):upward(p)
 fayobserver.com##p strong:has-text(/^More/):upward(p)
 fayobserver.com##p strong:has-text(/^Related coverage/):upward(p)
 ghacks.net##p strong:has-text(/^Now You/):upward(p)
