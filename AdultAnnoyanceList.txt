@@ -1,12 +1,13 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 13 September 2021
+! Updated: 21 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
 
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
 allboner.com###commentView
+allboner.com##.more-videos
 boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"]
 boyfriendtv.com##.top-tags-box
 boyfriendtv.com##div.js-toggle-content-wrapper:nth-of-type(7)
@@ -17,6 +18,8 @@ eporner.com###pbwuvp
 eporner.com###commentdiv
 gaydudesfucking.com##.playerban
 gaydudesfucking.com##.side-banner
+gay4porn.com##.player-right
+gay4porn.com##.performblk
 gotgayporn.com##.aside
 gotgayporn.com##.more-videos
 gotgayporn.com###video_comments_video_comments
@@ -37,6 +40,9 @@ thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related
 thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
+txxx.tube##.video-ad-videos
+txxx.tube##.video-comments.comments
+xhamster.com##.wio-xspa.wio-xspb
 xhamster.com##.clearfix.comments-container.comments-section
 xhamster.com##footer > .width-wrap
 xhamster.desi##.clearfix.comments-container.comments-section
