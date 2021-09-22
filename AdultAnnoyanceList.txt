@@ -40,8 +40,10 @@ thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related
 thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
-txxx.tube##.video-ad-videos
+txxx.com##.video-ad-videos
+txxx.com##.video-comments.comments
 txxx.tube##.video-comments.comments
+txxx.tube##.video-ad-videos
 xhamster.com##.wio-xspot-container.wio-xplayer
 xhamster.com##.wio-xspa.wio-xspb
 xhamster.com##.clearfix.comments-container.comments-section
