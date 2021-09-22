@@ -1,6 +1,6 @@
 
 ! Title: 🔒 Essential Privacy
-! Description: A list to to compliment EasyPrivacy
+! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
 ! Updated: 22 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
@@ -507,3 +507,5 @@ bluehouse.is###customForm
 @@|https://$script,3p,domain=blockadblock.com,badfilter
 @@|https://$script,3p,domain=blockadblock.com,badfilter
 @@|https://$script,3p,domain=blockadblock.com,badfilter
+
+!#include click2load.txt
