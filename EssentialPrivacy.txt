@@ -63,7 +63,7 @@
 ||fwmrm.net^$important
 ||getpaloma.com^$3p
 ||go.xhamster.com
-||googleusercontent.com^
+||googleusercontent.com^$3p,domain=~google.com
 ||govx.com^$3p
 ||hsforms.net^$3p
 ||infogram.com^$3p
