@@ -74,9 +74,9 @@
 ||klaviyo.com^$3p
 ||launchdarkly.com^
 ||lmaxdigital.io
-||maps.google.com^$3p,domain=~google.com
-||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
-||maps.gstatic.com^$3p,domain=~google.com
+!||maps.google.com^$3p,domain=~google.com
+!||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
+!||maps.gstatic.com^$3p,domain=~google.com
 ||marketingautomation.services^$3p
 ||marketo.com^$important
 ||mathjax.org^$3p
