@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 20 September 2021
+! Updated: 21 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -69,7 +69,7 @@
 ||infogram.com^$3p
 ||ionicframework.com^$3p
 ||ipgeolocation.io^
-||jquery.com^$important
+||jquery.com^$3p
 ||kaltura.com^$3p
 ||klaviyo.com^$3p
 ||launchdarkly.com^
