@@ -8,9 +8,7 @@
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
-!#include click2load.txt
 !#include CleanReadingExperience.txt
-!#include AdultAnnoyanceList.txt
 
 9to5google.com##.related-guides-container
 9to5google.com##.show-promo.visitor-promo
@@ -332,6 +330,8 @@ twitch.tv##.extension-view__iframe
 wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
+
+!#include AdultAnnoyanceList.txt
 
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
