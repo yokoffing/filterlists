@@ -69,7 +69,7 @@
 ||infogram.com^$3p
 ||ionicframework.com^$3p
 ||ipgeolocation.io^
-||jquery.com^$3p
+||jquery.com^$3p,domain=~who.int
 ||kaltura.com^$3p
 ||klaviyo.com^$3p
 ||launchdarkly.com^
