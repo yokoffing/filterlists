@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 21 September 2021
+! Updated: 22 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -42,15 +42,10 @@ twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
 txxx.tube##.video-ad-videos
 txxx.tube##.video-comments.comments
+xhamster.com##.wio-xspot-container.wio-xplayer
 xhamster.com##.wio-xspa.wio-xspb
 xhamster.com##.clearfix.comments-container.comments-section
 xhamster.com##footer > .width-wrap
-xhamster.desi##.clearfix.comments-container.comments-section
-xhamster.desi##footer
-xhamster13.desi##.clearfix.comments-container.comments-section
-xhamster13.desi##footer
-xhamster2.com##.clearfix.comments-container.comments-section
-xhamster2.com##footer
 xvideos.com###tabComments_bottom_page
 yeswegays.com##div.box:nth-of-type(3)
 yeswegays.com##.video-comment.comments.box
@@ -113,13 +108,6 @@ xhamster.com##.-front.horizontal.as-width-wrap.wio-ccams-widget
 xhamster.com##.dyltv-container
 xhamster.com##div.related-container:nth-of-type(3)
 xhamster.com##.premium-overlay
-xhamster.desi##.wiu-aspa.wiu-aspb
-xhamster.desi##.wiu-aspot-container.wiu-aplayer
-xhamster13.desi##.wio-cspb
-xhamster13.desi##.xplayer-hover-menu
-xhamster13.desi##.xplayer-banner
-xhamster2.com##.wiz-banner
-xhamster2.com##.wiz-spa.wiz-spb
 yeswegays.com##.spot-after.video-spot
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters
