@@ -1,13 +1,14 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to to compliment EasyPrivacy
-! Updated: 21 September 2021
+! Updated: 22 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
 !||img.youtube.com^$3p,domain=~youtube.com
+!||jquery.com^$3p,domain=~who.int
 !||jsdelivr.net
 !||jwpcdn.com^$3p
 !||jwplatform.com^$3p
@@ -69,7 +70,7 @@
 ||infogram.com^$3p
 ||ionicframework.com^$3p
 ||ipgeolocation.io^
-!||jquery.com^$3p,domain=~who.int
+||iris.tv^$3p
 ||kaltura.com^$3p
 ||klaviyo.com^$3p
 ||launchdarkly.com^
@@ -115,6 +116,7 @@
 ||shadowandact.com^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
+||sitescdn.net^$3p
 ||skio.com^$3p
 ||skiocheck.com^$3p
 ||snapkit.com^$3p
@@ -127,6 +129,7 @@
 ||studiostack.com^$3p
 ||swymrelay.com^$3p
 ||t.co^$3p,important,domain=~twitter.com
+||telerik.com^$3p
 ||tinypass.com^
 ||tiqcdn.com^$3p,domain=~ups.com
 ||tradingview.com^$3p
