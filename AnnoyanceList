@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 20 September 2021
+! Updated: 22 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -24,6 +24,7 @@ aljazeera.com##.archipelago.article-pre-footer.article-more-from-topic
 aljazeera.com###article-most-read
 allsides.com##.even.last.block-block.block
 allsides.com##.block-width-100.fundraising-block-flex
+alternative.me##.container > div.block
 appleinsider.com##.hidden-xs.article-comments.row
 appleinsider.com##.col-lg-3 > div.hidden-xs
 appleinsider.com##.primis-ad-wrap
@@ -39,6 +40,7 @@ bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3)
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(4)
 bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc
 bloomberg.com##figure.paywall
+biblegateway.com##.sys-announce-content
 bitcoinmagazine.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
 businessinsider.com##.content-recommendations-in-post-module-1
 businessinsider.com##.content-recommendations-in-post-module-2
@@ -58,6 +60,7 @@ cartoonbrew.com##.tag-list.cb-taxonomy-lists
 carscoops.com###secondary > .theiaStickySidebar
 carscoops.com##.post-navigation.navigation
 cex.io##.cookie-notifier-section.cex-ui-section
+citycoins.co##.banner_container.banner
 cnbc.com##.SidebarArticle-sticky
 cnn.com###partner-zone
 ccn.com##.ampforwp-inline-related-post
@@ -152,10 +155,12 @@ marketwatch.com##.article__footer.column--full.column
 marketwatch.com##.region--aside.region
 metro.co.uk##.sidebar.col-c
 metro.co.uk##.zone-post-strip
+miamiherald.com##div.story-module.related-stories
 msn.com##.microsoftNewsCommentModule
 msn.com##.clearleft.emsinline.section-layout.ec-module
 news.bitcoin.com###floating_sidebar
 news.bitcoin.com##.full-grid.article > .article__body > .article__body__tags-related > .article__body__tags-related__related
+npr.org###end-of-story-recommendations-mount
 nypost.com##.inline-module--related-post.inline-module
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
@@ -171,6 +176,7 @@ pcgamer.com###affiliate-disclaimer
 portswigger.net##.rightcol.post-widgetcolumn
 portswigger.net##.dailyswig.maincontainer > .widget-tile
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
+quizlet.com##.SetPageTermsStickyBanner-container
 raider.io##.text-white > .slds-m-bottom--large
 realmicentral.com##.theiaStickySidebar
 realmicentral.com##.jnews_related_post_container
@@ -219,6 +225,7 @@ theregister.com##.promo_article
 theverge.com##.c-read-more
 theverge.com##.c-comments
 theverge.com##.has-content.p-comment-notification
+theverge.com##.c-recirc-module
 thewrap.com##.tpd-live-banner
 time.com##.bottom-recirc.feed.component
 time.com##.right-rail.right-rail-recirc.clearfix.feed.component
@@ -226,6 +233,7 @@ time.com##.video-jw.component
 vox.com##.c-rock-list--trending.c-rock-list--image.c-rock-list
 vox.com##.c-related-list
 vox.com##div.u-desktop-only:nth-of-type(1)
+vox.com##div.l-segment.l-sidebar-fixed:nth-of-type(5)
 washingtonpost.com##.col-4-lg.flex.flex-l.dn.dn-m.mt-md-l.flex-1.right-rail.flex-column.hide-for-print
 washingtonpost.com##.mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-column.flex
 washingtonpost.com##.overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
