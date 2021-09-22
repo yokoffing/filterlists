@@ -5,6 +5,8 @@
 **NATIVE FILTERS:**
  - All the uBlock filters under "Built-in" (default)
  - EasyList (default)
+ - AdGuard URL Tracking Protection
+ - Block access to LAN
  - EasyPrivacy (default)
  - **Annoyances:**
    - AdGuard Annoyances
