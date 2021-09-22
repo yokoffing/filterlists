@@ -24,7 +24,7 @@
 <br> This list includes [Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt) and [Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt), among other useful lists. (BTW, if you find websites with useless/tracking parameters, you can submit them [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).) If this list is too heavy-handed for your tastes, I'd at least add the two aforementioned lists.
   
 **yokoffing's Annoyance List** | [add](https://github.com/yokoffing/filterlists/blob/main/AnnoyanceList)
-<br> Captures nuisances that all the other maintainers miss. It also cleans up the cludder around popular news sites. I'll say it ahead of time: You're welcome ;)
+<br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the cludder around many sites. I'll say it ahead of time: You're welcome ;)
 
 ### Scriplets
 Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
