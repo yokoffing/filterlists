@@ -6,6 +6,10 @@
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
+!#if ext_ublock
+!#include click2load.txt
+!#endif
+
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
 !||img.youtube.com^$3p,domain=~youtube.com
 !||jquery.com^$3p,domain=~who.int
@@ -507,5 +511,3 @@ bluehouse.is###customForm
 @@|https://$script,3p,domain=blockadblock.com,badfilter
 @@|https://$script,3p,domain=blockadblock.com,badfilter
 @@|https://$script,3p,domain=blockadblock.com,badfilter
-
-!#include click2load.txt
