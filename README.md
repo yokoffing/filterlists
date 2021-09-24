@@ -4,6 +4,7 @@
 
 **NATIVE FILTERS:**
  - All the uBlock filters under "Built-in" (default)
+   - deselect uBlock filters - Unbreak 
  - EasyList (default)
  - AdGuard URL Tracking Protection
  - Block access to LAN
@@ -19,7 +20,7 @@
 **OISD Domain Blocklist** (full list) | [add](https://oisd.nl/downloads)
 <br> "The Best Blocklist" - OISD combines [hundreds of lists](https://oisd.nl/includedlists) and filters out the false positives. If you ever tried the [Energized project](https://github.com/EnergizedProtection/block) but became annoyed at all the breakage, then this list is for you. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/m6j6fg/oisd_domain_blocklist/?sort=new) to false positive reports. He also provides a domain-list version if you use Pihole, and it is listed on [NextDNS](https://nextdns.io/?from=xujj63g5). Phenominal project. [I've yet to find a list that he hasn't heard of](https://oisd.nl/allknownlists.php).
 
-**Essential Privacy** | [add](https://github.com/yokoffing/filterlists/blob/main/EssentialPrivacy.txt)
+**Essential Privacy** (beta) | [add](https://github.com/yokoffing/filterlists/blob/main/EssentialPrivacy.txt)
 <br> Blocks non-essential scripts on webpages. Why call out to third-party requests when you don't need to?
   
 **Dandelion Sprout's Annoyances List** | [add](https://github.com/DandelionSprout/adfilt/blob/master/AnnoyancesList)
