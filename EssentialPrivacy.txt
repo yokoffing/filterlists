@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 22 September 2021
+! Updated: 24 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -43,7 +43,7 @@
 ||byteoversea.com^$3p
 ||cdn13.com
 ||chatcreate.com^$3p
-||cloudinary.com^$3p,domain=~blavity.com
+!||cloudinary.com^$3p
 ||cloudquote.net^$3p
 ||cnevids.com^$3p
 ||concert.io^$3p,important
@@ -86,6 +86,7 @@
 ||marketo.com^$important
 ||mathjax.org^$3p
 ||maxcdn.com^$3p
+||medallia.com^$3p
 ||myfinance.com^$3p
 ||news.google.com^$3p
 ||nitroapps.co^$3p
