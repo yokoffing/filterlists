@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 24 September 2021
+! Updated: 25 September 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -11,6 +11,7 @@
 !#endif
 
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
+!||fluidplayer.com^$3p
 !||img.youtube.com^$3p,domain=~youtube.com
 !||jquery.com^$3p,domain=~who.int
 !||jsdelivr.net
@@ -64,7 +65,6 @@
 ||fbot.me^$3p
 ||firebaseinstallations.googleapis.com
 ||firestore.googleapis.com^
-||fluidplayer.com^$3p
 ||fwmrm.net^$important
 ||getpaloma.com^$3p
 ||go.xhamster.com
