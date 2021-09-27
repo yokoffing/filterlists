@@ -64,7 +64,7 @@
 ||fbcdn.net^$3p,important,domain=~facebook.com
 ||fbot.me^$3p
 ||firebaseinstallations.googleapis.com
-||firestore.googleapis.com^
+!||firestore.googleapis.com^
 ||fwmrm.net^$important
 ||getpaloma.com^$3p
 ||go.xhamster.com
@@ -114,7 +114,7 @@
 ||rise-ai.com^$3p
 ||rsms.me^$important
 ||s81c.com^
-||scroll.com^
+!||scroll.com^
 ||searchiq.co^$3p
 ||seatgeek.com^$3p
 ||secomapp.com^$3p
@@ -205,7 +205,7 @@
 ||play.google.com/log?$xmlhttprequest,important
 ||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
 ||scorecardresearch.com^$3p,important
-!||scroll.com^$3p,important
+||scroll.com^$3p,important
 !||search.brave.com/api/feedback^
 ||segment.com^$important
 ||sentry-cdn.com^$3p,important
