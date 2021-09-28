@@ -10,6 +10,7 @@
 !#include click2load.txt
 !#endif
 
+! Allowlist:
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
 !||cdn13.com
 !||cloudinary.com^$3p
@@ -20,9 +21,14 @@
 !||jwpcdn.com^$3p
 !||jwplatform.com^$3p
 !||jwplayer.com^$3p
+!||maps.google.com^$3p,domain=~google.com
+!||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
+!||maps.gstatic.com^$3p,domain=~google.com
 !||mzstatic.com^$3p
 !||spotify.com^$3p,domain=~spotify.com
 !||stockist.co^$3p
+
+! Blocklist:
 ||21ninety.com^$3p
 ||7882f4ee63.com
 ||abtapp.com^$3p
@@ -78,9 +84,6 @@
 ||klaviyo.com^$3p
 ||launchdarkly.com^
 ||lmaxdigital.io
-!||maps.google.com^$3p,domain=~google.com
-!||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
-!||maps.gstatic.com^$3p,domain=~google.com
 ||marketingautomation.services^$3p
 ||marketo.com^$important
 ||mathjax.org^$3p
@@ -113,7 +116,6 @@
 ||rise-ai.com^$3p
 ||rsms.me^$important
 ||s81c.com^
-!||scroll.com^
 ||searchiq.co^$3p
 ||seatgeek.com^$3p
 ||secomapp.com^$3p
@@ -466,8 +468,8 @@ power.fi###cookie-notification#cookie-notification
 @@||connect.squareup.com/payments/analytics/frame.html$subdocument,badfilter
 @@||connect.squareupsandbox.com/payments/analytics/frame.html,$badfilter
 
-@@||google.com^*recaptcha/$frame,badfilter
-||google.com^*recaptcha/$important
+!@@||google.com^*recaptcha/$frame,badfilter
+!||google.com^*recaptcha/$important
 ||yastatic.net/share2/share.js$script,important
 
 @@||google.*-youtube.jpg,badfilter
