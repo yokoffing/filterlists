@@ -1,10 +1,13 @@
 # filterlists
 
+### Scriplets
+Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
+
 ### Recommended Filters for uBlock Origin
 
 **NATIVE FILTERS:**
  - All the uBlock filters under "Built-in" (default)
-   - deselect uBlock filters - Unbreak 
+   - deselect **uBlock filters - Unbreak** 
  - EasyList (default)
  - AdGuard URL Tracking Protection
  - Block access to LAN
@@ -28,9 +31,6 @@
   
 **yokoffing's Annoyance List** | [add](https://github.com/yokoffing/filterlists/blob/main/AnnoyanceList)
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the cludder around many sites. I'll say it ahead of time: You're welcome ;)
-
-### Scriplets
-Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to uBlock Origin.
 
 ### Why these lists?
 https://how-i-experience-web-today.com/
