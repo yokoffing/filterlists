@@ -62,12 +62,12 @@
 ||ezoiccdn.com^$3p
 ||fbcdn.net^$3p,important,domain=~facebook.com
 ||fbot.me^$3p
-||firebaseinstallations.googleapis.com
+||firebaseinstallations.googleapis.com^
 !||firestore.googleapis.com^
 ||fwmrm.net^$important
 ||getpaloma.com^$3p
 ||go.xhamster.com
-||googleusercontent.com^$3p,domain=~google.com
+||googleusercontent.com^$3p,domain=~google.com|~youtube.com
 ||govx.com^$3p
 ||hsforms.net^$3p
 ||infogram.com^$3p
