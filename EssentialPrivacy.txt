@@ -162,7 +162,7 @@
 ||vanillicon.com^$3p
 ||vcomm.io^$3p
 ||vidible.tv^$3p
-||virtualearth.net^$3p
+||virtualearth.net^$3p,domain=~bing.com
 ||vxxx.com^$3p
 ||walkme.com^$3p
 ||wearehearken.eu^$3p
