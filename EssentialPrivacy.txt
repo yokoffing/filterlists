@@ -162,7 +162,7 @@
 ||turner.com^$3p
 ||typeform.com^$3p
 ||ubembed.com^$3p
-||unpkg.com^$3p
+||unpkg.com^$3p,domain=~athenahealth.com
 ||unsplash.com^$3p
 ||vanillicon.com^$3p
 ||vcomm.io^$3p
