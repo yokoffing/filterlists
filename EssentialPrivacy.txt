@@ -1,5 +1,5 @@
 
-! Title: 🔒 Essential Privacy
+! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
 ! Updated: 1 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
@@ -32,6 +32,8 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||futurecdn.net^$3p
+||ketchcdn.com^$3p
 ||ceros.com^$3p
 ||inc.com^$3p
 ||incimages.com^$3p
