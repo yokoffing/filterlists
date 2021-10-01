@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 29 September 2021
+! Updated: 1 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -32,6 +32,10 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||ceros.com^$3p
+||inc.com^$3p
+||queryly.com^$3p
+||knotch-cdn.com^$3p
 ||21ninety.com^$3p
 ||7882f4ee63.com
 ||abtapp.com^$3p
