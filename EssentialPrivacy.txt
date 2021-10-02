@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 1 October 2021
+! Updated: 2 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -151,6 +151,7 @@
 ||spinasale.com^$3p
 ||stamped.io^$3p
 ||staticxx.s3.amazonaws.com^$3p
+||steadfastseat.com^$3p
 ||stormgain.com^$3p
 ||storystream.ai^$3p
 ||strossle.com^$3p,important
@@ -166,7 +167,7 @@
 ||turner.com^$3p
 ||typeform.com^$3p
 ||ubembed.com^$3p
-||unpkg.com^$3p,domain=~athenahealth.com|~patreon.com
+||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~patreon.com
 ||unsplash.com^$3p
 ||vanillicon.com^$3p
 ||vcomm.io^$3p
