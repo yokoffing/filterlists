@@ -32,6 +32,8 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||pagesix.com^
+||decider.com^$3p
 ||algolia.io^$3p
 ||ravenjs.com^$3p
 ||futurecdn.net^$3p
