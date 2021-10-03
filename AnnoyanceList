@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 22 September 2021
+! Updated: 3 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -191,6 +191,9 @@ seekingalpha.com##.adsbygoogle
 seekingalpha.com##.sa_bh_nt.sa_hc_bjb.paywall-full-content.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y
 seekingalpha.com##.sa_bl_vn.sa_bjf_y
 seekingalpha.com##.sa_bh_nt.sa_hc_bjb.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y
+showbiz411.com##.td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4
+showbiz411.com##.similar-articles.art-img-text-down
+showbiz411.com##.comments
 sports.yahoo.com###wafer-trending-bar
 sports.yahoo.com##.wafer-rapid-tracked.wafer-rapid-module.monalixa
 sports.yahoo.com##.wafer-sticky.stream
