@@ -80,6 +80,8 @@ cryptonews.net##[href^="https://www.bestchange.com/"]
 cryptonews.net##.right-side.col-sm-4.col-xs-12 > .subscribe
 cryptonews.net##[href^="https://www.cryptohopper.com/"]
 cryptonews.net##.side.vert
+decider.com##.alignleft.wp-caption.in-line-column
+decider.com##.sidebar--primary.sidebar
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2)
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
 decrypt.co##.adbutler-inline-ad.bOSA.sc-17hoiz4-1
