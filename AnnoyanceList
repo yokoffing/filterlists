@@ -159,6 +159,8 @@ msn.com##.clearleft.emsinline.section-layout.ec-module
 news.bitcoin.com###floating_sidebar
 news.bitcoin.com##.full-grid.article > .article__body > .article__body__tags-related > .article__body__tags-related__related
 npr.org###end-of-story-recommendations-mount
+nypost.com##.single__sidebar
+nypost.com##.more-stories
 nypost.com##.inline-module--related-post.inline-module
 nytimes.com##.css-1wspfld
 nytimes.com##.css-ew4tgv
