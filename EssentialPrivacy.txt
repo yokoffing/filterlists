@@ -33,6 +33,7 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||positivessl.com^$3p
 ||decider.com^$3p
 ||algolia.io^$3p
 ||ravenjs.com^$3p
