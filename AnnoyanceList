@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 3 October 2021
+! Updated: 5 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -115,6 +115,8 @@ gamerbraves.com##.jnews_inline_related_post
 gamerbraves.com##.jnews_related_post_container
 gamerbraves.com##.section.comment-wrapper
 gamerbraves.com##.jnews_prev_next_container
+ghacks.net##.ghacks-sidebar
+greenpeace.org##.donate-embed.has-image.constrained.gptp-content
 huffpost.com##.js-right-rail-trending.yr-trending
 huffpost.com##.yr-related-articles.related-articles--recirc.related-articles.js-related-articles
 hypebeast.com##.primary-sidebar
@@ -178,8 +180,10 @@ pcgamer.com##.trending-wrapper
 pcgamer.com###affiliate-disclaimer
 portswigger.net##.rightcol.post-widgetcolumn
 portswigger.net##.dailyswig.maincontainer > .widget-tile
+psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 quizlet.com##.SetPageTermsStickyBanner-container
+quizlet.com##.UIModal-box
 raider.io##.text-white > .slds-m-bottom--large
 realmicentral.com##.theiaStickySidebar
 realmicentral.com##.jnews_related_post_container
@@ -189,6 +193,7 @@ reddit.com##.happening-now
 reddit.com##.hohoho.sidebox
 reddit.com##.premium-banner
 salesforce.com##.helpButton
+salon.com##.right-rail
 scmp.com##.article-comment-bottom-widget
 scmp.com##.others__more-on-this > .related-article
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
@@ -206,6 +211,7 @@ sports.yahoo.com##.B\(a\)--maw1064.Pos\(s\)--maw1064.W\(300px\).aside-sticky
 sports.yahoo.com##.wafer-loader-success.wafer-module-complete.Mstart\(-60px\)--maw1080.Maw\(557px\)--maw1080.Maw\(667px\).sportsmodule-device-desktop.wafer-rapid-module.wafer-module.sports-module
 stereogum.com###comments
 stereogum.com##.article-comments
+techradar.com###sidebar
 techtimes.com##.sidebar.col-md-4
 techtimes.com##.s2.section-middle
 theatlantic.com##.ArticleRelatedContentModule_root__1MN9q
@@ -262,6 +268,7 @@ wsj.com##.article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.a
 wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object
 wsj.com##.article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object
 wsj.com##.article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object
+wsj.com##.article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object
 youtube.com##ytd-horizontal-card-list-renderer
 youtube.com##.ytd-live-chat-frame
 youtube.com##.yt-upsell-dialog-renderer
