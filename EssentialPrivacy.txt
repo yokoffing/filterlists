@@ -33,6 +33,10 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||drtuber.desi^$3p
+||nvidpn.com^$3p
+||rtphit.com^$3p
+||strpst.com^$3p
 ||liveperson.net^$3p
 ||lpsnmedia.net^$3p
 ||positivessl.com^$3p
