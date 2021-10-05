@@ -33,6 +33,8 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||liveperson.net^$3p
+||lpsnmedia.net^$3p
 ||positivessl.com^$3p
 ||decider.com^$3p
 ||algolia.io^$3p
