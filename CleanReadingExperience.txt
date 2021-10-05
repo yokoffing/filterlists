@@ -47,5 +47,7 @@ zdnet.com##p strong:has-text(/^SEE/):upward(p)
 ##footer
 ##.footer
 ##.site-footer
+##.jeg_footer_content
+##.footer-holder
 ! Allowlist due to breakage:
 techcrunch.com#@#footer
