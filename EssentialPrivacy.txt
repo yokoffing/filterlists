@@ -30,6 +30,13 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||thunderhead.com^$3p
+||tbs.com^$3p
+||tntdrama.com^$3p
+||trutv.com^$3p
+||invocacdn.com^$3p
+||adultswim.com^$3p
+||bleacherreport.com^$3p,domain=att.com
 ||maps.google.com^$3p,domain=~google.com
 ||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
 ||maps.gstatic.com^$3p,domain=~google.com
