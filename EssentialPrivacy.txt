@@ -30,6 +30,7 @@
 !||stockist.co^$3p
 
 ! Blocklist:
+||chilipiper.com^$3p
 ||inq.com^$3p
 ||cnn.com^$3p,domain=att.com
 ||thunderhead.com^$3p
