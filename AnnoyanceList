@@ -10,6 +10,18 @@
 
 !#include CleanReadingExperience.txt
 
+time.com##.inline-article-recirc.component
+economist.com##.related-articles
+slate.com##.in-article-recirc
+huffpost.com###rightRailTrending
+huffpost.com##.cli-related-articles__content-wrapper
+huffpost.com##.below-entry-content
+commondreams.org##.embedded-entity
+commondreams.org##.d-print-none.position-relative
+commondreams.org##.headline--full.headline.node > div > .d-print-none
+commondreams.org##.d-print-none.py-5.bg-white
+commondreams.org##.py-5.bg-light.block
+newyorker.com##inline-embed
 9to5google.com##.related-guides-container
 9to5google.com##.show-promo.visitor-promo
 9to5mac.com##.show-promo.visitor-promo
