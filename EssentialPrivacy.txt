@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 7 October 2021
+! Updated: 8 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -31,6 +31,12 @@
 !||zdassets.com^$3p
 
 ! Blocklist:
+||ioam.de^$3p
+||walletconnect.org^$3p
+||spokenlayer.net^$3p
+||tinypass.com^$3p,important
+||storage.googleapis.com^$3p,domain=~google.com
+||accessibilityserver.org^$3p
 ||chilipiper.com^$3p
 ||inq.com^$3p
 ||cnn.com^$3p,domain=att.com
