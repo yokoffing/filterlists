@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 22 September 2021
+! Updated: 8 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -40,6 +40,7 @@ thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related
 thisvid.com##div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos
 twinkvideos.com##.aside > div
+twinkvideos.com###commentView
 txxx.com##.video-ad-videos
 txxx.com##.video-comments.comments
 txxx.tube##.video-comments.comments
