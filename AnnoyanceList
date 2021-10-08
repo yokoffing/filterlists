@@ -8,8 +8,6 @@
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
-!#include CleanReadingExperience.txt
-
 time.com##.inline-article-recirc.component
 economist.com##.related-articles
 slate.com##.in-article-recirc
@@ -358,7 +356,47 @@ wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
 
+!#include CleanReadingExperience.txt
 !#include AdultAnnoyanceList.txt
+
+! from Anti-paywall filters https://github.com/llacb47/miscfilters/blob/master/antipaywall.txt
+! General
+||news.google.com/swg/$script,third-party
+||accounts.google.com/gsi/$~script
+||smartlock.google.com^
+/amp-access-$script
+||tinypass.com^$third-party
+@@||experience.tinypass.com/xbuilder/$script,3p
+||mediapass.com^$third-party
+!||scroll.com^$third-party
+||wallkit.net^$third-party
+||evolok.com^$third-party
+||evolok.net^$third-party
+||piano.io^$third-party
+||qiota.com^$third-party,important
+||poool.fr^$third-party
+||onecount.net^$third-party
+||profitwell.com^$third-party
+||pelcro.com^$third-party
+||mppapi.io^$third-party
+||mppglobal.com^$third-party
+||batch.com^$third-party
+||lightboxcdn.com^$third-party
+/coil-web-monetization/*
+!||taboola.com^$third-party
+! Connext / Flittz
+||czx5eyk0exbhwp43ya.biz^$third-party
+||ayc0zsm69431gfebd.info^$third-party
+||ayc0zsm69431gfebd.xyz^$third-party
+||g2insights-cdn.azureedge.net^$third-party
+||loader-cdn.azureedge.net^$third-party
+||fp-cdn.azureedge.net^$third-party
+||flittz-cdn.azureedge.net^$third-party
+||prod-mng-proxy-connext.azurewebsites.net^$third-party
+||connext-cdn.ec.azureedge.net^$third-party
+||mg2connext.com^$third-party
+||marketingg2.com^$third-party
+||flittz.com^$third-party
 
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
