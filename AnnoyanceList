@@ -9,6 +9,12 @@
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
 ##[class*="sponsorlink"]
+infinite.tcgplayer.com###app > .subscribe-drawer--container
+infinite.tcgplayer.com##.article-side-rail
+infinite.tcgplayer.com##.related-articles__grid > .related-content
+infinite.tcgplayer.com##.article-spotlight
+ygoprodeck.com##.comments-area
+ygoprodeck.com##.clearfix.related-posts
 androidpolice.com##.next-btn.sentinel-article-nextArticle
 androidpolice.com##.w-article-related
 androidpolice.com###secondary
