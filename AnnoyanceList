@@ -9,6 +9,9 @@
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
 ##[class*="sponsorlink"]
+androidpolice.com##.next-btn.sentinel-article-nextArticle
+androidpolice.com##.w-article-related
+androidpolice.com###secondary
 newsmax.com##.nmsponsorlink
 time.com##.inline-article-recirc.component
 economist.com##.related-articles
