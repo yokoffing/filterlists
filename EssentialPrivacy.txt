@@ -244,7 +244,7 @@
 ||exoclick.com^$3p,important
 ||exosrv.com^$3p,important
 ||facebook.com^$3p,important,domain=~instagram.com
-||facebook.net^$3p
+||facebook.net^$3p,important
 ||firebase.googleapis.com^
 ||getsentry.com^$3p
 ||gleamjs.io^
