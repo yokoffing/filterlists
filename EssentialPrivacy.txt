@@ -96,7 +96,7 @@
 ||incimages.com^$3p
 ||infogram.com^$3p
 ||inq.com^$3p
-||instagram.com^$3p,domain=~blavity.com|~hypebeast.com|~pagesix.com
+||instagram.com^$3p,domain=~blavity.com|~cartoonbrew.com|~hypebeast.com|~pagesix.com
 ||invocacdn.com^$3p
 ||ioam.de^$3p
 ||ionicframework.com^$3p
