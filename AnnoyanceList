@@ -83,7 +83,7 @@ infoblox.com##.carousel-desktop.carouselwrapper, .widget-area.sidebar-primary.si
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
 investorplace.com##.bg-darkblue.wide.special-reports, .countdown-banner, .countdown-homepage, .related-articles.related-posts, .wide.newsletters
 investorplace.com##aside
-itsfoss.com##.jp-relatedposts-i2, .q2w3-fixed-widget-container.widget-area.sidebar-primary.sidebar, #.thrive-comments-content, .ugb-df91fcd-content-wrapper.ugb-columns__item, .ugb-main-block.ugb-container--design-plain.ugb-container--v2.ugb-ea90ed6.ugb-container.wp-block-ugb-container.alignwide > .ugb-inner-block, .widget-area
+itsfoss.com##.jp-relatedposts-i2, .q2w3-fixed-widget-container.widget-area.sidebar-primary.sidebar, .thrive-comments-content, .ugb-df91fcd-content-wrapper.ugb-columns__item, .ugb-main-block.ugb-container--design-plain.ugb-container--v2.ugb-ea90ed6.ugb-container.wp-block-ugb-container.alignwide > .ugb-inner-block, .widget-area
 kotaku.com###sidebar_wrapper > .cySkyK.ynugv2-0
 kotaku.com##.branded-item--kinja.branded-item.inset--story.jfFNjl.sc-1rh3ayr-6, .js_comments-iframe.bGtOjR.sc-73739c-0
 latimes.com##.rail
@@ -156,7 +156,8 @@ ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 youtube.com###sponsor-button
 youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer
-youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"]), ytd-horizontal-card-list-renderer
+youtube.com##div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"])
+youtube.com##ytd-horizontal-card-list-renderer
 
 ||hlsmedia.gannett-cdn.com^$3p
 ||interactive.guim.co.uk
