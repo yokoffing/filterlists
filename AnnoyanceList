@@ -51,9 +51,7 @@ decider.com##.alignleft.wp-caption.in-line-column, .article-footer, .sidebar--pr
 decrypt.co##.adbutler-inline-ad.bOSA.sc-17hoiz4-1, .jcayOL.sc-155ftbs-3 > .vsGFO.sc-18vyx5u-0 > .preview-container.eVdklY.sc-i2xq1s-3.dqSSAG.sc-1kjt2eu-0
 decrypt.co##div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(2), div.jpxtSH.eAya-DO.sc-155ftbs-1.sc-155ftbs-0:nth-of-type(3)
 dictionaryblog.cambridge.org##.comments-area
-digest.bps.org.uk##.post-navigation.navigation
-digest.bps.org.uk##.widget-area
-digest.bps.org.uk##.comments-area
+digest.bps.org.uk##.post-navigation.navigation, .widget-area, .comments-area
 dotesports.com###nonsticky-sidebar
 dotesports.com##.wp-block-dotesports-affiliate-button
 eater.com##.c-related-list, .c-toaster
@@ -109,8 +107,7 @@ pcgamer.com###affiliate-disclaimer, sidebar
 pcgamer.com##.jump-to-comments, .read-more-container, .related-articles-wrap, .trending-wrapper
 portswigger.net##.dailyswig.maincontainer > .widget-tile, .rightcol.post-widgetcolumn
 psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder
-quizlet.com##.SetPageTermsStickyBanner-container
-quizlet.com##.UIModal-box
+quizlet.com##.SetPageTermsStickyBanner-container, .UIModal-box
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 realmicentral.com##.jnews_inline_related_post, .jnews_related_post_container, .theiaStickySidebar
@@ -118,8 +115,7 @@ reddit.com##.create.sidebox, .happening-now, .hohoho.sidebox, .premium-banner
 salesforce.com##.helpButton
 salon.com##.right-rail
 scientificamerican.com##.aside-block, .aside-block__body, .aside-product, .special--report, .spw__banner, .medium-down-hide.opinion-template--newsletter.flex-column--full-mobile.flex-column--25 > figure, .opinion-article--social-date.medium-down-hide.flex-column--25 > .opinion-template--headerBody-social-icons
-scmp.com##.article-comment-bottom-widget
-scmp.com##.others__more-on-this > .related-article
+scmp.com##.article-comment-bottom-widget, .others__more-on-this > .related-article
 seekingalpha.com##.adsbygoogle, .sa_bh_nt.sa_hc_bjb.paywall-full-content.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y, .sa_bh_nt.sa_hc_bjb.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y, .sa_bl_vn.sa_bjf_y
 seekingalpha.com##a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
 showbiz411.com##.comments, .similar-articles.art-img-text-down, .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4
