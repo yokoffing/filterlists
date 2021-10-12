@@ -61,7 +61,7 @@
 ||chatcreate.com^$3p
 ||chilipiper.com^$3p
 ||cloudquote.net^$3p
-||cnevids.com^$3p
+||cnevids.com^$3p,domain=~gq.com
 ||cnn.com^$3p,domain=att.com
 ||concert.io^$3p,important
 ||condenast.io^$3p
