@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 11 October 2021
+! Updated: 12 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -31,6 +31,7 @@
 !||zdassets.com^$3p
 
 ! Blocklist:
+||montangop.top^
 ||newsoveraudio.com^$3p
 ||sportico.com^$3p
 ||artnews.com^$3p
