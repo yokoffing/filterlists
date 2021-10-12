@@ -25,7 +25,7 @@ artificialintelligence-news.com##.cell.large-3.medium-5.small-12.sidebar
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(1), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(2), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(4)
 biblegateway.com##.sys-announce-content
 bitcoinmagazine.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
-bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc
+bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc, .paywall.postr-recirc--equality.postr-recirc, .postr-recirc--equality.postr-recirc
 bloomberg.com##figure.paywall
 businessinsider.com##.col-xs-12.col-md-4, .content-recommendations-in-post-module-1, .content-recommendations-in-post-module-2, .content-recommendations-in-post-module-3, .content-recommendations-in-post-module-4, .content-recommendations-in-post-module-fixed, .post-content-more
 caranddriver.com##.embed-left.embed-editorial-links.embed
@@ -66,10 +66,13 @@ f2movies.to###gift-top
 f2movies.to##.mb-3.alert, .file_realted-list.film_related
 fmovies.cab##.alert-special, .feedback-icon, .popover
 foodnetwork.com##.section.capsule.referencePromo
+fool.com##.related-content
 forbes.com##.seo.recirc-module
 gamerbraves.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .jnews_inline_related_post, .jnews_prev_next_container, .jnews_related_post_container, .section.comment-wrapper
 ghacks.net##.ghacks-sidebar
 greenpeace.org##.donate-embed.has-image.constrained.gptp-content
+hbr.org##li.sponsored.stream-entry:nth-of-type(2), li.sponsored.stream-entry:nth-of-type(9), li.sponsored.stream-entry:nth-of-type(14), li.sponsored.stream-entry:nth-of-type(19)
+hbr.org##.promo--half.article-promo
 huffpost.com###rightRailTrending
 huffpost.com##.below-entry-content, .cli-related-articles__content-wrapper, .js-right-rail-trending.yr-trending, .yr-related-articles.related-articles--recirc.related-articles.js-related-articles
 hypebeast.com###post-feed
