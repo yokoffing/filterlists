@@ -185,7 +185,6 @@
 ||telerik.com^$3p
 ||thunderhead.com^$3p
 ||tinypass.com^
-||tinypass.com^$3p,important
 ||tiqcdn.com^$3p,domain=~ups.com
 ||tntdrama.com^$3p,domain=att.com
 ||tradingview.com^$3p
