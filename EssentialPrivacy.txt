@@ -31,6 +31,11 @@
 !||zdassets.com^$3p
 
 ! Blocklist:
+||newsoveraudio.com^$3p
+||sportico.com^$3p
+||artnews.com^$3p
+||fairchildlive.com^$3p
+||footwearnews.com^$3p
 ||21ninety.com^$3p
 ||7882f4ee63.com
 ||abtapp.com^$3p
