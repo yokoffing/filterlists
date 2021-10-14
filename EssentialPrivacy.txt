@@ -5,6 +5,7 @@
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
+! ⚠️ Please submit an issue if embedded tweets or instagram post do not load on a page so we can add them to the allowlist.
 
 !#if ext_ublock
 !#include click2load.txt
