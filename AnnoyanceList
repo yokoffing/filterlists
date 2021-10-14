@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 11 October 2021
+! Updated: 14 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -99,6 +99,8 @@ miamiherald.com##div.story-module.related-stories
 msn.com##.clearleft.emsinline.section-layout.ec-module, .microsoftNewsCommentModule
 news.bitcoin.com###floating_sidebar
 news.bitcoin.com##.full-grid.article > .article__body > .article__body__tags-related > .article__body__tags-related__related
+news.yahoo.com###stream-wrapper
+news.yahoo.com##.non-sticky-container, .Pt\(25px\).W\(300px\).Pos\(r\)
 newsmax.com##.nmsponsorlink
 newyorker.com##inline-embed
 npr.org###end-of-story-recommendations-mount
