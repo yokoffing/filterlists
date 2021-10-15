@@ -103,7 +103,7 @@
 ||incimages.com^$3p
 ||infogram.com^$3p
 ||inq.com^$3p
-||instagram.com^$3p,domain=~blavity.com|~bloomberg.com|~cartoonbrew.com|~hypebeast.com|~pagesix.com|~people.com
+||instagram.com^$3p,domain=~blavity.com|~bloomberg.com|~cartoonbrew.com|~collider.com|~hypebeast.com|~pagesix.com|~people.com
 ||invocacdn.com^$3p
 ||ioam.de^$3p
 ||ionicframework.com^$3p
