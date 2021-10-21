@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 8 October 2021
+! Updated: 21 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -8,53 +8,32 @@
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
 allboner.com###commentView
 allboner.com##.more-videos
-boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"]
-boyfriendtv.com##.top-tags-box
-boyfriendtv.com##div.js-toggle-content-wrapper:nth-of-type(7)
-boyfriendtv.com##.js-toggle-content.adblock
-boyfriendtv.com##div.related-content:nth-of-type(1)
-boyfriendtv.com##.related-content-wrapper
-eporner.com###pbwuvp
-eporner.com###commentdiv
+boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"], .top-tags-box, div.js-toggle-content-wrapper:nth-of-type(7), .js-toggle-content.adblock, div.related-content:nth-of-type(1), .related-content-wrapper
+drtuber.com##.aside_panel_video, .section_frame_tools.section, .inner_recent.recent_box
+eporner.com###pbwuvp, commentdiv, relateddiv
 gaydudesfucking.com##.playerban
 gaydudesfucking.com##.side-banner
-gay4porn.com##.player-right
-gay4porn.com##.performblk
-gotgayporn.com##.aside
-gotgayporn.com##.more-videos
+gay4porn.com##.player-right, .performblk
+gotgayporn.com##.aside, .more-videos, .footer
 gotgayporn.com###video_comments_video_comments
-gotgayporn.com##.footer
 gaysearch.com###commentView
-gaysearch.com##.footer
-gaysearch.com##.more-videos
+gaysearch.com##.footer, .more-videos
 gettubetv.com##.table
 pornhub.com###hd-rightColVideoPage, .cmtPrelaodContainer.js-commentReplacement.video-wrapper, .video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
+pornxs.com##.squares
 privatehomeclips.com##.video-page__comments, .footer
-sexytubetop.xyz##.with-sidebar-right.widget-area
-sexytubetop.xyz##.site-footer
-sexytubetop.xyz##.under-video-block
-thegay.tube##.video-page__content > .right
-thegay.tube##.video-page__comments, .footer
-thegay.tube##section
-thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link
-thisvid.com##div.thumbs-items:nth-of-type(6)
-twinkvideos.com##.more-videos
-twinkvideos.com##.aside > div
+sexytubetop.xyz##.with-sidebar-right.widget-area, .site-footer, .under-video-block
+thegay.tube##.video-page__content > .right, section, .video-page__comments, .footer
+thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link, div.thumbs-items:nth-of-type(6)
+twinkvideos.com##.more-videos, .aside > div
 twinkvideos.com###commentView
-txxx.com##.video-ad-videos
-txxx.com##.video-comments.comments
-txxx.tube##.video-comments.comments
-txxx.tube##.video-ad-videos
-xhamster.com##.wio-xspot-container.wio-xplayer
-xhamster.com##.wio-xspa.wio-xspb
-xhamster.com##.clearfix.comments-container.comments-section
-xhamster.com##footer > .width-wrap
+txxx.com##.video-ad-videos, .video-comments.comments
+txxx.tube##.video-comments.comments, .video-ad-videos
+xhamster.com##.wio-xspot-container.wio-xplayer, .wio-xspa.wio-xspb, .clearfix.comments-container.comments-section, footer > .width-wrap
 xvideos.com###tabComments_bottom_page
-yeswegays.com##div.box:nth-of-type(3)
-yeswegays.com##.video-comment.comments.box
-yeswegays.com##.wrapper-holder > div.container
-yeswegays.com##.footer
-yeswegays.com##.thumb_spots
+yeptube.com###spot_video_underplayer_livecams
+yeptube.com##div.mt10.container:nth-of-type(6), .tr-download, .tr-sponsor
+yeswegays.com##div.box:nth-of-type(3), .video-comment.comments.box, .wrapper-holder > div.container, .footer, .thumb_spots
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
 @@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
