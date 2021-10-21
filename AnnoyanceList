@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 14 October 2021
+! Updated: 21 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -138,7 +138,7 @@ stereogum.com###comments
 stereogum.com##.article-comments
 techradar.com###sidebar
 techtimes.com##.s2.section-middle, .sidebar.col-md-4
-theatlantic.com##.ArticleRelatedContentModule_root__1MN9q, .NonMeteredNudge_root__3MU5l
+theatlantic.com##.ArticleRelatedContentModule_root__1MN9q, .NonMeteredNudge_root__3MU5l, .ArticleRelatedContentMagazine_root__96lNS
 theblockcrypto.com##.article-feed, .d-print-none.py-5.color-outer-space.bg-grey-lightest.articles, .justify-content-center.flex-column.d-print-none.d-flex
 thegamer.com###secondary
 thegamer.com##.next-btn.sentinel-article-nextArticle, .next-single, .related-single, .w-article-related
@@ -148,6 +148,7 @@ theguardian.com##[href^="https://support.theguardian.com/uk/subscribe/digital"],
 theintercept.com###third-party--homepage-banner
 theintercept.com##.Cta-content
 thenation.com##.related-multi.related-newarticle.indents.indent.left
+therecord.media##.sidebar__widget--articles.sidebar__widget, .navigation, .sidebar__widget--newsletter.sidebar__widget
 theregister.com##.promo_article
 theverge.com##.c-comments, .c-read-more, .c-recirc-module, .has-content.p-comment-notification
 thewrap.com##.tpd-live-banner
