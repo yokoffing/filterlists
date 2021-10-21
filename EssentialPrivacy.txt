@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 18 October 2021
+! Updated: 21 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -29,9 +29,21 @@
 !||paypalobjects.com^$3p
 !||spotify.com^$3p,domain=~spotify.com
 !||stockist.co^$3p
+!||turner.com^$3p
 !||zdassets.com^$3p
 
 ! Blocklist:
+||ibb.co^
+||ip.sp^
+||forbes.com^$3p,domain=quora.com
+||translate.google.com$important,domain=~google.com
+||translate.googleapis.com$important,domain=~google.com
+||bimbolive.com^$3p
+||prpbns.com^$3p
+||drtuber.desi^$3p
+||adsessionserv.com^
+||titsx.com^$3p
+||bonertraffic.mobi^$3p
 ||montangop.top^
 ||newsoveraudio.com^$3p
 ||sportico.com^$3p
@@ -197,7 +209,6 @@
 ||travelnoire.com^$3p
 ||trutv.com^$3p,domain=att.com
 ||tsyndicate.com^$3p,important
-||turner.com^$3p
 ||twitter.com^$3p,domain=~9to5mac.com|~billboard.com|~blavity.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~metro.co.uk|~msn.com|~nymag.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com
 ||typeform.com^$3p
 ||ubembed.com^$3p
