@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 21 October 2021
+! Updated: 23 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -13,6 +13,7 @@
 
 ! Allowlist:
 !||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
+!||captcha.com^$3p
 !||cdn13.com
 !||cloudinary.com^$3p
 !||futurecdn.net^$3p
@@ -27,6 +28,7 @@
 !||mzstatic.com^$3p
 !||paypal.com^$3p
 !||paypalobjects.com^$3p
+!||recaptcha.net^$3p,important
 !||spotify.com^$3p,domain=~spotify.com
 !||stockist.co^$3p
 !||turner.com^$3p
@@ -75,7 +77,6 @@
 ||botframework.com^$3p
 ||buzzfeed.com^$3p
 ||byteoversea.com^$3p
-||captcha.com^$3p
 ||ceros.com^$3p
 ||chatcreate.com^$3p
 ||chilipiper.com^$3p
@@ -168,7 +169,6 @@
 ||rackcdn.com^$3p
 ||ravenjs.com^$3p
 ||rebuyengine.com^$3p
-||recaptcha.net^$3p,important
 ||riddle.com^$3p
 ||rise-ai.com^$3p
 ||rsms.me^$important
