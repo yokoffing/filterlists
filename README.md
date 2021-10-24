@@ -5,7 +5,6 @@ Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets
 
 **NATIVE FILTERS:**
  - All the uBlock filters under "Built-in" (default)
-   - deselect **uBlock filters - Unbreak** 
  - EasyList (default)
  - AdGuard URL Tracking Protection
  - Block access to LAN
