@@ -210,7 +210,7 @@
 ||trutv.com^$3p,domain=att.com
 ||tsyndicate.com^$3p,important
 !||twitter.com^$3p,domain=~9to5mac.com|~billboard.com|~blavity.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~metro.co.uk|~msn.com|~nymag.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com
-||syndication.twitter.com^$3p,important
+||syndication.twitter.com^$important
 ||typeform.com^$3p
 ||ubembed.com^$3p
 ||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~patreon.com
