@@ -590,3 +590,12 @@ bluehouse.is###customForm
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
 @@||cdn.turner.com/cnn/van/resources/*/scripts/vendor/loggly.tracker.js$xhr,domain=trentonian.com
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
+
+! bloomberg videos
+@@||cdn.gotraffic.net^$domain=bloomberg.*
+@@||js.spotx.tv/directsdk/$script,domain=bloomberg.*
+@@||spotxcdn.com/integration/directsdk/$script,domain=bloomberg.*
+@@||search.spotxchange.com^$xhr,domain=bloomberg.*
+@@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.*
+! bloomberg.com CNAME
+@@||cdx.cedexis.net^$domain=bloomberg.*
