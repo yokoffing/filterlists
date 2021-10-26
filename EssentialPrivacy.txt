@@ -152,7 +152,7 @@
 ||payments.amazon.com^$3p,important
 ||pinterest.com^$3p
 ||placeholder.com^
-||play.google.com^$3p,domain=~docs.google.com
+||play.google.com^$3p,important
 ||playinc.uk.com^$3p
 ||p-n.io^$3p
 ||polyfill.io^$3p
@@ -272,7 +272,7 @@
 ||mgid.com^$3p,important
 ||myanimelist.net^*/event/$image
 ||opta.net^
-!||play.google.com/log?$xmlhttprequest,important,domain=~docs.google.com
+||play.google.com/log?$xmlhttprequest,important
 ||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
 ||scorecardresearch.com^$3p,important
 ||scroll.com^$3p,important
