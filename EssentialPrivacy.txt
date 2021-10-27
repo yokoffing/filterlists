@@ -10,27 +10,6 @@
 !#include click2load.txt
 !#endif
 
-! Allowlist:
-!||ahcdn.com^$3p,domain=~gettubetv.com|~boyfriendtv.com
-!||captcha.com^$3p
-!||cdn13.com
-!||cloudinary.com^$3p
-!||futurecdn.net^$3p
-!||firestore.googleapis.com^
-!||fluidplayer.com^$3p
-!||img.youtube.com^$3p,domain=~youtube.com
-!||jquery.com^$3p,domain=~who.int
-!||jsdelivr.net
-!||jwpcdn.com^$3p
-!||jwplatform.com^$3p
-!||jwplayer.com^$3p
-!||mzstatic.com^$3p
-!||recaptcha.net^$3p,important
-!||spotify.com^$3p,domain=~spotify.com
-!||stockist.co^$3p
-!||turner.com^$3p
-!||zdassets.com^$3p
-
 ! Blocklist:
 ||ibb.co^
 ||ip.sp^
@@ -443,7 +422,6 @@ radiolodz.pl##.share_icons
 ! https://github.com/easylist/easylist/issues/5431#issuecomment-636639239
 supercomfysleep.com##.normal_social:style(visibility: hidden !important;)
 
-! unknown
 @@||mediafire.com^$generichide,badfilter
 
 ! https://github.com/easylist/easylist/issues/5577
@@ -470,10 +448,6 @@ telepolis.pl##.social-media-icons.social-media-icons
 
 ! https://github.com/easylist/easylist/pull/5500
 power.fi###cookie-notification#cookie-notification
-
-! https://github.com/easylist/easylist/pull/5521
-@@||assets.hcaptcha.com/captcha/$script,subdocument,domain=abcvideo.cc,badfilter
-@@||hcaptcha.com^*/api.js$script,domain=abcvideo.cc,badfilter
 
 ! https://github.com/easylist/easylist/commit/3ec21e55ace2027b52cd69ef73002cd374d8344c#diff-3034fb5f835bb84b82df3927c7048308R10
 @@||192.168.*/privacy_policy.js$~third-party,badfilter
@@ -534,8 +508,6 @@ power.fi###cookie-notification#cookie-notification
 @@||connect.squareup.com/payments/analytics/frame.html$subdocument,badfilter
 @@||connect.squareupsandbox.com/payments/analytics/frame.html,$badfilter
 
-! @@||google.com^*recaptcha/$frame,badfilter
-! ||google.com^*recaptcha/$important
 ||yastatic.net/share2/share.js$script,important
 
 @@||google.*-youtube.jpg,badfilter
@@ -549,7 +521,6 @@ power.fi###cookie-notification#cookie-notification
 
 @@||alternathistory.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js$script,~third-party,badfilter
 
-! ||google.com/recaptcha/$script,subdocument
 @@||hdtvpolska.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js$badfilter
 
 ||sascdn.com^$important,third-party
