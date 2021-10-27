@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Essential Privacy (beta)
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 26 October 2021
+! Updated: 27 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -381,7 +381,7 @@ tennisassa.fi#@#.cookie-monster,badfilter
 
 ! https://github.com/easylist/easylist/blob/5286c506b71a27093b45b233283620bce518291f/fanboy-addon/fanboy_annoyance_allowlist_general_hide.txt#L48
 ! https://mypdns.org/my-external-stuff/ublockorigin-rules/commit/10a2df535d978888e6965defe371fa6356b43f5c#commitcomment-42257563
-##.grecaptcha-badge.grecaptcha-badge
+! ##.grecaptcha-badge.grecaptcha-badge
 
 ! https://github.com/ryanbr/fanboy-adblock/issues/1401
 ! https://github.com/easylist/easylist/commit/e94a84b1d11e3eccc9ad7d6f8de7f9f21a075727#diff-6adfdb5479a01e1387e7d053ca44b6abR155
@@ -534,8 +534,8 @@ power.fi###cookie-notification#cookie-notification
 @@||connect.squareup.com/payments/analytics/frame.html$subdocument,badfilter
 @@||connect.squareupsandbox.com/payments/analytics/frame.html,$badfilter
 
-!@@||google.com^*recaptcha/$frame,badfilter
-!||google.com^*recaptcha/$important
+! @@||google.com^*recaptcha/$frame,badfilter
+! ||google.com^*recaptcha/$important
 ||yastatic.net/share2/share.js$script,important
 
 @@||google.*-youtube.jpg,badfilter
@@ -549,7 +549,7 @@ power.fi###cookie-notification#cookie-notification
 
 @@||alternathistory.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js$script,~third-party,badfilter
 
-||google.com/recaptcha/$script,subdocument
+! ||google.com/recaptcha/$script,subdocument
 @@||hdtvpolska.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js$badfilter
 
 ||sascdn.com^$important,third-party
