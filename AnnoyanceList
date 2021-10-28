@@ -30,7 +30,8 @@ artificialintelligence-news.com##.cell.large-3.medium-5.small-12.sidebar
 bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(1), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(2), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(3), aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(4)
 biblegateway.com##.sys-announce-content
 bitcoinmagazine.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
-bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc, .paywall.postr-recirc--equality.postr-recirc, .postr-recirc--equality.postr-recirc
+bleepingcomputer.com##.bc_downloads, .cz-newz-comment-wrapp, .cz-story-navigation, .cz-post-comment-wrapp, .cz-main-left-section > .cz-related-article-wrapp, #pop_stories
+bloomberg.com##.video-player, .paywall.postr-recirc--opinion.postr-recirc, .paywall.postr-recirc--equality.postr-recirc, .postr-recirc--equality.postr-recirc, .paywall.news-wallet__wrapper
 bloomberg.com##figure.paywall
 businessinsider.com##.col-xs-12.col-md-4, .content-recommendations-in-post-module-1, .content-recommendations-in-post-module-2, .content-recommendations-in-post-module-3, .content-recommendations-in-post-module-4, .content-recommendations-in-post-module-fixed, .post-content-more
 caranddriver.com##.embed-left.embed-editorial-links.embed
@@ -43,7 +44,7 @@ ccn.com##.ampforwp-inline-related-post
 cex.io##.cookie-notifier-section.cex-ui-section
 citycoins.co##.banner_container.banner
 cnbc.com##.SidebarArticle-sticky
-cnn.com###partner-zone
+cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone
 coindesk.com##.fFpIEz.newsletter-ctastyles__Wrapper-sc-1a47sbx-0
 cointelegraph.com###article-72206 > .post__content-wrapper > .post-content > .post-content__disclaimer
 cointelegraph.com##.c-2H4MkO3QiqFhqPIp8qO.container, .post__block_tags.post__block.tags-list, .post-content__disclaimer, .post-page__youtube-block, .related-list, .sidebar, .stretch-banner-youtube
@@ -111,15 +112,18 @@ news.yahoo.com##.non-sticky-container, .Pt\(25px\).W\(300px\).Pos\(r\)
 newsmax.com##.nmsponsorlink
 newyorker.com##inline-embed
 npr.org###end-of-story-recommendations-mount
+nurse.com##.awac-wrapper.widget_text, .fusion-sidebar-inner-content, .single-related-posts.related-posts
 nypost.com##.inline-module--related-post.inline-module, .more-stories, .single__sidebar
 nytimes.com##.css-1wspfld, .css-ew4tgv, .css-y1f5ai
 opensource.com##.callout-float-right.embedded-callout-menu
 pagesix.com##.right-column.sidebar
 pcgamer.com###affiliate-disclaimer, sidebar
-pcgamer.com##.jump-to-comments, .read-more-container, .related-articles-wrap, .trending-wrapper
+pcgamer.com##.jump-to-comments, .read-more-container, .related-articles-wrap, .trending-wrapper, .recommended-content, .popular-box, .fancy-box
+pomcor.com##.comments-area, .nav-links
+||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
 portswigger.net##.dailyswig.maincontainer > .widget-tile, .rightcol.post-widgetcolumn
 psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder
-quizlet.com##.SetPageTermsStickyBanner-container, .UIModal-box
+quizlet.com##.SetPageTermsStickyBanner-container, .UIModal-box, .oxppdgq.ohebfrr.ReactModal__Overlay--after-open.ReactModal__Overlay
 quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 realmicentral.com##.jnews_inline_related_post, .jnews_related_post_container, .theiaStickySidebar
@@ -163,8 +167,7 @@ weather.com##.FullViewportLargeScreen--regionSidebar--5j64w.regionSidebar.region
 wololo.net###comments
 wololo.net##.sidebar-content
 wsj.com###comments_sector
-wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object, .article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object, .at16-offset1.hide8.hide4.col4.column
-wsj.com##div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
+wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object, .article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object, .at16-offset1.hide8.hide4.col4.column, .article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web.inline.type-InsetRichText.media-object, div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
 ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 youtube.com###sponsor-button
