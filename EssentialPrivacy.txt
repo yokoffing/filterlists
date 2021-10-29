@@ -1,7 +1,7 @@
 
-! Title: 🔒 Essential Privacy (beta)
+! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 27 October 2021
+! Updated: 29 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -51,6 +51,7 @@
 ||consensu.org^$3p,important
 ||conviva.com^$3p
 ||cookielaw.org^$3p,important
+||createsend1.com^$3p
 ||cxense.com^$important
 ||datatables.net^$3p
 ||decider.com^$3p
@@ -186,6 +187,7 @@
 ||translate.google.com$important,domain=~google.com
 ||translate.googleapis.com$important,domain=~google.com
 ||travelnoire.com^$3p
+||trustarc.com^$3p
 ||truste.com^$3p
 ||trustx.org^$3p
 ||trutv.com^$3p,domain=att.com
@@ -211,8 +213,6 @@
 !||gstatic.com/firebasejs/
 !||instagram.com^$3p
 !||search.brave.com/api/feedback^
-!||stripe.com^$3p
-!||stripe.network^$3p
 ||2mdn.net^$3p,important
 ||addthis.com^$3p,important
 ||adnxs.com^$3p,important
@@ -267,6 +267,8 @@
 ||slack.com/api/promo.banner^
 ||slack.com/api/ublockworkaround^
 ||spot.im^$3p,important
+||stripe.com^$3p
+||stripe.network^$3p
 ||taboola.com^$3p,important
 ||tawk.to^$3p
 ||tinypass.com^
