@@ -161,7 +161,7 @@
 ||skio.com^$3p
 ||skiocheck.com^$3p
 ||snapkit.com^$3p
-||soap2day.to^
+||soap2day.to^$3p
 ||spinasale.com^$3p
 ||spokenlayer.net^$3p
 ||sportico.com^$3p
