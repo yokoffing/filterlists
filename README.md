@@ -29,5 +29,10 @@ Be sure to add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets
 **yokoffing's Annoyance List** | [add](https://github.com/yokoffing/filterlists/blob/main/AnnoyanceList)
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the cludder around many sites. I'll say it ahead of time: You're welcome ;)
 
+ **Anti-paywall filters** | [add](https://github.com/llacb47/miscfilters/blob/master/antipaywall.txt)
+ <br> Contains additional third-party requests that should be blocked.
+ 
+ 
+
 ## Why should I use these lists?
 https://how-i-experience-web-today.com/
