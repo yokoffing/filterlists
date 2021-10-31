@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 30 October 2021
+! Updated: 31 October 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -573,3 +573,9 @@ bluehouse.is###customForm
 @@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.*
 ! bloomberg.com CNAME
 @@||cdx.cedexis.net^$domain=bloomberg.*
+
+! CBS News
+@@||cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/libs/chartbeat.js$script,domain=cbsnews.com
+@@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
+!@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=cbsnews.com
+!@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
