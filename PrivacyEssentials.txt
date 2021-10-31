@@ -226,7 +226,7 @@
 ||arc.io^
 ||buymeacoffee.com^
 ||cbox.ws^$3p
-||cbsi.com^
+||cbsi.com^,domain=~cbsnews.com
 ||cbsinteractive.com^
 ||chatango.com^$3p
 ||chatbro.com^$3p
