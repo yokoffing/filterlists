@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 21 October 2021
+! Updated: 6 November 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -11,6 +11,7 @@ allboner.com##.more-videos
 boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"], .top-tags-box, div.js-toggle-content-wrapper:nth-of-type(7), .js-toggle-content.adblock, div.related-content:nth-of-type(1), .related-content-wrapper
 drtuber.com##.aside_panel_video, .section_frame_tools.section, .inner_recent.recent_box
 eporner.com###pbwuvp, commentdiv, relateddiv
+gayck.com###list_videos_related_videos
 gaydudesfucking.com##.playerban
 gaydudesfucking.com##.side-banner
 gay4porn.com##.player-right, .performblk
@@ -27,8 +28,7 @@ thegay.tube##.video-page__content > .right, section, .video-page__comments, .foo
 thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link, div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos, .aside > div
 twinkvideos.com###commentView
-txxx.com##.video-ad-videos, .video-comments.comments
-txxx.tube##.video-comments.comments, .video-ad-videos
+txxx.com##.video-ad-videos, .video-comments.comments, .video-comments.comments, .video-ad-videos, .video-videos-slider, .suggestion
 xhamster.com##.wio-xspot-container.wio-xplayer, .wio-xspa.wio-xspb, .clearfix.comments-container.comments-section, footer > .width-wrap
 xvideos.com###tabComments_bottom_page
 yeptube.com###spot_video_underplayer_livecams
