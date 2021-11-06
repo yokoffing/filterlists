@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 5 November 2021
+! Updated: 6 November 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -9,6 +9,7 @@
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
 ##[class*="sponsorlink"]
+coinmarketcap.com##.jiWaSe.ii1g3i-0
 vulture.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-link, .related-count-2.multi.related, .related-count-1.related, .non-subscriber-copy, .package-list, .single-related-story, .short-article.sticky-list, .is-on-article-page.curated-feed
 curbed.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-link, .related-count-2.multi.related, .related-count-1.related, .non-subscriber-copy, .package-list, .single-related-story, .short-article.sticky-list, .is-on-article-page.curated-feed
 nymag.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-link, .related-count-2.multi.related, .related-count-1.related, .non-subscriber-copy, .package-list, .single-related-story, .short-article.sticky-list, .is-on-article-page.curated-feed
@@ -20,6 +21,7 @@ grubstreet.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-lin
 aljazeera.com###article-most-read
 aljazeera.com##.archipelago.article-pre-footer.article-more-from-topic, .article-related-list__hr.article-related-list
 allsides.com##.block-width-100.fundraising-block-flex, .even.last.block-block.block
+alphr.com##.js-also-like.sidebar__widget
 alternative.me##.container > div.block
 androidpolice.com###secondary
 androidpolice.com##.next-btn.sentinel-article-nextArticle, .w-article-related
@@ -39,8 +41,7 @@ caranddriver.com##.embed-left.embed-editorial-links.embed
 caranddriver.com##div.embed-center.embed-editorial-links.embed:nth-of-type(2), div.embed-center.embed-editorial-links.embed:nth-of-type(8)
 carscoops.com###secondary > .theiaStickySidebar
 carscoops.com##.post-navigation.navigation
-cartoonbrew.com##.callout-box.cb-advert.PicoSignal, .cb-rec-container, .more-category-posts, .tag-list.cb-taxonomy-lists
-cartoonbrew.com##footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent > .sd-content > ul
+cartoonbrew.com##.callout-box.cb-advert.PicoSignal, .cb-rec-container, .more-category-posts, .tag-list.cb-taxonomy-lists, .related-post-list, footer > .hidden-xs > .sd-sharing-enabled.sharedaddy > .sd-sharing.sd-social-icon.sd-social.sd-block.robots-nocontent > .sd-content > ul
 ccn.com##.ampforwp-inline-related-post
 cex.io##.cookie-notifier-section.cex-ui-section
 citycoins.co##.banner_container.banner
@@ -92,6 +93,7 @@ independent.co.uk##div.related.JbffK.sc-jVKKMF:nth-of-type(5), div.related.JbffK
 infinite.tcgplayer.com###app > .subscribe-drawer--container
 infinite.tcgplayer.com##.article-side-rail, .article-spotlight, .related-articles__grid > .related-content
 infoblox.com##.carousel-desktop.carouselwrapper, .widget-area.sidebar-primary.sidebar
+inquirer.com##.block.responsive-embed, .component-in-recommender.grid-recommender
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
 investorplace.com##.bg-darkblue.wide.special-reports, .countdown-banner, .countdown-homepage, .related-articles.related-posts, .wide.newsletters
 investorplace.com##aside
@@ -115,7 +117,7 @@ newyorker.com##inline-embed
 npr.org###end-of-story-recommendations-mount
 nurse.com##.awac-wrapper.widget_text, .fusion-sidebar-inner-content, .single-related-posts.related-posts
 nypost.com##.inline-module--related-post.inline-module, .more-stories, .single__sidebar
-nytimes.com##.css-1wspfld, .css-ew4tgv, .css-y1f5ai
+nytimes.com##.css-1wspfld, .css-ew4tgv, .css-y1f5ai, .related-links-block, .css-17u79w7
 opensource.com##.callout-float-right.embedded-callout-menu
 pagesix.com##.right-column.sidebar
 pcgamer.com###affiliate-disclaimer, sidebar
@@ -158,17 +160,17 @@ theregister.com##.promo_article
 theverge.com##.c-comments, .c-read-more, .c-recirc-module, .has-content.p-comment-notification
 thewrap.com##.tpd-live-banner
 time.com##.bottom-recirc.feed.component, .inline-article-recirc.component, .right-rail.right-rail-recirc.clearfix.feed.component, .video-jw.component
-vox.com##.c-related-list, .c-rock-list--trending.c-rock-list--image.c-rock-list
-vox.com##div.l-segment.l-sidebar-fixed:nth-of-type(5), div.u-desktop-only:nth-of-type(1)
-washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list, .col-4-lg.flex.flex-l.dn.dn-m.mt-md-l.flex-1.right-rail.flex-column.hide-for-print, .mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-column.flex, .mt-md.mb-lg.mt-md-l.w-100.flex-column.flex, .overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute
+vectordiary.com##.td_block_template_1.td-pb-border-top.td_with_ajax_pagination.tdi_61_168.td_block_related_posts.td_block_wrap, .comments, .td-ss-main-sidebar
+vox.com##.c-related-list, .c-rock-list--trending.c-rock-list--image.c-rock-list, div.l-segment.l-sidebar-fixed:nth-of-type(5), div.u-desktop-only:nth-of-type(1)
+washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline-list, .col-4-lg.flex.flex-l.dn.dn-m.mt-md-l.flex-1.right-rail.flex-column.hide-for-print, .mb-lg-mod.relative.w-100.pt-xs.bc-secondary.bt.b.flex-column.flex, .mt-md.mb-lg.mt-md-l.w-100.flex-column.flex, .overlay-background.overflow-hidden.duration-400.ease-out.transition-height.relative > .w-100.absolute, .c-toaster-stuck.c-toaster-active.c-toaster
+watchcartoononline.bz##.scrolling.right.sidebar
 wccftech.com##.clearfix.aside-deals.aside, .clearfix.widget-analytics.related-posts, .sidebar
 wccftech.com##[href="https://tidd.ly/3tyom7k"], p.wccf_related_post:nth-of-type(3), p.wccf_related_post:nth-of-type(9)
 wcofun.com##.alert, .anti-ad, .episode-descp
 weather.com##.FullViewportLargeScreen--regionSidebar--5j64w.regionSidebar.region-sidebar
-wololo.net###comments
-wololo.net##.sidebar-content
-wsj.com###comments_sector
-wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object, .article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object, .at16-offset1.hide8.hide4.col4.column, .article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web.inline.type-InsetRichText.media-object, div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container
+webmd.com##.main-container-3.main-container, .dfp-native.top-picks, .dfp-native.module-lln-toppks.module-top-picks.module, .module-f-idc.module, .left.ia-video.ia-module-container
+wololo.net##.sidebar-content, #comments
+wsj.com##.article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object, .article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object, .at16-offset1.hide8.hide4.col4.column, .article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web.inline.type-InsetRichText.media-object, div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container, #comments_sector
 ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 youtube.com###sponsor-button
