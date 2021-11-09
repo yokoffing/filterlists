@@ -31,7 +31,7 @@
 ||bbb.org^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bimbolive.com^$3p
-||bing.com^$3p
+||bing.com^$3p,domain=~login.live.com
 ||bizzabo.com^$3p
 ||bleacherreport.com^$3p,domain=att.com
 ||bloomapp-production.herokuapp.com^$3p
@@ -63,6 +63,7 @@
 ||drtuber.desi^$3p
 ||dttrk.com^$3p
 ||dwcdn.net^$3p
+||ecorebates.com$3p
 ||edge.microsoft.com^$3p
 ||elfsight.com^$3p
 ||evvnt.com^$3p
@@ -110,6 +111,7 @@
 ||marketo.com^$important
 ||mathjax.org^$3p
 ||maxcdn.com^$3p
+||maytag.com$3p
 ||medallia.com^$3p
 ||montangop.top^
 ||myfinance.com^$3p
@@ -187,9 +189,9 @@
 ||translate.google.com$important,domain=~google.com
 ||translate.googleapis.com$important,domain=~google.com
 ||travelnoire.com^$3p
-||trustarc.com^$3p
-||truste.com^$3p
-||trustx.org^$3p
+||trustarc.com^$3p,important
+||truste.com^$3p,important
+||trustx.org^$3p,important
 ||trutv.com^$3p,domain=att.com
 ||tsyndicate.com^$3p,important
 ||typeform.com^$3p
@@ -204,6 +206,7 @@
 ||walkme.com^$3p
 ||walletconnect.org^$3p
 ||wearehearken.eu^$3p
+||whirlpool.com$3p
 ||whisk.com^$3p
 ||wholesalegorilla.app^$3p
 ||zencdn.net^
