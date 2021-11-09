@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 6 November 2021
+! Updated: 9 November 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -194,7 +194,7 @@
 ||tsyndicate.com^$3p,important
 ||typeform.com^$3p
 ||ubembed.com^$3p
-||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~patreon.com
+||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~kitchenaid.com|~patreon.com
 ||unsplash.com^$3p
 ||vanillicon.com^$3p
 ||vcomm.io^$3p
