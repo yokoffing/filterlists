@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 9 November 2021
+! Updated: 11 November 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -159,6 +159,7 @@
 ||shadowandact.com^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
+||simplecast.com^$3p
 ||sitescdn.net^$3p
 ||skio.com^$3p
 ||skiocheck.com^$3p
@@ -198,6 +199,7 @@
 ||ubembed.com^$3p
 ||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~kitchenaid.com|~patreon.com
 ||unsplash.com^$3p
+||userway.org^$3p
 ||vanillicon.com^$3p
 ||vcomm.io^$3p
 ||vidible.tv^$3p
@@ -581,3 +583,8 @@ bluehouse.is###customForm
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 !@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=cbsnews.com
 !@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
+
+! Bad filter in Anti-paywalls Filter on fivethirtyeight.com
+||dcf.espn.com^$badfilter
+! @@||fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js$script,1p
+! ||dcf.espn.com^,domain=nationalgeographic.com
