@@ -23,7 +23,7 @@
 ||algolia.io^$3p
 ||altmetric.com^$3p
 ||aolcdn.com^$3p,domain=~aol.com
-||appspot.com^$3p,domain=~apnews.com
+!||appspot.com^$3p,domain=~apnews.com|~chrtr.io
 ||artnews.com^$3p
 ||aspnetcdn.com^$3p
 ||audioeye.com$3p
