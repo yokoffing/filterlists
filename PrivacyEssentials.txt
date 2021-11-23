@@ -171,7 +171,7 @@
 ||stamped.io^$3p
 ||staticxx.s3.amazonaws.com^$3p
 ||steadfastseat.com^$3p
-||storage.googleapis.com^$3p,domain=~google.com
+||storage.googleapis.com^$3p,domain=~blog.google|~google.com
 ||stormgain.com^$3p
 ||storystream.ai^$3p
 ||strossle.com^$3p,important
