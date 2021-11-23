@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 21 November 2021
+! Updated: 23 November 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -213,6 +213,9 @@
 ||wholesalegorilla.app^$3p
 ||zencdn.net^
 ||zqtk.net^$important
+
+! May cause issue if you don't use Bypass Paywalls Clean:
+$removeparam=st,domain=wsj.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 !||gstatic.com/firebasejs/
