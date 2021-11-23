@@ -124,7 +124,8 @@ pomcor.com##.comments-area, .nav-links
 poocoin.app##.m-auto.text-small.text-light.mb-2.text-center
 portswigger.net##.dailyswig.maincontainer > .widget-tile, .rightcol.post-widgetcolumn
 psypost.org##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder
-quizlet.com##.SetPageTermsStickyBanner-container, .UIModal-box, .oxppdgq.ohebfrr.ReactModal__Overlay--after-open.ReactModal__Overlay, +js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
+quizlet.com##.SetPageTermsStickyBanner-container, .UIModal-box, .oxppdgq.ohebfrr.ReactModal__Overlay--after-open.ReactModal__Overlay
+quizlet.com##+js(rc, has-adz|hasStickyAd, div[class^="SetPage"], stay)
 raider.io##.text-white > .slds-m-bottom--large
 realmicentral.com##.jnews_inline_related_post, .jnews_related_post_container, .theiaStickySidebar
 reddit.com##.create.sidebox, .happening-now, .hohoho.sidebox, .premium-banner
@@ -168,10 +169,10 @@ webmd.com##.main-container-3.main-container, .dfp-native.top-picks, .dfp-native.
 weforum.org##div.sidebar-tout:nth-of-type(3), .sidebar-tout--impact-stories.sidebar-tout, div.sidebar-tout:nth-of-type(5), .list-group.st__content-block--searchable-list-default.st__content-block--searchable-list.st__content-block, .highlights-section--featured.highlights-section
 wololo.net##.sidebar-content, #comments
 wsj.com###popular-articles, .i-amphtml-layout.i-amphtml-built.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.i-amphtml-element.dynamic-inset-iframe, .media-object-video--standard.article__inset__video.media-object-video, .article__inset--wrap.article__inset--type-InsetPodcast.article__inset.scope-web\,mobileapps.wrap.type-InsetPodcast.media-object, .article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.inline.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetArticlesRelatedByType.article__inset.scope-web\|mobileapps.wrap.type-InsetArticlesRelatedByType.media-object, .article__inset--wrap.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.wrap.type-InsetDynamic.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetRichText.article__inset.scope-web\|mobileapps.wrap.type-InsetRichText.media-object, .article__inset--wrap.article__inset--type-InsetStrategicIntelligence.article__inset.wrap.type-InsetStrategicIntelligence.media-object, .at16-offset1.hide8.hide4.col4.column, .article__inset--inline.article__inset--type-InsetRichText.article__inset.scope-web.inline.type-InsetRichText.media-object, div.article__inset--inline.article__inset--type-InsetDynamic.article__inset.scope-web\|mobileapps.inline.type-InsetDynamic.media-object > .article__inset__dynamic.dynamic-inset-container, #comments_sector
-yahoo.com###wafer-trending-bar, .wafer-sticky.stream. .caas-non-sticky-sda
+yahoo.com###wafer-trending-bar, .wafer-sticky.stream, .caas-non-sticky-sda
 ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
-youtube.com###sponsor-button, .ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, div:has( > [href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"]), ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, #sponsor-button, ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 zoosk.com##.article__related, .newsletter
 
 ||hlsmedia.gannett-cdn.com^$3p
