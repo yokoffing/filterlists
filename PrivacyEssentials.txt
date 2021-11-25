@@ -80,7 +80,7 @@
 ||getpaloma.com^$3p
 ||go.xhamster.com
 ||goacoustic.com^$3p
-||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~youtube.com
+!||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
 ||govx.com^$3p
 ||hsforms.net^$3p
 ||ibb.co^
