@@ -135,7 +135,7 @@ salesforce.com##.helpButton
 salon.com##.right-rail
 scientificamerican.com##.aside-block, .aside-block__body, .aside-product, .special--report, .spw__banner, .medium-down-hide.opinion-template--newsletter.flex-column--full-mobile.flex-column--25 > figure, .opinion-article--social-date.medium-down-hide.flex-column--25 > .opinion-template--headerBody-social-icons
 scmp.com##.article-comment-bottom-widget, .others__more-on-this > .related-article
-!seekingalpha.com##.adsbygoogle, .sa_bh_nt.sa_hc_bjb.paywall-full-content.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y, .sa_bh_nt.sa_hc_bjb.sa_eg_bas.sa_zv_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y, .sa_bl_vn.sa_bjf_y, .sa_bh_nt.sa_hc_bjb.paywall-full-content.sa_eg_bas.sa_beb_bja.sa_bh_ie.sa_hc_bja.sa_bg_ez.sa_bg_es.sa_bg_ej.sa_oo_chr.sa_cx_y, a[href^="https://subscriptions.seekingalpha.com/"]:upward(div[class][data-test-id])
+seekingalpha.com##.adsbygoogle
 showbiz411.com##.comments, .similar-articles.art-img-text-down, .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4
 slate.com##.in-article-recirc
 sports.yahoo.com###wafer-trending-bar, .B\(a\)--maw1064.Pos\(s\)--maw1064.W\(300px\).aside-sticky, .wafer-loader-success.wafer-module-complete.Mstart\(-60px\)--maw1080.Maw\(557px\)--maw1080.Maw\(667px\).sportsmodule-device-desktop.wafer-rapid-module.wafer-module.sports-module, .wafer-rapid-tracked.wafer-rapid-module.monalixa, .wafer-sticky.stream, .caas-non-sticky-sda
