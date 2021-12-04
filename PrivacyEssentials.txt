@@ -30,7 +30,6 @@
 ||altmetric.com^$3p
 ||aolcdn.com^$3p,domain=~aol.com
 ||artnews.com^$3p
-||aspnetcdn.com^$3p
 ||audioeye.com$3p
 ||b7b06aa9a2.com
 ||bbb.org^$3p
