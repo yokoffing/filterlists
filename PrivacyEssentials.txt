@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 02 December 2021
+! Updated: 04 December 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -10,6 +10,12 @@
 !#include click2load.txt
 !#endif
 
+!||appspot.com^$3p,domain=~apnews.com|~chrtr.io
+!||ceros.com^$3p
+!||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
+!||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
+!||storage.googleapis.com^$3p,domain=~blog.google|~google.com
+!||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~kitchenaid.com|~patreon.com|~poocoin.app
 ||21ninety.com^$3p
 ||7882f4ee63.com
 ||abtapp.com^$3p
@@ -23,7 +29,6 @@
 ||algolia.io^$3p
 ||altmetric.com^$3p
 ||aolcdn.com^$3p,domain=~aol.com
-!||appspot.com^$3p,domain=~apnews.com|~chrtr.io
 ||artnews.com^$3p
 ||aspnetcdn.com^$3p
 ||audioeye.com$3p
@@ -39,8 +44,8 @@
 ||botframework.com^$3p
 ||buzzfeed.com^$3p
 ||byteoversea.com^$3p
+||campusexplorer.com^$3p
 ||capturehighered.net^$3p
-!||ceros.com^$3p
 ||chatcreate.com^$3p
 ||chilipiper.com^$3p
 ||cloudquote.net^$3p
@@ -56,6 +61,7 @@
 ||cxense.com^$important
 ||datatables.net^$3p
 ||decider.com^$3p
+||disquscdn.com^$3p
 ||dmgmediaprivacy.co.uk^$3p,important
 ||docraptor.com^$3p
 ||dowjoneson.com^$3p
@@ -66,6 +72,7 @@
 ||ecorebates.com$3p
 ||edge.microsoft.com^$3p
 ||elfsight.com^$3p
+||enormapps.com^$3p
 ||evvnt.com^$3p
 ||ex.co^$3p
 ||ezoiccdn.com^$3p
@@ -76,12 +83,13 @@
 ||footwearnews.com^$3p
 ||forbes.com^$3p,domain=quora.com
 ||fwmrm.net^$important
+||getcarro.com^$3p
 ||getmetrical.com^$3p
 ||getpaloma.com^$3p
 ||go.xhamster.com
 ||goacoustic.com^$3p
-!||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
 ||govx.com^$3p
+||hsforms.com^$3p
 ||hsforms.net^$3p
 ||ibb.co^
 ||inc.com^$3p
@@ -94,18 +102,22 @@
 ||ip.sp^
 ||ipgeolocation.io^
 ||iris.tv^$3p
+||joinclyde.com^$3p
 ||kaltura.com^$3p
+||kartra.com^$3p
 ||ketchcdn.com^$3p
+||kickbooster.me^$3p
 ||klaviyo.com^$3p
 ||knotch-cdn.com^$3p
 ||kount.net^$3p
+||kustomerapp.com^$3p
 ||launchdarkly.com^
 ||liveperson.net^$3p
 ||lmaxdigital.io
+||loox.io^$3p
 ||lpsnmedia.net^$3p
 ||mailchimp.com^$3p
 ||maps.google.com^$3p,domain=~google.com
-||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
 ||maps.gstatic.com^$3p,domain=~google.com
 ||marketingautomation.services^$3p
 ||marketo.com^$important
@@ -123,10 +135,12 @@
 ||ntv.io^$3p
 ||nvidpn.com^$3p
 ||octaneai.com^$3p
+||okendo.io^$3p
 ||oko.net^$3p
 ||omnivirt.com^$3p
 ||onetrust.com^$3p,important
 ||online-metrix.net^$3p
+||opumo.net^$3p
 ||outbrain.com^$3p,important
 ||paddle.com^$3p
 ||payments.amazon.com^$3p,important
@@ -145,6 +159,7 @@
 ||queryly.com^$3p
 ||rackcdn.com^$3p
 ||ravenjs.com^$3p
+||rch.io^$3p
 ||rebuyengine.com^$3p
 ||riddle.com^$3p
 ||rise-ai.com^$3p
@@ -157,6 +172,8 @@
 ||secomapp.com^$3p
 ||securemetrics.apple.com^$3p
 ||shadowandact.com^$3p
+||shop.app^$3p
+||shopcircleapp.co^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
 ||simplecast.com^$3p
@@ -171,7 +188,6 @@
 ||stamped.io^$3p
 ||staticxx.s3.amazonaws.com^$3p
 ||steadfastseat.com^$3p
-!||storage.googleapis.com^$3p,domain=~blog.google|~google.com
 ||stormgain.com^$3p
 ||storystream.ai^$3p
 ||strossle.com^$3p,important
@@ -180,7 +196,9 @@
 ||swymrelay.com^$3p
 ||syndication.twitter.com^$important
 ||t.co^$3p,important,domain=~twitter.com
+||talkable.com^
 ||tbs.com^$3p,domain=att.com
+||teams.microsoft.com^$3p
 ||telerik.com^$3p
 ||thunderhead.com^$3p
 ||tiqcdn.com^$3p,domain=~calvinklein.*|~ups.com
@@ -195,9 +213,9 @@
 ||trustx.org^$3p,important
 ||trutv.com^$3p,domain=att.com
 ||tsyndicate.com^$3p,important
+||tumblr.com^$3p
 ||typeform.com^$3p
 ||ubembed.com^$3p
-!||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~kitchenaid.com|~patreon.com|~poocoin.app
 ||unsplash.com^$3p
 ||userway.org^$3p
 ||vanillicon.com^$3p
@@ -205,17 +223,16 @@
 ||vidible.tv^$3p
 ||virtualearth.net^$3p,domain=~bing.com
 ||vxxx.com^$3p
+||vyrl.co^$3p
 ||walkme.com^$3p
 ||walletconnect.org^$3p
 ||wearehearken.eu^$3p
+||weglot.com^$3p
 ||whirlpool.com$3p
 ||whisk.com^$3p
 ||wholesalegorilla.app^$3p
 ||zencdn.net^
 ||zqtk.net^$important
-
-! May cause issue if you don't use Bypass Paywalls Clean:
-$removeparam=st,domain=wsj.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 !||gstatic.com/firebasejs/
