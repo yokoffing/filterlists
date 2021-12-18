@@ -19,6 +19,7 @@ coindesk.com##i
 cointelegraph.com##p strong:has-text(/^Related/):upward(p)
 cryptonews.net##p strong:has-text(/^Related/):upward(p)
 crypto-news-flash.com##p strong:has-text(/^Related/):upward(p)
+crypto-news-flash.com##p strong:has-text(/^Also Read/):upward(p)
 fayobserver.com##p strong:has-text(/^More/):upward(p)
 fayobserver.com##p strong:has-text(/^Related/):upward(p)
 finbold.com##p strong:has-text(/^Related/):upward(p)
