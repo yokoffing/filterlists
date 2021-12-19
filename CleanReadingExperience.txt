@@ -35,6 +35,7 @@ nbcnews.com##p strong:has-text(/^Download the/):upward(p)
 newyorker.com##.ticker-wrapper.ticker-row.grid-items-0.grid-margins.grid
 people.com##p strong:has-text(/^RELATED/):upward(p)
 people.com##p strong:has-text(/^Want/):upward(p)
+people.com##p strong:has-text(/^Never/):upward(p)
 portswigger.net##[href="*"] > .bold, p.text-center, .bold.text-center
 time.com##p strong:has-text(/^Read more/):upward(p)
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
