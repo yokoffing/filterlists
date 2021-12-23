@@ -1,6 +1,6 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 19 December 2021
+! Updated: 23 December 2021
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -40,6 +40,7 @@ portswigger.net##[href="*"] > .bold, p.text-center, .bold.text-center
 time.com##p strong:has-text(/^Read more/):upward(p)
 techtimes.com##p strong:has-text(/^Also Read/):upward(p)
 techtimes.com##p strong:has-text(/^Read Also/):upward(p)
+theatlantic.com###injected-recirculation-link-2, #injected-recirculation-link-1, #injected-recirculation-link-0, #injected-recirculation-link-3, #injected-recirculation-link-4, #injected-recirculation-link-5, .ArticleMostPopular_root__PvMRH, .ArticleRelatedContentModule_notchedModule__aMW7_, .ArticleRelatedContentMagazine_root__O1NAf, .NonMeteredNudge_root__mBW5s, .SubOnlyPromo_root__ZC4ri
 theintercept.com##.InstreamPromo--promo.InstreamPromo
 theintercept.com##div.PromoteRelatedPost-promo:nth-of-type(6)
 theintercept.com##div.PromoteRelatedPost-promo:nth-of-type(12)
