@@ -16,6 +16,7 @@ youporngay.com###videoComments, .inlineTooltipCntr
 pornmd.com##.suggestions-container
 tubeon.com##.livecams, #spot_video_underplayer_livecams
 gaymenring.com##.b-randoms-col
+viptube.com###spot_video_underplayer_livecams
 allboner.com###commentView, .more-videos
 boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"], .top-tags-box, div.js-toggle-content-wrapper:nth-of-type(7), .js-toggle-content.adblock, div.related-content:nth-of-type(1), .related-content-wrapper
 !drtuber.com##.aside_panel_video, .section_frame_tools.section, .inner_recent.recent_box
