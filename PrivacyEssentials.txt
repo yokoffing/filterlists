@@ -218,7 +218,7 @@
 ||studiostack.com^$3p
 ||swymrelay.com^$3p
 ||syndication.twitter.com^$important
-||t.co^$document,important,domain=~twitter.com
+||t.co^$document,domain=~twitter.com
 ||talkable.com^
 ||tbs.com^$3p,domain=att.com
 ||teams.microsoft.com^$3p
