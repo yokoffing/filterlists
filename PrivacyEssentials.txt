@@ -78,7 +78,6 @@
 ||concert.io^$3p,important
 ||condenast.io^$3p
 ||conductor.com^$3p
-||consensu.org^$3p,important
 ||conviva.com^$3p
 ||cookielaw.org^$3p,important
 ||createsend1.com^$3p
@@ -258,9 +257,11 @@
 ||zqtk.net^$important
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
-!||gstatic.com/firebasejs/
-!||instagram.com^$3p
-!||search.brave.com/api/feedback^
+||consensu.org^$important,redirect=noopjs
+||viafoura.co^
+||trust-provider.com^
+9anime.*##+js(nosiif, (t))
+fmovies.*##+js(nosiif, try)
 ||2mdn.net^$3p,important
 ||addthis.com^$3p,important
 ||adnxs.com^$3p,important
