@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 04 January 2022
+! Updated: 05 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -15,7 +15,23 @@
 !||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
 !||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
 !||storage.googleapis.com^$3p,domain=~blog.google|~google.com
-!||unpkg.com^$3p,domain=~athenahealth.com|~firehousesubs.com|~kitchenaid.com|~patreon.com|~poocoin.app
+||adziff.com^$all
+||provely.io^$all
+||redventures.io^$3p
+||altrulabs.com^$3p
+||brazenconnect.com^$3p
+||mimecast.com^$3p
+||paradox.ai^$all
+||rawgit.com^$3p
+||fengkongcloud.com^$all
+||srmdata-us.com^$all
+||indy100.com^$3p
+||webkul.com^$3p
+||hubapi.com^$3p
+||usehero.com^$3p
+||flipp.com^$3p
+||iheart.com^$all,domain=~iheart.com
+||moonpay.io^$all
 ||audiohook.com^$3p
 ||linkmaker.itunes.apple.com^
 ||lowfruitsolutions.com^$3p
@@ -202,7 +218,7 @@
 ||studiostack.com^$3p
 ||swymrelay.com^$3p
 ||syndication.twitter.com^$important
-||t.co^$3p,important,domain=~twitter.com
+||t.co^$document,important,domain=~twitter.com
 ||talkable.com^
 ||tbs.com^$3p,domain=att.com
 ||teams.microsoft.com^$3p
