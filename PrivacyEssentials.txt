@@ -100,7 +100,7 @@
 ||ex.co^$3p
 ||ezoiccdn.com^$3p
 ||fairchildlive.com^$3p
-||fbcdn.net^$3p,important,domain=~facebook.com
+||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
 ||fbot.me^$3p
 ||firebaseinstallations.googleapis.com^
 ||footwearnews.com^$3p
