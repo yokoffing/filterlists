@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 23 December 2021
+! Updated: 7 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -260,6 +260,28 @@ twitter.com##.r-usiww2:remove()
 ! youtube.com##.ytp-ad-progress-list, #player-ads, #watch-action-panels, #chat, .ytp-ce-covering-overlay, .subscribecard-endscreen, .ytp-ce-element, #ytd-promoted-video-renderer, #watch-sidebar-live-chat, #pla-shelf, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander, .hats-categorical-style-vertical, #movie-upsell-card, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup, .style-default.force-icon-button.ytd-menu-renderer.style-scope, #sponsor-button, .ytp-miniplayer-button, .ytd-metadata-row-header-renderer.style-scope .html5-stop-propagation.ytp-drawer, #masthead-ad, #ticker.ytd-masthead, #merch-shelf, #offer-module, .ytp-cards-teaser, .ytp-paid-content-overlay, .ytp-pause-overlay, .ytp-title-channel, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope, .ytd-search-pyv-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-merch-shelf-renderer, #secondarylinks, #content > .ytd-metadata-row-header-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint, #hover-overlays.style-scope.ytd-thumbnail, #dismissable.ytd-compact-promoted-item-renderer.style-scope, #dismissable.ytd-rich-shelf-renderer.style-scope, #clarify-box, .ytd-vertical-product-card-renderer, .ytd-primetime-promo-renderer, .ytd-inline-survey-renderer, #consent-bump, ytd-rich-section-renderer, .ytp-paid-content-overlay-text, ytp-promotooltip-wrapper, [href="/premium"], .yt-tooltip-renderer.style-scope, ytd-feed-nudge-renderer:remove()
 ||youtube.com^*/endscreen.js
 ||youtube.com^*/annotations_module.js
+
+! from https://github.com/DandelionSprout/adfilt/blob/master/TwitterPureReadingExperience.txt
+! Removes the Trending list
+twitter.com##div[data-testid=sidebarColumn] section > div[aria-label]
+||twitter.com/i/trends?
+twitter.com##.trends-inner
+twitter.com##.r-1u4rsef.r-9cbz99
+
+! Removes "Who to follow" box headers and footers from user timelines
+twitter.com#?#div[data-testid=primaryColumn] div:-abp-has(> div > div > h2[role=heading] > div[dir=auto] > span)
+twitter.com#?#div:-abp-has(> div > a[href^="/i/connect_people"])
+! https://github.com/DandelionSprout/adfilt/issues/122
+twitter.com#?#nav[aria-label][role=navigation] + div > section > div[aria-label^=Timeline] > div[style] > div[style]:-abp-has([data-testid$=-follow])
+
+! Removes the "You might like" section / "Who to follow"
+twitter.com##div[data-testid=sidebarColumn] div[style="margin-top: 0px;"] + div:last-of-type aside
+twitter.com#?#div[data-testid=sidebarColumn] div[style="margin-top: 0px;"] + div:last-of-type > div > div > div > div:-abp-has(> aside[role])
+
+! Removes the "Related users" sections
+twitter.com##.RelatedUsers
+twitter.com##.WhoToFollow
+twitter.com##div[data-testid=sidebarColumn] > div > div > div > div > div > div > div:nth-of-type(3)
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
 twitch.tv##.channel-panels-container
