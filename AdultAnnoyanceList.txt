@@ -1,10 +1,12 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 23 December 2021
+! Updated: 8 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
 
+mrgay.com##.video-info > section, article, div.wrapper > section
+onlygayvideo.com##.table
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
 7vids.com##.media-spot
 gotporn.com##.clearfix.video-items-feed > li.live-video-item.video-item > .gravity-push.video-item-link, .sidebar
