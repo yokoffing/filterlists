@@ -11,6 +11,41 @@
 ##[class*="sponsorlink"]
 ||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
 ||www.rugfreecoins.com/img/*4.gif$image||www.rugfreecoins.com/img/*4.gif$image
+abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
+aljazeera.com##.archipelago.article-pre-footer.article-more-from-author
+arstechnica.com###promoted-comments, #article-footer-wrap
+bestbuy.com##.shopping-assistant-accordion.c-accordion
+blog.torproject.org##.comments
+cointelegraph.com##.post-content__accent_big.post-content__accent
+ctrl.blog###related
+ctvnews.ca##.sidebar, div.graybox.list.element > .linklist, .related
+davescomputertips.com##.comments-area, .sidebar-main
+digitaltrends.com##.b-single__grid.b-grid
+driveteslacanada.ca##.mh-sidebar.mh-widget-col-1, .mh-related-content, .clearfix.mh-row.mh-post-nav
+extremetech.com##.widget_recentpostswidget.widget
+fandom.com##.mcf-wrapper, .wds-global-footer__main
+foundation.mozilla.org##.d-print-none.container
+geckoandfly.com###custom_html-4 > .custom-html-widget.textwidget, .yarpp-related, .comments-area
+hindustantimes.com##.darkBg.moreFrom, .relatedStory > .widget-impression-candidate.htSlider
+imyfone.com##.base-footer-banner
+kirupa.com###rightContents, #sigNewsletter
+knowtechie.com##.relative.mvp-post-content-out > .relative, .relative.left.mvp-sec-pad > .relative.left, #mvp-content-main > ul, #h-editors-recommendations
+lifehacker.com###js_moreFromNetwork, #secondScroll
+maketecheasier.com##.sidebar-widget.sidebar-posts, .related-footer-grid
+makeuseof.com##.sidebar-trending, .sidebar-sticky, .w-article-related, .next-btn.sentinel-article-nextArticle
+marketplace.org##.lazyloaded.c-simple-newsletter-subscribe, .mp-show-latest-episodes__body, .top-latest-stories, .jp-relatedposts, .original-content > .padded
+news.bitcoin.com##.bottom_article_widgets, .navigation
+oxygen.com##.blog-post__aside, .blog-post__related-content, .blog-post__vertical_description
+people.com##.auto-advance.component
+popsugar.com##.page-footer-sidebar, .page-footer-main, .infinite-scroll-section-wrapper, .clearfix.related-stories
+privacyinternational.org##.block-views-blockrelated-content4-items-block--block-2.block-views.block.views-element-container
+sportskeeda.com###keeda-comments-container
+swisscows.com##.tell-friends
+techradar.com##.read-more-container, #expanding-articles, .hawk-main-editorialised
+thehill.com##.sidebar.column.region-sidebar-second.region, .es_recommended_content.incontent_widgets
+thelineofbestfit.com##.related-section > .gutter-wrapper, .reviews-section > .layout-wrap, .feature-signup, .signup-sidebar.sidebar-section
+thewindowsclub.com##.widget-area.sidebar-primary.sidebar, .related-posts
+zdnet.com##.related-stories.module, .alignRight.relatedContent
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 accuweather.com##.full-mobile-width.content-module.article-newsfeed
 aidsmap.com##.region-sidebar.region
