@@ -221,6 +221,8 @@ zoosk.com##.article__related, .newsletter
 ||pico.tools^$3p
 ||livechatinc.com^$3p
 ||salesforceliveagent.com
+||forum.kirupa.com/embed/comments$subdocument
+||yappaapp.com^$3p
 
 ! YT Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
