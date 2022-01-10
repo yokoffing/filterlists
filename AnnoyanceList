@@ -222,6 +222,20 @@ zoosk.com##.article__related, .newsletter
 ||livechatinc.com^$3p
 ||salesforceliveagent.com
 
+! YT Subscriptions tab - Remove all vids shorter than 2 minutes
+! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
+! YT Side Panel/Related Vids - Remove all vids shorter than 2 minutes
+! youtube.com##ytd-watch-flexy ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-watch-flexy ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-compact-video-renderer)
+! YT Search - Remove all vids shorter than 2 minutes
+! youtube.com##ytd-search ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-search ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-video-renderer)
+! YT Home - Remove all vids shorter than 2 minutes
+! youtube.com##ytd-browse[page-subtype="home"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="home"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-rich-item-renderer)
+
+! YouTube: Hide Like count to match Dislike
+! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
+youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
+
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
 9anime.*##.popover, #tags, .hd-buttons.row, #comment, .comment.widget > .widget-title, .comment.widget > .widget-body, .socials, #social, .twitter-follow-button, .sticky, .share, .text-center.crop.widget, .text-center.widget, .azlist, .mb20, [href*="twitter.com"], .alert, #fb-root, [href*="dynamicadx.com/"], [href*="popmonetizer.com/redirect"], .textlinks:remove()
