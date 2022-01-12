@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 11 January 2022
+! Updated: 11 January 2022d
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -11,6 +11,14 @@
 ##[class*="sponsorlink"]
 ||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
 ||www.rugfreecoins.com/img/*4.gif$image||www.rugfreecoins.com/img/*4.gif$image
+bleepingcomputer.com##.articleBody > .cz-related-article-wrapp
+entrepreneur.com##div.mb-16:nth-of-type(7), div.mb-16:nth-of-type(5), #lazy-load-container, .center.m4.s12.col
+fossbytes.com##.elementor-section-height-default.elementor-section-full_width.elementor-element-53b539f1.elementor-element.elementor-top-section.elementor-section, .elementor-hidden-mobile.elementor-hidden-tablet.elementor-element-73e7ee5c.elementor-element.elementor-top-column.elementor-col-33.elementor-column
+motorious.com##.sidebar, .post-feed.row, .post-with-sidebar.post-access-public.content-wrap.tag-newsletter.tag-american.tag-classic.tag-features-3.post > .content > blockquote
+mspoweruser.com##.widget-area.col-md-4
+scotthelme.co.uk##.outer.read-next
+threatpost.com##.c-fixed-sidebar-layout--336\@md.o-row > .c-sidebar.o-col, .slick-track, .c-comment-reply
+threatpost.com##[href^="https://threatpost.com/infosec-insider-subscription-page/"]
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
 aljazeera.com##.archipelago.article-pre-footer.article-more-from-author
 arstechnica.com###promoted-comments, #article-footer-wrap
@@ -248,6 +256,7 @@ zoosk.com##.article__related, .newsletter
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
 ||yotpo.com^$3p
+||lifehacker.com/embed/comments^$subdocument
 
 ! Annoying anti-adblock
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
