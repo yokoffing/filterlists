@@ -239,7 +239,7 @@ yahoo.com###wafer-trending-bar, .wafer-sticky.stream, .caas-non-sticky-sda
 ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 !youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, #sponsor-button, ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, #sponsor-button, ytd-horizontal-card-list-renderer
+!youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, #sponsor-button, ytd-horizontal-card-list-renderer
 zoosk.com##.article__related, .newsletter
 
 ||hlsmedia.gannett-cdn.com^$3p
@@ -261,7 +261,7 @@ zoosk.com##.article__related, .newsletter
 
 ! YT Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
-youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
+! youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
 ! YT Side Panel/Related Vids - Remove all vids shorter than 2 minutes
 ! youtube.com##ytd-watch-flexy ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-watch-flexy ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-compact-video-renderer)
 ! YT Search - Remove all vids shorter than 2 minutes
@@ -271,7 +271,7 @@ youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time
 
 ! YouTube: Hide Like count to match Dislike
 ! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
-youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
+! youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
@@ -305,8 +305,7 @@ thewrap.com##.wallkit-paywall-block
 thewrap.com##.wrappro-paywall-member-link-for-reader
 torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer__widget--stats, .preview-article__comments, .hero__comments, .socials:remove()
 translate.google.com##.notification-area,.gt-cc:remove()
-!twitter.com##+js(cookie-remover, /^/)
-!twitter.com##.r-usiww2:remove()
+
 ! Block YouTube annoyances, but allow comments
 ! youtube.com##.ytp-ad-progress-list, #player-ads, #watch-action-panels, #chat, .ytp-ce-covering-overlay, .subscribecard-endscreen, .ytp-ce-element, #ytd-promoted-video-renderer, #watch-sidebar-live-chat, #pla-shelf, .yt-uix-expander-collapsed.live-chat-expander.yt-uix-expander, .hats-categorical-style-vertical, #movie-upsell-card, .yt-lockup-movie-vertical-poster.yt-lockup-tile.yt-lockup, .style-default.force-icon-button.ytd-menu-renderer.style-scope, #sponsor-button, .ytp-miniplayer-button, .ytd-metadata-row-header-renderer.style-scope .html5-stop-propagation.ytp-drawer, #masthead-ad, #ticker.ytd-masthead, #merch-shelf, #offer-module, .ytp-cards-teaser, .ytp-paid-content-overlay, .ytp-pause-overlay, .ytp-title-channel, ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope, .ytd-search-pyv-renderer, .ytd-promoted-sparkles-text-search-renderer, .ytd-merch-shelf-renderer, #secondarylinks, #content > .ytd-metadata-row-header-renderer.style-scope.content > .yt-formatted-string.style-scope.yt-simple-endpoint, #hover-overlays.style-scope.ytd-thumbnail, #dismissable.ytd-compact-promoted-item-renderer.style-scope, #dismissable.ytd-rich-shelf-renderer.style-scope, #clarify-box, .ytd-vertical-product-card-renderer, .ytd-primetime-promo-renderer, .ytd-inline-survey-renderer, #consent-bump, ytd-rich-section-renderer, .ytp-paid-content-overlay-text, ytp-promotooltip-wrapper, [href="/premium"], .yt-tooltip-renderer.style-scope, ytd-feed-nudge-renderer:remove()
 ! ||youtube.com^*/endscreen.js
