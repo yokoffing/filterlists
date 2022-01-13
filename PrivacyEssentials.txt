@@ -85,6 +85,7 @@
 ||concert.io^$3p,important
 ||condenast.io^$3p
 ||conductor.com^$3p
+||connect.facebook.net^
 ||conviva.com^$3p
 ||cookielaw.org^$3p,important
 ||createsend1.com^$3p
@@ -224,6 +225,7 @@
 ||syndication.twitter.com^$important
 ||talkable.com^
 ||tbs.com^$3p,domain=att.com
+||t.co^$3p,domain=~twitter.com
 ||teams.microsoft.com^$3p
 ||telerik.com^$3p
 ||thunderhead.com^$3p
@@ -279,15 +281,6 @@
 ! Blocks Paypal and Express Checkouts using Shopify:
 !||paypal.com^$3p,domain=~ebay.com
 !||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com
-
-! Social Tracking
-||facebook.com^$3p,important,domain=~instagram.com
-||facebook.net^$3p,important
-||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
-||twitter.com^$important,3p
-||t.co^$3p,domain=~twitter.com
-||instagram.com^$important,3p
-||tiktok.com^$important,3p
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||consensu.org^$important,redirect=noopjs
