@@ -6,10 +6,6 @@
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
-!#if ext_ublock
-!#include click2load.txt
-!#endif
-
 !||appspot.com^$3p,domain=~apnews.com|~chrtr.io
 !||ceros.com^$3p
 !||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
@@ -389,3 +385,17 @@ fmovies.*##+js(nosiif, try)
 ||dcf.espn.com^$badfilter
 ! @@||fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js$script,1p
 ! ||dcf.espn.com^,domain=nationalgeographic.com
+
+!#if ext_ublock
+
+! GOOGLE
+! Hide search results
+! Format: google.*###search .g:has(a[href*="example.com"])
+google.*##.g:has(a[href*="https://www.coursehero.com/"]) 
+google.*##.g:has(a[href*="https://sciemce.com/"])
+||readaloud.googleapis.com^$3p
+||maps.googleapis.com^$3p,important,domain=~airbnb.com|~drinkbev.com
+
+!#include click2load.txt
+
+!#endif
