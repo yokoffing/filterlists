@@ -15,8 +15,7 @@
 !||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
 !||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
 !||storage.googleapis.com^$3p,domain=~blog.google|~google.com
-!||recommendation-hybrid.wpdigital.net^$all
-!||inv-covid-data-prod.elections.aws.wapo.pub^$all
+||recommendation-hybrid.wpdigital.net^$all
 ||ewscloud.com^
 ||msgstore.www.notion.so^$all
 ||justapinch.com^
@@ -282,6 +281,16 @@
 ! Blocks Paypal and Express Checkouts using Shopify:
 !||paypal.com^$3p,domain=~ebay.com
 !||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com
+
+! Apple Music sample clips
+||js-cdn.music.apple.com^$3p,domain=~apple.com
+rollingstone.com##.c-gallery-apple-music-player
+
+! Blocks ticker data on various sites
+||tradingview.com^$3p
+
+! Prevents downloading Reddit social icon on sites
+||redditstatic.com^$all,domain=~reddit.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||consensu.org^$important,redirect=noopjs
