@@ -286,6 +286,13 @@ zoosk.com##.article__related, .newsletter
 ||forum.kirupa.com/embed/comments$subdocument
 ||yappaapp.com^$3p
 
+! Block requests to unused images
+||bgr.com^$all,domain=dirt.com
+||goldderby.com^$all,domain=dirt.com
+||rollingstone.com^$all,important,domain=dirt.com
+||spy.com^$all,domain=dirt.com
+||tvline.com^$all,domain=dirt.com
+
 ! YT Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
 ! youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
