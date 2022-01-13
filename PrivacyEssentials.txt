@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 12 January 2022
+! Updated: 13 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -107,7 +107,6 @@
 ||ex.co^$3p
 ||ezoiccdn.com^$3p
 ||fairchildlive.com^$3p
-||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
 ||fbot.me^$3p
 ||firebaseinstallations.googleapis.com^
 ||footwearnews.com^$3p
@@ -223,7 +222,6 @@
 ||studiostack.com^$3p
 ||swymrelay.com^$3p
 ||syndication.twitter.com^$important
-||t.co^$3p,domain=~twitter.com
 ||talkable.com^
 ||tbs.com^$3p,domain=att.com
 ||teams.microsoft.com^$3p
@@ -265,7 +263,7 @@
 ||remixd.com^$3p
 ||trustpilot.com^$3p
 
-! 3rd-party Payment Vendors:
+! 3rd-party Payment Vendors / "Buy Now, Pay Later":
 ||pay.google.com^$3p
 ||payments-amazon.com^$3p
 ||affirm.com$3p
@@ -281,6 +279,15 @@
 ! Blocks Paypal and Express Checkouts using Shopify:
 !||paypal.com^$3p,domain=~ebay.com
 !||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com
+
+! Social Tracking
+||facebook.com^$3p,important,domain=~instagram.com
+||facebook.net^$3p,important
+||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
+||twitter.com^$important,3p
+||t.co^$3p,domain=~twitter.com
+||instagram.com^$important,3p
+||tiktok.com^$important,3p
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||consensu.org^$important,redirect=noopjs
@@ -315,8 +322,6 @@ fmovies.*##+js(nosiif, try)
 ||doubleclickbygoogle.com^$3p,important
 ||exoclick.com^$3p,important
 ||exosrv.com^$3p,important
-||facebook.com^$3p,important,domain=~instagram.com
-||facebook.net^$3p,important
 ||firebase.googleapis.com^
 ||getsentry.com^$3p
 ||gleamjs.io^
@@ -349,7 +354,6 @@ fmovies.*##+js(nosiif, try)
 ||tawk.to^$3p
 ||tinypass.com^
 ||typekit.net^
-||twitter.com^$important,3p
 ||ubembed.com^
 ||vk.com^$3p
 ||washingtonpost.com/pwapiv2/$xhr,1p
