@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 12 January 2022
+! Updated: 13 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -11,6 +11,23 @@
 ##[class*="sponsorlink"]
 ||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
 ||www.rugfreecoins.com/img/*4.gif$image||www.rugfreecoins.com/img/*4.gif$image
+nintendolife.com###body > .optional, .related-content
+rollingstone.com##.c-related-links-wrapper, .l-section--no-separator.l-section, .l-blog__secondary
+dirt.com##.lrv-u-margin-lr-auto\@desktop.u-width-300\@desktop.lrv-u-margin-b-2\@mobile-max.lrv-a-space-children--2.lrv-a-space-children-vertical.lrv-a-grid-item.a-article-grid__aside > .\/\/.related-article, .lrv-u-background-color-grey-brand.lrv-u-padding-tb-2.\/\/.newswire, .lrv-u-margin-tb-2.\/\/.related-article > .lrv-a-wrapper, #comments-loaded
+fonedog.com##.text-center.articleSideProduct.bg-gradient-white.articleSideItem, .articleSideRecommend.articleSideItem, .text-center.articleRateColumn.articleSideItem, .reviewColumn, .text-center.relatedProducts
+technospot.net##.td-ss-main-sidebar, .jp-relatedposts
+ipaddressguide.org##.recent-posts-extended.rpwe_widget.widget, .img-pos-top.related-grid.entry-related.entry--item, .comments-area, .post-navigation.navigation
+koaa.com##.TrackedSidebarPromo.AsidePromo
+sitecheck.sucuri.net##.chat-widget-wrapper
+tomshardware.com###sidebar
+polygon.com##.u-desktop-only, .c-comments, .c-compact-river, .c-related-list
+gizmodo.com###js_moreFromNetwork
+insideevs.com##.ie_transform.sidebar, .relatedContent-new
+gamerant.com###secondary, .next-single, .next-btn.sentinel-article-nextArticle, .w-article-related, .related-single, .w-article-related
+vice.com##.recirc-footer, .main-content > div > .observer > .observer__content > .short-form > .short-form__body > .short-form__body__right-rail > .sticky-wrapper--auto-fit.sticky-wrapper.related-sidebar > .sticky-wrapper--m-b-40.sticky-wrapper--pad-bottom-10 > div > .related__sidebar.sidebar
+citylimits.org###sidebar > .widget-area, #comments, .footer-skyline
+thestranger.com##.article-contribution-footer, .related-content.component
+blog.cloudflare.com##.center.mw7.flex-wrap.flex-row.flex.ph0-l.ph3.pv4
 bleepingcomputer.com##.articleBody > .cz-related-article-wrapp
 entrepreneur.com##div.mb-16:nth-of-type(7), div.mb-16:nth-of-type(5), #lazy-load-container, .center.m4.s12.col
 fossbytes.com##.elementor-section-height-default.elementor-section-full_width.elementor-element-53b539f1.elementor-element.elementor-top-section.elementor-section, .elementor-hidden-mobile.elementor-hidden-tablet.elementor-element-73e7ee5c.elementor-element.elementor-top-column.elementor-col-33.elementor-column
@@ -257,6 +274,7 @@ zoosk.com##.article__related, .newsletter
 ||championat.com^$3p
 ||yotpo.com^$3p
 ||lifehacker.com/embed/comments^$subdocument
+||jetpack.wordpress.com/jetpack-comment/$subdocument
 
 ! Annoying anti-adblock
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
