@@ -17,6 +17,7 @@
 !||storage.googleapis.com^$3p,domain=~blog.google|~google.com
 !||recommendation-hybrid.wpdigital.net^$all
 !||inv-covid-data-prod.elections.aws.wapo.pub^$all
+||ewscloud.com^
 ||msgstore.www.notion.so^$all
 ||justapinch.com^
 ||sphereup.com^$3p
