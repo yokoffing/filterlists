@@ -10,6 +10,7 @@
 !||ceros.com^$3p
 !||googleusercontent.com^$3p,domain=~chromium.org|~google.com|~opensea.io|~youtube.com
 !||maps.googleapis.com^$3p,domain=~drinkbev.com|~google.com
+!||readaloud.googleapis.com^$3p
 !||storage.googleapis.com^$3p,domain=~blog.google|~google.com
 ||media.licdn.com^,domain=~linkedin.com
 ||recommendation-hybrid.wpdigital.net^$all
@@ -397,8 +398,6 @@ fmovies.*##+js(nosiif, try)
 ! Format: google.*###search .g:has(a[href*="example.com"])
 google.*##.g:has(a[href*="https://www.coursehero.com/"]) 
 google.*##.g:has(a[href*="https://sciemce.com/"])
-||readaloud.googleapis.com^$3p
-||maps.googleapis.com^$3p,important,domain=~airbnb.com|~drinkbev.com
 
 !#include click2load.txt
 
