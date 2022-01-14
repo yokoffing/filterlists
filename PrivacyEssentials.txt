@@ -51,7 +51,7 @@
 ||abtapp.com^$3p
 ||accessibilityserver.org^$3p
 ||accounts.google.com^$3p,domain=~youtube.com
-||adobedtm.com^$3p,important,domain=~paypal.com|~paypal-prepaid.com|~verizon.com
+!||adobedtm.com^$3p,important,domain=~paypal.com|~paypal-prepaid.com|~verizon.com
 ||adsessionserv.com^
 ||adultswim.com^$3p,domain=att.com
 ||afrotech.com^$3p
