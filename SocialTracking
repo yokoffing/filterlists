@@ -1,6 +1,6 @@
 ! Title: 🐦 Social Tracking List
 ! Description: Block third-party social tracking.
-! Updated: 13 January 2022
+! Updated: 14 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -12,7 +12,6 @@
 ||twimg.com^$3p,domain=~twitter.com
 ||instagram.com^$important,3p
 ||tiktok.com^$important,3p,domain=~blavity.com
-||media.licdn.com^,domain=~linkedin.com
 
 ! Enable to allow embedded tweets / disabled social tracking
 ! ||twitter.com^$important,3p,$badfilter
