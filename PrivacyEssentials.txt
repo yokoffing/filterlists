@@ -83,6 +83,9 @@
 ||condenast.io^$3p
 ||conductor.com^$3p
 ||connect.facebook.net^
+||facebook.com^$3p,important,domain=~instagram.com
+||facebook.net^$3p,important
+||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
 ||conviva.com^$3p
 ||cookielaw.org^$3p,important
 ||createsend1.com^$3p
