@@ -5,9 +5,6 @@
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
-||facebook.com^$3p,important,domain=~instagram.com
-||facebook.net^$3p,important
-||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
 ||twitter.com^$important,3p
 ||twimg.com^$3p,domain=~twitter.com
 ||instagram.com^$important,3p
