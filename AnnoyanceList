@@ -236,7 +236,7 @@ theguardian.com###e4675c50-1165-4a45-b442-b960d1590dd7, most-viewed-right, .dcr-
 thehill.com##.sidebar.column.region-sidebar-second.region, .es_recommended_content.incontent_widgets
 theintercept.com###third-party--homepage-banner, .Cta-content
 thelineofbestfit.com##.related-section > .gutter-wrapper, .reviews-section > .layout-wrap, .feature-signup, .signup-sidebar.sidebar-section
-themuse.com##.mfe-jobs-banner
+themuse.com##.mfe-jobs-banner, .jobs-sidebar.js-jobs-sidebar
 thenation.com##.related-multi.related-newarticle.indents.indent.left
 therecord.media##.sidebar__widget--articles.sidebar__widget, .navigation, .sidebar__widget--newsletter.sidebar__widget
 theregister.com##.promo_article, #story-bot-col
