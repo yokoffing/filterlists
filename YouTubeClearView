@@ -1,6 +1,6 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 13 January 2022
+! Updated: 17 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -15,3 +15,6 @@ youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-sco
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
+
+! Misc. Annoyances
+!youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, #sponsor-button, ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
