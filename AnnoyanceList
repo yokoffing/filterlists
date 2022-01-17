@@ -270,7 +270,7 @@ wsj.com###popular-articles, .i-amphtml-layout.i-amphtml-built.i-amphtml-layout-s
 yahoo.com###wafer-trending-bar, .wafer-sticky.stream, .caas-non-sticky-sda
 ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
-zdnet.com##.related-stories.module, .alignRight.relatedContent
+zdnet.com##.related-stories.module, .alignRight.relatedContent, .breaking-news-container, .alignNone.relatedContent
 zoosk.com##.article__related, .newsletter
 
 ||hlsmedia.gannett-cdn.com^$3p
