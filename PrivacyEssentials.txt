@@ -260,8 +260,8 @@
 ||facebook.com^$3p,important,domain=~instagram.com
 ||facebook.net^$3p,important
 ||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com
-||syndication.twitter.com^$important
-||abs-0.twimg.com^$important,3p
+||syndication.twitter.com^$important,domain=~twitter.com
+||abs-0.twimg.com^$important,3p,domain=~twitter.com
 ||t.co^$3p,domain=~twitter.com
 ! Block Twitter, but relax requests on certain sites with embedded tweets
 ||twitter.com^$important,3p,domain=~9to5mac.com|~abc7.com|~ambcrypto.com|~billboard.com|~blavity.com|~cartoonbrew.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~medium.com|~metro.co.uk|~msn.com|~nymag.com|~parade.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~thelineofbestfit.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com|~webmd.com|~yahoo.com
