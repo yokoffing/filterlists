@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 19 January 2022c
+! Updated: 20 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -305,9 +305,6 @@ platform.twitter.com##+js(cookie-remover)
 ||js-cdn.music.apple.com^$3p,domain=~apple.com
 rollingstone.com##.c-gallery-apple-music-player
 
-! Blocks ticker data on various sites
-||tradingview.com^$3p
-
 ! Prevents downloading Reddit social icon on sites
 ||redditstatic.com^$3p,domain=~reddit.com
 
@@ -410,16 +407,5 @@ fmovies.*##+js(nosiif, try)
 ! ||dcf.espn.com^,domain=nationalgeographic.com
 
 !#if ext_ublock
-
-! GOOGLE
-! Hide search results
-! Format: google.*###search .g:has(a[href*="example.com"])
-google.*##.g:has(a[href*="https://www.coursehero.com/"]) 
-google.*##.g:has(a[href*="https://sciemce.com/"])
-! Attempt to remove third-party cookies
-www.google.com##+js(cookie-remover)
-ogs.google.com##+js(cookie-remover)
-
 !#include click2load.txt
-
 !#endif
