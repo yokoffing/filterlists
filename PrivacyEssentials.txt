@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 20 January 2022
+! Updated: 21 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -263,7 +263,7 @@
 ||syndication.twitter.com^$important,domain=~twitter.com
 ||abs-0.twimg.com^$important,3p,domain=~twitter.com
 ||t.co^$3p,domain=~twitter.com
-||twitter.com^$important,3p
+! ||twitter.com^$important,3p
 ! Block Twitter, but relax requests on sites without text equivalents for embedded tweets
 !||twitter.com^$important,3p,domain=~9to5mac.com|~abc7.com|~ambcrypto.com|~billboard.com|~blavity.com|~cartoonbrew.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~medium.com|~metro.co.uk|~msn.com|~nymag.com|~parade.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~thelineofbestfit.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com|~webmd.com|~yahoo.com
 ! !#if ext_ublock
