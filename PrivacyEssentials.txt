@@ -263,13 +263,13 @@
 ||syndication.twitter.com^$important,domain=~twitter.com
 ||abs-0.twimg.com^$important,3p,domain=~twitter.com
 ||t.co^$3p,domain=~twitter.com
+||twitter.com^$important,3p
 ! Block Twitter, but relax requests on sites without text equivalents for embedded tweets
-||twitter.com^$important,3p,domain=~medium.com
 !||twitter.com^$important,3p,domain=~9to5mac.com|~abc7.com|~ambcrypto.com|~billboard.com|~blavity.com|~cartoonbrew.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~medium.com|~metro.co.uk|~msn.com|~nymag.com|~parade.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~thelineofbestfit.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com|~webmd.com|~yahoo.com
-!#if ext_ublock
+! !#if ext_ublock
 ! Attempt to use uBO to remove cookies caused by Twitter
-platform.twitter.com##+js(cookie-remover)
-!#endif
+! platform.twitter.com##+js(cookie-remover)
+! !#endif
 ||tiktok.com^$important,3p
 ||ibytedtos.com^$3p,domain=~tiktok.com
 
