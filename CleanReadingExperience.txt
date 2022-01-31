@@ -1,6 +1,6 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 17 January 2022
+! Updated: 31 January 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -17,6 +17,7 @@ cnn.com##.zn-body__read-all > div.el__embedded--standard.el__embedded > .el__art
 cnn.com##.l-container > .el__embedded--standard.el__embedded
 coindesk.com##i
 cointelegraph.com##p strong:has-text(/^Related/):upward(p)
+cointelegraph.com##p strong:has-text(/^Read/):upward(p)
 cryptonews.net##p strong:has-text(/^Related/):upward(p)
 crypto-news-flash.com##p strong:has-text(/^Related/):upward(p)
 crypto-news-flash.com##p strong:has-text(/^Also Read/):upward(p)
