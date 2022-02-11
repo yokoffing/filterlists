@@ -235,7 +235,7 @@
 ||tsyndicate.com^$3p,important
 ||tumblr.com^$3p
 ||typeform.com^$3p
-||typekit.net^,domain=~billboard.com
+||typekit.net^$important,domain=~billboard.com
 ||ubembed.com^$3p
 ||unsplash.com^$3p
 ||usehero.com^$3p
