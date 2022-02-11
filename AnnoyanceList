@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 28 January 2022
+! Updated: 10 February 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -150,8 +150,7 @@ latimes.com##.rail, div.enhancement > .promo-small.promo-position-small.promo, .
 lifehacker.com###js_moreFromNetwork, #secondScroll
 lifewire.com##.mntl-block.prefooter.comp
 love2dev.com##.main > .py-2.justify-content-center.col-12.d-flex.cta-landscape
-macrumors.com###comments, maincontent > div, .nextarticle--3Zv4q93A.widget--3ewetJyi
-macrumors.com###maincontent > div
+macrumors.com###comments, .nextarticle--3Zv4q93A.widget--3ewetJyi
 maketecheasier.com##.sidebar-widget.sidebar-posts, .related-footer-grid
 makeuseof.com##.sidebar-trending, .sidebar-sticky, .w-article-related, .next-btn.sentinel-article-nextArticle
 marketplace.org##.lazyloaded.c-simple-newsletter-subscribe, .mp-show-latest-episodes__body, .top-latest-stories, .jp-relatedposts, .original-content > .padded
