@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 29 March 2022
+! Updated: 08 April 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -297,8 +297,8 @@
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
-||paypal.com^$3p,domain=~ebay.com|~paypal.com
-||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com
+||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 
 ! Video Players that detract from main content
 !||jwpcdn.com^
