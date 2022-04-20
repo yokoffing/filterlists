@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 16 April 2022
+! Updated: 20 April 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -37,7 +37,7 @@
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bimbolive.com^$3p
 ||bing.com^$3p,domain=~amazon.com|~login.live.com|~swisscows.com
-||bizzabo.com^$3p
+! ||bizzabo.com^$3p
 ||bleacherreport.com^$3p,domain=att.com
 ||bloomapp-production.herokuapp.com^$3p
 ||bonertraffic.mobi^$3p
