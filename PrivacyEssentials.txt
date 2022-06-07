@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 28 May 2022
+! Updated: 06 June 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -316,7 +316,8 @@
 rollingstone.com##.c-gallery-apple-music-player
 
 ! Prevents downloading Reddit social icon on sites
-||redditstatic.com^$3p,domain=~reddit.com
+! Breaks reddit widgets
+! ||redditstatic.com^$3p,domain=~reddit.com
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ||consensu.org^$important,redirect=noopjs
