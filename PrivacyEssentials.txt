@@ -1,15 +1,15 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 30 June 2022
+! Updated: 30 June 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
-! ||lr-in.com^$3p
-! ||lr-hv-in.com^$3p
-! ||datadoghq.com^
-! ||datadoghq-browser-agent.com^
+||lr-in.com^$3p
+||lr-hv-in.com^$3p
+||datadoghq.com^
+||datadoghq-browser-agent.com^
 ||logrocket.network^
 ||dropbox.com^$all,domain=~dropbox.com
 ||dropbox-dns.com^$all,domain=~dropbox.com
@@ -20,7 +20,7 @@
 ||abtapp.com^$3p
 ||accessibilityserver.org^$3p
 ||accounts.google.com^$3p,domain=~youtube.com
-||adobedtm.com^$3p,important,domain=~straighttalk.com
+||adobedtm.com^$3p,important,domain=~ally.com|~straighttalk.com
 ||adsessionserv.com^
 ||adultswim.com^$3p,domain=att.com
 ||adziff.com^$all
@@ -55,6 +55,7 @@
 ||concert.io^$3p,important
 ||condenast.io^$3p
 ||conductor.com^$3p
+||confirmit.com^$3p
 ||conviva.com^$3p
 ||cookielaw.org^$3p,important
 ||createsend1.com^$3p
