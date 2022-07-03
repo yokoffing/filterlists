@@ -1,4 +1,4 @@
-## Recommended Filters for uBlock Origin
+# Recommended Filters for uBlock Origin
 
 [![Screenshot-2022-01-09-115024.jpg](https://i.postimg.cc/jqN31xLy/Screenshot-2022-01-09-115024.jpg)](https://postimg.cc/z3zkb1wf)
 
@@ -37,7 +37,7 @@ For either list, if you find websites with tracking parameters or experience bre
 4) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
  <br> This list contains additional third-party requests and annoyances that are not covered in the BPC filterlist.
  
- ## Scriplets
+## Scriplets
 Add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin).
 
 ## Why should I use these lists?
