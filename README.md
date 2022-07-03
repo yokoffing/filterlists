@@ -6,6 +6,8 @@
  - Regarding `uBlock filters - Unbreak`: Many of these rules are unnecessary for me. A few were added to `Privacy Essentails` (see below).
  - Regarding `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts` (see below).
  
+ ***
+ 
 ## Custom Filters
 
 ### General Purpose:
@@ -18,11 +20,15 @@
 3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt)
 <br> [Experimental] My curated list blocks tracking requests like `connect.facebook.com` and requests not covered by [EasyPrivacy](https://github.com/easylist/easylist#easyprivacy). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([read more](https://twitter.com/gorhill/status/1377613392559636486)). **Please open an issue to report breakages.**
 
+***
+
 ### Remove tracking parameters from URLs:
 For either list, if you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 1) **Actually Legitimate URL Shortener Tool** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 2) **ClearURLs for uBO** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
+
+***
 
 ### Annoyances:
 1) **Browse websites without logging in** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
@@ -37,8 +43,12 @@ For either list, if you find websites with tracking parameters or experience bre
 4) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
  <br> This list contains additional third-party requests and annoyances that are not covered in the BPC filterlist.
  
+ ***
+ 
 ## Scriplets
 Add [these](https://github.com/uBlock-user/uBO-Scriptlets) scriptlets to [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin).
+
+***
 
 ## Why should I use these lists?
 https://how-i-experience-web-today.com/
