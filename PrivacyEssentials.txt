@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 6 July 2022
+! Updated: 25 July 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -20,7 +20,7 @@
 ||abtapp.com^$3p
 ||accessibilityserver.org^$3p
 ||accounts.google.com^$3p,domain=~youtube.com
-||adobedtm.com^$3p,important,domain=~ally.com|~straighttalk.com
+||adobedtm.com^$3p,important,domain=~ally.com|~bose.com|~straighttalk.com
 ||adsessionserv.com^
 ||adultswim.com^$3p,domain=att.com
 ||adziff.com^$all
@@ -66,7 +66,6 @@
 ||dmgmediaprivacy.co.uk^$3p,important
 ||docraptor.com^$3p
 ||dowjoneson.com^$3p
-||drtuber.desi^$3p
 ||drtuber.desi^$3p
 ||dttrk.com^$3p
 ||dwcdn.net^$3p
