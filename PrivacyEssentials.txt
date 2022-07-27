@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 27 July 2022
+! Updated: 27 July 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -23,7 +23,6 @@
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bimbolive.com^$3p
 ||bing.com^$3p,domain=~amazon.com|~login.live.com|~swisscows.com
-||bleacherreport.com^$3p,domain=att.com
 ||bloomapp-production.herokuapp.com^$3p
 ||bonertraffic.mobi^$3p
 ||botframework.com^$3p
@@ -71,12 +70,11 @@
 ||okendo.io^$3p
 ||oko.net^$3p
 ||omnivirt.com^$3p
-||onetrust.com^$3p,important
+||onetrust.com^$3p
 ||opumo.net^$3p
-||outbrain.com^$3p,important
+||outbrain.com^$3p
 ||paddle.com^$3p
 ||paradox.ai^$all
-||payments.amazon.com^$3p,important
 ||play.google.com^$3p
 ||p-n.io^$3p
 ||polyfill.io^$3p
@@ -127,6 +125,7 @@
 ||afterpay.com^$3p
 ||shoprunner.com^$3p
 ||amazonpay.com^$3p
+||payments.amazon.com^$3p
 ||sezzle.com^$3p
 ||treat.xyz^$3p
 ||klarna.com^$3p
