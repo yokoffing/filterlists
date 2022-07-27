@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
-! Description: A list to compliment EasyPrivacy, uBlock filters - Privacy, and OISD.
-! Updated: 26 July 2022
+! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
+! Updated: 27 July 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -11,136 +11,54 @@
 ||datadoghq.com^
 ||datadoghq-browser-agent.com^
 ||logrocket.network^
-||dropbox.com^$all,domain=~dropbox.com
-||dropbox-dns.com^$all,domain=~dropbox.com
+||dropbox.com^,domain=~dropbox.com
+||dropbox-dns.com^,domain=~dropbox.com
 ||yahoo.com^$3p
 ||twitch.tv^,domain=~twitch.tv
-||21ninety.com^$3p
 ||7882f4ee63.com
-||abtapp.com^$3p
-||accessibilityserver.org^$3p
 ||accounts.google.com^$3p,domain=~youtube.com
-||adobedtm.com^$3p,important,domain=~ally.com|~bose.com|~straighttalk.com
+||adobedtm.com^$3p,domain=~ally.com|~bose.com|~straighttalk.com
 ||adsessionserv.com^
-||adultswim.com^$3p,domain=att.com
-||adziff.com^$all
-||afrotech.com^$3p
-||ahacdn.me^$3p
-||algolia.io^$3p
-||altmetric.com^$3p
-||altrulabs.com^$3p
-||artnews.com^$3p
-||audioeye.com$3p
-||audiohook.com^$3p
 ||b7b06aa9a2.com
-||bbb.org^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bimbolive.com^$3p
 ||bing.com^$3p,domain=~amazon.com|~login.live.com|~swisscows.com
-! ||bizzabo.com^$3p
 ||bleacherreport.com^$3p,domain=att.com
 ||bloomapp-production.herokuapp.com^$3p
 ||bonertraffic.mobi^$3p
 ||botframework.com^$3p
-||brazenconnect.com^$3p
-||byteoversea.com^$3p
-||campusexplorer.com^$3p
 ||capturehighered.net^$3p
-||cdn.registerdisney.go.com^
-||cdnhub.co^$3p
-||chatcreate.com^$3p
-||chilipiper.com^$3p
-||cloudquote.net^$3p
-||cnn.com^$3p,domain=att.com
-||concert.io^$3p,important
-||condenast.io^$3p
-||conductor.com^$3p
-||confirmit.com^$3p
-||conviva.com^$3p
-||cookielaw.org^$3p,important
-||createsend1.com^$3p
-||cxense.com^$important
-! ||datatables.net^$3p
-||decider.com^$3p
+||concert.io^$3p
+||cookielaw.org^$3p
+||cxense.com^
 ||disquscdn.com^$3p
-||dmgmediaprivacy.co.uk^$3p,important
-||docraptor.com^$3p
+||dmgmediaprivacy.co.uk^$3p
 ||dowjoneson.com^$3p
 ||drtuber.desi^$3p
-||dttrk.com^$3p
-||dwcdn.net^$3p
-||ecorebates.com$3p
-||edge.microsoft.com^$3p
-||elfsight.com^$3p
-||enormapps.com^$3p
-||evvnt.com^$3p
-||ewscloud.com^
-||ex.co^$3p
-||ezoiccdn.com^$3p
-||fairchildlive.com^$3p
-||fbot.me^$3p
-||fengkongcloud.com^$all
 ||firebaseinstallations.googleapis.com^
-||flipp.com^$3p
-||footwearnews.com^$3p
 ||forbes.com^$3p,domain=quora.com
-||fwmrm.net^$important
-||getcarro.com^$3p
+||fwmrm.net^
 ||getmetrical.com^$3p
-||getpaloma.com^$3p
-||go.xhamster.com
-||goacoustic.com^$3p
-||govx.com^$3p
-||hextom.com^$3p
-||hsforms.com^$3p
-||hsforms.net^$3p
-||hubapi.com^$3p
-! ||ibb.co^
+||go.xhamster.com^
 ||iheart.com^$all,domain=~iheart.com
-||inc.com^$3p
-||incimages.com^$3p
-||indy100.com^$3p
-||infogram.com^$3p
-! ||inq.com^$3p,domain=~straighttalk.com
-||invocacdn.com^$3p
-||ioam.de^$3p
-||ionicframework.com^$3p
 ||ip.sp^
 ||ipgeolocation.io^
-||iris.tv^$3p
-||joinclyde.com^$3p
-||justapinch.com^
-||kartra.com^$3p
-||ketchcdn.com^$3p
-||kickbooster.me^$3p
-||klaviyo.com^$3p
-||knotch-cdn.com^$3p
 ||kount.net^$3p
 ||kustomerapp.com^$3p
-!||launchdarkly.com^$3p,domain=~articulate.com|~costplusdrugs.com
-||linkmaker.itunes.apple.com^
 ||liveperson.net^$3p
 ||lmaxdigital.io
 ||loox.io^$3p
 ||lowfruitsolutions.com^$3p
 ||lpsnmedia.net^$3p
 ||mailchimp.com^$3p
-!||maps.google.com^$3p,domain=~google.com|~tripadvisor.com
-!||maps.googleapis.com^$3p,domain=~tripadvisor.com
-!||maps.gstatic.com^$3p,domain=~google.com
 ||marketingautomation.services^$3p
-||marketo.com^$important
-||mathjax.org^$3p
-!||mapbox.com^$3p
-||maxcdn.com^$3p
-||maytag.com$3p
+||marketo.com^
 ||media.licdn.com^,domain=~linkedin.com
 ||mimecast.com^$3p
 ||montangop.top^
 ||moonpay.io^$all
 ||mountain.com^$3p
 ||msgstore.www.notion.so^$all
-||myfinance.com^$3p
 ||news.google.com^$3p
 ||newsoveraudio.com^$3p
 ||nfcube.com^$3p
@@ -159,127 +77,48 @@
 ||paddle.com^$3p
 ||paradox.ai^$all
 ||payments.amazon.com^$3p,important
-||pinterest.com^$3p
-||placeholder.com^
-||play.google.com^$3p,important
-||playinc.uk.com^$3p
+||play.google.com^$3p
 ||p-n.io^$3p
 ||polyfill.io^$3p
 ||porntop.com^$3p
-||positivessl.com^$3p
-||postie.com^$3p
-||printful.com^$3p
-||provely.io^$all
-||prpbns.com^$3p
-||pusher.com^
-||qikify.com^$3p
-||queryly.com^$3p
-||ravenjs.com^$3p
-||rawgit.com^$3p
-||rch.io^$3p
 ||rebuyengine.com^$3p
 ||recommendation-hybrid.wpdigital.net^$all
-||redventures.io^$3p
-||remixd.com^$3p
-||riddle.com^$3p
-||rise-ai.com^$3p
-||rsms.me^$important
-||rtphit.com^$3p
-||s81c.com^
 ||scholar.google.com^$3p,domain=~google.com
-||searchiq.co^$3p
-||seatgeek.com^$3p
 ||secomapp.com^$3p
 ||securemetrics.apple.com^$3p
-||shadowandact.com^$3p
-||shop.app^$3p
-||shopbonsai.ca^$3p
-||shopcircleapp.co^$3p
-||shopifycloud.com^$3p
-||shopifysvc.com^$3p
 ||simplecast.com^$3p
-||sitescdn.net^$3p
 ||skio.com^$3p
 ||skiocheck.com^$3p
 ||smsbump.com^$3p
 ||snapkit.com^$3p
 ||soap2day.to^$3p
-||soratemplates.com^
-||speedof.me^
-||sphereup.com^$3p
-||spinasale.com^$3p
-||spokenlayer.net^$3p
-||sportico.com^$3p
-||srmdata-us.com^$all
-||staticxx.s3.amazonaws.com^$3p
-||steadfastseat.com^$3p
-||stormgain.com^$3p
-||storystream.ai^$3p
 ||streetmetrics.io^$3p
-||strossle.com^$3p,important
-||strpst.com^$3p
-||studiostack.com^$3p
-||swymrelay.com^$3p
-||talkable.com^
-||tbs.com^$3p,domain=att.com
 ||teams.microsoft.com^$3p
-||telerik.com^$3p
 ||thunderhead.com^$3p
 ||tiqcdn.com^$3p,domain=~calvinklein.*|~etonline.com|~ups.com
 ||titsx.com^$3p
-||tntdrama.com^$3p,domain=att.com
 ||tracking.epicgames.com^
-||translate.google.com$important,domain=~google.com
-||translate.googleapis.com$important,domain=~google.com
-||travelnoire.com^$3p
-||truevaultcdn.com^$3p
-||trustarc.com^$3p,important
-||truste.com^$3p,important
-||trustpilot.com^$3p
-||trustx.org^$3p,important
-||trutv.com^$3p,domain=att.com
-||tsyndicate.com^$3p,important
-||tumblr.com^$3p
-||typeform.com^$3p
-||typekit.net^$important,domain=~billboard.com
-||ubembed.com^$3p
-||unsplash.com^$3p
-||usehero.com^$3p
-||userway.org^$3p
-||vanillicon.com^$3p
-||vcomm.io^$3p
-||vidible.tv^$3p
-! ||virtualearth.net^$3p,domain=~bing.com
+! ||translate.google.com^,domain=~google.com
+! ||translate.googleapis.com^,domain=~google.com
+||trustarc.com^$3p
+||truste.com^$3p
+||trustx.org^$3p
+||tsyndicate.com^$3p
 ||vxxx.com^$3p
-||vyrl.co^$3p
-||walkme.com^$3p
-||wearehearken.eu^$3p
-||webkul.com^$3p
-||weglot.com^$3p
-||whirlpool.com$3p
-||whisk.com^$3p
-||wholesalegorilla.app^$3p
-!||zencdn.net^
 ||zqtk.net^$important
 
 ! Social Tracking
-!||connect.facebook.net^
-||facebook.com^$3p,important,domain=~instagram.com
-||facebook.net^$3p,important
-||fbcdn.net^$3p,important,domain=~facebook.com|~instagram.com|~workplace.com
-||syndication.twitter.com^$important,domain=~twitter.com
-||abs-0.twimg.com^$important,3p,domain=~twitter.com
+||connect.facebook.net^
+||facebook.com^$3p,domain=~instagram.com
+||facebook.net^$3p
+||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com
+||syndication.twitter.com^
+||abs-0.twimg.com^$3p,domain=~twitter.com
 ||t.co^$3p,domain=~twitter.com
-! ||twitter.com^$important,3p
-! Block Twitter, but relax requests on sites without text equivalents for embedded tweets
-!||twitter.com^$important,3p,domain=~9to5mac.com|~abc7.com|~ambcrypto.com|~billboard.com|~blavity.com|~cartoonbrew.com|~cointelegraph.com|~cnn.com|~curbed.com|~eater.com|~engadget.com|~grubstreet.com|~medium.com|~metro.co.uk|~msn.com|~nymag.com|~parade.com|~pcgamer.com|~teslarati.com|~theblockcrypto.com|~thecut.com|~thelineofbestfit.com|~therecord.media|~theverge.com|~threetrackmind.wordpress.com|~vox.com|~vulture.com|~webmd.com|~yahoo.com
-! !#if ext_ublock
-! Attempt to use uBO to remove cookies caused by Twitter
-! platform.twitter.com##+js(cookie-remover)
-! !#endif
-||tiktok.com^$important,3p
+||tiktok.com^$3p
 ||ibytedtos.com^$3p,domain=~tiktok.com
 ||linkedin.com^$3p
+||pinterest.com^$3p
 
 ! 3rd-party Payment Vendors / "Buy Now, Pay Later":
 ||pay.google.com^$3p
@@ -295,8 +134,13 @@
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
-||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
-||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+||shop.app^$3p
+||shopbonsai.ca^$3p
+||shopcircleapp.co^$3p
+||shopifycloud.com^$3p
+||shopifysvc.com^$3p
 
 ! Video Players that detract from main content
 !||jwpcdn.com^
@@ -309,10 +153,6 @@
 !||vimeo.com^$3p
 !||youtube.com^$3p
 !||ytimg^$3p
-
-! Apple Music sample clips
-||js-cdn.music.apple.com^$3p,domain=~apple.com
-rollingstone.com##.c-gallery-apple-music-player
 
 ! Prevents downloading Reddit social icon on sites
 ! Breaks reddit widgets
@@ -343,8 +183,6 @@ fmovies.*##+js(nosiif, try)
 ||chatbro.com^$3p
 ||coinmarketcap.com^$3p
 ||contributor.google.com^$3p,important
-! Breaks third-party sites using Google search:
-! ||cse.google.com^$3p,important
 ||discord.com^$3p
 ||discordapp.com^$3p,domain=~discord.com
 ||disqus.com^$3p
@@ -372,7 +210,6 @@ fmovies.*##+js(nosiif, try)
 ||scorecardresearch.com^$3p,important
 ||scroll.com^$3p,important
 ||segment.com^$important
-! ||sentry-cdn.com^$3p,important
 ||sharethis.com^$3p,important
 ||services.wikia.com^
 ||slack.com/api/promo.banner^
@@ -383,6 +220,7 @@ fmovies.*##+js(nosiif, try)
 ||taboola.com^$3p,important
 ||tawk.to^$3p
 ||tinypass.com^
+||typekit.net^$important
 ||ubembed.com^
 ||vk.com^$3p
 ||washingtonpost.com/pwapiv2/$xhr,1p
