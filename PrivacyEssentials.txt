@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 27 July 2022d
+! Updated: 27 July 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -107,7 +107,7 @@
 
 ! Social Tracking
 ||connect.facebook.net^
-||facebook.com^$3p,domain=~instagram.com
+||facebook.com^$important,3p,domain=~instagram.com
 ||facebook.net^$3p
 ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com
 ||syndication.twitter.com^
