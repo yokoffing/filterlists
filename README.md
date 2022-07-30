@@ -1,5 +1,15 @@
 # Recommended Filters for uBlock Origin
 
+[![GitHub issues](https://img.shields.io/github/issues/yokoffing/filterlists)](https://github.com/yokoffing/filterlists/issues)
+[![GitHub closed issues](https://badgen.net/github/closed-issues/yokoffing/filterlists?color=green)](https://github.com/yokoffing/filterlists/issues?q=is%3Aissue+is%3Aclosed)
+![GitHub repo size](https://img.shields.io/github/repo-size/yokoffing/filterlists)
+![GitHub](https://img.shields.io/github/license/yokoffing/filterlists?color=blue)
+![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
+![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 [![Screenshot-2022-01-09-115024.jpg](https://i.postimg.cc/jqN31xLy/Screenshot-2022-01-09-115024.jpg)](https://postimg.cc/z3zkb1wf)
 
 **NOTES:**
