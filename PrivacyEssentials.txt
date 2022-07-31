@@ -291,7 +291,7 @@ fmovies.*##+js(nosiif, try)
 ||getsitecontrol.com^$3p
 ||google-analytics.com^$3p,~script,important
 ||google-analytics.com^$3p,script
-||google.com^$3p,~domain=translate.google.com
+||google.com^$3p,domain=~translate.google.com
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
