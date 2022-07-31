@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 31 July 2022c
+! Updated: 31 July 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -19,7 +19,7 @@
 ||twitch.tv^,domain=~twitch.tv
 ||7882f4ee63.com
 ||accounts.google.com^$3p,domain=~youtube.com
-!||adobedtm.com^$3p,domain=~ally.com|~bose.com|~straighttalk.com
+!||adobedtm.com^$3p,domain=~bose.com
 ||adsessionserv.com^
 ||b7b06aa9a2.com
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
@@ -438,7 +438,7 @@ fmovies.*##+js(nosiif, try)
 @@||mapsengine.google.com/map/embed$subdocument
 @@||media.brightcove.com^$image
 @@||media.brightcove.com^$media,domain=players.brightcove.net
-@@||mozilla.org^$xhr,domain=mozilla.com
+!@@||mozilla.org^$xhr,domain=mozilla.com
 @@||omara.cdn-cnj.si^$script
 @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
@@ -447,7 +447,7 @@ fmovies.*##+js(nosiif, try)
 !@@||tealium.cbsnews.com^$script,1p
 @@||udimg.com^$1p
 @@||udimg.com^$domain=urbandictionary.com
-@@||use.typekit.net^$font,stylesheet,script
+@@||use.typekit.net^$font
 @@||youtube-ui.*.google.com^$subdocument,script
 @@||ytimg.*.google.com^$image
 @@||ytimg.com^$script
@@ -465,11 +465,11 @@ fmovies.*##+js(nosiif, try)
 @@||js.intercomcdn.com^$script
 
 !!! facebook.com
-@@||instagram.com^$script
-@@||instagram.com/p/$subdocument
-@@||*-instagram.*.facebook.com^$subdocument
+!@@||instagram.com^$script
+!@@||instagram.com/p/$subdocument
+!@@||*-instagram.*.facebook.com^$subdocument
 @@||facebook.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.*^$image,media
+!@@||fbcdn.*^$image,media
 @@||fbcdn.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
 
 !!! TRACKERS that happens only by user action
