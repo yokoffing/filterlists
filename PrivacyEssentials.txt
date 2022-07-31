@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 30 July 2022n
+! Updated: 31 July 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -17,7 +17,7 @@
 ||twitch.tv^,domain=~twitch.tv
 ||7882f4ee63.com
 ||accounts.google.com^$3p,domain=~youtube.com
-||adobedtm.com^$3p,domain=~ally.com|~bose.com|~straighttalk.com
+!||adobedtm.com^$3p,domain=~ally.com|~bose.com|~straighttalk.com
 ||adsessionserv.com^
 ||b7b06aa9a2.com
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
