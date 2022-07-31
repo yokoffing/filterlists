@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 31 July 2022b
+! Updated: 31 July 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -423,7 +423,7 @@ fmovies.*##+js(nosiif, try)
 @@||google.*/maps/$subdocument
 @@||google.*/recaptcha/$subdocument
 @@||google.*^$script,domain=youtube.com
-@@||google*.*^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
+!@@||google*.*^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google.com/recaptcha/api.js$script
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gravatar.com^$image,stylesheet
@@ -453,12 +453,12 @@ fmovies.*##+js(nosiif, try)
 @@||ytimg.com^$script
 
 !!! twitter
-@@||platform.twitter.com/embed/$subdocument
-@@||platform.twitter.com/widgets/$subdocument
-@@||platform.twitter.com^$stylesheet,image,script
+!@@||platform.twitter.com/embed/$subdocument
+!@@||platform.twitter.com/widgets/$subdocument
+!@@||platform.twitter.com^$stylesheet,image,script
 !@@||syndication.twitter.com^$image,xhr,domain=platform.twitter.com
-@@||twimg.*^$image
-@@||twitter.com/i/videos/$subdocument
+!@@||twimg.*^$image
+!@@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
 
 !!! intercom at nextdns.io
