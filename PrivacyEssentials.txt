@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 30 July 2022f
+! Updated: 30 July 2022g
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -291,7 +291,7 @@ fmovies.*##+js(nosiif, try)
 ||getsitecontrol.com^$3p
 ||google-analytics.com^$3p,~script,important
 ||google-analytics.com^$3p,script
-||google.com^$3p,domain=~translate.google.com
+||google.com^$3p,domain=~cbsnews.com|~translate.google.com
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
