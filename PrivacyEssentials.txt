@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 31 July 2022d
+! Updated: 31 July 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -453,23 +453,23 @@ fmovies.*##+js(nosiif, try)
 @@||ytimg.com^$script
 
 !!! twitter
-!@@||platform.twitter.com/embed/$subdocument
-!@@||platform.twitter.com/widgets/$subdocument
-!@@||platform.twitter.com^$stylesheet,image,script
+@@||platform.twitter.com/embed/$subdocument
+@@||platform.twitter.com/widgets/$subdocument
+@@||platform.twitter.com^$stylesheet,image,script
 !@@||syndication.twitter.com^$image,xhr,domain=platform.twitter.com
-!@@||twimg.*^$image
-!@@||twitter.com/i/videos/$subdocument
+@@||twimg.*^$image
+@@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
 
 !!! intercom at nextdns.io
 @@||js.intercomcdn.com^$script
 
 !!! facebook.com
-!@@||instagram.com^$script
-!@@||instagram.com/p/$subdocument
-!@@||*-instagram.*.facebook.com^$subdocument
+@@||instagram.com^$script
+@@||instagram.com/p/$subdocument
+@@||*-instagram.*.facebook.com^$subdocument
 @@||facebook.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-!@@||fbcdn.*^$image,media
+@@||fbcdn.*^$image,media
 @@||fbcdn.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
 
 !!! TRACKERS that happens only by user action
