@@ -13,8 +13,8 @@
 [![Screenshot-2022-01-09-115024.jpg](https://i.postimg.cc/jqN31xLy/Screenshot-2022-01-09-115024.jpg)](https://postimg.cc/z3zkb1wf)
 
 **NOTES:**
- - Regarding `uBlock filters - Unbreak`: Many of these rules are unnecessary for me. A few were added to `Privacy Essentails` (see below).
- - Regarding `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts` (see below).
+ - Regarding `uBlock filters - Unbreak`: Many of these rules are unnecessary for me. A few were added to `Privacy Essentails`.
+ - Regarding `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
  
  ***
  
@@ -47,11 +47,11 @@ For either list, if you find websites with tracking parameters or experience bre
 2) **yokoffing's Annoyance List** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/AnnoyanceList)
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the cludder around many sites (e.g., related articles).
 
-3) **Bypass Paywalls Clean filter** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
- <br> [Experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
+3) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
+ <br> This list blocks additional third-party requests and annoyances that are not covered in the Bypass Paywalls Clean filterlist.
 
-4) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
- <br> This list contains additional third-party requests and annoyances that are not covered in the BPC filterlist.
+4) **Bypass Paywalls Clean filter** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
+ <br> [Experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
  
  ***
  
