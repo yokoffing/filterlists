@@ -1,11 +1,12 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 03 August 2022
+! Updated: 06 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
+||teletarget.ru^
 ||refer.bose.com^
 ||target.bose.com^
 ||lr-in.com^$3p
@@ -519,7 +520,10 @@ fmovies.*##+js(nosiif, try)
 ! Bad filter in Anti-paywalls Filter on fivethirtyeight.com
 ||dcf.espn.com^$badfilter
 ! @@||fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js$script,1p
-! ||dcf.espn.com^,domain=nationalgeographic.com
+! ||dcf.espn.com^,domain=fivethirtyeight.com|nationalgeographic.com
+
+! Unbreak Spectrum login
+@@||pov.spectrum.net^
 
 !#if ext_ublock
 !#include click2load.txt
