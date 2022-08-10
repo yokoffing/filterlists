@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 10 August 2022
+! Updated: 10 August 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -31,7 +31,7 @@
 ||botframework.com^$3p
 ||capturehighered.net^$3p
 ||concert.io^$3p
-||cookielaw.org^$important,domain=~cbsnews.com
+||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
 ||cxense.com^
 ||disquscdn.com^$3p
 ||dmgmediaprivacy.co.uk^$3p
@@ -409,10 +409,10 @@ fmovies.*##+js(nosiif, try)
 @@||content.jwplatform.com^$xhr,script
 @@||contextual.media.net^$script
 @@||consent.google.com^$subdocument
-@@||cookielaw.org/*/otBannerSdk.js$script,domain=cbsnews.com
-@@||cookielaw.org/*/otPcPanel.json$xhr,domain=cbsnews.com
-@@||cookielaw.org/*/otSDKStub.js$script,domain=cbsnews.com
-@@||cookielaw.org/consent/$xhr,domain=cbsnews.com
+@@||cookielaw.org/*/otBannerSdk.js$script
+@@||cookielaw.org/*/otPcPanel.json$xhr
+@@||cookielaw.org/*/otSDKStub.js$script
+@@||cookielaw.org/consent/$xhr
 @@||cse.google.com^$script
 @@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||docs.google.com^$subdocument,domain=dropbox.com
