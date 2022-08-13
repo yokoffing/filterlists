@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 13 August 2022
+! Updated: 13 August 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -189,7 +189,7 @@ fmovies.*##+js(nosiif, try)
 ||cbox.ws^$3p
 |cbsi.com^
 !||cbsi.com^,domain=~cbsnews.com
-||cbsinteractive.com^
+||cbsinteractive.com^,domain=~etonline.com
 ||chatango.com^$3p
 ||chatbro.com^$3p
 ||coinmarketcap.com^$3p
@@ -260,7 +260,7 @@ fmovies.*##+js(nosiif, try)
 ||aolcdn.com/ads/$3p,script
 ||api.stacksocial.com^
 ||app-measurement.com^$important
-||arctur.*^$3p
+||arctur.^$3p
 ||askmediagroup.com^$3p
 ||baidu.com^$3p
 ||beacon.krxd.net^$important
@@ -284,8 +284,8 @@ fmovies.*##+js(nosiif, try)
 ||doubleclick.net^
 ||eagleapi.io^
 ||evidon.com^$3p
-||facebook.*^$3p,domain=~instagram.com|~messenger.com
-||fbcdn.*^$3p
+||facebook.^$3p,domain=~instagram.com|~messenger.com
+||fbcdn.^$3p
 ||feedgrabbr.com^$3p
 ||firebase.com^$3p
 ||footprint.net^3p,~image
@@ -312,7 +312,7 @@ fmovies.*##+js(nosiif, try)
 ||hubspot.com^$3p
 ||incartupsell.com^$3p
 ||inspectlet.com^$3p,important
-||instagram.*^$3p,~subdocument
+||instagram.^$3p,~subdocument
 ||inswebt.com^
 ||iprom.net^$3p
 ||ipromcloud.com^$3p
@@ -324,7 +324,7 @@ fmovies.*##+js(nosiif, try)
 ||leadsdome.com^
 ||letspin.io^$3p
 ||limelight.com^$3p,script
-||linkedin.*^$3p
+||linkedin.^$3p
 ||list-manage.com^$3p
 ||livenetlife.com^$3p
 ||mailchimp.com^$3p
@@ -361,18 +361,18 @@ fmovies.*##+js(nosiif, try)
 ||startpage.com/do/$image,important
 ||startpage.com/english/$image,important
 ||startpage.com/tst2/$image,important
-||syndication.twitter.*^
+||syndication.twitter.^
 ||themessagecloud.com^$3p
 ||ti-media.net^$~stylesheet,~image
 ||tinymce.com^$3p
 ||trustpilot.com^$3p
 ||tsmedia.si^$3p
-||twitter.*^$3p
+||twitter.^$3p
 ||typography.com^$3p,~stylesheet,~xhr
 ||upscore.com^$3p
 ||urbanairship.com^$3p
 ||wibbitz.com^$3p
-||yahoo.*^$3p,domain=~yahoo.com
+||yahoo.^$3p,domain=~yahoo.com
 ||yottlyscript.com^$3p
 
 ! https://www.cnet.com/videos/googles-new-pixel-5-seattle-approves-minimum-wage-for-lyft-uber-drivers/
@@ -401,7 +401,7 @@ fmovies.*##+js(nosiif, try)
 @@||blogger.*.google.com^$subdocument
 @@||blogger.*.google.com^$domain=blogspot.com
 @@||blogger.com/comment-iframe.$subdocument
-@@||brightcove.*^$xhr
+@@||brightcove.^$xhr
 @@||cbsi.com/dist/optanon.js$script
 @@||cdn-apple.com^$domain=apple.com
 @@||cdn.jwplayer.com^$xhr
@@ -424,9 +424,9 @@ fmovies.*##+js(nosiif, try)
 !@@||google.*/cse/$script,stylesheet
 @@||google.*/maps/$subdocument
 @@||google.*/recaptcha/$subdocument
-@@||google.*^$script,domain=youtube.com
+@@||google.^$script,domain=youtube.com
 !@@||google*.*^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
-@@||google*.*^$domain=youtube.com|youtube-nocookie.com
+@@||google*.^$domain=youtube.com|youtube-nocookie.com
 @@||google.com/recaptcha/api.js$script
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gravatar.com^$image,stylesheet
@@ -460,7 +460,7 @@ fmovies.*##+js(nosiif, try)
 @@||platform.twitter.com/widgets/$subdocument
 @@||platform.twitter.com^$stylesheet,image,script
 !@@||syndication.twitter.com^$image,xhr,domain=platform.twitter.com
-@@||twimg.*^$image
+@@||twimg.^$image
 @@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
 
@@ -470,10 +470,10 @@ fmovies.*##+js(nosiif, try)
 !!! facebook.com
 @@||instagram.com^$script
 @@||instagram.com/p/$subdocument
-@@||*-instagram.*.facebook.com^$subdocument
-@@||facebook.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.*^$image,media
-@@||fbcdn.*^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+@@||-instagram.*.facebook.com^$subdocument
+@@||facebook.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+@@||fbcdn.^$image,media
+@@||fbcdn.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
 
 !!! TRACKERS that happens only by user action
 @@||trk.klclick.com^
@@ -484,7 +484,7 @@ fmovies.*##+js(nosiif, try)
 ! https://www.adjust.com/
 @@||consent.cookiebot.com^$script
 ! https://www.cnet.com/videos/googles-new-pixel-5-seattle-approves-minimum-wage-for-lyft-uber-drivers/
-@@||geolocation.onetrust.com/cookieconsentpub/*$3p,script
+@@||geolocation.onetrust.com/cookieconsentpub/$3p,script
 ! cbsnews.com -> Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
 
