@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 10 August 2022e
+! Updated: 13 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -109,7 +109,7 @@
 ||zqtk.net^$important
 
 ! Social Tracking
-||connect.facebook.net^
+||connect.facebook.net^$important
 ||facebook.com^$important,3p,domain=~instagram.com
 ||facebook.net^$3p
 ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com
@@ -118,7 +118,7 @@
 ||t.co^$3p,domain=~twitter.com
 !||pbs.twimg.com^$important,domain=~twitter.com
 ! Allow embedded tweets
-@@||platform.twitter.com/widgets/widget_iframe.$subdocument
+! @@||platform.twitter.com/widgets/widget_iframe.$subdocument
 ! Attempt to use uBO to remove cookies caused by Twitter
 !#if ext_ublock
 platform.twitter.com##+js(cookie-remover)
