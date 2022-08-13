@@ -1,19 +1,31 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 9 January 2022
+! Updated: 13 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
 
+||bonertraffic.mobi^$3p
+||cc.boyfriendtv.com/bftv/b/img/2022-06-mn/*-black.jpg$image
+||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
+||go.xhamster.com^
+||masturbaseinvegas.com^$3p
+||porntop.com^$3p
+||vxxx.com^$3p
+
+boyfriendtv.com###cookie-wrapper
+onlygayvideo.com##center
+pornone.com##.container.main > .container.content.video_wrapper > .videos.thumblist
+str8ongay.com##.aside-itempage-col
+vikiporn.com##.bottom-banners, .categories-list.block-cats, .content-aside
 mrgay.com##.video-info > section, article, div.wrapper > section
 onlygayvideo.com##.table
-||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
 7vids.com##.media-spot
 gotporn.com##.clearfix.video-items-feed > li.live-video-item.video-item > .gravity-push.video-item-link, .sidebar
 hd21.com##.advertisment_block
 icegay.tv##.b-secondary-column__randoms > .b-head--underline.b-head
 gaygo.tv##.chat-bar, .flirt-block
-needgayporn.com##.table
+needgayporn.com##.table, center
 youporngay.com###videoComments, .inlineTooltipCntr
 pornmd.com##.suggestions-container
 tubeon.com##.livecams, #spot_video_underplayer_livecams
@@ -42,6 +54,17 @@ xhamster.com##.wio-xspot-container.wio-xplayer, .wio-xspa.wio-xspb, .clearfix.co
 xvideos.com###tabComments_bottom_page
 yeptube.com###spot_video_underplayer_livecams, div.mt10.container:nth-of-type(6), .tr-download, .tr-sponsor
 yeswegays.com##div.box:nth-of-type(3), .video-comment.comments.box, .wrapper-holder > div.container, .footer, .thumb_spots
+
+! Sniffies website
+sniffies.com##.ng-star-inserted > .ng-star-inserted.chatholder-row-item
+sniffies.com##.ng-star-inserted.ng-tns-c191-10.house.sidebar.overset-container
+||site.sniffiesassets.com/upgrade-ads/images/s*.jpg$image
+sniffies.com##.ng-tns-c192-9.overset > .ng-tns-c192-9
+sniffies.com##.ng-tns-c192-10.overset > .ng-tns-c192-10
+sniffies.com##.map-main-content > .ng-star-inserted.ng-tns-c192-12
+
+! https://mrgay.com/video/10166063/arabian-strokes/?autostart=1
+$removeparam=autostart,domain=mrgay.com
 
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
 @@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
