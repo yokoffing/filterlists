@@ -1,6 +1,6 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 02 April 2022b
+! Updated: 13 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -33,3 +33,10 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-ren
 
 ! Misc. Annoyances
 !youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, #sponsor-button, ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! YT
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
+! Block once for all the scripts responsible for annotations:
+! /annotations_module.js$script,important,domain=youtube.com
+! the end screen / auto play next:
+/endscreen.js$script,important,domain=youtube.com
