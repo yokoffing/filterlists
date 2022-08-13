@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 13 August 2022b
+! Updated: 13 August 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -480,11 +480,11 @@ fmovies.*##+js(nosiif, try)
 
 ! COOKIES
 ! https://www.pinterest.com/jankasovisova/pepa-pig/; AdGuard Annoyances
-#@#.outerCookieBar
+! #@#.outerCookieBar
 ! https://www.adjust.com/
 @@||consent.cookiebot.com^$script
 ! https://www.cnet.com/videos/googles-new-pixel-5-seattle-approves-minimum-wage-for-lyft-uber-drivers/
-@@||geolocation.onetrust.com/cookieconsentpub/$3p,script
+! @@||geolocation.onetrust.com/cookieconsentpub/$3p,script
 ! cbsnews.com -> Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
 
@@ -509,13 +509,6 @@ fmovies.*##+js(nosiif, try)
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 !@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=cbsnews.com
 !@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
-
-! ETonline
-! https://www.reddit.com/r/uBlockOrigin/comments/o9qoo8/videos_wont_play_on_etonlinecom/
-!@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=etonline.com
-!@@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=etonline.com
-!@@||tags.tiqcdn.com/utag/cbsi/etonlinesite/*/utag.js$script,domain=etonline.com
-!@@||media.amlg.io^$image,domain=etonline.com
 
 ! Bad filter in Anti-paywalls Filter on fivethirtyeight.com
 ||dcf.espn.com^$badfilter
