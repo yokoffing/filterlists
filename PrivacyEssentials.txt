@@ -1,57 +1,80 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 13 August 2022d
+! Updated: 13 August 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
-||teletarget.ru^
-||refer.bose.com^
-||target.bose.com^
-||lr-in.com^$3p
-||lr-hv-in.com^$3p
-||datadoghq.com^
-||datadoghq-browser-agent.com^
-||logrocket.network^
-||dropbox.com^,domain=~dropbox.com
-||dropbox-dns.com^,domain=~dropbox.com
-||yahoo.com^$3p
-||twitch.tv^,domain=~twitch.tv
-||7882f4ee63.com
-||accounts.google.com^$3p,domain=~youtube.com
+||0dcde44a41.com^
+||7882f4ee63.com^
 !||adobedtm.com^$3p,domain=~bose.com
+||ablestar.app^$3p
+||accounts.google.com^$3p,domain=~youtube.com
+||adjust.com^$3p
 ||adsessionserv.com^
+||amospalla.es^
+||attn.tv^$3p
+||avada-tag-manager.firebaseapp.com^$3p
 ||b7b06aa9a2.com
+||backinstock.org^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bimbolive.com^$3p
 ||bing.com^$3p,domain=~amazon.com|~login.live.com|~swisscows.com
 ||bloomapp-production.herokuapp.com^$3p
+||boldapps.net^$3p
 ||bonertraffic.mobi^$3p
+||bookthatapp.com^$3p
 ||botframework.com^$3p
+||bytecache.ml^
 ||capturehighered.net^$3p
+||christianbook.com^$3p
+||cleantalk.org^
 ||concert.io^$3p
+||cookiebot.com^
 ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
 ||cxense.com^
+||d77cf8b870.com^
+||data.cnn.com^
+||datadoghq-browser-agent.com^
+||datadoghq.com^
 ||disquscdn.com^$3p
+||dmca.com^$3p
 ||dmgmediaprivacy.co.uk^$3p
 ||dowjoneson.com^$3p
+||dropbox-dns.com^,domain=~dropbox.com
+||dropbox.com^,domain=~dropbox.com
 ||drtuber.desi^$3p
 ||firebaseinstallations.googleapis.com^
 ||forbes.com^$3p,domain=quora.com
 ||fwmrm.net^$important
+||geniuslinkcdn.com^$3p
+||geo.cnbc.com^$3p
+||geo.lovely-app.com^
+||geolocation.nexusmedia.workers.dev^
 ||getmetrical.com^$3p
+||getmulberry.com^$3p
 ||go.xhamster.com^
+||gravity-software.com^$3p
 ||iheart.com^$all,domain=~iheart.com
+||influglue.com^$3p
 ||ip.sp^
 ||ipgeolocation.io^
+||jnn-pa.googleapis.com^$important
+||judge.me^$3p
+||kount.com^$3p
 ||kount.net^$3p
 ||kustomerapp.com^$3p
 ||liveperson.net^$3p
 ||lmaxdigital.io
+||logrocket.network^
 ||loox.io^$3p
 ||lowfruitsolutions.com^$3p
+||loyaltylion.net^$3p
 ||lpsnmedia.net^$3p
+||lr-hv-in.com^$3p
+||lr-in.com^$3p
+||lura.live^$3p
 ||mailchimp.com^$3p
 ||marketingautomation.services^$3p
 ||marketo.com^
@@ -65,6 +88,7 @@
 ||newsoveraudio.com^$3p
 ||nfcube.com^$3p
 ||nitroapps.co^$3p
+||nocookie.net^$3p
 ||npttech.com^$3p
 ||nsimg.net
 ||ntv.io^$3p
@@ -75,37 +99,53 @@
 ||omnivirt.com^$3p
 ||onetrust.com^$3p
 ||opumo.net^$3p
+||origin.com^$3p,domain=origin.com
 ||outbrain.com^$3p
+||p-n.io^$3p
 ||paddle.com^$3p
 ||paradox.ai^$all
 ||play.google.com^$3p
-||p-n.io^$3p
 ||polyfill.io^$3p
 ||porntop.com^$3p
 ||rebuyengine.com^$3p
 ||recommendation-hybrid.wpdigital.net^$all
+||refer.bose.com^
 ||scholar.google.com^$3p,domain=~google.com
+||sdk.asapp.com^
 ||secomapp.com^$3p
 ||securemetrics.apple.com^$3p
 ||simplecast.com^$3p
 ||skio.com^$3p
 ||skiocheck.com^$3p
+||smile.io^$3p
 ||smsbump.com^$3p
 ||snapkit.com^$3p
 ||soap2day.to^$3p
+||soapps.net^$3p
+||stkbl.app^$3p
 ||streetmetrics.io^$3p
+||syndetics.com^$3p
+||tags.news.com.au^
+||target.bose.com^
 ||teams.microsoft.com^$3p
+||teletarget.ru^
+||thanhhd.com^$3p
 ||thunderhead.com^$3p
-||tiqcdn.com^$3p,domain=~calvinklein.*|~etonline.com|~ups.com
+!||tiqcdn.com^$3p,domain=~calvinklein.*|~etonline.com|~ups.com
 ||titsx.com^$3p
 ||tracking.epicgames.com^
-! ||translate.google.com^,domain=~google.com
-! ||translate.googleapis.com^,domain=~google.com
 ||trustarc.com^$3p
 ||truste.com^$3p
 ||trustx.org^$3p
 ||tsyndicate.com^$3p
+||turnto.com^$3p
+||twitch.tv^,domain=~twitch.tv
+||typekit.net^$important,domain=~billboard.com
+||vuukle.com^$3p
 ||vxxx.com^$3p
+||widgets.guidestar.org^
+||yahoo.com^$3p
+||yottaa.com^$3p
 ||zqtk.net^$important
 
 ! Social Tracking
@@ -142,6 +182,7 @@ platform.twitter.com##+js(cookie-remover)
 ||klarnacdn.net^$3p
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
+||razorpay.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
 ! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 ! ||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
@@ -517,6 +558,10 @@ fmovies.*##+js(nosiif, try)
 
 ! Unbreak Spectrum login
 @@||pov.spectrum.net^
+
+! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+! Malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
+||com-^$document
 
 !#if ext_ublock
 !#include click2load.txt
