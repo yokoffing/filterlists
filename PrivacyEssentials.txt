@@ -1,12 +1,16 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 13 August 2022f
+! Updated: 13 August 2022g
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
+! Sources:
+! My personal filters
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
+! from https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
+! from uBlock filters – Unbreak
 
 ! GENERAL BLOCKLIST
 .checkfront.com/lib/Control.Geocoder*.js$script
@@ -306,7 +310,7 @@
 fmovies.*##+js(nosiif, try)
 
 ! GENERAL ALLOWLIST
-! from https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
+!@@||assets.adobedtm.com^$script
 @@*/lwa/WebPages/LwaClient.aspx$subdocument
 @@*/saml/$subdocument
 @@/clarity-*.js$1p,script
@@ -315,15 +319,10 @@ fmovies.*##+js(nosiif, try)
 @@||advertising.com^$1p
 @@||alexa.com^$1p
 @@||amzn.to^$1p
-@@||appspot.com^$subdocument,domain=cloud.google.com
 @@||assets-jpcust.jwpsrv.com^$image
-!@@||assets.adobedtm.com^$script
-@@||brightcove.^$xhr
 @@||cbsi.com/dist/optanon.js$script
 @@||cdn-apple.com^$domain=apple.com
-@@||cdn.jwplayer.com^$xhr
-!@@||cloudfront.net$image,font,stylesheet
-@@||content.jwplatform.com^$xhr,script
+@@||consent.cookiebot.com^$script,domain=adjust.com
 @@||contextual.media.net^$script
 @@||cookielaw.org/*/otBannerSdk.js$script
 @@||cookielaw.org/*/otPcPanel.json$xhr
@@ -333,17 +332,11 @@ fmovies.*##+js(nosiif, try)
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
-!@@||gravatar.com^$image,stylesheet
-@@||jwpcdn.com/player/plugins/vast/$script
-@@||jwpcdn.com^$font
-@@||jwpltx.com^$image
-@@||jwpsrv.com^$subdocument
-@@||media.brightcove.com^$image
-@@||media.brightcove.com^$media,domain=players.brightcove.net
+@@||gravatar.com^$image,stylesheet
 @@||omara.cdn-cnj.si^$script
 @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
-@@||players.brightcove.net^$script
+@@||pov.spectrum.net^
 @@||udimg.com^$1p
 @@||udimg.com^$domain=urbandictionary.com
 @@||use.typekit.net^$font
@@ -373,6 +366,7 @@ fmovies.*##+js(nosiif, try)
 ||youtube.com/youtubei/v1/log_event^$xhr
 @@||accounts.google.*/ServiceLogin$subdocument
 @@||apis.google.com^$script,domain=content.googleapis.com|dropbox.com
+@@||appspot.com^$subdocument,domain=cloud.google.com
 @@||blogger.*.google.com^$domain=blogspot.com
 @@||blogger.*.google.com^$subdocument
 @@||blogger.com/comment-iframe.$subdocument
@@ -465,38 +459,37 @@ platform.twitter.com##+js(cookie-remover)
 ||stripe.network^$3p,domain=~koinly.io
 
 ! Video Players that detract from main content
-!||jwpcdn.com^
-!||jwplatform.com^$3p,domain=~billboard.com
-!||jwplayer.com^$3p,domain=~menshealth.com
-||jwpsrv.com^$3p
-||entitlements.jwplayer.com^$important
-||brightcove.net^$3p
 ||cnevids.com^$3p
 ||kaltura.com^$3p,domain=~financialaidtv.com
-!||vimeo.com^$3p
-!||youtube.com^$3p
-!||ytimg^$3p
+||brightcove.net^$3p
+@@||brightcove.^$xhr
+@@||media.brightcove.com^$image
+@@||media.brightcove.com^$media,domain=players.brightcove.net
+@@||players.brightcove.net^$script
+||entitlements.jwplayer.com^$important
+||jwpsrv.com^$3p
+!||jwplayer.com^$3p,domain=~menshealth.com
+@@||cdn.jwplayer.com^$xhr
+@@||content.jwplatform.com^$xhr,script
+@@||jwpcdn.com/player/plugins/vast/$script
+@@||jwpcdn.com^$font
+@@||jwpltx.com^$image
+@@||jwpsrv.com^$subdocument
 
 ! Intercom at Nextdns.io
 @@||js.intercomcdn.com^$script
 
 !!! TRACKERS that happens only by user action
-@@||trk.klclick.com^
+!@@||trk.klclick.com^
 
-! COOKIES
-! https://www.adjust.com/
-@@||consent.cookiebot.com^$script
-! cbsnews.com -> Cookie problem
-@@||isgprivacy.cbsi.com^$3p,script
-
-! from uBlock filters – Unbreak
+! CNN
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
 @@||cnn.com/.element/apps/cvp/3.0/cfg/spider/cnn/expansion/ad_policy.xml$xhr,domain=cnn.com
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
 @@||cdn.turner.com/cnn/van/resources/*/scripts/vendor/loggly.tracker.js$xhr,domain=trentonian.com
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
 
-! bloomberg videos
+! Bloomberg videos
 @@||cdn.gotraffic.net^$domain=bloomberg.*
 @@||js.spotx.tv/directsdk/$script,domain=bloomberg.*
 @@||spotxcdn.com/integration/directsdk/$script,domain=bloomberg.*
@@ -508,17 +501,14 @@ platform.twitter.com##+js(cookie-remover)
 ! CBS News
 @@||cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/libs/chartbeat.js$script,domain=cbsnews.com
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
-!@@||tags.tiqcdn.com/utag/*/utag.js$script,domain=cbsnews.com
-!@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
+! Cookie problem
+@@||isgprivacy.cbsi.com^$3p,script
 
 ! Bad filter in Anti-paywalls Filter on fivethirtyeight.com
 ! removed
 ! ||dcf.espn.com^$badfilter
 ! @@||fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js$script,1p
 ! ||dcf.espn.com^,domain=fivethirtyeight.com|nationalgeographic.com
-
-! Unbreak Spectrum login
-@@||pov.spectrum.net^
 
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ! Malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
