@@ -1,5 +1,7 @@
 name: Bug Report
 description: File a bug report
+<p>
+<p>
 body:
   - type: markdown
     attributes:
