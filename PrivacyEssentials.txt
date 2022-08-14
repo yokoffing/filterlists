@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 14 August 2022c
+! Updated: 14 August 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -353,8 +353,10 @@ fmovies.*##+js(nosiif, try)
 ||firebaseinstallations.googleapis.com^
 ||google-analytics.com^$3p,important
 ||google.com/cse/cse.js^
-!||google.com^$3p,domain=~cbsnews.com|~translate.google.com
-||google.^$3p,domain=~cbsnews.com|~translate.google.com
+!||google.com^$3p,~domain=translate.google.com
+!||google.^$3p,domain=~cbsnews.com|~translate.google.com
+||google.^$3p,domain=~cbsnews.com|~translate.google.com|~youtube.com|~youtube-nocookie.com
+||google.^,domain=~cbsnews.com
 ||googleadservices.com^$3p,important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
@@ -383,7 +385,8 @@ fmovies.*##+js(nosiif, try)
 @@||google.^$script,domain=youtube.com
 @@||google.com/recaptcha/api.js$script
 @@||google.com/uds/*visualization$script,stylesheet
-@@||google*.^$domain=youtube.com|youtube-nocookie.com
+@@||google*.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
+!@@||google*.^$domain=youtube.com|youtube-nocookie.com
 @@||gstaticadssl.*.google.com^$font
 @@||maps-api-ssl.google.com^$script,image
 @@||maps.google.*/maps$script,image
