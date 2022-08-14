@@ -4,26 +4,24 @@ body:
   - type: markdown
     attributes:
       value: |
-        :warning: **Issues will be marked as invalid and closed if they do not come with profiling data and analysis supporting the claim.**
+        :warning: **Issues will be marked as invalid if they do not come with profiling data and analysis to support the claim.**
   - type: checkboxes
     attributes:
       label: Prerequisites
       description: |
-        - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then in all likelihood this is a filter issue.
-        - See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
-        - If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO.
+        - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then this is probably a filter issue.
+        - See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue. This will help you determine whether this is a filter issue.
+        - If the issue is still present after disabling uBO in the browser, then the issue is unrelated to uBO.
         
         To rule out invalid issues, confirm each one of the checkboxes:
       options:
-        - label: I verified that this is not a filter issue (MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues))
+        - label: I verified that this is not a [known filter issue](https://github.com/yokoffing/filterlists/issues)
           required: true
-        - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
+        - label: This is not a [support issue or a question](https://www.reddit.com/r/uBlockOrigin/)
           required: true
-        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
+        - label: I performed a [cursory search of the uBO issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
           required: true
-        - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
-          required: true
-        - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
+        - label: The issue is not present after wholly disabling uBO in the browser
           required: true
     
   - type: checkboxes
@@ -44,10 +42,14 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     attributes:
-      label: A specific URL where the issue occurs
+      label: Specific URL(s) where the issue occurs
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
+      value: |
+        ```
+        
+        ```
     validations:
       required: true
 
