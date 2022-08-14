@@ -10,13 +10,15 @@ body:
       label: Prerequisites
       description: |
         - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then it is probably a filter issue.
-        - However, if the issue is still present *after* disabling uBO, then the issue is unrelated to uBO.
+        - However, if the issue is still present *after* disabling uBO, then the issue is unrelated to a filter.
         - See what the [logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) when you reproduce the issue. This will help you determine whether this is a filter issue.
         - To rule out invalid issues, confirm each one of the checkboxes:
       options:
+        - label: I am not using any other content blockers alongside uBO (Privacy Badger, AdGuard, Ghostery, Adblock Plus, etc.)
+          required: true
         - label: I verified that this is not a [known filter issue](https://github.com/yokoffing/filterlists/issues)
           required: true
-        - label: This is not a [support issue or a question](https://www.reddit.com/r/uBlockOrigin/)
+        - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
           required: true
         - label: I performed a [cursory search of the uBO issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
           required: true
