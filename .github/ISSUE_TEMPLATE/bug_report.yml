@@ -41,10 +41,7 @@ body:
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
       value: |
         ```
-    
-    
-    
-    
+            
         ```
     validations:
       required: true
@@ -59,6 +56,7 @@ body:
   - type: textarea
     attributes:
       label: Steps to Reproduce
+      description: How do we reproduce the issue?
       placeholder: |
         1. [First Step]
         2. [Second Step]
@@ -69,14 +67,14 @@ body:
   - type: textarea
     attributes:
       label: Expected behavior
-      description: What you expected to happen
+      description: What you wanted to happen
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Actual behavior
-      description: What actually happened
+      description: What happened instead
     validations:
       required: true
 
