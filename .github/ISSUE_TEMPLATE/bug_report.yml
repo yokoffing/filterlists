@@ -1,0 +1,94 @@
+name: Bug Report
+description: File a bug report
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Speculated performance issues will be marked as invalid and closed if they do not come with actual profiling data + analysis supporting the claim.
+        Opening issues for adding new filter lists is now disallowed and such issues will be declined and closed.
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: |
+        To rule out invalid issues, confirm and check each one of the checkboxes.
+        If [disabling uBO](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) makes the issue go away, then in all likelihood this is a filter issue.
+        See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
+        If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO.
+      options:
+        - label: I verified that this is not a filter issue (MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues))
+          required: true
+        - label: This is not a [support issue or a question](https://old.reddit.com/r/uBlockOrigin/)
+          required: true
+        - label: I performed a [cursory search of the issue tracker](https://github.com/uBlockOrigin/uBlock-issues/issues?q=is%3Aissue) to avoid opening a duplicate issue
+          required: true
+        - label: The issue is not present after wholly disabling uBlock Origin ("uBO") in the browser
+          required: true
+        - label: I checked the [documentation](https://github.com/gorhill/uBlock/wiki) to understand that the issue I report is not a normal behavior
+          required: true
+    
+  - type: checkboxes
+    attributes:
+      label: I tried to reproduce the issue when...
+      options:
+        - label: uBO is the only extension
+          required: true
+        - label: uBO with default lists/settings
+          required: true
+        - label: using a new, unmodified browser profile
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Description of the bug or feature
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: A specific URL where the issue occurs
+      description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      placeholder: |
+        1. [First Step]
+        2. [Second Step]
+        3. [and so on...]
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: What you expected to happen
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: What actually happened
+    validations:
+      required: true  
+
+  - type: input
+    attributes:
+      label: uBlock Origin version
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Browser name and version
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Operating System and version
+    validations:
+      required: true
