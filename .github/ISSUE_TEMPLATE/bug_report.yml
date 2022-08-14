@@ -69,12 +69,11 @@ body:
     attributes:
       label: Logger Output
        description: |
-        1) Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
-        2) Refresh the issue page
-        3) [Export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) the output by clicking the clipboard icon
-        4) Select `Table` and `Markdown`, then `Copy to clipboard`
-        5) Paste output below
-      description: Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger) and [export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) (clipboard icon) the output after refreshing the issue page.
+        - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
+        - Refresh the issue page
+        - [Export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) the output by clicking the clipboard icon
+        - Select `Table` and `Markdown`, then `Copy to clipboard`
+        - Paste output below
     validations:
       required: true
 
