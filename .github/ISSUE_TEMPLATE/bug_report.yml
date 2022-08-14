@@ -1,10 +1,8 @@
-name: Bug Report
-description: File a bug report
 body:
   - type: markdown
     attributes:
       value: |
-        :warning: **Speculated performance issues will be marked as invalid and closed if they do not come with profiling data + analysis supporting the claim.**
+        :warning: **Issues will be marked as invalid and closed if they do not come with profiling data and analysis supporting the claim.**
   - type: checkboxes
     attributes:
       label: Prerequisites
