@@ -68,7 +68,8 @@ body:
   - type: textarea
     attributes:
       label: Logger Output
-      description: Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
+      description: |
+      - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
       placeholder: |
         - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
         - Refresh the issue page
