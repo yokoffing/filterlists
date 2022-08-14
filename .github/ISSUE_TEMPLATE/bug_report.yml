@@ -2,9 +2,10 @@ name: Bug Report
 description: File a bug report
 body:
   - type: markdown
+  <p><p></p></p>
     attributes:
       value: |
-        <p><p></p></p> :warning: **Issues will be marked as invalid if they do not come with profiling data and analysis to support the claim.**
+        :warning: **Issues will be marked as invalid if they do not come with profiling data and analysis to support the claim.**
   - type: checkboxes
     attributes:
       label: Prerequisites
