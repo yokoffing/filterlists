@@ -357,7 +357,7 @@ fmovies.*##+js(nosiif, try)
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
-||jnn-pa.googleapis.com^$important
+||jnn-pa.googleapis.com^
 ||news.google.com^$3p
 ||play.google.com/log?$xmlhttprequest,important
 ||play.google.com^$3p
