@@ -40,10 +40,7 @@ body:
     attributes:
       label: Specific URL(s) where the issue occurs
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
-      value: |
-        ```
-            
-        ```
+      render: 
     validations:
       required: true
   
@@ -68,8 +65,7 @@ body:
   - type: textarea
     attributes:
       label: Logger Output
-      description: |
-      - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
+      description: Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
       placeholder: |
         - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
         - Refresh the issue page
