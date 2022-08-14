@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        <p><p>:warning: **Issues will be marked as invalid if they do not come with profiling data and analysis to support the claim.**
+        <p><p></p></p> :warning: **Issues will be marked as invalid if they do not come with profiling data and analysis to support the claim.**
   - type: checkboxes
     attributes:
       label: Prerequisites
