@@ -9,9 +9,9 @@ body:
     attributes:
       label: Prerequisites
       description: |
-        - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then this is probably a filter issue.
-        - See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue. This will help you determine whether this is a filter issue.
-        - If the issue is still present after disabling uBO in the browser, then the issue is unrelated to uBO.
+        - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then it is probably a filter issue.
+        - However, if the issue is still present *after* disabling uBO in the browser, then the issue is unrelated to uBO.
+        - See what the [logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) when you reproduce the issue. This will help you determine whether this is a filter issue.
         
         To rule out invalid issues, confirm each one of the checkboxes:
       options:
@@ -37,19 +37,19 @@ body:
 
   - type: textarea
     attributes:
-      label: Description
-      description: Description of the bug or feature
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
       label: Specific URL(s) where the issue occurs
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
       value: |
         ```
         
         ```
+    validations:
+      required: true
+  
+  - type: textarea
+    attributes:
+      label: Description
+      description: Description of the bug or feature
     validations:
       required: true
 
@@ -61,7 +61,7 @@ body:
         2. [Second Step]
         3. [and so on...]
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
