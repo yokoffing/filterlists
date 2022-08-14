@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 14 August 2022e
+! Updated: 14 August 2022f
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -333,6 +333,7 @@ fmovies.*##+js(nosiif, try)
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
 @@||gravatar.com^$image,stylesheet
+!@@||js.intercomcdn.com^$script,domain=nextdns.com
 @@||omara.cdn-cnj.si^$script
 @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
@@ -461,16 +462,18 @@ platform.twitter.com##+js(cookie-remover)
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
 ||stripe.com^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
-||stripe.network^$3p,domain=~koinly.io
+||stripe.network^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
 
-! Video Players that detract from main content
+! VIDEO PLAYERS
 ||cnevids.com^$3p
 ||kaltura.com^$3p,domain=~financialaidtv.com
+! Brightcove
 ||brightcove.net^$3p
 @@||brightcove.^$xhr
 @@||media.brightcove.com^$image
 @@||media.brightcove.com^$media,domain=players.brightcove.net
 @@||players.brightcove.net^$script
+! JW Player
 ||entitlements.jwplayer.com^$important
 ||jwpsrv.com^$3p
 !||jwplayer.com^$3p,domain=~menshealth.com
@@ -480,12 +483,6 @@ platform.twitter.com##+js(cookie-remover)
 @@||jwpcdn.com^$font
 @@||jwpltx.com^$image
 @@||jwpsrv.com^$subdocument
-
-! Intercom at Nextdns.io
-@@||js.intercomcdn.com^$script
-
-!!! TRACKERS that happens only by user action
-!@@||trk.klclick.com^
 
 ! CNN
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
@@ -508,16 +505,6 @@ platform.twitter.com##+js(cookie-remover)
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
-
-! Bad filter in Anti-paywalls Filter on fivethirtyeight.com
-! removed
-! ||dcf.espn.com^$badfilter
-! @@||fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js$script,1p
-! ||dcf.espn.com^,domain=fivethirtyeight.com|nationalgeographic.com
-
-! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-! Malware and phishing domains use this (to test, visit "examplelegitdomain.com-somemalware.online" on a browser with this list active in uBo) - does not work
-||com-^$document
 
 !#if ext_ublock
 !#include click2load.txt
