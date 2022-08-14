@@ -9,10 +9,11 @@ body:
     attributes:
       label: Prerequisites
       description: |
-        To rule out invalid issues, confirm and check each one of the checkboxes.
-        If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then in all likelihood this is a filter issue.
-        See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
-        If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO.
+        - If [disabling uBlock Origin](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface#the-large-power-button) (uBO) makes the issue go away, then in all likelihood this is a filter issue.
+        - See [what the logger reports](https://github.com/gorhill/uBlock/wiki/The-logger) reports when you reproduce the issue, this will help you determine whether this is a filter issue.
+        - If the issue is still present after wholly disabling uBO in the browser, then the issue is unrelated to uBO.
+        
+        To rule out invalid issues, confirm each one of the checkboxes:
       options:
         - label: I verified that this is not a filter issue (MUST be reported at [filter issue tracker](https://github.com/uBlockOrigin/uAssets/issues))
           required: true
