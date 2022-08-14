@@ -1,12 +1,3 @@
----
-name: Bug report 1
-about: Filter breakage
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ### List the website(s) you're having issues:
 ```
 
