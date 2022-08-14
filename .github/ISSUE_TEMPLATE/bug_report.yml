@@ -40,6 +40,9 @@ body:
     attributes:
       label: Specific URL(s) where the issue occurs
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
+      value: |
+        1.
+        2.
       render: bash
     validations:
       required: true
@@ -56,10 +59,9 @@ body:
       label: Steps to Reproduce
       description: How do we reproduce the issue?
       placeholder: |
-        1.
-        2.
-        3.
-        ...
+        1. [First Step]
+        2. [Second Step]
+        3. [and so on...]
     validations:
       required: false
 
