@@ -40,7 +40,7 @@ body:
     attributes:
       label: Specific URL(s) where the issue occurs
       description: A specific URL is MANDATORY for issue happening on a web page, even if it happens "everywhere"
-      render: 
+      render: bash
     validations:
       required: true
   
@@ -56,22 +56,24 @@ body:
       label: Steps to Reproduce
       description: How do we reproduce the issue?
       placeholder: |
-        1. [First Step]
-        2. [Second Step]
-        3. [and so on...]
+        1.
+        2.
+        3.
+        ...
     validations:
       required: false
 
   - type: textarea
     attributes:
       label: Logger Output
-      description: Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
-      placeholder: |
-        - Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
-        - Refresh the issue page
-        - [Export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) the output by clicking the clipboard icon
-        - Select `Table` and `Markdown`, then `Copy to clipboard`
-        - Paste output below
+      description: Use [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
+      value: |
+        1. Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger)
+        2. Refresh the issue page
+        3. [Export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) the output by clicking the clipboard icon
+        4. Select `Table` and `Markdown`, then `Copy to clipboard`
+        5. Paste output below:
+        
     validations:
       required: true
 
