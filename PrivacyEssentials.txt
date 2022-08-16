@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 14 August 2022f
+! Updated: 16 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -220,6 +220,7 @@
 ||paddle.com^$3p
 ||paht.tech^
 ||paradox.ai^$all
+||paywall.theathletic.com^
 ||piano.io$3p
 ||pkmods.com$inline-script
 ||pmcatalyst-ae.com^$3p
@@ -505,6 +506,9 @@ platform.twitter.com##+js(cookie-remover)
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
+
+! Mens Health videos (1Hosts Pro)
+@@||glimmer.hearstapps.com^
 
 !#if ext_ublock
 !#include click2load.txt
