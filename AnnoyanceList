@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 10 August 2022
+! Updated: 16 August 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -36,8 +36,7 @@ bbc.com##aside.e1ia0oo95.ssrcss-1kczfdm-AsideWrapper:nth-of-type(1), aside.e1ia0
 bestbuy.com##.shopping-assistant-accordion.c-accordion
 biblegateway.com##.sys-announce-content
 bitcoinmagazine.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
-bleepingcomputer.com##.articleBody > .cz-related-article-wrapp
-bleepingcomputer.com##.bc_downloads, .cz-newz-comment-wrapp, .cz-story-navigation, .cz-post-comment-wrapp, .cz-main-left-section > .cz-related-article-wrapp, #pop_stories
+bleepingcomputer.com##.articleBody > .cz-related-article-wrapp, .bc_downloads, .cz-newz-comment-wrapp, .cz-story-navigation, .cz-post-comment-wrapp, .cz-main-left-section > .cz-related-article-wrapp, #pop_stories, .twitter.fa-twitter.fa
 blockchain.news###recommendarea, .hidden-sm-down.sbl.col-md-12.col-lg-3, .footer-hyperlink
 blocmates.com###comments
 blog.cloudflare.com##.center.mw7.flex-wrap.flex-row.flex.ph0-l.ph3.pv4
@@ -61,10 +60,9 @@ chadd.org##.fl-node-601c2996ce495.fl-row-bg-none.fl-row-full-width.fl-row
 citycoins.co##.banner_container.banner
 citylimits.org###sidebar > .widget-area, #comments, .footer-skyline
 cjr.org###perspective-top, #perspective-bottom, .hidden-print.trending-stories.col-md-offset-0.col-md-4.col-sm-offset-2.nocontent
-cnbc.com##.SectionWrapper-container
-cnbc.com##.SidebarArticle-sticky
-cnbc.com##.WatchLiveRightRail-container.WatchLiveRightRail-inline, .RelatedContent-container
+cnbc.com##.SectionWrapper-container, .SidebarArticle-sticky, .WatchLiveRightRail-container.WatchLiveRightRail-inline, .RelatedContent-container
 cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone, .RelatedArticle__component
+computerverge.com##.is-alreay-loaded.is-fixed.is-sticky.normal-side.tie-col-xs-12.tie-col-md-4.sidebar > .theiaStickySidebar
 coindesk.com##.fFpIEz.newsletter-ctastyles__Wrapper-sc-1a47sbx-0
 coindesk.com##.fyPdeu.newsletter-ctastyles__Wrapper-sc-18e7dvj-0
 coingecko.com##div.p-4:nth-of-type(3), .tw-mb-16
@@ -350,6 +348,25 @@ translate.google.com##.notification-area,.gt-cc:remove()
 ! ||youtube.com^*/endscreen.js
 ! ||youtube.com^*/annotations_module.js
 
+!!! REDDIT
+! from https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
+! Clean up the Reddit header bar:
+! Advertise
+reddit.com##header [aria-label="Advertise"]
+! r/Popular
+reddit.com##header [href="/r/Popular/"]
+www.reddit.com##.icon-popular.icon
+! r/all
+reddit.com##header [href="/r/all/"]
+! Reddit Live
+reddit.com##header [href="/rpan/"]
+! Shop Avatars
+reddit.com##header svg+svg+svg>[d^="M6.47.828a.5.5"]:upward(2)
+
+! Block AutoModerator messages
+reddit.com##._1YCqQVO-9r-Up6QPB9H6_4 > div > div:has-text(AutoModerator)
+
+!!! TWITTER
 ! from https://github.com/DandelionSprout/adfilt/blob/master/TwitterPureReadingExperience.txt
 ! Removes the Trending list
 twitter.com##div[data-testid=sidebarColumn] section > div[aria-label]
@@ -565,3 +582,9 @@ youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|
 ! Recommend after pause
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+
+!!! NYT
+! "To our Readers" note
+! https://www.reddit.com/r/uBlockOrigin/comments/wpwuqu/how_can_i_hide_this_on_nyt_page/
+nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
+nytimes.com##
