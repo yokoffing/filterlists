@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 18 August 2022d
+! Updated: 18 August 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -26,7 +26,6 @@
 ||a2sky.com^$3p
 ||ablestar.app^$3p
 ||ad.exilio.net^
-||addthis.com^$3p,important
 ||addthis.com^$important
 ||adicio.com^$3p
 ||adjust.com^$3p
@@ -425,7 +424,7 @@ platform.twitter.com##+js(cookie-remover)
 @@||twitter.map.fastly.net^$domain=twitter.com
 
 ! TIKTOK
-||tiktok.com^$3p
+!||tiktok.com^$3p
 ||ibytedtos.com^$3p,domain=~tiktok.com
 
 ! LINKEDIN
