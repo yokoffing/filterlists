@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 16 August 2022
+! Updated: 2 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
@@ -399,126 +399,6 @@ twitch.tv##.extension-view__iframe
 wired.com##.paywall-bar--expanded.paywall-bar-failsafe
 wired.com##.paywall-bar__expanded
 wired.com##.show-social-box.persistent-aside--align-left.persistent-aside
-
-! from https://github.com/Yuki2718/adblock/blob/master/adguard/social-plus.txt
-! General Social contents
-/dp-magjam/img/social/evernote-box.
-/dp-mature/img/social/evernote.
-/facebook-pagelike-widget/*
-/gridsby_pro/js/share.
-/icon_rss.$image
-/images/social.$domain=clicknupload.co|erodan.net|hexupload.net|katfile.com|kingdomfiles.com|sakurafile.com|uploader.link|uploadflix.org|uploadhub.*|uploadmaza.com|uploadmoon.com|uploadmx.com|uploadraja.com|uppboom.com|uptomega.me|vkupload.com|wupfile.com
-/jetpack/_inc/build/sharedaddy/*
-/jetpack/images/rss/*$image
-/plugins/accesspress-social-login-lite/*
-/plugins/accesspress-social-share/*
-/plugins/add-to-feedly/*
-/plugins/bookmarkify/*
-/plugins/custom-share-buttons-with-floating-sidebar/*
-/plugins/facebook-conversion-pixel/*
-/plugins/feedly-insight/*
-/plugins/floating-social-bar/*
-/plugins/fudou-share-bottons/*
-/plugins/getsocial/*
-/plugins/gianism/*
-/plugins/jquery-pin-it-button-for-images/*
-/plugins/mashshare-
-/plugins/osd-social-media-sharing/*
-/plugins/pinterest-pin-it-button-for-images/*
-/plugins/pinterest-pin-it-button-on-image-hover-and-post/*
-/plugins/simple-share-buttons-adder/*
-/plugins/sociable-zyblog-edition/*
-/plugins/social-media-feather/*
-/plugins/social-pug/*
-/plugins/socialsnap/*
-/plugins/super-socializer/*
-/plugins/tmbi-custom-social-share/*
-/plugins/tmbi-recipe-social-share-referrer/*
-/plugins/va-social-buzz/*
-/plugins/wordpress-social-login/*
-/plugins/wp-facebook-login/*
-/plugins/wp-sbm_eopular_entry/*
-/plugins/wp-social-bookmarking-light/*
-/primepress/images/pp-rss2.
-/rss.gif$image
-/rss.png$image
-/sango-theme/library/images/feedly.
-/themes/snow-monkey/vendor/*/wp-share-buttons/*
-/twitter-blackbird-pie/*$important
-/xeory-core/modules/xeory-social/*
-||ampproject.org^*/amp-social-share
-||apis.google.com/js/plusone.
-||apis.google.com/se/0/_/+1/sharebutton
-||apis.google.com/_/scs/apps-static/_/js/*=plusone/
-||blogger.com/img/share_buttons
-||cdnen.rt.com/static/js/services.sharing
-||cdns.gigya.com/js/gigya.services.socialize.
-||connect.facebook.net^*/all.js
-||connect.facebook.net^*/sdk.js
-||download.skype.com/share/skypebuttons/
-||feedburner.com/fb/images/pub/feed-
-||flipboard.com/badges/flipboard_
-||gstatic.com/images/icons/gplus-16.
-||m.facebook.com/a/bz|
-||pinterest.com/images/PinExt.
-||public-api.wordpress.com/connect/?googleplus-sign-in
-||socialize.us1.gigya.com^
-!||static.evernote.com^$third-party
-||twitter.com/javascripts/typepad.
-||wp.com/s3.feedly.com/img/follows/
-
-! Social contents on individual sites
-/share_link_$image,~third-party,domain=123moviesg.com|9anime.work|gogoanime.ai|gogoanime.lol|gogoanime.so|gogoanime.video|gogoanimehub.tv|gogoanimes.tv|kissanime.rest
-||0x65.dev/static/img/social-icons/
-||bbc.co.uk^*/share_tools_44px.
-||bbc.co.uk^*/share_tools_88px.
-||catchvideo.net/static/Twitter.
-||els-jbs-prod-cdn.literatumonline.com/pb/assets/raw/webfiles/images/feed-icon
-||europa.eu/webtools/webtools.sbkm.
-||filehorse.com/img/addthis.
-||finnishdesignshop.com/layout/images/some/share-icons/
-||idge.staticworld.net/images/
-||imshopping.rediff.com/shoprediff/js/sns_mobile_
-||imworld.rediff.com^/sns_ind_
-||investors.com/wp-content/themes/ibd/dist/images/share-icons/
-||lakeshorelearning.com/assets/images/share-
-||littletikes.com/mas_assets/plugin/segments/js/social_share_item
-||m.imgur.com/assets/icon-share-chat.
-||macrumors.com/images-new/button-
-||media.yoox.biz/ytos/resources/MONCLER/accessibility/icons/svg-mono-white/social
-||mobile.lufthansa.com^*/ic_twitter.png|
-||moddb.com/cutoff/images/icons/connect.
-||moddb.com/cutoff/images/icons/socialpromo.
-||mshare.xyz/images/icons/facebook.
-||mshare.xyz/images/icons/twitter.
-||mshare.xyz/images/icons/vk.
-||msn.com/bundles/v1/hybrid/latest/*.svg|
-||myfreemp3cc.com/img/Twitter.
-||myfreemp3cc.com/img/telegram.
-||myfreemp3cc.com/img/viber.
-||myfreemp3cc.com/img/whatsapp.
-||pasty.info/images/facebook.
-||pasty.info/images/email.
-||pasty.info/images/telegram.
-||pasty.info/images/whatsapp.
-||piratebay.party/static/img/latest.
-||rbl.ms/static/js-build/social-ux/
-||rbth.com/rbth/img/icons.
-||rbth.com/rbth/view/sharing.
-||s-f.scribdassets.com/images/social/
-||s2.reutersmedia.net/resources_v2/js/rcom-social-share.
-||s4.reutersmedia.net/resources_v3/js/win-sharetools.
-||scoop.it/resources/img/hs/btn.
-||securityweek.com/images/RSS-
-||socialstat.rt.com/socialstat
-||staticcontent.fxstreet.com/website/mustache/socialmediabar/
-||thecollegefix.com/wp-content/themes/the-college-fix/img/TCF-social-default
-||torrentdownloads.me/templates/new/images/rss_icon.
-||tpb.party/static/img/rss_small.
-||us-cert.gov/profiles/*-button.png|
-||us-cert.gov/sites/default/files/images/rss-button-
-||vidoza.net/images-newtheme/social/$important
-||vidtomp3.com/images/facebook.$image,~third-party
 
 !#include CleanReadingExperience.txt
 !#include AdultAnnoyanceList.txt
