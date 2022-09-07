@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 2 September 2022
+! Updated: 6 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -107,6 +107,7 @@
 ||dowjoneson.com^$3p
 ||dropbox-dns.com$domain=~dropbox.com
 ||dropbox.com$domain=~dropbox.com
+||dropboxusercontent.com$domain=~dropbox.com
 ||drtuber.desi^$3p
 ||eagleapi.io^
 ||evidon.com^$3p
