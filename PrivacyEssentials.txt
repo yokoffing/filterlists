@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 6 September 2022
+! Updated: 19 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -15,8 +15,8 @@
 ! GENERAL BLOCKLIST
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
-/fingerprintjs2$script,important
-/fp.js$script,important
+/fingerprintjs2$script
+/fp.js$script
 /loginmanager_sniff.js$script
 ||0dcde44a41.com^
 ||1105media.com^$3p
