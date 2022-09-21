@@ -1,13 +1,13 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 13 August 2022b
+! Updated: 21 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
-! Hide Like count to match Dislike
+! Hide Like count to match Dislike [needs new code for YouTube's new layout]
 ! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
-youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
+!!! youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
 
 ! Hide recommendation sidebar
 youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, #sponsor-button, ytd-horizontal-card-list-renderer
@@ -36,7 +36,7 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-ren
 
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
 ! Block once for all the scripts responsible for annotations:
-! /annotations_module.js$script,important,domain=youtube.com
+!!! /annotations_module.js$script,important,domain=youtube.com
 ! the end screen / auto play next:
 /endscreen.js$script,important,domain=youtube.com
 
