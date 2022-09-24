@@ -22,6 +22,7 @@
 
 * Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
 * [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+* [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
 * (optional) [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
 
  ***
