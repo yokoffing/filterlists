@@ -13,11 +13,19 @@
 [![Screenshot-2022-01-09-115024.jpg](https://i.postimg.cc/jqN31xLy/Screenshot-2022-01-09-115024.jpg)](https://postimg.cc/z3zkb1wf)
 
 **NOTES:**
- - Regarding `uBlock filters - Unbreak`: Many of these rules are unnecessary for me. A few were added to `Privacy Essentails`.
+ - Regarding `uBlock filters - Unbreak`: Many of these rules seem unnecessary. A few strings were added to `Privacy Essentails`.
  - Regarding `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
  
  ***
  
+## Reading
+
+* Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
+* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+* (optional) [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
+
+ ***
+
 ## Custom Filters
 
 ### General Purpose:
