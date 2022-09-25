@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 19 September 2022
+! Updated: 25 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -104,6 +104,7 @@
 ||disquscdn.com^$3p
 ||dmca.com^$3p
 ||dmgmediaprivacy.co.uk^$3p
+||donorbox.org^$3p
 ||dowjoneson.com^$3p
 ||dropbox-dns.com$domain=~dropbox.com
 ||dropbox.com$domain=~dropbox.com
@@ -130,6 +131,7 @@
 ||getmulberry.com^$3p
 ||getsentry.com^$3p
 ||getsitecontrol.com^$3p
+||gigya.com^$3p
 ||gleamjs.io^
 ||gravatar.com^$important
 ||gravity-software.com^$3p
@@ -139,6 +141,7 @@
 ||hawk-tech.co.uk^
 ||hawksearch.com^$3p
 ||hollywoodreporter.com/fe_data/$1p,xmlhttprequest
+||hotjar-analytics.com^
 ||hotjar.com^$important,3p
 ||hotjar.io^$important,3p
 ||hubspot.com^$3p
@@ -306,6 +309,8 @@
 ||zqtk.net^$important
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
+!!! https://github.com/uBlockOrigin/uAssets/issues/11308#issuecomment-1014717129
+||tags.tiqcdn.com/utag/*/utag.v.js
 
 ! GENERAL ALLOWLIST
 !@@||assets.adobedtm.com^$script
@@ -504,8 +509,46 @@ platform.twitter.com##+js(cookie-remover)
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
 
-! Mens Health videos (1Hosts Pro)
-@@||glimmer.hearstapps.com^
+! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
+! https://outlook.office.com
+||pipe.aria.microsoft.com/collector/$badfilter
+! EasyPrivacy
+!!! /log?entry=$badfilter
+!!! /postlog?$badfilter
+||bing.com/fd/ls/lsp.aspx$badfilter
+@@||bing.com/fd/ls/GLinkPing.aspx?
+!!! ||bing.com/fd/ls/l?ig=$badfilter
+||data.microsoft.com/OneCollector/$badfilter
+||fp.measure.office.com^$badfilter
+||microsoft.com/collector/$badfilter
+||visualstudio.com/v*/track$3p,badfilter
+||visualstudio.com/v2/track$3p,badfilter
+
+! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
+! EL
+/prebid1.$important,domain=9to5google.com|9to5mac.com|9to5toys.com|electrek.co|dronedj.com
+||accuweather.com/bundles/prebid.$important
+! May cause sign-in trouble for US IP
+||eventcom.api.np.km.playstation.net/event^$important
+||g.doubleclick.net/tag/js/gpt.js$important,domain=accuweather.com
+||networkworld.com/www/js/ads/$important
+@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com,badfilter
+
+! EP
+||omtrdc.net/rest/$important
+||smetrics.aem.playstation.com^$important
+||walmart.com^*/logger^$xhr,important
+@@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com,badfilter
+
+! Fanboy's ET
+! These allow too many ad-scripts not related to blocker detection.
+@@.com/ads.js$script,1p,badfilter
+@@/js/advertisement.$script,badfilter
+@@/js/ads.js$script,badfilter
+@@/wp-content/*/adve*.js$script,badfilter
+@@||cloudfront.net/assets/$script,3p,badfilter
+@@||i-mobile.co.jp/script/ad$script,badfilter
+@@||client-event-reporter.twitch.tv^$xhr,domain=twitch.tv,badfilter
 
 !#if ext_ublock
 !#include click2load.txt
