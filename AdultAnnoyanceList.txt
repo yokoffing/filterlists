@@ -1,19 +1,25 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 16 August 2022
+! Updated: 25 September 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
 
 ||bonertraffic.mobi^$3p
-||cc.boyfriendtv.com/bftv/b/img/2022-06-mn/*-black.jpg$image
+||cc.boyfriendtv.com/bftv/*.jpg$image
+||cc.boyfriendtv.com/bftv/b/img/*.jpg$image
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
 ||go.xhamster.com^
 ||masturbaseinvegas.com^$3p
 ||porntop.com^$3p
 ||vxxx.com^$3p
 
+||site.sniffiesassets.com/upgrade-ads^
+
+gay4porn.com##.pignr.I632b9-im-container
+redtube.com###below_footer_ad_content
 upornia.com##.video-related
+boyfriendtv.com##td
 boyfriendtv.com###cookie-wrapper
 onlygayvideo.com##center
 pornone.com##.container.main > .container.content.video_wrapper > .videos.thumblist
@@ -47,7 +53,7 @@ pornhub.com###hd-rightColVideoPage, .cmtPrelaodContainer.js-commentReplacement.v
 pornxs.com##.squares
 privatehomeclips.com##.video-page__comments, .footer
 sexytubetop.xyz##.with-sidebar-right.widget-area, .site-footer, .under-video-block
-thegay.tube##.video-page__content > .right, section, .video-page__comments, .footer
+thegay.tube##.video-page__content > .right, section, .video-page__comments, .footer, #ablock-notify
 thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link, div.thumbs-items:nth-of-type(6)
 twinkvideos.com##.more-videos, .aside > div, #commentView
 txxx.com##.video-ad-videos, .video-comments.comments, .video-comments.comments, .video-ad-videos, .video-videos-slider, .suggestion
