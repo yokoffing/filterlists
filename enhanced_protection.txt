@@ -23,6 +23,7 @@
 ||ga^$document
 ||gq^$document
 ||icu^$document
+||info^$document,domain=~apowersoft.info|~avascan.info|~dnscrypt.info|~keepass.info|~monstercock.info|~personaldata.info|~pop-planet.info|~privatebin.info|~scammer.info
 ||live^$document
 ||loan^$document
 ||ml^$document,domain=~lemmy.ml
