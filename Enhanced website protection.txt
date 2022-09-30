@@ -1,0 +1,39 @@
+! Title: 🛑 Enhanced website protection
+! Description: This list aims to -- when combined with an anti-malware blocklist -- provide the highest protection by blocking commonly abused TLDs, along with a few other protections.
+! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
+! Last modified: 01 October 2022
+! Homepage: https://github.com/yokoffing/filterlists
+! Inspired by: https://github.com/iam-py-test/my_filters_001
+! Expires: 2 days
+
+! Abused TLDs
+||agency^$document
+||bid^$document
+||cam^$document
+||casa^$document
+||cf^$document,domain=~gayfeet.cf
+||ci^$document
+||cn^$document
+||cricket^$document
+||fit^$document
+||fun^$document
+||ga^$document
+||gq^$document
+||icu^$document
+||live^$document
+||loan^$document
+||ml^$document,domain=~lemmy.ml
+||monster^$document,domain=~cloudcdn.monster
+||ooo^$document
+||rest^$document
+||surf^$document
+||tk^$document
+||top^$document,domain=~corriente.top|~gay-tubes.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
+||webcam^$document
+||win^$document
+||win^$document
+||work^$document
+
+! Scam websites - https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927183223
+! Credit to https://github.com/spirillen and https://github.com/Yuki2718 for the RegExp and https://github.com/krystian3w for the report
+/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
