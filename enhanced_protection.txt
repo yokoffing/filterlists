@@ -11,7 +11,7 @@
 ||bid^$document
 ||cam^$document
 ||casa^$document
-||cf^$document,domain=~gayfeet.cf
+||cf^$document
 ||ci^$document
 ||cn^$document
 ||cricket^$document
@@ -28,7 +28,7 @@
 ||rest^$document
 ||surf^$document
 ||tk^$document
-||top^$document,domain=~corriente.top|~gay-tubes.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
+||top^$document,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
 ||webcam^$document
 ||win^$document
 ||win^$document
