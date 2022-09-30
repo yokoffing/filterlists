@@ -7,6 +7,9 @@
 ! Expires: 2 days
 
 ! Abused TLDs
+! [1] https://www.spamhaus.org/statistics/tlds/
+! [2] https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
+! [3] https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ||agency^$document
 ||bid^$document
 ||cam^$document
@@ -30,7 +33,6 @@
 ||tk^$document
 ||top^$document,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
 ||webcam^$document
-||win^$document
 ||win^$document
 ||work^$document
 
