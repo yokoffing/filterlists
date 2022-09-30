@@ -1,15 +1,16 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: This list aims to -- when combined with an anti-malware blocklist -- provide the highest protection by blocking commonly abused TLDs, along with a few other protections.
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
-! Last modified: 01 October 2022
+! Last modified: 30 September 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Original: https://github.com/iam-py-test/my_filters_001
 ! Expires: 2 days
 
 ! Abused TLDs
-! [1] https://www.spamhaus.org/statistics/tlds/
-! [2] https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
-! [3] https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+! [1] https://www.geeksforgeeks.org/components-of-a-url/
+! [2] https://www.spamhaus.org/statistics/tlds/
+! [3] https://www.gomyitguy.com/blog-news-updates/malicious-domain-extensions
+! [4] https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ||agency^$document
 ||bid^$document
 ||cam^$document
