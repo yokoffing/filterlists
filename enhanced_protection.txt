@@ -3,7 +3,7 @@
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
 ! Last modified: 01 October 2022
 ! Homepage: https://github.com/yokoffing/filterlists
-! Inspired by: https://github.com/iam-py-test/my_filters_001
+! Original: https://github.com/iam-py-test/my_filters_001
 ! Expires: 2 days
 
 ! Abused TLDs
