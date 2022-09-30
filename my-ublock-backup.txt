@@ -1,10 +1,10 @@
 {
-  "timeStamp": 1664513288365,
+  "timeStamp": 1664515858637,
   "version": "1.44.5b9",
   "userSettings": {
     "advancedUserEnabled": true,
     "uiAccentCustom0": "#b06060",
-    "externalLists": "https://abp.oisd.nl/\nhttps://assets.windscribe.com/custom_blocklists/clickbait.txt\nhttps://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt\nhttps://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt\nhttps://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/SocialShareList.txt\nhttps://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt\nhttps://raw.githubusercontent.com/Qojgjg/my_filters_001/main/duckduckgo-clean-up.txt\nhttps://raw.githubusercontent.com/Yuki2718/adblock/master/adguard/social-plus.txt\nhttps://raw.githubusercontent.com/Yuki2718/adblock/master/no_gen_cosm/phhider.txt\nhttps://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/clickbait.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/enhanced_protection.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/special_lists/antifacebook.txt\nhttps://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/AnnoyanceList.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/YouTubeClearView.txt\nhttps://www.fanboy.co.nz/enhancedstats.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/\nhttps://www.smartadblock.co.uk/filters/sabfilter.txt\nhttps://www.smartadblock.co.uk/filters/sabfilter_short.txt",
+    "externalLists": "https://abp.oisd.nl/\nhttps://assets.windscribe.com/custom_blocklists/clickbait.txt\nhttps://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt\nhttps://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt\nhttps://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/domains.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/SocialShareList.txt\nhttps://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt\nhttps://raw.githubusercontent.com/Qojgjg/my_filters_001/main/duckduckgo-clean-up.txt\nhttps://raw.githubusercontent.com/Yuki2718/adblock/master/adguard/social-plus.txt\nhttps://raw.githubusercontent.com/Yuki2718/adblock/master/no_gen_cosm/phhider.txt\nhttps://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/clickbait.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/enhanced_protection.txt\nhttps://raw.githubusercontent.com/iam-py-test/my_filters_001/main/special_lists/antifacebook.txt\nhttps://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/AnnoyanceList.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/Enhanced%20website%20protection.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt\nhttps://raw.githubusercontent.com/yokoffing/filterlists/main/YouTubeClearView.txt\nhttps://www.smartadblock.co.uk/filters/sabfilter.txt\nhttps://www.smartadblock.co.uk/filters/sabfilter_short.txt",
     "importedLists": [
       "https://abp.oisd.nl/",
       "https://assets.windscribe.com/custom_blocklists/clickbait.txt",
@@ -26,10 +26,9 @@
       "https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/special_lists/antifacebook.txt",
       "https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/AnnoyanceList.txt",
+      "https://raw.githubusercontent.com/yokoffing/filterlists/main/Enhanced%20website%20protection.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt",
       "https://raw.githubusercontent.com/yokoffing/filterlists/main/YouTubeClearView.txt",
-      "https://www.fanboy.co.nz/enhancedstats.txt",
-      "https://www.i-dont-care-about-cookies.eu/abp/",
       "https://www.smartadblock.co.uk/filters/sabfilter.txt",
       "https://www.smartadblock.co.uk/filters/sabfilter_short.txt"
     ],
@@ -61,8 +60,10 @@
     "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt",
     "https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt",
     "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt",
+    "https://raw.githubusercontent.com/Qojgjg/my_filters_001/main/duckduckgo-clean-up.txt",
     "https://abp.oisd.nl/",
-    "https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt"
+    "https://raw.githubusercontent.com/IDKwhattoputhere/uBlock-Filters-Plus/master/uBlock-Filters-Plus.txt",
+    "https://raw.githubusercontent.com/yokoffing/filterlists/main/Enhanced%20website%20protection.txt"
   ],
   "hiddenSettings": {
     "autoCommentFilterTemplate": "{{date}}",
