@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 28 September 2022
+! Updated: 01 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -508,6 +508,16 @@ platform.twitter.com##+js(cookie-remover)
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script
+
+! Bing reverse image search broken by EL
+bing.com#@#a[href*="/aclick?ld="]
+bing.com##.ins_exp.vsp
+! https://github.com/uBlockOrigin/uAssets/issues/9093
+bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
+! https://github.com/easylist/easylist/issues/7240
+!#if env_firefox
+bing.com##+js(nosiif, logQueue, 10000)
+!#endif
 
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
 ! https://outlook.office.com
