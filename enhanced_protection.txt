@@ -1,7 +1,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: This list aims to -- when combined with an anti-malware blocklist -- provide the highest protection by blocking commonly abused TLDs, along with a few other protections.
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
-! Last modified: 30 September 2022d
+! Last modified: 30 September 2022f
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Original: https://github.com/iam-py-test/my_filters_001
 ! Expires: 2 days
@@ -29,7 +29,7 @@
 ||ga^$document
 ||gq^$document
 ||icu^$document
-||info^$document,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~steamdb.info|~worldometers.info
+||info^$document,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info
 ||live^$document
 ||loan^$document
 ||ml^$document,domain=~lemmy.ml
