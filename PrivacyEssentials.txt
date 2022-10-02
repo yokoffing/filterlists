@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
-! Updated: 01 October 2022
+! Updated: 2 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -484,7 +484,7 @@ platform.twitter.com##+js(cookie-remover)
 @@||content.jwplatform.com^$xhr,script
 @@||jwpcdn.com/player/plugins/vast/$script
 @@||jwpcdn.com^$font
-@@||jwpltx.com^$image
+!!! @@||jwpltx.com^$image
 @@||jwpsrv.com^$subdocument
 
 ! CNN
