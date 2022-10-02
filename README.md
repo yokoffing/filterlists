@@ -14,19 +14,10 @@
 ![ublock lists 3](https://user-images.githubusercontent.com/11689349/193416253-b89a2e66-b335-4dbb-a243-82e571beaf64.png)
 
 
-**NOTES:**
- - Regarding `uBlock filters - Unbreak`: Many of these rules seem unnecessary. A few strings were added to `Privacy Essentails`.
- - Regarding `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
+#### NOTES
+ - `uBlock filters - Unbreak`: While many of these rules seem unnecessary to me, you are free to leave it enabled, especially if you are adverse to breakage. A few strings from this list are in `Privacy Essentails`.
+ - `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
  
- ***
- 
-## Reading
-
-* Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
-* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
-* [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
-* (optional) [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
-
  ***
 
 ## Custom Filters
@@ -76,6 +67,15 @@ For either list, if you find websites with tracking parameters or experience bre
 
 ***
 
+## Reading
+
+* Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
+* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
+* [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
+* (optional) [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
+
+***
+
 ## Why should I use these lists?
 https://how-i-experience-web-today.com/
 
@@ -83,7 +83,16 @@ https://how-i-experience-web-today.com/
 
 ## Mentions
 
+#### Guides
 * [FMHY uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters)
+
+#### Contributor
+* [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
+* [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
+* [Easylist](https://github.com/easylist/easylist/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19652&s=1' border='0' alt='Free Website Counter'></a><br / >
 <div align='center'>23 July 2022</div>
