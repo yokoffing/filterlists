@@ -17,8 +17,13 @@
 #### NOTES
  - `uBlock filters - Unbreak`: While many of these rules seem unnecessary to me, you are free to leave it enabled, especially if you are adverse to breakage. A few strings from this list are in `Privacy Essentails`.
  - `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
- 
+  
  ***
+ 
+ ## Why should I use these lists?
+https://how-i-experience-web-today.com/
+
+***
 
 ## Custom Filters
 
@@ -30,10 +35,10 @@
 <br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) [(Pro)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt) is much stricter than OISD; it includes domains that OISD leaves out. <strike>I've not experienced any issues using this list, though it may cause some "[minimal breakages](https://github.com/badmojr/1Hosts#quickstart-guide)"</strike> (see [feedback](https://reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)). I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5)/Pi-hole while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level).
 
 3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt) 
-<br> [beta] Designed to be used with uBlock Origin in [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). My curated list blocks tracking requests like `connect.facebook.com` and requests not covered by [EasyPrivacy](https://github.com/easylist/easylist#easyprivacy). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([read more](https://twitter.com/gorhill/status/1377613392559636486)). **Please open an issue to report breakages.**
+<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Ideal use is with uBlock Origin in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode).
 
 4) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
-<br> [beta] **Please open an issue to report breakages.**
+<br> [beta] Block commonly abused TLDs for extra security.
 
 ***
 
@@ -68,16 +73,16 @@ For either list, if you find websites with tracking parameters or experience bre
 ***
 
 ## Reading
-
+#### uBO Wiki
 * Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
-* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)
-* [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
-* (optional) [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
+* [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) | [video](https://www.youtube.com/watch?v=2lisQQmWQkY)
+* [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) | [video](https://youtu.be/2lisQQmWQkY?t=804)
+* [Overview of uBlock's network filtering engine](https://github.com/gorhill/uBlock/wiki/Overview-of-uBlock's-network-filtering-engine) (graph)
 
-***
-
-## Why should I use these lists?
-https://how-i-experience-web-today.com/
+#### Filter Creation
+* [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
+* [Introduction to basic filtering syntax](https://github.com/gorhill/uBlock/wiki/Introduction-to-basic-filtering-syntax)
+* [Syntax Meanings That Are Actually Human Readable](https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md)
 
 ***
 
