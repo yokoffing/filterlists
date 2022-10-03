@@ -1,12 +1,29 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 25 September 2022
+! Updated: 2 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
 
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
+
+boldgrid.com###sidebar
+cybernews.com##.cells__item_width_3.cells__item_width.cells__item
+educba.com##.code-block-21.code-block, .code-block-17.code-block, .container-wp-inner
+hitc.com##.related-sidebar.sidebar
+us.norton.com##.panel
+vice.com##.abc__article_embed, .topic-callout
+tokenex.com##p:nth-of-type(7)
+tvline.com##.inline-floating-gallery, .c-related
+techfunnel.com##body > .container > .row > .col-md-4
+icdsoft.com##.dialog-lightbox-message.dialog-message
+godaddy.com##.theiaStickySidebar
+bitly.com##.sitebanner--container
+nbcnewyork.com##.recirc-module, .most-popular__container
+tomsguide.com##.newsletter-form__container
+comicbook.com##.js-activateComments.mid-content-comment
+getpocket.com##.right-aside
 
 ##[class*="sponsorlink"]
 ||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
