@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 25 September 2022
+! Updated: 2 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 4 days
@@ -13,8 +13,6 @@
 ||masturbaseinvegas.com^$3p
 ||porntop.com^$3p
 ||vxxx.com^$3p
-
-||site.sniffiesassets.com/upgrade-ads^
 
 gay4porn.com##.pignr.I632b9-im-container
 redtube.com###below_footer_ad_content
@@ -69,6 +67,8 @@ sniffies.com##.ng-star-inserted.ng-tns-c191-10.house.sidebar.overset-container
 sniffies.com##.ng-tns-c192-9.overset > .ng-tns-c192-9
 sniffies.com##.ng-tns-c192-10.overset > .ng-tns-c192-10
 sniffies.com##.map-main-content > .ng-star-inserted.ng-tns-c192-12
+||site.sniffiesassets.com/upgrade-ads^
+||media.twiliocdn.com^$3p
 
 ! https://mrgay.com/video/10166063/arabian-strokes/?autostart=1
 $removeparam=autostart,domain=mrgay.com
