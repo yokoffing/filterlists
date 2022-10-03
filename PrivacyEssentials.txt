@@ -1,6 +1,6 @@
 
 ! Title: 🔒 Privacy Essentials
-! Description: A list to compliment EasyPrivacy, OISD, and 1Hosts lists.
+! Description: A curated list for advanced hardening.
 ! Updated: 2 October 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
