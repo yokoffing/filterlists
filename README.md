@@ -27,7 +27,7 @@ https://how-i-experience-web-today.com/
 
 ## Custom Filters
 
-### General Purpose:
+### General Purpose
 1) **OISD (full)** | [add](https://oisd.nl/downloads)
 <br> "The Best Blocklist" - [OISD](https://oisd.nl/) combines [hundreds of lists](https://oisd.nl/includedlists/full) and filters out the false positives. If you ever tried the [Energized project](https://github.com/EnergizedProtection/block) but became annoyed at all the breakage, then this list is for you. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/s70dhx/oisd_domain_blocklist/?sort=new) to false positive reports. He also provides a domain-list version if you use Pihole, and it is listed on [NextDNS](https://nextdns.io/?from=xujj63g5). It passes the "[girlfriend test](https://www.urbandictionary.com/define.php?term=girlfriend%20test#:~:text=When%20a%20piece%20of%20technology%20is%20easy%20enough%20for%20your%20girlfriend%20to%20use%20without%20calling%20you)". Phenominal project. [I've yet to find a list that he hasn't heard of](https://oisd.nl/knownlists.php). Be sure to use the `full` list, not `basic`.
 
@@ -37,16 +37,15 @@ https://how-i-experience-web-today.com/
 3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt) 
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Ideal use is with uBlock Origin in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode).
 
-4) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
-<br> [beta] Block commonly abused TLDs for extra security.
+4) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
 
-5) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
-<br>
+5) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
+<br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more commonly abused TLDs for extra security.
 
 ***
 
-### Remove tracking parameters from URLs:
-Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon) to uBO.
+### Remove tracking parameters from URLs
+Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon) to uBO:
 1) **Actually Legitimate URL Shortener Tool** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 2) **ClearURLs for uBO** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
@@ -55,7 +54,7 @@ For either list, if you find websites with tracking parameters or experience bre
 
 ***
 
-### Annoyances:
+### Annoyances
 1) **Browse websites without logging in** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> Once you use it, you wonder how you got by without it!
   
