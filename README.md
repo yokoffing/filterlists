@@ -105,6 +105,7 @@ For either list, if you find websites with tracking parameters or experience bre
 * [Easylist](https://github.com/easylist/easylist/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
+* [DandelionSprout/adfilt](https://github.com/DandelionSprout/adfilt/issues?q=+author%3Ayokoffing)
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19652&s=1' border='0' alt='Free Website Counter'></a><br / >
 <div align='center'>23 July 2022</div>
