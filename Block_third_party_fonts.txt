@@ -6,4 +6,4 @@
 ! Expires: 2 days
 
 ! Allowlist
-*$font,third-party,domain=~youtube.com|~google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~reddit.com|~uncp.edu|~9anime.to
+*$font,third-party,domain=~youtube.com|~google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~reddit.com|~uncp.edu|~9anime.to|~postimages.org
