@@ -40,6 +40,9 @@ https://how-i-experience-web-today.com/
 4) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
 <br> [beta] Block commonly abused TLDs for extra security.
 
+5) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
+<br>
+
 ***
 
 ### Remove tracking parameters from URLs:
