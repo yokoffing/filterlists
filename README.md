@@ -94,10 +94,12 @@ For either list, if you find websites with tracking parameters or experience bre
 
 ## Mentions
 
+User comments: [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted_by_user/hz5edjk/?context=2) [2](https://old.reddit.com/r/dataisbeautiful/comments/t52qxa/oc_i_updated_our_famous_password_table_for_2022/hz4bcq8/?context=2)
+
 #### Guides
 * [FMHY uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters)
 
-#### Contributor
+#### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
 * [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
