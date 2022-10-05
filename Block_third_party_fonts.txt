@@ -1,9 +1,9 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! Updated: 4 October 2022e
+! Updated: 5 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
 ! Allowlist
-*$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com||~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com
+*$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com||~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com
