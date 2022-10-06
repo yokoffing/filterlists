@@ -16,7 +16,7 @@
 
 #### NOTES
  - `uBlock filters - Unbreak`: While many of these rules seem unnecessary to me, you are free to leave it enabled, especially if you are adverse to breakage. A few strings from this list are in `Privacy Essentails`.
- - `Online Malicious` and `Peter Lowe's` lists: Their entries and more are in `OISD` and `1Hosts`.
+ - `Peter Lowe's` lists: His entries and more are in `OISD` and `1Hosts`.
   
  ***
  
@@ -37,9 +37,16 @@ https://how-i-experience-web-today.com/
 3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt) 
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Ideal use is with uBlock Origin in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode).
 
-4) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
+4) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/Block_third_party_fonts.txt)
+<br> This option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
 
-5) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
+***
+
+## Security
+
+1) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
+
+2) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
 <br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more commonly abused TLDs for extra security.
 
 ***
