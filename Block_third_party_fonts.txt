@@ -1,14 +1,9 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! Updated: 6 October 2022
+! Updated: 6 October 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
-! Sources:
-! [1] https://fanboy.co.nz/fanboy-antifonts.txt
-
 
 ! Allow only first-party fonts
-! [1] https://collinmbarrett.com/block-web-fonts/
-
 *$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~translate.google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com||~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~arstechnica.com|~msnbc.com|~help.typepad.com|~regexpal.com|~onlyfans.com|~bloble.io|~regexpal.com|~mpora.com|~tudocelular.com|~climatemirror.org|~celyad.com|~wellandgood.com
