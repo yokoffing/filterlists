@@ -1,7 +1,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
-! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions if I decide the site affected is not malicious.
-! Last modified: 4 October 2022c
+! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
+! Last modified: 6 October 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
@@ -12,6 +12,7 @@
 ! [4] https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
 ! [5] https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
 
+! Block site navigations, but not subrequests, for the following TLDs:
 ||asia^$doc
 ||associates^$doc
 ||buzz^$doc
@@ -39,7 +40,7 @@
 ||win^$doc
 ||work^$doc
 
-! Used in Dandelion Sprout's Anti-Malware List
+! Used in Dandelion Sprout's Anti-Malware List:
 !||agency^$document,domain=~battlefield.agency|~shortcut.agency
 !||bid^$document
 !||cf^$document,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
