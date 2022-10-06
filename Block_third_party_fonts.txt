@@ -1,9 +1,20 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! Updated: 5 October 2022d
+! Updated: 5 October 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
 
 ! Allowlist
-*$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com||~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~~pornlib.com|~arstechnica.com|~msnbc.com
+*$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~translate.google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com||~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~~pornlib.com|~arstechnica.com|~msnbc.com
+
+! incorporate, add soon:
+! https://fanboy.co.nz/fanboy-antifonts.txt
+@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com
+@@||fast.fonts.net/jsapi/$script
+@@||fonts.googleapis.com/css?$domain=onlyfans.com
+@@||fonts.gstatic.com^$domain=floatplane.com|bloble.io|regexpal.com
+@@||fonts.typekit.net^$domain=mpora.com
+@@||googleusercontent.com/static/fonts/$domain=tudocelular.com
+@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
+@@||use.typekit.net^$domain=celyad.com|wellandgood.com
