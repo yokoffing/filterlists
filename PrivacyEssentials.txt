@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 4 October 2022
+! Updated: 6 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -385,9 +385,9 @@ fmovies.*##+js(nosiif, try)
 @@||drive.google.com^$image
 @@||google-analytics.com/analytics.js$script,domain=amainhobbies.com
 @@||google.*/maps/$subdocument
-@@||google.*/recaptcha/$subdocument
+!@@||google.*/recaptcha/$subdocument
+@@||google.*/recaptcha/api.js$script
 @@||google.^$script,domain=youtube.com
-@@||google.com/recaptcha/api.js$script
 @@||google.com/uds/*visualization$script,stylesheet
 !@@||google*.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
