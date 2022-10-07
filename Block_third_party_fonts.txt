@@ -1,14 +1,88 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! Updated: 7 October 2022f
+! will break the "look and design" of some sites.
+! Updated: 7 October 2022g
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 1 days
-! change above once list is settled
+! Expires: 7 days
 
-! Allow only first-party fonts, with few site exceptions:
-*$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.*|~translate.google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~arstechnica.com|~msnbc.com|~help.typepad.com|~regexpal.com|~bootsnipp.com|~onlyfans.com|~bloble.io|~regexpal.com|~mpora.com|~tudocelular.com|~climatemirror.org|~celyad.com|~wellandgood.com|~xhamster.com
+! Allowlist for WOFF fonts
+! https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
+*$font,third-party,domain=~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~xhamster.com|~arstechnica.com|~msnbc.com
+
+/fontawesome-$font,third-party
+/fonts/*.ttf$font,third-party
+!
+! Specific
+||gannett-cdn.com^*/fonts/$font,third-party
+||gannettdigital.com^*/fonts/$font,third-party
+||kinja-static.com/assets/fonts/$font,third-party
+!
+||alluremedia.com.au^$font,third-party
+||amazonaws.com^$font,third-party
+||bootstrapcdn.com/bootstrap/$font,third-party
+||cloud.typography.com^$third-party
+||cloud.webtype.com^$font,third-party
+||cloudfront.net^$font,third-party
+||disquscdn.com/next/assets/font/$third-party
+||edgefonts.net^$third-party
+||fast.fonts.com^$third-party
+||fast.fonts.net^$third-party
+||fastly.net^$font,third-party
+||fontawesome.com^$third-party
+||fontdeck.com^$third-party
+||fonts.advance.net^$third-party
+||fonts.bauernet.me^
+||fonts.condenast.com^$script,third-party
+||fonts.googleapis.com/css?
+||fonts.gotraffic.net^$script
+||fonts.gstatic.com^$third-party
+||fonts.nymag.com^$script,third-party
+||fonts.smdg.ca^$third-party
+||fonts.staticworld.net^$third-party
+||fonts.timeinc.net^
+||fonts.voxmedia.com^$third-party
+||google.com/swg/$font,third-party
+||googleapis.com/ajax/libs/webfont/$third-party
+||googleusercontent.com/static/fonts/$third-party
+||gotraffic.net^$font
+||maxcdn.bootstrapcdn.com/font-awesome/$third-party
+||myfontastic.com^$third-party
+||myfonts.net^$third-party
+||netdna-cdn.com^*/webfonts/
+||netdna.bootstrapcdn.com^*/fonts/$third-party
+||qmerce.com/assets/$font
+||rackcdn.com/fonts/$font,third-party
+||typefront.com^$third-party
+||typekit.com^$third-party
+||typekit.net^$third-party
+||typesquare.com^$font,third-party
+||use.fonticons.com^$third-party
+||vidible.tv/prod/fonts/$font
+||webfonts.creativecloud.com^$third-party
+||webfonts.sakura.ne.jp^$font
+||wp.com^*/fonts/$third-party
+! Cloudflare CDN
+/cdn-cgi/pe/bag2?*googleapis.com*webfont.js
+
+! Causes too much false positives:
+! ||maxcdn.bootstrapcdn.com^*/fonts/
+@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
+@@||fast.fonts.net/jsapi/$script
+@@||fonts.googleapis.com/css?$domain=google.com|translate.google.com|onlyfans.com
+@@||fonts.gstatic.com^$domain=floatplane.com|google.com|youtube.com|translate.google.com|bloble.io|regexpal.com|blog.google|about.google|safety.google|ai.google|domains.google|googleapis.com|googleusercontent.com|dexscreener.com|9anime.*|vocabulary.com
+! espn.com|pornlib.com
+@@||fonts.typekit.net^$domain=mpora.com
+@@||googleusercontent.com/static/fonts/$domain=tudocelular.com
+@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
+@@||use.typekit.net^$font,domain=celyad.com|wellandgood.com
+! Privacy Essentials
+@@||use.typekit.net^$font,badfilter
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
+
+! General
+! Allow only first-party fonts, with few site exceptions:
+! *$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.com|~translate.google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~xhamster.com|~arstechnica.com|~msnbc.com
