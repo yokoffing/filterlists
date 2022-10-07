@@ -1,12 +1,12 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! Updated: 7 October 2022c
+! Updated: 7 October 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 2 days
+! Expires: 7 days
 
 ! Allow only first-party fonts, with few site exceptions:
-*$font,third-party,domain=~youtube.com|~youtube-nocookie.com|~google.*|~translate.google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~uncp.edu|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~mozilla.org|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~arstechnica.com|~msnbc.com|~help.typepad.com|~regexpal.com|~onlyfans.com|~bloble.io|~regexpal.com|~mpora.com|~tudocelular.com|~climatemirror.org|~celyad.com|~wellandgood.com
+*$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.*|~translate.google.*|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~arstechnica.com|~msnbc.com|~help.typepad.com|~regexpal.com|~onlyfans.com|~bloble.io|~regexpal.com|~mpora.com|~tudocelular.com|~climatemirror.org|~celyad.com|~wellandgood.com
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! https://fonts.coollabs.io/
