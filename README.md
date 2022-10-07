@@ -50,7 +50,7 @@ For either list, if you find websites with tracking parameters or experience bre
 #### Fonts
 
 1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/Block_third_party_fonts.txt)
-<br> This option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
+<br> A successor to `Fanboy's Anti-thirdparty Fonts`, this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> WARNING: This will break the "look and design" of some sites.
 
 ***
 
