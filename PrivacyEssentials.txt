@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 6 October 2022b
+! Updated: 7 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -292,7 +292,7 @@
 ||tsmedia.si^$3p
 ||tsyndicate.com^$3p
 ||turnto.com^$3p
-||typekit.net^$important,domain=~billboard.com
+||typekit.net^
 ||typography.com^$3p,~stylesheet,~xhr
 ||ubembed.com^
 ||upscore.com^$3p
