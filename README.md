@@ -62,8 +62,11 @@ For either list, if you find websites with tracking parameters or experience bre
 2) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
 <br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more abused TLDs for extra security.
 
-3) **DuckDuckGo clean up** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo-clean-up.txt)
-<br> Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results.
+3) **The malicious website blocklist** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
+<br> This list aims to protect against scams, phishing, and malware. This list also includes a version of [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), modified to work in adblockers.
+
+4) **DuckDuckGo clean up** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/duckduckgo-clean-up.txt)
+<br> [optional] Remove ads and spammy, deceptive, or malicious websites from DuckDuckGo search results.
 
 ***
 
@@ -79,7 +82,7 @@ For either list, if you find websites with tracking parameters or experience bre
  <br> This list blocks additional third-party requests and annoyances that are not covered in the Bypass Paywalls Clean filterlist.
 
 4) **Bypass Paywalls Clean filter** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
- <br> [Experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
+ <br> [experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
  
  ***
  
