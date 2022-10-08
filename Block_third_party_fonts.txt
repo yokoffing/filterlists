@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 8 October 2022d
+! Updated: 8 October 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day
@@ -10,8 +10,8 @@
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
-@@||fonts.googleapis.com/css?$domain=youtube.com|developers.google.com|news.google.com|blogger.com
-@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|news.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
+@@||fonts.googleapis.com/css?$domain=youtube.com|developers.google.com|news.google.com|blogger.com|google.com
+@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|news.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com|google.com
 ! espn.com|pornlib.com|9anime.*
 ! test: https://abcnews.go.com/
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
