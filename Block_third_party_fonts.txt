@@ -1,17 +1,17 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 8 October 2022e
+! Updated: 8 October 2022f
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 1 day
+! Expires: 7 days
 
 ! Allowlist
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
-@@||fonts.googleapis.com/css?$domain=youtube.com|developers.google.com|news.google.com|blogger.com|google.com
-@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|news.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com|google.com
+@@||fonts.googleapis.com/css?$domain=www.google.com|youtube.com|blogger.com
+@@||fonts.gstatic.com^$domain=google.com|youtube.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.*
 ! test: https://abcnews.go.com/
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
@@ -23,12 +23,14 @@
 
 ! Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
-*$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
+! *$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
 
+/font-awesome^$3p
+||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 ! Blocklist
 /fontawesome-$font,third-party
 ! nuvid.com
@@ -89,3 +91,4 @@
 ! General
 ! Allow only first-party fonts, with few site exceptions:
 ! *$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.com|~translate.google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~xhamster.com|~arstechnica.com|~msnbc.com
+! translate.google.com|developers.google.com|play.google.com|news.google.com
