@@ -1,14 +1,10 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 7 October 2022k
+! Updated: 7 October 2022l
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day
-
-! Allowlist for WOFF fonts
-! https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
-! *$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~xhamster.com|~arstechnica.com|~gayfuckporn.com
 
 ! Allowlist
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
@@ -23,16 +19,23 @@
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
 @@||use.typekit.net^$font,domain=celyad.com|wellandgood.com
+@@/wp-$font,domain=arstechnica.com
 ! Privacy Essentials
 @@||use.typekit.net^$font,badfilter
 
+! Allowlist for WOFF fonts
+! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
+*$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com
+
 ! Privacy-friendly drop-in replacement for Google Fonts
-! https://fonts.coollabs.io/
+! [1] https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
 
 ! Blocklist
 /fontawesome-$font,third-party
+! nuvid.com
 /fonts/*.ttf$font,third-party
+/wp-$font,third-party
 ||gannett-cdn.com^*/fonts/$font,third-party
 ||gannettdigital.com^*/fonts/$font,third-party
 ||kinja-static.com/assets/fonts/$font,third-party
