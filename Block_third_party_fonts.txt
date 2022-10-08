@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 8 October 2022
+! Updated: 8 October 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day
@@ -15,10 +15,8 @@
 @@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.*
 ! test: https://abcnews.go.com/
-@@||fonts.typekit.net^$domain=mpora.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
-@@||use.typekit.net^$font,domain=celyad.com|wellandgood.com
 @@/wp-$font,domain=arstechnica.com
 ! Privacy Essentials
 @@||use.typekit.net^$font,badfilter
