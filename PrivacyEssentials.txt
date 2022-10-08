@@ -357,9 +357,6 @@ fmovies.*##+js(nosiif, try)
 ||firebaseinstallations.googleapis.com^
 ||google-analytics.com^$3p,important
 ||google.com/cse/cse.js^
-!||google.^$domain=~cbsnews.com
-!||google.com^$3p,~domain=translate.google.com
-!||google.^$3p,domain=~cbsnews.com|~translate.google.com
 ||google.^$3p,domain=~cbsnews.com|~flippity.net|~translate.google.com|~youtube.com|~youtube-nocookie.com
 ||googleadservices.com^$3p,important
 ||googlesyndication.com^$important
@@ -379,19 +376,19 @@ fmovies.*##+js(nosiif, try)
 @@||blogger.*.google.com^$subdocument
 @@||blogger.com/comment-iframe.$subdocument
 @@||consent.google.com^$subdocument
-!@@||cse.google.com^$script
-!@@||google.*/cse/$script,stylesheet
+! @@||cse.google.com^$script
+! @@||google.*/cse/$script,stylesheet
 @@||docs.google.com^$subdocument,domain=dropbox.com
 @@||drive.google.com^$image
 @@||google-analytics.com/analytics.js$script,domain=amainhobbies.com
-@@||google.*/maps/$subdocument
-! Already in EL: @@||google.com/recaptcha/api.js
-!@@||google.*/recaptcha/$subdocument
-!@@||google.*/recaptcha/api.js$script
+@@||google.com/maps/$subdocument
+! Already in EasyList: @@||google.com/recaptcha/api.js
+! @@||google.com/recaptcha/$subdocument
+! @@||google.com/recaptcha/api.js$script
 @@||google.^$script,domain=youtube.com
-@@||google.com/uds/*visualization$script,stylesheet
-!@@||google*.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
+!@@||google*.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
+@@||google.com/uds/*visualization$script,stylesheet
 @@||gstaticadssl.*.google.com^$font
 @@||maps-api-ssl.google.com^$script,image
 @@||maps.google.*/maps$script,image
