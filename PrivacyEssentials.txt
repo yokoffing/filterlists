@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 7 October 2022c
+! Updated: 8 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -466,7 +466,7 @@ platform.twitter.com##+js(cookie-remover)
 ||stripe.network^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
 
 ! VIDEO PLAYERS
-||cnevids.com^$3p
+!||cnevids.com^$3p,domain=~gq.com
 ||kaltura.com^$3p,domain=~financialaidtv.com
 ! Brightcove
 ||brightcove.net^$3p
