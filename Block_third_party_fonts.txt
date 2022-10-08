@@ -1,19 +1,19 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 7 October 2022h
+! Updated: 7 October 2022i
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day
 
 ! Allowlist for WOFF fonts
 ! https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
-*$font,third-party,domain=~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~xhamster.com|~arstechnica.com|~msnbc.com
+! *$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~xhamster.com|~arstechnica.com|~gayfuckporn.com
 
 ! Allowlist
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
 @@||fast.fonts.net/jsapi/$script
-@@||fastly.net^$fontdomain=reddit.com
+@@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com/css?$domain=translate.google.com|onlyfans.com
 @@||fonts.gstatic.com^$domain=youtube.com|translate.google.com|bloble.io|regexpal.com|blog.google|about.google|safety.google|ai.google|domains.google|googleapis.com|googleusercontent.com|dexscreener.com|9anime.*|vocabulary.com
 ! espn.com|pornlib.com
