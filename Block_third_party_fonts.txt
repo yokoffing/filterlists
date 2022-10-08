@@ -1,23 +1,40 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 7 October 2022g
+! Updated: 7 October 2022h
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 7 days
+! Expires: 1 day
 
 ! Allowlist for WOFF fonts
 ! https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
 *$font,third-party,domain=~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~xhamster.com|~arstechnica.com|~msnbc.com
 
+! Allowlist
+@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
+@@||fast.fonts.net/jsapi/$script
+@@||fastly.net^$fontdomain=reddit.com
+@@||fonts.googleapis.com/css?$domain=translate.google.com|onlyfans.com
+@@||fonts.gstatic.com^$domain=youtube.com|translate.google.com|bloble.io|regexpal.com|blog.google|about.google|safety.google|ai.google|domains.google|googleapis.com|googleusercontent.com|dexscreener.com|9anime.*|vocabulary.com
+! espn.com|pornlib.com
+! test: https://abcnews.go.com/
+@@||fonts.typekit.net^$domain=mpora.com
+@@||googleusercontent.com/static/fonts/$domain=tudocelular.com
+@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
+@@||use.typekit.net^$font,domain=celyad.com|wellandgood.com
+! Privacy Essentials
+@@||use.typekit.net^$font,badfilter
+
+! Privacy-friendly drop-in replacement for Google Fonts
+! https://fonts.coollabs.io/
+@@||cdn.coollabs.io/fonts^
+
+! Blocklist
 /fontawesome-$font,third-party
 /fonts/*.ttf$font,third-party
-!
-! Specific
 ||gannett-cdn.com^*/fonts/$font,third-party
 ||gannettdigital.com^*/fonts/$font,third-party
 ||kinja-static.com/assets/fonts/$font,third-party
-!
 ||alluremedia.com.au^$font,third-party
 ||amazonaws.com^$font,third-party
 ||bootstrapcdn.com/bootstrap/$font,third-party
@@ -64,24 +81,8 @@
 ||wp.com^*/fonts/$third-party
 ! Cloudflare CDN
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
-
 ! Causes too much false positives:
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
-@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
-@@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com/css?$domain=google.com|translate.google.com|onlyfans.com
-@@||fonts.gstatic.com^$domain=floatplane.com|google.com|youtube.com|translate.google.com|bloble.io|regexpal.com|blog.google|about.google|safety.google|ai.google|domains.google|googleapis.com|googleusercontent.com|dexscreener.com|9anime.*|vocabulary.com
-! espn.com|pornlib.com
-@@||fonts.typekit.net^$domain=mpora.com
-@@||googleusercontent.com/static/fonts/$domain=tudocelular.com
-@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
-@@||use.typekit.net^$font,domain=celyad.com|wellandgood.com
-! Privacy Essentials
-@@||use.typekit.net^$font,badfilter
-
-! Privacy-friendly drop-in replacement for Google Fonts
-! https://fonts.coollabs.io/
-@@||cdn.coollabs.io/fonts^
 
 ! General
 ! Allow only first-party fonts, with few site exceptions:
