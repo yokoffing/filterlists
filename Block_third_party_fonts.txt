@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! will break the "look and design" of some sites.
-! Updated: 8 October 2022b
+! Updated: 8 October 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day
@@ -11,15 +11,16 @@
 !@@||cloudfront.net^$font,domain=onlyfans.com
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
-@@||fonts.googleapis.com/css?$domain=youtube.com|developers.google.com|blogger.com
-@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
+@@||fonts.googleapis.com/css?$domain=youtube.com|developers.google.com|news.google.com|blogger.com
+@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|news.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.*
 ! test: https://abcnews.go.com/
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
 @@/wp-$font,domain=arstechnica.com
-! Privacy Essentials
+! Privacy Essentials, anti-allowlist:
 @@||use.typekit.net^$font,badfilter
+@@||gstaticadssl.*.google.com^$font,badfilter
 
 ! Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
