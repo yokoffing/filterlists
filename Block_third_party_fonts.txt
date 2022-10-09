@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 9 October 2022c
+! Updated: 9 October 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -12,7 +12,7 @@
 @@||fontawesome.com^$domain=9anime.se
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
-@@||fonts.googleapis.com^$domain=google.com|youtube.com|blogger.com
+@@||fonts.googleapis.com^$domain=google.com|youtube.com|blogger.com|vocabulary.com
 @@||fonts.gstatic.com^$domain=google.com|youtube.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.to|climatemirror.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
@@ -50,7 +50,6 @@
 ||fonts.bauernet.me^
 ||fonts.condenast.com^$script,3p
 ||fonts.googleapis.com^ 
-!||fonts.googleapis.com/css?
 ||fonts.gotraffic.net^$script
 ||fonts.gstatic.com^$3p
 ||fonts.nymag.com^$script,3p
@@ -84,14 +83,12 @@
 @@||gstaticadssl.*.google.com^$font,badfilter
 
 !!! UNUSED
-
 ! Causes too much false positives:
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
 
 ! Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
 ! *$font,3p,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
-
 ! General
 ! Allow only first-party fonts, with few site exceptions:
 ! *$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.com|~translate.google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~xhamster.com|~arstechnica.com|~msnbc.com
