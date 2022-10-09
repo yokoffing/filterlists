@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 8 October 2022
+! Updated: 9 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days
@@ -557,6 +557,10 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||cloudfront.net/assets/$script,3p,badfilter
 @@||i-mobile.co.jp/script/ad$script,badfilter
 @@||client-event-reporter.twitch.tv^$xhr,domain=twitch.tv,badfilter
+
+! https://github.com/easylist/easylist/issues/13695
+!||ericdraken.com/a/^
+||ericdraken.com/a/*$script,1p
 
 !#if ext_ublock
 !#include click2load.txt
