@@ -1,13 +1,29 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 2 October 2022
+! Updated: 9 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days
-
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0 > .jwEFKD.PlBer.MediaObjectBox__AnchorWrap-sc-7ytr6b-4.Anchor-byh49a-0
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(82)
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(8)
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(30)
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(40)
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(53)
+usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(63)
+usnews.com##.jEcXDU.right-rail__Container-zt2tbq-0
+
+aeon.co##.klluhk.TenYearDriveBannerHeader__Wrapper-sc-onblf0-0, .fjpBon.styled__Wrapper-sc-cmz19t-3 > .jBQMtt.styled__Container-sc-19sp5ho-0, .cLaMGV.SupportBar__Wrapper-sc-lwimlo-0, .bEtSlf.styled__SocialLinks-sc-k4zh5d-7, .ihknSh.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3, .bEpMPq.styled__SocialLinks-sc-k4zh5d-7, .jmTZwK.Modal__Container-sc-14qp01n-0, .dhvMwm.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3
+psyche.co##.cjpuuH.DriveBanner__Wrapper-sc-1vadswm-0, .NLFormInsertFromCMS.crmOSg.styled__InSituNewsletterSignup-sc-mut07i-2.jEUTlO.styled__Container-sc-11dqrr7-0, .kXTrTP.ideas__Sidebar-sc-ejg8ko-7 > .cFdQHZ.styled__Container-sc-1snt4ge-0
+politico.eu##.wp-block-cover, .article__sidebar.grid__column--sidebar.grid__column, .content-listing__with-title.you-may-like-content-listing.content-listing__columns--1.content-listing
+dotesports.com##.wp-block-dotesports-highlight-block
+discuss.privacyguides.org##.alert-info.alert.signup-cta, .alert-global-notice.alert-info.alert
+wellandgood.com##.related-content
+screenrant.com##.related-single, .next-btn.sentinel-article-nextArticle, .w-article-related, #secondary, .next-single
+bigtechbank.com###sidebar > .LinkList.widget, .PopularPosts.widget, .post-footer, .comments-system-blogger.litespot-pro-blog-post-comments
 boldgrid.com###sidebar
 cybernews.com##.cells__item_width_3.cells__item_width.cells__item
 educba.com##.code-block-21.code-block, .code-block-17.code-block, .container-wp-inner
@@ -337,6 +353,10 @@ zoosk.com##.article__related, .newsletter
 ||rollingstone.com^$all,important,domain=dirt.com
 ||spy.com^$all,domain=dirt.com
 ||tvline.com^$all,domain=dirt.com
+
+! from https://github.com/DandelionSprout/adfilt/blob/master/AnnoyancesList
+! AAB prompts
+/^https://[a-z]{8,25}\.com/v2[a-zA-Z0-9_-]{70,}$/$xmlhttprequest,ping,third-party,important
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
