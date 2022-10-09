@@ -1,9 +1,9 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
-! Last modified: 6 October 2022
+! Last modified: 9 October 2022
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 2 days
+! Expires: 7 days (update frequency)
 
 ! Abused TLDs
 ! [1] https://www.spamhaus.org/statistics/tlds/
