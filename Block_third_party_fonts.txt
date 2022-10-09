@@ -1,94 +1,95 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
-! will break the "look and design" of some sites.
-! Updated: 8 October 2022h
+! Warning: This list will break the "look and feel" of some sites
+! Updated: 9 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
 
-! Allowlist
+!!! ALLOWLIST
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
+@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=~9anime.*
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com^$domain=google.com|youtube.com|blogger.com
-!@@||fonts.googleapis.com/css?$domain=www.google.com|youtube.com|blogger.com
 @@||fonts.gstatic.com^$domain=google.com|youtube.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
-! espn.com|pornlib.com|9anime.*
-! test: https://abcnews.go.com/
+! espn.com|pornlib.com|9anime.*|climatemirror.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
-!@@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org
 @@/wp-$font,domain=arstechnica.com
-! Privacy Essentials, anti-allowlist:
-@@||use.typekit.net^$font,badfilter
-@@||gstaticadssl.*.google.com^$font,badfilter
-
-! Allowlist for WOFF fonts
-! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
-! *$font,third-party,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
 
+!!! DENYLIST
+/cdn-cgi/pe/bag2?*googleapis.com*webfont.js
 /font-awesome^$3p
-||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p,domain=~9anime.*
-! Blocklist
-/fontawesome-$font,third-party
+/fontawesome-$font,3p
 ! nuvid.com
-/fonts/*.ttf$font,third-party
-/wp-$font,third-party
-||gannett-cdn.com^*/fonts/$font,third-party
-||gannettdigital.com^*/fonts/$font,third-party
-||kinja-static.com/assets/fonts/$font,third-party
-||alluremedia.com.au^$font,third-party
-||amazonaws.com^$font,third-party
-||bootstrapcdn.com/bootstrap/$font,third-party
-||cloud.typography.com^$third-party
-||cloud.webtype.com^$font,third-party
-||cloudfront.net^$font,third-party
-||disquscdn.com/next/assets/font/$third-party
-||edgefonts.net^$third-party
-||fast.fonts.com^$third-party
-||fast.fonts.net^$third-party
-||fastly.net^$font,third-party
-||fontawesome.com^$third-party
-||fontdeck.com^$third-party
-||fonts.advance.net^$third-party
+||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
+/fonts/*.ttf$font,3p
+/wp-$font,3p
+||gannett-cdn.com^*/fonts/$font,3p
+||gannettdigital.com^*/fonts/$font,3p
+||kinja-static.com/assets/fonts/$font,3p
+||alluremedia.com.au^$font,3p
+||amazonaws.com^$font,3p
+||bootstrapcdn.com/bootstrap/$font,3p
+||cloud.typography.com^$3p
+||cloud.webtype.com^$font,3p
+||cloudfront.net^$font,3p
+||disquscdn.com/next/assets/font/$3p
+||edgefonts.net^$3p
+||fast.fonts.com^$3p
+||fast.fonts.net^$3p
+||fastly.net^$font,3p
+||fontawesome.com^$3p
+||fontdeck.com^$3p
+||fonts.advance.net^$3p
 ||fonts.bauernet.me^
-||fonts.condenast.com^$script,third-party
+||fonts.condenast.com^$script,3p
 ||fonts.googleapis.com^ 
 !||fonts.googleapis.com/css?
 ||fonts.gotraffic.net^$script
-||fonts.gstatic.com^$third-party
-||fonts.nymag.com^$script,third-party
-||fonts.smdg.ca^$third-party
-||fonts.staticworld.net^$third-party
+||fonts.gstatic.com^$3p
+||fonts.nymag.com^$script,3p
+||fonts.smdg.ca^$3p
+||fonts.staticworld.net^$3p
 ||fonts.timeinc.net^
-||fonts.voxmedia.com^$third-party
-||google.com/swg/$font,third-party
-||googleapis.com/ajax/libs/webfont/$third-party
-||googleusercontent.com/static/fonts/$third-party
+||fonts.voxmedia.com^$3p
+||google.com/swg/$font,3p
+||googleapis.com/ajax/libs/webfont/$3p
+||googleusercontent.com/static/fonts/$3p
 ||gotraffic.net^$font
-||maxcdn.bootstrapcdn.com/font-awesome/$third-party
-||myfontastic.com^$third-party
-||myfonts.net^$third-party
+||maxcdn.bootstrapcdn.com/font-awesome/$3p
+||myfontastic.com^$3p
+||myfonts.net^$3p
 ||netdna-cdn.com^*/webfonts/
-||netdna.bootstrapcdn.com^*/fonts/$third-party
+||netdna.bootstrapcdn.com^*/fonts/$3p
 ||qmerce.com/assets/$font
-||rackcdn.com/fonts/$font,third-party
-||typefront.com^$third-party
-||typekit.com^$third-party
-||typekit.net^$third-party
-||typesquare.com^$font,third-party
-||use.fonticons.com^$third-party
+||rackcdn.com/fonts/$font,3p
+||typefront.com^$3p
+||typekit.com^$3p
+||typekit.net^$3p
+||typesquare.com^$font,3p
+||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
-||webfonts.creativecloud.com^$third-party
+||webfonts.creativecloud.com^$3p
 ||webfonts.sakura.ne.jp^$font
-||wp.com^*/fonts/$third-party
-! Cloudflare CDN
-/cdn-cgi/pe/bag2?*googleapis.com*webfont.js
+||wp.com^*/fonts/$3p
+
+! Privacy Essentials, anti-allowlist:
+@@||use.typekit.net^$font,badfilter
+@@||gstaticadssl.*.google.com^$font,badfilter
+
+!!! UNUSED
+
 ! Causes too much false positives:
 ! ||maxcdn.bootstrapcdn.com^*/fonts/
+
+! Allowlist for WOFF fonts
+! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
+! *$font,3p,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
 
 ! General
 ! Allow only first-party fonts, with few site exceptions:
