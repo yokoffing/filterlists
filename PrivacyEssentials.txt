@@ -1,10 +1,10 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 9 October 2022
+! Updated: 9 October 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 2 days
+! Expires: 2 days (update frequency)
 ! Sources:
 ! My personal filters
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
@@ -561,6 +561,16 @@ bing.com##+js(nosiif, logQueue, 10000)
 ! https://github.com/easylist/easylist/issues/13695
 !||ericdraken.com/a/^
 ||ericdraken.com/a/*$script,1p
+
+! NYT
+||myaccount.nytimes.com^
+||messaging-notifications.api.nytimes.com^
+
+! HuffPost
+||mapi.huffpost.com^
+
+! WP
+||talk.washingtonpost.com^
 
 !#if ext_ublock
 !#include click2load.txt
