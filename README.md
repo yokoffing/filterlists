@@ -30,27 +30,25 @@ https://how-i-experience-web-today.com/
 ### Privacy
 
 1) **OISD (full)** | [add](https://oisd.nl/downloads)
-<br> "The Best Blocklist" - [OISD](https://oisd.nl/) combines [hundreds of lists](https://oisd.nl/includedlists/full) and filters out the false positives. If you ever tried the [Energized project](https://github.com/EnergizedProtection/block) but became annoyed at all the breakage, then this list is for you. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/s70dhx/oisd_domain_blocklist/?sort=new) to false positive reports. He also provides a domain-list version if you use Pihole, and it is listed on [NextDNS](https://nextdns.io/?from=xujj63g5). It passes the "[girlfriend test](https://www.urbandictionary.com/define.php?term=girlfriend%20test#:~:text=When%20a%20piece%20of%20technology%20is%20easy%20enough%20for%20your%20girlfriend%20to%20use%20without%20calling%20you)". Phenominal project. [I've yet to find a list that he hasn't heard of](https://oisd.nl/knownlists.php). Be sure to use the `full` list, not `basic`.
+<br> "The Best Blocklist" - [OISD](https://oisd.nl/) combines [hundreds of lists](https://oisd.nl/includedlists/full) and filters out the false positives. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/s70dhx/oisd_domain_blocklist/?sort=new) to false positive reports. It passes the "[girlfriend test](https://www.urbandictionary.com/define.php?term=girlfriend%20test#:~:text=When%20a%20piece%20of%20technology%20is%20easy%20enough%20for%20your%20girlfriend%20to%20use%20without%20calling%20you)". I've yet to [find a list that he hasn't heard of](https://oisd.nl/knownlists.php). Be sure to use the `full` list, not `basic`.
 
 2) **1Hosts (Pro)** | [add](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
-<br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) [(Pro)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt) is much stricter than OISD; it includes domains that OISD leaves out. <strike>I've not experienced any issues using this list, though it may cause some "[minimal breakages](https://github.com/badmojr/1Hosts#quickstart-guide)"</strike> (see [feedback](https://reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)). I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5)/Pi-hole while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level).
+<br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) [(Pro)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt) is much stricter than `OISD` (see [feedback](https://old.reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)); it retains domains that `OISD` allowlists. 1Hosts blocks more than other lists and the maintainer is [responsive](https://github.com/badmojr/1Hosts/issues) to issues. I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5) while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) (uBO) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level).
 
 3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt) 
-<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filter list ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Ideal use is with uBlock Origin in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode).
+<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode).
 
 #### URL Tracking Parameters
 
-Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon) to uBO:
+Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. For either list, if you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 1) **Actually Legitimate URL Shortener Tool** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 
 2) **ClearURLs for uBO** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
 
-For either list, if you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
-
 #### Fonts
 
 1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/Block_third_party_fonts.txt)
-<br> A successor to `Fanboy's Anti-thirdparty Fonts`, this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> WARNING: This will break the "look and design" of some sites.
+<br> [optional] A successor to `Fanboy's Anti-thirdparty Fonts`, this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> WARNING: This will break the "look and feel" of some sites.
 
 ***
 
@@ -79,7 +77,7 @@ For either list, if you find websites with tracking parameters or experience bre
 <br> Once you use it, you wonder how you got by without it!
 
 3) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
- <br> This list blocks additional third-party requests and annoyances that are not covered in the Bypass Paywalls Clean filterlist.
+ <br> This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
 
 4) **Bypass Paywalls Clean filter** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
  <br> [experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
@@ -114,16 +112,16 @@ For either list, if you find websites with tracking parameters or experience bre
 User comments: [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted_by_user/hz5edjk/?context=2) [2](https://old.reddit.com/r/dataisbeautiful/comments/t52qxa/oc_i_updated_our_famous_password_table_for_2022/hz4bcq8/?context=2)
 
 #### Guides
-* [FMHY uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters)
+* [FMHY: uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters) → yokoffing/filterlists
 
 #### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
-* [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
-* [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
 * [Easylist](https://github.com/easylist/easylist/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
-* [DandelionSprout/adfilt](https://github.com/DandelionSprout/adfilt/issues?q=+author%3Ayokoffing)
+* [DandelionSprout](https://github.com/DandelionSprout/adfilt/issues?q=+author%3Ayokoffing) / [Legitimate URL Shortener](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)
+* [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
+* [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19652&s=1' border='0' alt='Free Website Counter'></a><br / >
 <div align='center'>23 July 2022</div>
