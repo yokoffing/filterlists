@@ -1,9 +1,9 @@
 ! Title: 📖 Clean Reading Experience
 ! Description: Hide RELATED, READ MORE, YOU MAY ALSO LIKE text that distracts from reading articles
-! Updated: 31 January 2022
+! Updated: 9 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 4 days
+! Expires: 7 days (update frequency)
 
 9to5mac.com##p strong:has-text(/^Related/):upward(p)
 aljazeera.com##.more-on
