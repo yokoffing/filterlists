@@ -1,9 +1,9 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 21 September 2022
+! Updated: 9 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 2 days
+! Expires: 7 days (update frequency)
 
 ! Hide Like count to match Dislike [needs new code for YouTube's new layout]
 ! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
