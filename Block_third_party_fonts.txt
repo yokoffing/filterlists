@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 9 October 2022f
+! Updated: 10 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -13,7 +13,7 @@
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com^$domain=google.com|youtube.com|blogger.com|vocabulary.com
-@@||fonts.gstatic.com^$domain=google.com|youtube.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
+@@||fonts.gstatic.com^$domain=www.google.com|youtube.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.to|climatemirror.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@/wp-$font,domain=arstechnica.com
@@ -92,4 +92,3 @@
 ! General
 ! Allow only first-party fonts, with few site exceptions:
 ! *$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.com|~translate.google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~xhamster.com|~arstechnica.com|~msnbc.com
-! translate.google.com|developers.google.com|play.google.com|news.google.com
