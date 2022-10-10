@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 9 October 2022c
+! Updated: 10 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 2 days (update frequency)
@@ -357,7 +357,7 @@ fmovies.*##+js(nosiif, try)
 ||firebaseinstallations.googleapis.com^
 ||google-analytics.com^$3p,important
 ||google.com/cse/cse.js^
-||google.^$3p,domain=~cbsnews.com|~flippity.net|~translate.google.com|~youtube.com|~youtube-nocookie.com
+||google.com^$3p,domain=~cbsnews.com|~flippity.net|~translate.google.com|~youtube.com|~youtube-nocookie.com
 ||googleadservices.com^$3p,important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
@@ -385,9 +385,9 @@ fmovies.*##+js(nosiif, try)
 ! Already in EasyList: @@||google.com/recaptcha/api.js
 ! @@||google.com/recaptcha/$subdocument
 ! @@||google.com/recaptcha/api.js$script
-@@||google.^$script,domain=youtube.com
+@@||google.com^$script,domain=youtube.com
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
-!@@||google*.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
+!@@||google.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gstaticadssl.*.google.com^$font
 @@||maps-api-ssl.google.com^$script,image
