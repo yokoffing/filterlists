@@ -1,7 +1,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
-! Last modified: 10 October 2022
+! Last modified: 10 October 2022b
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -22,7 +22,6 @@
 ||cn^$doc
 ||cricket^$doc
 ||discount^$doc
-||financial^$doc,domain=~thor.financial
 ||fit^$doc
 ||fun^$doc
 ||icu^$doc
