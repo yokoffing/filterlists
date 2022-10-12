@@ -1,6 +1,6 @@
 ! Title: ⛔ click2load filters
 ! Description: To be used in conjunction with other Annoyances lists
-! Updated: 9 October 2022
+! Updated: 11 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -20,6 +20,7 @@
 ||embed.ted.com/$3p,frame,redirect=click2load.html
 ||player.simplecast.com^$3p,frame,redirect=click2load.html
 ||embed.podcasts.apple.com/$3p,frame,redirect=click2load.html
+||embed.music.apple.com/$3p,frame,redirect=click2load.html
 ||embed.acast.com/$3p,frame,redirect=click2load.html
 ||player.megaphone.fm/$3p,frame,redirect=click2load.html
 ||open.spotify.com/embed/$3p,frame,redirect=click2load.html
