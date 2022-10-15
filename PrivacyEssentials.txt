@@ -1,10 +1,10 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 10 October 2022b
+! Updated: 15 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 2 days (update frequency)
+! Expires: 7 days (update frequency)
 ! Sources:
 ! My personal filters
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
@@ -94,8 +94,8 @@
 ||cxense.com^
 ||d77cf8b870.com^
 ||data.cnn.com^
-||datadoghq-browser-agent.com^
-||datadoghq.com^
+!||datadoghq-browser-agent.com^
+!||datadoghq.com^
 ||decacopy.com^
 ||delvenetworks.com^$3p,script
 ||discord.com^$3p
@@ -171,13 +171,13 @@
 ||livenetlife.com^$3p
 ||liveperson.net^$3p
 ||lmaxdigital.io
-||logrocket.network^
+!||logrocket.network^
 ||loox.io^$3p
 ||lowfruitsolutions.com^$3p
 ||loyaltylion.net^$3p
 ||lpsnmedia.net^$3p
-||lr-hv-in.com^$3p
-||lr-in.com^$3p
+!||lr-hv-in.com^$3p
+!||lr-in.com^$3p
 ||lura.live^$3p
 ||mailchimp.com^$3p
 ||mailchimp.com^$3p
