@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 15 October 2022c
+! Updated: 16 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -13,7 +13,7 @@
 @@||fast.fonts.net/jsapi/$script
 @@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com^$domain=youtube.com|news.google.com|docs.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|vocabulary.com
-@@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.com|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
+@@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.com|nclive.org|bloble.io|regexpal.com|dexscreener.com|vocabulary.com
 ! espn.com|pornlib.com|9anime.to|climatemirror.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@/wp-$font,domain=arstechnica.com
