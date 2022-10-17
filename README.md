@@ -36,7 +36,7 @@ https://how-i-experience-web-today.com/
 <br> or **1Hosts (Lite)** | [add](https://o0.pages.dev/Lite/adblock.txt)
 <br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) [(Pro)](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt) is much stricter than `OISD` (see [feedback](https://old.reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)); it retains domains that `OISD` allowlists. 1Hosts blocks more than other lists and the maintainer is [responsive](https://github.com/badmojr/1Hosts/issues) to issues. I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5) while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) (uBO) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level). In other words, if you are adverse to troubleshooting site breakage, use the [(Lite)](https://o0.pages.dev/Lite/adblock.txt) list.
 
-3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/PrivacyEssentials.txt) 
+3) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
 
 #### URL Tracking Parameters
@@ -48,7 +48,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 #### Fonts
 
-1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/Block_third_party_fonts.txt)
+1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
 <br> [optional] A successor to `Fanboy's Anti-thirdparty Fonts`, this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method as it does not require the extra connection to a third-party domain (speed and privacy); and, since I trust the first-party site enough to connect to it, I do not take on much additional privacy or security risks when I allow my browser to download a font directly from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> **Note:** This will break the "look and feel" of many sites.
 
 ***
@@ -58,7 +58,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 1) **Dandelion Sprout's Anti-Malware List** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
 <br> Blocks heavily abused top-level domains (TLDs) and even search engine results for them. Blocks domains used in malware redirection trains and in domain parking schemes, as well as sponsored Windows PUP nags on PC guide articles. Mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 
-2) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_protection.txt)
+2) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt)
 <br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more abused TLDs for extra security.
 
 3) **The malicious website blocklist** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
@@ -71,7 +71,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ### Annoyances
 
-1) **yokoffing's Annoyance List** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/AnnoyanceList.txt)
+1) **yokoffing's Annoyance List** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the cludder around many sites (e.g., related articles).
 
 2) **Browse websites without logging in** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
