@@ -124,5 +124,12 @@ User comments: [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted
 * [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
 * [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
 
+***
+
+## Support
+I’m a one-person operation, working in mental health by day and running this repo as a passion project in my time off.
+
+If you enjoy my work, consider leaving a tip and supporting the repo. Your support is incredibly appreciated and goes a long way in allowing me to dedicate time to these projects.
+
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19652&s=1' border='0' alt='Free Website Counter'></a><br / >
 <div align='center'>23 July 2022</div>
