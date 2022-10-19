@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 17 October 2022b
+! Updated: 18 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -25,7 +25,7 @@
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
 /font-awesome^$3p
-/fontawesome-$font,3p
+/fontawesome-$font,3p,domain=~py4e.com
 ! nuvid.com
 ||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 /fonts/*.ttf$font,3p
