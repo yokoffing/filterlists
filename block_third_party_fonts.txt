@@ -7,6 +7,7 @@
 ! Expires: 7 days
 
 !!! ALLOWLIST
+@@/fontawesome-$font,3p,domain=py4e.com
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com|bootsnipp.com
 @@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
 @@||fontawesome.com^$domain=9anime.se
@@ -25,7 +26,7 @@
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
 /font-awesome^$3p
-/fontawesome-$font,3p,domain=~py4e.com
+/fontawesome-$font,3p
 ! nuvid.com
 ||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 /fonts/*.ttf$font,3p
