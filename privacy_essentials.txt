@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 17 October 2022
+! Updated: 19 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -456,14 +456,14 @@ platform.twitter.com##+js(cookie-remover)
 ||preorder-now.herokuapp.com^$3p
 ||razorpay.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
-||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
-||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypalobjects.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
 ||shopcircleapp.co^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
-||stripe.com^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
+||stripe.com^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io|~patreon.com
 ||stripe.network^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
 
 ! VIDEO PLAYERS
