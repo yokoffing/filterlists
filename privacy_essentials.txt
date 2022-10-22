@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 19 October 2022
+! Updated: 22 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -13,6 +13,7 @@
 ! from uBlock filters – Unbreak
 
 ! GENERAL BLOCKLIST
+$ping
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
 /fingerprintjs2$script
