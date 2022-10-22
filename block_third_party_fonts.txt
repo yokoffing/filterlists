@@ -1,7 +1,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 22 October 2022b
+! Updated: 23 October 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -26,15 +26,8 @@
 
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
-/font-awesome^$3p
-/fontawesome-$font,3p
-! nuvid.com
-||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 /fonts/*.ttf$font,3p
 /wp-$font,3p
-||gannett-cdn.com^*/fonts/$font,3p
-||gannettdigital.com^*/fonts/$font,3p
-||kinja-static.com/assets/fonts/$font,3p
 ||alluremedia.com.au^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
@@ -46,7 +39,6 @@
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
 ||fastly.net^$font,3p
-||fontawesome.com^$3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -59,11 +51,13 @@
 ||fonts.staticworld.net^$3p
 ||fonts.timeinc.net^
 ||fonts.voxmedia.com^$3p
+||gannett-cdn.com^*/fonts/$font,3p
+||gannettdigital.com^*/fonts/$font,3p
 ||google.com/swg/$font,3p
 ||googleapis.com/ajax/libs/webfont/$3p
 ||googleusercontent.com/static/fonts/$3p
 ||gotraffic.net^$font
-||maxcdn.bootstrapcdn.com/font-awesome/$3p
+||kinja-static.com/assets/fonts/$font,3p
 ||myfontastic.com^$3p
 ||myfonts.net^$3p
 ||netdna-cdn.com^*/webfonts/
@@ -85,8 +79,15 @@
 @@||gstaticadssl.*.google.com^$font,badfilter
 
 !!! UNUSED
-! Causes too much false positives:
-! ||maxcdn.bootstrapcdn.com^*/fonts/
+! Causes too many false positives:
+!*$font,3p
+!||maxcdn.bootstrapcdn.com^*/fonts/
+! Used for icons on many sites:
+!/font-awesome^$3p
+!/fontawesome-$font,3p
+!||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
+!||fontawesome.com^$3p
+!||maxcdn.bootstrapcdn.com/font-awesome/$3p
 
 ! Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
