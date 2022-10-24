@@ -1,7 +1,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
-! Last modified: 21 October 2022
+! Last modified: 24 October 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -58,3 +58,5 @@
 ! Scam websites - https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927183223
 ! Credit to https://github.com/spirillen and https://github.com/Yuki2718 for the RegExp and https://github.com/krystian3w for the report
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
+
+!#include https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt
