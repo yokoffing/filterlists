@@ -1,16 +1,9 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
-! Last modified: 24 October 2022
+! Last modified: 24 October 2022b
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-
-! Abused TLDs
-! [1] https://www.spamhaus.org/statistics/tlds/
-! [2] https://webtribunal.net/blog/tld-statistics/
-! [3] https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-! [4] https://www.bleepingcomputer.com/news/security/verified-twitter-accounts-hacked-to-send-fake-suspension-notices/
-! [5] https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
 
 ! Block site navigations, but not subrequests, for the following TLDs:
 ||asia^$doc
@@ -39,24 +32,6 @@
 ||win^$doc
 ||work^$doc
 
-! Used in Dandelion Sprout's Anti-Malware List:
-!||agency^$document,domain=~battlefield.agency|~shortcut.agency
-!||bid^$document
-!||cf^$document,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
-!||discount^$doc
-!||ga^$document,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~voitures.ga|~economie-gabon.ga|~9191.ga
-!||gdn^$document
-!||gq^$document,domain=~deimos.gq|~inege.gq|~tvgelive.gq|~comprarcarros.gq
-!||loan^$document
-!||ml^$document,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml|~gymlibrary.ml
-!||monster^$document,domain=~egybest.monster|~yts.monster
-!||ooo^$document
-!||pw^$document,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~b00k.pw|~gopass.pw
-!||sbs^$document
-!||top^$document,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top
-
 ! Scam websites - https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-927183223
 ! Credit to https://github.com/spirillen and https://github.com/Yuki2718 for the RegExp and https://github.com/krystian3w for the report
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
-
-!#include https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt
