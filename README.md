@@ -117,6 +117,7 @@ User comments: [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted
 
 #### Guides
 * [FMHY: uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters) → yokoffing/filterlists
+* [knapah/uBlockOrigin-Filterlist](https://github.com/knapah/uBlockOrigin-Filterlist)
 
 #### Contributions
 * [1Hosts](https://github.com/badmojr/1Hosts/issues?q=is%3Aissue+author%3Ayokoffing+)
