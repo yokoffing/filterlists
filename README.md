@@ -78,7 +78,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> Once you use it, you wonder how you got by without it!
 
 3) **Anti-paywall filters** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
- <br> This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
+ <br> [optional] This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
 
 4) **Bypass Paywalls Clean filter** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
  <br> [optional] [experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
