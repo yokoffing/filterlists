@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 24 October 2022
+! Updated: 26 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -60,7 +60,7 @@ $ping,third-party
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bf-ad.net^$important
 ||bimbolive.com^$3p
-||bing.com^$3p,domain=~amazon.com|~login.live.com|~microsoft.com|~msn.com|~swisscows.com
+||bing.com^$3p,domain=~amazon.com|~login.live.com|~microsoft.com|~msn.com|~swisscows.com|ups.com
 ||blitzen.com^$3p
 ||blogsmithmedia.com^$3p,xhr
 ||bloomapp-production.herokuapp.com^$3p
