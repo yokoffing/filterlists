@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 24 October 2022b
+! Updated: 28 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -395,48 +395,28 @@ translate.google.com##.notification-area,.gt-cc:remove()
 ! from https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
 ! Clean up the Reddit header bar:
 ! Advertise
-reddit.com##header [aria-label="Advertise"]
+www.reddit.com##header [aria-label="Advertise"]
 ! r/Popular
-reddit.com##header [href="/r/Popular/"]
+www.reddit.com##header [href="/r/Popular/"]
 www.reddit.com##.icon-popular.icon
 ! r/all
-reddit.com##header [href="/r/all/"]
+www.reddit.com##header [href="/r/all/"]
 ! Reddit Live
-reddit.com##header [href="/rpan/"]
+www.reddit.com##header [href="/rpan/"]
 ! Shop Avatars
-reddit.com##header svg+svg+svg>[d^="M6.47.828a.5.5"]:upward(2)
-! Coin Icon
-reddit.com##.icon-coins
-! Shop Avatars
+!www.reddit.com##header svg+svg+svg>[d^="M6.47.828a.5.5"]:upward(2)
+www.reddit.com##header button:has-text(/Shop Avatars/):upward(1)
 ! https://www.reddit.com/r/firefox/comments/wzvufu/comment/im92ywy/
 www.reddit.com##:xpath(//button[contains(text(),'Shop Avatars')])
+! Coin Icon
+www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
+www.reddit.com##.icon-coins
+
 
 ! Block AutoModerator messages
 reddit.com##._1YCqQVO-9r-Up6QPB9H6_4 > div > div:has-text(AutoModerator)
 
-!!! TWITTER
-! from https://github.com/DandelionSprout/adfilt/blob/master/TwitterPureReadingExperience.txt
-! Removes the Trending list
-twitter.com##div[data-testid=sidebarColumn] section > div[aria-label]
-||twitter.com/i/trends?
-twitter.com##.trends-inner
-twitter.com##.r-1u4rsef.r-9cbz99
-
-! Removes "Who to follow" box headers and footers from user timelines
-twitter.com#?#div[data-testid=primaryColumn] div:-abp-has(> div > div > h2[role=heading] > div[dir=auto] > span)
-twitter.com#?#div:-abp-has(> div > a[href^="/i/connect_people"])
-! https://github.com/DandelionSprout/adfilt/issues/122
-twitter.com#?#nav[aria-label][role=navigation] + div > section > div[aria-label^=Timeline] > div[style] > div[style]:-abp-has([data-testid$=-follow])
-
-! Removes the "You might like" section / "Who to follow"
-twitter.com##div[data-testid=sidebarColumn] div[style="margin-top: 0px;"] + div:last-of-type aside
-twitter.com#?#div[data-testid=sidebarColumn] div[style="margin-top: 0px;"] + div:last-of-type > div > div > div > div:-abp-has(> aside[role])
-
-! Removes the "Related users" sections
-twitter.com##.RelatedUsers
-twitter.com##.WhoToFollow
-twitter.com##div[data-testid=sidebarColumn] > div > div > div > div > div > div > div:nth-of-type(3)
-
+! TWITCH
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
 twitch.tv##.channel-panels-container
 twitch.tv##.prime-offers
@@ -483,7 +463,7 @@ google.*##[id^="eob_"]
 ! REDDIT
 ! Hide Reddit 'Top Broadcast Now' & 'Top livestream'
 reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
-! Block downloading. Please report back if does not work or causes issues. https://www.reddit.com/r/uBlockOrigin/wiki/solutions
+! Block downloading
 ||redd.it/*.m3u8^$xhr,domain=reddit.com
 ||strapi.reddit.com^$xhr,domain=reddit.com
 
@@ -510,6 +490,35 @@ youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|
 ! Recommend after pause
 youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
 ~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+
+! TWITTER
+! [Oct 2022] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
+! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
+twitter.com##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+! [User] liked
+twitter.com##article :not([role="button"]>div>div>svg>g>path)[d$="4.17-.514 6.67z"]:upward(article)
+! [User] Retweeted
+twitter.com##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s Tweets"]) article :not([data-testid="unretweet"]>div>div>svg>g>path)[d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/)))
+! [User] follows
+twitter.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
+! Follow/Recommended Topic | "[Name of Topic] See more"
+twitter.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
+! Like and Retweet counts | Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
+twitter.com##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
+! More Tweets
+twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
+twitter.com##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
+! Sidebar - Topics to follow
+twitter.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+! Sidebar - Trending now/Trends for you
+twitter.com##[aria-label$="trending now" i]
+! Sidebar - Who to follow/You might like
+twitter.com##[aria-label="who to follow" i]:upward(1)
+! Login popup
+twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com##html:style(overflow: auto !important;)
 
 !!! NYT
 ! "To our Readers" note
