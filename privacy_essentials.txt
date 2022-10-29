@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 28 October 2022
+! Updated: 29 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -91,7 +91,7 @@ $ping,third-party
 ||cookiebot.com^
 ||cookieinfoscript.com^$3p
 ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
-||cookielaw.org^$3p,domain=cbsnews.com|cnn.com
+||cookielaw.org^$3p
 ||coordinatedcub.com^$3p
 ||cxense.com^
 ||d77cf8b870.com^
