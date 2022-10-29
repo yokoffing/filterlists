@@ -99,7 +99,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ***
 
 ## Reading
-#### uBO Wiki
+* [How to test filters](https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_how_to_test_filters)
 * Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features)
 * [Dynamic filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide) | [video](https://www.youtube.com/watch?v=2lisQQmWQkY)
 * [Medium Mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) | [video](https://youtu.be/2lisQQmWQkY?t=804) | [warning](https://old.reddit.com/r/firefox/comments/y0oce5/comment/irvpvrn/?context=1)
