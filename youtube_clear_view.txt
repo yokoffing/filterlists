@@ -1,6 +1,6 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 29 October 2022b
+! Updated: 29 October 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -31,7 +31,6 @@ youtube.com###chat
 !!! from https://letsblock.it/
 ! Hide Youtube recommended videos
 www.youtube.com###related
-www.youtube.com##ytd-browse[page-subtype="home"]
 www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-endscreen-content
 ! the end screen / auto play next:
