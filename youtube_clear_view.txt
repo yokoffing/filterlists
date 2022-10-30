@@ -1,6 +1,6 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 29 October 2022d
+! Updated: 29 October 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -10,16 +10,19 @@
 ! Hide "Like" counts (old format)
 youtube.com##[aria-label$="likes"]
 ! Hide "Like" counts (new format)
+www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
-! www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 ! now invalid:
 ! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
 
 ! Hide recommendation sidebar
 youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, ytd-horizontal-card-list-renderer
 
-! Block chat window
+! Hide chat window
 youtube.com###chat
+
+! Hide next video video, which may accidentally be clicked since it's near the Play button
+www.youtube.com##.ytp-button.ytp-next-button
 
 ! Block once for all the scripts responsible for annotations
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
