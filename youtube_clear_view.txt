@@ -1,44 +1,51 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 9 October 2022
+! Updated: 29 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
-! Hide Like count to match Dislike [needs new code for YouTube's new layout]
+! Hide Like count to match Dislike
+! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
+! Hide "Like" counts (old format)
+youtube.com##[aria-label$="likes"]
+! Hide "Like" counts (new format)
+www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
+! now invalid:
 ! https://www.reddit.com/r/uBlockOrigin/comments/r5rund/is_there_some_way_to_change_the_like_count_on/hmpogu1/?context=3
-!!! youtube.com###top-level-buttons-computed > ytd-toggle-button-renderer:nth-child(-n+2) yt-formatted-string#text
 
 ! Hide recommendation sidebar
-youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, #sponsor-button, ytd-horizontal-card-list-renderer
+youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, ytd-horizontal-card-list-renderer
 
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
+! or use "Enhancer for YouTube" to Convert Shorts
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
-youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
-
-! Hide Shorts
-! https://letsblock.it/filters/youtube-shorts
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-! www.youtube.com##ytd-browse ytd-grid-video-renderer:has(#video-title[title~="#shorts" i])
-! www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[title~="#shorts" i])
-! www.youtube.com##ytd-search ytd-video-renderer:has(#video-title[title~="#shorts" i])
-! www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(#video-title[title~="#shorts" i])
-
-! Misc. Annoyances
-!youtube.com##.ytd-live-chat-frame, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-scroll-min.ytp-pause-overlay, .yt-upsell-dialog-renderer, #sponsor-button, ytd-horizontal-card-list-renderer, ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
-! Block once for all the scripts responsible for annotations:
-!!! /annotations_module.js$script,important,domain=youtube.com
-! the end screen / auto play next:
-/endscreen.js$script,important,domain=youtube.com
+! youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text[aria-label^="1 minute"], ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-time-status-renderer>#text:not([aria-label*="hour"], [aria-label*="minute"])[aria-label$="seconds"]:upward(ytd-grid-video-renderer)
 
 ! Block chat window
 youtube.com###chat
+
+! Block once for all the scripts responsible for annotations:
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
+! /annotations_module.js$script,important,domain=youtube.com
+
+!!! from https://letsblock.it/
+! Hide Youtube recommended videos
+filters/youtube-recommendations
+www.youtube.com###related
+www.youtube.com##ytd-browse[page-subtype="home"]
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-endscreen-content
+! the end screen / auto play next:
+/endscreen.js$script,important,domain=youtube.com
+
+! Hide Youtube mixes and radios
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
+www.youtube.com##ytd-search ytd-radio-renderer
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
+www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
+
+! Hide upcoming Youtube videos
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
