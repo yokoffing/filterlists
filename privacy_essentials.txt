@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 29 October 2022b
+! Updated: 31 October 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -11,6 +11,7 @@
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
 ! from uBlock filters – Unbreak
+! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt
 
 ! GENERAL BLOCKLIST
 $ping,third-party
@@ -312,10 +313,10 @@ $ping,third-party
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
-!||tags.tiqcdn.com^
+! ||tags.tiqcdn.com^
 
 ! GENERAL ALLOWLIST
-!@@||assets.adobedtm.com^$script
+! @@||assets.adobedtm.com^$script
 @@*/lwa/WebPages/LwaClient.aspx$subdocument
 @@*/saml/$subdocument
 @@/clarity-*.js$1p,script
@@ -331,16 +332,16 @@ fmovies.*##+js(nosiif, try)
 @@||cdn-apple.com^$domain=apple.com
 @@||consent.cookiebot.com^$script,domain=adjust.com
 @@||contextual.media.net^$script
-@@||cookielaw.org/*/otBannerSdk.js$script
-@@||cookielaw.org/*/otPcPanel.json$xhr
-@@||cookielaw.org/*/otSDKStub.js$script
-@@||cookielaw.org/consent/$xhr
+! @@||cookielaw.org/*/otBannerSdk.js$script
+! @@||cookielaw.org/*/otPcPanel.json$xhr
+! @@||cookielaw.org/*/otSDKStub.js$script
+! @@||cookielaw.org/consent/$xhr
 @@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
 @@||gravatar.com^$image,stylesheet
-!@@||js.intercomcdn.com^$script,domain=nextdns.com
+! @@||js.intercomcdn.com^$script,domain=nextdns.com
 @@||omara.cdn-cnj.si^$script
 @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
@@ -555,7 +556,7 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com,badfilter
 
 ! Fanboy's ET
-! These allow too many ad-scripts not related to blocker detection.
+! These allow too many ad-scripts not related to blocker detection
 @@.com/ads.js$script,1p,badfilter
 @@/js/advertisement.$script,badfilter
 @@/js/ads.js$script,badfilter
@@ -563,10 +564,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||cloudfront.net/assets/$script,3p,badfilter
 @@||i-mobile.co.jp/script/ad$script,badfilter
 @@||client-event-reporter.twitch.tv^$xhr,domain=twitch.tv,badfilter
-
-! https://github.com/easylist/easylist/issues/13695
-!||ericdraken.com/a/^
-||ericdraken.com/a/*$script,1p
 
 ! NYT
 ||myaccount.nytimes.com^
@@ -577,6 +574,95 @@ bing.com##+js(nosiif, logQueue, 10000)
 
 ! WP
 ||talk.washingtonpost.com^
+||washingtonpost.com/subscribe/
+||subscribe.washingtonpost.com
+
+! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
+! Network filters only
+||news.google.com/swg/$script,third-party
+||accounts.google.com/gsi/$~script
+||smartlock.google.com^
+/amp-access-$script
+||tinypass.com^$third-party
+@@||experience.tinypass.com/xbuilder/$script,3p
+||mediapass.com^$third-party
+||scroll.com^$third-party
+||wallkit.net^$third-party
+||evolok.com^$third-party
+||evolok.net^$third-party
+||piano.io^$third-party
+||qiota.com^$third-party,important
+||poool.fr^$third-party
+||onecount.net^$third-party
+||profitwell.com^$third-party
+||pelcro.com^$third-party
+||mppapi.io^$third-party
+||mppglobal.com^$third-party
+||batch.com^$third-party
+||lightboxcdn.com^$third-party
+/coil-web-monetization/*
+||taboola.com^$third-party
+
+||washingtonpost.com/pwapiv2/
+||washingtonpost.com/wp-stat/pb/prod/pmbl.txt
+||washingtonpost.com/pb/gr/c/default/*/identity-management-$script
+||washingtonpost.com/pb/*/subscription-acquisition
+||meter-svc.nytimes.com^
+||nytimes.com^*/metered_assets/
+||nyt.com^*/metered_assets$script
+||nytimes.com/svc/nyt/data-layer
+||assets.bwbx.io^*/fence/$script
+||assets.bwbx.io^*/pianola/$script
+||smartwall.theglobeandmail.com^
+||cloudfront.net/prod/cloudfrontVideoTracker.png
+||bostonglobe.com/pf/resources/dist/third-party.js
+@@||meter.bostonglobe.com^$script,1p
+bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
+@@||bostonglobe.com/api/v1/setCookie$xhr,1p
+||qz.com/api/site/behavior
+||aw1.accuradio.com^
+||accuradio.com/sweeper/
+||accuradio.com/static/js/ltjs.js
+||sendtonews.com^$3p
+||accuradio.com/listener/track-adbreaks/
+||streamtheworld.com/ondemand/ars?
+||streamtheworld.com^*/idsync.js
+||tsbluebox.com^$third-party
+||vidoplay.com^$third-party
+||whichtalk.com^$third-party
+||tags.creativille.co.uk^$third-party
+||redcharger.co^$third-party
+||redcharger.net^$third-party
+||rcimages.xyz^$third-party
+||newsmemory.com/*/ads/?rotator_all=$subdocument
+||newsmemory.com/?prebid=
+||vidazoo.com^$3p
+||vidible.tv^$3p,domain=abqjournal.com
+||nzherald.co.nz/arc/subs/p.js
+||theladders.com/api/auth/is-logged-in
+||harpers.org^*/pum/
+||harpers.org^*/leaky-paywall/
+||netdna-ssl.com^*/leaky-paywall/$domain=harpers.org
+||gannett-cdn.com/dcjs/
+||gannett-cdn.com/dcc/
+||time.com/dist/authentication.js
+||livemint.com/__js/lm_subscription_$script
+||amp-access-svc.memb.ft.com/amp-pingback
+||c950.chronicle.com^
+||assets.login.chronicle.com^
+||axios.com/api/v1/licenses
+||czx5eyk0exbhwp43ya.biz^$third-party
+||ayc0zsm69431gfebd.info^$third-party
+||ayc0zsm69431gfebd.xyz^$third-party
+||g2insights-cdn.azureedge.net^$third-party
+||loader-cdn.azureedge.net^$third-party
+||fp-cdn.azureedge.net^$third-party
+||flittz-cdn.azureedge.net^$third-party
+||prod-mng-proxy-connext.azurewebsites.net^$third-party
+||connext-cdn.ec.azureedge.net^$third-party
+||mg2connext.com^$third-party
+||marketingg2.com^$third-party
+||flittz.com^$third-party
 
 !#if ext_ublock
 !#include click2load.txt
