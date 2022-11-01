@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 31 October 2022
+! Updated: 1 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -171,6 +171,7 @@ $ping,third-party
 ||letspin.io^$3p
 ||limelight.com^$3p,script
 ||list-manage.com^$3p
+||livechat.ivpn.net^
 ||livenetlife.com^$3p
 ||liveperson.net^$3p
 ||lmaxdigital.io
@@ -602,7 +603,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||lightboxcdn.com^$third-party
 /coil-web-monetization/*
 ||taboola.com^$third-party
-
 ||washingtonpost.com/pwapiv2/
 ||washingtonpost.com/wp-stat/pb/prod/pmbl.txt
 ||washingtonpost.com/pb/gr/c/default/*/identity-management-$script
