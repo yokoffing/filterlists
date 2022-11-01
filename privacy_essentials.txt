@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 1 November 2022b
+! Updated: 1 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -236,7 +236,9 @@ $ping,third-party
 ||pushance.com^$3p
 ||qq.com^$3p
 ||quantserve.com^$3p
-||readcomiconline.to/wp-includes/*/*.html^$subdocument,1p
+||readcomiconline.*/Ads/
+||readcomiconline.*/wp-includes/*/*.html$subdocument,1p
+!readcomiconline.li###divComments:remove()
 ||rebuyengine.com^$3p
 ||recommendation-hybrid.wpdigital.net^$all
 ||refer.bose.com^
@@ -582,6 +584,11 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||talk.washingtonpost.com^
 ||washingtonpost.com/subscribe/
 ||subscribe.washingtonpost.com
+
+! AMAZON
+||amazon-adsystem.com^$important
+www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolder,#percolate-ui-ilm_div > .celwidget:remove()
+@@||amazon.*/*uedata$image,1p,badfilter
 
 ! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
 ! Network filters only
