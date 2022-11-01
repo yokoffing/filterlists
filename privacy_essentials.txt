@@ -1,7 +1,7 @@
 
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 1 November 2022
+! Updated: 1 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -467,6 +467,11 @@ platform.twitter.com##+js(cookie-remover)
 ||shopcircleapp.co^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
+##.shopify-payment-button
+/AdditionalGoogleAnalyticsScriptSandbox
+/GooglePayButton
+/FacebookPayButton
+/ShopPay
 ||stripe.com^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io|~patreon.com
 ||stripe.network^$3p,domain=~curesarcoma.org|~cc.greatfire.org|~koinly.io
 
