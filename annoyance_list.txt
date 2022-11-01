@@ -1,11 +1,41 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 28 October 2022
+! Updated: 1 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
+
+adidas.*##.glass-modal___1JNyq.gl-modal--full-mobile.gl-modal--active.gl-modal--mobile-full.gl-modal
+livemint.com###paywall_11665211098186 > .open.cardHolder
+livemint.com##.lmWidgetTracking.impression-candidate.widget-impression-candidate.story6.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_1.story4.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_2.story4.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_3.story4.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_4.story3.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_5.story4.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_6.story5.rightBlock
+livemint.com###sectionRHSFeed-companies
+livemint.com###rhsWsjNotAdFree
+livemint.com###personalFinance
+livemint.com##.lmWidgetTracking.story2.rhsWidgetNotAdFree.lastBlock.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_3.story3.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.rhsPos_4.story4.rhsWidgetNotAdFree.rightBlock
+livemint.com##.lmWidgetTracking.impression-candidate.moreNews
+livemint.com##.eventFired.lmWidgetTracking.widget-impression-candidate.moreNews.mainArea
+thepennyhoarder.com##.hidden-sm.hidden-xs.single-post-social-top-sticky.col-md-2 > div > .single-social
+swisscows.com##.animation-badges.popup.home-link-instruction, .popup.install-sw-block
+genius.com##comments
+mashable.com##.bg-warmgray-100.items-end.md\:flex-row.flex-col.flex.overflow-hidden.relative.px-4.mx-auto.mt-12.max-w-9xl, .md\:mb-16.md\:mt-12.mb-12.mt-8.font-sans.text-primary-400.max-w-3xl.mx-auto.w-full, section.max-w-8xl.mx-auto:nth-of-type(1), div.lg\:flex.justify-between.items-stretch.mx-auto.px-4.max-w-8xl, .related-stories
+qz.com##.js_qz_newsletter_signup_placeholder
+thestar.com##.c-related-articles
+britannica.com##.mb-30.m-sm-50.border.d-block.p-5.quiz-module.info-module, .marketing-content.marketing-INLINE_SUBSCRIPTION
+phonerebel.com##.announcement--opening.announcement--closeable.announcement
+dispatch.techlore.tech##.show-subscribe.subscription-widget
+appleinsider.com##.deals-widget, .deal-highlight
+zdnet.com##.g-outer-spacing-bottom-large.c-globalBreakingNews, .c-listingVertical
+pcmag.com###trust-badge, .relative.max-w-3xl
 
 usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0 > .jwEFKD.PlBer.MediaObjectBox__AnchorWrap-sc-7ytr6b-4.Anchor-byh49a-0
 usnews.com##div.jdkxeQ.MediaObjectBox__Container-sc-7ytr6b-0:nth-of-type(82)
@@ -392,7 +422,7 @@ torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer_
 translate.google.com##.notification-area,.gt-cc:remove()
 
 !!! REDDIT
-! from https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
+! some from https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
 ! Clean up the Reddit header bar:
 ! Advertise
 www.reddit.com,www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##header [aria-label="Advertise"]
@@ -412,9 +442,19 @@ www.reddit.com##:xpath(//button[contains(text(),'Shop Avatars')])
 www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
 www.reddit.com##.icon-coins
 
-
 ! Block AutoModerator messages
 reddit.com##._1YCqQVO-9r-Up6QPB9H6_4 > div > div:has-text(AutoModerator)
+
+! hide icons
+www.reddit.com##._23q1waDr4n_2fR5A7zcZzb.x0hiXHicn7r3BG9m1FJH4
+
+! hide Moderators (sometimes)
+! https://www.reddit.com/r/uBlockOrigin/comments/yfgxaw/in_new_reddit_how_do_i_remove_the_moderators_box/
+reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(4)
+
+! hide online status in menu
+! https://www.reddit.com/r/uBlockOrigin/comments/wor4ov/anyone_know_how_to_block_the_online_status_menu/
+www.reddit.com##[role="menu"] button:has-text(Online Status)
 
 ! TWITCH
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
