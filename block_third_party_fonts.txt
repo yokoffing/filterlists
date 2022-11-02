@@ -1,25 +1,24 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 31 October 2022
+! Updated: 2 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
 
 !!! ALLOWLIST
-@@/fontawesome-$font,3p,domain=py4e.com|fontawesome.com
+!@@/fontawesome-$font,3p,domain=py4e.com|fontawesome.com
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com
 @@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
-@@||fontawesome.com^$domain=9anime.se
+!@@||fontawesome.com^$domain=9anime.se
 @@||fast.fonts.net/jsapi/$script
-@@||fastly.net^$font,domain=reddit.com
+!@@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com^$domain=youtube.com|news.google.com|docs.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|vocabulary.com|socialworkers.org|libwizard.com|britannica.com
 @@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|groups.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|bloble.io|regexpal.com|dexscreener.com|vocabulary.com|socialworkers.org|libwizard.com|britannica.com|codebeautify.org
-! espn.com|pornlib.com|9anime.to|climatemirror.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
-@@/wp-$font,domain=arstechnica.com
+!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
@@ -28,7 +27,7 @@
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
 /fonts/*.ttf$font,3p
-/wp-$font,3p
+!/wp-$font,3p
 ||alluremedia.com.au^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
@@ -73,7 +72,7 @@
 ||vidible.tv/prod/fonts/$font
 ||webfonts.creativecloud.com^$3p
 ||webfonts.sakura.ne.jp^$font
-||wp.com^*/fonts/$3p
+!||wp.com^*/fonts/$3p
 
 ! Privacy Essentials, anti-allowlist:
 @@||use.typekit.net^$font,badfilter
