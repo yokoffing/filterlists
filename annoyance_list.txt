@@ -1,12 +1,15 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 1 November 2022
+! Updated: 5 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+washingtonpost.com##.h-100.hide-for-print.flex-column.flex, .wpds-c-dhlPjo-iblNTCR-css.wpds-c-dhlPjo
+citethisforme.com##.ucf-upload-widget-modal-root.bzQanw.sc-1ia47o9-0, .htPnDG.styled__ModalWrapper-sc-1b4zkf-0
+wcofun.net##.alert
 adidas.*##.glass-modal___1JNyq.gl-modal--full-mobile.gl-modal--active.gl-modal--mobile-full.gl-modal
 livemint.com###paywall_11665211098186 > .open.cardHolder
 livemint.com##.lmWidgetTracking.impression-candidate.widget-impression-candidate.story6.rightBlock
