@@ -94,7 +94,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
  ***
  
 ## Scriplets
-[Add](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation) these [scriptlets](https://github.com/uBlock-user/uBO-Scriptlets) to [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/).
+(optional) Block Twitch ads via [scriptlets](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation). Get the scriplets [here](https://github.com/pixeltris/TwitchAdSolutions#scripts).
 
 ***
 
