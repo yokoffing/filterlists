@@ -1,6 +1,6 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 6 November 2022
+! Updated: 6 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -541,15 +541,15 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[ari
 ! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
 ! [User] liked
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article :not([role="button"]>div>div>svg>g>path)[d$="4.17-.514 6.67z"]:upward(article)
+!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article :not([role="button"]>div>div>svg>g>path)[d$="4.17-.514 6.67z"]:upward(article)
 ! [User] Retweeted
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s Tweets"]) article :not([data-testid="unretweet"]>div>div>svg>g>path)[d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/)))
+!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s Tweets"]) article :not([data-testid="unretweet"]>div>div>svg>g>path)[d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/)))
 ! [User] follows
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
 ! Follow/Recommended Topic | "[Name of Topic] See more"
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
 ! Like and Retweet counts | Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
+!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
 ! More Tweets
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
