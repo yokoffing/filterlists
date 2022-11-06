@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 3 November 2022
+! Updated: 6 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 7 days (update frequency)
@@ -16,6 +16,7 @@
 ||chaturbate.com^$3p
 ||ggg.xhamster.com^
 
+hotmovs.com##.video-page__related
 429men.com###list_videos_related_videos
 xhamster.com##.width-wrap.related-container
 gotgayporn.com###list_videos_related_videos
