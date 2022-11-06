@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 6 November 2022b
+! Updated: 6 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 7 days (update frequency)
@@ -16,7 +16,6 @@
 ||chaturbate.com^$3p
 ||ggg.xhamster.com^
 
-hentaiplay.net##+js(set-attr, preload|controls, auto, video)
 hentaiplay.net###footbar:remove()
 hentaiplay.net###video_overlays
 hotmovs.com##.video-page__related
