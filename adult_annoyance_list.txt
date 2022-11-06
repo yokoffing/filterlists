@@ -1,6 +1,6 @@
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 6 November 2022
+! Updated: 6 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 7 days (update frequency)
@@ -16,6 +16,9 @@
 ||chaturbate.com^$3p
 ||ggg.xhamster.com^
 
+hentaiplay.net##+js(set-attr, preload|controls, auto, video)
+hentaiplay.net###footbar:remove()
+hentaiplay.net###video_overlays
 hotmovs.com##.video-page__related
 429men.com###list_videos_related_videos
 xhamster.com##.width-wrap.related-container
@@ -90,66 +93,6 @@ sniffies.com##.map-main-content > .ng-star-inserted.ng-tns-c192-12
 ||site.sniffiesassets.com/upgrade-ads^
 ||media.twiliocdn.com^$3p
 
+! URL Tracking
 ! https://mrgay.com/video/10166063/arabian-strokes/?autostart=1
-$removeparam=autostart,domain=mrgay.com
-
-! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/Adult_Annoyance.txt
-@@||cam4.*/ads/directory/$1p,xmlhttprequest,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
-||cam4.*/ads/directory/$1p,xmlhttprequest
-cockmeter.com##.aside-itempage-col
-cockmeter.com###upp_r
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.payment-popup
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.epoch-box
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.join
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.t2019-button
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.join-btn-massive
-cum4k.com,passion-hd.com,holed.com,pornpros.com###t2019-previews
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.sale-special-container
-cum4k.com,passion-hd.com,holed.com,pornpros.com##.popup-content
-gaysimple.com##.more-videos
-hentaitube.info##.video-sidebar
-||cdnp.kink.com/assets/promos
-||a.montlusa.top/loader$subdocument
-kink.com##.store
-kink.com##.product-tag-wrapper
-kink.com##.kink-store-section
-pornhub.com###videoSearchResult > .alpha
-pornhub.com##.clearfix.xc6lhd4nney0780v
-pornhub.com##.sectionWrapper > .sectionWrapper
-pornhub.com###menuItem4 > .js-topMenuLink
-pornhub.com###streamMateModel
-pornhub.com##.footer-title
-pornhub.com##.footerContentWrapper
-pornhub.com##.streamatesModelsContainer.sectionWrapper
-pornhub.com##h3
-pornhub.com###menuItem4 > .js-topMenuLink
-pornhub.com###streamMateModel
-pornhub.com##.footer-title
-pornhub.com##.footerContentWrapper
-pornhub.com##.streamatesModelsContainer.sectionWrapper
-pornhub.com##h3
-pornhub.com###js-abContainterMain
-pornhub.net.co##center
-pornhub.net.co##.video-block-happy
-pornhub.net.co###widget-videos-block-4 > .video-loop > .no-gutters.row > .col-xl-6.col-lg-6.col-md-6.col-12.order-xl-1.order-lg-1.order-md-1.order-sm-1.order-1
-redgifs.com##.toast-notification--pro-cta.toast-notification
-redgifs.com##.visible.type3.pro-cta
-redtube.com###block_hottest_videos_by_country > .oruyr3jjndlt9dcvw
-redtube.com.br###block_hottest_videos_by_country > .a68aw
-thegay.com##.iRx9_wrt
-||thegay.com/gagra/
-thegay.com,txxx.com##.fiioed
-thegay.com##.video-page__content > .right
-xgaytube.tv##.ae-player__itv
-xhamster.com##.wio-cspot-container.wio-cplayer
-xhamster.com##.wio-cspa.wio-cspb
-xhamster.com##.-front.horizontal.as-width-wrap.wio-ccams-widget
-||xhcdn.com/a/*.gif$image,domain=xhamster.com
-xhamster.com##.dyltv-container
-xhamster.com##div.related-container:nth-of-type(3)
-xhamster.com##.premium-overlay
-yeswegays.com##.spot-after.video-spot
-
-! from https://github.com/uBlock-user/uBO-Personal-Filters
-hentaiplay.net##+js(set-attr, preload|controls, auto, video)
-hentaiplay.net###footbar:remove()
+! $removeparam=autostart,domain=mrgay.com
