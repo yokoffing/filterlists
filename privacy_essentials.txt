@@ -1,6 +1,6 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 2 November 2022
+! Updated: 7 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -197,7 +197,7 @@ $ping,third-party
 ||msgstore.www.notion.so^$all
 ||myanimelist.net^*/event/$image
 ||nepremicnine.net^$3p
-||newrelic.com^
+||newrelic.com^$domain=~chegg.com
 ||newsoveraudio.com^$3p
 ||nfcube.com^$3p
 ||nir.regmedia.co.uk^$3p
