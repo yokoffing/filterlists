@@ -45,6 +45,7 @@ https://how-i-experience-web-today.com/
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist ([what is this?](https://twitter.com/gorhill/status/1377613392559636486)). Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
 
 4) [**HaGeZi's Pro++ DNS Blocklist**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
+<br> or **[HaGeZi's Pro DNS Blocklist](https://github.com/hagezi/dns-blocklists#multi-pro---extended-protection-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)
 <br> (optional) 
 
 #### URL Tracking Parameters
