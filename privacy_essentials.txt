@@ -1,6 +1,6 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 9 November 2022
+! Updated: 12 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -112,6 +112,7 @@ $ping,third-party
 ||dropbox.com$domain=~dropbox.com
 ||dropboxusercontent.com$domain=~dropbox.com
 ||drtuber.desi^$3p
+||duckduckgo.com^$3p,domain=~duckduckgo.com|~spreadprivacy.com
 ||eagleapi.io^
 ||evidon.com^$3p
 ||exoclick.com^$3p,important
@@ -445,6 +446,7 @@ platform.twitter.com##+js(cookie-remover)
 
 ! 3rd-party Payment Vendors / "Buy Now, Pay Later":
 ||pay.google.com^$3p
+||appleid.cdn-apple.com^
 ||payments-amazon.com^$3p
 ||affirm.com$3p
 ||afterpay.com^$3p
