@@ -1,12 +1,21 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 7 November 2022
+! Updated: 13 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+cnn.com##.related-content--article.related-content
+thewrap.com##div.tpd-read-more-container:nth-of-type(3), div.tpd-read-more-container:nth-of-type(5), div.tpd-read-more-container:nth-of-type(7), div.tpd-read-more-container:nth-of-type(10), .social-button
+eurweb.com##p > strong
+asos.com##.UKYji
+hostingadvice.com###sidebar-main
+propublica.org##.promo-newsletter-signup-2__max-width-wrapper, .wrap.wide-sm.out02.right.size04.story-promo-group.bb-promo-story
+independent.co.uk##div.related:nth-of-type(6), .sidebar, .related, .heKRRp.sc-13lex7x-0
+wearethepit.com##.related-article--container
+news.sky.com##.sdc-article-related-stories--thumbnails.sdc-article-related-stories.sdc-article-widget, p > strong, .sdc-article-tweet.sdc-article-widget
 theregister.com##.listinks
 csoonline.com###fsb-4201 > strong, .blxC51120.blox4_html.blxM2004.blxParticleendnote.blx > aside, #editorialfakesidebardiv, aside.fakesidebar, .fakesidebar-sponsored.fakesidebar-auto.fakesidebar, .article-intercept
 onthisveryspot.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar, .jnews_comment_container, .jeg_prevnext_post
