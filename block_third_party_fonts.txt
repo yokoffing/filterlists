@@ -1,37 +1,36 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 13 November 2022b
+! Updated: 13 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
 
-!!! ALLOWLIST
+### ALLOWLIST
 !@@/fontawesome-$font,3p,domain=py4e.com|fontawesome.com
+@@||fontawesome.com^$domain=9anime.se
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com
 @@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
-!@@||fontawesome.com^$domain=9anime.se
 @@||fast.fonts.net/jsapi/$script
 !@@||fastly.net^$font,domain=reddit.com
 @@||fonts.googleapis.com^$domain=youtube.com|news.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|vocabulary.com|socialworkers.org|libwizard.com|britannica.com|gaggle.fun
 @@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|groups.google.com|trends.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|bloble.io|regexpal.com|dexscreener.com|vocabulary.com|socialworkers.org|libwizard.com|britannica.com|codebeautify.org
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
-!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
+@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 
-! Material Icons
+# Material Icons
 @@||fonts.googleapis.com/css?family=Material+Icons^
 @@||fonts.gstatic.com/s/materialicons^
 
-! Privacy-friendly drop-in replacement for Google Fonts
+# Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
 
-!!! DENYLIST
+### DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
 /fonts/*.ttf$font,3p
-!/wp-$font,3p
 ||alluremedia.com.au^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
@@ -43,6 +42,7 @@
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
 ||fastly.net^$font,3p
+||fontawesome.com^$3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -77,24 +77,25 @@
 ||vidible.tv/prod/fonts/$font
 ||webfonts.creativecloud.com^$3p
 ||webfonts.sakura.ne.jp^$font
-!||wp.com^*/fonts/$3p
+||wp.com^*/fonts/$3p
+/wp-$font,3p
 
-! Privacy Essentials, anti-allowlist:
-@@||use.typekit.net^$font,badfilter
-@@||gstaticadssl.*.google.com^$font,badfilter
-
-!!! UNUSED
-! Causes too many false positives:
-!*$font,3p
-!||maxcdn.bootstrapcdn.com^*/fonts/
-! Used for icons on many sites:
+# Used for icons on many sites:
 !/font-awesome^$3p
 !/fontawesome-$font,3p
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
-!||fontawesome.com^$3p
+
+# Privacy Essentials, anti-allowlist:
+@@||use.typekit.net^$font,badfilter
+@@||gstaticadssl.*.google.com^$font,badfilter
+
+### UNUSED
+! Causes too many false positives:
+!*$font,3p
+!||maxcdn.bootstrapcdn.com^*/fonts/
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 
-! Allowlist for WOFF fonts
+# Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
 ! *$font,3p,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
 ! General
