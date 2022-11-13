@@ -1,6 +1,6 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening.
-! Updated: 12 November 2022b
+! Updated: 12 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -676,6 +676,28 @@ bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
 ||mg2connext.com^$third-party
 ||marketingg2.com^$third-party
 ||flittz.com^$third-party
+
+! from General https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt [Nov 2022]
+||api.pico.tools/client/query/*$xhr,third-party
+||api.pico.tools/popup/null/*$xhr,third-party
+||blueconic.net^$third-party
+||cdn.cxense.com^$script,third-party,important
+||ensighten.com/*/Bootstrap.js$script,third-party
+||hadrianpaywall.com^$third-party
+||ippen.space^$third-party
+||loader-cdn.azureedge.net^$third-party
+||matheranalytics.com^$script,third-party
+||newsmemory.com?meter$third-party
+||olytics.omeda.com^$third-party
+||tribdss.com^$third-party
+||weborama.fr/js/$script,third-party
+||zephr.com/zephr-browser/$third-party
+gadget.pico.tools##+js(json-prune, locked)
+/c/assets/pigeon.js$script,~third-party
+/evolok/*/ev-widgets.min.js$script,~third-party
+/wp-content/*/ev-em.min.js$script,~third-party
+/zephr/feature$xmlhttprequest,~third-party
+@@||piano.io^$third-party,domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp
 
 ! from https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/blob/master/uBlock-Filters-Plus.txt
 ###AdsByCurseBanner
