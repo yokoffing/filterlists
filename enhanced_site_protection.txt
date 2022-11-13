@@ -1,7 +1,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs. I may make exclusions the site affected is not malicious.
-! Last modified: 13 November 2022
+! Last modified: 13 November 2022b
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -42,8 +42,8 @@
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,3p,match-case
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
+! /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
+! /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
 !#endif
 
 !#if env_mobile
