@@ -79,7 +79,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more abused TLDs for extra security.
 
 3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
-<br> This list aims to protect against scams, phishing, and malware. This list also includes a version of [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), modified to work in adblockers.
+<br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), [iam-py-test's anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
 
 ***
 
@@ -103,11 +103,6 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
  6) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
  <br> [optional] Filters to block and remove copycat-websites from DuckDuckGo, Google and other search engines. Used to be specific to dev websites like StackOverflow or GitHub, but it currently supports others like Wikipedia. Supports StackOverflow + GitHub + NPM + Wikipedia + SEO Spam.
  
- ***
- 
-## Scriplets
-(optional) Block Twitch ads via [scriptlets](https://github.com/gorhill/uBlock/wiki/Advanced-settings#userresourceslocation). Get the scriplets [here](https://github.com/pixeltris/TwitchAdSolutions#scripts).
-
 ***
 
 ## Reading
