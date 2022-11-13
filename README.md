@@ -48,6 +48,9 @@ https://how-i-experience-web-today.com/
 <br> or **[HaGeZi's Pro DNS Blocklist](https://github.com/hagezi/dns-blocklists#multi-pro---extended-protection-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt)
 <br> (optional) 
 
+5) **[DuckDuckGo Tracker Radar (Blokada)](https://github.com/blokadaorg/landing-github-pages/blob/master/scripts/ddg.py)** | [add](https://raw.githubusercontent.com/blokadaorg/landing-github-pages/master/blocklists/ddgtrackerradar/standard/hosts.txt)
+<br> :warning: This will break your shit. Report false positives [here](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469).
+
 #### URL Tracking Parameters
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. For either list, if you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
