@@ -16,7 +16,7 @@
 ||cricket^$doc
 ||cyou^$doc
 ||fit^$doc
-||fun^$doc,domain=~libgen.fun
+||fun^$doc,domain=~libgen.fun|~gaggle.fun
 ||icu^$doc
 ||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info
 ||link^$doc
