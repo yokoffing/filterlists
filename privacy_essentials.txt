@@ -1,6 +1,6 @@
 ! Title: 🔒 Privacy Essentials
-! Description: A curated list for advanced hardening.
-! Updated: 12 November 2022c
+! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
+! Updated: 13 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -290,6 +290,7 @@ $ping,third-party
 ||tinypass.com^$important
 ||titsx.com^$3p
 ||tracking.epicgames.com^
+||tradingview.com^$3p
 ||trust-provider.com^
 ||trustarc.com^$3p
 ||truste.com^$3p
