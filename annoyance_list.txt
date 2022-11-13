@@ -1,12 +1,14 @@
 ! Title: 🛠️ yokoffing's Annoyance List
-! Description: Hide annoyances that have yet to be blocked by major lists
-! Updated: 13 November 2022
+! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
+! Updated: 13 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+howtogeek.com##.e-content.entry-content > .product-share-links, .nextup, .readmore_table, .lazyloaddiv.sidebar-glossary, p > strong, strong > em, div.relatedside
+reviewgeek.com##.related-articles
 cnn.com##.related-content--article.related-content
 thewrap.com##div.tpd-read-more-container:nth-of-type(3), div.tpd-read-more-container:nth-of-type(5), div.tpd-read-more-container:nth-of-type(7), div.tpd-read-more-container:nth-of-type(10), .social-button
 eurweb.com##p > strong
