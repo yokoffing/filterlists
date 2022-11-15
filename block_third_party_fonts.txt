@@ -1,7 +1,8 @@
+[Adblock Plus 2.0]
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 15 November 2022b
+! Updated: 15 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
