@@ -11,7 +11,6 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ![ublock lists 1](https://user-images.githubusercontent.com/11689349/193416193-9909ff8a-5e2c-4213-b151-e8d5f687d63f.png)
-![ublock lists 3](https://user-images.githubusercontent.com/11689349/193416253-b89a2e66-b335-4dbb-a243-82e571beaf64.png)
 
 
 #### NOTES
