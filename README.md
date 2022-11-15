@@ -143,6 +143,7 @@ User comments: [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted
 * [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=is%3Aissue+author%3Ayokoffing+)
 * [DandelionSprout](https://github.com/DandelionSprout/adfilt/issues?q=+author%3Ayokoffing) / [Legitimate URL Shortener](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)
+* [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists/issues?q=author%3A%40me)
 * [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=is%3Aissue+author%3Ayokoffing)
 * [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
 
