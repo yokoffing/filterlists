@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 16 November 2022
+! Updated: 17 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -90,10 +90,10 @@ $ping,third-party
 ||concert.io^$3p
 ||consensu.org^$important,redirect=noopjs
 ||contentpass.net^$important
-! ||cookiebot.com^ // AdGuard+Fanboy Annoyances needed for allowlisting
-! ||cookieinfoscript.com^$3p // AdGuard+Fanboy Annoyances needed for allowlisting
-! ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com // AdGuard+Fanboy Annoyances needed for allowlisting
-! ||cookielaw.org^$3p // AdGuard+Fanboy Annoyances needed for allowlisting
+! ||cookiebot.com^
+! ||cookieinfoscript.com^$3p
+! ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
+! ||cookielaw.org^$3p
 ||coordinatedcub.com^$3p
 ||cxense.com^
 ||d77cf8b870.com^
@@ -337,10 +337,10 @@ fmovies.*##+js(nosiif, try)
 @@||cdn-apple.com^$domain=apple.com
 @@||consent.cookiebot.com^$script,domain=adjust.com
 @@||contextual.media.net^$script
-! @@||cookielaw.org/*/otBannerSdk.js$script
-! @@||cookielaw.org/*/otPcPanel.json$xhr
-! @@||cookielaw.org/*/otSDKStub.js$script
-! @@||cookielaw.org/consent/$xhr
+@@||cookielaw.org/*/otBannerSdk.js$script
+@@||cookielaw.org/*/otPcPanel.json$xhr
+@@||cookielaw.org/*/otSDKStub.js$script
+@@||cookielaw.org/consent/$xhr
 @@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
@@ -593,6 +593,138 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||amazon-adsystem.com^$important
 www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolder,#percolate-ui-ilm_div > .celwidget:remove()
 @@||amazon.*/*uedata$image,1p,badfilter
+
+! some Easylist Cookie rules (without element hiding) [Nov 2022]
+/amp-user-notification-
+/borlabs-cookie/*$~script
+/ccnst/ccbundle.min.js
+/cm4all.com.widgets.CookiePolicy/show.
+/cmp_didomi.js
+/cmp_shim.js
+/cmp/heycookie.js
+/cmp/int_cmp.
+/cookie-consent-manager.js
+/cookie-consent-tool/*
+/cookie-consent?
+/cookie-law-generator/*
+/cookie-law-info-public.js
+/didomi.js
+/emh_cookiebanner/*
+/gdpr.js
+/ibeugdpr.min.js
+/javascript/component-CookieConsent
+/js/avia-snippet-cookieconsent.js
+/lssicookies/digicookies.js
+/mrf4u/cmp/*/*.js?autoinit=
+/penton_gdpr.js
+/plugins/ws5_eucookie/*
+/simplyflex_cookies.
+/sncmp.min.js
+/wecoma-lite.js
+/wp_content/plugins/gdpr_patron/*
+/wp-content/plugins/dsgvo-tools-cookie-hinweis-datenschutz/*
+/wp-content/plugins/easy-cookies-policy/*
+/wp-content/plugins/ninja-gdpr-compliance/*
+/wp-content/plugins/rdm-daac-notice/*
+/wp-content/plugins/smart-cookie-kit/*
+/wp-content/plugins/wp-gdpr-compliance/*
+/wp-content/plugins/zigcookie/*
+||aloofvest.com^$third-party
+||app.secureprivacy.ai^$third-party
+||appconsent.io^$third-party
+||axept.io^$third-party
+||c.evidon.com/sitenotice/evidon-banner.js
+||ccm.takuma.de^$third-party
+||ccm19.de^$third-party
+||cdn-cookieyes.com/client_data/*.js
+||cdn.ampproject.org/v0/amp-consent-*.*.js
+||cdn.ampproject.org/v0/amp-consent-*.*.mjs
+||cdn.gravito.net/hmdcmp/$third-party
+||cdn.opencmp.net^$third-party
+||cdn.privacy-mgmt.com^$third-party
+||cdn.privacytools.com.br^$third-party
+||cdn.trustcommander.net/privacy^
+||cdn.userdatatrust.com^$third-party
+||choices.consentframework.com^$third-party
+||clickiocdn.com/*consent_*.js
+||clickskeks.at^$third-party
+||cmp.dmgmediaprivacy.co.uk^$third-party
+||cmp.md-nx.com^$third-party
+||cmp.osano.com^
+||cmp.quantcast.com^$third-party
+||cmp.redge.media^$third-party
+||cmp.uniconsent.com^$third-party,domain=~xda-developers.com
+||confirmic.com^$third-party
+||consensu.org^$domain=~consensu.org
+||consent-notice.magix.com^$third-party
+||consent.cmp.oath.com^$third-party
+||consent.cookiefirst.com^$third-party
+||consent.dumont.de^$third-party
+||consent.nit.ro^$third-party
+||consent.trustarc.com^$third-party
+||consent.truste.com^$third-party
+||consentmanager.firststars.io^$third-party
+||controlcookies.com^$third-party
+||cookie-script.com^$third-party
+||cookie-sl.s3.*.amazonaws.com^$third-party
+||cookie-switch.viminds.de^$third-party
+||cookie-widget.ru^$third-party
+||cookie.pearshealthcyber.com^
+||cookiebot.com^$domain=~cookiebot.com
+||cookiehub.net^$third-party
+||cookieinfoscript.com^$third-party
+||cookielaw.org^$third-party
+||cookiemanager.wirth-horn.de^$third-party
+||cookiepro.com^$third-party
+||cookieq.com^$third-party
+||cookihq.com^$third-party
+||d.delivery.consentmanager.net^
+||delivery.consentconverter.com/delivery/cmp.php
+||ecookie.nl^$third-party
+||eurocookie.galilcloud.wixapps.net/?cacheKiller=$third-party
+||fumblingform.com^$third-party
+||gdpr-legal-cookie.beeclever.app^$third-party
+||gdpr-wrapper.privacymanager.io^$third-party
+||gdpr.privacymanager.io^$third-party
+||goadopt.io^$third-party
+||gravito.net/cmp$script
+||gvl-dev.setupcmp.com^$third-party
+||hs-banner.com^$third-party
+||hs-scripts.com^$third-party
+||iubenda.com^$third-party
+||legalmonster.com^$third-party
+||metomic.io^$third-party
+||mrf.io/cmp/
+||noterium.com^$third-party
+||oil.axelspringer.com^$third-party
+||onetrust.com^$third-party
+||policy.cookiereports.com^
+||policy*.cookieinformation.com^$third-party
+||privacy-center.org^$third-party
+||prod-origin.truendo.com^
+||r42tag.com^$third-party
+||rcsobjects.it/rcs_cpmt/
+||smart.idmnet.pl^$third-party
+||static.axept.io/sdk.js
+||tarteaucitron.io^$third-party
+||tm.tradetracker.net/public/styles/ttCookieDirective.css
+||traceprof.com^$third-party
+||tracker.convead.io^$third-party
+||up-cookiemon.wavecdn.net^$third-party
+||usercentrics.eu^$third-party
+||webcache.datareporter.eu/c/*/banner.js
+!#if !env_safari
+! ('||' covers one sub-domain only)
+||clickio.mgr.consensu.org^$third-party
+||cdn.consentmanager.mgr.consensu.org^$third-party
+||quantcast.mgr.consensu.org^$third-party
+!#endif
+
+! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
+! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
+!#if ext_ublock
+||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+!#endif
 
 ! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
 ||news.google.com/swg/$script,third-party
