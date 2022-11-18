@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 17 November 2022b
+! Updated: 18 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -78,6 +78,7 @@
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
 ||webfonts.creativecloud.com^$3p
+||webfont.fontplus.jp^$3p
 ||webfonts.sakura.ne.jp^$font
 ||wp.com^*/fonts/$3p
 /wp-$font,3p
