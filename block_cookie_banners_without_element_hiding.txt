@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🍪 Block Cookie Banners (without element hiding)
 ! Description: A curated list to be used with Firefox's new `cookiebanners.service.mode` pref.
-! Updated: 18 November 2022b
+! Updated: 18 November 2022c
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -1560,5 +1560,4 @@ _vpcookieconsent/
 ||cookiepro.com^$domain=urbandictionary.com
 ! fundingchoicesmessages (consents)
 ||fundingchoicesmessages.google.com^
-
 !#endif
