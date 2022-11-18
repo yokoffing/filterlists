@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 18 November 2022e
+! Updated: 18 November 2022f
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -432,6 +432,8 @@ platform.twitter.com##+js(cookie-remover)
 @@||twimg.^$image
 @@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
+! https://www.cnet.com/news/social-media/twitter-musk-news-timeline-riptwitter-trends-after-employees-resign/
+@@.twitterContainer
 
 ! TIKTOK
 !||tiktok.com^$3p
