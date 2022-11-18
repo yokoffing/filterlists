@@ -119,6 +119,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 * [filterAuthorMode](https://github.com/gorhill/uBlock/wiki/Advanced-settings#filterauthormode)
 * [Introduction to basic filtering syntax](https://github.com/gorhill/uBlock/wiki/Introduction-to-basic-filtering-syntax)
 * [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
+    * [if](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#if-condition)
     * [redirect](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#redirect)
 * [Syntax Meanings That Are Actually Human Readable](https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md)
     * How to block [div:nth-of-type](https://stackoverflow.com/questions/44664907/how-can-i-use-a-wildcard-in-ublock-origin)
