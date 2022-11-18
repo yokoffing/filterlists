@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: 🍪 Block Cookie Banners (without element hiding)
 ! Description: A curated list to be used with Firefox's new `cookiebanners.service.mode` pref.
-! Updated: 18 November 2022f
+! Updated: 18 November 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
 !#if env_firefox
-! some Easylist Cookie rules (without element hiding) [Nov 2022]
+! from https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_18_Annoyances_Cookies/filter.txt [Nov 2022]
 _cookie_bar/
 _cookie_cnil.
 _cookie_compliance.
@@ -1547,9 +1547,111 @@ _vpcookieconsent/
 /fp/top_fp.
 /pp-t-a-c.js$script
 
-! from Fanboy Annoyance [Nov 2022]
+! from https://github.com/easylist/easylist/blob/master/easylist_cookie/easylist_cookie_specific_block.txt [Nov 2022]
+/wp-content/blog-plugins/wordads-classes/js/notice.bundle.js$script
+||7plus.com.au/js/CookieNotice
+||agicssecurity.com/Header/ajax/cookie.php
+||appconsent.io^
+||asus.com/js/*/alert-info.js
+||beckett.design/system/scripts/apc/apc.js
+||bysarahkhan.com/wp-content/plugins/surbma-yes-no-popup/
+||cdn259.talksport.com^
+||cmp.cdn.thesun.co.uk^
+||cmp.cdn.thesun.ie^
+||cmp.infopro-digital.com^
+||cmp.osano.com^
+||cmp.parkers.co.uk^
+||cmp.playpilot.com^
+||cmp.uniconsent.com^
+||conclude.com/assets/build/combined.$script
+||consent.23g.io^
+||consent.amateurphotographer.co.uk^
+||consent.cmp.oath.com^
+||consent.ladbible.com^
+||consent.nationalworld.com^
+||consent.truste.com^$script,domain=docs.oracle.com
+||cookiebot.eu/uc.js$domain=casio.com
+||cookies.lmt.lv^
+||dam.bbcchannels.com^*/outside-iframe.js
+||duotonesports.com^*/public/ccm
+||emerse.com/consent.js
+||flaine.com/build/js/tarteaucitron/
+||freedoflondon.com/Styles/dialog-popup/jquery-ui.js
+||freetls.fastly.net/main/sd-cmp-$domain=spanishdict.com
+||gdpr.internetbrands.com^
+||government-and-constitution.org/js/consent.js
+||harpercollins.co.uk/js/cookie.js
+||hunstoncanoeclub.co.uk/media/system/js/modal.js
+||immozentral.com/js/stylecc
+||inblu.com^*/cookies.js
+||jacquelinewilson.co.uk/style/cookies.css$stylesheet
+||jimmychoo.com^*/first-time-visitor-
+||jzzo.com/jss/cp01.js
+||kayak.*/privacy/
+||kotaku.com/wrapper/*/gdpr/$xmlhttprequest,domain=kotaku.com
+||lacompagnie.com/Content/dist/templates/common/popupCookies/
+||mad-daily.com^*/cp-module-
+||masaltos.com/js/cookies-
+||medicalnewstoday.com/_next/chunks/modal-0cb79-legacy.js
+||mms.cmpsky.com^
+||ncaa.com^*/ncaa_consent.js
+||next-immo.com/js/cookies.1.min.js
+||novaljaturist.com/datacollectionpolicy/
+||ogs.google.com/widget/callout?$subdocument,domain=play.google.com
+||omgubuntu.co.uk/wp-content/plugins/omg-magnific/magnific.min.js
+||onlive.co.uk/account/cookie_notice
+||parliamentlive.tv/cookie/
+||prada.com/utag/prada/
+||privacy.claytonhomes.com^
+||privacypolicy.trgr.be^
+||propcom.co.uk/cookie/
+||purevpn.com/loadGdprView
+||push-content.springernature.io^$script
+||rtx.com/-/media/base-themes/scroll-lock/
+||sheinsz.ltwebstatic.com/she_dist/assets/backup-onetrust.$script,domain=shein.co.uk
+||sm-sp.followfollow.com^
+||sourcepoint.avclub.com^
+||sourcepoint.deadspin.com^
+||sourcepoint.dexerto.com^
+||sourcepoint.gizmodo.com^
+||sourcepoint.jalopnik.com^
+||sourcepoint.lifehacker.com^
+||sourcepoint.theonion.com^
+||sourcepoint.theroot.com^
+||sourcepoint.thetakeout.com^
+||sp.knowyourmeme.com^
+||stromnetz-hamburg.de/matomo/js/
+||t13.9to5google.com^
+||tags.tiqcdn.com^$script,domain=firstdirect.com|santander.pl|swisscom.ch
+||vandalism-sounds.com^*/notices.min.js
+||vinted.*/api/*/banners
+||windguru.cz/forms/consent.php
+||yimg.com^*/guce.js
+! Threatmetrix
+||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
+||citi.com^*/fp.js
+||citibank.com.ph/tmx/js/
+||content22.bmoharris.com^
+||content22.citibank.com.sg^$script
+||customer.homedepot.com^$script
+||drfdisvc.walmart.com^
+||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
+||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
+||ebaystatic.com/rs/v/enk4ekgiky2ufpj3l2fgfblxaqd.js
+||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
+||event.evtm.53.com^
+||ir.ebaystatic.com/rs/c/9527tracking/configuration.js$script,domain=ebay.com
+||olacontent.schwab.com^$script
+||pages.ebay.com/identity/device/$subdocument
+||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+||tmetrix.my.chick-fil-a.com^
+||w-profiling.cibc.com^$script
+||w-profiling.simplii.com^
+||wup-content23.bmoharris.com^
+! https://github.com/easylist/easylist/issues/13127
 /wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js
 ! privacy-mgmt.com script specific
+! https://github.com/easylist/easylist/issues/12806
 /wrapperMessagingWithoutDetection.js$domain=10kysymysta.fi|4players.de|7sur7.be|abiristeilyt.fi|ad-alliance.de|akuankka.fi|alypaa.com|auto-motor-und-sport.de|autoexpress.co.uk|automobil-elektronik-kongress.de|autotrader.co.uk|autozeitung.de|axelspringer.com|baby-und-familie.de|badoo.com|bbcgoodfood.com|bestcheck.de|bikeradar.com|bitpipe.com|bitpipe.com.br|brighttalk.com|businessinsider.com|businessinsider.es|camping.info|capital.de|caravaning.de|cardscout.de|carmagazine.co.uk|carthrottle.com|cavallo.de|channelpartner.de|chefkoch.de|chesterstandard.co.uk|cio.com|cio.de|classicfm.com|clever-tanken.de|computerfrage.net|computerhoy.com|computerweekly.com|computerwoche.de|computerworld.com|csoonline.com|dailyresearchplot.com|denofgeek.com|dexerto.com|digilehdet.fi|digitalartsonline.co.uk|discoverwildlife.com|dpd.com|dpd.de|duden.de|ecomento.de|edpc.eu|eiu.com|elektroauto-news.net|essen-und-trinken.de|expertreviews.co.uk|familie.de|finanzen100.de|finanzfrage.net|flugrevue.de|frag-mutti.de|futisporssi.fi|geo-television.de|geo.de|gladbachlive.de|globalplayer.com|goom.net|gruenderkueche.de|gutefrage.net|handelsblatt.com|hannover.de|heise.de|helpster.de|himosjuhannus.fi|hobbyconsolas.com|hockeygm.fi|idealo.de|iltapulu.fi|iskelma.fi|iskelmafestivaali.fi|itpro.co.uk|jameda.de|jetzt.de|justthenews.com|jysari.fi|kachelmannwetter.com|klamm.de|kn-online.de|krzbb.de|kuechengoetter.de|kuopiorock.fi|lancashiretelegraph.co.uk|leijonaporssi.fi|lemagit.fr|leonberger-kreiszeitung.de|lepoint.fr|leserreisen.mz-web.de|liberation.fr|liigaporssi.fi|livingathome.de|ln-online.de|lovelybooks.de|macwelt.de|macworld.com|mcnmotorcycleshow.com|mediaimpact.de|meine.noz.de|meineorte.com|menshealth.de|mnm.be|morewithvpro.com|mountainbike-magazin.de|muehlacker-tagblatt.de|myhomebook.de|n-page.de|nelonen.fi|nelonenmedialive.fi|netdoktor.de|netmoms.de|networkworld.com|neuepresse.de|nitro-tv.de|nnn.de|nowtv.it|noz.de|oekotest.de|oskar.de|pcgamesn.com|pclifecyclemanagement.com|pcwelt.de|pcworld.com|pcworld.es|phonostar.de|planet3ds.de|planetds.de|planetgameboy.de|planetiphone.de|planetswitch.de|planetvita.de|playpilot.com|playstationportable.de|podplay.com|politico.eu|portablegaming.de|praxisvita.de|pricespy.co.uk|pride.com|prignitzer.de|qz.com|radio.de|radio.net|radio.pl|radiocity.fi|radionova.fi|radioplay.fi|radiopooki.fi|rakennuslehti.fi|realitytitbit.com|reisefrage.net|rheinpfalz.de|rmj.fi|roadbike.de|rockfest.fi|rtl-passion.de|rtlplus.de|rugbydump.com|rugbyonslaught.com|ruutu.fi|sanakirja.org|sanoma.fi|scholieren.com|sciencefocus.com|senioren-ratgeber.de|shz.de|sky.com|sky.de|speed.io|sportbible.com|startpagina.nl|streampicker.de|studyflix.de|stuff.tv|sueddeutsche.de|sueddeutscher-verlag.de|suomipopfestivaali.fi|suomitutka.fi|sv-veranstaltungen.de|svz.de|swmh.de|tahkojuhannus.fi|tammerfest.fi|tecchannel.de|techadvisor.com|techadvisor.fr|techhive.com|techstage.de|techtarget.com|techtarget.de|techtarget.fr|testedich.de|the-sun.com|theloadout.com|thepeoplesperson.com|thescottishsun.co.uk|theserverside.com|thesun.co.uk|thesun.ie|toggo.de|travelbook.de|tv14.de|tvnow.at|tvnow.de|vaalikone.fi|visit-hannover.com|vkmag.com|vkz.de|voice.fi|vox.de|vrt.be|wanajafestival.fi|wetteronline.de|whats-on-netflix.com|wisden.com|wiwo.de|zvw.de
 ! cmp.quantcast.com specifics
 ||cmp.quantcast.com^$script,domain=9gag.com|aek365.org|agoravox.tv|athensmagazine.gr|auto1.fi|autovillage.co.uk|base64encode.org|blogit.fi|buzz.ie|buzzfeed.com|buzzfeednews.com|car.gr|century21.pt|cm-tv.pt|cmjornal.pt|comuniate.com|dagospia.com|defencenet.gr|elcorreoweb.es|eurheilu.org|euro2day.gr|ezgif.com|flash.pt|foititikanea.gr|foreca.com|foreca.de|foreca.dk|foreca.ee|foreca.fi|foreca.fr|foreca.gr|foreca.lv|foreca.pl|foreca.ro|foreca.se|forecaweather.com|gazzetta.gr|gekkonen.net|html-cleaner.com|ilcuoreinpentola.it|ilmainensanakirja.fi|imerisia.gr|inverse.com|irc-galleria.net|jornaldenegocios.pt|kicktipp.com|kilokalori.net|konsolifin.net|kotimaatutuksi.fi|laregion.es|lomamatkalle.fi|mamaclever.de|manua.ls|maxima.pt|megatv.com|musescore.com|neowin.net|nordic.ign.com|nostemedia.fi|nylon.com|observador.pt|online-tech-tips.com|pcguia.pt|pienimatkaopas.com|potku.net|publico.pt|reader.gr|record.pt|riemurasia.net|sabado.pt|sapo.pt|sitytrail.com|sneakertoast.com|soccerway.com|spellcheck.net|star.gr|suomi24.fi|suomikiekko.com|tanea.gr|tasty.co|techspot.com|telsu.fi|testeri.fi|thebest.gr|tilannehuone.fi|time.is|timeanddate.com|tmlcolorcodes.com|tovima.gr|vau.fi|vidas.pt|youfly.com|yourmoney.com
@@ -1559,4 +1661,5 @@ _vpcookieconsent/
 ||cookiepro.com^$domain=urbandictionary.com
 ! fundingchoicesmessages (consents)
 ||fundingchoicesmessages.google.com^
+
 !#endif
