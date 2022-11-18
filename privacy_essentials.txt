@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 17 November 2022
+! Updated: 17 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -98,8 +98,8 @@ $ping,third-party
 ||cxense.com^
 ||d77cf8b870.com^
 ||data.cnn.com^
-!||datadoghq-browser-agent.com^
-!||datadoghq.com^
+||datadoghq-browser-agent.com^
+||datadoghq.com^
 ||decacopy.com^
 ||delvenetworks.com^$3p,script
 ||discord.com^$3p
@@ -500,9 +500,6 @@ platform.twitter.com##+js(cookie-remover)
 !!! @@||jwpltx.com^$image
 @@||jwpsrv.com^$subdocument
 
-! AUDIO PLAYER
-||xp.apple.com^$badfilter
-
 ! CNN
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
 @@||cnn.com/.element/apps/cvp/3.0/cfg/spider/cnn/expansion/ad_policy.xml$xhr,domain=cnn.com
@@ -719,12 +716,9 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 !#endif
-
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
-!#if ext_ublock
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
-!#endif
 
 ! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
 ||news.google.com/swg/$script,third-party
