@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 18 November 2022e
+! Updated: 18 November 2022f
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -74,8 +74,8 @@
 ||qmerce.com/assets/$font
 ||rackcdn.com/fonts/$font,3p
 ||typefront.com^$3p
-||typekit.com^$3p
-||typekit.net^$3p
+||typekit.com^$font,3p
+||typekit.net^$font,3p
 ||typesquare.com^$font,3p
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
