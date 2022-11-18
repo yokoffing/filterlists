@@ -2,15 +2,12 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 18 November 2022d
+! Updated: 18 November 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
 
 !!! ALLOWLIST
-!@@/fontawesome-$font,3p,domain=fontawesome.com
-!@@||fontawesome.com^$domain=
-!@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com
@@ -21,9 +18,6 @@
 @@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 
 ! Icons
-!@@||fonts.googleapis.com/icon?family=Material+Icons
-!@@||fonts.googleapis.com/css?family=Material+Icons
-!@@||fonts.gstatic.com/s/materialicons
 @@/family=Material+Icons
 @@/materialsymbolsoutlined
 @@/materialsymbols
@@ -31,6 +25,9 @@
 @@family=Material+Icons
 @@family=Material+Symbols
 @@/wp-content/uploads/fusion-icons
+!@@||fonts.googleapis.com/icon?family=Material+Icons
+!@@||fonts.googleapis.com/css?family=Material+Icons
+!@@||fonts.gstatic.com/s/materialicons
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
@@ -50,7 +47,6 @@
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
 ||fastly.net^$font,3p
-||fontawesome.com^$3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -99,9 +95,13 @@
 !||maxcdn.bootstrapcdn.com^*/fonts/
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 ! Used for icons on many sites:
+!||fontawesome.com^$3p
 !/font-awesome^$3p
 !/fontawesome-$font,3p
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
+!@@/fontawesome-$font,3p,domain=fontawesome.com
+!@@||fontawesome.com^$domain=
+!@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
 
 ! Allowlist for WOFF fonts
 ! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
