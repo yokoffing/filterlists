@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 18 November 2022d
+! Updated: 18 November 2022e
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -590,7 +590,6 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 @@||amazon.*/*uedata$image,1p,badfilter
 
 !#include antipaywall_filters_without_element_hiding.txt
-!#include block_cookie_banners_without_element_hiding.txt
 !#if ext_ublock
 !#include click2load.txt
 !#endif
