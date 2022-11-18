@@ -1,11 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 15 November 2022
+! Updated: 18 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/Better-Fox
 ! Expires: 7 days (update frequency)
 
+||yeswegays.com^$badfilter
+@@/contents/images-banners/*$domain=yeswegays.com
 ||bonertraffic.mobi^$3p
 ||cc.boyfriendtv.com/bftv/*.jpg$image
 ||cc.boyfriendtv.com/bftv/b/img/*.jpg$image
@@ -17,81 +19,80 @@
 ||chaturbate.com^$3p
 ||ggg.xhamster.com^
 
-needgayporn.com###list_videos_related_videos
-youporngay.com###relatedVideos
-onlygayvideo.com###list_videos_related_videos
-gaymenring.com##.js-recommended-wrapper.b-related
-gaymenring.com##.b-thumb-col
-boyfriendtv.com##.tac.adblock
-viptube.com##.main > div.stem_related.stem
-vivatube.com###spot_video_underplayer_livecams
-reddxxx.com##.outline-th-border2.hover\:outline-th-borderHighlight2.outline-1.m-1.relative.hover\:cursor-pointer.hover\:bg-th-postHover.rounded-lg.outline.bg-th-post
-gay4porn.com###list_videos_related_videos
-hentaiplay.net###footbar:remove()
-hentaiplay.net###video_overlays
-hotmovs.com##.video-page__related
-429men.com###list_videos_related_videos
-xhamster.com##.width-wrap.related-container
-gotgayporn.com###list_videos_related_videos
-monstercock.info##.reltated-sec, .col.comments-col
-boyfriendtv.com##.vtab.js-toggle-content-menu.no-popup
-allboner.com###list_videos_related_videos
-thegay.tube##.video-page__related
-mengem.com###list_videos_related_videos
-gayfuckporn.com##.clearfix.b-videos
-yeswegays.com###list_videos_related_videos_ajax > .related-videos.box, .categories-list.categories.box
-en.vidmo.pro###afrb > div
-mrgay.tube##.video-page__related, div.wrapper > .seo, seo.wrapper, .comments
-gaygo.tv##.thumbs-container.list-view, #relatedBlock, div > .replaceBlock
-redtube.com###video_related_videos_one, #trending_searches
-eporner.com###commentdiv, #relateddiv
-sinparty.com##.hideonmobile.sidebar.video-page__sidebar, .video-page__actions-wrap.hideonmobile, .dropdown-block--no-desc.hideonmobile.dropdown-block, .video-page__related, div.hideondesktop > .video-page__actions
-
-gay4porn.com##.pignr.I632b9-im-container
-redtube.com###below_footer_ad_content
-upornia.com##.video-related
-boyfriendtv.com##td
-boyfriendtv.com###cookie-wrapper
-onlygayvideo.com##center
-pornone.com##.container.main > .container.content.video_wrapper > .videos.thumblist
-str8ongay.com##.aside-itempage-col
-vikiporn.com##.bottom-banners, .categories-list.block-cats, .content-aside
-mrgay.com##.video-info > section, article, div.wrapper > section, .video-page__related
-onlygayvideo.com##.table
-7vids.com##.media-spot
-gotporn.com##.clearfix.video-items-feed > li.live-video-item.video-item > .gravity-push.video-item-link, .sidebar
-hd21.com##.advertisment_block
-icegay.tv##.b-secondary-column__randoms > .b-head--underline.b-head
-gaygo.tv##.chat-bar, .flirt-block
-needgayporn.com##.table, center
-youporngay.com###videoComments, .inlineTooltipCntr
-pornmd.com##.suggestions-container
-tubeon.com##.livecams, #spot_video_underplayer_livecams
-gaymenring.com##.b-randoms-col
-viptube.com###spot_video_underplayer_livecams, .comments-form.form_field, #spot_video_partner_banner, .partner_text_link
-allboner.com###commentView, .more-videos
-boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"], .top-tags-box, div.js-toggle-content-wrapper:nth-of-type(7), .js-toggle-content.adblock, div.related-content:nth-of-type(1), .related-content-wrapper
 !drtuber.com##.aside_panel_video, .section_frame_tools.section, .inner_recent.recent_box
+429men.com###list_videos_related_videos
+7vids.com##.media-spot
+allboner.com###commentView, .more-videos
+allboner.com###list_videos_related_videos
+boyfriendtv.com##.tac.adblock
+boyfriendtv.com##.vtab.js-toggle-content-menu.no-popup
+boyfriendtv.com##[href="https://www.cams.boyfriendtv.com"], .top-tags-box, div.js-toggle-content-wrapper:nth-of-type(7), .js-toggle-content.adblock, div.related-content:nth-of-type(1), .related-content-wrapper
+boyfriendtv.com###cookie-wrapper
+boyfriendtv.com##td
+en.vidmo.pro###afrb > div
+eporner.com###commentdiv, #relateddiv
 eporner.com###pbwuvp, commentdiv, relateddiv
+gay4porn.com##.pignr.I632b9-im-container
+gay4porn.com##.player-right, .performblk
+gay4porn.com###list_videos_related_videos
 gayck.com###list_videos_related_videos
 gaydudesfucking.com##.playerban, .side-banner
-gay4porn.com##.player-right, .performblk
-gotgayporn.com##.aside, .more-videos, .footer, #video_comments_video_comments
+gayfuckporn.com##.clearfix.b-videos
+gaygo.tv##.chat-bar, .flirt-block
+gaygo.tv##.thumbs-container.list-view, #relatedBlock, div > .replaceBlock
+gaymenring.com##.b-randoms-col
+gaymenring.com##.b-thumb-col
+gaymenring.com##.js-recommended-wrapper.b-related
 gaysearch.com###commentView, .footer, .more-videos
 gaysimple.com##.aside
 gettubetv.com##.table
+gotgayporn.com##.aside, .more-videos, .footer, #video_comments_video_comments
+gotgayporn.com###list_videos_related_videos
+gotporn.com##.clearfix.video-items-feed > li.live-video-item.video-item > .gravity-push.video-item-link, .sidebar
+hd21.com##.advertisment_block
+hentaiplay.net###footbar:remove()
+hentaiplay.net###video_overlays
+hotmovs.com##.video-page__related
+icegay.tv##.b-secondary-column__randoms > .b-head--underline.b-head
+mengem.com###list_videos_related_videos
+monstercock.info##.reltated-sec, .col.comments-col
+mrgay.com##.video-info > section, article, div.wrapper > section, .video-page__related
+mrgay.tube##.video-page__related, div.wrapper > .seo, seo.wrapper, .comments
+needgayporn.com##.table, center
+needgayporn.com###list_videos_related_videos
+onlygayvideo.com##.table
+onlygayvideo.com###list_videos_related_videos
+onlygayvideo.com##center
 pornhub.com###hd-rightColVideoPage, .cmtPrelaodContainer.js-commentReplacement.video-wrapper, .video-wrapper.hd-videos_wrapper.hd-smallerWidth.sectionWrapper
+pornmd.com##.suggestions-container
+pornone.com##.container.main > .container.content.video_wrapper > .videos.thumblist
 pornxs.com##.squares
 privatehomeclips.com##.video-page__comments, .footer
+reddxxx.com##.outline-th-border2.hover\:outline-th-borderHighlight2.outline-1.m-1.relative.hover\:cursor-pointer.hover\:bg-th-postHover.rounded-lg.outline.bg-th-post
+redtube.com###below_footer_ad_content
+redtube.com###video_related_videos_one, #trending_searches
 sexytubetop.xyz##.with-sidebar-right.widget-area, .site-footer, .under-video-block
+sinparty.com##.hideonmobile.sidebar.video-page__sidebar, .video-page__actions-wrap.hideonmobile, .dropdown-block--no-desc.hideonmobile.dropdown-block, .video-page__related, div.hideondesktop > .video-page__actions
+str8ongay.com##.aside-itempage-col
 thegay.tube##.video-page__content > .right, section, .video-page__comments, .footer, #ablock-notify
+thegay.tube##.video-page__related
 thisvid.com##.column-right, #video_comments_video_comments, #list_videos_related_videos2_items, .container > .more-link, div.thumbs-items:nth-of-type(6)
+tubeon.com##.livecams, #spot_video_underplayer_livecams
 twinkvideos.com##.more-videos, .aside > div, #commentView
 txxx.com##.video-ad-videos, .video-comments.comments, .video-comments.comments, .video-ad-videos, .video-videos-slider, .suggestion
+upornia.com##.video-related
+vikiporn.com##.bottom-banners, .categories-list.block-cats, .content-aside
+viptube.com##.main > div.stem_related.stem
+viptube.com###spot_video_underplayer_livecams, .comments-form.form_field, #spot_video_partner_banner, .partner_text_link
+vivatube.com###spot_video_underplayer_livecams
+xhamster.com##.width-wrap.related-container
 xhamster.com##.wio-xspot-container.wio-xplayer, .wio-xspa.wio-xspb, .clearfix.comments-container.comments-section, footer > .width-wrap
 xvideos.com###tabComments_bottom_page
 yeptube.com###spot_video_underplayer_livecams, div.mt10.container:nth-of-type(6), .tr-download, .tr-sponsor
+yeswegays.com###list_videos_related_videos_ajax > .related-videos.box, .categories-list.categories.box
 yeswegays.com##div.box:nth-of-type(3), .video-comment.comments.box, .wrapper-holder > div.container, .footer, .thumb_spots
+youporngay.com###relatedVideos
+youporngay.com###videoComments, .inlineTooltipCntr
 
 ! Sniffies website
 sniffies.com##.ng-star-inserted > .ng-star-inserted.chatholder-row-item
