@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 17 November 2022b
+! Updated: 18 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -592,6 +592,7 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 @@||amazon.*/*uedata$image,1p,badfilter
 
 ! some Easylist Cookie rules (without element hiding) [Nov 2022]
+!#if !env_firefox
 /amp-user-notification-
 /borlabs-cookie/*$~script
 /ccnst/ccbundle.min.js
@@ -710,15 +711,16 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||up-cookiemon.wavecdn.net^$third-party
 ||usercentrics.eu^$third-party
 ||webcache.datareporter.eu/c/*/banner.js
+! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
+! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
+||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+!#endif
 !#if !env_safari
 ! ('||' covers one sub-domain only)
 ||clickio.mgr.consensu.org^$third-party
 ||cdn.consentmanager.mgr.consensu.org^$third-party
 ||quantcast.mgr.consensu.org^$third-party
 !#endif
-! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
-! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
-||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 
 ! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
 ||news.google.com/swg/$script,third-party
