@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 18 November 2022f
+! Updated: 18 November 2022g
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -13,7 +13,7 @@
 ! from uBlock filters – Unbreak
 
 ! GENERAL BLOCKLIST
-$ping,third-party
+$ping
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
 /fingerprintjs2$script
