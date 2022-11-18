@@ -1,0 +1,114 @@
+[Adblock Plus 2.0]
+! Title: ✋ Antipaywall filters (without element hiding)
+! Description: Curated list of antipaywall requests
+! Updated: 18 November 2022
+! License: https://creativecommons.org/licenses/by/3.0
+! Homepage: https://github.com/yokoffing/filterlists
+! Expires: 7 days (update frequency)
+
+! from https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt [Oct 2022]
+||news.google.com/swg/$script,third-party
+||accounts.google.com/gsi/$~script
+||smartlock.google.com^
+/amp-access-$script
+||tinypass.com^$third-party
+@@||experience.tinypass.com/xbuilder/$script,3p
+||mediapass.com^$third-party
+||scroll.com^$third-party
+||wallkit.net^$third-party
+||evolok.com^$third-party
+||evolok.net^$third-party
+||piano.io^$third-party
+||qiota.com^$third-party,important
+||poool.fr^$third-party
+||onecount.net^$third-party
+||profitwell.com^$third-party
+||pelcro.com^$third-party
+||mppapi.io^$third-party
+||mppglobal.com^$third-party
+||batch.com^$third-party
+||lightboxcdn.com^$third-party
+/coil-web-monetization/*
+||taboola.com^$third-party
+||washingtonpost.com/pwapiv2/
+||washingtonpost.com/wp-stat/pb/prod/pmbl.txt
+||washingtonpost.com/pb/gr/c/default/*/identity-management-$script
+||washingtonpost.com/pb/*/subscription-acquisition
+||meter-svc.nytimes.com^
+||nytimes.com^*/metered_assets/
+||nyt.com^*/metered_assets$script
+||nytimes.com/svc/nyt/data-layer
+||assets.bwbx.io^*/fence/$script
+||assets.bwbx.io^*/pianola/$script
+||smartwall.theglobeandmail.com^
+||cloudfront.net/prod/cloudfrontVideoTracker.png
+||bostonglobe.com/pf/resources/dist/third-party.js
+@@||meter.bostonglobe.com^$script,1p
+bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
+@@||bostonglobe.com/api/v1/setCookie$xhr,1p
+||qz.com/api/site/behavior
+||aw1.accuradio.com^
+||accuradio.com/sweeper/
+||accuradio.com/static/js/ltjs.js
+||sendtonews.com^$3p
+||accuradio.com/listener/track-adbreaks/
+||streamtheworld.com/ondemand/ars?
+||streamtheworld.com^*/idsync.js
+||tsbluebox.com^$third-party
+||vidoplay.com^$third-party
+||whichtalk.com^$third-party
+||tags.creativille.co.uk^$third-party
+||redcharger.co^$third-party
+||redcharger.net^$third-party
+||rcimages.xyz^$third-party
+||newsmemory.com/*/ads/?rotator_all=$subdocument
+||newsmemory.com/?prebid=
+||vidazoo.com^$3p
+||vidible.tv^$3p,domain=abqjournal.com
+||nzherald.co.nz/arc/subs/p.js
+||theladders.com/api/auth/is-logged-in
+||harpers.org^*/pum/
+||harpers.org^*/leaky-paywall/
+||netdna-ssl.com^*/leaky-paywall/$domain=harpers.org
+||gannett-cdn.com/dcjs/
+||gannett-cdn.com/dcc/
+||time.com/dist/authentication.js
+||livemint.com/__js/lm_subscription_$script
+||amp-access-svc.memb.ft.com/amp-pingback
+||c950.chronicle.com^
+||assets.login.chronicle.com^
+||axios.com/api/v1/licenses
+||czx5eyk0exbhwp43ya.biz^$third-party
+||ayc0zsm69431gfebd.info^$third-party
+||ayc0zsm69431gfebd.xyz^$third-party
+||g2insights-cdn.azureedge.net^$third-party
+||loader-cdn.azureedge.net^$third-party
+||fp-cdn.azureedge.net^$third-party
+||flittz-cdn.azureedge.net^$third-party
+||prod-mng-proxy-connext.azurewebsites.net^$third-party
+||connext-cdn.ec.azureedge.net^$third-party
+||mg2connext.com^$third-party
+||marketingg2.com^$third-party
+||flittz.com^$third-party
+
+! from https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt [Nov 2022]
+||api.pico.tools/client/query/*$xhr,third-party
+||api.pico.tools/popup/null/*$xhr,third-party
+||blueconic.net^$third-party
+||cdn.cxense.com^$script,third-party,important
+||ensighten.com/*/Bootstrap.js$script,third-party
+||hadrianpaywall.com^$third-party
+||ippen.space^$third-party
+||loader-cdn.azureedge.net^$third-party
+||matheranalytics.com^$script,third-party
+||newsmemory.com?meter$third-party
+||olytics.omeda.com^$third-party
+||tribdss.com^$third-party
+||weborama.fr/js/$script,third-party
+||zephr.com/zephr-browser/$third-party
+gadget.pico.tools##+js(json-prune, locked)
+/c/assets/pigeon.js$script,~third-party
+/evolok/*/ev-widgets.min.js$script,~third-party
+/wp-content/*/ev-em.min.js$script,~third-party
+/zephr/feature$xmlhttprequest,~third-party
+@@||piano.io^$third-party,domain=asia.nikkei.com|businesspost.ie|japantimes.co.jp
