@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 18 November 2022
+! Updated: 18 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -22,8 +22,15 @@
 @@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 
 ! Icons
-@@||fonts.googleapis.com/css?family=Material+Icons^
-@@||fonts.gstatic.com/s/materialicons^
+!@@||fonts.googleapis.com/icon?family=Material+Icons
+!@@||fonts.googleapis.com/css?family=Material+Icons
+!@@||fonts.gstatic.com/s/materialicons
+@@/family=Material+Icons
+@@/materialsymbolsoutlined
+@@/materialsymbols
+@@/materialicons
+@@family=Material+Icons
+@@family=Material+Symbols
 @@/wp-content/uploads/fusion-icons
 
 ! Privacy-friendly drop-in replacement for Google Fonts
