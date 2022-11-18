@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 18 November 2022
+! Updated: 18 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -853,7 +853,8 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /punder.php$document
 /puopen$document
 /realmedia/ads/*$document
-/redirect.spark?$document
+! issues on Costco site
+! /redirect.spark?$document
 /rotator.php?$document
 /sendspace-pop.$document
 /servlet/ajrotator/*$document
