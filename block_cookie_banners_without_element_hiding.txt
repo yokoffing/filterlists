@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🍪 Block Cookie Banners (without element hiding)
 ! Description: A curated list to be used with Firefox's new `cookiebanners.service.mode` pref.
-! Updated: 18 November 2022e
+! Updated: 18 November 2022f
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -406,7 +406,7 @@ _europecookielaw.
 ! When request is blocked then there is an error "Unexpected token / in JSON at position 0"
 ! It's loaded by cdn.cookielaw.org/scripttemplates/otSDKStub.js, so it should be only unblocked on websites for which this script is unblocked
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
-!#if !env_safari
+!#if env_safari
 ! ('||' covers one sub-domain only)
 ||clickio.mgr.consensu.org^$third-party
 ||cdn.consentmanager.mgr.consensu.org^$third-party
@@ -1545,7 +1545,6 @@ _vpcookieconsent/
 /fp/HP?session_id
 /fp/tags.js
 /fp/top_fp.
-! https://github.com/AdguardTeam/AdguardFilters/blob/master/AnnoyancesFilter/sections/cookies_specific.txt#L53
 /pp-t-a-c.js$script
 
 ! from Fanboy Annoyance [Nov 2022]
