@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 18 November 2022c
+! Updated: 18 November 2022d
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -335,10 +335,10 @@ fmovies.*##+js(nosiif, try)
 @@||cdn-apple.com^$domain=apple.com
 @@||consent.cookiebot.com^$script,domain=adjust.com
 @@||contextual.media.net^$script
-@@||cookielaw.org/*/otBannerSdk.js$script
-@@||cookielaw.org/*/otPcPanel.json$xhr
-@@||cookielaw.org/*/otSDKStub.js$script
-@@||cookielaw.org/consent/$xhr
+! @@||cookielaw.org/*/otBannerSdk.js$script
+! @@||cookielaw.org/*/otPcPanel.json$xhr
+! @@||cookielaw.org/*/otSDKStub.js$script
+! @@||cookielaw.org/consent/$xhr
 @@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
