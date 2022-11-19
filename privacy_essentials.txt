@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 18 November 2022g
+! Updated: 19 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -432,6 +432,7 @@ platform.twitter.com##+js(cookie-remover)
 @@||twimg.^$image
 @@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
+! Breaks Twitter widget using this list [Fanboy Annoyance]
 ! https://www.cnet.com/news/social-media/twitter-musk-news-timeline-riptwitter-trends-after-employees-resign/
 @@.twitterContainer
 
@@ -590,6 +591,29 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||amazon-adsystem.com^$important
 www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolder,#percolate-ui-ilm_div > .celwidget:remove()
 @@||amazon.*/*uedata$image,1p,badfilter
+
+! To access Mozilla reports
+||telemetry.mozilla.org^$badfilter
+
+! Privacy Guides telemtry
+||api.privacyguides.net/api/event^
+
+!!! 1hosts Lite
+||tivan.naver.com^$badfilter
+
+!!! 1HOSTS PRO BREAKAGE
+! tiktok embds
+||mcs.us.tiktok.com^$badfilter
+||mcs.va.tiktok.com^$badfilter
+! hulu
+||ads-a-darwin.hulustream.com^$badfilter
+||ads-fa-darwin.hulustream.com^$badfilter
+||kajabi-cdn.com^$badfilter
+||oup.silverchair-cdn.com^$badfilter
+||view.genial.ly^$badfilter
+||jcpenney.usablenet.com^$badfilter
+||usablenet.com^$badfilter
+||dailycaller.com^$badfilter
 
 !#include antipaywall_filters_without_element_hiding.txt
 !#if ext_ublock
