@@ -1,13 +1,23 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 18 November 2022b
+! Updated: 19 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+9anime.se##.header-group > .socials-group
+cnn.com##.factbox_inline-small__standard.factbox_inline-small
+sports.yahoo.com###module-fanShop
+marvelapp.com##.marginTop-l.paddingTop-xl.padding-l, .fixed-footer, .breakPointM-paddingTopBottom-s.bg-white.paddingLeftRight-m.display-inlineBlock.position-relative.breakPointM-inline
+electrek.co##.article__youtube-video, #comments, .related-guides, .author-gear-items, .featured-items
+freecodecamp.org##.alert-info.alert.annual-donation-alert
+w3schools.com##.sidesection
+||aeon.co/_next/static/chunks/SupportBannerHeader.
+||aeon.co/_next/static/chunks/NewsletterPopup.
+aeon.co##.dylzaW.TenYearDriveBannerHeaderAlternate__Wrapper-sc-oqupvg-0
 1010wcsi.com###secondary
 9to5google.com,9to5mac.com,9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd\:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
