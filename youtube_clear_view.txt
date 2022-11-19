@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 15 November 2022
+! Updated: 19 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -33,11 +33,11 @@ www.youtube.com##.ytp-button.ytp-next-button
 
 !!! from https://letsblock.it/
 ! Hide Youtube recommended videos
-www.youtube.com###related
-www.youtube.com##.ytp-ce-element
-www.youtube.com##.ytp-endscreen-content
+!www.youtube.com###related
+!www.youtube.com##.ytp-ce-element
+!www.youtube.com##.ytp-endscreen-content
 ! the end screen / auto play next:
-/endscreen.js$script,important,domain=youtube.com
+!/endscreen.js$script,important,domain=youtube.com
 
 ! Hide Youtube mixes and radios
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
