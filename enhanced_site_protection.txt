@@ -18,7 +18,7 @@
 ||ci^$doc
 ||cn^$doc
 ||cricket^$doc
-||cyou^$doc
+||cyou^$doc,domain=~mymaster-uk.cyou|~thedevs.cyou|~hh-imgs.cyou
 ||date^$doc
 ||fit^$doc
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun
