@@ -1,43 +1,39 @@
 [Adblock Plus 2.0]
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 19 November 2022
+! Updated: 19 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
 ! Hide Like count to match Dislike
 ! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
-! Hide "Like" counts (old format)
+! (old format)
 youtube.com##[aria-label$="likes"]
-! Hide "Like" counts (new format)
+! (new format)
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
 
-! Hide recommendation sidebar
-youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope, ytd-horizontal-card-list-renderer
-
-! Hide chat window
-youtube.com###chat
+! Hide the text label of the dislike/share/download/report/save buttons 
+www.youtube.com###info > * [id^="top-level-buttons"] [class*="button-renderer"] [id="text"]:not(:has-text(/\d/))
+www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
 
 ! Hide next video video, which may accidentally be clicked since it's near the Play button
 www.youtube.com##.ytp-button.ytp-next-button
 
-! Block once for all the scripts responsible for annotations
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions#wiki_locked_scroll_after_blocking_various_overlays
-! /annotations_module.js$script,important,domain=youtube.com
+! Hide the end screen video that autoplays next
+/endscreen.js$script,important,domain=youtube.com
 
-! Subscriptions tab - Remove all vids shorter than 2 minutes
-! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
-! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
+! Hide recommendation sidebar
+youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
-!!! from https://letsblock.it/
-! Hide Youtube recommended videos
-!www.youtube.com###related
-!www.youtube.com##.ytp-ce-element
-!www.youtube.com##.ytp-endscreen-content
-! the end screen / auto play next:
-!/endscreen.js$script,important,domain=youtube.com
+! Hide chat window
+youtube.com###chat
+
+! Don't enter / exit fullscreen on double-click 
+youtube.com##+js(aeld, dblclick)
 
 ! Hide Youtube mixes and radios
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
@@ -50,11 +46,6 @@ www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-ti
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
 
-! Hide the text label of the dislike/share/download/report/save buttons 
-www.youtube.com###info > * [id^="top-level-buttons"] [class*="button-renderer"] [id="text"]:not(:has-text(/\d/))
-www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
-
-! Don't enter / exit fullscreen on double-click 
-youtube.com##+js(aeld, dblclick)
+! Subscriptions tab - Remove all vids shorter than 2 minutes
+! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
+! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
