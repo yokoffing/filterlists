@@ -2,7 +2,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
-! Last modified: 19 November 2022b
+! Last modified: 20 November 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -24,7 +24,7 @@
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun
 ||fyi^$doc
 ||icu^$doc
-||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info
+! ||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
 ||link^$doc,domain=~reddit.app.link
 ||live^$doc,domain=~marcello.live
 ||loans^$doc
@@ -43,11 +43,11 @@
 ||win^$doc
 ||work^$doc
 
+!#if ext_ublock
 # from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
 
 # from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt [Nov 2022]
-!#if ext_ublock
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
