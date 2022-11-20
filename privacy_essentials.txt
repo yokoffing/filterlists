@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
-! Updated: 19 November 2022
+! Updated: 20 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -419,8 +419,8 @@ fmovies.*##+js(nosiif, try)
 @@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
-||twitter.^$3p
-||syndication.twitter.^
+||twitter.com^$3p
+||syndication.twitter.com^
 ||t.co^$3p,domain=~twitter.com
 !#if ext_ublock
 platform.twitter.com##+js(cookie-remover)
@@ -429,7 +429,7 @@ platform.twitter.com##+js(cookie-remover)
 @@||platform.twitter.com/embed/$subdocument
 @@||platform.twitter.com/widgets/$subdocument
 @@||platform.twitter.com^$stylesheet,image,script
-@@||twimg.^$image
+@@||twimg.com^$image
 @@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
 ! Breaks Twitter widget using this list [Fanboy Annoyance]
