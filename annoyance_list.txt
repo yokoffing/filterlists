@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 19 November 2022
+! Updated: 21 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -579,20 +579,6 @@ youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBu
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
-
-! Removes Mixes from the Main Page
-youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
-! Removes Mixes from the right side panel
-youtube.com##ytd-compact-radio-renderer
-! Removes Mixes from search results
-youtube.com##ytd-radio-renderer
-! Removes "YouTube" (Music) playlists from the right side panel
-youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-! Suggested channels by name
-youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
-! Recommend after pause
-youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
-~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
 
 ! TWITTER
 ! [Oct 2022] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
