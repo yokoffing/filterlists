@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter.
-! Updated: 19 November 2022c
+! Updated: 21 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -49,3 +49,18 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
 ! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
+
+! need reviewing:
+! Removes "YouTube" (Music) playlists from the right side panel
+!youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
+! Suggested channels by name
+!youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
+! Recommend after pause
+!youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
+!~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+! Removes Mixes from the Main Page
+!youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
+! Removes Mixes from the right side panel
+!youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from search results
+!youtube.com##ytd-radio-renderer
