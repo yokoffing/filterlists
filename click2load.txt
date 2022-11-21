@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ⛔ click2load filters
 ! Description: To be used in conjunction with other Annoyances lists
-! Updated: 19 November 2022
+! Updated: 21 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -39,7 +39,8 @@
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||docs.google.com/forms/$3p,frame,redirect=click2load.html
 !||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
-!||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
+! Tiktok embeds, GIFs?
+||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
