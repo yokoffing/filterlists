@@ -34,7 +34,7 @@
 ||quest^$doc
 ||rest^$doc
 ||review^$doc
-||shop^$doc
+||shop^$doc,domain=~nsverify.shop
 ||surf^$doc
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 ||tokyo^$doc
