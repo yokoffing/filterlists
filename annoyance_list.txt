@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 21 November 2022
+! Updated: 22 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -602,6 +602,43 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[ari
 ! Login popup
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: auto !important;)
+
+! Aggressive Fandom Wiki
+! https://www.reddit.com/r/uBlockOrigin/comments/z0i6qy/aggressive_fandom_wiki_filter_set/
+fandom.com##.global-footer
+fandom.com##.mcf-wrapper
+fandom.com##.wikia-bar-anon.wikia-bar
+fandom.com##.global-navigation
+fandom.com##.page-side-edit.page-side-tool
+fandom.com##.render-wiki-recommendations
+fandom.com##.fandom-sticky-header
+fandom.com##.page-header__actions
+fandom.com##.page-header__categories
+fandom.com##.fandom-community-header__background
+fandom.com##.fandom-community-header__image
+fandom.com##.explore-menu.wds-dropdown
+fandom.com#$#.main-container { margin-left: 0 !important; width: 100% !important; }
+fandom.com##a[title="Discuss"]
+fandom.com##.unified-search__layout__right-rail
+fandom.com##.wikia-bar-collapse
+fandom.com#$#.community-header-wrapper { height: 1% !important;}
+fandom.com#$#.fandom-community-header__community-name { margin-top:10px !important; }
+fandom.com#$#.wds-tabs { margin-top:10px !important; }
+fandom.com#$#.fandom-community-header__top-container { padding-right: 10px !important; }
+fandom.com#$#.page-counter { margin-left: 9px !important; margin-top: 10px !important; }
+fandom.com#$#.fandom-community-header__top-container { white-space: nowrap !important; align-items: center !important; }
+fandom.com#$#.fandom-community-header__community-name { height: 100% !important; margin-right: 0 !important; }
+fandom.com#$#.wds-button-group { margin-top: 10px !important; }
+fandom.com#$#.search-modal::before { left: 0 !important; }
+fandom.com##a[title="UTC Clock"]
+fandom.com##.search-seeding
+fandom.com##.page__right-rail
+fandom.com##.page-header__top
+fandom.com###BackToTopBtn
+fandom.com##.highlight__sticky-container
+fandom.com##.notifications-placeholder
+fandom.com#$#.wds-dropdown__content { transform: translateX(-10%) !important; left: 0px !important;}
+!fandom.com##.highlight__sticky-container
 
 !!! NYT
 ! "To our Readers" note
