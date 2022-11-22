@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 20 November 2022
+! Updated: 22 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -12,10 +12,11 @@
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com^$domain=youtube.com|www.google.com|news.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|chromium.org|vocabulary.com|socialworkers.org|gaggle.fun|reliaslearning.com
-@@||fonts.gstatic.com^$domain=youtube.com|www.google.com|mail.google.com|groups.google.com|trends.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|chromium.org|workspace.google.com|bloble.io|dexscreener.com|vocabulary.com|socialworkers.org|reliaslearning.com
+@@||fonts.googleapis.com^$domain=youtube.com|news.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|chromium.org|vocabulary.com|socialworkers.org|gaggle.fun|reliaslearning.com
+@@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|groups.google.com|trends.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|chromium.org|workspace.google.com|bloble.io|dexscreener.com|vocabulary.com|socialworkers.org|reliaslearning.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
-@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
+
+*$script,denyallow=fonts.googleapis.com|fonts.gstatic.com,domain=www.google.com
 
 ! Icons
 @@/family=Material+Icons
@@ -93,11 +94,12 @@
 !||maxcdn.bootstrapcdn.com^*/fonts/
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 ! Used for icons on many sites:
-!||wp.com^*/fonts/$3p
 !||fontawesome.com^$3p
 !/font-awesome^$3p
 !/fontawesome-$font,3p
 !/wp-$font,3p
+!||wp.com^*/fonts/$3p
+!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 !@@/fontawesome-$font,3p,domain=fontawesome.com
 !@@||fontawesome.com^$domain=
