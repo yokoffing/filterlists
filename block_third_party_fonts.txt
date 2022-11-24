@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 23 November 2022
+! Updated: 23 November 2022b
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -12,7 +12,7 @@
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com^$domain=youtube.com|news.google.com|earth.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|chromium.org|vocabulary.com|socialworkers.org|gaggle.fun|reliaslearning.com|gaggle.fun
+@@||fonts.googleapis.com^$domain=youtube.com|news.google.com|earth.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|grow.google|blogger.com|googlesource.com|chromium.org|vocabulary.com|socialworkers.org|gaggle.fun|reliaslearning.com
 @@||fonts.gstatic.com^$domain=youtube.com|mail.google.com|earth.google.com|groups.google.com|fonts.google.com|trends.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|chromium.org|workspace.google.com|bloble.io|dexscreener.com|vocabulary.com|socialworkers.org|reliaslearning.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 
