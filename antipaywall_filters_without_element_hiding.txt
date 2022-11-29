@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ✋ Antipaywall filters (without element hiding)
 ! Description: Curated list of antipaywall requests
-! Updated: 18 November 2022
+! Updated: 29 November 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -50,7 +50,7 @@ bostonglobe.com##+js(set, bg.page.exemptFromMeter, true)
 ||aw1.accuradio.com^
 ||accuradio.com/sweeper/
 ||accuradio.com/static/js/ltjs.js
-||sendtonews.com^$3p
+!||sendtonews.com^$3p
 ||accuradio.com/listener/track-adbreaks/
 ||streamtheworld.com/ondemand/ars?
 ||streamtheworld.com^*/idsync.js
