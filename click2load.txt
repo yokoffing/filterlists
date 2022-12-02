@@ -1,13 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: ⛔ click2load filters
-! Description: To be used in conjunction with other Annoyances lists
-! Updated: 30 November 2022
+! Description: To be used in uBlock Origin
+! Updated: 2 December 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
-! https://raw.githubusercontent.com/llacb47/miscfilters/master/clicktoload.txt
-! https://twitter.com/gorhill/status/1377929952637640705
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com|~window-swap.com
@@ -29,7 +27,6 @@
 ||quizlet.com/$3p,frame,redirect=click2load.html
 ||html5-player.libsyn.com/embed/$3p,frame,redirect=click2load.html
 ||google.com/maps/embed$3p,frame,redirect=click2load.html
-!||gfycat.com/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
 ||embed.documentcloud.org/$3p,frame,redirect=click2load.html
 ||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
@@ -38,10 +35,16 @@
 ||dexscreener.com/$3p,frame,redirect=click2load.html
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||docs.google.com/forms/$3p,frame,redirect=click2load.html
-! Tiktok embeds, GIFs
-!||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
-!||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
 ||iframe.videodelivery.net/$3p,frame,redirect=click2load.html
+||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
+||glitch.com/embed/$3p,frame,redirect=click2load.html
+
+!!! DO NOT BLOCK
+! Tiktok embeds, GIFs
+!||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
+!||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
+! GIFs
+!||gfycat.com/$3p,frame,redirect=click2load.html
