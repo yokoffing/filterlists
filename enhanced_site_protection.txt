@@ -2,7 +2,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
-! Last modified: 1 December 2022
+! Last modified: 5 December 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -41,7 +41,7 @@
 ||wang^$doc
 ||webcam^$doc
 ||win^$doc
-||work^$doc
+||work^$doc,domain=~searx.work
 
 !#if ext_ublock
 # from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
