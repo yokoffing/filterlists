@@ -90,7 +90,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> [optional]
 
-3) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/llacb47/miscfilters/master/antipaywall.txt)
+3) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
  <br> [optional] This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
 
 4) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
