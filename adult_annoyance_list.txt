@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 6 December 2022
+! Updated: 7 December 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -20,6 +20,8 @@
 ||ggg.xhamster.com^
 ||howcantheydidit.xyz^$3p
 
+gaysearch.com###list_videos_related_videos
+boyfriendtv.com##.tab-videos-commented.adblock > .paddingfix.videos
 manporn.xxx##.block-related.video.thumbset, #list_videos_related_videos_container
 gayporno.fm##.b-thumb-col, .js-recommended-wrapper.b-recommended
 fetishshrine.com##.block-categories.thumbs.categories-list, .content-aside, .related-videos.block-videos.thumbs, .user-comments
