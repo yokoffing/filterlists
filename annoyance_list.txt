@@ -1,13 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 7 December 2022c
+! Updated: 7 December 2022d
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+seekingalpha.com##.dK-o.ai-fH.dD-ps, .et-r7 > section.ah-b8.dD-b8.ai-fH.dD-ps.ai-dp.dD-o.ai-cm.dD-pz, .bN-lr.uH-o, .cS-os, .bd-kd, .inline-banner-placeholder, .ag-b2.ag-bL.mN-o
+cnbc.com##.ExclusiveContentBucket-exclusiveContentBucket, .ReadMore-container-cnbc.group, .InlineVideo-wrapper
 maketecheasier.com##.textwidget
 abine.com##.widgetable
 washingtonpost.com##.interstitial.italic
