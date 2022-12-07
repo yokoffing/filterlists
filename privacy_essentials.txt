@@ -100,7 +100,7 @@ $ping
 ||datadoghq.com^
 ||decacopy.com^
 ||delvenetworks.com^$3p,script
-||discord.com^$3p
+||discord.com^$3p,doamin=~discohook.org
 ||discordapp.com^$3p,domain=~discord.com
 ||disqus.com^$3p
 ||disquscdn.com^$3p
