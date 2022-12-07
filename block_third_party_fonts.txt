@@ -2,7 +2,7 @@
 ! Title: 🔍 Block third party fonts
 ! Description: Allows third-party fonts on only selected sites
 ! Warning: This list will break the "look and feel" of some sites
-! Updated: 25 November 2022
+! Updated: 7 December 2022
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days
@@ -66,7 +66,7 @@
 ||gotraffic.net^$font
 ||kinja-static.com/assets/fonts/$font,3p
 ||myfontastic.com^$3p
-||myfonts.net^$3p
+||myfonts.net^$3p,domain=~myfonts.com
 ||netdna-cdn.com^*/webfonts/
 ||netdna.bootstrapcdn.com^*/fonts/$3p
 ||qmerce.com/assets/$font
