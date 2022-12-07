@@ -1,13 +1,88 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 29 November 2022
+! Updated: 7 December 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+maketecheasier.com##.textwidget
+abine.com##.widgetable
+washingtonpost.com##.interstitial.italic
+deadline.com##.trending-now, .a-space-children--2.a-space-children-vertical.pmc-a-grid-item.article-sidebar, .pmc-u-text-align-center.subscribe-to
+zdnet.com##.c-shortcodePinbox, .c-shortcodePinbox-carousel, .c-shortcodePinbox-textList
+onetrust.com##.related-posts, .additional-resources
+ourcodeworld.com##.sidebar-inner, #we-stand-with-ukraine
+thehotline.org##.-active.is-initialized-modal.modal1
+online.csp.edu##.tux-c-spotlight-cta
+cnil.fr##li.picto > [href="http://twitter.com/CNIL_en"] > .logo_mini_menu_titre_twitter
+tomforb.es##.navbar-end
+mentalhelp.net##.articles-otp-cta-wrapper
+techuntold.com##.inside-right-sidebar
+askvg.com##.sidebar
+allthings.how##.sidebar.widget-area.posts-sidebar
+psychotreat.com##.widget-area
+investopedia.com##.related-articles, .campaign-dialog
+dailymail.co.uk##.beta, .related-replace-desktop-xwide.ccox.mol-fe-related-replace, .embed-manager-on, .rc-content, .home.comments-count, .mol-fe-related-replace, .floating-buttons-bar
+sitepoint.com##div.custom-content > [href^="https://www.sitepoint.com/premium/pricing/"]
+quizlet.com##.Toastify, .TextbookRecommendations
+greengeeks.com##.widget_custom_html.widget.widget_text, .widget_recent_entries.widget, .widget_categories.widget
+techcult.com##.sidebar.widget-area.posts-sidebar
+bossip.com##.widget_bossip_tmz_feed_widget.widget
+toofab.com##.sidebar-section--sticky, .article-block
+wbal.com##.tertiary-content
+tuko.co.ke##div.c-article-read-also.post__read-also:nth-of-type(odd), div.c-article-read-also.post__read-also:nth-of-type(even)
+etcanada.com##.wells, .related
+thegeeksclub.com##.sidebar
+gtricks.com##.collapsed.s1.sidebar
+speedof.me##.test-ad-container
+beebom.com##.popular-posts-section
+technorms.com##.td-ss-main-sidebar
+dignited.com##.sidebar-latest
+eyerys.com##.region-sidebar-second.region
+wikihow.com###sidebar
+freecodecamp.org##.alert-dismissable.alert-success.alert.flash-message
+amazon.com##.payment-plan-02.payment-options-financing-option.payment-options-option.a-padding-small.a-spacing-small.a-section
+techguided.com##.inside-right-sidebar
+makeuseof.com##.related-single, .article-footer-newsletter
+blog.hubspot.com##.blog-post-sticky-cta-button, .blog-post-sticky-cta-complementary-text,.blog-post-sticky-cta
+lifehacker.com##aside.branded-item
+deviantart.com##a[href="https://www.deviantart.com/core-membership"]
+techopedia.com###sidebar-content-wrapper
+blog.checkpoint.com##.col-lg-12
+ericom.com###cookie
+researchgate.net##.rg-us-cookie-banner
+asianews.it##.box-content_blocchi, .wrap > .box_up
+fortune.com##.most-popular-rr
+tenforums.com##.chill
+wired.com##.paywall-bar--expanded.paywall-bar-failsafe, .paywall-bar__expanded, .show-social-box.persistent-aside--align-left.persistent-aside
+forbes.com##.open-web-anchor-standard-topline.open-web_anchor--desktop.open-web_anchor
+vocabulary.com##.promo, .sign-up-area
+rollingstone.com##.lrv-u-padding-b-1.a-span1.trending-in-article, .newsletter, .brands-most-popular
+outlookindia.com##.right-sticky.col-md-4.col-sm-12 > .theiaStickySidebar, .left-sticky.left_trending > .theiaStickySidebar, .__related_stories_thumbs
+livelaw.in##.theiaStickySidebar, .h-anchor-color.h-sidebar-left.h-share-top-parent, .social_icons
+thestar.com.my##.col-xs-12.col-md-4, .slider-story, .story--featured, #related-stories-links
+bitdefender.com##.mt-4.mt-lg-0.col-lg-4, .mb-5.row
+fedscoop.com##.articles--noborder.articles
+||www.fedscoop.com/advertising/$subdocument
+secureblink.com##.BodyTop_socialMediaIcons__2Wpnz, .RecentPosts_recentPosts__LypnQ
+jezebel.com##.sidebar-sticky-children
+gizchina.com##.vw-content-sidebar
+daniel.haxx.se##.widget-area.content-sidebar
+usa.kaspersky.com##.js-sticky-sidebar-visible, .c-block--divider.c-block--spacing-b-small\@sm.c-block--spacing-t-small\@sm.c-block > .o-container-fluid
+malaymail.com##.latest-news, .malaymail-article-details-just-in > div.row > .col-md-12, .malaymail-related-articles, .header-social-menu
+torrentfreak.com##.page__sidebar
+portswigger.net###icons-container
+cybernews.com##.compliance-note_with-spacing.compliance-note
+themarkup.org##.article-card--right.article-card--has-image.article-card, .article-footer-titles, .print-hidden.article-footer__latest
+pcworld.com##.product-widget, .affiliate-disclaimer
+stuff.co.nz##.sics-component__section--most-popular.sics-component__section, .bigbyline, p.sics-component__story__paragraph.sics-component__html-injector:nth-of-type(odd)
+||www.playwidget.stuff.co.nz$subdocument
+smartframe.io##.newsletter-signup-shortcode-container
+xd.adobe.com##.column-4
+cosmopolitan.com##.embed-left.embed-editorial-links.embed, .embed-product-small.embed-product-left.embed-product.embed, div.embed-center.embed-editorial-links.embed:nth-of-type(even), .gallery-module.embed, .watch-next-in-body.end-of-content-playlist, div.embed-center.embed-editorial-links.embed:nth-of-type(odd)
 9anime.se##.header-group > .socials-group
 cnn.com##.factbox_inline-small__standard.factbox_inline-small
 sports.yahoo.com###module-fanShop
@@ -603,6 +678,9 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##la
 ! https://mobile.twitter.com/nasuno_Posi
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] section[aria-label][role=region]
 !#endif
+! Promoted (Nov 2022)
+! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
+twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
 ! Aggressive Fandom Wiki
 ! https://www.reddit.com/r/uBlockOrigin/comments/z0i6qy/aggressive_fandom_wiki_filter_set/
@@ -645,6 +723,9 @@ fandom.com#$#.wds-dropdown__content { transform: translateX(-10%) !important; le
 ! "To our Readers" note
 ! https://www.reddit.com/r/uBlockOrigin/comments/wpwuqu/how_can_i_hide_this_on_nyt_page/
 nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
+
+! cig sites
+##.col.cmp-footer__warnings
 
 ! from https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/blob/master/uBlock-Filters-Plus.txt [Nov 2022]
 ###AdsByCurseBanner
