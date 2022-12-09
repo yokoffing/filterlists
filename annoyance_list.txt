@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 9 December 2022d
+! Updated: 9 December 2022b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -499,7 +499,7 @@ zoosk.com##.article__related, .newsletter
 ##[class*="sponsorlink"]
 ||gizmodo.com/embed/comments$subdocument
 ||pomcor.com/wp-content/uploads/2015/05/stars_background.jpg$image
-||www.rugfreecoins.com/img/*4.gif$image||www.rugfreecoins.com/img/*4.gif$image
+||www.rugfreecoins.com/img/*4.gif$image
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
