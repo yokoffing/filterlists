@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 7 December 2022d
+! Updated: 9 December 2022d
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -771,8 +771,8 @@ nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
 /async_pixel?
 /b?z=$script
 /ccc-adscript/*
-/click-in.php?$document
-/click.php?$document
+!/click-in.php?$document
+!/click.php?$document
 /clicktag.engine?$document,popup
 /exo-loader/frontend_loader.js
 /landing?refererId=$document,popup
