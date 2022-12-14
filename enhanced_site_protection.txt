@@ -2,7 +2,7 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List
 ! Note: This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
-! Last modified: 9 December 2022b
+! Last modified: 14 December 2022
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 
@@ -24,6 +24,7 @@
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
 ||fyi^$doc
 ||icu^$doc
+||kp^$doc
 ! ||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
 ||link^$doc,domain=~reddit.app.link
 ||live^$doc,domain=~marcello.live|~notgoogle.live
@@ -34,6 +35,7 @@
 ||quest^$doc
 ||rest^$doc
 ||review^$doc
+||ru^$doc,domain=~aliexpress.ru|~yandex.ru
 ||su^$doc,domain=~kaihat.su
 ||shop^$doc,domain=~nsverify.shop
 ||surf^$doc
