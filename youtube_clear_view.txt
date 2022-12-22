@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: 📺 YouTube Clear View
-! Description: Clean up YouTube clutter.
-! Updated: 25 November 2022
-! License: https://creativecommons.org/licenses/by/3.0
+! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
+! Version: 22 December 2022
+! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
 ! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
