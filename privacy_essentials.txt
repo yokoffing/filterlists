@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022
+! Version: 22 December 2022b
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -95,7 +95,6 @@ $ping
 ||coordinatedcub.com^$3p
 ||cxense.com^
 ||d77cf8b870.com^
-||data.cnn.com^
 ||datadoghq-browser-agent.com^
 ||datadoghq.com^
 ||decacopy.com^
@@ -341,7 +340,6 @@ fmovies.*##+js(nosiif, try)
 ! @@||cookielaw.org/*/otPcPanel.json$xhr
 ! @@||cookielaw.org/*/otSDKStub.js$script
 ! @@||cookielaw.org/consent/$xhr
-@@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
@@ -505,11 +503,15 @@ platform.twitter.com##+js(cookie-remover)
 @@||jwpsrv.com^$subdocument
 
 ! CNN
+||data.cnn.com^
+@@||data.api.cnn.io^$xhr,domain=cnn.com
 @@||data.cnn.com/jsonp/cfg/*/videoconfig/cnn/desktop/domesticsectionconfig.json$script,domain=cnn.com
 @@||cnn.com/.element/apps/cvp/3.0/cfg/spider/cnn/expansion/ad_policy.xml$xhr,domain=cnn.com
 @@||z.cdn.turner.com/analytics/cnnexpan/jsmd.min.js$script,domain=cnn.com
 @@||cdn.turner.com/cnn/van/resources/*/scripts/vendor/loggly.tracker.js$xhr,domain=trentonian.com
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
+! redirect rule needed for videos to play
+|||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
 
 ! Bloomberg videos
 @@||cdn.gotraffic.net^$domain=bloomberg.*
