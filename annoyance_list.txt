@@ -1,13 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by Easylist/Fanboy and AdGuard lists
-! Updated: 9 December 2022b
+! Updated: 22 December 2022
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
 ! Use in combination with AdGuard Annoyances, AdGuard Social Media, Fanboy's
 ! Annoyance, uBlock filters - Annoyances, and Dandelon Sprout's Annoyances List
 
+agar.io###mainui-promo, agar-io_300x250 
+lenovo.com###confirmit-feedback, lena-bot-window
+techpowerup.com##div.s--item:nth-of-type(even), div.s--item:nth-of-type(odd)
 seekingalpha.com##.dK-o.ai-fH.dD-ps, .et-r7 > section.ah-b8.dD-b8.ai-fH.dD-ps.ai-dp.dD-o.ai-cm.dD-pz, .bN-lr.uH-o, .cS-os, .bd-kd, .inline-banner-placeholder, .ag-b2.ag-bL.mN-o
 cnbc.com##.ExclusiveContentBucket-exclusiveContentBucket, .ReadMore-container-cnbc.group, .InlineVideo-wrapper
 maketecheasier.com##.textwidget
@@ -598,12 +601,20 @@ www.reddit.com##[role="menu"] button:has-text(Online Status)
 
 ! TWITCH
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
-twitch.tv##.channel-panels-container
 twitch.tv##.prime-offers
 twitch.tv##.extension-view__iframe
 twitch.tv##.headliner-ad
 twitch.tv##.front-page-carousel
 twitch.tv##.extension-view__iframe
+!twitch.tv##.channel-panels-container
+! Animated Emotes; can be disabled in settings
+twitch.tv##.chat-input.bGyiZe.Layout-sc-1xcs6mc-0 > .Layout-sc-1xcs6mc-0
+! Top gifters
+twitch.tv##.chat-room__content.jmUA-dj.Layout-sc-1xcs6mc-0 > div.Layout-sc-1xcs6mc-0:nth-of-type(1)
+! Drops, hype train
+twitch.tv##.chat-room__content.jmUA-dj.Layout-sc-1xcs6mc-0 > div:nth-of-type(2)
+! Chat message: user subscribed with prime!
+twitch.tv##.user-notice-line--highlighted.user-notice-line.ekipGw.InjectLayout-sc-1i43xsx-0
 
 ! FACEBOOK
 ! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
