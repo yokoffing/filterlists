@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: ⛔ click2load filters
 ! Description: To be used in uBlock Origin
-! Updated: 2 December 2022
-! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
+! Version: 22 December 2022
+! Syntax: AdBlock
 
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
