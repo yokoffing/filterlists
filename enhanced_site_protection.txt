@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022b
+! Version: 22 December 2022c
 ! Syntax: AdBlock
 
 ! Block top-site navigations, but not subrequests, for the following TLDs:
@@ -23,6 +23,7 @@
 ||fit^$doc
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
 ||fyi^$doc
+||garden^$doc
 ||icu^$doc
 ||kp^$doc
 ||link^$doc,domain=~reddit.app.link
