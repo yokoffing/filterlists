@@ -3,10 +3,10 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022
+! Version: 22 December 2022b
 ! Syntax: AdBlock
 
-# Block top-site navigations, but not subrequests, for the following TLDs:
+! Block top-site navigations, but not subrequests, for the following TLDs:
 ||asia^$doc
 ||associates^$doc
 ||bar^$doc
@@ -25,7 +25,6 @@
 ||fyi^$doc
 ||icu^$doc
 ||kp^$doc
-! ||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
 ||link^$doc,domain=~reddit.app.link
 ||live^$doc,domain=~marcello.live|~notgoogle.live
 ||loans^$doc
@@ -39,7 +38,6 @@
 ||su^$doc,domain=~kaihat.su
 ||shop^$doc,domain=~nsverify.shop
 ||surf^$doc
-! ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 ||tokyo^$doc
 ||wang^$doc
 ||webcam^$doc
@@ -47,10 +45,10 @@
 ||work^$doc,domain=~searx.work
 
 !#if ext_ublock
-# from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
 
-# from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt [Nov 2022]
+! from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt [Nov 2022]
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
@@ -58,3 +56,7 @@
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
 !#endif
+
+! Removed TLDS
+!||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
+!||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
