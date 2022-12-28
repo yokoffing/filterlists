@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 Enhanced website protection
-! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list will have false positives and may be unusable for people who often visit domains using one of the blocked TLDs.
+! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022c
+! Version: 28 December 2022
 ! Syntax: AdBlock
 
-! Block top-site navigations, but not subrequests, for the following TLDs:
+! Warn users before making top-site navigations that use these TLDs:
 ||asia^$doc
 ||associates^$doc
 ||bar^$doc
@@ -20,6 +20,7 @@
 ||cricket^$doc
 ||cyou^$doc
 ||date^$doc
+||degree^$doc
 ||fit^$doc
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
 ||fyi^$doc
