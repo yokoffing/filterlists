@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022b
+! Version: 30 December 2022
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -74,7 +74,7 @@ $ping
 ||capturehighered.net^$3p
 ||cbox.ws^$3p
 ||cbsi.com^
-||cbsinteractive.com^,domain=~etonline.com
+||cbsinteractive.com^$domain=~etonline.com
 ||cdn.krxd.net^
 ||cdn.ravenjs.com^$3p,script
 ||cdn.transifex.com^
@@ -117,7 +117,7 @@ $ping
 ||exoclick.com^$3p,important
 ||exosrv.com^$3p,important
 ||feedgrabbr.com^$3p
-||footprint.net^3p,~image
+||footprint.net^$3p,~image
 ||forbes.com^$3p,domain=quora.com
 ||future-fie-assets.co.uk^$3p
 ||future-fie.co.uk^
@@ -185,7 +185,7 @@ $ping
 ||mailchimp.com^$3p
 ||marketingautomation.services^$3p
 ||marketo.com^
-||media.licdn.com^,domain=~linkedin.com
+||media.licdn.com^$domain=~linkedin.com
 ||medium.com^$3p,~script,~image
 ||mgid.com^$3p,important
 ||mimecast.com^$3p
@@ -242,13 +242,13 @@ $ping
 ||refer.bose.com^
 ||s.aolcdn.com/ads/$3p,script
 ||salesforceliveagent.com^$3p
-||sandsiv.com^3p
+||sandsiv.com^$3p
 ||scorecardresearch.com^$important
 ||scroll.com^$3p,important
 ||sdk.asapp.com^
 ||search.brave.com/api/feedback^
 ||secomapp.com^$3p
-||secondego.com^3p
+||secondego.com^$3p
 ||securemetrics.apple.com^$3p
 ||segment.com^$important
 ||servebom.com^$3p,important
@@ -447,7 +447,7 @@ platform.twitter.com##+js(cookie-remover)
 ||pinterest.com^$3p
 
 ! TWITCH
-||twitch.tv^,domain=~twitch.tv
+||twitch.tv^$domain=~twitch.tv
 
 ! 3rd-party Payment Vendors / "Buy Now, Pay Later":
 ||pay.google.com^$3p
@@ -467,7 +467,7 @@ platform.twitter.com##+js(cookie-remover)
 ||razorpay.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
 ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
-||paypalobjects.com^,domain=~ebay.com|~paypal.com|~ticketmaster.com
+||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
 ||shopcircleapp.co^$3p
