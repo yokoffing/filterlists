@@ -3,7 +3,7 @@
 ! Description: Allows third-party fonts on only selected sites
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 28 December 2022
+! Version: 30 December 2022
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
