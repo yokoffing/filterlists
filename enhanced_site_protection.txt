@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 28 December 2022
+! Version: 1 January 2023
 ! Syntax: AdBlock
 
 ! Warn users before making top-site navigations that use these TLDs:
@@ -27,7 +27,7 @@
 ||garden^$doc
 ||icu^$doc
 ||kp^$doc
-||link^$doc,domain=~reddit.app.link
+||link^$doc,domain=~reddit.app.link|~unlocked.link
 ||live^$doc,domain=~marcello.live|~notgoogle.live
 ||loans^$doc
 ||lol^$doc,domain=~kissanime.lol|~url.lol
