@@ -26,7 +26,7 @@
 !||cn^$doc
 ! Russia
 ! https://w3techs.com/technologies/details/tld-ru-
-!||ru^$doc
+!||ru^$doc,domain=~aliexpress.ru|~yandex.ru
 
 ! Need justification:
 !||bar^$doc
@@ -48,7 +48,6 @@
 !||online^$doc,domain=~ero-labs.online
 !||recipes^$doc
 !||review^$doc
-!||ru^$doc,domain=~aliexpress.ru|~yandex.ru
 !||sex^$doc
 !||sexy^$doc
 !||software^$doc
