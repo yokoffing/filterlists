@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 January 2023
+! Version: 4 January 2023
 ! Syntax: AdBlock
 
 msguides.com###kknbnpcv
@@ -652,6 +652,8 @@ google.*##[id^="eob_"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
 ! Block downloading
 ||redd.it/*.m3u8^$xhr,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+! https://github.com/yokoffing/filterlists/issues/38
+@@||v.redd.it^$xhr,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 ||strapi.reddit.com^$xhr,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 
 ! YOUTUBE
