@@ -23,10 +23,12 @@
 
 ! TLDs by country
 ! China
-!||cn^$doc
+||cn^$doc
+! India
+||in^$doc
 ! Russia
 ! https://w3techs.com/technologies/details/tld-ru-
-!||ru^$doc,domain=~aliexpress.ru|~yandex.ru
+||ru^$doc,domain=~aliexpress.ru|~yandex.ru
 
 ! Need justification:
 !||bar^$doc
