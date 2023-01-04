@@ -9,7 +9,6 @@
 ! Warn users before making top-site navigations that use these TLDs:
 ! The following TLDs with "!" are less than 10% abused, according to Spamhaus
 ! [1] https://www.spamhaus.org/statistics/tlds/
-!||agency^$doc
 ||asia^$doc
 !||associates^$doc
 !||bar^$doc
