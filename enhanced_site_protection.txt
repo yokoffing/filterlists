@@ -21,9 +21,8 @@
 ||surf^$doc
 ||zone^$doc
 
-! Common Spam TLD
+! Common Spam TLDs
 ||online^$doc,domain=~ero-labs.online
-
 ! NSFW phishing redirects from Google Docs / PDF
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
 
