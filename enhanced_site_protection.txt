@@ -7,10 +7,9 @@
 ! Syntax: AdBlock
 
 ! Greater than 10% abuse, according to Spamhaus
-! [1] https://www.spamhaus.org/statistics/tlds/
+! https://www.spamhaus.org/statistics/tlds/
 ||asia^$doc
 ||beauty^$doc
-||cn^$doc
 ||degree^$doc
 ||fit^$doc
 ||fyi^$doc
@@ -21,6 +20,13 @@
 ||shop^$doc,domain=~nsverify.shop
 ||surf^$doc
 ||zone^$doc
+
+! TLDs by country
+! China
+!||cn^$doc
+! Russia
+! https://w3techs.com/technologies/details/tld-ru-
+!||ru^$doc
 
 ! Need justification:
 !||associates^$doc
