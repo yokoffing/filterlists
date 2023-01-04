@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 30 December 2022
+! Version: 4 January 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -60,7 +60,6 @@ $ping
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bf-ad.net^$important
 ||bimbolive.com^$3p
-||bing.com^$3p,domain=~login.live.com|~microsoft.com|~msn.com|~blackdog.ie
 ||blitzen.com^$3p
 ||blogsmithmedia.com^$3p,xhr
 ||bloomapp-production.herokuapp.com^$3p
@@ -528,6 +527,11 @@ platform.twitter.com##+js(cookie-remover)
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script,domain=cbsnews.com
 
+! BING
+||bing.com^$3p,domain=~login.live.com|~microsoft.com|~msn.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/126174
+||bing.com/fd/ls/lsp.aspx$badfilter
+@@||bing.com/fd/ls/GLinkPing.aspx?
 ! Bing reverse image search broken by EL
 bing.com#@#a[href*="/aclick?ld="]
 bing.com##.ins_exp.vsp
@@ -538,20 +542,14 @@ bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
 bing.com##+js(nosiif, logQueue, 10000)
 !#endif
 
+! MICROSOFT
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
-! https://outlook.office.com
-||pipe.aria.microsoft.com/collector/$badfilter
-! EasyPrivacy
-!!! /log?entry=$badfilter
-!!! /postlog?$badfilter
-||bing.com/fd/ls/lsp.aspx$badfilter
-@@||bing.com/fd/ls/GLinkPing.aspx?
-!!! ||bing.com/fd/ls/l?ig=$badfilter
-||data.microsoft.com/OneCollector/$badfilter
-||fp.measure.office.com^$badfilter
-||microsoft.com/collector/$badfilter
-||visualstudio.com/v*/track$3p,badfilter
-||visualstudio.com/v2/track$3p,badfilter
+!||pipe.aria.microsoft.com/collector/$badfilter,domain=outlook.office.com
+!||data.microsoft.com/OneCollector/$badfilter
+!||fp.measure.office.com^$badfilter
+!||microsoft.com/collector/$badfilter
+!||visualstudio.com/v*/track$3p,badfilter
+!||visualstudio.com/v2/track$3p,badfilter
 
 ! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
 ! EL
@@ -610,15 +608,6 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ! tiktok embds
 ||mcs.us.tiktok.com^$badfilter
 ||mcs.va.tiktok.com^$badfilter
-! hulu
-||ads-a-darwin.hulustream.com^$badfilter
-||ads-fa-darwin.hulustream.com^$badfilter
-||kajabi-cdn.com^$badfilter
-||oup.silverchair-cdn.com^$badfilter
-||view.genial.ly^$badfilter
-||jcpenney.usablenet.com^$badfilter
-||usablenet.com^$badfilter
-||dailycaller.com^$badfilter
 
 !#include antipaywall_filters_without_element_hiding.txt
 !#if ext_ublock
