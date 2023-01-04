@@ -3,48 +3,57 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 1 January 2023
+! Version: 4 January 2023
 ! Syntax: AdBlock
 
 ! Warn users before making top-site navigations that use these TLDs:
+! The following TLDs with "!" are less than 10% abused, according to Spamhaus
+! [1] https://www.spamhaus.org/statistics/tlds/
+!||agency^$doc
 ||asia^$doc
-||associates^$doc
-||bar^$doc
+!||associates^$doc
+!||bar^$doc
 ||beauty^$doc
-||best^$doc
-||buzz^$doc
-||cam^$doc,domain=~halide.cam
-||casa^$doc
-||ci^$doc
+!||best^$doc
+!||buzz^$doc
+!||cam^$doc,domain=~halide.cam
+!||casa^$doc
+!||ci^$doc
 ||cn^$doc
-||cricket^$doc
-||cyou^$doc
-||date^$doc
+!||cricket^$doc
+!||cyou^$doc
+!||date^$doc
 ||degree^$doc
 ||fit^$doc
-||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
+!||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
 ||fyi^$doc
 ||garden^$doc
-||icu^$doc
-||kp^$doc
-||link^$doc,domain=~reddit.app.link|~unlocked.link
+!||icu^$doc
+!||kp^$doc
+!||link^$doc,domain=~reddit.app.link|~unlocked.link
 ||live^$doc,domain=~marcello.live|~notgoogle.live
-||loans^$doc
-||lol^$doc,domain=~kissanime.lol|~url.lol
-||one^$doc,domain=~ablaze.one
-||online^$doc,domain=~ero-labs.online
+!||loans^$doc
+!||lol^$doc,domain=~kissanime.lol|~url.lol
+!||one^$doc,domain=~ablaze.one
+!||online^$doc,domain=~ero-labs.online
 ||quest^$doc
-||rest^$doc
-||review^$doc
-||ru^$doc,domain=~aliexpress.ru|~yandex.ru
+!||recipes^$doc
+!||rest^$doc
+!||review^$doc
+!||ru^$doc,domain=~aliexpress.ru|~yandex.ru
+!||sex^$doc
+!||sexy^$doc
+!||software^$doc
 ||su^$doc,domain=~kaihat.su
 ||shop^$doc,domain=~nsverify.shop
 ||surf^$doc
-||tokyo^$doc
-||wang^$doc
-||webcam^$doc
-||win^$doc
-||work^$doc,domain=~searx.work
+!||tokyo^$doc
+!||wang^$doc
+!||webcam^$doc
+!||win^$doc
+!||work^$doc,domain=~searx.work
+!||xxx^$doc
+||zone^$doc
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
