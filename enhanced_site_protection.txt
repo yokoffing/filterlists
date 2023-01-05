@@ -43,7 +43,6 @@
 !!! Potentially bad TLDs [testing; needs feedback]
 ! Needs more data/sources
 ||buzz^$doc
-||cam^$doc,domain=~halide.cam|~flixtor.cam|~chathub.cam|~gomovies-online.cam|~qissat.cam
 ||icu^$doc
 ||loans^$doc
 ||recipes^$doc
@@ -77,6 +76,7 @@
 !!! Pending removal
 !||bar^$doc
 !||best^$doc
+!||cam^$doc,domain=~halide.cam|~flixtor.cam|~chathub.cam|~gomovies-online.cam|~qissat.cam
 !||casa^$doc
 !||ci^$doc
 !||cyou^$doc
