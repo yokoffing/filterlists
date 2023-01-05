@@ -7,7 +7,7 @@
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
-! Topical domains with wide use by bad actors, and whose use for legit purposes is small
+! Topical domains with wide use by bad actors, and whose use for legitimate purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun|~20anime.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
@@ -34,25 +34,25 @@
 ||in^$doc,domain=~google.co.in
 ! Russia
 ||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru
+!||yandex^$doc
 
 !!! Potentially bad TLDs [experimental]
 ! Needs more data/sources
-||buzz^$doc
-||icu^$doc
+!||buzz^$doc
+!||icu^$doc
 ||loans^$doc
-||recipes^$doc
-||software^$doc
-||tokyo^$doc
-||win^$doc
-||yandex^$doc
+!||recipes^$doc
+!||software^$doc
+!||tokyo^$doc
+!||win^$doc
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ||cricket^$doc
 
 !!! Potentially bad NSFW TLDs [experimental]
 ! Needs more data/sources
-||sex^$doc
-||sexy^$doc
-||xxx^$doc
+!||sex^$doc
+!||sexy^$doc
+!||xxx^$doc
 
 !!! Unblocked TLDS
 ! A fair bit of use among US law firms
