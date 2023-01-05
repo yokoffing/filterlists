@@ -33,7 +33,7 @@
 ! India
 ||in^$doc,domain=~google.co.in
 ! Russia
-||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
+||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru
 
 !!! Potentially bad TLDs [experimental]
 ! Needs more data/sources
