@@ -13,7 +13,7 @@
 ||beauty^$doc,domain=~vipbj.beauty
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
-tentative!||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
+!||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
 !||garden^$doc,domain=~radio.garden|~nic.garden|~aquascapes.garden|~freya.garden|~the.garden|~plantae.garden
 !||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
 ||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
