@@ -16,8 +16,8 @@
 ||garden^$doc
 ||live^$doc,domain=~marcello.live
 ||quest^$doc
-||su^$doc,domain=~kaihat.su
 ||shop^$doc,domain=~nsverify.shop
+||su^$doc,domain=~kaihat.su
 ||surf^$doc
 ||zone^$doc
 
