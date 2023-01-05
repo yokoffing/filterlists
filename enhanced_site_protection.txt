@@ -14,7 +14,7 @@
 ||fit^$doc
 ||fyi^$doc
 ||garden^$doc
-||live^$doc,domain=~marcello.live|~notgoogle.live
+||live^$doc,domain=~marcello.live
 ||quest^$doc
 ||su^$doc,domain=~kaihat.su
 ||shop^$doc,domain=~nsverify.shop
@@ -23,7 +23,7 @@
 
 !!! Spam/Phishing TLDs
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
-||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
+||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~betphoenix.site|~cdmstudy.site
 ! Previously used in Dandelion Sprout's Anti-Malware List but are no longer enforced:
@@ -33,13 +33,13 @@
 !!! TLDs by country
 ! https://w3techs.com/technologies/overview/top_level_domain
 ! China
-||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn
+||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn
 ! India
-||in^$doc
+||in^$doc,domain=~google.co.in
 ! Russia
-||ru^$doc,domain=~aliexpress.ru|~yandex.ru
+||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
 
-!!! Need justification:
+!!! Need more justification:
 !||bar^$doc
 !||best^$doc
 !||buzz^$doc
