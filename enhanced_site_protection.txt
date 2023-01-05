@@ -7,7 +7,7 @@
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
-! Topical domains with wide use by bad actors, and whose use for legitimate purposes is small
+! Topical domains with wide use by bad actors and whose use for legitimate purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun|~20anime.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
@@ -20,6 +20,7 @@
 ||beauty^$doc,domain=~vipbj.beauty
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
+||loans^$doc
 ||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
 ||surf^$doc,domain=~surfstation.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||zone^$doc,domain=~typinggames.zone|~martech.zone|~kinogo.zone|~kidtopia.zone|~itsm.zone
@@ -40,7 +41,6 @@
 ! Needs more data/sources
 !||buzz^$doc
 !||icu^$doc
-||loans^$doc
 !||recipes^$doc
 !||software^$doc
 !||tokyo^$doc
