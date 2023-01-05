@@ -6,7 +6,7 @@
 ! Version: 4 January 2023
 ! Syntax: AdBlock
 
-!!! Likely abused TLDs according to Spamhaus
+!!! Likely abused TLDs, according to Spamhaus
 ! https://www.spamhaus.org/statistics/tlds/
 ||asia^$doc
 ||beauty^$doc
@@ -26,11 +26,22 @@
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~betphoenix.site|~cdmstudy.site
-! Previously used in Dandelion Sprout's Anti-Malware List but are no longer enforced:
-||ml^$doc,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml|~gymlibrary.ml|~animevsub.ml|~prompt.ml|~biblioreads.ml
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
+!!!!!!!!!!!!!!!!!!!!!!!!!! from Dande's list: (remove from yokoffing list when Gerd is finished)
+||top^$doc,domain=~corriente.top|~gdtot.top|~nicenature.top|~reminder.top|~magocoro.top|~castlevania.top|~suiten.top|~shucks.top|~1stream.top|~ambr.top|~techblog.top|~changlam10.top|~changlam11.top|~pdcdn1.top|~mastodon.top|~pressplay.top
+! International topical domains that have consistently horrendous scores on watchlists of bad TLDs, and whose use for legit purposes is practically non-existent
+||loan^$doc
+||agency^$doc,domain=~battlefield.agency|~shortcut.agency
+||gdn^$doc
+||bid^$doc
+||ooo^$doc
+||monster^$doc,domain=~egybest.monster|~yts.monster|~cloudcdn.monster|~fedi.monster
+||sbs^$doc
+||discount^$doc
+||cfd^$doc
 
 !!! TLDs by country
+! Contain an overwhelming majority of malware domains that have nothing to do with the countries in question.
 ! https://w3techs.com/technologies/overview/top_level_domain
 ! China
 ||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn
@@ -38,6 +49,17 @@
 ||in^$doc,domain=~google.co.in
 ! Russia
 ||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
+! Mali
+||ml^$doc,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml|~gymlibrary.ml|~animevsub.ml|~prompt.ml|~biblioreads.ml
+!!!!!!!!!!!!!!!!!!!!!!!!!! from Dande's list: (remove from yokoffing list when Gerd is finished)
+! Gabon
+||ga^$doc,domain=~google.ga|~filtri-dns.ga|~dgdi.ga|~voitures.ga|~economie-gabon.ga|~9191.ga|~animevsub.ga
+! Equatorial Guinea
+||gq^$doc,domain=~deimos.gq|~inege.gq|~tvgelive.gq|~comprarcarros.gq
+! Central African Republic
+||cf^$doc,domain=~google.cf|~rths.cf|~voitures.cf|~assembleenationale-rca.cf|~cps-rca.cf|~acap.cf|~miraculousladybug.cf|~scrat.cf
+! Palau
+||pw^$doc,domain=~libgen.pw|~petridish.pw|~palaugov.pw|~dpc.pw|~zikrap.pw|~demonoid.pw|~bittor.pw|~buttercup.pw|~rezka.pw|~darkcrystal.pw|~xor.pw|~fullhdfilmizlesene.pw|~b00k.pw|~gopass.pw|~vost.pw
 
 !!! Need more justification:
 !||bar^$doc
