@@ -6,22 +6,6 @@
 ! Version: 5 January 2023
 ! Syntax: AdBlock
 
-!!! Likely abused TLDs, according to Spamhaus & W3Techs
-! https://www.spamhaus.org/statistics/tlds/
-! https://w3techs.com/technologies/overview/top_level_domain
-!||asia^$doc,domain=~championat.asia|~viblo.asia|~rgf-hragent.asia|~12go.asia|~film2movie.asia|~subaru.asia|~locanto.asia|~bestreview.asia|~vsuite.asia
-||beauty^$doc,domain=~vipbj.beauty
-||degree^$doc,domain=~opf.degree|~three60.degree
-||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
-!||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
-!||garden^$doc,domain=~radio.garden|~nic.garden|~aquascapes.garden|~freya.garden|~the.garden|~plantae.garden
-!||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
-||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
-!||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop|
-!||su^$doc,domain=~kaihat.su|~simpcity.su|~sevastopol.su|~kob.su|~ati.su|~goo.su|~rusvesna.su|~jut.su
-||surf^$doc,domain=~surfstation.surf|~kayaking.surf|~quran.surf|~s-wings.surf
-||zone^$doc,domain=~typinggames.zone|~martech.zone|~kinogo.zone|~kidtopia.zone|~itsm.zone
-
 !!! Malicious TLDs
 ! Topical domains with wide use by bad actors, and whose use for legit purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
@@ -29,6 +13,16 @@
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~betphoenix.site|~cdmstudy.site
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
+
+!!! Likely abused TLDs, according to Spamhaus & W3Techs
+! https://www.spamhaus.org/statistics/tlds/
+! https://w3techs.com/technologies/overview/top_level_domain
+||beauty^$doc,domain=~vipbj.beauty
+||degree^$doc,domain=~opf.degree|~three60.degree
+||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
+||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
+||surf^$doc,domain=~surfstation.surf|~kayaking.surf|~quran.surf|~s-wings.surf
+||zone^$doc,domain=~typinggames.zone|~martech.zone|~kinogo.zone|~kidtopia.zone|~itsm.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
@@ -43,24 +37,24 @@
 
 !!! Potentially bad TLDs [testing; needs feedback]
 ! Needs more data/sources
-!||buzz^$doc
-!||icu^$doc
-!||loans^$doc
-!||recipes^$doc
-!||software^$doc
-!||tokyo^$doc
-!||win^$doc
-!||yandex^$doc
+||buzz^$doc
+||icu^$doc
+||loans^$doc
+||recipes^$doc
+||software^$doc
+||tokyo^$doc
+||win^$doc
+||yandex^$doc
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-!||cricket^$doc
+||cricket^$doc
 
 !!! Potentially bad NSFW TLDs [testing; needs feedback]
 ! Needs more data/sources
-!||sex^$doc
-!||sexy^$doc
-!||xxx^$doc
+||sex^$doc
+||sexy^$doc
+||xxx^$doc
 
-!!! Notes for unblocked TLDS:
+!!! Unblocked TLDS
 ! A fair bit of use among US law firms
 !||associates^$doc
 ! Oddly appears to be used by some restaurants. Can't be blocked at the moment.
@@ -73,6 +67,12 @@
 !||lol^$doc,domain=~kissanime.lol|~url.lol|~games.lol|~1v1.lol|~bootcamp.lol
 ! Gaining usage on popular sites
 !||link^$doc,domain=~reddit.app.link|~unlocked.link
+!||asia^$doc,domain=~championat.asia|~viblo.asia|~rgf-hragent.asia|~12go.asia|~film2movie.asia|~subaru.asia|~locanto.asia|~bestreview.asia|~vsuite.asia
+!||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
+!||garden^$doc,domain=~radio.garden|~nic.garden|~aquascapes.garden|~freya.garden|~the.garden|~plantae.garden
+!||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
+!||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop|
+!||su^$doc,domain=~kaihat.su|~simpcity.su|~sevastopol.su|~kob.su|~ati.su|~goo.su|~rusvesna.su|~jut.su
 
 !!! Pending removal
 !||bar^$doc
