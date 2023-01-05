@@ -40,10 +40,13 @@
 ! Mali
 ||ml^$doc,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml|~gymlibrary.ml|~animevsub.ml|~prompt.ml|~biblioreads.ml
 
-!!! Potentially bad TLDs [testing]
+!!! Potentially bad TLDs [testing; needs feedback]
 ||loans^$doc
+||recipes^$doc
+||software^$doc
+||win^$doc
 
-!!! Potentially bad NSFW TLDs [testing]
+!!! Potentially bad NSFW TLDs [testing; needs feedback]
 ||sex^$doc
 ||sexy^$doc
 ||xxx^$doc
@@ -61,12 +64,9 @@
 !||icu^$doc
 !||kp^$doc
 !||one^$doc,domain=~ablaze.one
-!||recipes^$doc
 !||review^$doc
-!||software^$doc
 !||tokyo^$doc
 !||wang^$doc
-!||win^$doc
 !||work^$doc,domain=~searx.work
 
 !!! Notes for unblocked TLDS:
