@@ -43,11 +43,14 @@
 !!! Potentially bad TLDs [testing; needs feedback]
 ! Needs more data/sources
 ||buzz^$doc
+||cam^$doc,domain=~halide.cam|~flixtor.cam|~chathub.cam|~gomovies-online.cam|~qissat.cam
+||icu^$doc
 ||loans^$doc
 ||recipes^$doc
 ||software^$doc
 ||tokyo^$doc
 ||win^$doc
+||yandex^$doc
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ||cricket^$doc
 
@@ -56,22 +59,6 @@
 ||sex^$doc
 ||sexy^$doc
 ||xxx^$doc
-||yandex^$doc
-
-!!! Pending removal
-!||bar^$doc
-!||best^$doc
-!||cam^$doc,domain=~halide.cam
-!||casa^$doc
-!||ci^$doc
-!||cyou^$doc
-!||date^$doc
-!||icu^$doc
-!||kp^$doc
-!||one^$doc,domain=~ablaze.one
-!||review^$doc
-!||wang^$doc
-!||work^$doc,domain=~searx.work
 
 !!! Notes for unblocked TLDS:
 ! A fair bit of use among US law firms
@@ -86,6 +73,19 @@
 !||lol^$doc,domain=~kissanime.lol|~url.lol|~games.lol|~1v1.lol|~bootcamp.lol
 ! Gaining usage on popular sites
 !||link^$doc,domain=~reddit.app.link|~unlocked.link
+
+!!! Pending removal
+!||bar^$doc
+!||best^$doc
+!||casa^$doc
+!||ci^$doc
+!||cyou^$doc
+!||date^$doc
+!||kp^$doc
+!||one^$doc,domain=~ablaze.one|~spotfy.one|~harmony.one|~cryptoroyale.one
+!||review^$doc
+!||wang^$doc
+!||work^$doc,domain=~searx.work
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
