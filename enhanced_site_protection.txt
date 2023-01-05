@@ -14,7 +14,7 @@
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 
-!!! Likely abused TLDs, according to Spamhaus & W3Techs
+!!! Likely abused TLDs
 ! https://www.spamhaus.org/statistics/tlds/
 ! https://w3techs.com/technologies/overview/top_level_domain
 ||beauty^$doc,domain=~vipbj.beauty
@@ -35,7 +35,7 @@
 ! Russia
 ||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
 
-!!! Potentially bad TLDs [testing; needs feedback]
+!!! Potentially bad TLDs [experimental]
 ! Needs more data/sources
 ||buzz^$doc
 ||icu^$doc
@@ -48,7 +48,7 @@
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 ||cricket^$doc
 
-!!! Potentially bad NSFW TLDs [testing; needs feedback]
+!!! Potentially bad NSFW TLDs [experimental]
 ! Needs more data/sources
 ||sex^$doc
 ||sexy^$doc
