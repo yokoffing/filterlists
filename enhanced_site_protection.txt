@@ -1,50 +1,92 @@
 [Adblock Plus 2.0]
 ! Title: 🛑 Enhanced website protection
-! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
+! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 1 January 2023
+! Version: 5 January 2023
 ! Syntax: AdBlock
 
-! Warn users before making top-site navigations that use these TLDs:
-||asia^$doc
-||associates^$doc
-||bar^$doc
-||beauty^$doc
-||best^$doc
+!!! Malicious TLDs
+! Topical domains with wide use by bad actors, and whose use for legit purposes is small
+! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
+||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun|~20anime.fun
+||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
+||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site
+||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
+
+!!! Likely abused TLDs, according to Spamhaus & W3Techs
+! https://www.spamhaus.org/statistics/tlds/
+! https://w3techs.com/technologies/overview/top_level_domain
+||beauty^$doc,domain=~vipbj.beauty
+||degree^$doc,domain=~opf.degree|~three60.degree
+||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
+||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
+||surf^$doc,domain=~surfstation.surf|~kayaking.surf|~quran.surf|~s-wings.surf
+||zone^$doc,domain=~typinggames.zone|~martech.zone|~kinogo.zone|~kidtopia.zone|~itsm.zone
+
+!!! Country-specific TLDs
+! Contain malware domains that have nothing to do with the countries in question
+! Mali
+||ml^$doc,domain=~google.ml|~mobili.ml|~melody.ml|~dcod.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~worproject.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~bittor.ml|~noic.ml|~beatbump.ml|~gymlibrary.ml|~animevsub.ml|~prompt.ml|~biblioreads.ml
+! China
+||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn
+! India
+||in^$doc,domain=~google.co.in
+! Russia
+||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
+
+!!! Potentially bad TLDs [testing; needs feedback]
+! Needs more data/sources
 ||buzz^$doc
-||cam^$doc,domain=~halide.cam
-||casa^$doc
-||ci^$doc
-||cn^$doc
-||cricket^$doc
-||cyou^$doc
-||date^$doc
-||degree^$doc
-||fit^$doc
-||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun
-||fyi^$doc
-||garden^$doc
 ||icu^$doc
-||kp^$doc
-||link^$doc,domain=~reddit.app.link|~unlocked.link
-||live^$doc,domain=~marcello.live|~notgoogle.live
 ||loans^$doc
-||lol^$doc,domain=~kissanime.lol|~url.lol
-||one^$doc,domain=~ablaze.one
-||online^$doc,domain=~ero-labs.online
-||quest^$doc
-||rest^$doc
-||review^$doc
-||ru^$doc,domain=~aliexpress.ru|~yandex.ru
-||su^$doc,domain=~kaihat.su
-||shop^$doc,domain=~nsverify.shop
-||surf^$doc
+||recipes^$doc
+||software^$doc
 ||tokyo^$doc
-||wang^$doc
-||webcam^$doc
 ||win^$doc
-||work^$doc,domain=~searx.work
+||yandex^$doc
+! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+||cricket^$doc
+
+!!! Potentially bad NSFW TLDs [testing; needs feedback]
+! Needs more data/sources
+||sex^$doc
+||sexy^$doc
+||xxx^$doc
+
+!!! Unblocked TLDS
+! A fair bit of use among US law firms
+!||associates^$doc
+! Oddly appears to be used by some restaurants. Can't be blocked at the moment.
+!||rest^$doc
+! Rare cases of use by European road services.
+!||webcam^$doc
+! False positives are too significant
+!||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
+! Personal websites and small businesses
+!||lol^$doc,domain=~kissanime.lol|~url.lol|~games.lol|~1v1.lol|~bootcamp.lol
+! Gaining usage on popular sites
+!||link^$doc,domain=~reddit.app.link|~unlocked.link
+!||asia^$doc,domain=~championat.asia|~viblo.asia|~rgf-hragent.asia|~12go.asia|~film2movie.asia|~subaru.asia|~locanto.asia|~bestreview.asia|~vsuite.asia
+!||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
+!||garden^$doc,domain=~radio.garden|~nic.garden|~aquascapes.garden|~freya.garden|~the.garden|~plantae.garden
+!||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
+!||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop|
+!||su^$doc,domain=~kaihat.su|~simpcity.su|~sevastopol.su|~kob.su|~ati.su|~goo.su|~rusvesna.su|~jut.su
+
+!!! Pending removal
+!||bar^$doc
+!||best^$doc
+!||cam^$doc,domain=~halide.cam|~flixtor.cam|~chathub.cam|~gomovies-online.cam|~qissat.cam|~ullu.cam
+!||casa^$doc
+!||ci^$doc
+!||cyou^$doc
+!||date^$doc
+!||kp^$doc
+!||one^$doc,domain=~ablaze.one|~spotfy.one|~harmony.one|~cryptoroyale.one
+!||review^$doc
+!||wang^$doc
+!||work^$doc,domain=~searx.work
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
@@ -58,7 +100,3 @@
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
 !#endif
-
-! Removed TLDS
-!||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~spain.info|~steamdb.info|~worldometers.info|~ciphersuite.info|~socialsecurityoffices.info
-!||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
