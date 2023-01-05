@@ -11,7 +11,7 @@
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun|~20anime.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
-||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~betphoenix.site|~cdmstudy.site
+||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 
 !!! Likely abused TLDs, according to Spamhaus & W3Techs
