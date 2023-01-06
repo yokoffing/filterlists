@@ -7,19 +7,20 @@
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
-! Topical domains with wide use by bad actors, and whose use for legit purposes is small
+! Topical domains with wide use by bad actors and whose use for legitimate purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~libgen.fun|~gaggle.fun|~neal.fun|~bestgore.fun|~20anime.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site
 ||tk^$doc,domain=~coolcmd.tk|~budterence.tk|~google.tk|~transportnews.tk|~c0d3c.tk|~anonytext.tk|~tokelau-info.tk|~fakaofo.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~dls2.pokeacer.tk|~nolfrevival.tk|~coppersurfer.tk|~restricted-functions.tk|~bstweaker.tk|~nbd-media.tk|~glypx-pakhsh-nakon.tk|~gotofap.tk|~somepythonthings.tk
 
-!!! Likely abused TLDs, according to Spamhaus & W3Techs
+!!! Likely abused TLDs
 ! https://www.spamhaus.org/statistics/tlds/
 ! https://w3techs.com/technologies/overview/top_level_domain
 ||beauty^$doc,domain=~vipbj.beauty
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||fit^$doc,domain=~appetit.fit|~clubb.fit|~pridegym.fit|~justget.fit
+||loans^$doc
 ||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
 ||surf^$doc,domain=~surfstation.surf|~kayaking.surf|~quran.surf|~s-wings.surf
 ||zone^$doc,domain=~typinggames.zone|~martech.zone|~kinogo.zone|~kidtopia.zone|~itsm.zone
@@ -33,26 +34,25 @@
 ! India
 ||in^$doc,domain=~google.co.in
 ! Russia
-||ru^$doc,domain=~aliexpress.ru|~yandex.ru|~google.ru
-
-!!! Potentially bad TLDs [testing; needs feedback]
-! Needs more data/sources
-||buzz^$doc
-||icu^$doc
-||loans^$doc
-||recipes^$doc
-||software^$doc
-||tokyo^$doc
-||win^$doc
+||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru
 ||yandex^$doc
-! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-||cricket^$doc
 
-!!! Potentially bad NSFW TLDs [testing; needs feedback]
+!!! Potentially bad TLDs [experimental]
 ! Needs more data/sources
-||sex^$doc
-||sexy^$doc
-||xxx^$doc
+!||buzz^$doc
+!||icu^$doc
+!||recipes^$doc
+!||software^$doc
+!||tokyo^$doc
+! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+!||cricket^$doc
+!||win^$doc
+
+!!! Potentially bad NSFW TLDs [experimental]
+! Needs more data/sources
+!||sex^$doc
+!||sexy^$doc
+!||xxx^$doc
 
 !!! Unblocked TLDS
 ! A fair bit of use among US law firms
@@ -73,20 +73,6 @@
 !||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
 !||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop|
 !||su^$doc,domain=~kaihat.su|~simpcity.su|~sevastopol.su|~kob.su|~ati.su|~goo.su|~rusvesna.su|~jut.su
-
-!!! Pending removal
-!||bar^$doc
-!||best^$doc
-!||cam^$doc,domain=~halide.cam|~flixtor.cam|~chathub.cam|~gomovies-online.cam|~qissat.cam|~ullu.cam
-!||casa^$doc
-!||ci^$doc
-!||cyou^$doc
-!||date^$doc
-!||kp^$doc
-!||one^$doc,domain=~ablaze.one|~spotfy.one|~harmony.one|~cryptoroyale.one
-!||review^$doc
-!||wang^$doc
-!||work^$doc,domain=~searx.work
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
