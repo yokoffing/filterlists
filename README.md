@@ -121,7 +121,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 * [Static filter syntax](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
     * [!#if !](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#if-condition)
     * [$redirect](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#redirect)
-    * [$denyallow,domain=](https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md#blocking-1) | [AdGuard](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#denyallow)
+    * [$denyallow,domain=](https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md#blocking-1) | [2](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#denyallow) | [AdGuard](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#denyallow)
 * [Syntax Meanings That Are Actually Human Readable](https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md)
     * How to block [div:nth-of-type](https://stackoverflow.com/questions/44664907/how-can-i-use-a-wildcard-in-ublock-origin)
 
