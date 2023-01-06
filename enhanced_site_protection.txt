@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 January 2023
+! Version: 6 January 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -35,9 +35,8 @@
 ||in^$doc,domain=~google.co.in
 ! Russia
 ||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru
-||yandex^$doc
 
-!!! Potentially bad TLDs [experimental]
+!!! Potentially bad TLDs
 ! Needs more data/sources
 !||buzz^$doc
 !||icu^$doc
@@ -47,12 +46,6 @@
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 !||cricket^$doc
 !||win^$doc
-
-!!! Potentially bad NSFW TLDs [experimental]
-! Needs more data/sources
-!||sex^$doc
-!||sexy^$doc
-!||xxx^$doc
 
 !!! Unblocked TLDS
 ! A fair bit of use among US law firms
