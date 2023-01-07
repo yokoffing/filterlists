@@ -3,9 +3,20 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 January 2023
+! Version: 7 January 2023
 ! Syntax: AdBlock
 
+typinggames.zone###ads, #topDivForAd2, .left-ad-container, .typing-games
+stern.de##.article__sidebar, .article__embedded-teasers, .article__end
+blog.reedsy.com##.content-upgrade, .panel-grey.panel-thin.panel
+cnn.com##div.related-content_without-image
+pagesix.com##.comments-inline-cta
+cnbc.com##.ArticleBody-blockquote
+sitepoint.com##.sbBody, .top-12.sticky
+cnn.com##.image_inline-small--eq-extra-small.image_inline-small
+liliputing.com##.widget-area, .widget.below-content, .comments-area, .post-navigation.navigation
+dailystar.co.uk##section.related-articles-bg:nth-of-type(odd), section.related-articles-bg:nth-of-type(even)
+theverge.com##.mb-40.duet--recirculation--related-list, .top-90.bg-white.lg\:mb-40.lg\:mt-0.rounded-\[4px\].w-mobile-breaker.my-50.m-auto.p-20.sticky.duet--recirculation--list-breaker-standard
 testwise.com##gl-manage-cookies-modal
 msguides.com###kknbnpcv
 tp-link.com##.widget-sticker-right-middle, .decowifi-sticker
@@ -102,7 +113,7 @@ w3schools.com##.sidesection
 ||aeon.co/_next/static/chunks/NewsletterPopup.
 aeon.co##.dylzaW.TenYearDriveBannerHeaderAlternate__Wrapper-sc-oqupvg-0
 1010wcsi.com###secondary
-9to5google.com,9to5mac.com,9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd\:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link
+9to5google.com,9to5mac.com,9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd\:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link, .post-meta > .icon-twitter
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 abc7.com##.inner.headlines-list.top-stories
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
