@@ -34,7 +34,7 @@
 ! India
 ||in^$doc,domain=~google.co.in
 ! Russia
-||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru
+||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru
 
 !!! Potentially bad TLDs
 ! Needs more data/sources
