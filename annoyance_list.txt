@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 January 2023c
+! Version: 8 January 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -362,6 +362,7 @@ researchgate.net##.rg-us-cookie-banner
 reuters.com##.desktop-latest-updates__container__3z03m
 reuters.com##.StickyRail__container___keQm8R, .RegularArticleLayout__related___2MCEjD, .SpacingContainer__max-width___1aBoiA.SpacingContainer__tablet-mobile-only___1ilBOZ.SpacingContainer__t-spacing-single___3namO8.SpacingContainer__container___2kvuUN
 reviewgeek.com##.related-articles
+robots.net##.widget-area, .code-block
 rollingstone.com##.c-related-links-wrapper, .l-section--no-separator.l-section, .l-blog__secondary
 rollingstone.com##.lrv-u-padding-b-1.a-span1.trending-in-article, .newsletter, .brands-most-popular
 rugdoc.io###main-leaderboard-box
@@ -506,6 +507,9 @@ zdnet.com##.related-stories.module, .alignRight.relatedContent, .breaking-news-c
 zoosk.com##.article__related, .newsletter
 
 ! General
+-push-notifications/$script
+||cdn.carrotquest.app^$3p
+||cdn.pn.vg^$3p
 ||hlsmedia.gannett-cdn.com^$3p
 ||interactive.guim.co.uk
 ##[class*="sponsorlink"]
