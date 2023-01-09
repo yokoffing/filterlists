@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 January 2023
+! Version: 8 January 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -98,6 +98,7 @@ cjr.org###perspective-top, #perspective-bottom, .hidden-print.trending-stories.c
 cnbc.com##.ArticleBody-blockquote
 cnbc.com##.ExclusiveContentBucket-exclusiveContentBucket, .ReadMore-container-cnbc.group, .InlineVideo-wrapper
 cnbc.com##.SectionWrapper-container, .SidebarArticle-sticky, .WatchLiveRightRail-container.WatchLiveRightRail-inline, .RelatedContent-container
+cnet.com##.c-quizbanner_form.c-quizbanner, .myFinance-iframe
 cnil.fr##li.picto > [href="http://twitter.com/CNIL_en"] > .logo_mini_menu_titre_twitter
 cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone, .RelatedArticle__component
 cnn.com##.factbox_inline-small__standard.factbox_inline-small
@@ -479,6 +480,7 @@ washingtonpost.com##.bt.b.mb-lg-mod.pb-sm.bc-black.w-100.hide-for-print.headline
 washingtonpost.com##.h-100.hide-for-print.flex-column.flex, .wpds-c-dhlPjo-iblNTCR-css.wpds-c-dhlPjo
 washingtonpost.com##.interstitial.italic
 watchcartoononline.bz##.scrolling.right.sidebar
+watcher.guru##.cs-sidebar__inner
 wbal.com##.tertiary-content
 wccftech.com##.clearfix.aside-deals.aside, .clearfix.widget-analytics.related-posts, .sidebar, [href="https://tidd.ly/3tyom7k"], p.wccf_related_post:nth-of-type(3), p.wccf_related_post:nth-of-type(9)
 wcofun.com##.alert, .anti-ad, .episode-descp
@@ -520,6 +522,7 @@ zoosk.com##.article__related, .newsletter
 ||aeon.co/_next/static/chunks/SupportBannerHeader.
 ||www.fedscoop.com/advertising/$subdocument
 ||www.playwidget.stuff.co.nz$subdocument
+||hodgef.com/static/sponsor.html$subdocument
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
