@@ -138,6 +138,7 @@ dailyhodl.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .th
 dailymail.co.uk##.beta, .related-replace-desktop-xwide.ccox.mol-fe-related-replace, .embed-manager-on, .rc-content, .home.comments-count, .mol-fe-related-replace, .floating-buttons-bar
 dailystar.co.uk##section.related-articles-bg:nth-of-type(odd), section.related-articles-bg:nth-of-type(even)
 daniel.haxx.se##.widget-area.content-sidebar
+darkreader.org##.page-grid-inside
 davescomputertips.com##.comments-area, .sidebar-main
 deadline.com##.trending-now, .a-space-children--2.a-space-children-vertical.pmc-a-grid-item.article-sidebar, .pmc-u-text-align-center.subscribe-to
 decider.com##.alignleft.wp-caption.in-line-column, .article-footer, .sidebar--primary.sidebar
