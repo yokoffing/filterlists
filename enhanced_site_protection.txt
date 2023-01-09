@@ -30,7 +30,7 @@
 ! Mali
 ||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! China
-||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn
+||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn|~nvgs.nvidia.cn
 ! India
 ||in^$doc,domain=~google.co.in
 ! Russia
