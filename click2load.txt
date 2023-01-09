@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022
+! Version: 9 January 2023
 ! Syntax: AdBlock
 
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
@@ -41,6 +41,7 @@
 ||iframe.videodelivery.net/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
 ||glitch.com/embed/$3p,frame,redirect=click2load.html
+||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
 
 !!! DO NOT BLOCK
 ! Tiktok embeds, GIFs
