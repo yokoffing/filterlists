@@ -3,11 +3,12 @@
 ! Description: Allows third-party fonts on only selected sites
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 January 2023
+! Version: 10 January 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
+@@||cnn-tls.map.fastly.net$domain=cnn.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com|noip.com
 @@||fast.fonts.net/jsapi/$script
@@ -28,7 +29,9 @@
 @@/icomoon
 @@/glyphicons
 @@/icons
+@@/-icons
 @@/icon
+@@/-icon
 !@@||fonts.googleapis.com/icon?family=Material+Icons
 !@@||fonts.googleapis.com/css?family=Material+Icons
 !@@||fonts.gstatic.com/s/materialicons
