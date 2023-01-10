@@ -3,13 +3,13 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 January 2023b
+! Version: 9 January 2023c
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
 ! Topical domains with wide use by bad actors and whose use for legitimate purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
-||fun^$doc,domain=~20anime.fun|~apkmody.fun|~applemc.fun|~bestgore.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~enza.fun|~gaggle.fun|~hifiporn.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~memesoundboard.fun|~mypornvid.fun|~neal.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~pornking.fun|~pornmaster.fun|~solarmovie.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~www.wondertrip.fun|~luotphim.fun|~filmapik21.fun|~egybist.fun|~98e.fun
+||fun^$doc,domain=20anime.fun|~98e.fun|~apkmody.fun|~applemc.fun|~bestgore.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~egybist.fun|~enza.fun|~filmapik21.fun|~gaggle.fun|~hifiporn.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~memesoundboard.fun|~mypornvid.fun|~neal.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~pornking.fun|~pornmaster.fun|~solarmovie.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~www.wondertrip.fun|~luotphim.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
 ||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site
 ||tk^$doc,domain=~google.tk|~coolcmd.tk|~budterence.tk|~transportnews.tk|~c0d3c.tk|~tokelau-info.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~nolfrevival.tk|~bstweaker.tk|~nbd-media.tk|~gotofap.tk|~coppersurfer.tk|~fakaofo.tk
