@@ -3,9 +3,18 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 11 January 2023
+! Version: 11 January 2023b
 ! Syntax: AdBlock
 
+abqjournal.com###secondary > .widget-area, .abq_pw_container
+neeva.com##.header-big-blue-button__active-C2yAM.header-big-blue-button__dismissibleContainer-2T54Z
+goldin.io##.mb-16.mx-auto.max-w-2xl.w-full.justify-center.items-start.flex-col.flex > .mt-8
+upworthy.com##.col.sidebar-col
+wikiwand.com##.navbar_install__Hg9Gg
+nerdwallet.com##.nw-auth-stepper__body-inner
+aeon.co##.NLFormInsertFromCMS
+gizmodo.com##.sidebar-sticky, .js_related-stories-inset, .js_newsletter-form-inline
+scamadviser.com##.ezlazyloaded.banner-image
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
 9to5google.com,9to5mac.com,9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd\:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link, .post-meta > .icon-twitter
