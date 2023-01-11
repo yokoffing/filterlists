@@ -3,12 +3,11 @@
 ! Description: Allows third-party fonts on only selected sites
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 10 January 2023
+! Version: 11 January 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
-@@||cnn-tls.map.fastly.net$domain=cnn.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com|noip.com
 @@||fast.fonts.net/jsapi/$script
@@ -52,7 +51,6 @@
 ||edgefonts.net^$3p
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
-||fastly.net^$font,3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -97,6 +95,7 @@
 ! Causes too many false positives:
 !/fonts/*.ttf$font,3p
 !*$font,3p
+!||fastly.net^$font,3p
 !||maxcdn.bootstrapcdn.com^*/fonts/
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 ! Used for icons on many sites:
@@ -110,11 +109,3 @@
 !@@/fontawesome-$font,3p,domain=fontawesome.com
 !@@||fontawesome.com^$domain=
 !@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
-
-
-! Allowlist for WOFF fonts
-! [1] https://stackoverflow.com/questions/2684256/woff-fonts-what-are-they-and-why-should-i-care
-! *$font,3p,domain=~msnbc.com|~libredns.gr|~nyt.com|~redtube.com|~xhamster.com|~gayfuckporn.com|~opera.com
-! General
-! Allow only first-party fonts, with few site exceptions:
-! *$font,third-party,important,domain=~youtube.com|~youtube-nocookie.com|~google.com|~translate.google.com|~blog.google|~about.google|~safety.google|~ai.google|~domains.google|~googleapis.com|~googleusercontent.com|~9anime.to|~postimages.org|~dexscreener.com|~gayfuckporn.com|~libredns.gr|~nyt.com|~reddit.com|~how-i-experience-web-today.com|~redtube.com|~nuvid.com|~vocabulary.com|~espn.com|~pornlib.com|~xhamster.com|~arstechnica.com|~msnbc.com
