@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🔍 Block third party fonts
-! Description: Allows third-party fonts on only selected sites
+! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does no flatten CNAMEs.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 11 January 2023
+! Version: 12 January 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -51,6 +51,7 @@
 ||edgefonts.net^$3p
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
+||fastly.net^$font,3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -95,7 +96,7 @@
 ! Causes too many false positives:
 !/fonts/*.ttf$font,3p
 !*$font,3p
-!||fastly.net^$font,3p
+
 !||maxcdn.bootstrapcdn.com^*/fonts/
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 ! Used for icons on many sites:
