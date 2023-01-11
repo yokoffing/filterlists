@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🔍 Block third party fonts
-! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does no flatten CNAMEs.
+! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does no flatten CNAMEs!
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 12 January 2023
+! Version: 11 January 2023b
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -103,6 +103,7 @@
 !||fontawesome.com^$3p
 !/font-awesome^$3p
 !/fontawesome-$font,3p
+!/fontawesome-webfont
 !/wp-$font,3p
 !||wp.com^*/fonts/$3p
 !@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
