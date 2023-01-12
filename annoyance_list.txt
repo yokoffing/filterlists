@@ -3,9 +3,10 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 12 January 2023
+! Version: 12 January 2023b
 ! Syntax: AdBlock
 
+theverge.com##div.flex-auto:nth-of-type(even)
 abqjournal.com###secondary > .widget-area, .abq_pw_container
 neeva.com##.header-big-blue-button__active-C2yAM.header-big-blue-button__dismissibleContainer-2T54Z
 goldin.io##.mb-16.mx-auto.max-w-2xl.w-full.justify-center.items-start.flex-col.flex > .mt-8
