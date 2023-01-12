@@ -3,7 +3,7 @@
 ! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does not flatten CNAMEs!
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 11 January 2023b
+! Version: 12 January 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -51,7 +51,7 @@
 ||edgefonts.net^$3p
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
-||fastly.net^$font,3p
+! ||fastly.net^$font,3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
