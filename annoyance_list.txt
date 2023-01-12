@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 11 January 2023b
+! Version: 12 January 2023
 ! Syntax: AdBlock
 
 abqjournal.com###secondary > .widget-area, .abq_pw_container
@@ -534,6 +534,7 @@ zoosk.com##.article__related, .newsletter
 ||www.fedscoop.com/advertising/$subdocument
 ||www.playwidget.stuff.co.nz$subdocument
 ||hodgef.com/static/sponsor.html$subdocument
+||garry.windscribe.com^
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
