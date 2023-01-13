@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 12 January 2023
+! Version: 13 January 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -32,9 +32,9 @@
 ! China
 ||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn|~nvgs.nvidia.cn
 ! India
-||in^$doc,domain=~google.co.in
+||in^$doc,domain=~google.co.in|~blogspot.in
 ! Russia
-||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru
+||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru|~blogspot.ru
 
 !!! Potentially bad TLDs
 ! Needs more data/sources
