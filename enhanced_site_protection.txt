@@ -11,7 +11,7 @@
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~20anime.fun|~355.fun|~955.fun|~98e.fun|~apkmody.fun|~applemc.fun|~bestgore.fun|~bqg.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~filmapik21.fun|~gaggle.fun|~hifiporn.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~luotphim.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~mypornvid.fun|~neal.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~pornking.fun|~pornmaster.fun|~solarmovie.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~www.wondertrip.fun
 ||online^$doc,domain=~ero-labs.online|~amedia.online|~allhen.online|~chainsaw-man-manga.online|~manga1st.online
-||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site|~blocklist.site
+||site^$doc,domain=~business.site|~anitube.site|~wuxiaworld.site|~notube.site|~fmoviesto.site|~secreto.site|~metrolagu.site|~cdmstudy.site|~blocklist.site|~fitgirl-repacks.site
 ||tk^$doc,domain=~google.tk|~coolcmd.tk|~budterence.tk|~transportnews.tk|~c0d3c.tk|~tokelau-info.tk|~loljp-wiki.tk|~ninetail.tk|~goshujin.tk|~graph.tk|~nolfrevival.tk|~bstweaker.tk|~nbd-media.tk|~gotofap.tk|~coppersurfer.tk|~fakaofo.tk
 
 !!! Likely abused TLDs
