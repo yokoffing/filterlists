@@ -27,12 +27,12 @@
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
-! Mali
-||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! China
 ||cn^$doc,domain=~google.cn|~www.chinadaily.com.cn|~360.cn|~china.com.cn|~china.org.cn|~rednet.cn|~amazon.cn|~alexa.cn|~sina.com.cn|~nvgs.nvidia.cn
 ! India
 ||in^$doc,domain=~google.co.in|~blogspot.in|~homegrown.co.in
+! Mali
+||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! Russia
 ||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru|~blogspot.ru|~kremlin.ru
 
@@ -57,19 +57,19 @@
 ! Personal websites and small businesses
 !||lol^$doc,domain=~kissanime.lol|~url.lol|~games.lol|~1v1.lol|~bootcamp.lol
 ! Gaining usage on popular sites
-!||link^$doc,domain=~reddit.app.link|~unlocked.link
 !||asia^$doc,domain=~championat.asia|~viblo.asia|~rgf-hragent.asia|~12go.asia|~film2movie.asia|~subaru.asia|~locanto.asia|~bestreview.asia|~vsuite.asia
 !||fyi^$doc,domain=~levels.fyi|~txt.fyi|~waldo.fyi|~uwatchfree.fyi
 !||garden^$doc,domain=~radio.garden|~nic.garden|~aquascapes.garden|~freya.garden|~the.garden|~plantae.garden
+!||link^$doc,domain=~reddit.app.link|~unlocked.link
 !||live^$doc,domain=~marcello.live|~xforum.live|~arca.live|~alkoora.live|~yhdmp.live|~doramatv.live|~baji.live|~trovo.live|~hyperplane.live
-!||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop|
+!||shop^$doc,domain=~nsverify.shop|~bonaventura.shop|~gate.shop|~mlsbd.shop
 !||su^$doc,domain=~kaihat.su|~simpcity.su|~sevastopol.su|~kob.su|~ati.su|~goo.su|~rusvesna.su|~jut.su
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
 
-! from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt [Nov 2022]
+! from https://github.com/Yuki2718/adblock2/blob/e89bddf6ba0fa39b33e75efe7beaae66be802153/japanese/jpfp-ub.txt
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
