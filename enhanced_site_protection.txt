@@ -57,7 +57,7 @@
 ! Rare cases of use by European road services.
 !||webcam^$doc
 ! Gaining usage on popular sites
-!||asia^$doc,domain=~12go.asia|~bestreview.asia|~championat.asia|~film2movie.asia|~locanto.asia|~rgf-hragent.asia|~subaru.asia|~viblo.asia|~vsuite.asia
+!||asia^$doc,domain=~12go.asia|~bestreview.asia|~championat.asia|~film2movie.asia|~locanto.asia|~oleolebali.asia|~rgf-hragent.asia|~subaru.asia|~viblo.asia|~vsuite.asia
 !||fyi^$doc,domain=~levels.fyi|~txt.fyi|~uwatchfree.fyi|~waldo.fyi
 !||garden^$doc,domain=~aquascapes.garden|~freya.garden|~nic.garden|~plantae.garden|~radio.garden|~the.garden
 !||link^$doc,domain=~reddit.app.link|~unlocked.link
