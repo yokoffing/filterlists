@@ -6,41 +6,23 @@
 ! Version: 19 January 2023
 ! Syntax: AdBlock
 
-kotaku.com##.comments-area, .sticky-item, .posts-list, .entry-author, .logged-out-box
-infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_write_infoq
-thehackernews.com##.right-box, .cf.below-post-box, .sharebelow-comment > .show-comments, .note-b
-hackaday.com##.sidebar-widget-wrapper
-character-ai.us.auth0.com##.c9ce1fa93.ce0052778
-futurepedia.io##div.css-12y6uts.MuiGrid-grid-lg-4.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root:nth-of-type(even)
-typing.com##.bg.card--xs.card.header-callout, .js-guest-banner
-star-history.com##.z-50
-indianexpress.com##.theiaStickySidebar, .custom_read_button, .h-text-widget, .next-story-wrap, .comments, pdsc-related-modify
-theverge.com##div.flex-auto:nth-of-type(even)
-abqjournal.com###secondary > .widget-area, .abq_pw_container
-neeva.com##.header-big-blue-button__active-C2yAM.header-big-blue-button__dismissibleContainer-2T54Z
-goldin.io##.mb-16.mx-auto.max-w-2xl.w-full.justify-center.items-start.flex-col.flex > .mt-8
-upworthy.com##.col.sidebar-col
-wikiwand.com##.navbar_install__Hg9Gg
-nerdwallet.com##.nw-auth-stepper__body-inner
-aeon.co##.NLFormInsertFromCMS
-gizmodo.com##.sidebar-sticky, .js_related-stories-inset, .js_newsletter-form-inline
-scamadviser.com##.ezlazyloaded.banner-image
+!thehotline.org##.-active.is-initialized-modal.modal1
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
-9to5google.com,9to5mac.com,9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd\:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link, .post-meta > .icon-twitter
+9to5google.com, 9to5mac.com, 9to5toys.com##.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .vpmd:mt-7.mt-5.wrap-xs.section-footer.entry-guides, .google-news-link, .post-meta > .icon-twitter
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 abc7.com##.inner.headlines-list.top-stories
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
 abine.com##.widgetable
+abqjournal.com###secondary > .widget-area, .abq_pw_container
 accuweather.com##.full-mobile-width.content-module.article-newsfeed
 additudemag.com##.sidebar-wrapper, .blockcontainer.related-more-articles-recommended-footer.recommended-articles
 adidas.*##.glass-modal___1JNyq.gl-modal--full-mobile.gl-modal--active.gl-modal--mobile-full.gl-modal
-aeon.co##.dylzaW.TenYearDriveBannerHeaderAlternate__Wrapper-sc-oqupvg-0
-aeon.co##.klluhk.TenYearDriveBannerHeader__Wrapper-sc-onblf0-0, .fjpBon.styled__Wrapper-sc-cmz19t-3 > .jBQMtt.styled__Container-sc-19sp5ho-0, .cLaMGV.SupportBar__Wrapper-sc-lwimlo-0, .bEtSlf.styled__SocialLinks-sc-k4zh5d-7, .ihknSh.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3, .bEpMPq.styled__SocialLinks-sc-k4zh5d-7, .jmTZwK.Modal__Container-sc-14qp01n-0, .dhvMwm.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3
+aeon.co##.dylzaW.TenYearDriveBannerHeaderAlternate__Wrapper-sc-oqupvg-0, .klluhk.TenYearDriveBannerHeader__Wrapper-sc-onblf0-0, .fjpBon.styled__Wrapper-sc-cmz19t-3 > .jBQMtt.styled__Container-sc-19sp5ho-0, .cLaMGV.SupportBar__Wrapper-sc-lwimlo-0, .bEtSlf.styled__SocialLinks-sc-k4zh5d-7, .ihknSh.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3, .bEpMPq.styled__SocialLinks-sc-k4zh5d-7, .jmTZwK.Modal__Container-sc-14qp01n-0, .dhvMwm.article__SocialShareBar-sc-br4ey4-14.fjpBon.styled__Wrapper-sc-cmz19t-3
+aeon.co##.NLFormInsertFromCMS
 agar.io###mainui-promo, agar-io_300x250
 aidsmap.com##.region-sidebar.region
-aljazeera.com##.archipelago.article-pre-footer.article-more-from-author
-aljazeera.com###article-most-read, .archipelago.article-pre-footer.article-more-from-topic, .article-related-list__hr.article-related-list
+aljazeera.com##.archipelago.article-pre-footer.article-more-from-author, .article-most-read, .archipelago.article-pre-footer.article-more-from-topic, .article-related-list__hr.article-related-list
 allsides.com##.alert-message
 allsides.com##.block-width-100.fundraising-block-flex, .even.last.block-block.block
 allsides.com##.region-highlighted.region
@@ -110,6 +92,7 @@ cbr.com###secondary, .related-single, .next-single, .w-article-related, .i-arrow
 ccn.com##.ampforwp-inline-related-post
 cex.io##.cookie-notifier-section.cex-ui-section
 chadd.org##.fl-node-601c2996ce495.fl-row-bg-none.fl-row-full-width.fl-row
+character-ai.us.auth0.com##.c9ce1fa93.ce0052778
 citethisforme.com##.ucf-upload-widget-modal-root.bzQanw.sc-1ia47o9-0, .htPnDG.styled__ModalWrapper-sc-1b4zkf-0
 citycoins.co##.banner_container.banner
 citylimits.org###sidebar > .widget-area, #comments, .footer-skyline
@@ -208,6 +191,7 @@ foundation.mozilla.org##.d-print-none.container
 foxnews.com##.sticky-region
 freecodecamp.org##.alert-dismissable.alert-success.alert.flash-message
 freecodecamp.org##.alert-info.alert.annual-donation-alert
+futurepedia.io##div.css-12y6uts.MuiGrid-grid-lg-4.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root:nth-of-type(even)
 gadgets.ndtv.com##.rhs_section, .story_nextprv, .margin_b30.row.story_list, ._ftrwrp, .hd.innerContainer
 gamerant.com###secondary, .next-single, .next-btn.sentinel-article-nextArticle, .w-article-related, .related-single, .w-article-related
 gamerbraves.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .jnews_inline_related_post, .jnews_prev_next_container, .jnews_related_post_container, .section.comment-wrapper
@@ -219,13 +203,16 @@ getpocket.com##.right-aside
 ghacks.net##.ghacks-sidebar
 giantfreakinrobot.com##.col-xs-12.col-lg-4.d-md-block, .related-article.no-gutters.row
 gizchina.com##.vw-content-sidebar
+gizmodo.com##.sidebar-sticky, .js_related-stories-inset, .js_newsletter-form-inline
 gizmodo.com###js_moreFromNetwork
 godaddy.com##.theiaStickySidebar
+goldin.io##.mb-16.mx-auto.max-w-2xl.w-full.justify-center.items-start.flex-col.flex > .mt-8
 greengeeks.com##.widget_custom_html.widget.widget_text, .widget_recent_entries.widget, .widget_categories.widget
 greenpeace.org##.donate-embed.has-image.constrained.gptp-content
 grubstreet.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-link, .related-count-2.multi.related, .related-count-1.related, .non-subscriber-copy, .package-list, .single-related-story, .short-article.sticky-list, .is-on-article-page.curated-feed
 gtricks.com##.collapsed.s1.sidebar
 gwhatchet.com##.widgetizedArea
+hackaday.com##.sidebar-widget-wrapper
 hbr.org##.promo--half.article-promo
 hbr.org##li.sponsored.stream-entry:nth-of-type(2), li.sponsored.stream-entry:nth-of-type(9), li.sponsored.stream-entry:nth-of-type(14), li.sponsored.stream-entry:nth-of-type(19)
 hindustantimes.com##.darkBg.moreFrom, .relatedStory > .widget-impression-candidate.htSlider
@@ -240,8 +227,10 @@ icdsoft.com##.dialog-lightbox-message.dialog-message
 imyfone.com##.base-footer-banner
 independent.co.uk###indy-top-container-wrapper, .gdwXeb.sc-cxFVwQ.kTNFdA.sc-gqdwHF, .nativeVideoWrapper, .related.JbffK.sc-jVKKMF, .sidebar.iMvmnF.sc-jEUCxR, div.related.JbffK.sc-jVKKMF:nth-of-type(5), div.related.JbffK.sc-jVKKMF:nth-of-type(9)
 independent.co.uk##div.related:nth-of-type(6), .sidebar, .related, .heKRRp.sc-13lex7x-0
+indianexpress.com##.theiaStickySidebar, .custom_read_button, .h-text-widget, .next-story-wrap, .comments, pdsc-related-modify
 infinite.tcgplayer.com###app > .subscribe-drawer--container, .article-side-rail, .article-spotlight, .related-articles__grid > .related-content
 infoblox.com##.carousel-desktop.carouselwrapper, .widget-area.sidebar-primary.sidebar
+infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_write_infoq
 inquirer.com##.block.responsive-embed, .component-in-recommender.grid-recommender
 insideevs.com##.ie_transform.sidebar, .relatedContent-new
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
@@ -254,6 +243,7 @@ jezebel.com##.sidebar-sticky-children
 kirupa.com###rightContents, #sigNewsletter
 knowtechie.com##.relative.mvp-post-content-out > .relative, .relative.left.mvp-sec-pad > .relative.left, #mvp-content-main > ul, #h-editors-recommendations
 koaa.com##.TrackedSidebarPromo.AsidePromo
+kotaku.com##.comments-area, .sticky-item, .posts-list, .entry-author, .logged-out-box
 kotaku.com###sidebar_wrapper > .cySkyK.ynugv2-0, .branded-item--kinja.branded-item.inset--story.jfFNjl.sc-1rh3ayr-6, .js_comments-iframe.bGtOjR.sc-73739c-0
 latimes.com##.rail, div.enhancement > .promo-small.promo-position-small.promo, .listicle-menu.list-menu, .list-spacer-bottom.list-d.list
 lenovo.com###confirmit-feedback, #lena-bot-window
@@ -310,6 +300,8 @@ nbcnews.com###embed-20190618-debates-promo-package, .nl-signup-inline
 nbcnewyork.com##.recirc-module, .most-popular__container
 ncbi.nlm.nih.gov##.pmc-labs-ad.ncbi-alerts
 ndtv.com##.reltd-main, .lst_nws_cnt
+neeva.com##.header-big-blue-button__active-C2yAM.header-big-blue-button__dismissibleContainer-2T54Z
+nerdwallet.com##.nw-auth-stepper__body-inner
 news.bitcoin.com##.bottom_article_widgets, .navigation
 news.bitcoin.com###floating_sidebar, .full-grid.article > .article__body > .article__body__tags-related > .article__body__tags-related__related
 news.coincu.com##.jnews_related_post_container, .col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder, .jnews_prev_next_container, .yarpp-template-list.yarpp-related-website.yarpp-related.yarpp > .jeg_posts
@@ -386,6 +378,7 @@ rollingstone.com##.lrv-u-padding-b-1.a-span1.trending-in-article, .newsletter, .
 rugdoc.io###main-leaderboard-box
 salesforce.com##.helpButton
 salon.com##.right-rail
+scamadviser.com##.ezlazyloaded.banner-image
 scientificamerican.com##.aside-block, .aside-block__body, .aside-product, .special--report, .spw__banner, .medium-down-hide.opinion-template--newsletter.flex-column--full-mobile.flex-column--25 > figure, .opinion-article--social-date.medium-down-hide.flex-column--25 > .opinion-template--headerBody-social-icons
 scmp.com##.article-comment-bottom-widget, .others__more-on-this > .related-article, .content--h3.article-details-type--h3.generic-article__body
 scotthelme.co.uk##.outer.read-next
@@ -406,6 +399,7 @@ speedof.me##.test-ad-container
 sports.yahoo.com###module-fanShop
 sports.yahoo.com###wafer-trending-bar, .B\(a\)--maw1064.Pos\(s\)--maw1064.W\(300px\).aside-sticky, .wafer-loader-success.wafer-module-complete.Mstart\(-60px\)--maw1080.Maw\(557px\)--maw1080.Maw\(667px\).sportsmodule-device-desktop.wafer-rapid-module.wafer-module.sports-module, .wafer-rapid-tracked.wafer-rapid-module.monalixa, .wafer-sticky.stream, .caas-non-sticky-sda
 sportskeeda.com###keeda-comments-container
+star-history.com##.z-50
 stereogum.com###comments, .article-comments
 stern.de##.article__sidebar, .article__embedded-teasers, .article__end
 stlouisfed.org##.callout
@@ -436,9 +430,9 @@ thefirsthundredthousand.com##.sqs-gallery-design-autocolumns.summary-block-setti
 thegamer.com###secondary, .next-btn.sentinel-article-nextArticle, .next-single, .related-single, .w-article-related
 thegeeksclub.com##.sidebar
 theguardian.com###e4675c50-1165-4a45-b442-b960d1590dd7, most-viewed-right, .dcr-1aq0rzi, [href^="https://support.theguardian.com/uk/subscribe/digital"], aside.dcr-1xlf9q > .dcr-ipj0ot, aside.dcr-1xlf9q:nth-of-type(2)
+thehackernews.com##.right-box, .cf.below-post-box, .sharebelow-comment > .show-comments, .note-b
 thehill.com##.sidebar.column.region-sidebar-second.region, .es_recommended_content.incontent_widgets
 thehill.com##.thehill-promo-link
-!thehotline.org##.-active.is-initialized-modal.modal1
 theintercept.com###third-party--homepage-banner, .Cta-content
 thelineofbestfit.com##.related-section > .gutter-wrapper, .reviews-section > .layout-wrap, .feature-signup, .signup-sidebar.sidebar-section
 themarkup.org##.article-card--right.article-card--has-image.article-card, .article-footer-titles, .print-hidden.article-footer__latest
@@ -454,6 +448,7 @@ thestranger.com##.article-contribution-footer, .related-content.component
 thestreet.com##.mm-component-stack--has-footer.mm-component-stack--has-header.mm-component-stack--is-stacked.m-component-stack.m-tile-hub
 theverge.com##.c-comments, .c-read-more, .c-recirc-module, .has-content.p-comment-notification, .c-related-list
 theverge.com##.mb-40.duet--recirculation--related-list, .top-90.bg-white.lg\:mb-40.lg\:mt-0.rounded-\[4px\].w-mobile-breaker.my-50.m-auto.p-20.sticky.duet--recirculation--list-breaker-standard
+theverge.com##div.flex-auto:nth-of-type(even)
 thewindowsclub.com##.widget-area.sidebar-primary.sidebar, .related-posts
 thewrap.com##.tpd-live-banner
 thewrap.com##div.tpd-read-more-container:nth-of-type(3), div.tpd-read-more-container:nth-of-type(5), div.tpd-read-more-container:nth-of-type(7), div.tpd-read-more-container:nth-of-type(10), .social-button
@@ -471,7 +466,9 @@ torrentfreak.com##.page__sidebar
 tp-link.com##.widget-sticker-right-middle, .decowifi-sticker
 tuko.co.ke##div.c-article-read-also.post__read-also:nth-of-type(odd), div.c-article-read-also.post__read-also:nth-of-type(even)
 tvline.com##.inline-floating-gallery, .c-related
+typing.com##.bg.card--xs.card.header-callout, .js-guest-banner
 typinggames.zone###ads, #topDivForAd2, .left-ad-container, .typing-games
+upworthy.com##.col.sidebar-col
 us.norton.com##.panel
 usa.kaspersky.com##.js-sticky-sidebar-visible, .c-block--divider.c-block--spacing-b-small\@sm.c-block--spacing-t-small\@sm.c-block > .o-container-fluid
 usmagazine.com###media_image-5 > [href], #module-more-news, .content-card-footer
@@ -509,6 +506,7 @@ weforum.org##div.sidebar-tout:nth-of-type(3), .sidebar-tout--impact-stories.side
 wellandgood.com##.related-content
 whyy.org##.block--top-stories.block, .flexible-content-container > .block--related-content.block, .detail-footer
 wikihow.com###sidebar
+wikiwand.com##.navbar_install__Hg9Gg
 wired.com##.paywall-bar--expanded.paywall-bar-failsafe, .paywall-bar__expanded, .show-social-box.persistent-aside--align-left.persistent-aside, .sticky-box
 wololo.net##.sidebar-content, #comments
 womenshealthmag.com##.watch-next-in-body.end-of-content-playlist, .embed-product-small.embed-product-left.embed-product.embed, .transporter
