@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 17 January 2023
+! Version: 18 January 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -34,7 +34,7 @@
 ! Mali
 ||ml^$doc,domain=~google.ml|~melody.ml|~info-matin.ml|~amap.ml|~mastodon.ml|~nothingprivate.ml|~lingva.ml|~lemmy.ml|~beatbump.ml|~prompt.ml|~biblioreads.ml
 ! Russia
-||ru^$doc,domain=~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru|~blogspot.ru|~kremlin.ru
+||ru^$doc,domain=~~adm-bezheck.ru|~admandreapol.ru|~admin-smolensk.ru|~adminzubcov.ru|~admmolokovo.ru|~admtyumen.ru|~altai-republic.ru|~bryanskobl.ru|~e-mordovia.ru|~egov-buryatia.ru|~glavafirovo.ru|~google.ru|~aliexpress.ru|~yandex.ru|~dzen.ru|~journal.tinkoff.ru|~blogspot.ru|~kremlin.ru|~gov.karelia.ru|~gov.ru|~ingushetia.ru|~kalinin-adm.ru|~kamgov.ru|~kchr.ru|~khabkrai.ru|~khogov.ru|~kimryadm.ru|~konakovoregion.ru|~krholm.ru|~kurganobl.ru|~kursk.ru|~kuvshinovoadm.ru|~lenobl.ru|~lihoslavl69.ru|~maksatiha-adm.ru|~olenino.ru|~ozerny.ru|~rameshki.ru|~rbologoe.ru|~rkomi.ru|~rtyva.ru|~ryazangov.ru|~rzhevcity.ru|~sandovoregion.ru|~sonkovo.ru|~stavregion.ru|~tatarstan.ru|~toropecadm.ru|~torzhok-adm.ru|~torzhokadm.ru|~tver.ru|~udomelskij-okrug.ru|~v-volok.ru|~volgadmin.ru|~zapdvina.ru|~zapgov.ru|~zatosoln.ru
 
 !!! Potentially bad TLDs
 ! Needs more data/sources
