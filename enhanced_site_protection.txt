@@ -48,14 +48,14 @@
 !!! Unblocked TLDS
 ! A fair bit of use among US law firms
 !||associates^$doc
-! Oddly appears to be used by some restaurants. Can't be blocked at the moment.
-!||rest^$doc
-! Rare cases of use by European road services.
-!||webcam^$doc
 ! False positives are too significant
 !||info^$doc,domain=~aboutads.info|~apowersoft.info|~austria.info|~avascan.info|~blockchain.info|~ciphersuite.info|~dnscrypt.info|~germany.info|~monstercock.info|~openbible.info|~pop-planet.info|~privatebin.info|~scammer.info|~socialsecurityoffices.info|~spain.info|~steamdb.info|~worldometers.info
+! Oddly appears to be used by some restaurants. Can't be blocked at the moment.
+!||rest^$doc
 ! Personal websites and small businesses
 !||lol^$doc,domain=~1v1.lol|~bootcamp.lol|~games.lol|~kissanime.lol|~url.lol
+! Rare cases of use by European road services.
+!||webcam^$doc
 ! Gaining usage on popular sites
 !||asia^$doc,domain=~12go.asia|~bestreview.asia|~championat.asia|~film2movie.asia|~locanto.asia|~rgf-hragent.asia|~subaru.asia|~viblo.asia|~vsuite.asia
 !||fyi^$doc,domain=~levels.fyi|~txt.fyi|~uwatchfree.fyi|~waldo.fyi
