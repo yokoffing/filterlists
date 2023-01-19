@@ -3,9 +3,13 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 18 January 2023
+! Version: 19 January 2023
 ! Syntax: AdBlock
 
+kotaku.com##.comments-area, .sticky-item, .posts-list, .entry-author, .logged-out-box
+infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_write_infoq
+thehackernews.com##.right-box, .cf.below-post-box, .sharebelow-comment > .show-comments, .note-b
+hackaday.com##.sidebar-widget-wrapper
 character-ai.us.auth0.com##.c9ce1fa93.ce0052778
 futurepedia.io##div.css-12y6uts.MuiGrid-grid-lg-4.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root:nth-of-type(even)
 typing.com##.bg.card--xs.card.header-callout, .js-guest-banner
@@ -115,11 +119,7 @@ cnbc.com##.ExclusiveContentBucket-exclusiveContentBucket, .ReadMore-container-cn
 cnbc.com##.SectionWrapper-container, .SidebarArticle-sticky, .WatchLiveRightRail-container.WatchLiveRightRail-inline, .RelatedContent-container
 cnet.com##.c-quizbanner_form.c-quizbanner, .myFinance-iframe
 cnil.fr##li.picto > [href="http://twitter.com/CNIL_en"] > .logo_mini_menu_titre_twitter
-cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone, .RelatedArticle__component
-cnn.com##.factbox_inline-small__standard.factbox_inline-small
-cnn.com##.image_inline-small--eq-extra-small.image_inline-small
-cnn.com##.related-content--article.related-content
-cnn.com##div.related-content_without-image
+cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone, .RelatedArticle__component, .factbox_inline-small__standard.factbox_inline-small, .related-content--article.related-content, div.related-content_without-image
 coindesk.com##.fFpIEz.newsletter-ctastyles__Wrapper-sc-1a47sbx-0
 coindesk.com##.fyPdeu.newsletter-ctastyles__Wrapper-sc-18e7dvj-0
 coingecko.com##div.p-4:nth-of-type(3), .tw-mb-16
