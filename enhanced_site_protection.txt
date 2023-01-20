@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 January 2023
+! Version: 20 January 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -62,7 +62,7 @@
 !||garden^$doc,domain=~aquascapes.garden|~freya.garden|~nic.garden|~plantae.garden|~radio.garden|~the.garden
 !||link^$doc,domain=~reddit.app.link|~unlocked.link
 !||live^$doc,domain=~alkoora.live|~arca.live|~baji.live|~doramatv.live|~hyperplane.live|~marcello.live|~trovo.live|~xforum.live|~yhdmp.live
-!||shop^$doc,domain=~bonaventura.shop|~gate.shop|~mlsbd.shop|~nsverify.shop
+!||shop^$doc,domain=~bonaventura.shop|~gate.shop|~mlsbd.shop
 !||su^$doc,domain=~ati.su|~goo.su|~jut.su|~kaihat.su|~kob.su|~rusvesna.su|~sevastopol.su|~simpcity.su
 
 !#if ext_ublock
