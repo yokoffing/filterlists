@@ -3,45 +3,46 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 January 2023
+! Version: 21 January 2023
 ! Syntax: AdBlock
 
-||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com|~window-swap.com
-||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
-||scribd.com/embeds/$3p,frame,redirect=click2load.html
-||docs.google.com/document/d/e/$3p,frame,redirect=click2load.html
-||docs.google.com/presentation/d/e/$3p,frame,redirect=click2load.html
-||drive.google.com/file/$3p,frame,redirect=click2load.html
-||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
-||player.twitch.tv/$3p,frame,redirect=click2load.html
-||embed.ted.com/$3p,frame,redirect=click2load.html
-||player.simplecast.com^$3p,frame,redirect=click2load.html
-||embed.podcasts.apple.com/$3p,frame,redirect=click2load.html
-||embed.music.apple.com/$3p,frame,redirect=click2load.html
-||embed.acast.com/$3p,frame,redirect=click2load.html
-||player.megaphone.fm/$3p,frame,redirect=click2load.html
-||open.spotify.com/embed/$3p,frame,redirect=click2load.html
-||open.spotify.com/embed-podcast/$3p,frame,redirect=click2load.html
-||quizlet.com/$3p,frame,redirect=click2load.html
-||html5-player.libsyn.com/embed/$3p,frame,redirect=click2load.html
-||google.com/maps/embed$3p,frame,redirect=click2load.html
-||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
-||embed.documentcloud.org/$3p,frame,redirect=click2load.html
-||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
-||stay22.com/embed/$3p,frame,redirect=click2load.html
-||checkout.shopify.com/$3p,frame,redirect=click2load.html
-||dexscreener.com/$3p,frame,redirect=click2load.html
-||traderjoexyz.com/$3p,frame,redirect=click2load.html
-||docs.google.com/forms/$3p,frame,redirect=click2load.html
-||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
-||view.genial.ly$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
-||iframe.videodelivery.net/$3p,frame,redirect=click2load.html
+||checkout.shopify.com/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
+||dexscreener.com/$3p,frame,redirect=click2load.html
+||docs.google.com/document/d/e/$3p,frame,redirect=click2load.html
+||docs.google.com/forms/$3p,frame,redirect=click2load.html
+||docs.google.com/presentation/d/e/$3p,frame,redirect=click2load.html
+||docs.google.com/viewer*$3p,frame,redirect=click2load.html
+||drive.google.com/file/$3p,frame,redirect=click2load.html
+||embed.acast.com/$3p,frame,redirect=click2load.html
+||embed.documentcloud.org/$3p,frame,redirect=click2load.html
+||embed.music.apple.com/$3p,frame,redirect=click2load.html
+||embed.podcasts.apple.com/$3p,frame,redirect=click2load.html
+||embed.ted.com/$3p,frame,redirect=click2load.html
 ||glitch.com/embed/$3p,frame,redirect=click2load.html
+||google.com/maps/embed$3p,frame,redirect=click2load.html
+||html5-player.libsyn.com/embed/$3p,frame,redirect=click2load.html
+||iframe.videodelivery.net/$3p,frame,redirect=click2load.html
+||open.spotify.com/embed-podcast/$3p,frame,redirect=click2load.html
+||open.spotify.com/embed/$3p,frame,redirect=click2load.html
+||player.megaphone.fm/$3p,frame,redirect=click2load.html
+||player.simplecast.com^$3p,frame,redirect=click2load.html
+||player.twitch.tv/$3p,frame,redirect=click2load.html
+||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com|~window-swap.com
+||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
+||quizlet.com/$3p,frame,redirect=click2load.html
+||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
+||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
+||scribd.com/embeds/$3p,frame,redirect=click2load.html
+||stay22.com/embed/$3p,frame,redirect=click2load.html
+||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
+||view.genial.ly$3p,frame,redirect=click2load.html
+||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
+||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
+||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
+||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 
 !!! DO NOT BLOCK
 ! Tiktok embeds, GIFs
