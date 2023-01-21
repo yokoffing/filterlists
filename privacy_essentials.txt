@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 20 January 2023
+! Version: 21 January 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -21,21 +21,21 @@ $ping
 /loginmanager_sniff.js$script
 ||0dcde44a41.com^
 ||1105media.com^$3p
-||2mdn.net^$3p,important
+! ||2mdn.net^$3p,important
 ||2o7.net^
 ||7882f4ee63.com^
 ||a2sky.com^$3p
 ||ablestar.app^$3p
 ||ad.exilio.net^
-||addthis.com^$important
+! ||addthis.com^$important
 ||adicio.com^$3p
 ||adjust.com^$3p
-||adnxs.com^$3p,important
-||adsensecustomsearchads.com^$important
-||adserver.yahoo.com^$important
+! ||adnxs.com^$3p,important
+! ||adsensecustomsearchads.com^$important
+! ||adserver.yahoo.com^$important
 ||adsessionserv.com^
-||adskeeper.co.uk^$3p,important
-||advertising.com^$document,important
+! ||adskeeper.co.uk^$3p,important
+! ||advertising.com^$document,important
 ||agilemeasure.com^$3p
 ||alooma.com^$3p
 ! ||amazon-adsystem.com^$important,domain=~cnn.com
@@ -46,7 +46,7 @@ $ping
 ||aolcdn.com/ads/$3p,script
 ||api.github.com/_private/browser/errors^
 ||api.stacksocial.com^
-||app-measurement.com^$important
+! ||app-measurement.com^$important
 ||arc.io^
 ||arctur.^$3p
 ||askmediagroup.com^$3p
@@ -55,10 +55,10 @@ $ping
 ||b7b06aa9a2.com
 ||backinstock.org^$3p
 ||baidu.com^$3p
-||beacon.krxd.net^$important
+! ||beacon.krxd.net^$important
 ||bestofmedia.com^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
-||bf-ad.net^$important
+! ||bf-ad.net^$important
 ||bimbolive.com^$3p
 ||blitzen.com^$3p
 ||blogsmithmedia.com^$3p,xhr
@@ -85,8 +85,8 @@ $ping
 ||cleantalk.org^
 ||coinmarketcap.com^$3p
 ||concert.io^$3p
-||consensu.org^$important,redirect=noopjs
-||contentpass.net^$important
+! ||consensu.org^$important,redirect=noopjs
+! ||contentpass.net^$important
 ! ||cookiebot.com^
 ! ||cookieinfoscript.com^$3p
 ! ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
@@ -123,7 +123,7 @@ $ping
 ||future-fie.co.uk^
 ||future.net.uk^$3p,~script
 ||futurecdn.net^$xhr
-||fwmrm.net^$important
+! ||fwmrm.net^$important
 ||geniuslinkcdn.com^$3p
 ||geo.cnbc.com^
 ||geo.lovely-app.com^
@@ -144,14 +144,14 @@ $ping
 ||hawksearch.com^$3p
 ||hollywoodreporter.com/fe_data/$1p,xmlhttprequest
 ||hotjar-analytics.com^
-||hotjar.com^$important,3p
-||hotjar.io^$important,3p
+! ||hotjar.com^$important,3p
+! ||hotjar.io^$important,3p
 ||hubspot.com^$3p
 ||hudo.com^$inline-script
 ||iheart.com^$all,domain=~iheart.com
 ||incartupsell.com^$3p
 ||influglue.com^$3p
-||inspectlet.com^$3p,important
+! ||inspectlet.com^$3p,important
 ||inswebt.com^
 ||intercom.com^$3p,domain=~koinly.io
 ||ip.sp^
@@ -188,7 +188,7 @@ $ping
 ||marketo.com^
 ||media.licdn.com^$domain=~linkedin.com
 ||medium.com^$3p,~script,~image
-||mgid.com^$3p,important
+! ||mgid.com^$3p,important
 ||mimecast.com^$3p
 ||moengage.com^$3p
 ||montangop.top^
@@ -244,17 +244,17 @@ $ping
 ||s.aolcdn.com/ads/$3p,script
 ||salesforceliveagent.com^$3p
 ||sandsiv.com^$3p
-||scorecardresearch.com^$important
-||scroll.com^$3p,important
+! ||scorecardresearch.com^$important
+! ||scroll.com^$3p,important
 ||sdk.asapp.com^
 ||search.brave.com/api/feedback^
 ||secomapp.com^$3p
 ||secondego.com^$3p
 ||securemetrics.apple.com^$3p
-||segment.com^$important
-||servebom.com^$3p,important
+! ||segment.com^$important
+! ||servebom.com^$3p,important
 ||services.wikia.com^
-||sharethis.com^$3p,important
+! ||sharethis.com^$3p,important
 ||shutterstock.com^$3p
 ||simplecast.com^$3p
 ||sitebot.ai^$3p
@@ -269,15 +269,15 @@ $ping
 ||sni.star.24ur.com.c.footprint.net^$media
 ||soap2day.to^$3p
 ||soapps.net^$3p
-||spot.im^$3p,important
-||startpage.com/do/$image,important
-||startpage.com/english/$image,important
-||startpage.com/tst2/$image,important
+! ||spot.im^$3p,important
+! ||startpage.com/do/$image,important
+! ||startpage.com/english/$image,important
+! ||startpage.com/tst2/$image,important
 ||stkbl.app^$3p
 ||streetmetrics.io^$3p
 ||strike.fox.com^$3p
 ||syndetics.com^$3p
-||taboola.com^$3p,important
+! ||taboola.com^$3p,important
 ||tags.news.com.au^
 ||target.bose.com^
 ||tawk.to^$3p
@@ -288,7 +288,7 @@ $ping
 ||thunderhead.com^$3p
 ||ti-media.net^$~stylesheet,~image
 ||tinymce.com^$3p
-||tinypass.com^$important
+! ||tinypass.com^$important
 ||titsx.com^$3p
 ||tracking.epicgames.com^
 ||tradingview.com^$3p
@@ -315,7 +315,7 @@ $ping
 ||yandex.ru^$3p,domain=~dzen.ru
 ||yottaa.com^$3p
 ||yottlyscript.com^$3p
-||zqtk.net^$important
+! ||zqtk.net^$important
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
@@ -398,7 +398,7 @@ fmovies.*##+js(nosiif, try)
 @@||google.com/recaptcha/api.js$script
 @@||google.com^$script,domain=youtube.com
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
-!@@||google.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
+! @@||google.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gstaticadssl.*.google.com^$font
 @@||maps-api-ssl.google.com^$script,image
