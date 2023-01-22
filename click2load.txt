@@ -3,9 +3,10 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 21 January 2023
+! Version: 22 January 2023
 ! Syntax: AdBlock
 
+||airtable.com/embed*$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
 ||checkout.shopify.com/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
