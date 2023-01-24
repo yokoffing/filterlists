@@ -3,7 +3,7 @@
 ! Description: From AdGuard Annoyances and Fanboy Annoyance lists.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 January 2023
+! Version: 23 January 2023
 ! Syntax: AdBlock
 
 _40x40_dailymotion.
@@ -9055,7 +9055,6 @@ _youtube-button.
 ||formcs.globalso.com^$domain=voopoo.com
 ||formiche.net^*/newsletterformiche-
 ||formilla.com^$third-party
-||formstack.com/forms/$third-party
 ||fortbegother.ru^$third-party
 ||fortementein.com/wp-content/uploads/siteground-optimizer-assets/cookie-law-info.min.js
 ||fortunatemark.com^$third-party
