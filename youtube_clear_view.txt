@@ -3,13 +3,13 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 December 2022
+! Version: 24 January 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
 ! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
 ! (old format)
-www.youtube.com##[aria-label$="likes"]
+! www.youtube.com##[aria-label$="likes"]
 ! (new format)
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
