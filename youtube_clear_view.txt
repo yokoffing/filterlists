@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 27 January 2023b
+! Version: 27 January 2023c
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -47,6 +47,7 @@ www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-tim
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
 
 ! Hide Scam Channels
+! https://letsblock.it/filters/youtube-channel
 ! Elon Musk
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk"])
 www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk"])
