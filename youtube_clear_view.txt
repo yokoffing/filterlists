@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 24 January 2023
+! Version: 27 January 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -45,6 +45,25 @@ www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
 www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
+
+! Hide Scam Channels
+! Elon Musk
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk"])
+www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk"])
+www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk"])
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Zone"])
+www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Zone"])
+www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Zone"])
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Now"])
+www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Now"])
+www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Now"])
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Live"])
+www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Live"])
+www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Live"])
+! Tesla
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Tesla Inc."])
+www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Tesla Inc."])
+www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Tesla Inc."])
 
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
