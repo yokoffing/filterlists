@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 27 January 2023
+! Version: 28 January 2023
 ! Syntax: AdBlock
 
 fiercebiotech.com##.embedded-entity
@@ -176,7 +176,6 @@ eurweb.com##p > strong
 extremetech.com##.widget_recentpostswidget.widget
 eyerys.com##.region-sidebar-second.region
 f2movies.to###gift-top, .mb-3.alert, .file_realted-list.film_related
-fandom.com##.mcf-wrapper, .wds-global-footer__main
 fastcompany.com##.article__insert, .recirc
 fayobserver.com##.gnt_em_vp__tavp.gnt_em, .gnt_m_fs.gnt_m, .gnt_n_sm__ne_a.gnt_n_sm_a, .gnt_n_sm_a
 fedscoop.com##.articles--noborder.articles
@@ -315,7 +314,7 @@ news.yahoo.com##p:nth-of-type(15)
 news.yahoo.com##p:nth-of-type(23)
 news.yahoo.com##p:nth-of-type(3)
 news.yahoo.com##p:nth-of-type(5)
-newsmax.com##.nmsponsorlink
+! newsmax.com##.nmsponsorlink
 newsweek.com##.id.style2.related2, .relatedNews
 newyorker.com##inline-embed
 nintendolife.com##.trending-articles, .see-also
@@ -646,7 +645,6 @@ twitch.tv##.prime-offers
 twitch.tv##.extension-view__iframe
 twitch.tv##.headliner-ad
 twitch.tv##.front-page-carousel
-twitch.tv##.extension-view__iframe
 !twitch.tv##.channel-panels-container
 ! Animated Emotes; can be disabled in settings
 twitch.tv##.chat-input.bGyiZe.Layout-sc-1xcs6mc-0 > .Layout-sc-1xcs6mc-0
@@ -739,6 +737,7 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
 ! Aggressive Fandom Wiki
+fandom.com##.wds-global-footer__main
 ! https://www.reddit.com/r/uBlockOrigin/comments/z0i6qy/aggressive_fandom_wiki_filter_set/
 fandom.com##.global-footer
 fandom.com##.mcf-wrapper
