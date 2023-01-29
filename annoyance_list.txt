@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 28 January 2023
+! Version: 29 January 2023
 ! Syntax: AdBlock
 
 fiercebiotech.com##.embedded-entity
@@ -784,6 +784,9 @@ nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
 
 ! embedded widget chat service
 ||cbox.ws^
+
+! Unsplash+ images
+unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 
 ! from https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/blob/master/uBlock-Filters-Plus.txt [Nov 2022]
 ###AdsByCurseBanner
