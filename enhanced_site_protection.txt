@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 January 2023
+! Version: 30 January 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -11,7 +11,7 @@
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
 ||fun^$doc,domain=~155.fun|~20anime.fun|~355.fun|~955.fun|~98e.fun|~apkmody.fun|~applemc.fun|~bc.fun|~bestgore.fun|~bqg.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~enza.fun|~filmapik21.fun|~gaggle.fun|~isohunt.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~luotphim.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~moviesdada.fun|~neal.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~www.wondertrip.fun|~x-videos.fun|~xxx-sex.fun|~xxxmovies.fun
 ||online^$doc,domain=~allhen.online|~amedia.online|~chainsaw-man-manga.online|~ero-labs.online|~manga1st.online
-||site^$doc,domain=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~fitgirl-repacks.site|~fmoviesto.site|~metrolagu.site|~notube.site|~secreto.site|~wuxiaworld.site
+||site^$doc,domain=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~first-party.site|~fitgirl-repacks.site|~fmoviesto.site|~metrolagu.site|~notube.site|~secreto.site|~wuxiaworld.site
 ||tk^$doc,domain=~bstweaker.tk|~budterence.tk|~c0d3c.tk|~coolcmd.tk|~coppersurfer.tk|~fakaofo.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~loljp-wiki.tk|~nbd-media.tk|~ninetail.tk|~nolfrevival.tk|~tokelau-info.tk|~transportnews.tk
 
 !!! Likely abused TLDs
