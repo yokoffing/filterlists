@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 24 January 2023
+! Version: 31 January 2023
 ! Syntax: AdBlock
 
 ||airtable.com/embed*$3p,frame,redirect=click2load.html
@@ -13,9 +13,11 @@
 ||checkout.shopify.com/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
 ||dexscreener.com/$3p,frame,redirect=click2load.html
+||docs.google.com/$3p,frame,redirect=click2load.html
 ||docs.google.com/document/d/e/$3p,frame,redirect=click2load.html
 ||docs.google.com/forms/$3p,frame,redirect=click2load.html
 ||docs.google.com/presentation/d/e/$3p,frame,redirect=click2load.html
+||docs.google.com/spreadsheets/$3p,frame,redirect=click2load.html
 ||docs.google.com/viewer*$3p,frame,redirect=click2load.html
 ||drive.google.com/file/$3p,frame,redirect=click2load.html
 ||embed.acast.com/$3p,frame,redirect=click2load.html
