@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 February 2023b
+! Version: 13 February 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -480,7 +480,7 @@ platform.twitter.com##+js(cookie-remover)
 /GooglePayButton
 /FacebookPayButton
 /ShopPay
-||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com
+||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !@@||js.stripe.com^
 
 ! VIDEO PLAYERS
