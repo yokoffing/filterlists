@@ -23,7 +23,7 @@
 ||loans^$doc
 ||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
 ||surf^$doc,domain=~kayaking.surf|~quran.surf|~s-wings.surf|~surfstation.surf
-||zone^$doc,domain=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~thekitty.zone|~typinggames.zone
+||zone^$doc,domain=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~thekitty.zone|~typinggames.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
