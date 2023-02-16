@@ -28,7 +28,7 @@
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
 ! Mali
-||ml^$doc,domain=~amap.ml|~beatbump.ml|~biblioreads.ml|~google.ml|~info-matin.ml|~lemmy.ml|~lingva.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~prompt.ml
+||ml^$doc,domain=~amap.ml|~beatbump.ml|~biblioreads.ml|~ghostcloud.ml|~google.ml|~info-matin.ml|~lemmy.ml|~lingva.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~prompt.ml
 ! China
 !||cn^$doc,domain=~360.cn|~alexa.cn|~amazon.cn|~china.com.cn|~china.org.cn|~chinadaily.com.cn|~google.cn|~nvgs.nvidia.cn|~rednet.cn|~sina.com.cn
 ! India
