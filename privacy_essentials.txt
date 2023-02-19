@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 17 February 2023b
+! Version: 19 February 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -523,11 +523,27 @@ platform.twitter.com##+js(cookie-remover)
 ! bloomberg.com CNAME
 @@||cdx.cedexis.net^$domain=bloomberg.*
 
-! CBS News
+! CBS News steam breakage
+! https://github.com/uBlockOrigin/uAssets/issues/2353
+@@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
+! https://github.com/uBlockOrigin/uAssets/issues/8863
+@@||tealium.cbsnews.com/*/prod/utag.js$script,1p
+! https://www.cbsnews.com/live/ video breakage
+! https://www.reddit.com/r/uBlockOrigin/comments/1109rgn/
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbsnews.com,redirect=google-ima.js,important
+||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$script,domain=cbsnews.com,redirect-rule=google-ima.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai_debug.js$script,domain=cbsnews.com
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=cbsnews.com
+! https://www.reddit.com/r/uBlockOrigin/comments/jpy4b6/running_into_this_message_on_cbs_and_fox_sports/
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xhr,domain=cbssports.com
+! https://www.gamespot.com/gallery/the-best-movies-and-tv-you-probably-missed-in-2020/2900-3665/ broken images
+@@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$script,domain=gamespot.com
 @@||cbsnews4.cbsistatic.com/fly/bundles/cbsnewscore/js-build/libs/chartbeat.js$script,domain=cbsnews.com
 @@||cbsistatic.com/*/comscore.streaming.$script,domain=cbsnews.com
 ! Cookie problem
 @@||isgprivacy.cbsi.com^$3p,script,domain=cbsnews.com
+! https://github.com/uBlockOrigin/uAssets/issues/2101
+||vidtech.cbsinteractive.com/*/tracking/comscore/comscore.streaming.$script,redirect=noopjs,domain=zdnet.com
 
 ! BING
 ||bing.com^$3p,domain=~login.live.com|~microsoft.com|~msn.com
