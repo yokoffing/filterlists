@@ -3,27 +3,27 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 16 February 2023
+! Version: 22 February 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
 ! Topical domains with wide use by bad actors and whose use for legitimate purposes is small
 ! https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1371434337
-||fun^$doc,domain=~155.fun|~20anime.fun|~355.fun|~955.fun|~98e.fun|~apilist.fun|~apkmody.fun|~applemc.fun|~bc.fun|~bestgore.fun|~bqg.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~filmapik21.fun|~fortnite.fun|~gaggle.fun|~isohunt.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~luotphim.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~moviesdada.fun|~neal.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~toku.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~wondertrip.fun|~x-videos.fun|~xxx-sex.fun|~xxxmovies.fun
-||online^$doc,domain=~allhen.online|~amedia.online|~chainsaw-man-manga.online|~ero-labs.online|~manga1st.online
-||site^$doc,domain=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~dodi-repacks.site|~first-party.site|~fitgirl-repacks.site|~fmoviesto.site|~heimdall.site|~metrolagu.site|~notube.site|~secreto.site|~thex.site|~third-party.site|~wuxiaworld.site
+||fun^$doc,domain=~155.fun|~20anime.fun|~355.fun|~955.fun|~98e.fun|~apilist.fun|~apkmody.fun|~applemc.fun|~bc.fun|~bestgore.fun|~bqg.fun|~cdn.fun|~d21.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~filmapik21.fun|~fortnite.fun|~gaggle.fun|~isohunt.fun|~klik.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~luotphim.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~moviesdada.fun|~neal.fun|~nic.fun|~oldmovies.fun|~plutonews.fun|~porncum.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~toku.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~wondertrip.fun|~x-videos.fun|~xxx-sex.fun|~xxxmovies.fun
+||online^$doc,domain=~allhen.online|~amedia.online|~chainsaw-man-manga.online|~ero-labs.online|~manga1st.online|~nic.online
+||site^$doc,domain=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~dodi-repacks.site|~first-party.site|~fitgirl-repacks.site|~fmoviesto.site|~heimdall.site|~metrolagu.site|~nic.site|~notube.site|~secreto.site|~thex.site|~third-party.site|~wuxiaworld.site
 ||tk^$doc,domain=~bstweaker.tk|~bonzibuddy.tk|~budterence.tk|~c0d3c.tk|~coolcmd.tk|~coppersurfer.tk|~fakaofo.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~loljp-wiki.tk|~nbd-media.tk|~ninetail.tk|~nolfrevival.tk|~tokelau-info.tk|~transportnews.tk
 
 !!! Likely abused TLDs
 ! https://www.spamhaus.org/statistics/tlds/
 ! https://w3techs.com/technologies/overview/top_level_domain
-||beauty^$doc,domain=~vipbj.beauty
-||degree^$doc,domain=~opf.degree|~three60.degree
-||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~pridegym.fit
-||loans^$doc
-||quest^$doc,domain=~0x00.quest|~prednisonetab.quest
-||surf^$doc,domain=~kayaking.surf|~quran.surf|~s-wings.surf|~surfstation.surf
-||zone^$doc,domain=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~thekitty.zone|~typinggames.zone
+||beauty^$doc,domain=~nic.beauty|~vipbj.beauty
+||degree^$doc,domain=~nic.degree|~opf.degree|~three60.degree
+||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit
+||loans^$doc,domain=~nic.loans
+||quest^$doc,domain=~0x00.quest|~nic.quest|~prednisonetab.quest
+||surf^$doc,domain=~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf|~surfstation.surf
+||zone^$doc,domain=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
@@ -32,18 +32,9 @@
 ! China
 !||cn^$doc,domain=~360.cn|~alexa.cn|~amazon.cn|~china.com.cn|~china.org.cn|~chinadaily.com.cn|~google.cn|~nvgs.nvidia.cn|~rednet.cn|~sina.com.cn
 ! India
-!||in^$doc,domain=~blogspot.in|~google.co.in|~homegrown.co.in
+!||in^$doc,domain=~blogspot.in|~google.co.in|~homegrown.co.in|~nic.in
 ! Russia
-!||ru^$doc,domain=~adm-bezheck.ru|~admandreapol.ru|~admin-smolensk.ru|~adminzubcov.ru|~admmolokovo.ru|~admtyumen.ru|~aliexpress.ru|~altai-republic.ru|~blogspot.ru|~bryanskobl.ru|~dzen.ru|~e-mordovia.ru|~egov-buryatia.ru|~glavafirovo.ru|~google.ru|~gov.karelia.ru|~gov.ru|~ingushetia.ru|~journal.tinkoff.ru|~kalinin-adm.ru|~kamgov.ru|~kchr.ru|~khabkrai.ru|~khogov.ru|~kimryadm.ru|~konakovoregion.ru|~kremlin.ru|~krholm.ru|~kurganobl.ru|~kursk.ru|~kuvshinovoadm.ru|~lenobl.ru|~lihoslavl69.ru|~maksatiha-adm.ru|~olenino.ru|~ozerny.ru|~rameshki.ru|~rbologoe.ru|~rkomi.ru|~rtyva.ru|~ryazangov.ru|~rzhevcity.ru|~sandovoregion.ru|~sonkovo.ru|~stavregion.ru|~tatarstan.ru|~toropecadm.ru|~torzhok-adm.ru|~torzhokadm.ru|~tver.ru|~udomelskij-okrug.ru|~v-volok.ru|~volgadmin.ru|~yandex.ru|~zapdvina.ru|~zapgov.ru|~zatosoln.ru
-
-!!! Potentially bad TLDs
-! Needs more data/sources
-!||buzz^$doc
-!||icu^$doc
-!||recipes^$doc
-!||software^$doc
-!||tokyo^$doc
-!||win^$doc
+!||ru^$doc,domain=~adm-bezheck.ru|~admandreapol.ru|~admin-smolensk.ru|~adminzubcov.ru|~admmolokovo.ru|~admtyumen.ru|~aliexpress.ru|~altai-republic.ru|~blogspot.ru|~bryanskobl.ru|~dzen.ru|~e-mordovia.ru|~egov-buryatia.ru|~glavafirovo.ru|~google.ru|~gov.karelia.ru|~gov.ru|~ingushetia.ru|~journal.tinkoff.ru|~kalinin-adm.ru|~kamgov.ru|~kchr.ru|~khabkrai.ru|~khogov.ru|~kimryadm.ru|~konakovoregion.ru|~kremlin.ru|~krholm.ru|~kurganobl.ru|~kursk.ru|~kuvshinovoadm.ru|~lenobl.ru|~lihoslavl69.ru|~maksatiha-adm.ru|~nic.ru|~olenino.ru|~ozerny.ru|~rameshki.ru|~rbologoe.ru|~rkomi.ru|~rtyva.ru|~ryazangov.ru|~rzhevcity.ru|~sandovoregion.ru|~sonkovo.ru|~stavregion.ru|~tatarstan.ru|~toropecadm.ru|~torzhok-adm.ru|~torzhokadm.ru|~tver.ru|~udomelskij-okrug.ru|~v-volok.ru|~volgadmin.ru|~yandex.ru|~zapdvina.ru|~zapgov.ru|~zatosoln.ru
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
