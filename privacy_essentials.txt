@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 February 2023b
+! Version: 23 February 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
