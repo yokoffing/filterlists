@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 26 February 2023
+! Version: 26 February 2023b
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -410,6 +410,8 @@ fmovies.*##+js(nosiif, try)
 
 ! FACEBOOK/INSTAGRAM
 ||connect.facebook.net^$important
+||graph.facebook.com^$domain=~facebook.com|~instagram.com
+||graph.instagram.com^$domain=~facebook.com|~instagram.com
 ||facebook.^$3p,domain=~instagram.com|~messenger.com
 ||fbcdn.^$3p
 ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com
