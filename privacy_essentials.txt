@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 23 February 2023
+! Version: 26 February 2023b
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -85,6 +85,7 @@ $ping
 ||cleantalk.org^
 ||coinmarketcap.com^$3p
 ||concert.io^$3p
+||connect.getflowbox.com^$3p
 ||consensu.org^$redirect=noopjs
 ||contentpass.net^
 ! ||cookiebot.com^
@@ -161,6 +162,7 @@ $ping
 ||jetlore.com^$3p
 ||judge.me^$3p
 ||js.partnerstack.com^$3p
+||js.testfreaks.com^$3p
 ||jwp*.com^$3p,~script,~media,~image
 ||kme.si^$3p,~image
 ||knowyourapps.com^$3p
@@ -408,6 +410,8 @@ fmovies.*##+js(nosiif, try)
 
 ! FACEBOOK/INSTAGRAM
 ||connect.facebook.net^$important
+||graph.facebook.com^$domain=~facebook.com|~instagram.com
+||graph.instagram.com^$domain=~facebook.com|~instagram.com
 ||facebook.^$3p,domain=~instagram.com|~messenger.com
 ||fbcdn.^$3p
 ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com

@@ -3,9 +3,27 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 February 2023
+! Version: 26 February 2023
 ! Syntax: AdBlock
 
+cryptoevents.global##.sidebar-widgets, .custom-banners-cycle-slideshow-default_style
+||crypto.games/banners$image
+sfexaminer.com##.visible.centered.in.promo-designer-modal.modal
+catchpoint.com##.newsletter.sidebar-block
+wired.com##.newsletter-subscribe-form
+ft.com##.n-content-recommended--single-story
+circleid.com##.colB > .colPad
+||circleid.com/images/industry/sponsor$image
+bing.com##.rebateGlobalDecoration
+venturebeat.com##.sticky-briefings-cta
+reuters.com##div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(even)
+truity.com##.views-field-field-pt-mailing-list
+marketbeat.com##.d-print-none, .open-video-modal-button
+wsj.com##.login-section-container
+techzine.eu###secondary > .fixed-vertical, related, mailsignup
+developer-tech.com##.sidebar
+cnet.com##.related-links
+typing.com###tooltip_k5ksmxfdjr
 pcmag.com##.border-l-0.border, .container-xs, .mt-24.container.inline-block, .leading-tight.mb-4.-mt-4.p-4.w-full
 pressplay.top##.dvr-728
 fiercebiotech.com##.embedded-entity
