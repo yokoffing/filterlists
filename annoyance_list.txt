@@ -3,9 +3,13 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 04 March 2023
+! Version: 04 March 2023b
 ! Syntax: AdBlock
 
+builtin.com##.brand-boost-banner, .recent-articles, p.bix-embed-read-more:nth-of-type(odd), p.bix-embed-read-more:nth-of-type(even), div.jobs-embed-cta:nth-of-type(odd), div.jobs-embed-cta:nth-of-type(even)
+wired.com##.persistent-bottom
+reuters.com##div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(even), div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(odd)
+blog.internxt.com##figure.kg-image-card.kg-card:nth-of-type(odd), figure.kg-image-card.kg-card:nth-of-type(even)
 cryptoevents.global##.sidebar-widgets, .custom-banners-cycle-slideshow-default_style
 ||crypto.games/banners$image
 sfexaminer.com##.visible.centered.in.promo-designer-modal.modal
