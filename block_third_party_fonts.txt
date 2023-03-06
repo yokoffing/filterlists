@@ -3,36 +3,36 @@
 ! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does not flatten CNAMEs!
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 14 January 2023
+! Version: 23 February 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
-@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=typepad.com|regexpal.com|bootsnipp.com
+@@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=bootsnipp.com|regexpal.com|typepad.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
-@@||cloudfront.net^$font,3p,domain=phabricator.services.mozilla.com|noip.com
+@@||cloudfront.net^$font,3p,domain=noip.com|phabricator.services.mozilla.com|status.proton.me
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com^$domain=youtube.com|news.google.com|earth.google.com|docs.google.com|blog.google|trends.google.com|developers.google.com|toolbox.googleapps.com|grow.google|blogger.com|googlesource.com|chromium.org|vocabulary.com|socialworkers.org|gaggle.fun|reliaslearning.com|fonts.google.com|reedsy.com
-@@||fonts.gstatic.com^$domain=youtube.com|drive.google.com|mail.google.com|earth.google.com|groups.google.com|fonts.google.com|trends.google.com|myaccount.google.com|translate.google.com|developers.google.com|play.google.com|news.google.com|docs.google.com|blogger.com|blog.google|about.google|safety.google|ai.google|domains.google|grow.google|googlesource.com|chrome.google.com|chrome.com|chromium.org|workspace.google.com|policies.google.com|bloble.io|dexscreener.com|vocabulary.com|socialworkers.org|reliaslearning.com|reedsy.com|calendar.google.com|toolbox.googleapps.com
+@@||fonts.googleapis.com^$domain=blog.google|blogger.com|chromium.org|developers.google.com|docs.google.com|earth.google.com|fonts.google.com|gaggle.fun|googlesource.com|grow.google|news.google.com|reedsy.com|reliaslearning.com|socialworkers.org|toolbox.googleapps.com|trends.google.com|vocabulary.com|youtube.com
+@@||fonts.gstatic.com^$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|calendar.google.com|chrome.com|chrome.google.com|chromium.org|developers.google.com|dexscreener.com|docs.google.com|domains.google|drive.google.com|earth.google.com|fonts.google.com|googlesource.com|groups.google.com|grow.google|mail.google.com|myaccount.google.com|news.google.com|play.google.com|policies.google.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|translate.google.com|trends.google.com|vocabulary.com|workspace.google.com|youtube.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
 
 ! Icon Packs
+@@/-icon
+@@/-icons
 @@/family=Material+Icons
-@@/materialsymbolsoutlined
-@@/materialsymbols
+@@/glyphicons
+@@/icomoon
+@@/icon
+@@/icons
 @@/materialicons
+@@/materialsymbols
+@@/materialsymbolsoutlined
+@@/wp-content/uploads/fusion-icons
 @@family=Material+Icons
 @@family=Material+Symbols
 @@Material+Icons
-@@/wp-content/uploads/fusion-icons
-@@/icomoon
-@@/glyphicons
-@@/icons
-@@/-icons
-@@/icon
-@@/-icon
-!@@||fonts.googleapis.com/icon?family=Material+Icons
 !@@||fonts.googleapis.com/css?family=Material+Icons
+!@@||fonts.googleapis.com/icon?family=Material+Icons
 !@@||fonts.gstatic.com/s/materialicons
 
 ! Privacy-friendly drop-in replacement for Google Fonts
@@ -84,30 +84,30 @@
 ||typesquare.com^$font,3p
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
-||webfonts.creativecloud.com^$3p
 ||webfont.fontplus.jp^$3p
+||webfonts.creativecloud.com^$3p
 ||webfonts.sakura.ne.jp^$font
 
 ! Privacy Essentials, anti-allowlist:
-@@||use.typekit.net^$font,badfilter
 @@||gstaticadssl.*.google.com^$font,badfilter
+@@||use.typekit.net^$font,badfilter
 
 !!! UNUSED
 ! Causes too many false positives:
-!/fonts/*.ttf$font,3p
 !*$font,3p
-
-!||maxcdn.bootstrapcdn.com^*/fonts/
+!/fonts/*.ttf$font,3p
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
+!||maxcdn.bootstrapcdn.com^*/fonts/
+
 ! Used for icons on many sites:
-!||fontawesome.com^$3p
+!@@/fontawesome-$font,3p,domain=fontawesome.com
+!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
+!@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
+!@@||fontawesome.com^
 !/font-awesome^$3p
 !/fontawesome-$font,3p
 !/fontawesome-webfont
 !/wp-$font,3p
-!||wp.com^*/fonts/$3p
-!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
-!@@/fontawesome-$font,3p,domain=fontawesome.com
-!@@||fontawesome.com^$domain=
-!@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
+!||fontawesome.com^$3p
+!||wp.com^*/fonts/$3p
