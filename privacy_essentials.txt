@@ -99,8 +99,8 @@ $ping
 ||datadoghq.com^
 ||decacopy.com^
 ||delvenetworks.com^$3p,script
-||discord.com^$3p,domain=~discohook.org
-||discordapp.com^$3p,domain=~discord.com|~discohook.org|~mee6.xyz|~discordpackage.com
+||discord.com^$3p,domain=~discohook.org|~scam.gay
+||discordapp.com^$3p,domain=~discohook.org|~discord.com|~discordpackage.com|~mee6.xyz|~scam.gay
 ||disqus.com^$3p
 ||disquscdn.com^$3p
 ||dmca.com^$3p
