@@ -1,0 +1,85 @@
+[Adblock Plus 2.0]
+! Title: yokoffing's personal filters
+! Description: Filters I use myself but may cause unintended effects of other users
+! Homepage: https://github.com/yokoffing/filterlists
+! Expires: 7 days (update frequency)
+! Version: 2 March 2023
+! Syntax: AdBlock
+
+! GOOGLE
+! Attempt to remove third-party cookies
+! You may remove if causing errors
+www.google.com##+js(cookie-remover)
+ogs.google.com##+js(cookie-remover)
+
+! EDU
+@@||cloudfront.net^$font,3p,domain=instructure.com|uncp.edu|amazon.com
+||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~office365.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
+
+! Block from EL
+!||gstatic.com^$3p,domain=~google.com|~youtube.com|~googlesource.com
+! Recaptcha block
+!||recaptcha.net^$3p,domain=~myunidays.com
+!||google.com/js/bg/$3p
+! P.E.
+!@@||google.com/recaptcha/api.js$script,badfilter
+!@@||google.com/recaptcha/$subdocument,badfilter
+!@@||recaptcha.net/recaptcha/$script,badfilter
+!@@||gstatic.com/recaptcha/$badfilter
+! E.L.
+!@@||google.com/recaptcha/api.js$badfilter
+!@@||google.com/recaptcha/enterprise.js$badfilter
+
+!@@||google.com/recaptcha/api.js$domain=pokemoncenter.com|goku.to|ko-fi.com
+!@@||google.com/recaptcha/enterprise.js$domain=hulu.com|accounts.spotify.com|login.coinbase.com
+!@@||gstatic.com/recaptcha/$domain=accounts.spotify.com
+
+! Personal
+||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
+||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
+/PaypalExpressCheckout
+##shopify-payment-terms
+##.additional-checkout-buttons.grid__item
+! Third-party sign-in buttons
+##.sign-in-google-btn
+##.google.primary.auth
+##.apple.primary.auth
+##.facebook-auth
+##.google-auth
+##._btn-google.social-button
+##._btn-apple.social-button
+###googleContainer
+###apple-signin-button
+##.cl-socialButtons
+! Google News promo
+##.google-news-link
+
+! Google sign-in on Indeed
+indeed.com##.icl-Card
+
+! Spotify
+accounts.spotify.com##.eOZPwe.kdQBSg.sc-hBUSln.sc-gsDKAQ
+
+! Hide already watched YouTube videos
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+
+! Hide YouTube Shorts
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-browse[page-subtype="channels"] #contents.ytd-reel-shelf-renderer:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-search #contents ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
