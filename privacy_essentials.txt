@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 26 February 2023b
+! Version: 10 March 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -517,6 +517,8 @@ platform.twitter.com##+js(cookie-remover)
 @@||cdn.cnn.com/analytics/cnn_arabic/jsmd.min.js$script,1p
 ! redirect rule needed for videos to play
 |||amazon-adsystem.com/*/apstag.js$script,redirect-rule=amazon_apstag.js
+! https://github.com/uBlockOrigin/uAssets/issues/17071
+||lightning.cnn.com/launch/$script,redirect-rule=noopjs
 
 ! Bloomberg videos
 @@||cdn.gotraffic.net^$domain=bloomberg.*
