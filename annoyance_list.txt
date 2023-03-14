@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 14 March 2023
+! Version: 14 March 2023b
 ! Syntax: AdBlock
 
 searchenginejournal.com##.summita-wrapa_12, section.sej-sect.text-center.sej-bbb-section.sss2_sllo_o:nth-of-type(odd)
@@ -710,8 +710,8 @@ google.*##[id^="eob_"]
 ! Annoying "Sign-in with Google" pop-ups
 ! https://www.troddit.com/r/brave_browser/comments/uzzmp7/is_it_possible_block_the_sign_in_with_google/iaeqazb/
 ! https://www.bleepingcomputer.com/news/security/duckduckgo-now-blocks-google-sign-in-pop-ups-on-all-sites/
-!||accounts.google.com/gsi/client$script,third-party
-||accounts.google.com/gsi/*$xhr,script,3p
+!||accounts.google.com/gsi/client$script,3p
+||accounts.google.com/gsi/$xhr,script,3p
 
 ! REDDIT
 ! Hide Reddit 'Top Broadcast Now' & 'Top livestream'
