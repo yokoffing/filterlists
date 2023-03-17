@@ -10,12 +10,11 @@
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-![ublock lists 1](https://user-images.githubusercontent.com/11689349/193416193-9909ff8a-5e2c-4213-b151-e8d5f687d63f.png)
-
+![ubo default2](https://user-images.githubusercontent.com/11689349/224490854-fc3b61a5-2a5f-4ccb-9c83-b96b9fbc20d7.png)
 
 #### NOTES
  - `uBlock filters - Unbreak`: While many of these rules seem unnecessary to me, you are free to leave it enabled, especially if you are adverse to breakage. A few strings from this list are in `Privacy Essentials`.
- - `Peter Lowe's` lists: His entries and more are in `OISD` and `1Hosts`.
+ - `Peter Lowe's` lists: His entries and more are in `Hagezi`, `OISD`, and `1Hosts`.
  
 [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works best on [Firefox](https://www.mozilla.org/en-US/firefox/new/):
 * [Cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.
@@ -41,16 +40,22 @@ https://how-i-experience-web-today.com/
 <br> or **[1Hosts (Lite)](https://github.com/badmojr/1Hosts#1hosts-lite)** | [add](https://o0.pages.dev/Lite/adblock.txt)
 <br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) (Pro) is much stricter than `OISD` (see [feedback](https://old.reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)); it retains domains that `OISD` allowlists. 1Hosts blocks more than other lists and the maintainer is [responsive](https://github.com/badmojr/1Hosts/issues) to issues. I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5) while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) (uBO) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level). In other words, if you are adverse to troubleshooting site breakage, use the [(Lite)](https://o0.pages.dev/Lite/adblock.txt) list.
 
-
 3) **[OISD (full)](https://oisd.nl/)** | [add](https://oisd.nl/downloads)
 <br> "The Best Blocklist" - [OISD](https://oisd.nl/) combines [hundreds of lists](https://oisd.nl/includedlists/full) and filters out the false positives. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/s70dhx/oisd_domain_blocklist/?sort=new) to false positive reports. It passes the "[girlfriend test](https://www.urbandictionary.com/define.php?term=girlfriend%20test#:~:text=When%20a%20piece%20of%20technology%20is%20easy%20enough%20for%20your%20girlfriend%20to%20use%20without%20calling%20you)". I've yet to [find a list that he hasn't heard of](https://oisd.nl/knownlists.php). Be sure to use the `full` list, not `basic`.
+
+4) [**iam-py-test's Combo List**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
+<br> A compilation of lists to block malware, scams, phishing, and some tracking in uBO. Inclues Dandelion Sprout's Anti-Malware List, Actually Legitimate URL Shortener Tool, The malicious website blocklist, and iam-py-test's anti-typo list.
+
 
 ### Privacy
 
 1) **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup>. Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
 
-2) **[DuckDuckGo Tracker Radar (Blokada)](https://github.com/blokadaorg/landing-github-pages/blob/master/scripts/ddg.py)** | [add](https://raw.githubusercontent.com/blokadaorg/landing-github-pages/master/blocklists/ddgtrackerradar/standard/hosts.txt)
+2) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+<br> [optional] This filter list is a fork of [AdGuard Tracking Protection filter](https://filters.adtidy.org/extension/ublock/filters/3.txt). It removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt), reduces extra allowlisting caused by different methods between uBO and AdGuard, and resolves issues faster if the problems are not consistent between uBO and AdGuard.
+
+3) **[DuckDuckGo Tracker Radar (Blokada)](https://github.com/blokadaorg/landing-github-pages/blob/master/scripts/ddg.py)** | [add](https://raw.githubusercontent.com/blokadaorg/landing-github-pages/master/blocklists/ddgtrackerradar/standard/hosts.txt)
 <br> :warning: This will break your shit. Report false positives [here](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469).
 
 #### URL Tracking Parameters
