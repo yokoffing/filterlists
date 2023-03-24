@@ -3,7 +3,7 @@
 ! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does not flatten CNAMEs!
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 6 March 2023
+! Version: 24 March 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
