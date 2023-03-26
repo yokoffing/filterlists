@@ -3,9 +3,13 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 14 March 2023b
+! Version: 23 March 2023b
 ! Syntax: AdBlock
 
+pastebin.com##.popup-container
+washingtonpost.com##.hide-for-print.mb-md
+wjcl.com##.article-sidelist-wrapper, .newsletter-signup, .article-content--body-text > ul > li, .related-embed
+twitch.tv##.tw-callout-message
 searchenginejournal.com##.summita-wrapa_12, section.sej-sect.text-center.sej-bbb-section.sss2_sllo_o:nth-of-type(odd)
 tweakers.net##.fallback, .nextPreviousArticleContainer, .relatedContent, .reacties-inner
 builtin.com##.brand-boost-banner, .recent-articles, p.bix-embed-read-more:nth-of-type(odd), p.bix-embed-read-more:nth-of-type(even), div.jobs-embed-cta:nth-of-type(odd), div.jobs-embed-cta:nth-of-type(even)
@@ -585,6 +589,8 @@ zoosk.com##.article__related, .newsletter
 ||salesforceliveagent.com
 ||forum.kirupa.com/embed/comments$subdocument
 ||yappaapp.com^$3p
+||eesysoft.com^$3p
+||widget.intercom.io^$3p
 
 ! Block requests to unused images
 ||bgr.com^$all,domain=dirt.com
@@ -710,8 +716,9 @@ google.*##[id^="eob_"]
 ! Annoying "Sign-in with Google" pop-ups
 ! https://www.troddit.com/r/brave_browser/comments/uzzmp7/is_it_possible_block_the_sign_in_with_google/iaeqazb/
 ! https://www.bleepingcomputer.com/news/security/duckduckgo-now-blocks-google-sign-in-pop-ups-on-all-sites/
+! https://github.com/yokoffing/filterlists/issues/75
 !||accounts.google.com/gsi/client$script,3p
-||accounts.google.com/gsi/$xhr,script,3p
+||accounts.google.com/gsi/$xhr,script,3p,domain=~auth.23andme.com
 
 ! REDDIT
 ! Hide Reddit 'Top Broadcast Now' & 'Top livestream'

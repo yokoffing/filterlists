@@ -32,19 +32,11 @@ https://how-i-experience-web-today.com/
 
 ### All-Purpose
 
-1) **[HaGeZi's Normal DNS Blocklist](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt)
-<br> or [**HaGeZi's Pro++ DNS Blocklist**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
-<br> **Normal** [includes](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#multi) OISD, 1Hosts (Lite), [Steven Black's list](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [Inversion Domain Name System-based blackhole list (DNSBL)](https://github.com/elliotwutingfeng/Inversion-DNSBL-Blocklists#inversion-dnsbl-domain-name-system-based-blackhole-list-blocklists), and The malicious website blocklist, while **Pro++** also [includes](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus) 1Hosts (Pro), [notracking](https://github.com/notracking/hosts-blocklists), [notrack](https://gitlab.com/quidsup/notrack#notrack) list, and a few others.
+1) [**HaGeZi's Pro++ DNS Blocklist**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
+<br> Pro++ combines Hagezi's own lists with respected community blocklists like [OISD](https://oisd.nl/), [Steven Black's list](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), 1Hosts ([Pro](https://github.com/badmojr/1Hosts#1hosts-pro)), [notracking](https://github.com/notracking/hosts-blocklists), [notrack](https://gitlab.com/quidsup/notrack#notrack) list, and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus). Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers.
 
-2) **[1Hosts (Pro)](https://github.com/badmojr/1Hosts#1hosts-pro)** | [add](https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt)
-<br> or **[1Hosts (Lite)](https://github.com/badmojr/1Hosts#1hosts-lite)** | [add](https://o0.pages.dev/Lite/adblock.txt)
-<br> [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware) (Pro) is much stricter than `OISD` (see [feedback](https://old.reddit.com/r/nextdns/comments/uxwabr/kind_of_amazed_at_1hosts_pro/)); it retains domains that `OISD` allowlists. 1Hosts blocks more than other lists and the maintainer is [responsive](https://github.com/badmojr/1Hosts/issues) to issues. I recommend using 1Hosts [(Lite)](https://github.com/badmojr/1Hosts#1hosts-lite) on [NextDNS](https://nextdns.io/?from=xujj63g5) while using 1Hosts [(Pro)](https://github.com/badmojr/1Hosts#1hosts-pro) in [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) (uBO) because it's easier to troubleshoot breakages when they occur (i.e., lighter blocking at the DNS-level and stricter blocking at the browser-level). In other words, if you are adverse to troubleshooting site breakage, use the [(Lite)](https://o0.pages.dev/Lite/adblock.txt) list.
-
-3) **[OISD (full)](https://oisd.nl/)** | [add](https://oisd.nl/downloads)
-<br> "The Best Blocklist" - [OISD](https://oisd.nl/) combines [hundreds of lists](https://oisd.nl/includedlists/full) and filters out the false positives. The maintainer is [very responsive](https://www.reddit.com/r/oisd_blocklist/comments/s70dhx/oisd_domain_blocklist/?sort=new) to false positive reports. It passes the "[girlfriend test](https://www.urbandictionary.com/define.php?term=girlfriend%20test#:~:text=When%20a%20piece%20of%20technology%20is%20easy%20enough%20for%20your%20girlfriend%20to%20use%20without%20calling%20you)". I've yet to [find a list that he hasn't heard of](https://oisd.nl/knownlists.php). Be sure to use the `full` list, not `basic`.
-
-4) [**iam-py-test's Combo List**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
-<br> A compilation of lists to block malware, scams, phishing, and some tracking in uBO. Inclues Dandelion Sprout's Anti-Malware List, Actually Legitimate URL Shortener Tool, The malicious website blocklist, and iam-py-test's anti-typo list.
+2) [**iam-py-test's Combo List**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
+<br> A compilation of lists to block malware, scams, phishing, and some tracking in uBO. It includes lists I mention below like Dandelion Sprout's Anti-Malware List, Actually Legitimate URL Shortener Tool, The malicious website blocklist, and iam-py-test's anti-typo list.
 
 
 ### Privacy
@@ -53,10 +45,7 @@ https://how-i-experience-web-today.com/
 <br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup>. Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
 
 2) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
-<br> [optional] This filter list is a fork of [AdGuard Tracking Protection filter](https://filters.adtidy.org/extension/ublock/filters/3.txt). It removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt), reduces extra allowlisting caused by different methods between uBO and AdGuard, and resolves issues faster if the problems are not consistent between uBO and AdGuard.
-
-3) **[DuckDuckGo Tracker Radar (Blokada)](https://github.com/blokadaorg/landing-github-pages/blob/master/scripts/ddg.py)** | [add](https://raw.githubusercontent.com/blokadaorg/landing-github-pages/master/blocklists/ddgtrackerradar/standard/hosts.txt)
-<br> :warning: This will break your shit. Report false positives [here](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469).
+<br> This filter list is a fork of [AdGuard Tracking Protection filter](https://filters.adtidy.org/extension/ublock/filters/3.txt). It eliminates extra allowlisting caused by [different methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt). 
 
 #### URL Tracking Parameters
 
@@ -95,16 +84,13 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> [optional]
 
-3) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
- <br> [optional] This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
-
-4) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
+3) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
  <br> [optional] [experimental] The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
  
- 5) **[Windscribe clickbait list](https://windscribe.com/features/robert)** | [add](https://assets.windscribe.com/custom_blocklists/clickbait.txt)
- <br> [optional]
- 
- 6) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
+4) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
+ <br> [optional] This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
+
+5) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
  <br> [optional] Filters to block and remove copycat-websites from DuckDuckGo, Google and other search engines. Used to be specific to dev websites like StackOverflow or GitHub, but it currently supports others like Wikipedia. Supports StackOverflow + GitHub + NPM + Wikipedia + SEO Spam.
  
 ***
@@ -157,15 +143,6 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) | [mentions](https://github.com/hagezi/dns-blocklists/issues?q=mentions%3Ayokoffing)
 * [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=author%3Ayokoffing)
 * [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
-
-***
-
-## Support
-I’m a one-person operation, working in mental health and running this page as a passion project in my time off. If you enjoy my work, please leave a tip! Your support is incredibly appreciated and allows me to dedicate time to this project :blush:
-
-<img align="top" width="25px" src="https://coekuss.com/quietfox/bitcoin.png"> Bitcoin: 334gaiEjn6wY1VksQvYe5L668JjtPEPyiM
-
-<img align="top" width="20px" src="https://coekuss.com/quietfox/paypal.png"> PayPal: [paypal.me](about:blank) (forthcoming)
 
 <div align='center'><a href='https://www.websitecounterfree.com'><img src='https://www.websitecounterfree.com/c.php?d=9&id=19652&s=1' border='0' alt='Free Website Counter'></a><br / >
 <div align='center'>23 July 2022</div>
