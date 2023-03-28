@@ -3,42 +3,42 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 26 March 2023
+! Version: 28 March 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
 ! Topical domains with wide use by bad actors and whose use for legitimate purposes is small
-||buzz^$doc,domain=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz
-||fun^$doc,domain=~155.fun|~20anime.fun|~355.fun|~955.fun|~abyss.fun|~apilist.fun|~apkmody.fun|~applemc.fun|~bad2000.fun|~bc.fun|~bestgore.fun|~bigtopmidway.fun|~bmbl.fun|~boba.fun|~bqg.fun|~centertown.fun|~chrispelli.fun|~crosshatch.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~ezone.fun|~federated.fun|~fedi.fun|~filmapik21.fun|~fortnite.fun|~gaggle.fun|~globalwarming.fun|~groupthink.fun|~hoagie.fun|~infosexy.fun|~inspiredlife.fun|~isohunt.fun|~its2.fun|~jp0id.fun|~klik.fun|~lasersare.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~mastodon.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~neal.fun|~nelson.fun|~nic.fun|~noods.fun|~oldmovies.fun|~omglol.fun|~orwell.fun|~pawb.fun|~phillips.fun|~plutonews.fun|~porncum.fun|~puz.fun|~rikapimatome.fun|~sakamichi.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~supercool.fun|~sxgr.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~toku.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~wondertrip.fun|~wug.fun|~x-videos.fun|~xxx-sex.fun
-||online^$doc,domain=~0xdevelopers.online|~2br02b.online|~3dexp.online|~9-5.online|~abolition.online|~afternoonauthor.online|~akop.online|~allhen.online|~amedia.online|~anti-social.online|~aoxiang.online|~arinbasu.online|~arrrgh.online|~atomicedge.online|~audiomo.online|~awwter.online|~b-ark.online|~beppo.online|~betterconversations.online|~biblioverse.online|~bigballchunkyverse.online|~bostonmusic.online|~carpdiem.online|~ceilidh.online|~chainsaw-man-manga.online|~computer-club.online|~crabdisk.online|~crazylab.online|~cville.online|~cyberhideaway.online|~dadchat.online|~dansmith.online|~dapchat.online|~diskette.online|~doesthings.online|~dreamin.online|~figureskating.online|~flatline.online|~foodienetwork.online|~foxfamily.online|~freethought.online|~freezepeach.online|~frinx.online|~fursuits.online|~greennuclear.online|~grosshans.online|~grumpys.online|~h6x.online|~helvet.online|~hhgtm.online|~hwfo.online|~iamterminally.online|~inadvertently.online|~indiegamedev.online|~indiegames.online|~isnot.online|~itsmf.online|~joinfediverse.online|~joinmirage.online|~kinkytaboo.online|~kitchenparty.online|~kjv.online|~labr.online|~laterracita.online|~law-and-politics.online|~lerchgonzalez.online|~lightlyseared.online|~linuxrocks.online|~litrat.online|~litrpg.online|~machikadon.online|~madetomeasure.online|~makary.online|~makersocial.online|~manga1st.online|~mastodon.online|~mastodonian.online|~mastodonnederland.online|~mathtod.online|~matthewedavis.online|~meowing.online|~metapan.online|~milkers.online|~moltonlava.online|~monads.online|~monsterfuckers.online|~mousehole.online|~mstddntfdn.online|~mysticaccess.online|~natehiggers.online|~nederland.online|~nerdfight.online|~nerdout.online|~nic.online|~nitech.online|~ohnoim.online|~patriot.online|~performingart.online|~photoholics.online|~photophrenic.online|~pztrn.online|~raikow.online|~rarified.online|~realityridge.online|~regretfully.online|~retrochat.online|~rpvortex.online|~saillune.online|~schleuss.online|~schnauzergang.online|~shavingcream.online|~shmg.online|~silversword.online|~slayers.online|~spacekaren.online|~thebox.thelabs.online|~thedevil.online|~thegreendragon.online|~thesnakepostoffice.online|~thetaoist.online|~thinkinginsystems.online|~tired.umbreon.online|~torlaz.online|~townsends.online|~triangleidiot.online|~trotlot.online|~tukkers.online|~unipar.online|~voidwood.online|~wizzzard.online
-||site^$doc,domain=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~dodi-repacks.site|~first-party.site|~fitgirl-repacks.site|~fmoviesto.site|~heimdall.site|~metrolagu.site|~nic.site|~notion.site|~notube.site|~secreto.site|~srht.site|~thex.site|~third-party.site
-||tk^$doc,domain=~bstweaker.tk|~bonzibuddy.tk|~budterence.tk|~c0d3c.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk
+||buzz^$doc,from=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz
+||fun^$doc,from=~155.fun|~20anime.fun|~355.fun|~955.fun|~abyss.fun|~apilist.fun|~apkmody.fun|~applemc.fun|~bad2000.fun|~bc.fun|~bestgore.fun|~bigtopmidway.fun|~bmbl.fun|~boba.fun|~bqg.fun|~centertown.fun|~chrispelli.fun|~crosshatch.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~ezone.fun|~federated.fun|~fedi.fun|~filmapik21.fun|~fortnite.fun|~gaggle.fun|~globalwarming.fun|~groupthink.fun|~hoagie.fun|~infosexy.fun|~inspiredlife.fun|~isohunt.fun|~its2.fun|~jp0id.fun|~klik.fun|~lasersare.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~mastodon.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~neal.fun|~nelson.fun|~nic.fun|~noods.fun|~oldmovies.fun|~omglol.fun|~orwell.fun|~pawb.fun|~phillips.fun|~plutonews.fun|~porncum.fun|~puz.fun|~rikapimatome.fun|~sakamichi.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~supercool.fun|~sxgr.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~toku.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~wondertrip.fun|~wug.fun|~x-videos.fun|~xxx-sex.fun
+||online^$doc,from=~0xdevelopers.online|~2br02b.online|~3dexp.online|~9-5.online|~abolition.online|~afternoonauthor.online|~akop.online|~allhen.online|~amedia.online|~anti-social.online|~aoxiang.online|~arinbasu.online|~arrrgh.online|~atomicedge.online|~audiomo.online|~awwter.online|~b-ark.online|~beppo.online|~betterconversations.online|~biblioverse.online|~bigballchunkyverse.online|~bostonmusic.online|~carpdiem.online|~ceilidh.online|~chainsaw-man-manga.online|~computer-club.online|~crabdisk.online|~crazylab.online|~cville.online|~cyberhideaway.online|~dadchat.online|~dansmith.online|~dapchat.online|~diskette.online|~doesthings.online|~dreamin.online|~figureskating.online|~flatline.online|~foodienetwork.online|~foxfamily.online|~freethought.online|~freezepeach.online|~frinx.online|~fursuits.online|~greennuclear.online|~grosshans.online|~grumpys.online|~h6x.online|~helvet.online|~hhgtm.online|~hwfo.online|~iamterminally.online|~inadvertently.online|~indiegamedev.online|~indiegames.online|~isnot.online|~itsmf.online|~joinfediverse.online|~joinmirage.online|~kinkytaboo.online|~kitchenparty.online|~kjv.online|~labr.online|~laterracita.online|~law-and-politics.online|~lerchgonzalez.online|~lightlyseared.online|~linuxrocks.online|~litrat.online|~litrpg.online|~machikadon.online|~madetomeasure.online|~makary.online|~makersocial.online|~manga1st.online|~mastodon.online|~mastodonian.online|~mastodonnederland.online|~mathtod.online|~matthewedavis.online|~meowing.online|~metapan.online|~milkers.online|~moltonlava.online|~monads.online|~monsterfuckers.online|~mousehole.online|~mstddntfdn.online|~mysticaccess.online|~natehiggers.online|~nederland.online|~nerdfight.online|~nerdout.online|~nic.online|~nitech.online|~ohnoim.online|~patriot.online|~performingart.online|~photoholics.online|~photophrenic.online|~pztrn.online|~raikow.online|~rarified.online|~realityridge.online|~regretfully.online|~retrochat.online|~rpvortex.online|~saillune.online|~schleuss.online|~schnauzergang.online|~shavingcream.online|~shmg.online|~silversword.online|~slayers.online|~spacekaren.online|~thebox.thelabs.online|~thedevil.online|~thegreendragon.online|~thesnakepostoffice.online|~thetaoist.online|~thinkinginsystems.online|~tired.umbreon.online|~torlaz.online|~townsends.online|~triangleidiot.online|~trotlot.online|~tukkers.online|~unipar.online|~voidwood.online|~wizzzard.online
+||site^$doc,from=~anitube.site|~blocklist.site|~business.site|~cdmstudy.site|~dodi-repacks.site|~first-party.site|~fitgirl-repacks.site|~fmoviesto.site|~heimdall.site|~metrolagu.site|~nic.site|~notion.site|~notube.site|~secreto.site|~srht.site|~thex.site|~third-party.site
+||tk^$doc,from=~bstweaker.tk|~bonzibuddy.tk|~budterence.tk|~c0d3c.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk
 
 !!! Likely abused TLDs
-! https://www.spamhaus.org/statistics/tlds/
 ! https://w3techs.com/technologies/overview/top_level_domain
-||beauty^$doc,domain=~nic.beauty|~vipbj.beauty
-||degree^$doc,domain=~nic.degree|~opf.degree|~three60.degree
-||fit^$doc,domain=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit
-||loans^$doc,domain=~nic.loans
-||quest^$doc,domain=~0x00.quest|~nic.quest
-||surf^$doc,domain=~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf|~surfstation.surf
-||zone^$doc,domain=~itch.zone|~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
+! https://www.spamhaus.org/statistics/tlds/
+||beauty^$doc,from=~nic.beauty|~vipbj.beauty
+||degree^$doc,from=~nic.degree|~opf.degree|~three60.degree
+||fit^$doc,from=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit
+||loans^$doc,from=~nic.loans
+||quest^$doc,from=~0x00.quest|~nic.quest
+||surf^$doc,from=~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf|~surfstation.surf
+||zone^$doc,from=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
 ! Mali
-||ml^$doc,domain=~amap.ml|~beatbump.ml|~biblioreads.ml|~ghostcloud.ml|~google.ml|~info-matin.ml|~lemmy.ml|~lingva.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~prompt.ml
+||ml^$doc,from=~amap.ml|~beatbump.ml|~biblioreads.ml|~ghostcloud.ml|~google.ml|~info-matin.ml|~lemmy.ml|~lingva.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~prompt.ml
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
+/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,from=com|life
 
 ! from https://github.com/Yuki2718/adblock2/blob/e89bddf6ba0fa39b33e75efe7beaae66be802153/japanese/jpfp-ub.txt
 /^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
 /^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
 /^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,3p,match-case
-/^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,from=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
 !#endif
