@@ -23,12 +23,12 @@
 ||loans^$doc,from=~nic.loans
 ||quest^$doc,from=~0x00.quest|~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mylegendary.quest|~nic.quest|~prometheus.quest|~squash.quest|~teacher.quest|~theculture.quest|~toot.quest
 ||surf^$doc,from=~bloom.surf|~fedi.surf|~glowing.surf|~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf|~surfstation.surf
-||zone^$doc,from=~elk.zone|~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
+||zone^$doc,from=~amity.zone|~autonomous.zone|~blahaj.zone|~bookwyrm.tilde.zone|~borborema.zone|~buttplug.zone|~carbonnotes.zone|~chillpeep.zone|~disinfo.zone|~dogg.zone|~elk.zone|~europlus.zone|~fioverse.zone|~firebird.zone|~freeradical.zone|~freja.zone|~frikiverse.zone|~froth.zone|~gimon.zone|~grafo.zone|~greenhill.zone|~hda.zone|~hotgarbage.zone|~hyperboreal.zone|~itsm.zone|~kidtopia.zone|~kinogo.zone|~kvlt.zone|~lizard.zone|~martech.zone|~mellow.zone|~moth.zone|~myhobby.zone|~myhome.zone|~nelson.zone|~nic.zone|~nobert.zone|~nogafam.zone|~ounce.zone|~pixelfed.zone|~pnw.zone|~sakuradancer.zone|~saoirse.zone|~speedrun.zone|~stctp.zone|~stoat.zone|~strode.zone|~subnivean.zone|~subversive.zone|~taur.zone|~tda.zone|~teapot.zone|~the-cool.zone|~thechimp.zone|~thecum.zone|~thekitty.zone|~themystrd.zone|~thetake.zone|~thewired.zone|~tilde.zone|~tls.zone|~typinggames.zone|~ursal.zone|~vixen.zone|~vulpini.zone|~xcloud.zone|~xoxo.zone|~y2k.zone|~zig.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
 ! Mali
-||ml^$doc,from=~amap.ml|~beatbump.ml|~biblioreads.ml|~ghostcloud.ml|~google.ml|~info-matin.ml|~lemmy.ml|~lingva.ml|~mastodon.ml|~melody.ml|~nothingprivate.ml|~prompt.ml
+||ml^$doc,from=~aire.ml|~amap.ml|~beatbump.ml|~biblioreads.ml|~birdkey.ml|~debula.ml|~dmml.ml|~esparrec.ml|~exp0.ml|~fedi.ml|~ghostcloud.ml|~google.ml|~guya.ml|~info-matin.ml|~kawauso.ml|~leam.ml|~lemmy.ml|~lingva.ml|~loma.ml|~masto.ml|~mastodon.ml|~mastodonte.ml|~melody.ml|~nothingprivate.ml|~precure.ml|~prompt.ml|~stilic.ml|~sumanko.ml|~we-moon.ml
 
 !#if ext_ublock
 ! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
