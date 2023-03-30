@@ -279,7 +279,7 @@ koaa.com##.TrackedSidebarPromo.AsidePromo
 kotaku.com##.comments-area, .sticky-item, .posts-list, .entry-author, .logged-out-box
 kotaku.com###sidebar_wrapper > .cySkyK.ynugv2-0, .branded-item--kinja.branded-item.inset--story.jfFNjl.sc-1rh3ayr-6, .js_comments-iframe.bGtOjR.sc-73739c-0
 latimes.com##.rail, div.enhancement > .promo-small.promo-position-small.promo, .listicle-menu.list-menu, .list-spacer-bottom.list-d.list
-lenovo.com###confirmit-feedback, #lena-bot-window
+lenovo.com###confirmit-feedback, #lena-bot-window, .cookie-remind-warpper
 lifehacker.com###js_moreFromNetwork, #secondScroll
 lifehacker.com##aside.branded-item
 lifewire.com##.mntl-block.prefooter.comp

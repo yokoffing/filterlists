@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 24 March 2023
+! Version: 28 March 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -372,7 +372,8 @@ fmovies.*##+js(nosiif, try)
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
-||jnn-pa.googleapis.com^
+! https://github.com/badmojr/1Hosts/issues/1227
+||jnn-pa.googleapis.com^$domain=~drive.google.com
 ||news.google.com^$3p
 ||play.google.com/log?$xmlhttprequest,important
 ||play.google.com^$3p

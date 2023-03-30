@@ -23,7 +23,7 @@
 ||loans^$doc,from=~nic.loans
 ||quest^$doc,from=~0x00.quest|~nic.quest
 ||surf^$doc,from=~kayaking.surf|~nic.surf|~quran.surf|~s-wings.surf|~surfstation.surf
-||zone^$doc,from=~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
+||zone^$doc,from=~elk.zone|~itsm.zone|~kidtopia.zone|~kinogo.zone|~martech.zone|~myhome.zone|~nic.zone|~thekitty.zone|~typinggames.zone
 
 !!! Country-specific TLDs
 ! Contain malware domains that have nothing to do with the countries in question
