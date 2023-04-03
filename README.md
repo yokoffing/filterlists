@@ -68,10 +68,13 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 1) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
 <br> Blocks heavily abused top-level domains (TLDs) and even search engine results for them. Blocks domains used in malware redirection trains and in domain parking schemes, as well as sponsored Windows PUP nags on PC guide articles. Mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 
-2) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt)
+2) **Most Abused TLDs** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
+<br> Blocks likely abused TLDs. Merged from my own `Enhanced website protection` list, `Dandelion Sprout's Anti-Malware List`, and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
+
+3) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt)
 <br> A supplement to `Dandelion Sprout's Anti-Malware List`. Block more abused TLDs for extra security.
 
-3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
+4) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), [iam-py-test's anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
 
 ***
