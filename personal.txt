@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 11 March 2023b
+! Version: 3 April 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -14,7 +14,7 @@ ogs.google.com##+js(cookie-remover)
 
 ! EDU
 ! @@||cloudfront.net^$font,3p,domain=instructure.com|uncp.edu|amazon.com
-! ||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
+||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
 
 ! Block from EL
 !||gstatic.com^$3p,domain=~google.com|~youtube.com|~googlesource.com
