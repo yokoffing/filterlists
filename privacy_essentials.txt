@@ -367,7 +367,7 @@ fmovies.*##+js(nosiif, try)
 ||firebaseinstallations.googleapis.com^
 ||google-analytics.com^$3p,important
 ||google.com/cse/cse.js^
-||google.com^$3p,domain=~cbsnews.com|~flippity.net|~translate.google.com|~youtube.com|~youtube-nocookie.com|~blackdog.ie|~chromium.org|~nest.com|~gptgo.ai
+||google.com^$3p,domain=~cbsnews.com|~developer.android.com|~flippity.net|~translate.google.com|~youtube.com|~youtube-nocookie.com|~blackdog.ie|~chromium.org|~nest.com|~gptgo.ai
 ||googleadservices.com^$3p,important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
