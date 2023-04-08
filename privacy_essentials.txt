@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023e
+! Version: 8 April 2023f
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -494,6 +494,10 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||dc.services.visualstudio.com/*/track$badfilter,domain=outlook.office.com
 ||dc.services.visualstudio.com/v2/track$badfilter,domain=outlook.office.com
 ||virtualearth.net/webservices/v*/loggingservice/loggingservice.svc/log?entry=$badfilter,domain=outlook.office.com
+
+! EasyPrivacy exceptions
+! https://github.com/easylist/easylist/issues/4023
+@@||instant.page^$third-party
 
 ! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
 ! EL
