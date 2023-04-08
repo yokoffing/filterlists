@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023b
+! Version: 8 April 2023c
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -37,7 +37,6 @@ $ping
 ||advertising.com^$document
 ||agilemeasure.com^$3p
 ||alooma.com^$3p
-! ||amazon-adsystem.com^$important,domain=~cnn.com
 ||amospalla.es^
 ||animenewsnetwork.com/logger.performance^$1p
 ||animenewsnetwork.com/sponsor/$1p
@@ -71,7 +70,6 @@ $ping
 ||calculoid.com^$3p,script
 ||capturehighered.net^$3p
 ||cbox.ws^$3p
-!||cbsi.com^
 ||cbsinteractive.com^$domain=~etonline.com
 ||cdn.krxd.net^
 ||cdn.ravenjs.com^$3p,script
@@ -86,10 +84,6 @@ $ping
 ||connect.getflowbox.com^$3p
 ||consensu.org^$redirect=noopjs
 ||contentpass.net^
-! ||cookiebot.com^
-! ||cookieinfoscript.com^$3p
-! ||cookielaw.org^$important,domain=~cbsnews.com|~cnn.com
-! ||cookielaw.org^$3p
 ||coordinatedcub.com^$3p
 ||cxense.com^
 ||d77cf8b870.com^
@@ -115,7 +109,6 @@ $ping
 ||exoclick.com^$3p
 ||exosrv.com^$3p
 ||feedgrabbr.com^$3p
-! ||footprint.net^$3p,~image
 ||forbes.com^$3p,domain=quora.com
 ||foxnews.com^$3p
 ||future-fie-assets.co.uk^$3p
@@ -175,7 +168,6 @@ $ping
 ||livenetlife.com^$3p
 ||liveperson.net^$3p
 ||lmaxdigital.io
-! ||logrocket.network^
 ||loox.io^$3p
 ||lowfruitsolutions.com^$3p
 ||loyaltylion.net^$3p
@@ -198,7 +190,6 @@ $ping
 ||msgstore.www.notion.so^$all
 ||myanimelist.net^*/event/$image
 ||nepremicnine.net^$3p
-!||newrelic.com^$domain=~chegg.com
 ||newsoveraudio.com^$3p
 ||nfcube.com^$3p
 ||nir.regmedia.co.uk^$3p
@@ -237,7 +228,6 @@ $ping
 ||quantserve.com^$3p
 ||readcomiconline.*/Ads/
 ||readcomiconline.*/wp-includes/*/*.html$subdocument,1p
-!readcomiconline.li###divComments:remove()
 ||rebuyengine.com^$3p
 ||recommendation-hybrid.wpdigital.net^$all
 ||refer.bose.com^
@@ -339,10 +329,6 @@ fmovies.*##+js(nosiif, try)
 @@||cdn-apple.com^$domain=apple.com
 @@||consent.cookiebot.com^$script,domain=adjust.com
 @@||contextual.media.net^$script
-! @@||cookielaw.org/*/otBannerSdk.js$script
-! @@||cookielaw.org/*/otPcPanel.json$xhr
-! @@||cookielaw.org/*/otSDKStub.js$script
-! @@||cookielaw.org/consent/$xhr
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
@@ -386,8 +372,6 @@ fmovies.*##+js(nosiif, try)
 @@||blogger.*.google.com^$subdocument
 @@||blogger.com/comment-iframe.$subdocument
 @@||consent.google.com^$subdocument
-! @@||cse.google.com^$script
-! @@||google.*/cse/$script,stylesheet
 @@||docs.google.com^$subdocument,domain=dropbox.com
 @@||drive.google.com^$image
 @@||google-analytics.com/analytics.js$script,domain=amainhobbies.com
@@ -396,7 +380,6 @@ fmovies.*##+js(nosiif, try)
 @@||google.com/recaptcha/api.js$script
 @@||google.com^$script,domain=youtube.com
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
-! @@||google.^$domain=google.*|googleapis.com|googleusercontent.com|youtube.com|youtube-nocookie.com
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gstaticadssl.*.google.com^$font
 @@||maps-api-ssl.google.com^$script,image
