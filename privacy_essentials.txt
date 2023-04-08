@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 April 2023
+! Version: 8 April 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -601,7 +601,7 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||client-event-reporter.twitch.tv^$xhr,domain=twitch.tv,badfilter
 
 ! NYT
-||myaccount.nytimes.com^
+! ||myaccount.nytimes.com^
 ||messaging-notifications.api.nytimes.com^
 
 ! HuffPost
