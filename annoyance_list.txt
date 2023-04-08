@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 April 2023
+! Version: 8 April 2023
 ! Syntax: AdBlock
 
 goodrx.com##.re-flex.bfDpzR
@@ -576,6 +576,28 @@ zoosk.com##.article__related, .newsletter
 ||www.playwidget.stuff.co.nz$subdocument
 ||hodgef.com/static/sponsor.html$subdocument
 ||garry.windscribe.com^
+
+! VIDEO PLAYERS
+! Only block players that usually play content not directly related to the page
+||redvideo.io^$domain=~redvideo.io
+!||cnevids.com^$3p,domain=~gq.com
+||kaltura.com^$3p,domain=~financialaidtv.com
+! Brightcove
+||brightcove.net^$3p
+@@||brightcove.^$xhr
+@@||media.brightcove.com^$image
+@@||media.brightcove.com^$media,domain=players.brightcove.net
+@@||players.brightcove.net^$script
+! JW Player
+||entitlements.jwplayer.com^$important
+||jwpsrv.com^$3p
+!||jwplayer.com^$3p,domain=~menshealth.com
+@@||cdn.jwplayer.com^$xhr
+@@||content.jwplatform.com^$xhr,script
+@@||jwpcdn.com/player/plugins/vast/$script
+@@||jwpcdn.com^$font
+!!! @@||jwpltx.com^$image
+@@||jwpsrv.com^$subdocument
 
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
