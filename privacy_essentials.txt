@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023c
+! Version: 8 April 2023d
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -79,6 +79,7 @@ $ping
 ||chimpstatic.com^$3p
 ||christianbook.com^$3p
 ||cleantalk.org^
+||cloudinary.com^$3p,~image
 ||coinmarketcap.com^$3p
 ||concert.io^$3p
 ||connect.getflowbox.com^$3p
@@ -530,7 +531,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||washingtonpost.com/pwapiv2/$xhr,1p
 
 ! AMAZON
-||amazon-adsystem.com^$important
 www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolder,#percolate-ui-ilm_div > .celwidget:remove()
 @@||amazon.*/*uedata$image,1p,badfilter
 
