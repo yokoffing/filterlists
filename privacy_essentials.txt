@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023f
+! Version: 8 April 2023g
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -405,7 +405,7 @@ fmovies.*##+js(nosiif, try)
 ||syndication.twitter.com^
 ||t.co^$3p,domain=~twitter.com
 !#if ext_ublock
-platform.twitter.com##+js(cookie-remover)
+platform.twitter.com##+js(cookie-remover, /^/)
 ! Attempt to use uBO to remove cookies caused by Twitter
 !#endif
 @@||platform.twitter.com/embed/$subdocument
