@@ -68,7 +68,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 1) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
 <br> Blocks heavily abused top-level domains (TLDs) and even search engine results for them. Blocks domains used in malware redirection trains and in domain parking schemes, as well as sponsored Windows PUP nags on PC guide articles. Mass blocking of domains belonging to bad IPs, and has many other subcategories that give it a solid advantage over similar lists out there.
 
-2) **Most Abused TLDs** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
+2) **[Most Abused TLDs](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
 <br> Blocks likely abused TLDs. Merged from my own `Enhanced website protection` list, `Dandelion Sprout's Anti-Malware List`, and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
 
 3) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt)
