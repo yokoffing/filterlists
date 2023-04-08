@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023
+! Version: 8 April 2023b
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -484,27 +484,6 @@ platform.twitter.com##+js(cookie-remover)
 /ShopPay
 ||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !@@||js.stripe.com^
-
-! VIDEO PLAYERS
-||redvideo.io^$domain=~redvideo.io
-!||cnevids.com^$3p,domain=~gq.com
-||kaltura.com^$3p,domain=~financialaidtv.com
-! Brightcove
-||brightcove.net^$3p
-@@||brightcove.^$xhr
-@@||media.brightcove.com^$image
-@@||media.brightcove.com^$media,domain=players.brightcove.net
-@@||players.brightcove.net^$script
-! JW Player
-||entitlements.jwplayer.com^$important
-||jwpsrv.com^$3p
-!||jwplayer.com^$3p,domain=~menshealth.com
-@@||cdn.jwplayer.com^$xhr
-@@||content.jwplatform.com^$xhr,script
-@@||jwpcdn.com/player/plugins/vast/$script
-@@||jwpcdn.com^$font
-!!! @@||jwpltx.com^$image
-@@||jwpsrv.com^$subdocument
 
 ! BING
 ||bing.com^$3p,domain=~login.live.com|~microsoft.com|~msn.com
