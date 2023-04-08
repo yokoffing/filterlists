@@ -3,14 +3,14 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 3 April 2023
+! Version: 8 April 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
 ! Attempt to remove third-party cookies
 ! You may remove if causing errors
-www.google.com##+js(cookie-remover)
-ogs.google.com##+js(cookie-remover)
+www.google.com##+js(cookie-remover, /^/)
+ogs.google.com##+js(cookie-remover, /^/)
 
 ! EDU
 ! @@||cloudfront.net^$font,3p,domain=instructure.com|uncp.edu|amazon.com
