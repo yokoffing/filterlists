@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023d
+! Version: 8 April 2023e
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -53,7 +53,6 @@ $ping
 ||b7b06aa9a2.com
 ||backinstock.org^$3p
 ||baidu.com^$3p
-||beacon.krxd.net^
 ||bestofmedia.com^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
 ||bf-ad.net^
@@ -71,7 +70,6 @@ $ping
 ||capturehighered.net^$3p
 ||cbox.ws^$3p
 ||cbsinteractive.com^$domain=~etonline.com
-||cdn.krxd.net^
 ||cdn.ravenjs.com^$3p,script
 ||channelsight.com^$xhr
 ||chatango.com^$3p
@@ -86,7 +84,6 @@ $ping
 ||consensu.org^$redirect=noopjs
 ||contentpass.net^
 ||coordinatedcub.com^$3p
-||cxense.com^
 ||d77cf8b870.com^
 ||datadoghq-browser-agent.com^
 ||datadoghq.com^
@@ -270,7 +267,6 @@ $ping
 ||syndetics.com^$3p
 ||taboola.com^$3p
 ||tags.news.com.au^
-||target.bose.com^
 ||tawk.to^$3p
 ||teams.microsoft.com^$3p
 ||teletarget.ru^
@@ -281,7 +277,6 @@ $ping
 ||tinymce.com^$3p
 ||tinypass.com^
 ||titsx.com^$3p
-||tracking.epicgames.com^
 ||tradingview.com^$3p
 ||trust-provider.com^
 ||trustarc.com^$3p
@@ -306,7 +301,6 @@ $ping
 ||yandex.ru^$3p,domain=~dzen.ru
 ||yottaa.com^$3p
 ||yottlyscript.com^$3p
-||zqtk.net^
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
