@@ -13,8 +13,6 @@
 ![ubo default2](https://user-images.githubusercontent.com/11689349/224490854-fc3b61a5-2a5f-4ccb-9c83-b96b9fbc20d7.png)
 
 #### NOTES
- - `uBlock filters - Unbreak`: While many of these rules seem unnecessary to me, you are free to leave it enabled, especially if you are adverse to breakage. A few strings from this list are in `Privacy Essentials`.
- - `Peter Lowe's` lists: His entries and more are in `Hagezi`, `OISD`, and `1Hosts`.
  
 [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works best on [Firefox](https://www.mozilla.org/en-US/firefox/new/):
 * [Cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.
