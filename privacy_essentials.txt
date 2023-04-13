@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023g
+! Version: 13 April 2023
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -464,7 +464,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 !@@||js.stripe.com^
 
 ! BING
-||bing.com^$3p,domain=~login.live.com|~microsoft.com|~msn.com
+||bing.com^$3p,domain=~bing.com|~login.live.com|~microsoft.com|~msn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126174
 ||bing.com/fd/ls/lsp.aspx$badfilter
 @@||bing.com/fd/ls/GLinkPing.aspx?
@@ -477,6 +477,8 @@ bing.com##:matches-path(~/shop) a[href*="/aclick?"]:not(.vsp_ads)
 !#if env_firefox
 bing.com##+js(nosiif, logQueue, 10000)
 !#endif
+! EP - needed for Bing rewards?
+@@||bing.com/rewardsapp/reportactivity?
 
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
 ! https://outlook.office.com
