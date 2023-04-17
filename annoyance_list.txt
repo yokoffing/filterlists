@@ -619,7 +619,7 @@ zoosk.com##.article__related, .newsletter
 ||eesysoft.com^$3p
 ||forum.kirupa.com/embed/comments$subdocument
 ||livechatinc.com^$3p
-||pcsupport.lenovo.com/esv4/plugins/contactus/livefloatchat
+||pcsupport.lenovo.com/esv*/plugins/contactus/livefloatchat
 ||pico.tools^$3p
 ||salesforceliveagent.com
 ||widget.intercom.io^$3p
