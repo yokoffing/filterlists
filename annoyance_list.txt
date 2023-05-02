@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 26 April 2023b
+! Version: 2 May 2023
 ! Syntax: AdBlock
 
 reuters.com##.workspace-article-banner__banner-container__1qyxV
@@ -624,14 +624,15 @@ zoosk.com##.article__related, .newsletter
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
 
 ! Chat modules
-||pico.tools^$3p
-||livechatinc.com^$3p
-||salesforceliveagent.com
-||forum.kirupa.com/embed/comments$subdocument
-||yappaapp.com^$3p
-||eesysoft.com^$3p
-||widget.intercom.io^$3p
 ||crisp.chat^$3p
+||eesysoft.com^$3p
+||forum.kirupa.com/embed/comments$subdocument
+||livechatinc.com^$3p
+||pcsupport.lenovo.com/esv*/plugins/contactus/livefloatchat
+||pico.tools^$3p
+||salesforceliveagent.com
+||widget.intercom.io^$3p
+||yappaapp.com^$3p
 
 ! Block requests to unused images
 ||bgr.com^$all,domain=dirt.com
