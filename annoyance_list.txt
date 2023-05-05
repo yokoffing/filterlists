@@ -780,6 +780,8 @@ youtube.com##+js(json-prune, topbar.desktopTopbarRenderer.interstitial.consentBu
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+! https://github.com/yokoffing/filterlists/issues/85
+youtube.com##ytd-popup-container.ytd-app.style-scope
 
 ! TWITTER
 ! [Oct 2022] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
