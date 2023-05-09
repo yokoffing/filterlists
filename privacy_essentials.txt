@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 May 2023b
+! Version: 9 May 2023c
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -481,9 +481,8 @@ bing.com##+js(nosiif, logQueue, 10000)
 @@||bing.com/rewardsapp/reportactivity?
 
 ! Microsoft Outlook breakage
-||pipe.aria.microsoft.com/collector/$badfilter,domain=outlook.live.com|outlook.office.com
-||pipe.aria.microsoft.com^$badfilter,domain=outlook.live.com|outlook.office.com
-||browser.events.data.microsoft.com^$badfilter,domain=outlook.live.com|outlook.office.com
+@@||pipe.aria.microsoft.com^$domain=outlook.live.com|outlook.office.com
+@@||browser.events.data.microsoft.com^$domain=outlook.live.com|outlook.office.com
 
 ! from https://github.com/crssi/Firefox/blob/master/uBO-Cosmetic.txt
 ! EasyPrivacy
