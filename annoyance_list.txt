@@ -3,12 +3,12 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 14 May 2023c
+! Version: 14 May 2023d
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
-9to5google.com,9to5mac.com,9to5toys.com##.featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter
+9to5google.com,9to5mac.com,9to5toys.com##.featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter, .post-content.med.container > ul, .post-body > ul, .xs.container.sidebar
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 abc7.com##.inner.headlines-list.top-stories
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
@@ -443,6 +443,7 @@ techcult.com##.sidebar.widget-area.posts-sidebar
 techfunnel.com##body > .container > .row > .col-md-4
 techguided.com##.inside-right-sidebar
 technology.inquirer.net##div#totalpoll.is-screen-vote.is-ltr.totalpoll-uid-ba6c79a39c7e435f692e3e8bc44ba5c8.totalpoll-wrapper:nth-of-type(odd), #rn-lbl, #read-next-2018, #article_content > div > .sib-form, #article-tab-wrap, #article_social_trending > .sib-form
+technologyreview.com##.alignleft.related__wrap, li.sidebar__widgetWrapper--PLzjV > div
 technorms.com##.td-ss-main-sidebar
 technospot.net##.td-ss-main-sidebar, .jp-relatedposts
 techopedia.com###sidebar-content-wrapper
