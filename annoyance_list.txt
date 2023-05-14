@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 14 May 2023b
+! Version: 14 May 2023c
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -964,7 +964,7 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 /unbxdAnalytics.js
 /webtrekk.
 /webtrekk_
-# https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/issues/2
+! https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/issues/2
 @@||computeruniverse.net/Scripts/wt/webtrekk_v*.js$script
 # Filters partially taken out of EasyList and modified to make use of strict blocking.
 &link_type=offer$document
@@ -1155,5 +1155,4 @@ _popupunder.$document
 ||onlineclasshero.com^
 
 !#include clean_reading_experience.txt
-! temporarily remove:
-! !#include adult_annoyance_list.txt
+!#include adult_annoyance_list.txt
