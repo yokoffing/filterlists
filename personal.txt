@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 April 2023
+! Version: 16 May 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -11,6 +11,13 @@
 ! You may remove if causing errors
 www.google.com##+js(cookie-remover, /^/)
 ogs.google.com##+js(cookie-remover, /^/)
+
+! Google Search
+! https://www.reddit.com/r/uBlockOrigin/comments/13fpeul/how_do_i_block_google_selfpromotion/
+www.google.com##[class$="__middle-slot-promo"]
+
+! Google News promo
+##.google-news-link
 
 ! EDU
 ! @@||cloudfront.net^$font,3p,domain=instructure.com|uncp.edu|amazon.com
@@ -34,7 +41,7 @@ ogs.google.com##+js(cookie-remover, /^/)
 !@@||google.com/recaptcha/enterprise.js$domain=hulu.com|accounts.spotify.com|login.coinbase.com
 !@@||gstatic.com/recaptcha/$domain=accounts.spotify.com
 
-! Personal
+! THIRD-PARTY PAYMENT / LOGIN
 ||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
 ||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
 /PaypalExpressCheckout
@@ -51,14 +58,16 @@ ogs.google.com##+js(cookie-remover, /^/)
 ###googleContainer
 ###apple-signin-button
 ##.cl-socialButtons
-! Google News promo
-##.google-news-link
-
 ! Google sign-in on Indeed
 indeed.com##.icl-Card
 
-! Spotify
+! SPOTIFY
 accounts.spotify.com##.eOZPwe.kdQBSg.sc-hBUSln.sc-gsDKAQ
+
+! YOUTUBE
+! Hide suggestions at the end of the video
+! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
+youtube.com##.ytp-ce-element
 
 ! Hide already watched YouTube videos
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
