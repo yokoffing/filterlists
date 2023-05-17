@@ -2,8 +2,6 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/yokoffing/filterlists)](https://github.com/yokoffing/filterlists/issues)
 [![GitHub closed issues](https://badgen.net/github/closed-issues/yokoffing/filterlists?color=green)](https://github.com/yokoffing/filterlists/issues?q=is%3Aissue+is%3Aclosed)
-![GitHub repo size](https://img.shields.io/github/repo-size/yokoffing/filterlists)
-![GitHub](https://img.shields.io/github/license/yokoffing/filterlists?color=blue)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)
@@ -30,19 +28,19 @@ https://how-i-experience-web-today.com/
 
 ### All-Purpose
 
-1) :star: [**HaGeZi's Pro++ DNS Blocklist**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
-<br> Pro++ combines Hagezi's own lists with respected community blocklists like [OISD](https://oisd.nl/), [Steven Black's list](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), 1Hosts ([Pro](https://github.com/badmojr/1Hosts#1hosts-pro)), [notracking](https://github.com/notracking/hosts-blocklists), [notrack](https://gitlab.com/quidsup/notrack#notrack) list, and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus). Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers.
+1) :star: [**Hagezi's DNS Blocklist - Pro Plus**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
+<br> Pro Plus combines Hagezi's own lists with respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus). Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers.
 
 2) :star: [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
 <br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt).
 
 ### Privacy
 
-1) :star: **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
-<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It also includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup>. Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
-
-2) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
-<br> This list is a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt). It eliminates extra allowlisting caused by [different methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt). 
+1) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
+ 
+2) :star: **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
+<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup>. Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
 
 #### URL Tracking Parameters
 
@@ -56,7 +54,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 #### Fonts
 
 1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
-<br> A successor to `Fanboy's Anti-thirdparty Fonts`, this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them..<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> **Note:** This will break the "look and feel" of many sites.
+<br> A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> **Note:** This will break the "look and feel" of many sites.
 
  ***
  
