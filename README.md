@@ -70,11 +70,11 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ### Security
 
-1) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
-<br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows PUP ads. It has many other subcategories that distinguish it from similar lists.
+1) :star: **[Most Abused TLDs](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
+<br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own `Enhanced website protection` list, `Dandelion Sprout's Anti-Malware List`, and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
 
-2) **[Most Abused TLDs](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-)** | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
-<br> Blocks likely abused TLDs and allows exceptions for legitimate sites. Merged from my own `Enhanced website protection` list, `Dandelion Sprout's Anti-Malware List`, and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
+2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
+<br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows PUP ads. It has many other subcategories that distinguish it from similar lists.
 
 3) **Enhanced website protection** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt)
 <br> Block more abused TLDs for extra security. A supplement to `Dandelion Sprout's Anti-Malware List`.
