@@ -58,15 +58,18 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles).
 
 2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
+<br> Attempts to bypass forced logins.
+
+3) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
+ <br> Filters to block and remove copycat-websites from DuckDuckGo, Google and other search engines. Used to be specific to dev websites like StackOverflow or GitHub, but it currently supports others like Wikipedia. Supports StackOverflow + GitHub + NPM + Wikipedia + SEO Spam.
+
+#### Paywalls
  
-3) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
+1) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
  <br> The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
  
-4) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
+2) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
  <br> This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
-
-5) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
- <br> Filters to block and remove copycat-websites from DuckDuckGo, Google and other search engines. Used to be specific to dev websites like StackOverflow or GitHub, but it currently supports others like Wikipedia. Supports StackOverflow + GitHub + NPM + Wikipedia + SEO Spam.
 
 ### Security
 
