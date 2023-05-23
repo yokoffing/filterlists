@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 20 May 2023c
+! Version: 22 May 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -11,7 +11,7 @@
 ||buzz^$doc,from=~allthe.buzz|~awful.buzz|~cliq.buzz|~montpellier.buzz|~sideb.buzz|~williamsonday.buzz
 ||mov^$doc,from=~david.mov
 ||tk^$doc,from=~adistance.tk|~bloatcat.tk|~bonzibuddy.tk|~bryla.tk|~bstweaker.tk|~budterence.tk|~c-r-t.tk|~c0d3c.tk|~censurion.tk|~china996.tk|~cuso.tk|~devhonk.tk|~dlyang.tk|~google.tk|~goshujin.tk|~gotofap.tk|~graph.tk|~grazziecorp.tk|~handicapped.tk|~heggadrone.tk|~helene.tk|~kabi.tk|~lameni.tk|~leroymcqy.tk|~loveisgrief.tk|~msqtdn.tk|~pube.tk|~rainer-zufall.tk|~sironi.tk|~takiverse.tk|~tokelau-info.tk|~webdev189.tk|~xn--qubec-csa.tk|~zete.tk
-||zip^$doc,from=~url.zip
+||zip^$doc,from=~community.zip|~url.zip
 
 !!! Likely abused TLDs
 ! https://w3techs.com/technologies/overview/top_level_domain
