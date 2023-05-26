@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 May 2023
+! Version: 26 May 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -132,6 +132,7 @@ cosmopolitan.com##.transporter
 counsellingresource.com##[href="https://counsellingresource.com/therapy/service/live-online-therapy/#bh"]
 creativebloq.com##.exit-intent__wrapper, #sidebar, .masthead-item.buttons-social
 creativemarket.com##[href="https://creativemarket.com/membership"]
+creditwise.capitalone.com##cw-offers-tile.ng-star-inserted, cw-disclaimer-text.ng-star-inserted
 crypto-economy.com##.td-fix-index.tdb-block-inner.td_block_inner
 crypto-news-flash.com###bunyad-latest-posts-widget-4, .main-content.col-9 > .related-posts
 cryptobriefing.com##.ad-container, .article-content-wrapper > .article-content > .recommended-posts, .article-sidebar > .article-sidebar-items
@@ -146,7 +147,7 @@ cybernews.com##.cells__item_width_3.cells__item_width.cells__item
 cybernews.com##.compliance-note_with-spacing.compliance-note
 dailycaller.com##strong
 dailyhodl.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .wpb_content_element.wpb_widgetised_column
-dailymail.co.uk##.beta, .related-replace-desktop-xwide.ccox.mol-fe-related-replace, .embed-manager-on, .rc-content, .home.comments-count, .mol-fe-related-replace, .floating-buttons-bar
+dailymail.co.uk##.beta, .related-replace-desktop-xwide.ccox.mol-fe-related-replace, .embed-manager-on, .rc-content, .home.comments-count, .mol-fe-related-replace, .floating-buttons-bar, .article-reader-comments
 dailystar.co.uk##section.related-articles-bg:nth-of-type(odd), section.related-articles-bg:nth-of-type(even)
 daniel.haxx.se##.widget-area.content-sidebar
 darkreader.org##.page-grid-inside
@@ -420,7 +421,7 @@ sitecheck.sucuri.net##.chat-widget-wrapper
 sitepoint.com##.sbBody, .top-12.sticky
 sitepoint.com##div.custom-content > [href^="https://www.sitepoint.com/premium/pricing/"]
 sitepoint.com##div.custom-content:nth-of-type(odd)
-skyscanner.com##.InlineBrandBanner_container__NTc1Z.BpkCard_bpk-card__MGY5N, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__ODZiM.BpkCard_bpk-card--atomic-button__M2RmM.BpkCard_bpk-card__MGY5N, .InlineHotelsBanner_inlineHotelsBannerContainer__Nzc5Z, .DefaultBanner_container__ZDdhO.BpkPanel_bpk-panel__MWMxZ
+skyscanner.com##.InlineBrandBanner_container__NTc1Z.BpkCard_bpk-card__MGY5N, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__ODZiM.BpkCard_bpk-card--atomic-button__M2RmM.BpkCard_bpk-card__MGY5N, .InlineHotelsBanner_inlineHotelsBannerContainer__Nzc5Z, .DefaultBanner_container__ZDdhO.BpkPanel_bpk-panel__MWMxZ, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__OTI5O.BpkCard_bpk-card--atomic-button__YWFjM.BpkCard_bpk-card__NTJiY,.App_App__main__NTM0N, .App_App__YjM1Z, .UnpricedBrandInline_link__YmFhN, .InlineBrandBanner_container__NTc1Z.BpkCard_bpk-card__NTJiY
 slashgear.com##.gridify
 slate.com##.in-article-recirc
 slate.com##.share-sidebar.article__share-sidebar
