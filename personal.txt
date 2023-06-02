@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023
+! Version: 2 June 2023b
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -61,15 +61,17 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
 
 ! Hide YouTube Shorts
-www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-guide-entry-renderer)
-www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33c-.77-.32-1.2-.5-1.2-.5L18"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
 www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
 www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
 www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
 www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-reel-shelf-renderer
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
 www.youtube.com##ytd-browse[page-subtype="channels"] #contents.ytd-reel-shelf-renderer:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-browse[page-subtype="trending"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
 www.youtube.com##ytd-search #contents ytd-reel-shelf-renderer
 m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
@@ -77,3 +79,53 @@ m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-s
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
 m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+
+! Hide View count
+www.youtube.com##.yt-view-count-renderer
+
+! Hide view count of videos under the video player
+www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
+
+! Hide View count on Home, Subscriptions, etc.
+www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
+www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
+
+! Hide subscriber count near the channel name under the video player
+www.youtube.com###owner-sub-count
+
+! Hide all the videos on the channel page
+! www.youtube.com##ytd-browse.ytd-page-manager.style-scope:nth-of-type(4)
+
+! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer:style(border: 2px dashed red !important)
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer:style(border: 2px dashed red !important)
+
+! Hide the hashtags above the video title 
+www.youtube.com###description #info a[href^="/hashtag/"]
+www.youtube.com###super-title
+www.youtube.com##.super-title
+m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
+m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
+
+! Hide the copyright notice in the video description 
+www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
+m.youtube.com##ytm-video-description-music-section-renderer
+
+! Disable ambient mode
+www.youtube.com###cinematics.ytd-watch-flexy:remove()
+
+! Hide the channel description box under videos and shorts 
+www.youtube.com###clarify-box
+www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
+
+! Hide all comments below the video
+www.youtube.com###comments #contents:remove()
+
+! Hide video description
+www.youtube.com###description-inline-expander
+
+! Hide view count
+www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
+
+! Hide Comment count
+www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
