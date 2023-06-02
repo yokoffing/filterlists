@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023c
+! Version: 2 June 2023d
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -455,6 +455,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||shopcircleapp.co^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
+##.afterpay__wrapper
 ##.shopify-payment-button
 /AdditionalGoogleAnalyticsScriptSandbox
 /GooglePayButton
