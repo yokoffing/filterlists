@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 16 May 2023
+! Version: 2 June 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -45,21 +45,6 @@ www.google.com##[class$="__middle-slot-promo"]
 ||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
 ||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
 /PaypalExpressCheckout
-##shopify-payment-terms
-##.additional-checkout-buttons.grid__item
-! Third-party sign-in buttons
-##.sign-in-google-btn
-##.google.primary.auth
-##.apple.primary.auth
-##.facebook-auth
-##.google-auth
-##._btn-google.social-button
-##._btn-apple.social-button
-###googleContainer
-###apple-signin-button
-##.cl-socialButtons
-! Google sign-in on Indeed
-indeed.com##.icl-Card
 
 ! SPOTIFY
 accounts.spotify.com##.eOZPwe.kdQBSg.sc-hBUSln.sc-gsDKAQ
