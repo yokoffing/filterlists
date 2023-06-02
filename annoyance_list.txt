@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023
+! Version: 2 June 2023b
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -415,6 +415,7 @@ secureblink.com##.BodyTop_socialMediaIcons__2Wpnz, .RecentPosts_recentPosts__Lyp
 seekingalpha.com##.adsbygoogle
 seekingalpha.com##.dK-o.ai-fH.dD-ps, .et-r7 > section.ah-b8.dD-b8.ai-fH.dD-ps.ai-dp.dD-o.ai-cm.dD-pz, .bN-lr.uH-o, .cS-os, .bd-kd, .inline-banner-placeholder, .ag-b2.ag-bL.mN-o
 seekingalpha.com##.kfDX.kfB8 > div > section.dyA.hkQ.yF8.hkC.yCC.hkA.yN.hkJ.hkB.yEU.yDP.fbA.xR.xK.xA.psA > .xN.xA.hkO > .hkM > .paywall-full-content, .ykB > .yF8.hkC.yCC.hkA.yN.hkJ.hkB.yEU.yDP.fbA.xR.xK.xA.psA
+securelist.com##.js-sticky-widget.c-widget-subscribe
 sfexaminer.com##.visible.centered.in.promo-designer-modal.modal
 showbiz411.com##.comments, .similar-articles.art-img-text-down, .td-page-wrap.container > .row > .span12 > .td-grid-wrap > .container-fluid > .row-fluid > .column_container.span4
 sitecheck.sucuri.net##.chat-widget-wrapper
