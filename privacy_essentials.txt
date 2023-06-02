@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023d
+! Version: 2 June 2023e
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -455,14 +455,32 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||shopcircleapp.co^$3p
 ||shopifycloud.com^$3p
 ||shopifysvc.com^$3p
-##.afterpay__wrapper
-##.shopify-payment-button
 /AdditionalGoogleAnalyticsScriptSandbox
 /GooglePayButton
 /FacebookPayButton
 /ShopPay
 !||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
+
+! THIRD-PARTY PAYMENT / LOGIN
+##shopify-payment-terms
+##.additional-checkout-buttons.grid__item
+! Third-party sign-in buttons
+##.sign-in-google-btn
+##.google.primary.auth
+##.apple.primary.auth
+##.facebook-auth
+##.google-auth
+##._btn-google.social-button
+##._btn-apple.social-button
+##.afterpay__wrapper
+##.dynamic-checkout__buttons
+##.shopify-payment-button
+###googleContainer
+###apple-signin-button
+##.cl-socialButtons
+! Google sign-in on Indeed
+indeed.com##.icl-Card
 
 ! BING
 ||bing.com^$3p,domain=~bing.com|~login.live.com|~microsoft.com|~msn.com
