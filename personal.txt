@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023b
+! Version: 2 June 2023c
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -90,6 +90,9 @@ www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
 www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
 www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
 
+! Hide view count and upload time
+www.youtube.com###metadata-line
+
 ! Hide subscriber count near the channel name under the video player
 www.youtube.com###owner-sub-count
 
@@ -118,6 +121,9 @@ www.youtube.com###cinematics.ytd-watch-flexy:remove()
 www.youtube.com###clarify-box
 www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
 
+! Hide Join button
+www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
+
 ! Hide all comments below the video
 www.youtube.com###comments #contents:remove()
 
@@ -129,3 +135,7 @@ www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
 
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
+
+! Hide Verified checkmark
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+
