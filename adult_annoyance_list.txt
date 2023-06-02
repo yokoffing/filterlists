@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 26 May 2023
+! Updated: 2 June 2023
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -95,6 +95,7 @@ hentaiplay.net###footbar:remove()
 hentaiplay.net###video_overlays
 hotmovs.com##.video-page__related
 icegay.tv##.b-secondary-column__randoms > .b-head--underline.b-head
+jizzberry.com###list_videos_custom_related_sphinx_tab, .flexible-container.content > .box
 mengem.com###list_videos_related_videos
 monstercock.info##.reltated-sec, .col.comments-col
 mrgay.com##.video-info > section, article, div.wrapper > section, .video-page__related
