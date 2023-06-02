@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 26 May 2023
+! Version: 2 June 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -595,6 +595,7 @@ zoosk.com##.article__related, .newsletter
 ||garry.windscribe.com^
 ||circleid.com/images/industry/sponsor$image
 ||crypto.games/banners$image
+##.subscribe-widget
 
 ! VIDEO PLAYERS
 ! Only block players that usually play content not directly related to the page
@@ -703,6 +704,8 @@ www.reddit.com##:xpath(//button[contains(text(),'Shop Avatars')])
 ! Coin Icon
 www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
 www.reddit.com##.icon-coins
+! Hide Related sidebar in the new-new reddit
+www.reddit.com##.block.xs\:pt-md.pdp
 
 ! Block AutoModerator messages
 reddit.com##._1YCqQVO-9r-Up6QPB9H6_4 > div > div:has-text(AutoModerator)
