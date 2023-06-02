@@ -3,13 +3,13 @@
 ! Description: Allows third-party fonts on only selected sites. May be unusable if your DNS resolver does not flatten CNAMEs!
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 24 March 2023
+! Version: 2 June 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=bootsnipp.com|regexpal.com|typepad.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
-@@||cloudfront.net^$font,3p,domain=noip.com|phabricator.services.mozilla.com|status.proton.me
+@@||cloudfront.net^$font,domain=noip.com|phabricator.services.mozilla.com|securelist.com|status.proton.me
 @@||fast.fonts.net/jsapi/$script
 @@||fonts.googleapis.com^$domain=blog.google|blogger.com|chromium.org|developers.google.com|docs.google.com|earth.google.com|fonts.google.com|gaggle.fun|googlesource.com|grow.google|news.google.com|reedsy.com|reliaslearning.com|socialworkers.org|toolbox.googleapps.com|trends.google.com|vocabulary.com|youtube.com
 @@||fonts.gstatic.com^$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|chrome.com|chromium.org|dexscreener.com|domains.google|google.com|googlesource.com|grow.google|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|youtube.com
@@ -27,6 +27,7 @@
 @@/materialicons
 @@/materialsymbols
 @@/materialsymbolsoutlined
+@@/wp-content/themes
 @@/wp-content/uploads/fusion-icons
 @@family=Material+Icons
 @@family=Material+Symbols
