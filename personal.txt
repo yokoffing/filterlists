@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2023c
+! Version: 5 June 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -128,7 +128,7 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 www.youtube.com###comments #contents:remove()
 
 ! Hide video description
-www.youtube.com###description-inline-expander
+! www.youtube.com###description-inline-expander
 
 ! Hide view count
 www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
