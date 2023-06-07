@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 May 2023
+! Version: 7 June 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -49,4 +49,8 @@
 /^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
 /^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
+
+! Non-latin TLDs
+! from https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1579896974
+/(://|^)[a-z0-9.-]{2,}\.xn--[a-z0-9]{4,}($|/)/
 !#endif
