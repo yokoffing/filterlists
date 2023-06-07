@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 June 2023
+! Version: 7 June 2023b
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -59,7 +59,7 @@ bestbuy.com##.shopping-assistant-accordion.c-accordion
 biblegateway.com##.sys-announce-content, .flex-1.resources
 bigtechbank.com###sidebar > .LinkList.widget, .PopularPosts.widget, .post-footer, .comments-system-blogger.litespot-pro-blog-post-comments
 billboard.com##.trending-stories-widget, .injected-related-story
-bing.com##.rebateGlobalDecoration
+bing.com##.rebateGlobalDecoration, .secure_icon
 biography.com##.l-person--header.m-person--header.l-wrap > .m-person--social-links.m-social, .mm-component-stack--is-body-item.h-isolated-styles.m-detail--in-content-recommendation.m-in-content-recommendation, .l-person--social.m-person--social
 bitcoinist.com##div.related-reading-shortcode > strong, div.related-reading-shortcode:nth-of-type(2), div.related-reading-shortcode:nth-of-type(5)
 bitcoinist.com##em > strong
@@ -137,7 +137,7 @@ crypto-economy.com##.td-fix-index.tdb-block-inner.td_block_inner
 crypto-news-flash.com###bunyad-latest-posts-widget-4, .main-content.col-9 > .related-posts
 cryptobriefing.com##.ad-container, .article-content-wrapper > .article-content > .recommended-posts, .article-sidebar > .article-sidebar-items
 cryptoevents.global##.sidebar-widgets, .custom-banners-cycle-slideshow-default_style
-cryptonews.net##.right-side.col-sm-4.col-xs-12 > .download_the_app, .right-side.col-sm-4.col-xs-12 > .subscribe, .side.vert, [href^="https://bitsgap.com/"], [href^="https://www.bestchange.com/"], [href^="https://www.cryptohopper.com/"]
+cryptonews.net##.right-side.col-sm-4.col-xs-12 > .download_the_app, .right-side.col-sm-4.col-xs-12 > .subscribe, .side.vert, .exchange, .col-lg-3.offset-lg-1.col-12, .top.vert, .in_list.e-.vert-public, .footer.vert, [href^="https://bitsgap.com/"], [href^="https://www.bestchange.com/"], [href^="https://www.cryptohopper.com/"]
 csoonline.com###fsb-4201 > strong, .blxC51120.blox4_html.blxM2004.blxParticleendnote.blx > aside, #editorialfakesidebardiv, aside.fakesidebar, .fakesidebar-sponsored.fakesidebar-auto.fakesidebar, .article-intercept
 ctrl.blog###related
 ctvnews.ca##.sidebar, div.graybox.list.element > .linklist, .related
@@ -146,6 +146,7 @@ cybereason.com##.cr-ml-sidebar--group
 cybernews.com##.cells__item_width_3.cells__item_width.cells__item
 cybernews.com##.compliance-note_with-spacing.compliance-note
 dailycaller.com##strong
+dailydot.com##.side-panel.col.widget-area, .text-center.t-top-newsletter.featured-article
 dailyhodl.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .wpb_content_element.wpb_widgetised_column
 dailymail.co.uk##.beta, .related-replace-desktop-xwide.ccox.mol-fe-related-replace, .embed-manager-on, .rc-content, .home.comments-count, .mol-fe-related-replace, .floating-buttons-bar, .article-reader-comments
 dailystar.co.uk##section.related-articles-bg:nth-of-type(odd), section.related-articles-bg:nth-of-type(even)
@@ -359,9 +360,8 @@ partitionwizard.com##.main-menu-other
 pastebin.com##.popup-container
 pcgamer.com###affiliate-disclaimer, sidebar, .jump-to-comments, .read-more-container, .related-articles-wrap, .trending-wrapper, .recommended-content, .popular-box, .fancy-box
 pcguide.com##.aawp
-pcmag.com##.border-l-0.border, .container-xs, .mt-24.container.inline-block, .leading-tight.mb-4.-mt-4.p-4.w-full
+pcmag.com##.border-l-0.border, .container-xs, .mt-24.container.inline-block, .leading-tight.mb-4.-mt-4.p-4.w-full, div:nth-of-type(8), .flex.rich-text.leading-loose.mt-4.text-left, .mb-16.gap-4.container.text-white.md\:flex-row.flex-col.flex
 pcmag.com###trust-badge, .relative.max-w-3xl
-pcmag.com##div:nth-of-type(8)
 pcworld.com##.product-widget, .affiliate-disclaimer
 penguinrandomhouse.com##.sgnup.fi_default
 people.com##.auto-advance.component
@@ -397,7 +397,9 @@ reuters.com##.desktop-latest-updates__container__3z03m
 reuters.com##.StickyRail__container___keQm8R, .RegularArticleLayout__related___2MCEjD, .SpacingContainer__max-width___1aBoiA.SpacingContainer__tablet-mobile-only___1ilBOZ.SpacingContainer__t-spacing-single___3namO8.SpacingContainer__container___2kvuUN
 reuters.com##.workspace-article-banner__banner-container__1qyxV
 reuters.com##div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(even)
-reuters.com##div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(even), div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(odd)
+reuters.com##div.article-body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(even), div.article-
+body__element__2p5pI.article-prompt__container__3uXJV:nth-of-type(odd)
+resources.pcb.cadence.com##.active.uf-reco-tiles-present.uf-reco-panel
 reviewgeek.com##.related-articles
 robots.net##.widget-area, .code-block
 rollingstone.com##.c-related-links-wrapper, .l-section--no-separator.l-section, .l-blog__secondary
