@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 June 2023c
+! Version: 7 June 2023d
 ! Syntax: AdBlock
 ! Sources:
 ! My personal filters
@@ -104,7 +104,6 @@ $ping
 ||duckduckgo.com^$3p,domain=~duckduckgo.com|~spreadprivacy.com
 ||eagleapi.io^
 ||evidon.com^$3p
-||exoclick.com^$3p
 ||exosrv.com^$3p
 ||feedgrabbr.com^$3p
 ||forbes.com^$3p,domain=quora.com
@@ -113,7 +112,6 @@ $ping
 ||future-fie.co.uk^
 ||future.net.uk^$3p,~script
 ||futurecdn.net^$xhr
-||fwmrm.net^
 ||geniuslinkcdn.com^$3p
 ||geo.cnbc.com^
 ||geo.lovely-app.com^
