@@ -561,7 +561,7 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ! from https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
 ! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
 ||1rx.io^$3p
-||2cnt.net^$3p$3p
+||2cnt.net^$3p
 ||313.nl^$3p
 ||33across.com^$3p
 ||360yield.com^$3p
