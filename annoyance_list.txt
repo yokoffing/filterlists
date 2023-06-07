@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 June 2023
+! Version: 7 June 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -254,8 +254,7 @@ infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_writ
 inquirer.com##.block.responsive-embed, .component-in-recommender.grid-recommender
 insideevs.com##.ie_transform.sidebar, .relatedContent-new
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
-investopedia.com##.grid-pre-footer.loc
-investopedia.com##.related-articles, .campaign-dialog
+investopedia.com##.grid-pre-footer.loc, .related-articles,
 investorplace.com##.bg-darkblue.wide.special-reports, .countdown-banner, .countdown-homepage, .related-articles.related-posts, .wide.newsletters, aside
 ipaddressguide.org##.recent-posts-extended.rpwe_widget.widget, .img-pos-top.related-grid.entry-related.entry--item, .comments-area, .post-navigation.navigation
 itsfoss.com##.jp-relatedposts-i2, .q2w3-fixed-widget-container.widget-area.sidebar-primary.sidebar, .thrive-comments-content, .ugb-df91fcd-content-wrapper.ugb-columns__item, .ugb-main-block.ugb-container--design-plain.ugb-container--v2.ugb-ea90ed6.ugb-container.wp-block-ugb-container.alignwide > .ugb-inner-block, .widget-area
