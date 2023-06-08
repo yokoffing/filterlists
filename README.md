@@ -106,42 +106,44 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists)
 <br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
 
-## Block Content with Fewer Filters
+# Block Content with Fewer Filters
 
 If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many to block unwanted content effectively.
 
-The lists below are designed to be lighter and faster but still maintain high quality standards for content blocking:
+The lists below are designed to be lighter and faster but still maintain high standards for content blocking. The rule counts shown are when compared to their regular list in uBO.
 
-### Ads
+## Ads
 
 1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
 
-### Privacy
+## Privacy
 
-1) :star: [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k vs. 47k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
-<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
-
-2) :stop_sign: **EasyPrivacy (Optimized)** (7k vs. 31k rules) | **use uBO's list instead**
+1) :stop_sign: **EasyPrivacy (Optimized)** (7k vs. 31k rules) | **use uBO's list instead!**
 <br> EasyPrivacy is the primary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts, and information collectors, thereby protecting your personal data. [EasyPrivacy (Optimized)](https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt) is excluded because I was not satisfied with the coverage. 
 
-### Annoyances
+2) :star: [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k vs. 47k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
+
+## Annoyances
 
 1) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
 <br> Hides website notifications, social media widgets, cookie notices, chat widgets, and some newsletters, thereby substantially decreasing web page loading times and uncluttering them. (Includes `EasyList - Cookie Notices` and `EasyList - Social Widgets`)
 
-2) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
-<br> (**optional:** Most issues are already covered by `Fanboy Annoyances`)
-<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate Fanboy's lists, so you can use them both together if you prefer. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
+2) **EasyList - Social Widgets (Optimized)** (8k vs. 24k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/123_optimized.txt)
+<br> (**optional:** Already included in `Fanboy's Annoyances` list)
+<br> Blocks social content, widgets, scripts, and icons.
 
-3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
-<br> (**optional:** Most issues are already covered by `Fanboy Annoyances`)
+3) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+<br> (**optional:** AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together)
+<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
+
+4) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
+<br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`)
 <br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
 
-#### Why not Minified?
-The Minified lists are part of an Adblock Plus-hosted unofficial project that was hardforked from their source lists in August 2019. They are smaller than AdGuard's Optimized lists but lack quality blocking. Because EL and EP are your primary defenses with content blocking, I wouldn't use the Minified lists.
-
 ***
+
 ## FAQ
 
 ### Which browser works best with uBO?
@@ -152,6 +154,9 @@ uBlock Origin can [do more](https://github.com/gorhill/uBlock/wiki/About-%22Why-
 
 ### Why should I use these lists?
 See [here](https://how-i-experience-web-today.com/).
+
+### Why did you include AdGuard's Optimize lists but not AdBlock Plus' Minified lists?
+The Minified lists are part of an Adblock Plus-hosted unofficial project that was hardforked from their source lists in August 2019. They are smaller than AdGuard's Optimized lists but lack quality blocking. Because EL and EP are your primary defenses with content blocking, I wouldn't use the Minified lists.
 
 ***
 
