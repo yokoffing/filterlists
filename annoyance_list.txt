@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 June 2023b
+! Version: 8 June 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -213,6 +213,7 @@ futurepedia.io##div.css-12y6uts.MuiGrid-grid-lg-4.MuiGrid-grid-md-4.MuiGrid-grid
 gadgets.ndtv.com##.rhs_section, .story_nextprv, .margin_b30.row.story_list, ._ftrwrp, .hd.innerContainer
 gamerant.com###secondary, .next-single, .next-btn.sentinel-article-nextArticle, .w-article-related, .related-single, .w-article-related
 gamerbraves.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .jnews_inline_related_post, .jnews_prev_next_container, .jnews_related_post_container, .section.comment-wrapper
+gamepressure.com##aside
 gatherer.wizards.com###TopBannerAdvertisement
 gcn.com###ph_pcontent3_0_divListBox
 geckoandfly.com###custom_html-4 > .custom-html-widget.textwidget, .yarpp-related, .comments-area
@@ -252,6 +253,7 @@ indianexpress.com##.theiaStickySidebar, .custom_read_button, .h-text-widget, .ne
 infinite.tcgplayer.com###app > .subscribe-drawer--container, .article-side-rail, .article-spotlight, .related-articles__grid > .related-content
 infoblox.com##.carousel-desktop.carouselwrapper, .widget-area.sidebar-primary.sidebar
 infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_write_infoq
+ign.com##.jsx-4023299490.bordered-box, .three-column.jsx-628408132, .commerce-disclosure, .compact-box, .video-container, .background-image.premium-content-block
 inquirer.com##.block.responsive-embed, .component-in-recommender.grid-recommender
 insideevs.com##.ie_transform.sidebar, .relatedContent-new
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
@@ -568,7 +570,7 @@ wjcl.com##.article-sidelist-wrapper, .newsletter-signup, .article-content--body-
 wololo.net##.sidebar-content, #comments
 womenshealthmag.com##.watch-next-in-body.end-of-content-playlist, .embed-product-small.embed-product-left.embed-product.embed, .transporter
 word-spinner.com##.altumcode-email-collector-wrapper
-wsj.com##.login-section-container
+wsj.com##.login-section-container, .aside-container
 www1.cbn.com##.cat-block
 www1.cbn.com##.cbn_next_article_container
 www1.cbn.com##.prayer-forms.clearfix.cbn-devotion-forms
@@ -599,6 +601,11 @@ zoosk.com##.article__related, .newsletter
 ||circleid.com/images/industry/sponsor$image
 ||crypto.games/banners$image
 ##.subscribe-widget
+
+! SOCIAL BUTTONS
+##a[href^="https://twitter.com/intent/tweet"]
+##a[href^="https://www.facebook.com/login.php"]
+##a[href^="mailto:"]
 
 ! VIDEO PLAYERS
 ! Only block players that usually play content not directly related to the page
