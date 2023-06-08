@@ -11,29 +11,30 @@
 # Guidelines
 1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (by using [sane](https://privacyguides.org/basics/threat-modeling), quality blocklists).
 2) Aim for [efficiency](https://brave.com/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (avoid redundancy and bloat when possible).
-3) Utilize the [minimum number](https://old.reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) of useful lists.
+3) Implement the [minimum number](https://old.reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) of needed and useful lists.
+
+***
+
+# Contents
+1) [Recommended Filters for uBlock Origin](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
+2) [Custom Filters](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
+    1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
+    2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
+    3) [Security](https://github.com/yokoffing/filterlists#security)
+    4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
+3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
+    1) [Ads](https://github.com/yokoffing/filterlists#ads)
+    2) [Privacy](https://github.com/yokoffing/filterlists#privacy-1)
+    3) [Annoyances](https://github.com/yokoffing/filterlists#annoyances-1)
+4) [FAQ](https://github.com/yokoffing/filterlists#faq)
+5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
 # Recommended Filters for uBlock Origin
 
 ![default lists](https://github.com/yokoffing/filterlists/assets/11689349/e18c8c8d-3554-44ff-b163-346801471b81)
-
-***
-
-# Contents
-1) [Custom Filters](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
-    1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
-    2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
-    3) [Security](https://github.com/yokoffing/filterlists#security)
-    4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
-2) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
-    1) [Ads](https://github.com/yokoffing/filterlists#ads)
-    2) [Privacy](https://github.com/yokoffing/filterlists#privacy-1)
-    3) [Annoyances](https://github.com/yokoffing/filterlists#annoyances-1)
-3) [FAQ](https://github.com/yokoffing/filterlists#faq)
-4) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-5) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
@@ -46,6 +47,8 @@
 * Click `Apply Changes`
 
 ![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
+
+***
 
 ## Privacy
 
@@ -136,7 +139,7 @@ The lists below are designed to be lighter and faster but still maintain high st
 
 3) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
 <br> (**optional:** AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together)
-<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
+<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.
 
 4) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
 <br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`)
