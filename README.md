@@ -15,28 +15,25 @@
 
 ***
 
-
-## Contents
-1) Recommended Filters for uBlock Origin
-2) Custom Filters
-    1) How to import custom filters into uBlock Origin
-    1) Privacy
-    3) Annoyances
-    4) Security
-    5) All-Purpose
-3) Block Content with Fewer Filters
-    1) Ads
-    2) Privacy
-    3) Annoyances
- 4) FAQ
- 5) Additional Reading
- 6) Mentions
-
-***
-
 # Recommended Filters for uBlock Origin
 
 ![default lists](https://github.com/yokoffing/filterlists/assets/11689349/e18c8c8d-3554-44ff-b163-346801471b81)
+
+***
+
+# Contents
+1) [Custom Filters](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
+    1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
+    2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
+    3) [Security](https://github.com/yokoffing/filterlists#security)
+    4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
+2) [Block Content with Fewer Filters](https://github.com/yokoffing/filterlists#block-content-with-fewer-filters) (optional)
+    1) [Ads](https://github.com/yokoffing/filterlists#ads)
+    2) [Privacy](https://github.com/yokoffing/filterlists#privacy-1)
+    3) [Annoyances](https://github.com/yokoffing/filterlists#annoyances-1)
+3) [FAQ](https://github.com/yokoffing/filterlists#faq)
+4) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+5) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
