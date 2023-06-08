@@ -27,7 +27,7 @@
     2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists#security)
     4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
-2) [Block Content with Fewer Filters](https://github.com/yokoffing/filterlists#block-content-with-fewer-filters) (optional)
+2) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
     1) [Ads](https://github.com/yokoffing/filterlists#ads)
     2) [Privacy](https://github.com/yokoffing/filterlists#privacy-1)
     3) [Annoyances](https://github.com/yokoffing/filterlists#annoyances-1)
@@ -106,7 +106,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists)
 <br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
 
-# Block Content with Fewer Filters
+# Block Content with Fewer Rules
 
 If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many to block unwanted content effectively.
 
