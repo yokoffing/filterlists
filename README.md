@@ -1,3 +1,8 @@
+# Guidelines
+1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://privacyguides.org/basics/threat-modeling), quality blocklists).
+2) Utilize the [minimum number](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) of useful lists.
+3) Aim for efficiency without sacrificing quality (see #1).
+
 # Recommended Filters for uBlock Origin
 
 [![GitHub issues](https://img.shields.io/github/issues/yokoffing/filterlists)](https://github.com/yokoffing/filterlists/issues)
@@ -11,16 +16,35 @@
 ![default lists](https://github.com/yokoffing/filterlists/assets/11689349/e18c8c8d-3554-44ff-b163-346801471b81)
 
 ***
- 
+
 ## Custom Filters
- 
+
 #### How to import custom filters into uBlock Origin (uBO):
 * Choose a project from my list below
 * Click `add` and copy the URL (or right click `add` and select `Copy link`)
 * Under `Filter Lists > Custom` in uBO, paste the linked URL to the `Import` box
 * Click `Apply Changes`
- 
+
 ![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
+
+### Alternatives to Built-in Lists
+The following are one-for-one alternatives for some of the native filters. They provide adequate coverage more efficiently for U.S. users.
+
+[Easylist (Optimized)](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt) (24k vs. 67k rules)
+<br> The Optimized version is based on opt-in telemetry by AdGuard, is light on memory and comments, and gets below iOS/Safari filter limits.
+
+[Fanboy Annoyances (Optimized)](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt) (35k vs. 91k rules)
+<br>
+
+[AdGuard Annoyances (Optimized)](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt) (40k vs. 68k rules)
+<br> * It was inspired by Fanboy Annoyances List, but doesn’t duplicate it, so you can use them both together.
+* Blocks irritating elements on webpages, including cookie notices, third-party widgets and in-page popups.
+* (Doesn’t include social media widgets and buttons, to block them you can still use Social media filter separately).
+* The Optimized version is based on opt-in telemetry by AdGuard, is light on memory and comments, and gets below iOS/Safari filter limits.
+
+[AdGuard Social Media filter (Optimized)](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt) (14k vs. 20k rules)
+<br> 
+
 
 ### All-Purpose
 
