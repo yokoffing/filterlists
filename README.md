@@ -1,7 +1,7 @@
 # Guidelines
 1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (e.g., using [sane](https://privacyguides.org/basics/threat-modeling), quality blocklists).
 2) Utilize the [minimum number](https://old.reddit.com/r/nextdns/comments/1048xeg/do_you_use_nextdns_blocklist_as_the_primary/j33wnz2/?context=3) of useful lists.
-3) Aim for efficiency without sacrificing quality (see #1).
+3) Aim for [efficiency](https://brave.com/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (i.e. use blocklists with a small amount of rules and avoid rule redundancy).
 
 # Recommended Filters for uBlock Origin
 
@@ -28,7 +28,10 @@
 ![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
 
 ### Alternatives to Built-in Lists
-The following are one-for-one alternatives for some of the native filters. They provide adequate coverage more efficiently for U.S. users.
+The following are one-for-one alternatives for some of the native filters. These [Optimized](https://malwaretips.com/threads/filterlists-com.112728/) versions are based on opt-in telemetry by AdGuard. They are light on memory and comments (very important for phones), get below Safari/MV3 filter limits, and provide adequate coverage more efficiently for U.S. users.
+
+While uBO can handle 300k+ filters, it is lighter on your device to use a low amount of rules.
+potential performance gains. Images were most frequently blocked by EasyList, followed by scripts and iframes. Applying all of EasyList's rules took 51 seconds, while using only relevant rules cut that to 8 seconds. Brave plans to prune rarely used rules to improve performance for their users.
 
 [Easylist (Optimized)](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt) (24k vs. 67k rules)
 <br> The Optimized version is based on opt-in telemetry by AdGuard, is light on memory and comments, and gets below iOS/Safari filter limits.
@@ -45,6 +48,7 @@ The following are one-for-one alternatives for some of the native filters. They 
 [AdGuard Social Media filter (Optimized)](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt) (14k vs. 20k rules)
 <br> 
 
+[Hagezi's Personal DNS Blocklist](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
 
 ### All-Purpose
 
