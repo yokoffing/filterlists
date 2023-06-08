@@ -137,9 +137,8 @@ The lists below are designed to be lighter and faster but still maintain high st
 <br> (**optional:** Already included in `Fanboy's Annoyances` list)
 <br> Blocks social content, widgets, scripts, and icons.
 
-3) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
-<br> (**optional:** AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together)
-<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.
+3) :star: **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+<br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
 
 4) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
 <br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`)
