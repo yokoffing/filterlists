@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 June 2023
+! Version: 8 June 2023b
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -253,7 +253,7 @@ indianexpress.com##.theiaStickySidebar, .custom_read_button, .h-text-widget, .ne
 infinite.tcgplayer.com###app > .subscribe-drawer--container, .article-side-rail, .article-spotlight, .related-articles__grid > .related-content
 infoblox.com##.carousel-desktop.carouselwrapper, .widget-area.sidebar-primary.sidebar
 infoq.com##.f_article_rightbar.article__more.column, .contribute_wrap, .cta_write_infoq
-ign.com##.jsx-4023299490.bordered-box, .three-column.jsx-628408132, .commerce-disclosure, .compact-box, .video-container, .background-image.premium-content-block
+ign.com##.jsx-4023299490.bordered-box, .three-column.jsx-628408132, .commerce-disclosure, .compact-box, .video-container, .background-image.premium-content-block, .global-alert
 inquirer.com##.block.responsive-embed, .component-in-recommender.grid-recommender
 insideevs.com##.ie_transform.sidebar, .relatedContent-new
 insider.com##.multi-newsletter-signup, .post-content-more, .right-rail.commerce-coupons-module
