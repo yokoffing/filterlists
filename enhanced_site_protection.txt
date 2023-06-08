@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 7 June 2023
+! Version: 7 June 2023b
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -17,7 +17,7 @@
 ! https://w3techs.com/technologies/overview/top_level_domain
 ! https://www.spamhaus.org/statistics/tlds/
 ||beauty^$doc,from=~homelab.beauty|~nic.beauty|~vipbj.beauty
-||dad^$doc,from=~classic.dad|~daily.dad|~dear.dad
+||dad^$doc,from=~classic.dad|~daily.dad|~dear.dad|~rad.dad
 ||degree^$doc,from=~nic.degree|~opf.degree|~three60.degree
 ||esq^$doc,from=~erika.esq
 ||fit^$doc,from=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit|~thebene.fit|~tootally.fit
