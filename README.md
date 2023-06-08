@@ -20,81 +20,49 @@
 ## Custom Filters
 
 #### How to import custom filters into uBlock Origin (uBO):
-* Choose a project from my list below
+* Choose a project from the list below
 * Click `add` and copy the URL (or right click `add` and select `Copy link`)
 * Under `Filter Lists > Custom` in uBO, paste the linked URL to the `Import` box
 * Click `Apply Changes`
 
 ![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
 
-### Alternatives to Built-in Lists
-The following are one-for-one alternatives for some of the native filters. These [Optimized](https://malwaretips.com/threads/filterlists-com.112728/) versions are based on opt-in telemetry by AdGuard. They are light on memory and comments (very important for phones), get below Safari/MV3 filter limits, and provide adequate coverage more efficiently for U.S. users.
 
-While uBO can handle 300k+ filters, it is lighter on your device to use a low amount of rules.
-potential performance gains. Images were most frequently blocked by EasyList, followed by scripts and iframes. Applying all of EasyList's rules took 51 seconds, while using only relevant rules cut that to 8 seconds. Brave plans to prune rarely used rules to improve performance for their users.
-
-[Easylist (Optimized)](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt) (24k vs. 67k rules)
-<br> The Optimized version is based on opt-in telemetry by AdGuard, is light on memory and comments, and gets below iOS/Safari filter limits.
-
-[Fanboy Annoyances (Optimized)](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt) (35k vs. 91k rules)
-<br>
-
-[AdGuard Annoyances (Optimized)](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt) (40k vs. 68k rules)
-<br> * It was inspired by Fanboy Annoyances List, but doesn’t duplicate it, so you can use them both together.
-* Blocks irritating elements on webpages, including cookie notices, third-party widgets and in-page popups.
-* (Doesn’t include social media widgets and buttons, to block them you can still use Social media filter separately).
-* The Optimized version is based on opt-in telemetry by AdGuard, is light on memory and comments, and gets below iOS/Safari filter limits.
-
-[AdGuard Social Media filter (Optimized)](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt) (14k vs. 20k rules)
-<br> 
-
-[Hagezi's Personal DNS Blocklist](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
-
-### All-Purpose
-
-1) :star: [**Hagezi's DNS Blocklist - Pro Plus**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
-<br> Pro Plus combines Hagezi's own lists with respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus). Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers. **Note:** If you already use this blocklist at the DNS level with a service like [NextDNS](https://nextdns.io/?from=xujj63g5), adding it to uBO is purely optional.
-
-2) :star: [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
-<br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
 
 ### Privacy
 
-1) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+1) :star: [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
 <br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
  
-2) :star: **Privacy Essentials** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
-<br> A curated list for advanced hardening. Includes site requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). It includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup>. Compliments uBO in [medium mode](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode). **Note:** This list breaks third-party logins.
+2) :star: **Privacy Essentials** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
+<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). **Note:** This list breaks third-party logins.
 
 #### URL Tracking Parameters
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. For either list, if you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
-1) **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
+1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)** (2k rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022.
 
-2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
-<br> This list may break websites and contains possibly-problematic rules. There is not much the maintainers can do, as this list is just the ClearURLs rules converted into a filterlist.
+2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt)
+<br> (**optional:** This list may break websites and contains possibly-problematic rules. There is not much the maintainers can do, as this list is just the ClearURLs rules converted into a filterlist.)
 
 #### Fonts
 
-1) **Block third party fonts** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
+1) **Block third party fonts** (70 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
 <br> A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup> **Note:** This will break the "look and feel" of many sites.
  
  ### Annoyances
 
-1) :star: **yokoffing's Annoyance List** | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
+1) :star: **yokoffing's Annoyance List** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
 <br> A curated annoyance list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles).
 
-2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
+2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> Attempts to bypass forced logins.
-
-3) **[uBlock-Origin-dev-filter](https://github.com/quenhus/uBlock-Origin-dev-filter#ublock-origin-dev-filter)** | [add](https://raw.githubusercontent.com/quenhus/uBlock-Origin-dev-filter/main/dist/all_search_engines/global.txt)
- <br> Filters to block and remove copycat-websites from DuckDuckGo, Google and other search engines. Used to be specific to dev websites like StackOverflow or GitHub, but it currently supports others like Wikipedia. Supports StackOverflow + GitHub + NPM + Wikipedia + SEO Spam.
 
 #### Paywalls
  
 1) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** | [add](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt)
- <br> The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
+<br> The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension. Moreover, the add-on covers more sites than the filterlist. "[Disclaimer](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters): the list doesn't support as many sites as the extension/add-on does ... (and even less on iOS)."
  
 2) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** | [add](https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt)
  <br> This list blocks additional third-party requests and annoyances that are not covered in the `Bypass Paywalls Clean` filterlist.
@@ -112,6 +80,48 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 4) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
+
+### All-Purpose
+
+1) [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (41k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
+<br> (**optional:** if you use Hagezi with a service like [NextDNS](https://nextdns.io/?from=xujj63g5) or equivalent)
+<br> Blocks ads, trackers, native device trackers, badware, and more. Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers.
+
+2) [**Hagezi's DNS Blocklist - Pro Plus**](https://github.com/hagezi/dns-blocklists#multi-pro---maximum-protection-) (477k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt)
+<br> (**optional:** large file size)
+<br> Pro Plus combines Hagezi's own lists with respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
+
+3) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
+<br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+
+### Alternatives to Built-in Lists
+
+The following are one-for-one alternatives to a few native filters. These [Optimized](https://malwaretips.com/threads/filterlists-com.112728/) versions are based on opt-in telemetry by AdGuard. They are light on memory and comments (very important for phones), get below Safari/MV3 filter limits, and provide adequate coverage more efficiently for U.S. users.
+
+While uBO can handle 300k+ filters, it is lighter on your device to use a low amount of rules.
+potential performance gains. Images were most frequently blocked by EasyList, followed by scripts and iframes. Applying all of EasyList's rules took 51 seconds, while using only relevant rules cut that to 8 seconds. Brave plans to prune rarely used rules to improve performance for their users.
+
+lighter on CPU and memory and still shows high quality ad blocking.
+
+1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
+<br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers and forms the basis of over a dozen combination and supplementary filter lists.
+
+2) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
+<br> Hides website notifications, social media widgets, cookie notices, and some newsletters, thereby substantially decreasing web page loading times and uncluttering them. (Includes `EasyList - Cookie Notices` and `EasyList - Social Widgets`)
+
+3) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+(**optional:** Covered mostly by Fanboy Annoyances)
+<br> Blocks irritating elements on webpages, including cookie notices, third-party widgets and in-page popups. (Doesn’t include social media widgets and buttons, to block them you can still use `AdGuard Social Media filter` separately). AdGuard claims that this list doesn't duplicate Fanboy's lists, so you can use them both together.
+
+4) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
+(**optional:** Covered mostly by Fanboy Annoyances)
+<br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+
+5) **EasyPrivacy Optimized?**
+<br> EasyPrivacy is the primary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts, and information collectors, thereby protecting your personal data. [EasyPrivacy (Optimized)](https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt) is excluded because I was not satisfied with the coverage. Use the built-in list instead.
+
+#### Why not Minified?
+The Minified lists are part of an Adblock Plus-hosted unofficial project that was hardforked from their source lists in August 2019. They are smaller than AdGuard's Optimized lists but lack quality blocking. Because EL and EP are your primary defenses with content blocking, I wouldn't use the Minified lists.
 
 ***
 ## FAQ
