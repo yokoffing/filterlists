@@ -43,7 +43,7 @@
 ##.related-content
 
 ! Cosmetic filters
-urgayporn.com###list_videos_related_videos_items
+urgayporn.com###list_videos_related_videos_items, .ribbonban
 gayvids.tv##[href^="https://landing.mennetwork.com/"]
 localxh2.com##.yxd-jsp-a
 pornoxo.com##.js-toggle-content-wrapper
