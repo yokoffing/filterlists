@@ -15,6 +15,25 @@
 
 ***
 
+
+## Contents
+1) Recommended Filters for uBlock Origin
+2) Custom Filters
+    1) How to import custom filters into uBlock Origin
+    1) Privacy
+    3) Annoyances
+    4) Security
+    5) All-Purpose
+3) Block Content with Fewer Filters
+    1) Ads
+    2) Privacy
+    3) Annoyances
+ 4) FAQ
+ 5) Additional Reading
+ 6) Mentions
+
+***
+
 # Recommended Filters for uBlock Origin
 
 ![default lists](https://github.com/yokoffing/filterlists/assets/11689349/e18c8c8d-3554-44ff-b163-346801471b81)
@@ -122,7 +141,7 @@ The lists below are designed to be lighter and faster but still maintain high qu
 <br> (**optional:** Most issues are already covered by `Fanboy Annoyances`)
 <br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
 
-### Why not Minified?
+#### Why not Minified?
 The Minified lists are part of an Adblock Plus-hosted unofficial project that was hardforked from their source lists in August 2019. They are smaller than AdGuard's Optimized lists but lack quality blocking. Because EL and EP are your primary defenses with content blocking, I wouldn't use the Minified lists.
 
 ***
