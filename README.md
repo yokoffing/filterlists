@@ -23,9 +23,8 @@
     3) [Security](https://github.com/yokoffing/filterlists#security)
     4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
-    1) [Ads](https://github.com/yokoffing/filterlists#ads)
-    2) [Privacy](https://github.com/yokoffing/filterlists#privacy-1)
-    3) [Annoyances](https://github.com/yokoffing/filterlists#annoyances-1)
+    1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
+    2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [FAQ](https://github.com/yokoffing/filterlists#faq)
 5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
@@ -111,16 +110,18 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 # Block Content with Fewer Rules
 
+## Optimized Lists
+
 If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many to block unwanted content effectively.
 
 The lists below are designed to be lighter and faster but still maintain high standards for content blocking. The rule counts shown are when compared to their regular list in uBO.
 
-## Ads
+### Ads
 
 1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
 
-## Privacy
+### Privacy
 
 1) :stop_sign: **EasyPrivacy (Optimized)** (7k vs. 31k rules) | **use uBO's list instead!**
 <br> EasyPrivacy is the primary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts, and information collectors, thereby protecting your personal data. [EasyPrivacy (Optimized)](https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt) is excluded because I was not satisfied with the coverage. 
@@ -128,28 +129,30 @@ The lists below are designed to be lighter and faster but still maintain high st
 2) :star: [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k vs. 47k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
 <br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
-## Annoyances
+### Annoyances
 
 1) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
 <br> Hides website notifications, social media widgets, cookie notices, chat widgets, and some newsletters, thereby substantially decreasing web page loading times and uncluttering them. (Includes `EasyList - Cookie Notices` and `EasyList - Social Widgets`)
 
-2) **EasyList - Social Widgets (Optimized)** (8k vs. 24k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/123_optimized.txt)
-<br> (**optional:** Already included in `Fanboy's Annoyances` list)
-<br> Blocks social content, widgets, scripts, and icons.
-
-3) :star: **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+2) :star: **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
 <br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
 
-4) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
-<br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`)
+3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
+<br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion)
 <br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+
+## Selectively Disable Cosmetic Filters
+
+One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering only affects how the page looks. This will **reduce the workload on your device while still blocking unwanted network requests**.
+
+For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) (e.g., sites that only connect to one domain or don’t have any ads), just turn off cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
 
 ***
 
 ## FAQ
 
 ### Which browser works best with uBO?
-[uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works best in Mozilla Firefox. The features supported only on [Firefox](https://www.mozilla.org/en-US/firefox/new/) include preventing unwanted [DNS requests](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching) and CNAME [uncloaking](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#uncloak-canonical-names).
+[uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works [best](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox) in Mozilla Firefox. The features supported only on [Firefox](https://www.mozilla.org/en-US/firefox/new/) include preventing unwanted [DNS requests](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching) and CNAME [uncloaking](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#uncloak-canonical-names).
 
 ### Should I use a content blocker if I have Pihole, NextDNS, ControlD, etc.?
 uBlock Origin can [do more](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) compared to when only blocking requests at the DNS-level, like using [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://old.reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.<sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
