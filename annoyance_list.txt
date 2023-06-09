@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 8 June 2023b
+! Version: 9 June 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -210,6 +210,7 @@ freecodecamp.org##.alert-dismissable.alert-success.alert.flash-message
 freecodecamp.org##.alert-info.alert.annual-donation-alert
 ft.com##.n-content-recommended--single-story
 futurepedia.io##div.css-12y6uts.MuiGrid-grid-lg-4.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root:nth-of-type(even)
+futurism.com##.space-y-5.sticky, .sm\:p-6.sm\:space-y-6.space-y-4.p-3
 gadgets.ndtv.com##.rhs_section, .story_nextprv, .margin_b30.row.story_list, ._ftrwrp, .hd.innerContainer
 gamerant.com###secondary, .next-single, .next-btn.sentinel-article-nextArticle, .w-article-related, .related-single, .w-article-related
 gamerbraves.com##.col-md-4.jeg_sticky_sidebar.jeg_sidebar > .jegStickyHolder > .theiaStickySidebar, .jnews_inline_related_post, .jnews_prev_next_container, .jnews_related_post_container, .section.comment-wrapper
@@ -290,6 +291,8 @@ livemint.com###paywall_11665211098186 > .open.cardHolder
 livemint.com###personalFinance
 livemint.com###rhsWsjNotAdFree
 livemint.com###sectionRHSFeed-companies
+livescience.com##.fancy-box, .more-about__container, .popular-box
+livescience.com##p > strong:has-text(/^Related:/):upward(p)
 love2dev.com##.main > .py-2.justify-content-center.col-12.d-flex.cta-landscape
 macrumors.com###comments, .nextarticle--3Zv4q93A.widget--3ewetJyi
 maketecheasier.com##.sidebar-widget.sidebar-posts, .related-footer-grid
@@ -600,12 +603,14 @@ zoosk.com##.article__related, .newsletter
 ||garry.windscribe.com^
 ||circleid.com/images/industry/sponsor$image
 ||crypto.games/banners$image
-##.subscribe-widget
 
 ! SOCIAL BUTTONS
 ##a[href^="https://twitter.com/intent/tweet"]
 ##a[href^="https://www.facebook.com/login.php"]
 ##a[href^="mailto:"]
+##.subscribe-widget
+##.facebook-icon
+##.flipboard-icon
 
 ! VIDEO PLAYERS
 ! Only block players that usually play content not directly related to the page
