@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 June 2023
+! Version: 9 June 2023b
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -107,8 +107,8 @@ www.youtube.com###owner-sub-count
 ! www.youtube.com##ytd-browse.ytd-page-manager.style-scope:nth-of-type(4)
 
 ! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
-www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer:style(border: 2px dashed red !important)
-www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer:style(border: 2px dashed red !important)
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
 
 ! Hide the hashtags above the video title 
 www.youtube.com###description #info a[href^="/hashtag/"]
