@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 June 2023b
+! Version: 9 June 2023c
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -85,7 +85,7 @@ m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style=
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
 ! https://github.com/letsblockit/letsblockit/issues/449#issuecomment-1584682170
 www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
+! www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
 
 ! Hide View count
 www.youtube.com##.yt-view-count-renderer
