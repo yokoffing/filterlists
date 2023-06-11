@@ -52,7 +52,10 @@
 ## Privacy
 
 1) :star: **Privacy Essentials** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
-<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations). **Note:** This list breaks third-party logins.
+<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) or in Annoyance lists. **Note:** This list breaks third-party logins.
+
+2) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
 ### URL Tracking Parameters
 
@@ -120,14 +123,6 @@ The lists below are designed to be lighter and faster but still maintain high st
 
 1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
-
-### Privacy
-
-1) :stop_sign: **EasyPrivacy (Optimized)** (7k vs. 31k rules) | **use uBO's list instead!**
-<br> EasyPrivacy is the primary filter list that completely removes all forms of tracking from the internet, including web bugs, tracking scripts, and information collectors, thereby protecting your personal data. [EasyPrivacy (Optimized)](https://filters.adtidy.org/extension/ublock/filters/118_optimized.txt) is excluded because I was not satisfied with the coverage. 
-
-2) :star: [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k vs. 47k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
-<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. This list also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
 ### Annoyances
 
