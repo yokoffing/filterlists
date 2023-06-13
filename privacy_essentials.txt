@@ -3,15 +3,12 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 9 June 2023
+! Version: 13 June 2023
 ! Syntax: AdBlock
-! Sources:
-! My personal filters
-! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
-! from https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
-! from https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
 
 ! GENERAL BLOCKLIST
+! https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
+! https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
 $ping
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
@@ -301,6 +298,7 @@ fmovies.*##+js(nosiif, try)
 ! ||tags.tiqcdn.com^
 
 ! GENERAL ALLOWLIST
+! https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
 @@*/lwa/WebPages/LwaClient.aspx$subdocument
 @@*/saml/$subdocument
 @@/clarity-*.js$1p,script
