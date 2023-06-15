@@ -25,14 +25,9 @@
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
     1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
-4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) Easy
-    2) Medium
-    3) Hard
-    4) Optimized
-5) [FAQ](https://github.com/yokoffing/filterlists#faq)
-6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+4) [FAQ](https://github.com/yokoffing/filterlists#faq)
+5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
@@ -146,19 +141,6 @@ The lists below are designed to be lighter and faster but still maintain high st
 One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering only affects how the page looks. This will **reduce the workload on your device while still blocking unwanted network requests**.
 
 For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) (e.g., sites that only connect to one domain or don’t have any ads), just turn off cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
-
-***
-
-# Setup Examples
-Here are different examples of how you can utilize the default and custom lists.
-
-## Easy
-
-## Medium
-
-## Hard
-
-## Optimized
 
 ***
 
