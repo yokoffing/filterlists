@@ -2,8 +2,8 @@
 ! Title: 🛠️ yokoffing's Annoyance List
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 7 days (update frequency)
-! Version: 14 June 2023
+! Expires: 4 days (update frequency)
+! Version: 15 June 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -429,7 +429,7 @@ sitecheck.sucuri.net##.chat-widget-wrapper
 sitepoint.com##.sbBody, .top-12.sticky
 sitepoint.com##div.custom-content > [href^="https://www.sitepoint.com/premium/pricing/"]
 sitepoint.com##div.custom-content:nth-of-type(odd)
-! skyscanner.com##.InlineBrandBanner_container__NTc1Z.BpkCard_bpk-card__MGY5N, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__ODZiM.BpkCard_bpk-card--atomic-button__M2RmM.BpkCard_bpk-card__MGY5N, .InlineHotelsBanner_inlineHotelsBannerContainer__Nzc5Z, .DefaultBanner_container__ZDdhO.BpkPanel_bpk-panel__MWMxZ, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__OTI5O.BpkCard_bpk-card--atomic-button__YWFjM.BpkCard_bpk-card__NTJiY,.App_App__main__NTM0N, .App_App__YjM1Z, .UnpricedBrandInline_link__YmFhN, .InlineBrandBanner_container__NTc1Z.BpkCard_bpk-card__NTJiY
+skyscanner.com##.DetailsPanelContent_right__MDI1M
 slashgear.com##.gridify
 slate.com##.in-article-recirc
 slate.com##.share-sidebar.article__share-sidebar
