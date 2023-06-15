@@ -153,21 +153,70 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 # Setup Examples
 
 ## Enhanced Defaults
+* Blocks most cookie pop-ups, site notifications, and anti-adblock notices
+* Adds additional privacy protection not enabled by default
+* Mostly uses built-in lists; very little tinkering invovled; you have a low threshold for breakage
 
-* Blocks most annoying cookie pop-ups and anti-adblock notices, and adds additional privacy protection not enabled by default
-* Uses mostly built-in lists; very little tinkering invovled; only adding a few lists; low threshold for breakage
-* I find the uBO defaults insufficient; I consider this the bare minimum needed for browsing
+### Lists
+#### Built-in:
+1. AdGuard URL Tracking Protection
+2. EasyList - Cookie Notices
+3. EasyList - Notifications (if you don't already have these disabled in your browser)
+4. EasyList - Social Widgets (if they bother you)
+5. uBlock filters - Annoyances
+
+#### Custom lists:
+1. Hagezi's Personal DNS Blocklist
+2. click2load filters
+
+***
 
 ## Moderate
-
 * Blocks more annoyances; adds more rules for privacy and security protection; moderate risk of site breakage
 * Relies more on custom lists; more tinkering invovled;  moderate risk of site breakage
 * You should be comfortable troubleshooting issues and reporting breakage
 
-## Hard
+### Lists
+#### Built-in:
+1. Block Outsider Instrusion into LAN
+2. EasyList - Annoyances
+3. uBlock filters - Annoyances
+#### Custom lists:
+1. Privacy Essentials
+2. Hagezi's Personal DNS Blocklist
+3. Actually Legitimate URL Shortener Tool
+4. yokoffing's Annoyance List
+5. Most Abused TLDs
+6. Dandelion Sprout's Anti-Malware List (if you are prone to a lot of harmful software)
+7. The malicious website blocklist (if you are prone to a lot of harmful software)
 
-* Even more rules = greater risk of site breakage and heavier workload on your device's resources
-* Overkill if you use [NextDNS](https://nextdns.io/?from=xujj63g5) (or equivalent)
+***
+
+## Hard
+* Even more rules = greater risk of site breakage + heavier workload on your device's resources
+* Adds more security lists
+* Overkill if you use [NextDNS](https://nextdns.io/?from=xujj63g5) (or equivalent), especially if you follow my [guide](https://github.com/yokoffing/NextDNS-Config)
+
+#### Built-in:
+1. Block Outsider Instrusion into LAN
+2. AdGuard - Annoyances (optional)
+3. EasyList - Annoyances
+4. uBlock filters - Annoyances
+#### Custom lists:
+1. Privacy Essentials
+2. Privacy Extended
+3. Hagezi's Personal DNS Blocklist
+4. Actually Legitimate URL Shortener Tool
+5. ClearURLS for uBO (optional)
+6. Block third-party fonts (optional)
+7. yokoffing's Annoyance List
+8. YouTube Clear View (optional)
+9. Browse websites without logging in
+10. Paywall filters (optional)
+11. Most Abused TLDs
+12. uBlock combo list
+
+***
 
 ## Optimized
 
