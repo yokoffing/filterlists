@@ -150,19 +150,6 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 
 ***
 
-# Setup Examples
-Here are different examples of how you can utilize the default and custom lists.
-
-## Easy
-
-## Medium
-
-## Hard
-
-## Optimized
-
-***
-
 ## FAQ
 
 ### Which browser works best with uBO?
