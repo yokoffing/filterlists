@@ -30,6 +30,7 @@
     2) Medium
     3) Hard
     4) Optimized
+    5) Other
 5) [FAQ](https://github.com/yokoffing/filterlists#faq)
 6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
