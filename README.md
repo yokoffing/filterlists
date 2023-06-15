@@ -110,7 +110,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ## All-Purpose
 
 1) [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (41k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
-<br> (**optional:** Unessential if you already use Hagezi's lists with a service like [NextDNS](https://nextdns.io/?from=xujj63g5) or [AdGuard DNS](https://github.com/hagezi/dns-blocklists#adguarddns---limited-freepaid-))
+<br> (**optional:** Unessential if you already use Hagezi's lists with a service like [NextDNS](https://nextdns.io/?from=xujj63g5))
 <br> Blocks ads, trackers, native device trackers, badware, and more. Hagezi maintains a sensible allowlist and handles false positives quickly. He also communicates known issues to community blocklists maintainers. Hagezi's primary DNS lists combine respected community blocklists like [OISD](https://oisd.nl/), [Steven Black](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts), [1Hosts](https://github.com/badmojr/1Hosts#safeguard-your-devices-against-pesky-ads-trackers-and-malware), [notrack](https://gitlab.com/quidsup/notrack#notrack), and [more](https://github.com/hagezi/dns-blocklists/blob/main/usedsources.md#proplus).
 
 2) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) (81k rules) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
@@ -147,6 +147,33 @@ The lists below are designed to be lighter and faster but still maintain high st
 One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering only affects how the page looks. This will **reduce the workload on your device while still blocking unwanted network requests**.
 
 For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) (e.g., sites that only connect to one domain or don’t have any ads), just turn off cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
+
+***
+
+# Setup Examples
+
+## Enhanced Defaults
+
+* Blocks most annoying cookie pop-ups and anti-adblock notices, and adds additional privacy protection not enabled by default
+* Uses mostly built-in lists; very little tinkering invovled; only adding a few lists; low threshold for breakage
+* I find the uBO defaults insufficient; I consider this the bare minimum needed for browsing
+
+## Moderate
+
+* Blocks more annoyances; adds more rules for privacy and security protection; moderate risk of site breakage
+* Relies more on custom lists; more tinkering invovled;  moderate risk of site breakage
+* You should be comfortable troubleshooting issues and reporting breakage
+
+## Hard
+
+* Even more rules = greater risk of site breakage and heavier workload on your device's resources
+* Overkill if you use [NextDNS](https://nextdns.io/?from=xujj63g5) (or equivalent)
+
+## Optimized
+
+* Uses [Optimized lists](https://github.com/yokoffing/filterlists#optimized-lists)
+* Ideal for mobile or older devices, or users who really enjoy efficiency
+* Relies a lot on custom lists
 
 ***
 
