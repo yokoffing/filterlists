@@ -133,6 +133,9 @@ The lists below are designed to be lighter and faster but still maintain high st
 1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
 
+2) **EasyList + AdGuard Base filter (Optimized)** (64k vs. 137k rules combined) | [add](https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt)
+<br> If Easylist (Optimized) is missing too many ads, then use this list, or stick with the built-in Easylist filter.
+
 ### Annoyances
 
 1) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
