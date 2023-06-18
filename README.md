@@ -9,15 +9,15 @@
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (by using [sane](https://privacyguides.org/basics/threat-modeling), quality blocklists).
+1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (use sane, quality blocklists).
 2) Aim for [efficiency](https://brave.com/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (avoid redundancy and bloat when possible).
-3) Implement the [minimum number](https://old.reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) of needed and useful lists.
+3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (at some point blocking more ≠ better blocking).
 
 ***
 
 # Contents
 1) [Recommended Filters for uBlock Origin](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
-2) [Custom Filters](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
+2) [Custom Filters](https://github.com/yokoffing/filterlists#how-to-import-custom-filters-into-ublock-origin-ubo)
     1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists#security)
@@ -26,9 +26,9 @@
     1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) Enhanced
-    2) Pro
-    3) Optimized
+    1) [Enhanced](https://github.com/yokoffing/filterlists#enhanced)
+    2) [Pro](https://github.com/yokoffing/filterlists#pro)
+    3) [Optimized](https://github.com/yokoffing/filterlists#optimized)
 6) [FAQ](https://github.com/yokoffing/filterlists#faq)
 7) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 8) [Mentions](https://github.com/yokoffing/filterlists#mentions)
@@ -44,10 +44,10 @@
 # Custom Filters
 
 #### How to import custom filters into uBlock Origin (uBO):
-* Choose a project from the list below
-* Click `add` and copy the URL (or right click `add` and select `Copy link`)
-* Under `Filter Lists > Custom` in uBO, paste the linked URL to the `Import` box
-* Click `Apply Changes`
+1. Choose a project from the list below.
+2. Click **add** and copy the URL from the address bar (or right click **add** and select **Copy link** from the context menu).
+3. Under `Filter Lists > Custom` in uBO, paste the linked URL to the `Import` box.
+4. Click **Apply Changes**.
 
 ![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
 
@@ -56,7 +56,7 @@
 ## Privacy
 
 1) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
-<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) or in Annoyance lists. **Note:** This list breaks third-party logins.
+<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. **Note:** This list breaks third-party logins.
 
 2) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (41k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
@@ -164,8 +164,7 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 * Adds security protections from known badware domains (optional)
 * You have a low threshold for site breakage
 
-### Lists
-#### Built-in:
+#### Built-in lists:
 1. EasyList - Cookie Notices
 2. EasyList - Notifications (if you don't already have these disabled in your browser)
 3. EasyList - Social Widgets (if they bother you)
@@ -175,20 +174,18 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 1. Hagezi's Personal DNS Blocklist
 2. yokoffing's click2load filters
 3. Actually Legitimate URL Shortener Tool
-4. Dandelion Sprout's Anti-Malware List (if you browse high-risk categories like torrents and piracy sites, want more peace of mind, etc.)
-5. The malicious website blocklist (if you browse high-risk categories like torrents and piracy sites, want more peace of mind, etc.)
+4. The [Security lists](https://github.com/yokoffing/filterlists#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
 
 ***
 
 ## Pro
-* The most value out of customizing uBO
+* Get the most value from customizing uBO
 * Blocks more annoyances
-* Adds more privacy protection
+* Adds significant privacy protection
 * Adds security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
 * You should be comfortable troubleshooting issues and reporting site breakage, though it should be rare
 
-### Lists
-#### Built-in:
+#### Built-in lists:
 1. Block Outsider Instrusion into LAN
 2. AdGuard – Popup Overlays (newsletter pop-ups)
 3. EasyList - Annoyances
@@ -198,7 +195,7 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 2. Hagezi's Personal DNS Blocklist
 3. Privacy Extended
 4. Actually Legitimate URL Shortener Tool
-5. yokoffing's Annoyance List (+ any of the other [annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
+5. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
 6. Most Abused TLDs
 
 ***
