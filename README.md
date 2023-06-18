@@ -26,9 +26,9 @@
     1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) Optimized
-    2) Enhanced
-    3) Jack of All Trades
+    1) Enhanced
+    2) Jack of All Trades
+    3) Optimized
 6) [FAQ](https://github.com/yokoffing/filterlists#faq)
 7) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 8) [Mentions](https://github.com/yokoffing/filterlists#mentions)
@@ -154,15 +154,6 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 
 # Setup Examples
 
-## Optimized
-
-* Ideal for mobile or older devices, or users who really enjoy efficiency
-* Thorough blocking with reduced rule count
-
-Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
-
-***
-
 ## Enhanced
 * Demonstrates the power of uBO
 * Blocks most cookie pop-ups, site notifications, and anti-adblock notices
@@ -204,12 +195,21 @@ Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterli
 2. Hagezi's Personal DNS Blocklist
 3. Privacy Extended
 4. Actually Legitimate URL Shortener Tool
-5. yokoffing's Annoyance List (+ any of the other annoyance lists)
+5. yokoffing's Annoyance List (+ any of the other [annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
 6. Most Abused TLDs
 
 ***
 
-## FAQ
+## Optimized
+
+* Ideal for mobile or older devices, or users who really enjoy efficiency
+* Thorough blocking with reduced rule count
+
+Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
+
+***
+
+# FAQ
 
 ### Which browser works best with uBO?
 [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works [best](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox) in Mozilla Firefox. The features supported only on [Firefox](https://www.mozilla.org/en-US/firefox/new/) include preventing unwanted [DNS requests](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching) and CNAME [uncloaking](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#uncloak-canonical-names).
@@ -225,7 +225,7 @@ The Minified lists are part of an Adblock Plus-hosted unofficial project that wa
 
 ***
 
-## Reading
+# Reading
 
 #### uBO-specific
 * [How to test filters](https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_how_to_test_filters)
@@ -251,7 +251,7 @@ The Minified lists are part of an Adblock Plus-hosted unofficial project that wa
 
 ***
 
-## Mentions
+# Mentions
 
 **User comments:**
 [1](https://old.reddit.com/r/uBlockOrigin/comments/t5ipte/deleted_by_user/hz5edjk/?context=2)
@@ -259,6 +259,7 @@ The Minified lists are part of an Adblock Plus-hosted unofficial project that wa
 [3](https://old.reddit.com/r/firefox/comments/z5auzi/firefox_not_properly_usingrecognizing_gpu_poor/iy0kru3)
 [4](https://old.reddit.com/r/PFSENSE/comments/zu51od/a_better_pihole_with_pfsense_setup/j1x42mx/?context=2)
 [5](https://old.reddit.com/r/chrome/comments/11frszq/new_to_chrome_from_firefox_any_musthave/jalic90/?context=2)
+[6](https://www.reddit.com/r/uBlockOrigin/comments/13jlu7p/comment/jokreju/?context=3)
 
 #### Guides
 * [FMHY: uBlock Filters](https://github.com/nbats/FMHYedit/blob/main/STORAGE.md#ublock-filters) → yokoffing/filterlists
