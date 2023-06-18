@@ -57,15 +57,17 @@
 
 ## Privacy
 
-1) :star: **Privacy Essentials** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
+1) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
 <br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are not covered by uBO's [default settings](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) or in Annoyance lists. **Note:** This list breaks third-party logins.
 
-2) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
-<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between uBO and AdGuard. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
-
-3) [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (41k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
-<br> (**optional:** Unessential if you already use Hagezi's lists with a service like [NextDNS](https://nextdns.io/?from=xujj63g5))
+2) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (41k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
+
+3) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt)
+<br> (**optional:** Included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://unofficialbird.com/gorhill/status/1377613392559636486) placeholders which only load once a user clicks on it. Results in faster page load, less bandwidth and browser resources used upfront, and lower privacy exposure (less domains contacted during page load). The player will load by clicking on the placeholder.
+
+4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
+<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between the two. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
 ### URL Tracking Parameters
 
@@ -102,11 +104,13 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ## Security
 
+High-risk sites can expose your device to threats. These lists can prevent that by warning you before navigation or limiting what you can access.
+
 1) :star: [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-) (206 rules) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
 <br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own [Enhanced website protection](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt) list, Dandelion Sprout's `Anti-Malware List`, LennyFox's `Block non-Latin TLDs` [list](https://github.com/LennyFox/Blocklists/blob/master/Block_non_latin_TLDs.txt), and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
 
 2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (42k rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
-<br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows PUP ads. It has many other subcategories that distinguish it from similar lists.
+<br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows [PUP](https://en.wikipedia.org/wiki/Potentially_unwanted_program) ads. It has many other subcategories that distinguish it from similar lists.
 
 3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** (38k rules) | [add](https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
@@ -187,8 +191,8 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 3. Actually Legitimate URL Shortener Tool
 4. yokoffing's Annoyance List
 5. Most Abused TLDs
-6. Dandelion Sprout's Anti-Malware List (if you are prone to a lot of harmful software)
-7. The malicious website blocklist (if you are prone to a lot of harmful software)
+6. Dandelion Sprout's Anti-Malware List (if you browse high-risk sites [like torrents and piracy sites])
+7. The malicious website blocklist (if you browse high-risk sites [like torrents and piracy sites])
 
 ***
 
