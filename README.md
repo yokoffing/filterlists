@@ -26,11 +26,10 @@
     1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) Easy
-    2) Medium
-    3) Hard
+    1) Enhanced
+    2) Jack of All Trades
+    3) Overkill
     4) Optimized
-    5) Other
 5) [FAQ](https://github.com/yokoffing/filterlists#faq)
 6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
@@ -64,7 +63,7 @@
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
 3) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt)
-<br> (**optional:** Included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://unofficialbird.com/gorhill/status/1377613392559636486) placeholders which only load once a user clicks on it. Results in faster page load, less bandwidth and browser resources used upfront, and lower privacy exposure (less domains contacted during page load). The player will load by clicking on the placeholder.
+<br> (**optional:** Included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://unofficialbird.com/gorhill/status/1377613392559636486) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
 4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
 <br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between the two. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
@@ -82,13 +81,12 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ### Fonts
 
 1) **Block third-party fonts** (70 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
-<br> (**optional:** This will break the "look and feel" of some sites.)
-<br> A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
+<br> (**optional:** This will break the "look and feel" of some sites.) A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
  
 ## Annoyances
 
 1) :star: **yokoffing's Annoyance List** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
-<br> A curated list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles, "read more', etc.).
+<br> A curated list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles, "read more", etc.).
 
 2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> This list attempts to bypass forced logins on sites.
@@ -118,8 +116,7 @@ High-risk sites can expose your device to threats. These lists can prevent that 
 ## All-Purpose
 
 1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) (81k rules) | [add](https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt)
-<br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists)
-<br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+<br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists) This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
 
 # Block Content with Fewer Rules
 
@@ -143,8 +140,7 @@ The lists below are designed to be lighter and faster but still maintain high st
 <br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
 
 3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
-<br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion)
-<br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+<br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion) If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
 
 ## Selectively Disable Cosmetic Filters
 
@@ -156,67 +152,73 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 
 # Setup Examples
 
-## Enhanced Defaults
+## Enhanced
+* Demonstrates the power of uBO
 * Blocks most cookie pop-ups, site notifications, and anti-adblock notices
-* Adds additional privacy protection not enabled by default
-* Mostly uses built-in lists; very little tinkering invovled; you have a low threshold for breakage
+* Adds additional privacy protections against URL tracking and third-party domains
+* Adds security protections from known badware domains (optional)
+* You have a low threshold for site breakage
 
 ### Lists
 #### Built-in:
-1. AdGuard URL Tracking Protection
-2. EasyList - Cookie Notices
-3. EasyList - Notifications (if you don't already have these disabled in your browser)
-4. EasyList - Social Widgets (if they bother you)
-5. uBlock filters - Annoyances
+1. EasyList - Cookie Notices
+2. EasyList - Notifications (if you don't already have these disabled in your browser)
+3. EasyList - Social Widgets (if they bother you)
+4. uBlock filters - Annoyances (anti-adblock messages)
 
 #### Custom lists:
 1. Hagezi's Personal DNS Blocklist
-2. click2load filters
+2. yokoffing's click2load filters
+3. Actually Legitimate URL Shortener Tool
+4. Dandelion Sprout's Anti-Malware List (if you browse high-risk categories like torrents and piracy sites, want more peace of mind, etc.)
+5. The malicious website blocklist (if you browse high-risk categories like torrents and piracy sites, want more peace of mind, etc.)
 
 ***
 
-## Moderate
-* Blocks more annoyances; adds more rules for privacy and security protection; moderate risk of site breakage
-* Relies more on custom lists; more tinkering invovled;  moderate risk of site breakage
-* You should be comfortable troubleshooting issues and reporting breakage
+## Jack of All Trades
+* The most value out of customizing uBO
+* Blocks more annoyances
+* Adds more privacy protection
+* Adds security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
+* You should be comfortable troubleshooting issues and reporting site breakage, though it should be rare
 
 ### Lists
 #### Built-in:
 1. Block Outsider Instrusion into LAN
-2. EasyList - Annoyances
-3. uBlock filters - Annoyances
-#### Custom lists:
-1. Privacy Essentials
-2. Hagezi's Personal DNS Blocklist
-3. Actually Legitimate URL Shortener Tool
-4. yokoffing's Annoyance List
-5. Most Abused TLDs
-6. Dandelion Sprout's Anti-Malware List (if you browse high-risk sites [like torrents and piracy sites])
-7. The malicious website blocklist (if you browse high-risk sites [like torrents and piracy sites])
-
-***
-
-## Hard
-* Even more rules = greater risk of site breakage + heavier workload on your device's resources
-* Adds more security lists
-* Overkill if you use [NextDNS](https://nextdns.io/?from=xujj63g5) (or equivalent), especially if you follow my [guide](https://github.com/yokoffing/NextDNS-Config)
-
-#### Built-in:
-1. Block Outsider Instrusion into LAN
-2. AdGuard - Annoyances (optional)
+2. AdGuard – Popup Overlays (newsletter pop-ups)
 3. EasyList - Annoyances
 4. uBlock filters - Annoyances
 #### Custom lists:
 1. Privacy Essentials
-2. Privacy Extended
-3. Hagezi's Personal DNS Blocklist
+2. Hagezi's Personal DNS Blocklist
+3. Privacy Extended
 4. Actually Legitimate URL Shortener Tool
-5. ClearURLS for uBO (optional)
+5. yokoffing's Annoyance List
+6. Most Abused TLDs
+
+***
+
+## Overkill
+* You will see [marginal or negative returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png)
+* Even more rules = greater risk of site breakage + heavier workload on your device's resources
+* Adds more security and privacy lists
+
+#### Built-in:
+1. Block Outsider Instrusion into LAN
+2. AdGuard - Annoyances
+3. EasyList - Annoyances
+4. uBlock filters - Annoyances
+#### Custom lists:
+1. Privacy Essentials
+2. Hagezi's Personal DNS Blocklist
+3. Privacy Extended
+4. Actually Legitimate URL Shortener Tool
+5. ClearURLS for uBO
 6. Block third-party fonts (optional)
 7. yokoffing's Annoyance List
-8. YouTube Clear View (optional)
+8. YouTube Clear View
 9. Browse websites without logging in
-10. Paywall filters (optional)
+10. The Paywall filters
 11. Most Abused TLDs
 12. uBlock combo list
 
@@ -228,6 +230,8 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 * Ideal for mobile or older devices, or users who really enjoy efficiency
 * Relies a lot on custom lists
 * Thorough blocking with reduced rule count
+
+Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
 
 ***
 
