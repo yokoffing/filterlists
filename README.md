@@ -26,13 +26,12 @@
     1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) Enhanced
-    2) Jack of All Trades
-    3) Overkill
-    4) Optimized
-5) [FAQ](https://github.com/yokoffing/filterlists#faq)
-6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+    1) Optimized
+    2) Enhanced
+    3) Jack of All Trades
+6) [FAQ](https://github.com/yokoffing/filterlists#faq)
+7) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+8) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
@@ -80,16 +79,19 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ### Fonts
 
-1) **Block third-party fonts** (70 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
+1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt)
 <br> (**optional:** This will break the "look and feel" of some sites.) A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
  
 ## Annoyances
 
-1) :star: **yokoffing's Annoyance List** (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
+1) :star: [**yokoffing's Annoyance List**](https://github.com/yokoffing/filterlists/blob/main/annoyance_list.txt) (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/annoyance_list.txt)
 <br> A curated list that captures nuisances missed by other maintainers. It also cleans up the clutter around many sites (e.g., related articles, "read more", etc.).
 
 2) **[Browse websites without logging in](https://github.com/DandelionSprout/adfilt/blob/master/BrowseWebsitesWithoutLoggingIn.txt)** (370 rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt)
 <br> This list attempts to bypass forced logins on sites.
+
+3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt)
+<br> Cleans up some of the clutter on YouTube.
 
 ### Paywalls
 :warning: To bypass paywalls effectively, you should use the **Bypass Paywalls Clean** extenstion for [Chrome](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean) or [Firefox](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean). These lists are [limited](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters) in what they can do and are therefore **optional**:
@@ -144,13 +146,22 @@ The lists below are designed to be lighter and faster but still maintain high st
 
 ## Selectively Disable Cosmetic Filters
 
-One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering only affects how the page looks. This will **reduce the workload on your device while still blocking unwanted network requests**.
+One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page; it only affects how the website looks. Toggling it off when you don't need it will **reduce the [workload](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) on your device while still blocking unwanted network requests**.
 
-For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) (e.g., sites that only connect to one domain or don’t have any ads), just turn off cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
+For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
 
 ***
 
 # Setup Examples
+
+## Optimized
+
+* Ideal for mobile or older devices, or users who really enjoy efficiency
+* Thorough blocking with reduced rule count
+
+Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
+
+***
 
 ## Enhanced
 * Demonstrates the power of uBO
@@ -193,45 +204,8 @@ For [sites](https://plooshiesaresocute.wtf/) where uBO seems [unnecessary](https
 2. Hagezi's Personal DNS Blocklist
 3. Privacy Extended
 4. Actually Legitimate URL Shortener Tool
-5. yokoffing's Annoyance List
+5. yokoffing's Annoyance List (+ any of the other annoyance lists)
 6. Most Abused TLDs
-
-***
-
-## Overkill
-* You will see [marginal or negative returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png)
-* Even more rules = greater risk of site breakage + heavier workload on your device's resources
-* Adds more security and privacy lists
-
-#### Built-in:
-1. Block Outsider Instrusion into LAN
-2. AdGuard - Annoyances
-3. EasyList - Annoyances
-4. uBlock filters - Annoyances
-#### Custom lists:
-1. Privacy Essentials
-2. Hagezi's Personal DNS Blocklist
-3. Privacy Extended
-4. Actually Legitimate URL Shortener Tool
-5. ClearURLS for uBO
-6. Block third-party fonts (optional)
-7. yokoffing's Annoyance List
-8. YouTube Clear View
-9. Browse websites without logging in
-10. The Paywall filters
-11. Most Abused TLDs
-12. uBlock combo list
-
-***
-
-## Optimized
-
-* Uses [Optimized lists](https://github.com/yokoffing/filterlists#optimized-lists)
-* Ideal for mobile or older devices, or users who really enjoy efficiency
-* Relies a lot on custom lists
-* Thorough blocking with reduced rule count
-
-Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
 
 ***
 
