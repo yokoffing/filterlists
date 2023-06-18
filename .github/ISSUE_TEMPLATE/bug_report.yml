@@ -66,6 +66,7 @@ body:
     attributes:
       label: Logger Output
       description: Open [the logger](https://github.com/gorhill/uBlock/wiki/The-logger). Refresh the affected page. [Export](https://github.com/gorhill/uBlock/wiki/The-logger#export-dialog) the output by clicking the clipboard icon. Select `Table` and `Markdown`, then `Copy to clipboard`. Paste output below.
+      render: shell
     validations:
       required: true
 
@@ -87,16 +88,16 @@ body:
     attributes:
       label: uBlock Origin version
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
       label: Browser name and version
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
       label: Operating System and version
     validations:
-      required: true
+      required: false
