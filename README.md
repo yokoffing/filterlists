@@ -27,7 +27,7 @@
     2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
 4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
     1) Enhanced
-    2) Jack of All Trades
+    2) Pro
     3) Optimized
 6) [FAQ](https://github.com/yokoffing/filterlists#faq)
 7) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
@@ -177,7 +177,7 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 
 ***
 
-## Jack of All Trades
+## Pro
 * The most value out of customizing uBO
 * Blocks more annoyances
 * Adds more privacy protection
