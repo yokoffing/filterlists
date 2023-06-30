@@ -3,15 +3,22 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 30 June 2023
+! Version: 30 June 2023b
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
+! old format
 ! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
 
 ! Hide the text label of the dislike/share/download/report/save buttons
+! old format
+www.youtube.com###info > * [id^="top-level-buttons"] [class*="button-renderer"] [id="text"]:not(:has-text(/\d/))
+www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
+www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
+! new format June 2023
 www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
