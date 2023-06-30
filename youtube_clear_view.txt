@@ -3,22 +3,20 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 20 February 2023
+! Version: 30 June 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
 ! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
-! (old format)
-! www.youtube.com##[aria-label$="likes"]
-! (new format)
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
 www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
 
-! Hide the text label of the dislike/share/download/report/save buttons 
-www.youtube.com###info > * [id^="top-level-buttons"] [class*="button-renderer"] [id="text"]:not(:has-text(/\d/))
-www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
+! Hide the text label of the dislike/share/download/report/save buttons
+www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
+m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-content"]:not(:has-text(/\d/))
+m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
 
 ! Hide next video video, which may accidentally be clicked since it's near the Play button
 !www.youtube.com##.ytp-button.ytp-next-button
@@ -29,8 +27,8 @@ www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
-! Hide chat window
-www.youtube.com###chat
+! Hide chat window when viewing streams
+www.youtube.com###chat:remove()
 
 ! Don't enter / exit fullscreen on double-click 
 www.youtube.com##+js(aeld, dblclick)
