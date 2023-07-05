@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 18 June 2023
+! Version: 5 July 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -27,7 +27,7 @@
 @@/materialicons
 @@/materialsymbols
 @@/materialsymbolsoutlined
-@@/wp-content/themes
+@@/wp-content/themes$font
 @@/wp-content/uploads/fusion-icons
 @@family=Material+Icons
 @@family=Material+Symbols
