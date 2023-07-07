@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 30 June 2023b
+! Version: 7 July 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -45,6 +45,9 @@ www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="
 www.youtube.com##ytd-search ytd-radio-renderer
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
 www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
+
+! "View Products" button
+www.youtube.com##.ytp-suggested-action-badge-content-forward.ytp-suggested-action-badge-expanded.ytp-suggested-action-badge-with-controls.ytp-suggested-action-badge.ytp-button
 
 ! Hide upcoming Youtube videos
 www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
