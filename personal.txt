@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 11 July 2023
+! Version: 13 July 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
@@ -20,7 +20,6 @@ www.google.com##[class$="__middle-slot-promo"]
 ##.google-news-link
 
 ! EDU
-! @@||cloudfront.net^$font,3p,domain=instructure.com|uncp.edu|amazon.com
 ||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
 
 ! Block from EL
@@ -97,8 +96,8 @@ www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
 www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
 www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
 
-! Hide view count and upload time
-www.youtube.com###metadata-line
+! Hide upload time (+ view count)
+! www.youtube.com###metadata-line
 
 ! Hide subscriber count near the channel name under the video player
 www.youtube.com###owner-sub-count
