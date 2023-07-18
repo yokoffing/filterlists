@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 18 June 2023
+! Version: 18 July 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -772,6 +772,18 @@ twitch.tv##.user-notice-line--highlighted.user-notice-line.ekipGw.InjectLayout-s
 ! facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
 ! Feb 2021 solution
 ! facebook.com##div[role="complementary"] > div > div > div > div > div > span
+
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_facebook
+! Suggested for you
+www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! People You May Know
+www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+! Suggested groups
+www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
+! Reels and short videos
+www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
+! Marketplace
+facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
 ! GOOGLE
 ! Google consent dialog, "before you continue"
