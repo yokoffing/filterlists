@@ -124,9 +124,11 @@ High-risk sites can expose your device to threats. These lists can prevent that 
 
 ## Optimized Lists
 
-If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many to block unwanted content effectively.
+If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many rules to block unwanted content effectively.
 
-The lists below are designed to be lighter and faster but still maintain high standards for content blocking. The rule counts shown are when compared to their regular list in uBO.
+[AdGuard](https://github.com/AdguardTeam) provides filterlists that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they can choose to share. These lists are designed to be lighter and faster but still maintain high standards for content blocking.
+
+(The rule counts shown below are when compared to their regular list in uBO.)
 
 ### Ads
 
