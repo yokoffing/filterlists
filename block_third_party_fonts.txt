@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 5 July 2023
+! Version: 19 July 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -15,6 +15,8 @@
 @@||fonts.gstatic.com^$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|chrome.com|chromium.org|dexscreener.com|domains.google|google.com|googlesource.com|grow.google|material.io|policies.google.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|youtube.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
+@@||typekit.com^$font,image
+@@||typekit.net^$font,image
 
 ! Icon Packs
 @@/-icon
@@ -80,8 +82,6 @@
 ||qmerce.com/assets/$font
 ||rackcdn.com/fonts/$font,3p
 ||typefront.com^$3p
-||typekit.com^$font,3p
-||typekit.net^$font,3p
 ||typesquare.com^$font,3p
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
@@ -91,7 +91,7 @@
 
 ! Privacy Essentials, anti-allowlist:
 @@||gstaticadssl.*.google.com^$font,badfilter
-@@||use.typekit.net^$font,badfilter
+! @@||use.typekit.net^$font,badfilter
 
 !!! UNUSED
 ! Causes too many false positives:
