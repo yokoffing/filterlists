@@ -9,35 +9,97 @@
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (always blocking more ≠ better blocking).
+1) Prevent overblocking by applying the law of [diminishing returns](https://pmctraining.com/site/wp-content/uploads/2018/04/Law-of-Diminishing-Returns-CHART.png) (always blocking more ≠ better blocking experience).
 2) Aim for [efficiency](https://brave.com/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (use sane, quality resources).
 3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (avoid redundancy and bloat when possible).
 
 ***
 
-# Contents
-1) [Recommended Filters for uBlock Origin](https://github.com/yokoffing/filterlists#recommended-filters-for-ublock-origin)
+# Recommended Filters for uBlock Origin
+
+***
+
+### Content
+1) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
+    1) [Enhanced](https://github.com/yokoffing/filterlists#enhanced)
+    2) [Pro](https://github.com/yokoffing/filterlists#pro)
+    3) [Optimized](https://github.com/yokoffing/filterlists#optimized)
 2) [Custom Filters](https://github.com/yokoffing/filterlists#how-to-import-custom-filters-into-ublock-origin-ubo)
     1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists#security)
     4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
-    1) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
-    2) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
-4) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) [Enhanced](https://github.com/yokoffing/filterlists#enhanced)
-    2) [Pro](https://github.com/yokoffing/filterlists#pro)
-    3) [Optimized](https://github.com/yokoffing/filterlists#optimized)
-6) [FAQ](https://github.com/yokoffing/filterlists#faq)
-7) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-8) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+    1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
+    2) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
+4) [FAQ](https://github.com/yokoffing/filterlists#faq)
+5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
-# Recommended Filters for uBlock Origin
+# Setup Examples
 
-![default lists](https://github.com/yokoffing/filterlists/assets/11689349/e18c8c8d-3554-44ff-b163-346801471b81)
+I've provided three setup guides: Enhanced, Pro, and Optimized.
+
+Beginning users should see noticeable improvement with Enhanced.
+
+## Enhanced
+
+#### Features:
+* Demonstrates the power of uBO
+* Blocks most cookie pop-ups, site notifications, and anti-adblock notices
+* Adds additional privacy protections against URL tracking and third-party domains
+* Adds security protections from known badware domains (optional)
+* You have a low threshold for site breakage
+
+#### Built-in lists:
+In addition to the default lists, you should also enable:
+1. EasyList - Cookie Notices
+2. EasyList - Notifications (if you don't already have these disabled in your browser)
+3. EasyList - Social Widgets (if they bother you)
+4. uBlock filters - Annoyances (anti-adblock messages)
+
+#### Custom lists:
+1. Hagezi's Personal DNS Blocklist
+2. yokoffing's click2load filters
+3. Actually Legitimate URL Shortener Tool
+4. The [Security lists](https://github.com/yokoffing/filterlists#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
+
+***
+
+## Pro
+
+#### Features:
+* Get the most value from customizing uBO
+* Blocks more annoyances
+* Adds significant privacy protection
+* Adds security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
+* You should be comfortable troubleshooting issues and reporting site breakage, though it should be rare
+
+#### Built-in lists:
+In addition to the default lists, you should also enable:
+1. Block Outsider Instrusion into LAN
+2. AdGuard – Popup Overlays (newsletter pop-ups)
+3. EasyList - Annoyances (all lists)
+4. uBlock filters - Annoyances
+
+#### Custom lists:
+1. Privacy Essentials
+2. Hagezi's Personal DNS Blocklist
+3. Privacy Extended
+4. Actually Legitimate URL Shortener Tool
+5. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
+6. Most Abused TLDs
+
+***
+
+## Optimized
+
+* Ideal for mobile or older devices, or users who really enjoy efficiency
+* Thorough blocking with reduced rule count
+
+Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
 
 ***
 
@@ -122,11 +184,17 @@ High-risk sites can expose your device to threats. These lists can prevent that 
 
 # Block Content with Fewer Rules
 
+## Selectively Disable Cosmetic Filters
+
+One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page; it only affects how the website looks. Toggling it off when you don't need it will **reduce the [workload on your device](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests**.
+
+For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
+
 ## Optimized Lists
 
-If you want to save CPU and memory resources on your device, you can use some alternative lists that have fewer filters than the built-in ones. uBO can handle more than 300k filters, but you might not need that many rules to block unwanted content effectively.
+uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use some alternative lists that have fewer rules than the built-in ones if you want to save CPU and memory on your device.
 
-[AdGuard](https://github.com/AdguardTeam) provides filterlists that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they can choose to share. These lists are designed to be lighter and faster but still maintain high standards for content blocking.
+[AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
 
 (The rule counts shown below are when compared to their regular list in uBO.)
 
@@ -148,66 +216,6 @@ If you want to save CPU and memory resources on your device, you can use some al
 
 3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
 <br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion) If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
-
-## Selectively Disable Cosmetic Filters
-
-One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page; it only affects how the website looks. Toggling it off when you don't need it will **reduce the [workload](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) on your device while still blocking unwanted network requests**.
-
-For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
-
-***
-
-# Setup Examples
-
-## Enhanced
-* Demonstrates the power of uBO
-* Blocks most cookie pop-ups, site notifications, and anti-adblock notices
-* Adds additional privacy protections against URL tracking and third-party domains
-* Adds security protections from known badware domains (optional)
-* You have a low threshold for site breakage
-
-#### Built-in lists:
-1. EasyList - Cookie Notices
-2. EasyList - Notifications (if you don't already have these disabled in your browser)
-3. EasyList - Social Widgets (if they bother you)
-4. uBlock filters - Annoyances (anti-adblock messages)
-
-#### Custom lists:
-1. Hagezi's Personal DNS Blocklist
-2. yokoffing's click2load filters
-3. Actually Legitimate URL Shortener Tool
-4. The [Security lists](https://github.com/yokoffing/filterlists#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
-
-***
-
-## Pro
-* Get the most value from customizing uBO
-* Blocks more annoyances
-* Adds significant privacy protection
-* Adds security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
-* You should be comfortable troubleshooting issues and reporting site breakage, though it should be rare
-
-#### Built-in lists:
-1. Block Outsider Instrusion into LAN
-2. AdGuard – Popup Overlays (newsletter pop-ups)
-3. EasyList - Annoyances
-4. uBlock filters - Annoyances
-#### Custom lists:
-1. Privacy Essentials
-2. Hagezi's Personal DNS Blocklist
-3. Privacy Extended
-4. Actually Legitimate URL Shortener Tool
-5. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
-6. Most Abused TLDs
-
-***
-
-## Optimized
-
-* Ideal for mobile or older devices, or users who really enjoy efficiency
-* Thorough blocking with reduced rule count
-
-Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists).
 
 ***
 
