@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 19 July 2023c
+! Version: 1 August 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -708,7 +708,7 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||justpremium.com^$3p
 ||jwpltx.com^$3p
 ||klaviyo.com^$3p
-||launchdarkly.com^$3p
+! ||launchdarkly.com^$3p
 ||layer-ads.de^$3p
 ||listenloop.com^$3p
 ||livejasmin.com^$3p
