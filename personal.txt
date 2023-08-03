@@ -3,21 +3,21 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 1 August 2023
+! Version: 3 August 2023
 ! Syntax: AdBlock
 
 ! GOOGLE
 ! Attempt to remove third-party cookies
 ! You may remove if causing errors
-www.google.com##+js(cookie-remover, /^/)
-ogs.google.com##+js(cookie-remover, /^/)
+!www.google.com##+js(cookie-remover, /^/)
+!ogs.google.com##+js(cookie-remover, /^/)
 
 ! Google Search
 ! https://www.reddit.com/r/uBlockOrigin/comments/13fpeul/how_do_i_block_google_selfpromotion/
-www.google.com##[class$="__middle-slot-promo"]
+!www.google.com##[class$="__middle-slot-promo"]
 
 ! Google News promo
-##.google-news-link
+!##.google-news-link
 
 ! EDU
 ||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
