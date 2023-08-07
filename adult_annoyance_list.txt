@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 7 August 2023
+! Updated: 7 August 2023b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
@@ -13,6 +13,7 @@
 ||cc.boyfriendtv.com/bftv/*.jpg$image
 ||cc.boyfriendtv.com/bftv/b/img/*.jpg$image
 ||cc.boyfriendtv.com/bftv/www/js/RTABlur-js.min.js$script,domain=www.boyfriendtv.com,important
+||cc.boyfriendtv.com/bftv/paysite$image
 ||ejaculationnation.com^
 ||go.xhamster.com^
 ||masturbaseinvegas.com^$3p
@@ -45,6 +46,7 @@
 ##.related-content
 
 ! Cosmetic filters
+homo.xxx##.btn-dvd.btn
 me-gay.com##.random-td
 urgayporn.com###list_videos_related_videos_items, .ribbonban
 gayvids.tv##[href^="https://landing.mennetwork.com/"]
