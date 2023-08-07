@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 1 August 2023
+! Version: 7 August 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -50,6 +50,7 @@ $ping
 ||b7b06aa9a2.com
 ||backinstock.org^$3p
 ||baidu.com^$3p
+||bbb.org^$3p
 ||beehaw.org^$3p
 ||bestofmedia.com^$3p
 ||beta-testing-shopify-tracker.s3.amazonaws.com^$3p
@@ -105,6 +106,7 @@ $ping
 ||evidon.com^$3p
 ||exosrv.com^$3p
 ||feedgrabbr.com^$3p
+||flippback.com^$3p
 ||forbes.com^$3p,domain=quora.com
 ||foxnews.com^$3p,domain=~foxnews.com
 ||future-fie-assets.co.uk^$3p
@@ -195,6 +197,7 @@ $ping
 ||nvidpn.com^$3p
 ||oath.com^$3p
 ||octaneai.com^$3p
+||ogvaruvlkdsm.com^
 ||okendo.io^$3p
 ||oko.net^$3p
 ||olark.com^$3p
@@ -290,6 +293,7 @@ $ping
 ||widgets.automizely.com^$3p
 ||widgets.guidestar.org^
 ||yahoo.com^$3p,~image,domain=~yahoo.com
+!||yahoo.com^$3p,~image,~media,domain=~yahoo.com
 ||yandex.ru^$3p,domain=~dzen.ru
 ||yottaa.com^$3p
 ||yottlyscript.com^$3p
@@ -550,6 +554,22 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! To access Mozilla reports
 ||telemetry.mozilla.org^$badfilter
+
+! https://github.com/easylist/easylist/issues/16298
+||connatix.com/scripts^
+!||connatix.com/scripts/facebook-pixel-script.js
+!||connatix.com/scripts/gaconnector.js
+!||connatix.com/scripts/microsoft-ad-script.js
+!||connatix.com/scripts/munchkin-script.js
+!||connatix.com/scripts/hotjar.js
+!||connatix.com/scripts/websights-script.js
+!||connatix.com/scripts/mkt-cke-script.js
+!||connatix.com/scripts/linkedin-script.js
+
+! https://connatix.com/advertisers
+||neverbounce.com^$3p
+||greenhouse.io^$3p
+
 
 ! https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
 ! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
