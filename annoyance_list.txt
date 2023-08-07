@@ -3,9 +3,37 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 7 August 2023
+! Version: 7 August 2023b
 ! Syntax: AdBlock
 
+thenextweb.com##.sidebarRelated
+unherd.com##div.ref-ar:nth-of-type(even), div.ref-ar:nth-of-type(odd)
+thecrimson.com##.css-rfa55z
+howfix.net##.widget-recent
+datajournalismtoday.com##.lnKYSq.bVF0DD
+intheknow.com##.rr, #see-also, #exclusive-offers
+hipaajournal.com###sidebar, .spu-clickable, .wppopups-whole, .featured-action
+myip.ms##.float_panel
+circleid.com##.newsletterSignUpBox
+foodandwine.com##.recirc-section.comp, .share-item, .related-link.comp
+gearpatrol.com##.embed-editorial-links, .transporter, .end-of-content-playlist
+nbcchicago.com##.recirc-module, .wp-block-embed__wrapper, .featured-text, .most-popular__container
+ghacks.net##.the_related_part
+thehackernews.com##div.cf.gg-1, .badbox, .share-open-modal
+reuters.com##.article-body__toolbar__1_CO8, .free-scroll__hide-scrollbar__3pqjF, .story-collection__list__2M49i, .refinitiv-promo-bar__container__3YPMt
+builtin.com##.active.wrap-share-social-fixed
+smartdnsproxy.com##.col-sm-4
+dictionary.com##.fa-facebook
+techradar.com##.page-widget-area-17, .more-about__container
+soeren-hentzschel.at###sidebar
+yofreesamples.com##.share-link
+gizmodo.com##.js_more-below-post
+medium.com##.abs.abr.yu.m
+aeon.co##.cioYkv
+sourceforge.net##.m-sidebar-widget
+advocate.com##.recirculation__placeholder--hot-stories, .recirculation__placeholder--latest
+howtogeek.com##.related-single, .sidebar-tabs, .sidebar-sticky, .article-footer-newsletter, .bottom.sharing
+realnewsmichiana.com##.td_spot_img_all, .wpb_column.tdi_31.vc_column > .wpb_wrapper, .td-more-articles-box, .tdb-single-related-posts
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
 9to5google.com,9to5mac.com,9to5toys.com##.featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter, .post-content.med.container > ul, .post-body > ul, .xs.container.sidebar
@@ -584,6 +612,7 @@ ygoprodeck.com##.clearfix.related-posts, .comments-area
 ygorganization.com###custom_html-2 > .custom-html-widget.textwidget
 zdnet.com##.c-shortcodePinbox, .c-shortcodePinbox-carousel, .c-shortcodePinbox-textList, .g-outer-spacing-bottom-large.c-globalBreakingNews, .c-listingVertical, .related-stories.module, .alignRight.relatedContent, .breaking-news-container, .alignNone.relatedContent
 zoosk.com##.article__related, .newsletter
+||www.web-hosting.net.my/banner$image
 
 ! General
 -push-notifications/$script
@@ -616,8 +645,11 @@ zoosk.com##.article__related, .newsletter
 ##.icon-twitter
 ! https://github.com/yokoffing/filterlists/issues/100
 ! ##.follow
+adguard.com##.content-social
 
 ! AUDIO/VIDEO PLAYERS
+! https://www.gq.com/story/jason-belmonte-bowling-profile
+||player.cnevids.com^
 ! https://www.ghacks.net/2023/07/04/firefox-115-new-esr-base-and-some-add-ons-may-be-blocked-from-running-on-certain-sites
 ||readaloud.googleapis.com^$script
 ! Block players that usually play content not directly related to the page
@@ -627,6 +659,15 @@ zoosk.com##.article__related, .newsletter
 ! https://www.appdate.lk/technology/2023-browser-showdown/
 ||beyondwords.io^
 ||code.responsivevoice.org^
+! https://www.delish.com/food-news/a44120266/mcdonalds-grimace-shake/
+||hearst.io^
+||hearstapps.com^
+||hearstgames.com^
+! ||nitehawk.hearst.io^
+! ||oply.hearstapps.com^
+@@||hips.hearstapps.com^$image
+! ||assets.hearstapps.com^
+delish.com##.video-player, .journey-unblur-content
 ! Brightcove
 ||brightcove.net^$3p
 @@||brightcove.^$xhr
@@ -731,6 +772,8 @@ www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
 www.reddit.com##.icon-coins
 ! Hide Related sidebar in the new-new reddit
 www.reddit.com##.block.xs\:pt-md.pdp
+! Reddit premium banner 2023
+reddit.com##._1b1Jalg2nxA_Z-BjKXRfAV
 
 ! Block AutoModerator messages
 reddit.com##._1YCqQVO-9r-Up6QPB9H6_4 > div > div:has-text(AutoModerator)
@@ -914,6 +957,12 @@ unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 ! Junk university sites
 ||takemyproctoringexam.com^
 ||onlineclasshero.com^
+
+! https://github.com/hagezi/dns-blocklists/issues/1238
+!@@||cdn.listrakbi.com/scripts/script.js^
+@@||cdn.listrakbi.com/scripts^$3p,script
+@@||services.listrak.com^
+
 
 !#include clean_reading_experience.txt
 !#include adult_annoyance_list.txt
