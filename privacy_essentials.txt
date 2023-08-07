@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 7 August 2023
+! Version: 7 August 2023b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -38,6 +38,8 @@ $ping
 ||animenewsnetwork.com/logger.performance^$1p
 ||animenewsnetwork.com/sponsor/$1p
 ||anlcld.com^
+! https://sierranevada.com/blog/our-beer/ibu-meaning/
+||anyroad.com^$3p
 ||aolcdn.com/ads/$3p,script
 ||api.github.com/_private/browser/errors^
 ||api.stacksocial.com^
@@ -86,7 +88,7 @@ $ping
 ||coordinatedcub.com^$3p
 ||d77cf8b870.com^
 ||datadoghq-browser-agent.com^
-||datadoghq.com^
+||datadoghq.com^$domain=~docs.datadoghq.com
 ||decacopy.com^
 ||delvenetworks.com^$3p,script
 ||discord.com^$3p,domain=~discohook.org|~scam.gay
@@ -105,6 +107,8 @@ $ping
 ||eagleapi.io^
 ||evidon.com^$3p
 ||exosrv.com^$3p
+! https://www.andrewchristian.com
+||fbot.me^$3p
 ||feedgrabbr.com^$3p
 ||flippback.com^$3p
 ||forbes.com^$3p,domain=quora.com
