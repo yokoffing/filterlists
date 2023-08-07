@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 24 July 2023
+! Version: 7 August 2023
 ! Syntax: AdBlock
 
 1010wcsi.com###secondary
@@ -617,11 +617,16 @@ zoosk.com##.article__related, .newsletter
 ! https://github.com/yokoffing/filterlists/issues/100
 ! ##.follow
 
-! VIDEO PLAYERS
-! Only block players that usually play content not directly related to the page
+! AUDIO/VIDEO PLAYERS
+! https://www.ghacks.net/2023/07/04/firefox-115-new-esr-base-and-some-add-ons-may-be-blocked-from-running-on-certain-sites
+||readaloud.googleapis.com^$script
+! Block players that usually play content not directly related to the page
 ||redvideo.io^$domain=~redvideo.io
 !||cnevids.com^$3p,domain=~gq.com
 ||kaltura.com^$3p,domain=~financialaidtv.com
+! https://www.appdate.lk/technology/2023-browser-showdown/
+||beyondwords.io^
+||code.responsivevoice.org^
 ! Brightcove
 ||brightcove.net^$3p
 @@||brightcove.^$xhr
