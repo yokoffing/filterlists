@@ -178,6 +178,7 @@ $ping
 ||mailchimp.com^$3p
 ||marketingautomation.services^$3p
 ||marketo.com^
+||maze.co^$3p
 ||media.licdn.com^$domain=~linkedin.com
 ||medium.com^$3p,~script,~image
 ||memberful.com^$3p
