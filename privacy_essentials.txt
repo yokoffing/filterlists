@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 7 August 2023b
+! Version: 8 August 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -105,6 +105,7 @@ $ping
 ||drtuber.desi^$3p
 ||duckduckgo.com^$3p,domain=~duckduckgo.com|~spreadprivacy.com
 ||eagleapi.io^
+||emailsnow.info^
 ||evidon.com^$3p
 ||exosrv.com^$3p
 ! https://www.andrewchristian.com
@@ -574,6 +575,9 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ||neverbounce.com^$3p
 ||greenhouse.io^$3p
 
+! https://github.com/easylist/easylist/issues/16984
+||mirabelanalytics.com^
+||mirabelsmarketingmanager.com^
 
 ! https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
 ! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
