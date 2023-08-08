@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 4 Aug 2023
+! Version: 8 Aug 2023
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -70,6 +70,7 @@
 ||fonts.voxmedia.com^$3p
 ||gannett-cdn.com^*/fonts/$font,3p
 ||gannettdigital.com^*/fonts/$font,3p
+||gfonts.jifo.co^
 ||google.com/swg/$font,3p
 ||googleapis.com/ajax/libs/webfont/$3p
 ||googleusercontent.com/static/fonts/$3p
