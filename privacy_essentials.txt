@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 8 August 2023
+! Version: 9 August 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -84,6 +84,7 @@ $ping
 ||concert.io^$3p
 ||connect.getflowbox.com^$3p
 ||consensu.org^$redirect=noopjs
+||conscent.in^$3p
 ||contentpass.net^
 ||coordinatedcub.com^$3p
 ||d77cf8b870.com^
