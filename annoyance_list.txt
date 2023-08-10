@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 8 August 2023b
+! Version: 10 August 2023
 ! Syntax: AdBlock
 
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
@@ -663,8 +663,9 @@ adguard.com##.content-social
 ||beyondwords.io^
 ||code.responsivevoice.org^
 ! https://www.delish.com/food-news/a44120266/mcdonalds-grimace-shake/
-||hearst.io^
-||hearstapps.com^
+! htv-streaming-otfp.hearst.iois being blocked, it breaks a local news station videos
+!||hearstapps.com^
+!||hearst.io^
 ||hearstgames.com^
 ! ||nitehawk.hearst.io^
 ! ||oply.hearstapps.com^
