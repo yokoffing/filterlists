@@ -278,12 +278,12 @@ The Minified lists are part of an Adblock Plus-hosted unofficial project that wa
 * [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists#recommendation-) → Recommendation
 
 #### Contributions
-* [1Hosts](https://github.com/badmojr/1Hosts/issues?q=author%3Ayokoffing)
 * [Easylist](https://github.com/easylist/easylist/issues?q=author%3Ayokoffing)
-* [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=author%3Ayokoffing)
 * [AdGuard](https://github.com/AdguardTeam/AdguardFilters/issues?q=author%3Ayokoffing)
 * [DandelionSprout](https://github.com/DandelionSprout/adfilt/issues?q=author%3Ayokoffing) / [Legitimate URL Shortener](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)
-* [hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) | [mentions](https://github.com/hagezi/dns-blocklists/issues?q=mentions%3Ayokoffing)
+* [uBlock Origin](https://github.com/uBlockOrigin/uAssets/issues?q=author%3Ayokoffing)
+* [Hagezi DNS Blocklists](https://github.com/hagezi/dns-blocklists/issues?q=author%3Ayokoffing) | [Mentions](https://github.com/hagezi/dns-blocklists/issues?q=mentions%3Ayokoffing) | [Analysis](https://github.com/hagezi/dns-blocklists/discussions/1093)
+* [1Hosts](https://github.com/badmojr/1Hosts/issues?q=author%3Ayokoffing)
 * [Ghostery extension](https://github.com/ghostery/ghostery-extension/issues?q=author%3Ayokoffing)
 * [DDG Tracker Radar (Blokada)](https://community.blokada.org/t/introducing-duckduckgo-tracker-radar-to-blokada/469)
 
