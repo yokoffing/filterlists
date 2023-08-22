@@ -1,9 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/yokoffing/filterlists)](https://github.com/yokoffing/filterlists/issues)
-[![GitHub closed issues](https://badgen.net/github/closed-issues/yokoffing/filterlists?color=green)](https://github.com/yokoffing/filterlists/issues?q=is%3Aissue+is%3Aclosed)
-![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
+![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-orange)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ***
@@ -15,7 +13,9 @@
 
 ***
 
-# Custom Filters for uBlock Origin
+# Recommended Filters for uBlock Origin
+
+![ublock-defaults-22-aug](https://github.com/yokoffing/filterlists/assets/11689349/c3928d3f-5442-444b-92f8-ac82146d3ed7)
 
 ***
 
@@ -32,9 +32,10 @@
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
     1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
     2) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
-4) [FAQ](https://github.com/yokoffing/filterlists#faq)
-5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+4) [Advanced Settings](https://github.com/yokoffing/filterlists/#advanced-settings)
+5) [FAQ](https://github.com/yokoffing/filterlists#faq)
+6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
@@ -53,13 +54,13 @@
 ## Privacy
 
 1) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt) 
-<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. **Note:** This list breaks third-party logins.
+<br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://unofficialbird.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list breaks third-party logins.
 
 2) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal---my-manually-maintained-denylist-) (48k domains) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt)
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
 3) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [add](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt)
-<br> (**optional:** Included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://unofficialbird.com/gorhill/status/1377613392559636486) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
+<br> (**optional:** Included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://twitter.com/gorhill/status/1377613392559636486) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
 4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [add](https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt)
 <br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between the two. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
@@ -103,7 +104,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 High-risk sites can expose your device to threats. These lists can prevent that by warning you before navigation or limiting what you can access.
 
-1) :star: [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-) (206 rules) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
+1) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-) (206 rules) | [add](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt)
 <br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own [Enhanced website protection](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt) list, Dandelion Sprout's `Anti-Malware List`, LennyFox's `Block non-Latin TLDs` [list](https://github.com/LennyFox/Blocklists/blob/master/Block_non_latin_TLDs.txt), and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
 
 2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (42k rules) | [add](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
@@ -196,11 +197,13 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 [AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
 
-(The rule counts shown below are when compared to their regular list in uBO.)
+:warning: By the very nature of these filterlists, they may not block 100% of what their original format blocks. This is obvious, but it's worth remembering for when you're trying to debug lack of coverage.
+
+*The rule counts shown below are when compared to their original list in uBO.*
 
 ### Ads
 
-1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
+1) **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
 
 2) **EasyList + AdGuard Base filter (Optimized)** (64k vs. 137k rules combined) | [add](https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt)
@@ -208,14 +211,35 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 ### Annoyances
 
-1) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
+1) **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
 <br> Hides website notifications, social media widgets, cookie notices, chat widgets, and some newsletters, thereby substantially decreasing web page loading times and uncluttering them. (Includes `EasyList - Cookie Notices` and `EasyList - Social Widgets`)
 
-2) :star: **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+2) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
 <br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
 
 3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
 <br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion) If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+
+***
+
+# Advanced Settings
+
+Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features).
+
+![advanced user](https://github.com/yokoffing/filterlists/assets/11689349/80c650dc-3f4f-4291-ab5f-53db3c42b7fc)
+
+:stop_sign: Do not blindly change these values. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
+
+| **Setting**                   | **Value** | **Description**                                                                      |
+|-------------------------------|-----------|--------------------------------------------------------------------------------------|
+| autoUpdateAssetFetchPeriod    | 5         | auto-updater waits 5 seconds before fetching the next asset                          |
+| autoUpdateDelayAfterLaunch    | 10        | update out-of-date assets 10 seconds after browser startup                           |
+| autoUpdatePeriod              | 1         | uBO checks for asset updates every hour                                              |
+| cnameMaxTTL                   | 1080      | cache CNAME alias for 18 hours                                                       |
+| filterAuthorMode              | true      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) |
+| updateAssetBypassBrowserCache | true      | bypass cache when manually fetching a resource more often than every hour            |
+
+<sub>^*For older PCs: The first two values may be too aggressive.*</sub>
 
 ***
 
