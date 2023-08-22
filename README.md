@@ -34,7 +34,7 @@
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
     1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
     2) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
-4) Advanced User Settings
+4) [Advanced Settings](https://github.com/yokoffing/filterlists/#advanced-settings)
 5) [FAQ](https://github.com/yokoffing/filterlists#faq)
 6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
 7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
@@ -224,7 +224,7 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 ***
 
-# Advanced User Settings
+# Advanced Settings
 
 Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features).
 
@@ -240,6 +240,8 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 | cnameMaxTTL                   | 1080      | cache CNAME alias for 18 hours                                                       |
 | filterAuthorMode              | true      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) |
 | updateAssetBypassBrowserCache | true      | bypass cache when manually fetching a resource more often than every hour            |
+
+<sub>^*For older PCs: The first two values may be too aggressive.*</sub>
 
 ***
 
