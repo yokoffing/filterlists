@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 17 August 2023
+! Version: 22 August 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -393,13 +393,12 @@ fmovies.*##+js(nosiif, try)
 ||connect.facebook.net^$important
 ||graph.facebook.com^$domain=~facebook.com|~instagram.com
 ||graph.instagram.com^$domain=~facebook.com|~instagram.com
-||facebook.^$3p,domain=~instagram.com|~messenger.com
-||fbcdn.^$3p
-||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~workplace.com
+||facebook.com^$3p,domain=~instagram.com|~messenger.com
+||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~messenger.com|~workplace.com
 ||instagram.^$3p,~subdocument
 @@||facebook.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.^$image,media
+@@||fbcdn.net^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+@@||fbcdn.net^$image,media
 @@||instagram.com/p/$subdocument
 @@||instagram.com^$script
 @@||-instagram.*.facebook.com^$subdocument
