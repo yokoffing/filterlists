@@ -15,7 +15,9 @@
 
 ***
 
-# Custom Filters for uBlock Origin
+# Recommended Filters for uBlock Origin
+
+![ublock-defaults-22-aug](https://github.com/yokoffing/filterlists/assets/11689349/c3928d3f-5442-444b-92f8-ac82146d3ed7)
 
 ***
 
@@ -196,11 +198,13 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 [AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
 
-(The rule counts shown below are when compared to their regular list in uBO.)
+:warning: By the very nature of these filterlists, they may not block 100% of what their original format blocks. This is obvious, but it's worth remembering for when you're trying to debug lack of coverage.
+
+*The rule counts shown below are when compared to their original list in uBO.*
 
 ### Ads
 
-1) :star: **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
+1) **Easylist (Optimized)** (24k vs. 67k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)
 <br> EasyList is the primary filter list that removes most adverts from web pages, including unwanted frames, images, and objects. It is the most popular list used by many ad blockers.
 
 2) **EasyList + AdGuard Base filter (Optimized)** (64k vs. 137k rules combined) | [add](https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt)
@@ -208,10 +212,10 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 ### Annoyances
 
-1) :star: **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
+1) **Fanboy Annoyances (Optimized)** (35k vs. 91k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/122_optimized.txt)
 <br> Hides website notifications, social media widgets, cookie notices, chat widgets, and some newsletters, thereby substantially decreasing web page loading times and uncluttering them. (Includes `EasyList - Cookie Notices` and `EasyList - Social Widgets`)
 
-2) :star: **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
+2) **AdGuard Annoyances (Optimized)** (40k vs. 68k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/14_optimized.txt)
 <br> Blocks irritating elements on webpages including cookie notices, third-party widgets, and in-page popups. AdGuard claims that this list doesn't duplicate `Fanboy Annoyances`, so you can use them both together. (Unlike Fanboy's version, this list doesn’t include social media widgets and buttons. To block them, you can use `AdGuard Social Media filter` separately.)
 
 3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
