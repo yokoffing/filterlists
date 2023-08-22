@@ -34,9 +34,10 @@
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
     1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
     2) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
-4) [FAQ](https://github.com/yokoffing/filterlists#faq)
-5) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-6) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+4) Advanced User Settings
+5) [FAQ](https://github.com/yokoffing/filterlists#faq)
+6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
+7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
 
 ***
 
@@ -220,6 +221,25 @@ uBO can handle 300k+ filters, but you might not need that many rules to block un
 
 3) **AdGuard Social Media filter (Optimized)** (14k vs. 20k rules) | [add](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)
 <br> (**optional:** Redundant with `Fanboy Annoyances` / `EasyList - Social Widgets`, in my opinion) If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+
+***
+
+# Advanced User Settings
+
+Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-user-features).
+
+![advanced user](https://github.com/yokoffing/filterlists/assets/11689349/80c650dc-3f4f-4291-ab5f-53db3c42b7fc)
+
+:stop_sign: Do not blindly change these values. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
+
+| **Setting**                   | **Value** | **Description**                                                                      |
+|-------------------------------|-----------|--------------------------------------------------------------------------------------|
+| autoUpdateAssetFetchPeriod    | 5         | auto-updater waits 5 seconds before fetching the next asset                          |
+| autoUpdateDelayAfterLaunch    | 10        | update out-of-date assets 10 seconds after browser startup                           |
+| autoUpdatePeriod              | 1         | uBO checks for asset updates every hour                                              |
+| cnameMaxTTL                   | 1080      | cache CNAME alias for 18 hours                                                       |
+| filterAuthorMode              | true      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) |
+| updateAssetBypassBrowserCache | true      | bypass cache when manually fetching a resource more often than every hour            |
 
 ***
 
