@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 7 August 2023
+! Version: 5 September 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -35,8 +35,8 @@
 !@@||gstatic.com/recaptcha/$domain=accounts.spotify.com
 
 ! THIRD-PARTY PAYMENT / LOGIN
-||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
-||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
+!||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
+!||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
 /PaypalExpressCheckout
 
 ! SPOTIFY
