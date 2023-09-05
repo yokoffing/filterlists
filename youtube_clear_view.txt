@@ -35,9 +35,6 @@ m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$
 ! Hide the end screen video that autoplays next
 /endscreen.js$script,important,domain=youtube.com
 
-! Hide recommendation sidebar
-www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
 
