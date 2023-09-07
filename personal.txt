@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 5 September 2023
+! Version: 7 September 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -43,6 +43,9 @@
 accounts.spotify.com##.eOZPwe.kdQBSg.sc-hBUSln.sc-gsDKAQ
 
 ! YOUTUBE
+! Hide recommendation sidebar
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
 ! Hide suggestions at the end of the video
 ! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
 youtube.com##.ytp-ce-element
