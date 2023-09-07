@@ -2,8 +2,8 @@
 ! Title: 🛑 Enhanced website protection
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 1 day (update frequency)
-! Version: 14 August 2023b
+! Expires: 7 days (update frequency)
+! Version: 7 September 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -23,7 +23,7 @@
 ||fit^$doc,from=~appetit.fit|~clubb.fit|~justget.fit|~nic.fit|~pridegym.fit|~thebene.fit|~tootally.fit
 ||foo^$doc,from=~helloworld.foo
 ||loans^$doc
-||nexus^$doc,from=~gamers.nexus
+||nexus^$doc,from=~fonts.nexus|~gamers.nexus|~uvc.nexus
 ||phd^$doc,from=~rafael.phd
 ||prof^$doc,from=~casey.prof
 ||quest^$doc,from=~0x00.quest|~amble.quest|~bookshelf.quest|~dice.quest|~dont-panic.quest|~epochal.quest|~federation.quest|~galaxy.quest|~mylegendary.quest|~nic.quest|~prometheus.quest|~squash.quest|~teacher.quest|~theculture.quest|~toot.quest
