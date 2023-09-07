@@ -2,8 +2,8 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 7 days (update frequency)
-! Version: 12 July 2023
+! Expires: 30 days (update frequency)
+! Version: 7 September 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -36,7 +36,7 @@ m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$
 /endscreen.js$script,important,domain=youtube.com
 
 ! Hide recommendation sidebar
-www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
