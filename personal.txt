@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 13 September 2023
+! Version: 13 September 2023b
 ! Syntax: AdBlock
 
 ! Google Search
@@ -83,17 +83,11 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overl
 www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
 ! www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
 
-! Hide View count
-www.youtube.com##.yt-view-count-renderer
-
-! Hide view count of videos under the video player
-!www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
-
 ! Hide View count on Home, Subscriptions, etc.
-!www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
-!www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
+www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
+www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
 
-! Hide upload time (+ view count)
+! Hide upload time (+ view count) under video player
 ! www.youtube.com###metadata-line
 
 ! Hide subscriber count near the channel name under the video player
