@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 7 September 2023
+! Version: 13 September 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -87,11 +87,11 @@ www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:co
 www.youtube.com##.yt-view-count-renderer
 
 ! Hide view count of videos under the video player
-www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
+!www.youtube.com##.ytd-video-view-count-renderer.style-scope.view-count
 
 ! Hide View count on Home, Subscriptions, etc.
-www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
-www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
+!www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
+!www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
 
 ! Hide upload time (+ view count)
 ! www.youtube.com###metadata-line
@@ -121,8 +121,8 @@ m.youtube.com##ytm-video-description-music-section-renderer
 www.youtube.com###cinematics.ytd-watch-flexy:remove()
 
 ! Hide the channel description box under videos and shorts 
-www.youtube.com###clarify-box
-www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
+!www.youtube.com###clarify-box
+!www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
 
 ! Hide Join button
 www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
@@ -141,4 +141,3 @@ www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
 ! Hide Verified checkmark
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
-
