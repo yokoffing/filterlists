@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 September 2023
+! Version: 15 September 2023b
 ! Syntax: AdBlock
 
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
@@ -946,6 +946,12 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 ! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
+! Github
+! Hide prompts to test copilot 
+github.com##react-app[app-name="react-code-view"] button[data-testid="copilot-popover-button"]
+! Hide the "Overwhelmed by notifications?" prompt 
+github.com##.js-unwatch-suggestions
+
 ! Aggressive Fandom Wiki
 fandom.com##.wds-global-footer__main
 ! https://www.reddit.com/r/uBlockOrigin/comments/z0i6qy/aggressive_fandom_wiki_filter_set/
@@ -1006,7 +1012,6 @@ unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 !@@||cdn.listrakbi.com/scripts/script.js^
 @@||cdn.listrakbi.com/scripts^$3p,script
 @@||services.listrak.com^
-
 
 !#include clean_reading_experience.txt
 !#include adult_annoyance_list.txt
