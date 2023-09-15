@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 8 September 2023
+! Version: 15 September 2023
 ! Syntax: AdBlock
 
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
@@ -511,7 +511,7 @@ theguardian.com###e4675c50-1165-4a45-b442-b960d1590dd7, most-viewed-right, .dcr-
 thehackernews.com##.right-box, .cf.below-post-box, .sharebelow-comment > .show-comments, .note-b
 thehill.com##.sidebar.column.region-sidebar-second.region, .es_recommended_content.incontent_widgets
 thehill.com##.thehill-promo-link
-theintercept.com###third-party--homepage-banner, .Cta-content
+theintercept.com###3p--homepage-banner, .Cta-content
 thelineofbestfit.com##.related-section > .gutter-wrapper, .reviews-section > .layout-wrap, .feature-signup, .signup-sidebar.sidebar-section
 them.us##.callout--has-top-border
 themarkup.org##.article-card--right.article-card--has-image.article-card, .article-footer-titles, .print-hidden.article-footer__latest
@@ -688,6 +688,47 @@ delish.com##.video-player, .journey-unblur-content
 !!! @@||jwpltx.com^$image
 @@||jwpsrv.com^$subdocument
 
+! https://github.com/brave/adblock-lists/blob/master/brave-lists/brave-ios-specific.txt
+! Invideo ads
+||api.fw.tv^
+||avantisvideo.com/avm/js/video-loader.js$script,3p
+||c.jsrdn.com^$script,domain=muscleandfitness.com
+||channelexco.com/player/$3p
+||connatix.com^$script,3p
+||delivery.vidible.tv/jsonp/
+||dywolfer.de^
+||embed.sendtonews.com^$3p
+||fqtag.com^$3p
+||fwcdn1.com/js/fwn.js
+||fwcdn1.com/js/storyblock.js
+||fwcdn2.com^$3p
+||go.trvdp.com^
+||jwpcdn.com^$script,domain=bgr.com|dexerto.com|zimbio.com
+||jwplayer.com/players/$script,domain=ginx.tv
+||live.primis.tech^$3p
+||play.anyclip.com^$script,3p
+||play.springboardplatform.com^
+||playbuzz.com/embed/$script,3p
+||playbuzz.com/player/$script,3p
+||player.anyclip.com/anyclip-widget/$script,3p
+||player.avplayer.com^$3p
+||player.ex.co^$script,3p
+||player.sendtonews.com^$3p
+||players.brightcove.net^$script,domain=businessinsider.com.au|gizmodo.com.au|kotaku.com.au|lifehacker.com.au|pedestrian.tv
+||playwire.com/bolt/js/$script,3p
+||rumble.com^$domain=tiphero.com
+||services.brid.tv^$script,domain=spin.com
+||sportrecs.com/redirect/embed/
+||ultimedia.com/js/common/smart.js$script,3p
+||vidazoo.com/basev/$script,3p
+||video-api.yql.yahoo.com^*/wf-channel=related-videos?
+||vidora.com^$3p
+||viewdeos.com^$script,3p
+||vms-players.minutemediaservices.com^$script,3p
+||voqally.com/hub/app/
+||vplayer.newseveryday.com^
+||widgets.outbrain.com^$domain=cnn.com
+
 ! Comment Services not covered by other annoyances lists
 ||championat.com^$3p
 ||yotpo.com^$3p
@@ -718,7 +759,7 @@ delish.com##.video-player, .journey-unblur-content
 
 ! from https://github.com/DandelionSprout/adfilt/blob/master/AnnoyancesList
 ! AAB prompts
-/^https://[a-z]{8,25}\.com/v2[a-zA-Z0-9_-]{70,}$/$xmlhttprequest,ping,third-party,important
+/^https://[a-z]{8,25}\.com/v2[a-zA-Z0-9_-]{70,}$/$xmlhttprequest,ping,3p,important
 
 ! from https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! Be sure to add scriplets https://github.com/uBlock-user/uBO-Personal-Filters#requirements
