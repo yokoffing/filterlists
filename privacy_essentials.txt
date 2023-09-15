@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 25 August 2023
+! Version: 15 September 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -390,13 +390,17 @@ fmovies.*##+js(nosiif, try)
 @@||ytimg.com^$script
 
 ! FACEBOOK
-||connect.facebook.net^$important
-||facebook.com^$3p,domain=~instagram.com|~messenger.com
-||fbcdn.net^
-||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~messenger.com|~workplace.com
-@@||facebook.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.net^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-@@||fbcdn.net^$image,media
+! ||connect.facebook.net^$important
+||connect.facebook.net^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+! ||facebook.com^$3p,domain=~instagram.com|~messenger.com
+! Facebook Plugins (3rd-party embedded plugins)
+||facebook.com/plugins/$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+! ||fbcdn.net^
+! ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~messenger.com|~workplace.com
+! @@||facebook.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+! @@||fbcdn.net^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+! @@||fbcdn.net^$image,media
 
 ! INSTAGRAM
 ||graph.facebook.com^$domain=~facebook.com|~instagram.com
@@ -407,6 +411,8 @@ fmovies.*##+js(nosiif, try)
 @@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
+||api.twitter.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
+||platform.twitter.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||twitter.com^$3p
 ||syndication.twitter.com^
 ||t.co^$3p,domain=~twitter.com
@@ -429,7 +435,8 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||ibytedtos.com^$3p,domain=~tiktok.com
 
 ! LINKEDIN
-||linkedin.^$3p
+||licdn.com^$3p,domain=~linkedin.com|~lnkd.in
+||linkedin.com^$3p
 
 ! PINTEREST
 ||pinterest.com^$3p
@@ -468,10 +475,10 @@ platform.twitter.com##+js(cookie-remover, /^/)
 !||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 
-! THIRD-PARTY PAYMENT / LOGIN
+! 3p PAYMENT / LOGIN
 ##shopify-payment-terms
 ##.additional-checkout-buttons.grid__item
-! Third-party sign-in buttons
+! 3p sign-in buttons
 ##.sign-in-google-btn
 ##.google.primary.auth
 ##.apple.primary.auth
@@ -526,7 +533,7 @@ bing.com##+js(nosiif, logQueue, 10000)
 
 ! EasyPrivacy exceptions
 ! https://github.com/easylist/easylist/issues/4023
-@@||instant.page^$third-party
+@@||instant.page^$3p
 
 ! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
 ! EL
@@ -578,6 +585,9 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 ! https://connatix.com/advertisers
 ||neverbounce.com^$3p
 ||greenhouse.io^$3p
+
+! Outbrain
+||outbrain.com^$3p,domain=~sphere.com
 
 ! https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
 ! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
