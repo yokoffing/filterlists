@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 September 2023b
+! Version: 15 September 2023c
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -592,6 +592,9 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! Outbrain
 ||outbrain.com^$3p,domain=~sphere.com
+
+! Allow YouTube link redirect (Privacy Extended)
+@@||youtube.com/redirect?event=*q=http$document
 
 ! https://github.com/LennyFox/Blocklists/blob/master/uBO_medium_mode_filter 7 June 2023
 ! Removed redundancies from EasyListm, EasyPrivacy, and Privacy Extended
