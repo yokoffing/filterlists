@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 September 2023
+! Version: 15 September 2023b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -403,9 +403,13 @@ fmovies.*##+js(nosiif, try)
 ! @@||fbcdn.net^$image,media
 
 ! INSTAGRAM
-||graph.facebook.com^$domain=~facebook.com|~instagram.com
-||graph.instagram.com^$domain=~facebook.com|~instagram.com
-||instagram.^$3p,~subdocument
+||graph.facebook.com/logging_client_events
+||graph.facebook.com/?ids=*&callback=$script,3p
+||graph.facebook.com/*/activities?access_token=&event=
+||graph.facebook.com/*?fields=supports_implicit_sdk_logging
+! ||graph.facebook.com^$domain=~facebook.com|~instagram.com
+! ||graph.instagram.com^$domain=~facebook.com|~instagram.com
+||instagram.com^$3p,~subdocument
 @@||instagram.com/p/$subdocument
 @@||instagram.com^$script
 @@||-instagram.*.facebook.com^$subdocument
@@ -426,7 +430,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 @@||twimg.com^$image
 @@||twitter.com/i/videos/$subdocument
 @@||twitter.map.fastly.net^$domain=twitter.com
-! Breaks Twitter widget using this list [Fanboy Annoyance]
+! Breaks Twitter widget using Fanboy Annoyance
 ! https://www.cnet.com/news/social-media/twitter-musk-news-timeline-riptwitter-trends-after-employees-resign/
 @@.twitterContainer
 
