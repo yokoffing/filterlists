@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 13 September 2023b
+! Version: 15 September 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -51,14 +51,11 @@ www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style
 youtube.com##.ytp-ce-element
 
 ! Hide already watched YouTube videos
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
-www.youtube.com##ytd-browse[page-subtype="channels"] ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
-www.youtube.com##ytd-browse[page-subtype="channels"] ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-browse[page-subtype="home"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="channels"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-item-section-renderer)
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
-! https://github.com/letsblockit/letsblockit/issues/449#issuecomment-1584235196
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-compact-video-renderer)
 
 ! Hide YouTube Shorts
 www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
