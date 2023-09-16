@@ -3,25 +3,15 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 7 September 2023
+! Version: 16 September 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
-! new format
+! new format June 2023
 ! https://www.reddit.com/r/uBlockOrigin/comments/14x3el7/how_to_hide_the_like_count_on_youtube_videos_july/
 youtube.com###segmented-like-button .cbox
-! youtube.com###segmented-like-button .cbox.yt-spec-button-shape-next__button-text-content
-! old format
-! https://www.reddit.com/r/uBlockOrigin/comments/ygt8mp/comment/iubbwwm/?context=3
-www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next--button-text-content
-www.youtube.com##button.yt-spec-button-shape-next--segmented-start > .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -2px !important;)
 
 ! Hide the text label of the dislike/share/download/report/save buttons
-! old format
-www.youtube.com###info > * [id^="top-level-buttons"] [class*="button-renderer"] [id="text"]:not(:has-text(/\d/))
-www.youtube.com##.ytd-watch-metadata > .top-level-buttons #text:not(:has-text(/[\d]/))
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
-www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
 ! new format June 2023
 www.youtube.com###actions.ytd-watch-metadata button > div[class$="text-content"]:not(:has-text(/[\d]/))
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next .yt-spec-button-shape-next--button-text-content
@@ -30,10 +20,13 @@ m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-co
 m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
 
 ! Hide next video video, which may accidentally be clicked since it's near the Play button
-!www.youtube.com##.ytp-button.ytp-next-button
+! www.youtube.com##.ytp-button.ytp-next-button
 
-! Hide the end screen video that autoplays next
-/endscreen.js$script,important,domain=youtube.com
+! Video annotations; Hide the end screen video that autoplays next
+! Block once for all the scripts responsible for annotations:
+! /annotations_module.js$script,important,domain=youtube.com
+! and/or the end screen / auto play next:
+! /endscreen.js$script,important,domain=youtube.com
 
 ! Hide recommendation sidebar
 ! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
@@ -57,6 +50,17 @@ www.youtube.com##.ytp-suggested-action-badge-content-forward.ytp-suggested-actio
 www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"]:upward(ytd-item-section-renderer)
+
+! Brand image in the corner
+youtube.com##.ytp-button.branding-img-container
+
+! Hide "1080p Premium" in the video quality menu
+!#if env_firefox
+youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
+!#endif
+!#if env_chromium
+youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
+!#endif
 
 ! Hide Scam Channels
 ! https://letsblock.it/filters/youtube-channel
@@ -89,18 +93,3 @@ www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="PlayMe"])
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
 ! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
-
-! need reviewing:
-! Removes "YouTube" (Music) playlists from the right side panel
-!youtube.com##ytd-compact-playlist-renderer .ytd-channel-name:has-text(/^YouTube/):upward(ytd-compact-playlist-renderer)
-! Suggested channels by name
-!youtube.com##ytd-rich-item-renderer:has(#byline-container:has-text(/BBC|CNN|FOX|NBC/))
-! Recommend after pause
-!youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
-!~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
-! Removes Mixes from the Main Page
-!youtube.com##ytd-rich-item-renderer #video-title-link[title*="Mix"][href$="start_radio=1"]:upward(ytd-rich-item-renderer)
-! Removes Mixes from the right side panel
-!youtube.com##ytd-compact-radio-renderer
-! Removes Mixes from search results
-!youtube.com##ytd-radio-renderer
