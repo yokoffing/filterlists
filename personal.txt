@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 15 September 2023
+! Version: 16 September 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -46,9 +46,9 @@ accounts.spotify.com##.eOZPwe.kdQBSg.sc-hBUSln.sc-gsDKAQ
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
-! Hide suggestions at the end of the video
+! Hide autoplay suggestions at the end of the video
 ! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
-youtube.com##.ytp-ce-element
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
 
 ! Hide already watched YouTube videos
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
