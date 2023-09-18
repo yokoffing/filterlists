@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 18 Seteptember 2023
+! Updated: 18 Seteptember 2023b
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
@@ -29,6 +29,7 @@
 ! Generic cosmetic filters
 ##.b-thumb-col
 ##.b-randoms-col
+machotube.tv#@#.b-randoms-col
 ##.tabs-related.tabs
 ##.related.thumb-list
 ##.js-related.related.b-thumb-list
