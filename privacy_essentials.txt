@@ -3,8 +3,25 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 September 2023c
+! Version: 18 September 2023
 ! Syntax: AdBlock
+
+||cnstrc.com^
+||share.qvcemail.com^
+||paywall-prod.appspot.com^
+||sinclairstoryline.com^$3p
+||tripadvisor.com^$3p
+||paisly.com^$3p
+||budget.com^$3p
+||jetbluevacations.com^$3p
+||deadlinefunnel.com^$3p
+||beddoe.com^$3p
+||avada.io^$3p
+||hextom.com^$3p
+||socialshopwave.com^$3p
+
+! https://github.com/DandelionSprout/adfilt/discussions/163?sort=new#discussioncomment-7005094
+||avast.com^$removeparam=__cf_chl_rt_tk
 
 ! GENERAL BLOCKLIST
 ! https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
