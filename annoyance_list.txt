@@ -3,9 +3,13 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 September 2023b
+! Version: 18 September 2023
 ! Syntax: AdBlock
 
+! https://techcrunch.com/2022/06/14/firefox-gets-a-privacy-boost-as-total-cookie-protection-becomes-the-default-for-all-users/
+||bizzabo.com^$3p
+
+||metrics.foursixty.com^
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
 innotechtoday.com##.elementor-element-aff5945.elementor-element.elementor-top-column.elementor-col-100.elementor-column.has_eae_slider > .elementor-element-populated.elementor-widget-wrap, .sticky-column, .elementor-widget-heading.elementor-widget.elementor-element-e95e952.elementor-element > .elementor-widget-container
 androidauthority.com##.-___sc
@@ -648,8 +652,12 @@ zoosk.com##.article__related, .newsletter
 ! https://github.com/yokoffing/filterlists/issues/100
 ! ##.follow
 adguard.com##.content-social
+! https://github.com/easylist/easylist/issues/16243
+livescience.com##.buttons-social
+kellegram.xyz##.socials
 
 ! AUDIO/VIDEO PLAYERS
+! ||remixd.com^$3p
 ! https://www.gq.com/story/jason-belmonte-bowling-profile
 ||player.cnevids.com^
 ! https://www.ghacks.net/2023/07/04/firefox-115-new-esr-base-and-some-add-ons-may-be-blocked-from-running-on-certain-sites
@@ -661,14 +669,18 @@ adguard.com##.content-social
 ! https://www.appdate.lk/technology/2023-browser-showdown/
 ||beyondwords.io^
 ||code.responsivevoice.org^
+! https://www.wyff4.com/article/videocast-morning-storms/44780778
+! ||htvapps.com^
+||hearst.io^
+@@||htv-streaming-otfp.hearst.io
+@@||nitehawk.hearst.io
+||hearstapps.com^
+||htvtools.us^
 ! https://www.delish.com/food-news/a44120266/mcdonalds-grimace-shake/
-! htv-streaming-otfp.hearst.iois being blocked, it breaks a local news station videos
-!||hearstapps.com^
-!||hearst.io^
 ||hearstgames.com^
-! ||nitehawk.hearst.io^
-! ||oply.hearstapps.com^
 @@||hips.hearstapps.com^$image
+! ||hearstapps.com^
+! ||oply.hearstapps.com^
 ! ||assets.hearstapps.com^
 delish.com##.video-player, .journey-unblur-content
 ! Brightcove
@@ -687,6 +699,10 @@ delish.com##.video-player, .journey-unblur-content
 @@||jwpcdn.com^$font
 !!! @@||jwpltx.com^$image
 @@||jwpsrv.com^$subdocument
+! https://www.news24.com
+! paywalled audio player
+||oovvuu.io^$3p
+||oovvuu.media^$3p
 
 ! https://github.com/brave/adblock-lists/blob/master/brave-lists/brave-ios-specific.txt
 ! Invideo ads
@@ -729,12 +745,15 @@ delish.com##.video-player, .journey-unblur-content
 ||vplayer.newseveryday.com^
 ||widgets.outbrain.com^$domain=cnn.com
 
-! Comment Services not covered by other annoyances lists
+! Comments not covered by other annoyances lists
 ||championat.com^$3p
 ||yotpo.com^$3p
 ||lifehacker.com/embed/comments^$subdocument
 ||jetpack.wordpress.com/jetpack-comment/$subdocument
 ||cdn.commento.io^$3p
+! ||comment.youmaker.com^
+||youmaker.com^$3p
+||giscus.app^$3p
 
 ! Annoying anti-adblock
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
