@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 18 September 2023
+! Version: 18 September 2023b
 ! Syntax: AdBlock
 
 ||cnstrc.com^
@@ -19,6 +19,8 @@
 ||avada.io^$3p
 ||hextom.com^$3p
 ||socialshopwave.com^$3p
+||bizzabo.com^$3p
+||metrics.foursixty.com^
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163?sort=new#discussioncomment-7005094
 ||avast.com^$removeparam=__cf_chl_rt_tk
