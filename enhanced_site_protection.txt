@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 September 2023
+! Version: 23 September 2023
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -33,22 +33,36 @@
 ! Mali
 ||ml^$doc,from=~aire.ml|~amap.ml|~beatbump.ml|~birdkey.ml|~debula.ml|~dmml.ml|~esparrec.ml|~exp0.ml|~fedi.ml|~fmhy.ml|~ghostcloud.ml|~google.ml|~guya.ml|~info-matin.ml|~kawauso.ml|~leam.ml|~lemmy.ml|~lemmygrad.ml|~lingva.ml|~loma.ml|~masto.ml|~mastodon.ml|~mastodonte.ml|~melody.ml|~nothingprivate.ml|~precure.ml|~prompt.ml|~stilic.ml|~sumanko.ml|~we-moon.ml
 
-!#if ext_ublock
-! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
-/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
-
-! from https://github.com/Yuki2718/adblock2/blob/e89bddf6ba0fa39b33e75efe7beaae66be802153/japanese/jpfp-ub.txt
-/^https:\/\/[a-z]{10,14}\.(?:ca[ms]a?|fun)\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
-/^https:\/\/[a-z]{8,15}\.com\/(?:beta|gamma|omega)\/\d{3,4}$/$xhr,3p
-/^https:\/\/[a-z]{8,16}\.(?:club|fun|hair|work|xyz)\/[%0-9a-zA-Z]{170,}$/$script,3p,match-case
-/^https?:\/\/[a-z]{5,12}\.com\/script\/(?:bootstrap|jquery)\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{140,}$/$image,ping,3p
-/^https?:\/\/[a-z]{7,16}\.(?:buzz|lol|one|xyz)\/[+\/0-9a-zA-Z]{400,}$/$frame,3p
-
 ! Non-latin TLDs
 ! from https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1579896974
 /(://|^)[a-z0-9.-]{2,}\.xn--[a-z0-9]{4,}($|/)/
-!#endif
+
+!!! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+/^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
+
+! very few legit things come in password-protected archives, and even fewer of them come in password protected archives with the password in the filename
+! false positives: website scanning services, malware sharing sites (?)
+/\/Use_[a-zA-Z0-9]*_As_Passw0rdd\.rar$/$doc
+/\/Use_[a-zA-Z0-9]*_As_Password\.rar$/$doc
+/\/Passwords_2024_Setup_Full\.rar$/$doc
+
+! test rule to detect possible malware hosted on MediaFire (i.e. https://app.any.run/tasks/d40fc871-4942-4acd-8d6a-d8f4baae1f32)
+||mediafire.com/file/*/NewSetup_Use_2023_Password.rar/file^$doc
+
+! https://www.virustotal.com/gui/url/4cbb55b62fe8bc2acdaa79d3c4fd3a6d33c0d5eed287bbe655fc117c6bdeb0a3/community
+.ltd/invoice/invoice.exe|$doc
+
+! already blocked in MWB - discord nitro scam
+.xyz/nitrocodes/|$doc
+
+! various URLHaus URLs
+||transfer.sh/get/*/svchost.exe|$all
+||cdn.discordapp.com/attachments/*/*/svchost.exe|$all
+
+! https://www.virustotal.com/gui/url/51a5c613fa07f8301aa68fa16e7307dbf3bf0b0dcfa015632895d7ebf7ca36d3/community
+! analysis: https://tria.ge/230918-nj1eqagh7x/behavioral1
+||bookingcomdetails.$doc
+/lnvoice__1541436948.js$doc,domain=blogspot.com
 
 ! No longer used:
 ! ||fun^$doc,from=~155.fun|~20anime.fun|~355.fun|~955.fun|~abyss.fun|~apilist.fun|~apkmody.fun|~applemc.fun|~bad2000.fun|~bc.fun|~bestgore.fun|~bigtopmidway.fun|~bmbl.fun|~boba.fun|~bqg.fun|~centertown.fun|~chrispelli.fun|~crosshatch.fun|~dedmoroz.fun|~dramaserial.fun|~dy18.fun|~egybist.fun|~enza.fun|~ero-labs.online|~ezone.fun|~fafr.fun|~federated.fun|~fedi.fun|~filmapik21.fun|~fortnite.fun|~gaggle.fun|~globalwarming.fun|~groupthink.fun|~hoagie.fun|~infosexy.fun|~inspiredlife.fun|~isohunt.fun|~its2.fun|~jp0id.fun|~klik.fun|~lasersare.fun|~libgen.fun|~likenews.fun|~lordserial.fun|~mastodon.fun|~memesoundboard.fun|~mh18.fun|~movies21.fun|~neal.fun|~nelson.fun|~nic.fun|~noods.fun|~oldmovies.fun|~omglol.fun|~orwell.fun|~pawb.fun|~phillips.fun|~plutonews.fun|~poketube.fun|~porncum.fun|~puz.fun|~rikapimatome.fun|~sakamichi.fun|~sexhd.fun|~solarmovie.fun|~streampiay.fun|~supercool.fun|~sxgr.fun|~team1x1.fun|~terbit21.fun|~thepiratebay-plus.strem.fun|~tideswing.fun|~toku.fun|~uploding.fun|~videosxxx.fun|~vigoo.fun|~wondertrip.fun|~wug.fun|~x-videos.fun|~xxx-sex.fun
