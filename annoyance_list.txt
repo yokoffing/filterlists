@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 18 September 2023b
+! Version: 23 September 2023
 ! Syntax: AdBlock
 
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
@@ -1027,6 +1027,25 @@ unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 !@@||cdn.listrakbi.com/scripts/script.js^
 @@||cdn.listrakbi.com/scripts^$3p,script
 @@||services.listrak.com^
+
+!#if ext_ublock
+! from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt
+/^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.casa\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
+/^https:\/\/[a-z]{10,14}\.casa\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.com\/(?=[%=\?_0-9a-zA-Z]*\*)(?=[%\*=\?_a-zA-Z]*\d)(?=[%\*=\?_0-9a-z]*[A-Z])[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p,domain=~edu|~gov|~jp
+/^https:\/\/[a-z]{10,14}\.fun\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.life\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
+/^https:\/\/[a-z]{10,14}\.life\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
+/^https:\/\/[a-z]{10,14}\.website\/tsk\/[\*_0-9a-zA-Z]{600,}$/$image,3p
+/^https:\/\/[a-z]{8,15}\.com\/alpha\/\d{3,4}$/$xhr,3p
+/^https:\/\/[a-z]{8,15}\.com\/beta\/\d{3,4}$/$xhr,3p
+/^https:\/\/[a-z]{8,15}\.com\/gamma\/\d{3,4}$/$xhr,3p
+/^https:\/\/[a-z]{8,15}\.com\/omega\/\d{3,4}$/$xhr,3p
+/^https?:\/\/[a-z]{5,6}\.com\/script\/bootstrap\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,6}\.com\/script\/jquery\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
+/^https?:\/\/[a-z]{5,6}\.com\/script\/pattern\.js$/$script,3p,match-case,domain=~edu|~gov|~jp
+!#endif
 
 !#include clean_reading_experience.txt
 !#include adult_annoyance_list.txt
