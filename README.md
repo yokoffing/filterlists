@@ -41,23 +41,12 @@
 
 # Custom Filters
 
-### How to import custom filters into uBlock Origin (uBO)
+#### How to import custom filters into uBlock Origin (uBO):
 
-#### Option 1: Click on subscribe
-
-
-#### Option 2: Context Menu (replace image)
-For uBlock Origin users, you can right click on any link starting with `https://subscribe.adblockplus.org`, click "uBlock Origin", then "Subscribe to filterlist...":
-
-<img src="https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/wiki/right%20click%20to%20add.jpg" alt="The Firefox context menu when clicking on a filterlist subscribe link, showing the uBlock Origin options" title="This shows the Firefox context menu, but it should work in any browser supporting the latest version of uBo. uBo lite is not supported (yet) and may will never be">
-
-#### Option 3
-1. Choose a project from the list below.
-2. Click **add** and copy the URL from the address bar (or right click **add** and select **Copy link** from the context menu).
-3. Under `Filter Lists > Custom` in uBO, paste the linked URL to the `Import` box.
-4. Click **Apply Changes**.
-
-![uboCustom](https://github.com/yokoffing/filterlists/assets/11689349/797ca28e-4a2d-4ec0-8743-c61f115264eb)
+1. Click **subscribe** by one of the lists below.
+2. In the new tab that opens, click on **Subscribe** in the top right corner.
+3. Close tab.
+4. Repeat for other lists you want to add to uBO.
 
 ***
 
