@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 30 days (update frequency)
-! Version: 16 September 2023
+! Version: 1 October 2023
 ! Syntax: AdBlock
 
 ! Google Search
@@ -110,6 +110,9 @@ m.youtube.com##ytm-video-description-music-section-renderer
 
 ! Disable ambient mode
 www.youtube.com###cinematics.ytd-watch-flexy:remove()
+
+! Hide next video video, which may accidentally be clicked since it's near the Play button
+www.youtube.com##.ytp-button.ytp-next-button
 
 ! Hide the channel description box under videos and shorts 
 !www.youtube.com###clarify-box
