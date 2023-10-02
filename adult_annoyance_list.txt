@@ -93,7 +93,6 @@ gaydudesfucking.com##.playerban, .side-banner
 gayfuckporn.com##.clearfix.b-videos
 gaygo.tv##.chat-bar, .flirt-block
 gaygo.tv##.thumbs-container.list-view, #relatedBlock, div > .replaceBlock
-gaymenring.com##.b-randoms-col
 gaymenring.com##.b-thumb-col
 gaymenring.com##.js-recommended-wrapper.b-related
 gaysearch.com###commentView, .footer, .more-videos
