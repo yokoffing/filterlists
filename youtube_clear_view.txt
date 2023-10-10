@@ -2,8 +2,8 @@
 ! Title: 📺 YouTube Clear View
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 30 days (update frequency)
-! Version: 4 October 2023
+! Expires: 21 days (update frequency)
+! Version: 10 October 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -64,34 +64,6 @@ youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 !#if env_chromium
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 !#endif
-
-! Hide Scam Channels
-! https://letsblock.it/filters/youtube-channel
-! Elon Musk
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk"])
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Zone"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Zone"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Zone"])
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Now"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Now"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Now"])
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Elon Musk Live"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Elon Musk Live"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Elon Musk Live"])
-! Tesla
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Tesla Inc."])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Tesla Inc."])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Tesla Inc."])
-! Kitco NEWS
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="Kitco NEWS"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="Kitco NEWS"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="Kitco NEWS"])
-! PlayMe
-www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer:has(a[href$="PlayMe"])
-www.youtube.com##ytd-search ytd-video-renderer:has(a[href$="PlayMe"])
-www.youtube.com##ytd-search ytd-channel-renderer:has(a[href$="PlayMe"])
 
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
