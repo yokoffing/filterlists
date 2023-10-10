@@ -53,7 +53,7 @@
 ## Privacy
 
 
-1) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists#personal) (48k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt&title=Hagezi%20Personal%20DNS%20Blocklist)
+1) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/personal.txt) (48k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt&title=Hagezi%20Personal%20DNS%20Blocklist)
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
 2) :star: [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
