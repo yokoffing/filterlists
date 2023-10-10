@@ -62,14 +62,14 @@
 3) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
 <br> A curated list for advanced hardening. Includes my [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filterlist<sup>*[^what is this?](https://nitter.cz/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list breaks third-party logins! :warning:
 
-4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended) (17k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt&title=Privacy%20Extended)
+4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended/blob/main/privacy_extended.txt) (17k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt&title=Privacy%20Extended)
 <br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between the two. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
 ### URL Tracking Parameters
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. If you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 
-1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=URL%20Shortener%20Tool)
+1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=URL%20Shortener%20Tool)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
@@ -94,7 +94,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ### Paywalls
 :warning: To bypass paywalls effectively, you should use the **Bypass Paywalls Clean** extenstion for [Chrome](https://gitlab.com/magnolia1234/bypass-paywalls-chrome-clean) or [Firefox](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean). These lists are [limited](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters#bypass-paywalls-clean-filters) in what they can do and are therefore **optional**:
 
-1) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean)
+1) **[Bypass Paywalls Clean filter](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/blob/main/bpc-paywall-filter.txt)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean)
 <br> The Bypass Paywalls Clean (BPC) filter is from the same [developer](https://gitlab.com/magnolia1234) as the [add-on](https://addons.mozilla.org/en-US/firefox/addon/bypass-paywalls-clean/) implementation. You do not need this filterlist if you use the extension.
  
 2) **[Anti-paywall filters](https://github.com/liamengland1/miscfilters/blob/master/antipaywall.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/liamengland1/miscfilters/master/antipaywall.txt&title=Anti-paywall%20filters)
@@ -104,18 +104,18 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 High-risk sites can expose your device to threats. These lists can prevent that by warning you before navigation or limiting what you can access.
 
-1) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists#most-abused-tlds---protects-against-known-malicious-top-level-domains-) (213 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
+1) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) (213 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
 <br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own [Enhanced website protection](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt) list, Dandelion Sprout's `Anti-Malware List`, LennyFox's `Block non-Latin TLDs` [list](https://github.com/LennyFox/Blocklists/blob/master/Block_non_latin_TLDs.txt), and [Spamhaus](https://www.spamhaus.org/statistics/tlds/) statistics.
 
 2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (88k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout%20Anti-Malware&20List)
 <br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows [PUP](https://en.wikipedia.org/wiki/Potentially_unwanted_program) ads. It has many other subcategories that distinguish it from similar lists.
 
-3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001#filters-in-this-repo)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
+3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
 
 ## All-Purpose
 
-1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo) (81k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
+1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo/blob/main/list.txt) (81k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
 <br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists) This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
 
 ***
