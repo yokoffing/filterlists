@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ✋ Antipaywall filters (without element hiding)
 ! Description: Curated list of antipaywall requests
-! Updated: 8 June 2023
+! Updated: 10 October 2023
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -22,7 +22,7 @@
 ||smartlock.google.com^
 /amp-access-$script
 ||tinypass.com^$third-party
-@@||experience.tinypass.com/xbuilder/$script,3p
+! @@||experience.tinypass.com/xbuilder/$script,3p
 ||mediapass.com^$third-party
 ||scroll.com^$third-party
 ||wallkit.net^$third-party
