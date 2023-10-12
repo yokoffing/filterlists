@@ -232,12 +232,12 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 
 | **Setting**                   | **Value** | **Description**                                                                      |
 |-------------------------------|-----------|--------------------------------------------------------------------------------------|
-| `autoUpdateAssetFetchPeriod`    | `10`        | auto-updater waits `x` seconds before fetching the next filterlist                      |
-| `autoUpdateDelayAfterLaunch`    | `5`         | update out-of-date filter lists `x` seconds after browser startup                       |
+| `autoUpdateAssetFetchPeriod`    | `10`        | auto-updater waits `x` seconds before fetching the next filterlist                                   |
+| `autoUpdateDelayAfterLaunch`    | `5`         | update out-of-date filter lists `x` seconds after browser startup                                    |
 | `autoUpdatePeriod`              | `1`         | uBO checks for [filter lists updates](https://www.reddit.com/r/uBlockOrigin/comments/174o7b6/comment/k4fpi4o/?context=3) every `x` hours  |
-| `cnameMaxTTL`                   | `720`       | cache CNAME alias for `x` minutes                                                       |
-| `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)    |
-| `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a filter list more often than every hour            |
+| `cnameMaxTTL`                   | `720`       | cache CNAME aliases for `x` minutes                                                                  |
+| `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)    |
+| `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a filter list more often than every hour                         |
 
 ***
 
