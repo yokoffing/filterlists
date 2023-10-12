@@ -228,18 +228,16 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 
 ![advanced user](https://github.com/yokoffing/filterlists/assets/11689349/80c650dc-3f4f-4291-ab5f-53db3c42b7fc)
 
-:stop_sign: Do not blindly change these values. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
+:warning: Do not change these values blindly. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
 
 | **Setting**                   | **Value** | **Description**                                                                      |
 |-------------------------------|-----------|--------------------------------------------------------------------------------------|
-| `autoUpdateAssetFetchPeriod`    | `5`         | auto-updater waits 5 seconds before fetching the next asset                          |
-| `autoUpdateDelayAfterLaunch`    | `10`        | update out-of-date assets 10 seconds after browser startup                           |
-| `autoUpdatePeriod`              | `1`         | uBO checks for asset updates every hour                                              |
-| `cnameMaxTTL`                   | `1080`      | cache CNAME alias for 18 hours                                                       |
-| `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering) |
-| `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a resource more often than every hour            |
-
-<sub>^*For older PCs: The first two values may be too aggressive.*</sub>
+| `autoUpdateAssetFetchPeriod`    | `10`        | auto-updater waits `x` seconds before fetching the next filterlist                      |
+| `autoUpdateDelayAfterLaunch`    | `5`         | update out-of-date filter lists `x` seconds after browser startup                       |
+| `autoUpdatePeriod`              | `1`         | uBO checks for [filter lists updates](https://www.reddit.com/r/uBlockOrigin/comments/174o7b6/comment/k4fpi4o/?context=3) every `x` hours  |
+| `cnameMaxTTL`                   | `720`       | cache CNAME alias for `x` minutes                                                       |
+| `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering)    |
+| `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a filter list more often than every hour            |
 
 ***
 
