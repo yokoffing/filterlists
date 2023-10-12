@@ -15,7 +15,7 @@
 
 # Recommended Filters for uBlock Origin
 
-![ublock-defaults-22-aug](https://github.com/yokoffing/filterlists/assets/11689349/c3928d3f-5442-444b-92f8-ac82146d3ed7)
+![ubo_lists_Oct_2023](https://github.com/yokoffing/filterlists/assets/11689349/62809606-61e1-48b7-a697-58eb6e397af2)
 
 ***
 
