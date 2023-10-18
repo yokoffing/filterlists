@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 October 2023
+! Version: 18 October 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -481,7 +481,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||preorder-now.herokuapp.com^$3p
 ||razorpay.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
-||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
