@@ -107,3 +107,9 @@ www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
 ! Hide Verified checkmark
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+
+! Hide vertical scrollbar. This is only shown on Firefox (version 86 and above)
+! YouTube automatically resets `--ytd-app-fullerscreen-scrollbar-width` to `0px` when entering fullscreen, so the `:watch-attr(style)` operator is necessary.
+!#if env_firefox
+www.youtube.com##ytd-app:watch-attr(style):style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
+!#endif
