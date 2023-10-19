@@ -53,8 +53,8 @@ www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:co
 ! www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
 
 ! Hide View count on Home, Subscriptions, etc.
-www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
 www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(1)
+www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(2)::before
 
 ! Hide upload time (+ view count) under video player
 ! www.youtube.com###metadata-line
