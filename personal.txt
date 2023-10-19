@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023b
+! Version: 19 October 2023c
 ! Syntax: AdBlock
 
 ! EDU
@@ -17,10 +17,6 @@
 ! YOUTUBE
 ! Hide recommendation sidebar
 www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
-
-! Hide autoplay suggestions at the end of the video
-! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
 
 ! Hide already watched YouTube videos (up to 80%)
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-thumbnail-overlay-resume-playback-renderer #progress[style="width: 80%;"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
@@ -64,9 +60,6 @@ www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-
 ! Hide subscriber count near the channel name under the video player
 www.youtube.com###owner-sub-count
 
-! Hide all the videos on the channel page
-! www.youtube.com##ytd-browse.ytd-page-manager.style-scope:nth-of-type(4)
-
 ! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
@@ -88,12 +81,15 @@ www.youtube.com###cinematics.ytd-watch-flexy:remove()
 ! Hide next video video, which may accidentally be clicked since it's near the Play button
 www.youtube.com##.ytp-button.ytp-next-button
 
+! Hide Join button
+www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
+
+! Hide Comment count
+www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
+
 ! Hide the channel description box under videos and shorts 
 !www.youtube.com###clarify-box
 !www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
-
-! Hide Join button
-www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 
 ! Hide all comments below the video
 ! www.youtube.com###comments #contents:remove()
@@ -104,5 +100,9 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 ! Hide view count in the video description
 ! www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
 
-! Hide Comment count
-www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
+! Hide all the videos on the channel page
+! www.youtube.com##ytd-browse.ytd-page-manager.style-scope:nth-of-type(4)
+
+! Hide autoplay suggestions at the end of the video
+! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
