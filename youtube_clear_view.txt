@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023b
+! Version: 19 October 2023c
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -19,18 +19,6 @@ www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button
 www.youtube.com###actions.ytd-watch-metadata ytd-button-renderer .yt-spec-button-shape-next__icon:style(margin-right: -6px !important; margin-left: -6px !important;)
 m.youtube.com##ytm-slim-video-action-bar-renderer button [class*="button-text-content"]:not(:has-text(/\d/))
 m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$="icon"]:style(margin-right: -6px !important; margin-left: -6px !important;)
-
-! Hide next video video, which may accidentally be clicked since it's near the Play button
-! www.youtube.com##.ytp-button.ytp-next-button
-
-! Video annotations; Hide the end screen video that autoplays next
-! Block once for all the scripts responsible for annotations:
-! /annotations_module.js$script,important,domain=youtube.com
-! and/or the end screen / auto play next:
-! /endscreen.js$script,important,domain=youtube.com
-
-! Hide recommendation sidebar
-! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
@@ -66,10 +54,6 @@ youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 !#endif
 
-! Subscriptions tab - Remove all vids shorter than 2 minutes
-! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
-! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
-
 ! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
 ! YouTube automatically resets `--ytd-app-fullerscreen-scrollbar-width` to `0px` when entering fullscreen, so the `:watch-attr(style)` operator is necessary.
 ! https://github.com/yokoffing/filterlists/pull/109
@@ -77,8 +61,26 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 www.youtube.com##ytd-app:watch-attr(style):style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
 !#endif
 
+!!! UNUSED
+
 ! Hide Verified checkmark
 ! https://github.com/yokoffing/filterlists/pull/110
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
 www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
 www.youtube.com##.ytd-comment-renderer #author-comment-badge
+
+! Hide next video video, which may accidentally be clicked since it's near the Play button
+! www.youtube.com##.ytp-button.ytp-next-button
+
+! Video annotations; Hide the end screen video that autoplays next
+! Block once for all the scripts responsible for annotations:
+! /annotations_module.js$script,important,domain=youtube.com
+! and/or the end screen / auto play next:
+! /endscreen.js$script,important,domain=youtube.com
+
+! Hide recommendation sidebar
+! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! Subscriptions tab - Remove all vids shorter than 2 minutes
+! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
+! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
