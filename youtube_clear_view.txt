@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023d
+! Version: 19 October 2023e
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -69,7 +69,10 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
 !!! UNUSED
 
-! Hide next video video, which may accidentally be clicked since it's near the Play button
+! Hide recommendation sidebar
+! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! Hide next video, which may accidentally be clicked since it's near the Play button
 ! www.youtube.com##.ytp-button.ytp-next-button
 
 ! Video annotations; Hide the end screen video that autoplays next
@@ -77,9 +80,6 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 ! /annotations_module.js$script,important,domain=youtube.com
 ! and/or the end screen / auto play next:
 ! /endscreen.js$script,important,domain=youtube.com
-
-! Hide recommendation sidebar
-! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
