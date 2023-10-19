@@ -106,4 +106,5 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
 ! Hide Verified checkmark
-www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
+www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+www.youtube.com##.ytd-comment-renderer #author-comment-badge
