@@ -79,5 +79,5 @@ www.youtube.com##ytd-app:watch-attr(style):style(--ytd-app-fullerscreen-scrollba
 
 ! Hide Verified checkmark
 ! https://github.com/yokoffing/filterlists/pull/110
-www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
-www.youtube.com##.ytd-comment-renderer #author-comment-badge
+! www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+! www.youtube.com##.ytd-comment-renderer #author-comment-badge
