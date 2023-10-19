@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 18 October 2023b
+! Version: 19 October 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -69,3 +69,15 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 ! Subscriptions tab - Remove all vids shorter than 2 minutes
 ! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
 ! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
+
+! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
+! YouTube automatically resets `--ytd-app-fullerscreen-scrollbar-width` to `0px` when entering fullscreen, so the `:watch-attr(style)` operator is necessary.
+! https://github.com/yokoffing/filterlists/pull/109
+!#if env_firefox
+www.youtube.com##ytd-app:watch-attr(style):style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
+!#endif
+
+! Hide Verified checkmark
+! https://github.com/yokoffing/filterlists/pull/110
+www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
+www.youtube.com##.ytd-comment-renderer #author-comment-badge
