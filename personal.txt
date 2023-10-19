@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023
+! Version: 19 October 2023b
 ! Syntax: AdBlock
 
 ! EDU
@@ -106,16 +106,3 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
-
-! Hide Verified checkmark
-! https://github.com/yokoffing/filterlists/pull/110
-www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
-www.youtube.com##.ytd-comment-renderer #author-comment-badge
-! www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-verified.badge
-
-! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
-! YouTube automatically resets `--ytd-app-fullerscreen-scrollbar-width` to `0px` when entering fullscreen, so the `:watch-attr(style)` operator is necessary.
-! https://github.com/yokoffing/filterlists/pull/109
-! !#if env_firefox
-! www.youtube.com##ytd-app:watch-attr(style):style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
-! !#endif
