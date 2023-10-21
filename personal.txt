@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023c
+! Version: 21 October 2023
 ! Syntax: AdBlock
 
 ! EDU
@@ -54,9 +54,6 @@ www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-
 www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(2)::before
 ! www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
 
-! Hide upload time (+ view count) under video player
-! www.youtube.com###metadata-line
-
 ! Hide subscriber count near the channel name under the video player
 www.youtube.com###owner-sub-count
 
@@ -96,6 +93,9 @@ www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
 ! Hide video description
 ! www.youtube.com###description-inline-expander
+
+! Hide upload time (+ view count) under video player
+! www.youtube.com###metadata-line
 
 ! Hide view count in the video description
 ! www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
