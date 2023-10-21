@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 19 October 2023e
+! Version: 21 October 2023
 ! Syntax: AdBlock
 
 ! Hide Like count to match Dislike
@@ -56,6 +56,7 @@ youtube.com##.ytp-quality-menu .ytp-menuitem:has(.ytp-premium-label)
 
 ! Hide horizontal scrollbar. This is only shown on Firefox (version 86 and above)
 ! https://github.com/yokoffing/filterlists/pull/109
+! https://github.com/yokoffing/filterlists/pull/112
 !#if env_firefox
 www.youtube.com##ytd-app:style(--ytd-app-fullerscreen-scrollbar-width: -1px !important;)
 !#endif
