@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 18 October 2023
+! Version: 21 October 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -406,16 +406,13 @@ fmovies.*##+js(nosiif, try)
 @@||ytimg.com^$script
 
 ! FACEBOOK
-! ||connect.facebook.net^$important
+! Logins (maybe more)
 ||connect.facebook.net^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||connect.facebook.com^$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-! ||facebook.com^$3p,domain=~instagram.com|~messenger.com
 ! Facebook Plugins (3rd-party embedded plugins)
 ||facebook.com/plugins/$3p,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-! ||fbcdn.net^
-! ||fbcdn.net^$3p,domain=~facebook.com|~instagram.com|~messenger.com|~workplace.com
-! @@||facebook.^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
-! @@||fbcdn.net^$domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
+! ||fbcdn.net^$3p
+! @@||fbcdn.net^$3p,domain=facebook.com|instagram.com|messenger.com|workplace.com|oculus.com|oculusvr.com|oculusbrand.com|oculusforbusiness.com|onavo.com
 ! @@||fbcdn.net^$image,media
 
 ! INSTAGRAM
@@ -462,7 +459,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||pinterest.com^$3p
 
 ! TWITCH
-||twitch.tv^$domain=~twitch.tv
+||twitch.tv^$3p,domain=~twitch.tv
 
 ! 3rd-party Payment Vendors / "Buy Now, Pay Later":
 ||pay.google.com^$3p
