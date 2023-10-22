@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 21 October 2023b
+! Version: 22 October 2023
 ! Syntax: AdBlock
 
 ! EDU
@@ -81,6 +81,11 @@ www.youtube.com##.ytp-button.ytp-next-button
 
 ! Hide Join button
 www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
+
+! Hide blank subscribe button on Chromium
+!#if env_chromium
+www.youtube.com###subscribe-button-shape
+!#endif
 
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
