@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 24 October 2023
+! Version: 25 October 2023
 ! Syntax: AdBlock
 
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
@@ -944,11 +944,8 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[ari
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
 ! Sidebar - Trending now/Trends for you
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="trending now" i]
-
 ! Sidebar - Who to follow/You might like
-! 24 Oct: this uBO filter breaks Twitter page
-! twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="who to follow" i]:upward(1)
-
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="who to follow" i]:upward(1)
 ! Login popup
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: auto !important;)
