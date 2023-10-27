@@ -66,7 +66,7 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-veri
 www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
 www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
-! https://github.com/yokoffing/filterlists/pull/112
+! https://github.com/yokoffing/filterlists/pull/113
 ! Prevent stats from live-updating
 ||youtube.com/youtubei/v1/updated_metadata
 
