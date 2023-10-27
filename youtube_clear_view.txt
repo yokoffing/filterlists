@@ -66,8 +66,8 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-veri
 www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
 www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
-! https://github.com/yokoffing/filterlists/pull/113
 ! Prevent stats from live-updating
+! https://github.com/yokoffing/filterlists/pull/113
 ||youtube.com/youtubei/v1/updated_metadata
 
 !!! UNUSED
@@ -75,15 +75,9 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 ! Hide recommendation sidebar
 ! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
 
-! Hide next video, which may accidentally be clicked since it's near the Play button
-! www.youtube.com##.ytp-button.ytp-next-button
-
-! Video annotations; Hide the end screen video that autoplays next
+! Hide video annotations
 ! Block once for all the scripts responsible for annotations:
 ! /annotations_module.js$script,important,domain=youtube.com
-! and/or the end screen / auto play next:
-! /endscreen.js$script,important,domain=youtube.com
 
-! Subscriptions tab - Remove all vids shorter than 2 minutes
-! https://www.reddit.com/r/uBlockOrigin/comments/nz3hui/comment/h1tt25l/
-! [ALTERNATIVE] use "Enhancer for YouTube" to Convert Shorts
+! Hide the end screen video that autoplays next video
+! /endscreen.js$script,important,domain=youtube.com
