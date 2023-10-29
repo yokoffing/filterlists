@@ -66,6 +66,10 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-veri
 www.youtube.com##.ytd-comment-renderer #author-text:remove-attr(hidden)
 www.youtube.com##.ytd-comment-renderer #author-comment-badge
 
+! Hide badges (such as "New") under video recommendations on the sidebar
+! https://github.com/yokoffing/filterlists/pull/114
+www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+
 ! Prevent stats from live-updating
 ! https://github.com/yokoffing/filterlists/pull/113
 ||youtube.com/youtubei/v1/updated_metadata
