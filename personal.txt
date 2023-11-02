@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 27 October 2023
+! Version: 2 November 2023
 ! Syntax: AdBlock
 
 ! EDU
@@ -85,10 +85,6 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
-! Hide Like and Dislike
-! www.youtube.com##ytd-segmented-like-dislike-button-renderer.ytd-menu-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope
-www.youtube.com##__slot-el > .ytd-segmented-like-dislike-button-renderer.style-scope
-
 ! UNUSED
 
 ! Hide the channel description box under videos and shorts 
@@ -113,3 +109,7 @@ www.youtube.com##__slot-el > .ytd-segmented-like-dislike-button-renderer.style-s
 ! Hide autoplay suggestions at the end of the video
 ! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
+
+! Hide Like and Dislike
+! www.youtube.com##ytd-segmented-like-dislike-button-renderer.ytd-menu-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope
+! www.youtube.com##__slot-el > .ytd-segmented-like-dislike-button-renderer.style-scope
