@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 2 October 2023
+! Updated: 3 November 2023
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
@@ -25,6 +25,7 @@
 ||yoxepo.uno^
 ||faxifa.xyz^
 ||nutaku.com^
+||xhamsterlive.com$subdocument
 
 ! Generic cosmetic filters
 ##.b-thumb-col
@@ -44,14 +45,22 @@
 ##.livecams
 ###list_videos_related_videos
 ##.related-content
+! Easylist rule causes video player to be too large
+manporn.xxx#@#.adv-sidebar
 
 ! Cosmetic filters
+youporn.com##.buttonsList.pornstarRow
+xhamster.com##.horizontal.as-width-wrap.no-update.yld-pccams-wgt
+deegx.com##.related-sec
+pornhub.com##.underplayer-thumbs
+aebn.com##.dts-clip-boxcover-cta-container
+xhamster.com##.yld-pccams-wgt
+boyfriendtv.com##.amateurs-block, .tab-videos-commented.adblock
 fetishshrine.com##.related-aside
 drtuber.com##.aside_panel_video, .inner_recent.recent_box
 boyfriendtv.com##.news-line-item
 pornone.com##div.w-full.grid-full-col:nth-of-type(2)
 4wank.com##.xpot-horizontal, #list_videos_related_videos
-
 2bgay.com##.ribbonban
 homo.xxx##.btn-dvd.btn
 me-gay.com##.random-td
