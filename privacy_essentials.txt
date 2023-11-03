@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 1 day (update frequency)
-! Version: 23 October 2023
+! Version: 3 November 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -320,6 +320,9 @@ $ping
 ||yandex.ru^$3p,domain=~dzen.ru
 ||yottaa.com^$3p
 ||yottlyscript.com^$3p
+||slickstream.com^$3p,domain=~slickstream.com
+||sitescdn.net^$3p
+||addsearch.com^$3p
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
