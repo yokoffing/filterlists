@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 November 2023
+! Version: 3 November 2023b
 ! Syntax: AdBlock
 
 whatsoftware.com##.commentlist, .comment-respond, .yarpp-related-website.yarpp-related.yarpp
@@ -688,6 +688,8 @@ kellegram.xyz##.socials
 ||redvideo.io^$domain=~redvideo.io
 !||cnevids.com^$3p,domain=~gq.com
 ||kaltura.com^$3p,domain=~financialaidtv.com
+! https://github.com/yokoffing/filterlists/issues/117
+@@||cdnapi-legacy.kaltura.com^$xhr,domain=yle.fi
 ! https://www.appdate.lk/technology/2023-browser-showdown/
 ||beyondwords.io^
 ||code.responsivevoice.org^
