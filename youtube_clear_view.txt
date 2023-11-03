@@ -22,6 +22,9 @@ m.youtube.com##ytm-slim-video-action-bar-renderer ytm-button-renderer div[class$
 ! Hide chat window when viewing streams
 www.youtube.com###chat:remove()
 
+! Hide "Shorts remixing this video" shelf in the description
+www.youtube.com##ytd-reel-shelf-renderer
+
 ! Don't enter / exit fullscreen on double-click 
 www.youtube.com##+js(aeld, dblclick)
 
