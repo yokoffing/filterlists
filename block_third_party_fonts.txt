@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 November 2023b
+! Version: 3 November 2023c
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -11,10 +11,10 @@
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 ! @@||cloudfront.net^$font,domain=noip.com|phabricator.services.mozilla.com|securelist.com|status.proton.me
 @@||fast.fonts.net/jsapi/$script
-! @@||fonts.googleapis.com^$domain=bard.google.com|blog.google|blogger.com|chromium.org|contacts.google.com|developers.google.com|docs.google.com|earth.google.com|fonts.google.com|gaggle.fun|googlesource.com|grow.google|news.google.com|reedsy.com|reliaslearning.com|safebrowsing.google.com|socialworkers.org|toolbox.googleapps.com|trends.google.com|vocabulary.com|web.dev|youtube.com
 @@||fonts.googleapis.com^$domain=google.com|blog.google|blogger.com|chromium.org|gaggle.fun|googlesource.com|grow.google|reedsy.com|reliaslearning.com|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
-! Using google.com for the below rule seems to allow fonts.gstatic.com on all websites
-@@||fonts.gstatic.com^$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|chrome.com|chromium.org|dexscreener.com|domains.google|googlesource.com|grow.google|material.io|policies.google.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|web.dev|youtube.com
+! Using `google.com` for the below rule seems to allow fonts.gstatic.com on all websites
+@@||fonts.gstatic.com^$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|chrome.com|chromium.org|dexscreener.com|domains.google|googlesource.com|fonts.google.com|grow.google|material.io|policies.google.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|web.dev|youtube.com
+@@||fonts.gstatic.com^$domain=fonts.google.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
 @@||typekit.com^$font
