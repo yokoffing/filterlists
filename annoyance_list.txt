@@ -3,9 +3,36 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 25 October 2023
+! Version: 3 November 2023
 ! Syntax: AdBlock
 
+whatsoftware.com##.commentlist, .comment-respond, .yarpp-related-website.yarpp-related.yarpp
+vocabulary.com##.vocab-trainer-background
+washingtonpost.com##.hide-for-print
+returnbyte.com##.clearfix.sidebar.widget-area, .post-navigation, .featured-related-posts, .widget-title, .comments-area
+wired.com##.callout--has-top-border
+whonix.org###fly-in-notification-panel
+emojipedia.org##.mt-6.gap-6.flex-col.flex
+pcwrt.com##[href="https://shop.pcwrt.com/"]
+portswigger.net##.sidebar-content, .footer
+robokiller.com##.blog-cta-1, .blog-cta-2, .w-richtext-align-fullwidth.w-richtext-figure-type-image
+skyscanner.com##.UnpricedBrandInline_link__YmFhN > .BpkTicket_bpk-ticket__NzNiO, .PriceAlertsBanner_banner__M2E0M.BpkCard_bpk-card--padded__OTI5O.BpkCard_bpk-card--atomic-button__YWFjM.BpkCard_bpk-card__NTJiY, .InlineHotelsBanner_inlineHotelsBannerContainer__Nzc5Z
+jetblue.com##.jtpcars-list
+tmz.com##.media-list, .sidebar, .js-track-link.image-block__link.media-link
+pressplay.top##.btn-block
+apnews.com##.Enhancement
+adweek.com##.widget-popular, .section--teaser_partners--horizontal.section--teaser_partners.section--teaser.section
+jamiesawyer336.com##.social-links, .subscribe-form
+pureinfotech.com##.top-share-buttons
+techtarget.com##.cluster-branding-container, .cluster-download, .cluster-callout-right, .show.download-button, .desktop-resources-bar.resources-bar
+tomsguide.com##.hawk-main-editorial-container
+forbes.com##.link-embed.color-body-border.color-body.embed-base
+citationmachine.net###--ucf-upload-widget-modal-container
+grammarist.com##.inside-right-sidebar, div.wp-block-column-is-layout-flow.is-layout-flow.wp-block-column
+tomshardware.com##.hawk-main-editorial-container
+macrumors.com##.noskim
+infoworld.com##h4, .end-note
+techreviewteam.com##.wp-widget-group__inner-blocks
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp
 innotechtoday.com##.elementor-element-aff5945.elementor-element.elementor-top-column.elementor-col-100.elementor-column.has_eae_slider > .elementor-element-populated.elementor-widget-wrap, .sticky-column, .elementor-widget-heading.elementor-widget.elementor-element-e95e952.elementor-element > .elementor-widget-container
 androidauthority.com##.-___sc
