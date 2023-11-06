@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 November 2023
+! Version: 6 November 2023
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -67,6 +67,11 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 ! Hide badges (such as "New") under video recommendations on the sidebar
 ! https://github.com/yokoffing/filterlists/pull/114
 www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
+
+! Hide "smartimation" animations
+! Hide the rainbow-colored border animation around the subscribe button
+! https://github.com/yokoffing/filterlists/pull/117
+www.youtube.com##yt-smartimation > *:not(.smartimation__content)
 
 ! Prevent stats from live-updating
 ! https://github.com/yokoffing/filterlists/pull/113
