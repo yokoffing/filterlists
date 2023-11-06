@@ -68,7 +68,8 @@ www.youtube.com##.ytd-comment-renderer #author-comment-badge
 ! https://github.com/yokoffing/filterlists/pull/114
 www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
 
-! Hide "smartimation" animations. Example: https://www.reddit.com/r/youtube/comments/15ri8fp/the_subscribe_button_now_plays_an_animation_when/
+! Hide "smartimation" animations
+! Hide the rainbow-colored border animation around the subscribe button
 ! https://github.com/yokoffing/filterlists/pull/117
 www.youtube.com##yt-smartimation > *:not(.smartimation__content)
 
