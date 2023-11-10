@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 November 2023
+! Version: 10 November 2023b
 ! Syntax: AdBlock
 
 whatsoftware.com##.commentlist, .comment-respond, .yarpp-related-website.yarpp-related.yarpp
@@ -956,11 +956,12 @@ youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, fals
 youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
 
 ! TWITTER
-! [Oct 2022] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
+! [Nov 2023] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
 ! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
 ! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="’s Tweets"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="’s posts"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+
 ! [User] follows
 twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
 ! Follow/Recommended Topic | "[Name of Topic] See more"
