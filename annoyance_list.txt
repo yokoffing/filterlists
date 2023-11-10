@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 November 2023b
+! Version: 10 November 2023
 ! Syntax: AdBlock
 
 whatsoftware.com##.commentlist, .comment-respond, .yarpp-related-website.yarpp-related.yarpp
@@ -537,7 +537,6 @@ theguardian.com###e4675c50-1165-4a45-b442-b960d1590dd7, most-viewed-right, .dcr-
 thehackernews.com##.right-box, .cf.below-post-box, .sharebelow-comment > .show-comments, .note-b
 thehill.com##.sidebar.column.region-sidebar-second.region, .es_recommended_content.incontent_widgets
 thehill.com##.thehill-promo-link
-theintercept.com###3p--homepage-banner, .Cta-content
 thelineofbestfit.com##.related-section > .gutter-wrapper, .reviews-section > .layout-wrap, .feature-signup, .signup-sidebar.sidebar-section
 them.us##.callout--has-top-border
 themarkup.org##.article-card--right.article-card--has-image.article-card, .article-footer-titles, .print-hidden.article-footer__latest
