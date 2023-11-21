@@ -2,8 +2,8 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 1 day (update frequency)
-! Version: 3 November 2023
+! Expires: 4 day (update frequency)
+! Version: 21 November 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -327,6 +327,8 @@ $ping
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
 ! ||tags.tiqcdn.com^
+||paykickstart.com^$3p
+||pressplay.io^$3p
 
 ! GENERAL ALLOWLIST
 ! https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
