@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 21 November 2023b
+! Version: 22 November 2023
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -135,7 +135,6 @@ $ping
 ||getmulberry.com^$3p
 ||getsentry.com^$3p
 ||getsitecontrol.com^$3p
-||gigya.com^$3p
 ||gleamjs.io^
 ||gravatar.com^$important
 ||gravity-software.com^$3p
