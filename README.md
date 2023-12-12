@@ -56,14 +56,11 @@
 1) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/personal.txt) (48k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt&title=Hagezi%20Personal%20DNS%20Blocklist)
 <br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
-2) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
+2) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
 <br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://nitter.cz/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list may break third-party logins!
 
 3) :star: [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
 <br> (**optional:** included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://nitter.cz/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
-
-4) [**Privacy Extended**](https://github.com/stephenhawk8054/PrivacyExtended/blob/main/privacy_extended.txt) (17k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/stephenhawk8054/PrivacyExtended/main/privacy_extended.txt&title=Privacy%20Extended)
-<br> As a fork of [AdGuard Tracking Protection](https://filters.adtidy.org/extension/ublock/filters/3.txt), this list eliminates extra allowlisting caused by different [methods](https://github.com/easylist/easylist/issues/15018) between uBO and AdGuard, and resolves issues faster if the problems are [inconsistent](https://github.com/AdguardTeam/AdguardFilters/issues/139081) between the two. Privacy Extended also removes redundant filters found in [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt).
 
 ### URL Tracking Parameters
 
@@ -193,11 +190,11 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 
 ## Optimized Lists
 
+:warning: These lists sacrifice comprehensiveness for speed and efficiency, so expect occasional gaps in coverage over the regular versions. Just something to keep in mind if you run into less blocking than anticipated; it's worth remembering for when you're trying to debug a site.
+
 uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use some alternative lists that have fewer rules than the built-in ones if you want to save CPU and memory on your device.
 
 [AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
-
-:warning: By the very nature of these filterlists, they may not block 100% of what their original format blocks. This is obvious, but it's worth remembering for when you're trying to debug lack of coverage.
 
 *The rule counts shown below are when compared to their original list in uBO.*
 
