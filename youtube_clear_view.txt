@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 November 2023
+! Version: 18 December 2023
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
