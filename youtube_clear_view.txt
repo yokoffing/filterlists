@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 November 2023
+! Version: 18 December 2023
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -76,12 +76,6 @@ www.youtube.com##yt-smartimation > *:not(.smartimation__content)
 ! Prevent stats from live-updating
 ! https://github.com/yokoffing/filterlists/pull/113
 ||youtube.com/youtubei/v1/updated_metadata
-
-! YouTube delay on Firefox
-! https://www.ghacks.net/2023/11/20/youtube-video-loading-delayed-fix-inside/
-!#if env_firefox
-www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
-!#endif
 
 !!! UNUSED
 
