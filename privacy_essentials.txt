@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 22 November 2023
+! Version: 2 January 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -371,7 +371,7 @@ fmovies.*##+js(nosiif, try)
 ||firebaseinstallations.googleapis.com^
 ||google-analytics.com^$3p,important
 ||google.com/cse/cse.js^
-||google.com^$3p,domain=~blackdog.ie|~cbsnews.com|~chromium.org|~developer.android.com|~flippity.net|~gstatic.com|~gptgo.ai|~nest.com|~translate.google.com|~youtube-nocookie.com|~youtube.com|~youtube.googleapis.com
+||google.com^$3p,domain=~abc.xyz|~blackdog.ie|~cbsnews.com|~chromium.org|~developer.android.com|~flippity.net|~gstatic.com|~gptgo.ai|~nest.com|~translate.google.com|~youtube-nocookie.com|~youtube.com|~youtube.googleapis.com
 ||googleadservices.com^$3p,important
 ||googlesyndication.com^$important
 ||googletagmanager.com^$important
