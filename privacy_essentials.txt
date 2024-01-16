@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 2 January 2024
+! Version: 15 January 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -328,6 +328,12 @@ fmovies.*##+js(nosiif, try)
 ! ||tags.tiqcdn.com^
 ||paykickstart.com^$3p
 ||pressplay.io^$3p
+||convertkit.com^$3p
+||grow.me^$3p
+||getgobot.com^$3p
+||twitcount.com^$3p
+||launchpotato.com^$3p
+||doctify.com^$3p
 
 ! GENERAL ALLOWLIST
 ! https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
