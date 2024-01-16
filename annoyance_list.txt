@@ -3,9 +3,12 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 January 2024
+! Version: 15 January 2024b
 ! Syntax: AdBlock
 
+tcgplayer.com##.promo-banner.delay-wrapper
+ign.com##.article-page > section.jsx-537794787
+spirehealthcare.com##.call-to-action--floatingButton
 blocknews.com##.theiaStickySidebar, .jnews_related_post_container
 whatsoftware.com##.commentlist, .comment-respond, .yarpp-related-website.yarpp-related.yarpp
 vocabulary.com##.vocab-trainer-background
@@ -66,7 +69,7 @@ howtogeek.com##.related-single, .sidebar-tabs, .sidebar-sticky, .article-footer-
 realnewsmichiana.com##.td_spot_img_all, .wpb_column.tdi_31.vc_column > .wpb_wrapper, .td-more-articles-box, .tdb-single-related-posts
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
-9to5google.com,9to5mac.com,9to5toys.com##.featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter, .post-content.med.container > ul, .post-body > ul, .xs.container.sidebar
+9to5google.com,9to5mac.com,9to5toys.com##.top-comment, .featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter, .post-content.med.container > ul, .post-body > ul, .xs.container.sidebar
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 abc7.com##.inner.headlines-list.top-stories
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
@@ -784,6 +787,7 @@ delish.com##.video-player, .journey-unblur-content
 ||images.cointelegraph.com/images/*_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy9hNGFkNDk1ZmMwNGJkOTdmNzE2NDlhNDhkNjAwM2QwMC5wbmc=.png$image
 
 ! Chat modules
+||apexchat.net^$3p
 ||crisp.chat^$3p
 ||eesysoft.com^$3p
 ||forum.kirupa.com/embed/comments$subdocument
