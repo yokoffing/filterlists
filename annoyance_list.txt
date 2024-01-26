@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 January 2024b
+! Version: 26 January 2024b
 ! Syntax: AdBlock
 
 tcgplayer.com##.promo-banner.delay-wrapper
@@ -789,6 +789,9 @@ delish.com##.video-player, .journey-unblur-content
 ! Chat modules
 ||apexchat.net^$3p
 ||crisp.chat^$3p
+||customerly.io^$3p
+! ||chat.customerly.io^$3p
+! ||messenger.customerly.io^$3p
 ||eesysoft.com^$3p
 ||forum.kirupa.com/embed/comments$subdocument
 ||livechatinc.com^$3p
