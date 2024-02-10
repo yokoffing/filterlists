@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 26 January 2024b
+! Version: 10 February 2024
 ! Syntax: AdBlock
 
 tcgplayer.com##.promo-banner.delay-wrapper
@@ -1026,6 +1026,12 @@ fandom.com##.wds-global-footer__main
 ! "To our Readers" note
 ! https://www.reddit.com/r/uBlockOrigin/comments/wpwuqu/how_can_i_hide_this_on_nyt_page/
 nytimes.com##.css-brw7hw, div[aria-labelledby="editorial-sub-messaging-header"]
+
+!!! WCO Fun streaming
+wcofun.net##.share-button
+wcofun.net##.jcarousel-wrapper
+wcofun.net##.episode-descp
+||www.wcostream.org/$image
 
 ! cig sites
 ##.col.cmp-footer__warnings
