@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 20 February 2024
+! Version: 27 February 2024
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
@@ -1047,6 +1047,11 @@ unsplash.com##img[src^="https://plus.unsplash.com/"]:upward(figure)
 ! Junk university sites
 ||takemyproctoringexam.com^
 ||onlineclasshero.com^
+
+! Mangapill
+! closed without explaination:
+! https://github.com/easylist/easylist/issues/16124
+mangapill.com##.mb-3.container > .justify-between.items-center.flex, div.container > .justify-between.items-center.flex
 
 ! from https://github.com/Yuki2718/adblock2/blob/main/japanese/jpfp-ub.txt
 /^https:\/\/[a-z]{10,14}\.cam\/[%\*=\?_0-9a-zA-Z]{1000,}$/$xhr,3p
