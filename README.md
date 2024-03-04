@@ -156,10 +156,11 @@ In addition to the default lists, you should also enable:
 
 #### Built-in lists
 In addition to the default lists, you should also enable:
-1. Block Outsider Instrusion into LAN
-2. AdGuard – Popup Overlays (newsletter pop-ups)
-3. EasyList - Annoyances (all lists)
-4. uBlock filters - Annoyances
+1. AdGuard Tracking Protection (which is [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt))
+2. Block Outsider Instrusion into LAN
+3. AdGuard – Popup Overlays (newsletter pop-ups)
+4. EasyList - Annoyances (all lists)
+5. uBlock filters - Annoyances
 
 #### Custom lists
 1. Privacy Essentials
