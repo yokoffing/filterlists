@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 27 February 2024
+! Version: 10 March 2024
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
@@ -122,7 +122,6 @@ bestbuy.com##.shopping-assistant-accordion.c-accordion
 biblegateway.com##.sys-announce-content, .flex-1.resources
 bigtechbank.com###sidebar > .LinkList.widget, .PopularPosts.widget, .post-footer, .comments-system-blogger.litespot-pro-blog-post-comments
 billboard.com##.trending-stories-widget, .injected-related-story
-bing.com##.rebateGlobalDecoration, .secure_icon
 biography.com##.l-person--header.m-person--header.l-wrap > .m-person--social-links.m-social, .mm-component-stack--is-body-item.h-isolated-styles.m-detail--in-content-recommendation.m-in-content-recommendation, .l-person--social.m-person--social
 bitcoinist.com##div.related-reading-shortcode > strong, div.related-reading-shortcode:nth-of-type(2), div.related-reading-shortcode:nth-of-type(5)
 bitcoinist.com##em > strong
@@ -1008,6 +1007,51 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 ! Promoted (Nov 2022)
 ! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
+
+! BING
+! Hide rebate
+bing.com##.rebateGlobalDecoration
+!bing.com##.secure_icon
+
+! Credit: https://github.com/letsblockit/letsblockit/issues/642
+
+! Hide Copilot in the menu
+! Copilot icon next to the search box
+bing.com##.b_phead_chat_link
+! "Chat" label in the menu
+bing.com###b-scopeListItem-conv
+
+! Hide Copilot in the search box and page numbers
+! Search box copilot
+bing.com##.bordertop
+! Page numbers copilot
+bing.com##.b_pag_lets_chat
+
+! Hide related and recommended content
+! Most of "explore", "people also", "related search" sections and side panel
+bing.com###b_context
+bing.com###b_pole
+bing.com##.b_ans
+! Recommended section in the search box. Requires style fix to prevent expanding of the search box
+bing.com##.rs_drw
+bing.com###sa_requery
+! Related to recent searches in the search box
+bing.com###sa_zis_SSE
+! "Explore further" section
+bing.com##.scs_child_rpr
+! "Tags"
+bing.com##.batg
+! Side links widget
+bing.com###wikiWidgetContainer
+
+! Hide Jump to search icon
+bing.com###mfa_root
+
+! Hide quick highlight icons
+bing.com##.scs_icn
+
+! Hide "Rewards" alert
+bing.com###id_mobbubpos
 
 ! Linkedin
 ! Suggested Posts
