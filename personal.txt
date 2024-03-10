@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 10 March 2024b
+! Version: 10 March 2024c
 ! Syntax: AdBlock
 
 ! EDU
@@ -13,6 +13,10 @@
 !||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
 !||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
 /PaypalExpressCheckout
+
+! X (FORMERLY TWITTER)
+||t.co$domain=~twitter.com
+@@||t.co$doc
 
 ! YOUTUBE
 ! Hide recommendation sidebar
