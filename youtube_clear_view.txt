@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 18 December 2023
+! Version: 10 March 2024
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -77,14 +77,15 @@ www.youtube.com##yt-smartimation > *:not(.smartimation__content)
 ! https://github.com/yokoffing/filterlists/pull/113
 ||youtube.com/youtubei/v1/updated_metadata
 
-!!! UNUSED
+! Hide the hashtags above the video title 
+www.youtube.com###description #info a[href^="/hashtag/"]
+www.youtube.com###super-title
+www.youtube.com##.super-title
+m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
+m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
 
-! Hide recommendation sidebar
-! www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+! Hide the copyright notice in the video description 
+www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
+m.youtube.com##ytm-video-description-music-section-renderer
 
-! Hide video annotations
-! Block once for all the scripts responsible for annotations:
-! /annotations_module.js$script,important,domain=youtube.com
 
-! Hide the end screen video that autoplays next video
-! /endscreen.js$script,important,domain=youtube.com
