@@ -53,8 +53,8 @@
 ## Privacy
 
 
-1) :star: [**Hagezi's Personal DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/personal.txt) (48k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt&title=Hagezi%20Personal%20DNS%20Blocklist)
-<br> Hagezi's manually maintained blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from his DNS wildcard rules. This is the core of Hagezi’s five primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
+1) :star: [**Hagezi's Light DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/light.txt) (68k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt&title=Hagezi%20Light%20DNS%20Blocklist)
+<br> Hagezi's blocklist includes ad and tracker domains seen on the top website lists (Umbrella/Tranco/Statvoo) and extracted domains from DNS wildcard rules. This is the core of Hagezi’s other primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking. However, if you want, you can still use the [Pro version](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) in uBO.
 
 2) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
 <br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://nitter.cz/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list may break third-party logins!
@@ -138,7 +138,7 @@ In addition to the default lists, you should also enable:
 4. uBlock filters - Annoyances (anti-adblock messages)
 
 #### Custom lists
-1. Hagezi's Personal DNS Blocklist
+1. Hagezi's Light DNS Blocklist
 2. yokoffing's click2load filters
 3. Actually Legitimate URL Shortener Tool
 4. The [Security lists](https://github.com/yokoffing/filterlists#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
