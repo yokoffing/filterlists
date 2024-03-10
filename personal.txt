@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 10 March 2024
+! Version: 10 March 2024b
 ! Syntax: AdBlock
 
 ! EDU
@@ -25,6 +25,9 @@ www.youtube.com##ytd-browse[page-subtype="channels"] ytd-thumbnail-overlay-resum
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
 www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-item-section-renderer)
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-compact-video-renderer)
+! https://github.com/letsblockit/letsblockit/issues/449#issuecomment-1584682170
+www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+! www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
 
 ! Hide YouTube shorts
 www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
@@ -47,9 +50,6 @@ m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-s
 m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-! https://github.com/letsblockit/letsblockit/issues/449#issuecomment-1584682170
-www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-! www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 4 !important;)
 
 ! Hide View count on Home, Subscriptions, etc.
 ! https://github.com/yokoffing/filterlists/pull/111
@@ -57,26 +57,12 @@ www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-
 www.youtube.com##span.ytd-video-meta-block.style-scope.inline-metadata-item:nth-of-type(2)::before
 ! www.youtube.com###span.ytd-grid-video-renderer.style-scope:nth-of-type(1)
 
-! Hide subscriber count near the channel name under the video player
+! Hide subscriber count by the channel name under the video player
 www.youtube.com###owner-sub-count
 
 ! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
-
-! Hide the hashtags above the video title 
-www.youtube.com###description #info a[href^="/hashtag/"]
-www.youtube.com###super-title
-www.youtube.com##.super-title
-m.youtube.com##.standalone-collection-badge a[href^="/hashtag/"]
-m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="/hashtag/"]
-
-! Hide the copyright notice in the video description 
-www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
-m.youtube.com##ytm-video-description-music-section-renderer
-
-! Disable ambient mode
-www.youtube.com###cinematics.ytd-watch-flexy:remove()
 
 ! Hide next video video, which may accidentally be clicked since it's near the Play button
 www.youtube.com##.ytp-button.ytp-next-button
@@ -86,32 +72,3 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
-
-! UNUSED
-
-! Hide the channel description box under videos and shorts 
-! www.youtube.com###clarify-box
-! www.youtube.com##ytd-shorts .disclaimer-container:upward(#info-panel)
-
-! Hide all comments below the video
-! www.youtube.com###comments #contents:remove()
-
-! Hide video description
-! www.youtube.com###description-inline-expander
-
-! Hide upload time (+ view count) under video player
-! www.youtube.com###metadata-line
-
-! Hide view count in the video description
-! www.youtube.com##span.bold.yt-formatted-string.style-scope:nth-of-type(1)
-
-! Hide all the videos on the channel page
-! www.youtube.com##ytd-browse.ytd-page-manager.style-scope:nth-of-type(4)
-
-! Hide autoplay suggestions at the end of the video
-! https://www.reddit.com/r/uBlockOrigin/comments/13i5j2v/how_block_this_thing/
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/
-
-! Hide Like and Dislike
-! www.youtube.com##ytd-segmented-like-dislike-button-renderer.ytd-menu-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope > .ytd-segmented-like-dislike-button-renderer.style-scope
-! www.youtube.com##__slot-el > .ytd-segmented-like-dislike-button-renderer.style-scope
