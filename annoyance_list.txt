@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 March 2024b
+! Version: 11 March 2024
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
@@ -408,8 +408,7 @@ npr.org###end-of-story-recommendations-mount
 nurse.com##.awac-wrapper.widget_text, .fusion-sidebar-inner-content, .single-related-posts.related-posts
 nymag.com##.multi-children.spacer, .latest-news, .coral-talk, .comments-link, .related-count-2.multi.related, .related-count-1.related, .non-subscriber-copy, .package-list, .single-related-story, .short-article.sticky-list, .is-on-article-page.curated-feed
 nypost.com##.alignleft.single__inline-module, .inline-module--related-post.inline-module, .more-stories, .single__sidebar, .comments-inline-cta
-nytimes.com##.css-1jg868a, .css-le223v, .standard.shown.magnoliaDock, .css-1a1soaa.undefined
-nytimes.com##.css-1wspfld, .css-ew4tgv, .css-y1f5ai, .related-links-block, .css-17u79w7
+nytimes.com##.css-1wspfld, .css-ew4tgv, .css-y1f5ai, .related-links-block, .css-17u79w7, .global-cob, .css-1jg868a, .css-le223v, .standard.shown.magnoliaDock, .css-1a1soaa.undefined
 omgubuntu.co.uk###secondary, .widget_omg_related_posts.widget, .u--box.content-container.banner-slideshow
 onetrust.com##.related-posts, .additional-resources
 online.csp.edu##.tux-c-spotlight-cta
