@@ -20,22 +20,22 @@
 ***
 
 ### Content
-1) [Custom Filters](https://github.com/yokoffing/filterlists#how-to-import-custom-filters-into-ublock-origin-ubo)
-    1) [Privacy](https://github.com/yokoffing/filterlists#privacy)
-    2) [Annoyances](https://github.com/yokoffing/filterlists#annoyances)
-    3) [Security](https://github.com/yokoffing/filterlists#security)
-    4) [All-Purpose](https://github.com/yokoffing/filterlists#all-purpose)
-2) [Setup Examples](https://github.com/yokoffing/filterlists#setup-examples)
-    1) [Enhanced](https://github.com/yokoffing/filterlists#enhanced)
-    2) [Pro](https://github.com/yokoffing/filterlists#pro)
-    3) [Optimized](https://github.com/yokoffing/filterlists#optimized)
-3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists#block-content-with-fewer-rules)
-    1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists#selectively-disable-cosmetic-filters)
-    2) [Optimized Lists](https://github.com/yokoffing/filterlists#optimized-lists)
-4) [Advanced Settings](https://github.com/yokoffing/filterlists/#advanced-settings)
-5) [FAQ](https://github.com/yokoffing/filterlists#faq)
-6) [Additional Reading](https://github.com/yokoffing/filterlists#reading)
-7) [Mentions](https://github.com/yokoffing/filterlists#mentions)
+1) [Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-import-custom-filters-into-ublock-origin-ubo)
+    1) [Privacy](https://github.com/yokoffing/filterlists?tab=readme-ov-file#privacy)
+    2) [Annoyances](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances)
+    3) [Security](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security)
+    4) [All-Purpose](https://github.com/yokoffing/filterlists?tab=readme-ov-file#all-purpose)
+2) [Setup Examples](https://github.com/yokoffing/filterlists?tab=readme-ov-file#setup-examples)
+    1) [Enhanced](https://github.com/yokoffing/filterlists?tab=readme-ov-file#enhanced)
+    2) [Pro](https://github.com/yokoffing/filterlists?tab=readme-ov-file#pro)
+    3) [Optimized](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized)
+3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists?tab=readme-ov-file#block-content-with-fewer-rules)
+    1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#selectively-disable-cosmetic-filters)
+    2) [Optimized Lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized-lists)
+4) [Advanced Settings](https://github.com/yokoffing/filterlists?tab=readme-ov-file#advanced-settings)
+5) [FAQ](https://github.com/yokoffing/filterlists?tab=readme-ov-file#faq)
+6) [Additional Reading](https://github.com/yokoffing/filterlists?tab=readme-ov-file#reading)
+7) [Mentions](https://github.com/yokoffing/filterlists?tab=readme-ov-file#mentions)
 
 ***
 
@@ -141,7 +141,7 @@ In addition to the default lists, you should also enable:
 1. Hagezi's Light DNS Blocklist
 2. yokoffing's click2load filters
 3. Actually Legitimate URL Shortener Tool
-4. The [Security lists](https://github.com/yokoffing/filterlists#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
+4. The [Security lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
 
 ***
 
@@ -166,7 +166,7 @@ In addition to the default lists, you should also enable:
 1. Privacy Essentials
 2. Hagezi's Personal DNS Blocklist
 3. Actually Legitimate URL Shortener Tool
-4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists#annoyances))
+4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances))
 5. Most Abused TLDs
 
 ***
@@ -247,7 +247,7 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 uBlock Origin can [do more](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) compared to when only blocking requests at the DNS-level, like using [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.<sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
 
 ### Why should I use these lists?
-See [here](https://how-i-experience-web-today.com/).
+Check out [How I Experience the Web Today](https://how-i-experience-web-today.com/).
 
 ### Why did you include AdGuard's Optimize lists but not AdBlock Plus' Minified lists?
 The Minified lists are part of an Adblock Plus-hosted unofficial project that was hardforked from their source lists in August 2019. They are smaller than AdGuard's Optimized lists but lack quality blocking. Because EL and EP are your primary defenses with content blocking, I wouldn't use the Minified lists.
