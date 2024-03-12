@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 5 March 2024b
+! Version: 12 March 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -344,6 +344,14 @@ fmovies.*##+js(nosiif, try)
 ||revenuehunt.com^$3p
 ||omnisnippet1.com$3p
 ||freegifts.io^$3p
+! https://www.vitalydesign.com/pages/contact-us
+||ip-api.com^$3p
+||marker.io^$3p
+||shoplift.ai$3p
+! Shopify
+||juniphq.com^$3p
+||postscript.io^$3p
+||shoplift.ai$3p
 
 ! GENERAL ALLOWLIST
 ! https://github.com/crssi/Firefox/blob/master/uBO-Unbreak.txt
