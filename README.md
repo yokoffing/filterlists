@@ -164,7 +164,7 @@ In addition to the default lists, you should also enable:
 
 #### Custom lists
 1. Privacy Essentials
-2. Hagezi's Personal DNS Blocklist
+2. Hagezi's Light DNS Blocklist
 3. Actually Legitimate URL Shortener Tool
 4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances))
 5. Most Abused TLDs
