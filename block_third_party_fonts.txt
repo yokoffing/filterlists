@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 4 March 2024
+! Version: 15 March 2024
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -11,7 +11,7 @@
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 ! @@||cloudfront.net^$font,domain=noip.com|phabricator.services.mozilla.com|securelist.com|status.proton.me
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com$domain=abc.xyz|google.com|blog.google|blogger.com|chromium.org|gaggle.fun|googlesource.com|grow.google|groq.com|myeducator.com|reedsy.com|reliaslearning.com|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
+@@||fonts.googleapis.com$domain=abc.xyz|google.com|blog.google|blogger.com|chromium.org|fmoviesz.to|gaggle.fun|googlesource.com|grow.google|groq.com|myeducator.com|reedsy.com|reliaslearning.com|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
 @@||fonts.gstatic.com$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|cenreader.com|chrome.com|chromium.org|dexscreener.com|google.com|domains.google|googlesource.com|grow.google|groq.com|material.io|myeducator.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|web.dev|youtube.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
