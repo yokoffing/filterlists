@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 11 March 2024
+! Version: 15 March 2024
 ! Syntax: AdBlock
 
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
@@ -1007,13 +1007,44 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[
 ! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
+! Source: https://github.com/DandelionSprout/adfilt/commit/1efdbabb361af4dd05a24cf766d1dafc723ab02f
+!! Removes a "See What's Happening" prompt at the bottom of some tweet chains
+twitter.com,x.com#?#div[data-testid=primaryColumn] div:has(> div > div > a[href="/login"])
+!! Removes a login prompt when visiting "/intent/follow"-type links in mobile environments
+! https://twitter.com/intent/follow?screen_name=mesitsu (13/04/2020)
+mobile.twitter.com,mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#a[href="/i/flow/signup"][dir=auto][role=link][data-focusable=true]:upward(7)
+!#if env_mobile
+twitter.com,x.com#?#a[href="/i/flow/signup"][dir=auto][role=link][data-focusable=true]:upward(7)
+!#endif
+!#if false
+! Removes the bottom login sticky banner about logging in, in the April 2020-ish redesign
+twitter.com,x.com#?##layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
+! https://twitter.com/hideo_kojima_en/status/319595772981166080
+twitter.com,x.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
+!#endif
+!#if !env_mobile
+! Fullpage uncloseable overlay on some pages
+twitter.com,x.com#?#div[role=group]:has(div[data-testid*=apple_sign_in]:only-of-type)
+!#endif
+! Removes the "Aren't you on Twitter??" prompt in the upper right of user timelines
+! https://twitter.com/nasuno_Posi
+twitter.com,x.com##.js-signup-call-out
+! Twitter Mobile
+!! Aims to remove the login overlay prompt when browsing down an account's timeline
+mobile.twitter.com##.rn-13w96dm
+mobile.twitter.com##.rn-1kihuf0.rn-1awozwy
+!#if !adguard
+! https://mobile.twitter.com/nasuno_Posi
+!! Removes the "Are you new on Twitter?" banner in the upper right of user timelines (Screen area has to be ≥~1400px wide)
+mobile.twitter.com##div[data-testid=sidebarColumn] section[aria-label][role=region]
+!#endif
+
 ! BING
 ! Hide rebate
 bing.com##.rebateGlobalDecoration
 !bing.com##.secure_icon
 
-! Credit: https://github.com/letsblockit/letsblockit/issues/642
-
+! Source: https://github.com/letsblockit/letsblockit/issues/642
 ! Hide Copilot in the menu
 ! Copilot icon next to the search box
 bing.com##.b_phead_chat_link
