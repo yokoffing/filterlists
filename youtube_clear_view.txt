@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 March 2024
+! Version: 16 March 2024
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -88,4 +88,14 @@ m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="
 www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
 m.youtube.com##ytm-video-description-music-section-renderer
 
+!!! OPTIONAL
+! Add to your personal filters and remove ! to activate
 
+! Hide recommendation sidebar
+!www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! source: https://www.reddit.com/r/uBlockOrigin/comments/1bfv50f/what_is_the_difference/
+! Video Overlay - annotations
+!||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js$script
+! Video Overlay - endscreen
+!||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
