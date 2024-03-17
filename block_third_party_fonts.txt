@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🔍 Block third party fonts
-! Description: Block most third-party fonts
+! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 March 2024
+! Version: 17 March 2024
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -43,6 +43,7 @@
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
 @@||cdn.coollabs.io/fonts^
+@@||api.fonts.coollabs.io^
 
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
@@ -52,12 +53,11 @@
 ||bootstrapcdn.com/bootstrap/$font,3p
 ||cloud.typography.com^$3p
 ||cloud.webtype.com^$font,3p
-! ||cloudfront.net^$font,3p
+
 ||disquscdn.com/next/assets/font/$3p
 ||edgefonts.net^$3p
 ||fast.fonts.com^$3p
 ||fast.fonts.net^$3p
-! ||fastly.net^$font,3p
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
@@ -100,20 +100,13 @@
 ! @@||use.typekit.net^$font,badfilter
 
 !!! UNUSED
-! Causes too many false positives:
-!*$font,3p
+! Breaks too many sites:
+!||cloudfront.net^$font,3p
+!||fastly.net^$font,3p
+!$font,3p
 !/fonts/*.ttf$font,3p
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
 !||maxcdn.bootstrapcdn.com^*/fonts/
-
-! Used for icons on many sites:
-!@@/fontawesome-$font,3p,domain=fontawesome.com
-!@@/wp-$font,domain=arstechnica.com|themindfulnessclinic.ca
-!@@||cdnjs.cloudflare.com/ajax/libs/font-awesome^$domain=9anime.to
-!@@||fontawesome.com^
-!/font-awesome^$3p
-!/fontawesome-$font,3p
-!/fontawesome-webfont
 !/wp-$font,3p
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
 !||fontawesome.com^$3p
