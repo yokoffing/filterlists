@@ -83,16 +83,16 @@ To import custom filters into AdBlock:
 ## Privacy
 
 1) :star: [**Hagezi's Pro++ Mini List**](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus) (88k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt&title=Hagezi%Pro%20Plus%20Mini)
-<br> 
+<br> Pro++ Mini is an ad block list created from Hagezi's DNS list of the same name. It was designed to be efficient for web browsers by omitting rules unrelated to web browser traffic like IoT tracking and device telemetry. This filter is efficient by focusing exclusively on blocking ad, tracking, analytic, and badware domains. [read more](https://github.com/hagezi/dns-blocklists/issues/2346)
 
 2) [**Hagezi's Light DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/light.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt&title=Hagezi%20Light%20DNS%20Blocklist)
 <br> Hagezi's blocklist includes ad and tracker domains seen on the top website lists (Umbrella, Cloudflare, Tranco, Majestic, etc.) and extracted domains from DNS wildcard rules. This is the core of Hagezi’s other primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
-3) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
+3) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
 <br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://nitter.cz/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list may break third-party logins!
 
-4) :star: [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
-<br> (**optional:** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://nitter.cz/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
+4) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
+<br> (**optional** if using `Privacy Essentials` in uBO) Turns many third-party audio and video players into [click-to-load](https://nitter.cz/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
 ### URL Tracking Parameters
 
@@ -159,7 +159,7 @@ I've provided three setup guides: **Enhanced**, **Pro**, and **Optimized**.
 * Demonstrates the power of uBO
 * Blocks most cookie pop-ups, site notifications, and anti-adblock notices
 * Adds additional privacy protections against URL tracking and third-party domains
-* Adds security protections from known badware domains (optional)
+* Adds security protections from known badware domains
 * You have a low threshold for site breakage
 
 #### Built-in lists
@@ -189,17 +189,17 @@ In addition to the default lists, you should also enable:
 #### Built-in lists
 In addition to the default lists, you should also enable:
 1. AdGuard Tracking Protection (which is [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt))
-2. Block Outsider Instrusion into LAN
+2. Block Outsider Instrusion into LAN (optional)
 3. AdGuard – Popup Overlays (newsletter pop-ups)
 4. EasyList - Annoyances (all lists)
 5. uBlock filters - Annoyances
 
 #### Custom lists
 1. Privacy Essentials
-2. Hagezi's Light DNS Blocklist
+2. Hagezi's Pro++ Mini List
 3. Actually Legitimate URL Shortener Tool
 4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances))
-5. Most Abused TLDs
+5. Most Abused TLDs (optional)
 
 ***
 
