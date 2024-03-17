@@ -20,7 +20,7 @@
 ***
 
 ### Content
-1) [Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-import-custom-filters-into-ublock-origin-ubo)
+1) [How To Add Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
     1) [Privacy](https://github.com/yokoffing/filterlists?tab=readme-ov-file#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security)
@@ -39,28 +39,60 @@
 
 ***
 
-# Custom Filters
+# How To Add Custom Filters
 
-#### How to import custom filters into uBlock Origin (uBO):
+### uBlock Origin
+[Get](https://ublockorigin.com/) uBlock Origin (uBO), if you don't have it already.
 
-1. Click **subscribe** by one of the lists below.
+To import custom filters into uBlock Origin:
+
+1. Click the **subscribe** link by one of the entries below.
 2. In the new tab that opens, click on **Subscribe** in the top right corner.
-3. Close tab.
-4. Repeat for other lists you want to add to uBO.
+3. Close tab, then repeat for other lists you want to add to uBO.
+
+:warning: This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers. Do not open issues for other ad blockers.
+
+### AdGuard
+To import custom filters into AdGuard:
+
+1. Click the **subscribe** link by one of the entries below.
+2. In the new tab that opens, click on **Next**.
+3. Toggle the box that says **Trusted**, then click **Subscribe**.
+
+### AdBlock Plus
+To import custom filters into Adblock Plus:
+
+1. Click the **subscribe** link by one of the entries below.
+2. In the new tab that opens, select **Yes, Add This Filter List**.
+
+### AdBlock
+To import custom filters into AdBlock:
+1. Click the **subscribe** link by one of the entries below.
+2. In the dialog box that pops up, press **OK**.
+
+### Other ad blockers
+**Do not use the subscribe link.** Instead, do the following:
+
+1. Click on the title of the list from the selections below.
+2. In GitHub, click `Raw` on the right-hand side of the page.
+3. Copy+paste the URL to your preferred ad blocker.
+4. Follow your ad blocker's instructions for adding custom lists.
 
 ***
 
 ## Privacy
 
+1) :star: [**Hagezi's Pro++ Mini List**](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus) (88k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt&title=Hagezi%Pro%20Plus%20Mini)
+<br> 
 
-1) :star: [**Hagezi's Light DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/light.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt&title=Hagezi%20Light%20DNS%20Blocklist)
+2) [**Hagezi's Light DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/light.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt&title=Hagezi%20Light%20DNS%20Blocklist)
 <br> Hagezi's blocklist includes ad and tracker domains seen on the top website lists (Umbrella, Cloudflare, Tranco, Majestic, etc.) and extracted domains from DNS wildcard rules. This is the core of Hagezi’s other primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
 
-2) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
+3) [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
 <br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://nitter.cz/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list may break third-party logins!
 
-3) :star: [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
-<br> (**optional:** included in `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://nitter.cz/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
+4) :star: [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
+<br> (**optional:** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://nitter.cz/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
 ### URL Tracking Parameters
 
