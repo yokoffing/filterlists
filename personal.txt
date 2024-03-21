@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 10 March 2024c
+! Version: 21 March 2024
 ! Syntax: AdBlock
 
 ! EDU
@@ -17,6 +17,18 @@
 ! X (FORMERLY TWITTER)
 ||t.co$domain=~twitter.com
 @@||t.co$doc
+
+! REDDIT
+! Hide AutoModerator comments
+! https://www.reddit.com/r/uBlockOrigin/comments/140lp15/any_way_to_hide_automoderator_comments_with_ublock/
+reddit.com##[data-testid="comment_author_link"][href="/user/AutoModerator/"]:upward(.Comment)
+reddit.com##.comment .author[href="https://old.reddit.com/user/AutoModerator"]:upward(.comment)
+! To hide AutoModerator, anyone who contains "mod" or "bot"
+old.reddit.com##.comment[data-author="AutoModerator"]
+! old.reddit.com##.comment[data-author*="mod"]
+old.reddit.com##.comment[data-author*="bot"]
+! To hide any mod
+! old.reddit.com##.comment:has(.entry .tagline .moderator)
 
 ! YOUTUBE
 ! Hide recommendation sidebar
