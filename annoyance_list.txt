@@ -6,6 +6,7 @@
 ! Version: 21 March 2024
 ! Syntax: AdBlock
 
+psypost.org##em > strong, .jnews_related_post_container
 cloudflare.com##.ph3.items-center.flex-l, .bottom-0.fixed
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
 pymnts.com##.adContainer, .pymnt_ads, .recommended-articles
