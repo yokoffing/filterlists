@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 17 March 2024b
+! Version: 21 March 2024
 ! Syntax: AdBlock
 
 cloudflare.com##.ph3.items-center.flex-l, .bottom-0.fixed
@@ -848,7 +848,18 @@ torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer_
 translate.google.com##.notification-area,.gt-cc:remove()
 
 !!! REDDIT
-! some from https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
+! Hide AutoModerator comments
+! https://www.reddit.com/r/uBlockOrigin/comments/140lp15/any_way_to_hide_automoderator_comments_with_ublock/
+reddit.com##[data-testid="comment_author_link"][href="/user/AutoModerator/"]:upward(.Comment)
+reddit.com##.comment .author[href="https://old.reddit.com/user/AutoModerator"]:upward(.comment)
+! To hide AutoModerator, anyone who contains "mod" or "bot"
+old.reddit.com##.comment[data-author="AutoModerator"]
+! old.reddit.com##.comment[data-author*="mod"]
+! old.reddit.com##.comment[data-author*="bot"]
+! To hide any mod
+! old.reddit.com##.comment:has(.entry .tagline .moderator)
+
+! credit for most: https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
 ! Clean up the Reddit header bar:
 ! Advertise
 www.reddit.com,www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##header [aria-label="Advertise"]
