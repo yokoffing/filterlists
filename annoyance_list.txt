@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 23 March 2024b
+! Version: 23 March 2024c
 ! Syntax: AdBlock
 
 freedium.cfd##.notification-container
@@ -1057,12 +1057,17 @@ mobile.twitter.com##div[data-testid=sidebarColumn] section[aria-label][role=regi
 ! BING
 ! Hide rebate
 bing.com##.rebateGlobalDecoration
-!bing.com##.secure_icon
+! Hide lock icon near results
+bing.com##.secure_icon
 ! Was this response helpful?
 bing.com##.survey-opt-in-wrapper
 ! Trending on Bing
 !bing.com###b_pole
 bing.com###b_pole,badfilter
+! Search box: Microsoft Suggests, Try the new copilot
+bing.com###sa_zis_Banner
+! Search box: Chat with Copilot popup
+bing.com##.popup
 
 ! Source: https://github.com/letsblockit/letsblockit/issues/642
 ! "Copilot" in menu next to "All" and "News"
@@ -1076,8 +1081,8 @@ bing.com##.b_pag_lets_chat
 ! Hide related and recommended content
 ! Most of "explore", "people also", "related search" sections and side panel
 !bing.com###b_context
-! People also ask
-bing.com##.b_ans
+! Hide most modules around search results
+!bing.com##.b_ans
 ! Recommended section in the search box. Requires style fix to prevent expanding of the search box
 bing.com##.rs_drw
 bing.com###sa_requery
