@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 23 March 2024
+! Version: 23 March 2024b
 ! Syntax: AdBlock
 
 freedium.cfd##.notification-container
@@ -1058,44 +1058,42 @@ mobile.twitter.com##div[data-testid=sidebarColumn] section[aria-label][role=regi
 ! Hide rebate
 bing.com##.rebateGlobalDecoration
 !bing.com##.secure_icon
+! Was this response helpful?
+bing.com##.survey-opt-in-wrapper
+! Trending on Bing
+!bing.com###b_pole
+bing.com###b_pole,badfilter
 
 ! Source: https://github.com/letsblockit/letsblockit/issues/642
-! Hide Copilot in the menu
-! Copilot icon next to the search box
+! "Copilot" in menu next to "All" and "News"
+!bing.com###b-scopeListItem-conv
+! Deep search / Copilot icon next to the search box
 bing.com##.b_phead_chat_link
-! "Chat" label in the menu
-bing.com###b-scopeListItem-conv
-
-! Hide Copilot in the search box and page numbers
 ! Search box copilot
 bing.com##.bordertop
-! Page numbers copilot
+! "Chat" button near page numbers
 bing.com##.b_pag_lets_chat
-
 ! Hide related and recommended content
 ! Most of "explore", "people also", "related search" sections and side panel
-bing.com###b_context
-bing.com###b_pole
+!bing.com###b_context
+! People also ask
 bing.com##.b_ans
 ! Recommended section in the search box. Requires style fix to prevent expanding of the search box
 bing.com##.rs_drw
 bing.com###sa_requery
 ! Related to recent searches in the search box
 bing.com###sa_zis_SSE
-! "Explore further" section
+! "Explore further" sublinks
 bing.com##.scs_child_rpr
 ! "Tags"
-bing.com##.batg
+!bing.com##.batg
 ! Side links widget
-bing.com###wikiWidgetContainer
-
+!bing.com###wikiWidgetContainer
 ! Hide Jump to search icon
 bing.com###mfa_root
-
-! Hide quick highlight icons
+! Hide quick highlight (lightbulb) icons
 bing.com##.scs_icn
-
-! Hide "Rewards" alert
+! "Rewards" alert
 bing.com###id_mobbubpos
 
 ! Linkedin
