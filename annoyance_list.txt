@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 23 March 2024e
+! Version: 23 March 2024f
 ! Syntax: AdBlock
 
 freedium.cfd##.notification-container
@@ -1084,6 +1084,12 @@ bing.com##.slide-in
 bing.com###b_op_anch
 ! Copilot chat box at bottom of page
 bing.com##.wpt_bc_container
+! "Related news" in News module
+bing.com##.rns_more
+! "Explore more news" in News module
+bing.com##.nart_bak.nart_content
+! "Trending searches you might like" in search results
+bing.com###b_mrs_DynamicMRS
 
 ! Source: https://github.com/letsblockit/letsblockit/issues/642
 ! "Copilot" in menu next to "All" and "News"
