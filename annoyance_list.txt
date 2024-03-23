@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 23 March 2024c
+! Version: 23 March 2024d
 ! Syntax: AdBlock
 
 freedium.cfd##.notification-container
@@ -1061,13 +1061,23 @@ bing.com##.rebateGlobalDecoration
 bing.com##.secure_icon
 ! Was this response helpful?
 bing.com##.survey-opt-in-wrapper
-! Trending on Bing
-!bing.com###b_pole
-bing.com###b_pole,badfilter
 ! Search box: Microsoft Suggests, Try the new copilot
 bing.com###sa_zis_Banner
 ! Search box: Chat with Copilot popup
 bing.com##.popup
+! Related search module
+bing.com##.b_rrsr
+bing.com###relatedSearchesLGWContainer
+! Images overtaking search results
+bing.com##.b_imgsmall.b_imgans.b_mopb.b_mop.b_ans
+! Videos overtaking search results
+bing.com##.b_vidAns.b_mop.b_ans
+! People also ask
+bing.com##.df_alaskcarousel.rqnaContainerwithfeedback
+! Explore more from Wikipedia
+bing.com##.b_remod
+! Related searches near page numbers
+bing.com###brsv3
 
 ! Source: https://github.com/letsblockit/letsblockit/issues/642
 ! "Copilot" in menu next to "All" and "News"
