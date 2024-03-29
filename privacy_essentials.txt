@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 16 March 2024
+! Version: 29 March 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -15,6 +15,8 @@ $ping
 /fingerprintjs2$script
 /fp.js$script
 /loginmanager_sniff.js$script
+! ||dailykarma.io^$3p
+||assets.dailykarma.io^$3p
 ||0dcde44a41.com^
 ||1105media.com^$3p
 ||2mdn.net^$3p
@@ -496,6 +498,10 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||discordapp.com^$3p,domain=~discohook.org|~discord.com|~discordpackage.com|~mee6.xyz|~scam.gay
 
 ! 3rd-party Payment Vendors / "Buy Now, Pay Later":
+||global-e.com^$3p
+||static.rechargecdn.com^$3p
+! ||getcatch.com^$3p
+||js.getcatch.com^$3p
 ||pay.google.com^$3p
 ||appleid.cdn-apple.com^
 ||payments-amazon.com^$3p
