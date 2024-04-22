@@ -2,8 +2,8 @@
 ! Title: ⛔ yokoffing's click2load filters
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 21 days (update frequency)
-! Version: 24 August 2023
+! Expires: 7 days (update frequency)
+! Version: 22 April 2024
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -46,10 +46,15 @@
 ||quizlet.com/$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
+!#if !env_chromium
+! https://github.com/uBlockOrigin/uBlock-issues/issues/3088
+||safe.txmblr.com^$3p,frame,redirect=click2load.html
+!#endif
 ||scribd.com/embeds/$3p,frame,redirect=click2load.html
 ||stay22.com/embed/$3p,frame,redirect=click2load.html
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
+||twitch.tv^$3p,frame,redirect=click2load.html
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
