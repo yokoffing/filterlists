@@ -1,9 +1,9 @@
-[Adblock Plus 2.0]
+[Adblock Plus]
 ! Title: ⛔ yokoffing's click2load filters
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 April 2024
+! Version: 22 April 2024b
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -46,7 +46,7 @@
 ||quizlet.com/$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
-!#if !env_chromium
+!#if env_chromium
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3088
 ||safe.txmblr.com^$3p,frame,redirect=click2load.html
 !#endif
