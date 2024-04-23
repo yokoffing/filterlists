@@ -50,8 +50,11 @@ To import custom filters into uBlock Origin:
 2. In the new tab that opens, click on **Subscribe** in the top right corner.
 3. Close tab, then repeat for other lists you want to add to uBO.
 
-:warning: This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers. Do not open issues for other ad blockers.
+> [!NOTE]
+> This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
 
+<details><summary>Other ad blockers</summary>
+    
 ### AdGuard
 To import custom filters into AdGuard:
 
@@ -77,6 +80,8 @@ To import custom filters into AdBlock:
 2. In GitHub, click `Raw` on the right-hand side of the page.
 3. Copy+paste the URL to your preferred ad blocker.
 4. Follow your ad blocker's instructions for adding custom lists.
+
+</details>
 
 ***
 
@@ -216,19 +221,24 @@ Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterli
 
 ## Selectively Disable Cosmetic Filters
 
-One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page; it only affects how the website looks. Toggling it off when you don't need it will **reduce the [workload on your device](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests**.
+One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page, as it affects how the website looks. Toggling it off when you don't need it will reduce the [workload on your device](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests.
 
 For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
 
 ## Optimized Lists
 
-:warning: These lists sacrifice comprehensiveness for speed and efficiency, so expect occasional gaps in coverage over the regular versions. Just something to keep in mind if you run into less blocking than anticipated; it's worth remembering for when you're trying to debug a site.
+> [!IMPORTANT]
+> These lists sacrifice blocking comprehensiveness for efficiency, so expect occasional gaps in coverage when compared to their regular versions. Remember this if you run into less blocking than anticipated or when troubleshooting a website.
 
 uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use some alternative lists that have fewer rules than the built-in ones if you want to save CPU and memory on your device.
 
 [AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
 
-*The rule counts shown below are when compared to their original list in uBO. I've also supplied the link to the iOS versions for reference, but you won't need them running the AdGuard extension for Safari.*
+
+### Categories
+
+> [!NOTE]
+> The rule counts shown below are when compared to their original list in uBO. Also, the link to the iOS versions is included for reference, but you don't need them when running [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html).
 
 ### Ads
 
@@ -268,7 +278,8 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 
 ![advanced user](https://github.com/yokoffing/filterlists/assets/11689349/80c650dc-3f4f-4291-ab5f-53db3c42b7fc)
 
-:warning: Do not change these values blindly. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
+> [!WARNING]
+ > Do not change these values blindly. Read the [description](https://github.com/gorhill/uBlock/wiki/Advanced-settings) for each preference.
 
 | **Setting**                   | **Value** | **Description**                                                                      |
 |-------------------------------|-----------|--------------------------------------------------------------------------------------|
