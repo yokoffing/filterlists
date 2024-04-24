@@ -226,16 +226,18 @@ One way to improve performance without compromising security or privacy is to [d
 For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
 
 ## Optimized Lists
-[AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
-
-uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use alternative lists with fewer rules than the built-in ones if you want to save CPU and memory on your device.
 
 > [!IMPORTANT]
 > These lists sacrifice blocking comprehensiveness for efficiency, so expect occasional gaps in coverage when compared to their regular versions. Remember this if you run into less blocking than anticipated or when troubleshooting a website.
 
-### Categories
+[AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
 
-The rule counts shown below are when compared to their original list in uBO. Also, the link to the iOS versions is included for reference, but you don't need them when running [AdGuard for iOS](https://adguard.com/en/adguard-ios/overview.html).
+uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use alternative lists with fewer rules than the built-in ones if you want to save CPU and memory on your device.
+
+> [!NOTE]
+> AdGuard for [iOS](https://adguard.com/en/adguard-ios/overview.html) automatically uses optimized filters, so you don't need to manually add the iOS-specific links provided below. The guide includes these links mainly for reference, as AdGuard doesn't explicitly label the built-in filters as "optimized" even though they are.
+
+The rule counts below compare each optimized list to its original version in uBlock Origin. The numbers are a snapshot of the rule counts at the time of writing.
 
 ### Ads
 
