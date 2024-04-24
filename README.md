@@ -230,14 +230,14 @@ For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](http
 > [!IMPORTANT]
 > These lists sacrifice blocking comprehensiveness for efficiency, so expect occasional gaps in coverage when compared to their regular versions. Remember this if you run into less blocking than anticipated or when troubleshooting a website.
 
-[AdGuard](https://github.com/AdguardTeam) provides filters that are [optimized](https://github.com/AdguardTeam/FiltersRegistry#filters-optimization) by removing rules that are rarely used. These lists are designed to be lighter and faster but still maintain high standards for content blocking. The optimization process relies on the [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) of how often AdGuard users apply different rules, which they opt-in to share.
+[AdGuard](https://github.com/AdguardTeam) offers filters that remove [rarely used](https://adguard.com/kb/general/ad-filtering/create-own-filters/#not_optimized-hint) rules. These optimized lists load faster and use less memory while still blocking content effectively. AdGuard creates the lists using [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) that indicate how often each rule is applied.
 
-uBO can handle 300k+ filters, but you might not need that many rules to block unwanted content effectively. You can use alternative lists with fewer rules than the built-in ones if you want to save CPU and memory on your device.
+If you want to save CPU and RAM on your device, consider using alternative filter lists with fewer rules than the default ones. Although uBO can handle over 300k+ rules, you may not need that many to block unwanted content effectively.
 
 > [!NOTE]
 > AdGuard for [iOS](https://adguard.com/en/adguard-ios/overview.html) automatically uses optimized filters, so you don't need to manually add the iOS-specific links provided below. The guide includes these links mainly for reference, as AdGuard doesn't explicitly label the built-in filters as "optimized" even though they are.
 
-The rule counts below compare each optimized list to its original version in uBlock Origin. The numbers are a snapshot of the rule counts at the time of writing.
+The rule counts below compare each optimized list to its original version in uBO. The numbers are a snapshot of the rule counts at the time of writing.
 
 ### Ads
 
