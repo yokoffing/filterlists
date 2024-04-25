@@ -221,18 +221,22 @@ Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterli
 
 ## Selectively Disable Cosmetic Filters
 
-One way to improve performance without compromising security or privacy is to [disable cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances on the page, as it affects how the website looks. Toggling it off when you don't need it will reduce the [workload on your device](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests.
+One way to improve performance without compromising security or privacy is to [disable cosmetic filters on specific sites](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). Cosmetic filtering (aka element hiding) stops ads and other nuisances and removes unnecessary elements from the page. Turning off cosmetic filtering when you don't need it reduces your device's [workload](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests.
 
-For sites where uBO seems unnecessary (e.g., pages with no ads), [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for the site. This will still protect you from security and privacy risks (network requests) but reduce overhead to page load.
+So for sites where uBO seems unnecessary, [turn off](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering) cosmetic filtering for that site. This action still protects you from security and privacy risks by blocking unwanted network requests but reduces the overhead during page load.
+
+What's more, disabling them on specific sites is more flexible than [disabling cosmetic filters everywhere by default](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering:~:text=To-,disable%20cosmetic%20filtering%20everywhere%20by%20default,-%2C%20go%20to%20the) and then re-enabling them for most sites. It made sense 10+ years ago to disable cosmetic filtering by default and only enable it for sites that needed extra coverage. Not so much now.
+
+Modern websites often have ads, cookie banners, newsletter pop-ups, or a combination of these annoyances. Effective ad blocking now requires the cosmetic filters in **Ads** and **Annoyances** lists to remove these elements. Most devices, including [mobile devices](https://github.com/gorhill/uBlock/commit/7a768e7b1a), can now handle cosmetic filtering without significant performance issues.
 
 ## Optimized Lists
 
 > [!IMPORTANT]
 > These lists sacrifice blocking comprehensiveness for efficiency, so expect occasional gaps in coverage when compared to their regular versions. Remember this if you run into less blocking than anticipated or when troubleshooting a website.
 
-[AdGuard](https://github.com/AdguardTeam) offers filters that remove [rarely used](https://adguard.com/kb/general/ad-filtering/create-own-filters/#not_optimized-hint) rules. These optimized lists load faster and use less memory while still blocking content effectively. AdGuard creates the lists using [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) that indicate how often each rule is applied.
+Another way to improve performance is to use alternative filter lists with fewer rules. **These filters are intended predominately for mobile devices.** So although uBO can handle over 500k+ rules, you don't need that many to block unwanted content effectively.
 
-If you want to save CPU and RAM on your device, consider using alternative filter lists with fewer rules than the default ones. Although uBO can handle over 300k+ rules, you may not need that many to block unwanted content effectively.
+[AdGuard](https://github.com/AdguardTeam) offers filters that remove [rarely used](https://adguard.com/kb/general/ad-filtering/create-own-filters/#not_optimized-hint) rules. These optimized lists load faster and use less memory while still blocking content effectively. AdGuard creates the lists using [statistics](https://adguard.com/kb/general/ad-filtering/tracking-filter-statistics) that indicate how often each rule is applied.
 
 > [!NOTE]
 > AdGuard for [iOS](https://adguard.com/en/adguard-ios/overview.html) automatically uses optimized filters, so you don't need to manually add the iOS-specific links provided below. The guide includes these links mainly for reference, as AdGuard doesn't explicitly label the built-in filters as "optimized" even though they are.
