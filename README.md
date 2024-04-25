@@ -88,7 +88,10 @@ To import custom filters into AdBlock:
 ## Privacy
 
 1) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
-<br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyance lists. :warning: This list may break third-party logins.
+<br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in **Annoyances** lists.
+
+> [!WARNING]
+> **Privacy Essentials** may prevent you from logging into sites using Facebook, Google, or other third-party accounts.
 
 2) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
 <br> (**optional** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://twitter.com/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
