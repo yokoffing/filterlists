@@ -15,7 +15,7 @@
 
 # Recommended Filters for uBlock Origin
 
-![ubo_lists_Oct_2023](https://github.com/yokoffing/filterlists/assets/11689349/62809606-61e1-48b7-a697-58eb6e397af2)
+![uBO lists May 2024](https://github.com/yokoffing/filterlists/assets/11689349/f1925d65-963f-4bb8-aebf-d083ee5f9825)
 
 ***
 
@@ -107,15 +107,18 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 > If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 
 1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=URL%20Shortener%20Tool)
-<br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022.
+<br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
-<br> (**optional:** This list may break websites and may contain problematic rules. There is not much the maintainers can do, as this list is just the ClearURLs rules converted into a filterlist.)
+<br> This list is just the rules from the ClearURLs extension converted into a filterlist.
 
 ### Fonts
 
 1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
-<br> (**optional:** This will break the "look and feel" of some sites.) A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
+<br> A successor to [Fanboy's Anti-thirdparty Fonts](https://github.com/ryanbr/fanboy-adblock/blob/master/fanboy-antifonts.txt), this option blocks all web fonts from third-party providers but allows the browser to download fonts from first-party domains. I prefer this method because it avoids third-party domains (speed and privacy benefit), and I trust the first-party site to download a font from them.<sup>[1](https://collinmbarrett.com/block-web-fonts/)</sup>
+
+> [!WARNING]
+> **Block third-party fonts** will break the "look and feel" of some sites, but sites will load faster.
  
 ## Annoyances
 
@@ -164,49 +167,45 @@ I've provided three setup guides: **Enhanced**, **Pro**, and **Optimized**.
 ## Enhanced
 
 #### Features
-* Demonstrates the power of uBO
-* Blocks most cookie pop-ups, site notifications, and anti-adblock notices
-* Adds additional privacy protections against URL tracking and third-party domains
-* Adds security protections from known badware domains
-* You have a low threshold for site breakage
+Balanced approach for users with a low threshold for site issues:
+* Blocks most URL tracking, cookie pop-ups, and anti-adblock notices
+* (optional) Adds security protections from known badware domains
 
 #### Built-in lists
 In addition to the default lists, you should also enable:
-1. EasyList - Cookie Notices
-2. EasyList - Notifications (if you don't already have these disabled in your browser)
-3. EasyList - Social Widgets (if they bother you)
-4. uBlock filters - Annoyances (anti-adblock messages)
+1. AdGuard URL Tracking Protection
+2. EasyList/uBO - Cookie Notices
+3. EasyList - Social Widgets (if they bother you, or you don't use them)
+4. uBlock filters - Annoyances
 
 #### Custom lists
 1. yokoffing's click2load filters
 2. Actually Legitimate URL Shortener Tool
-3. The [Security lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
+3. (optional) [Security lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
 
 ***
 
 ## Pro
 
 #### Features
-* Get the most value from customizing uBO
-* Blocks more annoyances
-* Adds significant privacy protection
-* Adds security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
-* You should be comfortable troubleshooting issues and reporting site breakage, though it should be rare
+Advanced apporach for users comfortable troubleshooting issues and reporting site breakage:
+* Significant privacy protection
+* Block more annoyances
+* (optional) Security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
 
 #### Built-in lists
-In addition to the default lists, you should also enable:
-1. AdGuard Tracking Protection (which is [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt))
-2. Block Outsider Instrusion into LAN (optional)
-3. AdGuard – Popup Overlays (newsletter pop-ups)
-4. EasyList - Annoyances (all lists)
-5. uBlock filters - Annoyances
+In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:
+1. (optional) AdGuard Tracking Protection, [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt)
+2. EasyList - Annoyances (all lists)
 
 #### Custom lists
-1. Privacy Essentials
+1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
 2. Hagezi's Pro Mini
-3. Actually Legitimate URL Shortener Tool
-4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances))
-5. Most Abused TLDs (optional)
+3. (optional) Block third-party fonts
+4. yokoffing's Annoyance List
+5. Browse websites without logging in
+6. (optional) YouTube Clear View
+7. (optional) Most Abused TLDs 
 
 ***
 
