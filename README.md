@@ -96,15 +96,15 @@ To import custom filters into AdBlock:
 2) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing%20click2load%20filters)
 <br> (**optional** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://twitter.com/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
-3) :star: [**Hagezi's Pro++ Mini List**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.plus.mini.txt) (88k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt&title=Hagezi%20Pro%20Plus%20Mini)
-<br> Hagezi's [Pro++ DNS List](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#proplus) inspired the creation of a mini version optimized for web browsers. This streamlined list omits rules unrelated to web surfing, such as those blocking IoT tracking and device telemetry. Although derived from an all-purpose DNS blocklist, the mini version focuses exclusively on blocking domains associated with ads, tracking, analytics, and badware. [read more](https://github.com/hagezi/dns-blocklists/issues/2346)
-
-4) [**Hagezi's Light DNS Blocklist**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/light.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt&title=Hagezi%20Light%20DNS%20Blocklist)
-<br> Hagezi's blocklist includes ad and tracker domains seen on the top website lists (Umbrella, Cloudflare, Tranco, Majestic, etc.) and extracted domains from DNS wildcard rules. This is the core of Hagezi’s other primary DNS blocklists, which are much larger and more appropriate for DNS-level blocking.
+3) :star: [**Hagezi Pro mini**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) (78k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt&title=Hagezi%20Pro%20mini)
+<br> A smaller version of the [Hagezi Pro DNS blocklist](https://github.com/hagezi/dns-blocklists#pro) optimized for web browsers (78k vs. 159k rules). The streamlined list excludes rules not pertinent to web browsing, like those blocking [IoT tracking](https://ovic.vic.gov.au/privacy/resources-for-organisations/internet-of-things-and-privacy-issues-and-challenges/#introduction) and [device telemetry](https://stackify.com/telemetry-tutorial/). This mini version blocks domains associated with ads, tracking, analytics, and badware.
 
 ### URL Tracking Parameters
 
-Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. If you find websites with tracking parameters or experience breakage, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
+Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. These filter lists automatically remove tracking elements from URLs to protect your privacy when browsing the Internet.
+
+> [!TIP]
+> If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 
 1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=URL%20Shortener%20Tool)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022.
@@ -178,10 +178,9 @@ In addition to the default lists, you should also enable:
 4. uBlock filters - Annoyances (anti-adblock messages)
 
 #### Custom lists
-1. Hagezi's Light DNS Blocklist
-2. yokoffing's click2load filters
-3. Actually Legitimate URL Shortener Tool
-4. The [Security lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
+1. yokoffing's click2load filters
+2. Actually Legitimate URL Shortener Tool
+3. The [Security lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security) (if you browse high-risk categories like torrents, piracy, and third-party streaming sites, or want more peace of mind, etc.)
 
 ***
 
@@ -204,7 +203,7 @@ In addition to the default lists, you should also enable:
 
 #### Custom lists
 1. Privacy Essentials
-2. Hagezi's Pro++ Mini List
+2. Hagezi's Pro Mini
 3. Actually Legitimate URL Shortener Tool
 4. yokoffing's Annoyance List (+ any of the other [Annoyance lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances))
 5. Most Abused TLDs (optional)
