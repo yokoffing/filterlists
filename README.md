@@ -30,7 +30,7 @@
     2) [Pro](https://github.com/yokoffing/filterlists?tab=readme-ov-file#pro)
     3) [Optimized](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized)
 3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists?tab=readme-ov-file#block-content-with-fewer-rules)
-    1) [Selectively Disable Cosmetic Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#selectively-disable-cosmetic-filters)
+    1) [Disable Cosmetic Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#disable-cosmetic-filters)
     2) [Optimized Lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized-lists)
 4) [Advanced Settings](https://github.com/yokoffing/filterlists?tab=readme-ov-file#advanced-settings)
 5) [FAQ](https://github.com/yokoffing/filterlists?tab=readme-ov-file#faq)
@@ -88,7 +88,7 @@ To import custom filters into AdBlock:
 ## Privacy
 
 1) :star: [**Privacy Essentials**](https://github.com/yokoffing/filterlists/blob/main/privacy_essentials.txt) (1k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/privacy_essentials.txt&title=privacy%20essentials)
-<br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in **Annoyances** lists.
+<br> A curated list for advanced hardening. Includes [click2load](https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt) filters<sup>*[^what is this?](https://twitter.com/gorhill/status/1377613392559636486)*</sup> and blocks requests like `connect.facebook.com` and more that are [not covered](https://github.com/gorhill/uBlock/wiki/uBlock-and-others:-Blocking-ads,-trackers,-malwares#observations) by uBO's default settings or in Annoyances lists.
 
 > [!WARNING]
 > **Privacy Essentials** may prevent you from logging into sites using Facebook, Google, or other third-party accounts.
@@ -115,7 +115,10 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 ### Fonts
 
 1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
-<br> This filter blocks fonts from third-party domains, which improves page load speed and protects your privacy. There are built-in exceptions to minimize site issues, such as allowing for font icons. Overall, it's more flexible than blocking all third-party fonts outright (e.g., `$font,3p`). Note that this list will break the "look and feel" of some sites.
+<br> This filter blocks fonts from third-party domains, which improves page load speed and protects your privacy. There are built-in exceptions to minimize site issues, such as allowing for font icons. Overall, it's more flexible than blocking all third-party fonts outright (e.g., `$font,3p`).
+
+> [!NOTE]
+> Blocking web fonts will affect the "look and feel" of some sites.
  
 ## Annoyances
 
@@ -197,7 +200,7 @@ In addition to the default lists and everything under the [Enhanced setup](https
 
 #### Custom lists
 1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
-2. Hagezi's Pro Mini
+2. Hagezi Pro Mini
 3. (optional) Block third-party fonts
 4. yokoffing's Annoyance List
 5. Browse websites without logging in
@@ -217,15 +220,62 @@ Replace one-for-one with [Optimized Lists](https://github.com/yokoffing/filterli
 
 # Block Content with Fewer Rules
 
-## Selectively Disable Cosmetic Filters
+## Filter Types
+Modern websites often have ads, cookie banners, newsletter pop-ups, social media icons, or any combination of these annoyances. [Cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) hide visual nuisances from the page that can't be blocked with [network filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#network-filters). But there is also a third category.
 
-One way to improve performance without compromising security or privacy is to disable [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) on specific sites. Cosmetic filtering (aka element hiding) hides visual nuisances from the page that can't be blocked with [network filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#network-filters). Turning off cosmetic filtering when the webpage doesn't need it reduces your device's [workload](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests.
+Unique to [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Resources-Library) and [AdGuard](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md) are a method of filtering called scriplets. They are small scripts that allow the content blocker to perform customized actions on websites, beyond just blocking elements. Scripts are small code snippets written in JavaScript, which perform certain functions.
 
-What's more, disabling the filters on specific sites provides more flexibility than [disabling cosmetic filters everywhere by default](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering:~:text=To-,disable%20cosmetic%20filtering%20everywhere%20by%20default,-%2C%20go%20to%20the) and then re-enabling them for most sites. It made sense 10+ years ago to disable cosmetic filtering by default and only enable it for sites that needed extra coverage. Not so much now.
+This is where a powerful ad blocker like uBO or AdGuard shines, as they can block pop-ups on videos when you click them and other instrusive ads, whereas basic ad blockers only support the bare minimum of network and cosmetic filtering. You'll usually find these in built-in browser ad blockers. (I'm looking you Opera, Vivaldi, and Orion.)
 
-Modern websites often have ads, cookie banners, newsletter pop-ups, or a combination of these annoyances. Effective ad blocking now requires the cosmetic filters in **Ads** and **Annoyances** lists to remove these elements. Most devices, including [mobile devices](https://github.com/gorhill/uBlock/commit/7a768e7b1a), can handle cosmetic filtering without significant performance issues.
+## Disable Cosmetic Filters
+Effective ad blocking now requires cosmetic filters in Ads and Annoyances lists to remove these elements. Most devices, including [mobile devices](https://github.com/gorhill/uBlock/commit/7a768e7b1a), can handle cosmetic filtering without significant performance issues.
 
-For a webpage where uBO seems unnecessary, [turn off cosmetic filtering for the site](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering). This action still protects you from security and privacy risks by blocking unwanted network requests but reduces the overhead on less powerful devices during page load.
+However, turning off cosmetic filtering when the webpage doesn't need it reduces your device's [workload](https://github.com/gorhill/uBlock/wiki/Doesn't-uBlock-Origin-add-overhead-to-page-load%3F) while still blocking unwanted network requests.
+
+### Option 1: Turn off cosmetic filters globally
+The most optimal way to improve performance without compromising security or privacy is to disable [cosmetic filtering](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) everywhere, and then enable it on sites where it's needed. This action still protects you from security and privacy risks by blocking unwanted network requests but reduces the overhead on less powerful devices during page load.
+
+When I was testing this feature, I was amazed at how many ads and annoyances were blocked by network filters and scriplets alone. They do most of the heavy work on non-video sites. However, there are plenty of invasive sites where cosmetic filtering is needed.
+
+#### Instructions
+To [disable cosmetic filtering everywhere](https://github.com/gorhill/uBlock/wiki/Per-site-switches#no-cosmetic-filtering:~:text=To-,disable%20cosmetic%20filtering%20everywhere%20by%20default,-%2C%20go%20to%20the), go to the **Settings** pane in the dashboard. Under the **Default behavior** heading, check the option **Disable cosmetic filtering**.
+
+From then on, cosmetic filtering will be turned off everywhere by default. To enable it for a specific site where it is really needed, click the "eye" icon in uBO's panel.
+
+For sites where you already know that you want to block visual elements, such as traditional search, video streaming, and news sites, you can go to the **Settings** pane in the dashboard and click on the **My rules** tab. Then, under **Temporary rules**, you can enter something like this:
+
+```
+no-cosmetic-filtering: bing.com false
+no-cosmetic-filtering: cnn.com false
+no-cosmetic-filtering: google.com false
+no-cosmetic-filtering: twitch.tv false
+no-cosmetic-filtering: youtube.com false
+```
+
+Select **Save** and then **Commit**.
+
+To enable cosmetic filtering when you're on the site, click the uBO icon in your browser toolbar and click the "eye" icon and then the "lock" icon.
+
+It took less than a few browsing sessions to re-enable cosmetic filtering for ad-heavy sites that I visit reguarly. But I was generally impressed with how uBO's network filters and scriplets took care of a lot annoyances using my suggested [Enhanced](https://github.com/yokoffing/filterlists?tab=readme-ov-file#enhanced) setup.
+
+### Option 2: Selectively disable cosmetic filters
+Another way to go about this is to disable [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) on only specific sites.
+
+For a webpage where uBO seems unnecessary, turn off cosmetic filtering for the site. Disabling cosmetic filters on specific sites is more flexible than allowing cosmetic filters everywhere by default. However, it requires you to 1) assess a site and 2) remember to disable them. This method is also less of a net benefit for your device's performance.
+
+#### Instructions
+In general, you'll want to disable cosmetic filtering for small blogs, benchmarking sites, government sites, and any other unobstrusive pages. If you already have a good idea of what those are, you can go to the **Settings** pane in the dashboard and click on the **My rules** tab. Then, under **Temporary rules**, you can enter something like this:
+
+```
+no-cosmetic-filtering: basicappleguy.com true
+no-cosmetic-filtering: browserbench.org true
+no-cosmetic-filtering: fda.gov true
+no-cosmetic-filtering: pluralistic.net true
+```
+
+Select **Save** and then **Commit**.
+
+More often, however, you'll disable cosmetic filtering for a site by clicking the uBO icon in your browser toolbar, selecting the "eye" icon and then the "lock" icon.
 
 ## Optimized Lists
 
