@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ❌ Adult Annoyances List
 ! Description: Block annoyances on adult sites
-! Updated: 25 March 2024
+! Updated: 3 May 2024
 ! License: https://creativecommons.org/licenses/by/3.0/
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
@@ -26,6 +26,7 @@
 ||faxifa.xyz^
 ||nutaku.com^
 ||xhamsterlive.com$subdocument
+||myvidster.com/ads$image
 
 ! Generic cosmetic filters
 ##.b-thumb-col
@@ -49,6 +50,9 @@
 manporn.xxx#@#.adv-sidebar
 
 ! Cosmetic filters
+429men.com##.fp-brand
+wankoz.com##.container-aside, .related-videos
+gay4porn.com###list_videos_recommended_videos
 starwank.com##.zblurb
 urgayporn.com##.card-section-model.card-section, .show-more-btn
 promo/banners$domain=www.nuvid.com,image
