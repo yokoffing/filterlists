@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 March 2024
+! Version: 3 May 2024
 ! Syntax: AdBlock
 
 ! EDU
@@ -29,6 +29,8 @@ old.reddit.com##.comment[data-author="AutoModerator"]
 old.reddit.com##.comment[data-author*="bot"]
 ! To hide any mod
 ! old.reddit.com##.comment:has(.entry .tagline .moderator)
+! Hide Moderator section
+www.reddit.com###moderation_section
 
 ! YOUTUBE
 ! Hide recommendation sidebar
@@ -91,3 +93,6 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
+
+! Hide Video Overlay - endscreen
+||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
