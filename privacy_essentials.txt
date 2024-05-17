@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 29 March 2024
+! Version: 17 May 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -459,11 +459,11 @@ fmovies.*##+js(nosiif, try)
 @@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
-||api.twitter.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
-||platform.twitter.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
-||twitter.com^$3p
+||api.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
+||platform.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
+||twitter.com^$3p,domain=~x.com
 ||syndication.twitter.com^
-||t.co^$3p,domain=~twitter.com
+||t.co^$3p,domain=~x.com|~twitter.com
 !#if ext_ublock
 platform.twitter.com##+js(cookie-remover, /^/)
 ! Attempt to use uBO to remove cookies caused by Twitter
