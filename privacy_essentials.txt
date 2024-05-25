@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 17 May 2024
+! Version: 24 May 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -641,7 +641,6 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! https://connatix.com/advertisers
 ||neverbounce.com^$3p
-||greenhouse.io^$3p
 
 ! Outbrain
 ||outbrain.com^$3p,domain=~sphere.com
