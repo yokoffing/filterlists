@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 2 June 2024
+! Version: 5 June 2024
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -43,6 +43,7 @@
 ||player.twitch.tv/$3p,frame,redirect=click2load.html
 ||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~openai.com|~video.search.yahoo.com|~window-swap.com
 ||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
+||podbean.com/player-v2/$3p,frame,redirect=click2load.html
 ||quizlet.com/$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
 ||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
@@ -56,6 +57,7 @@
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
 ||twitch.tv^$3p,frame,redirect=click2load.html
+||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
