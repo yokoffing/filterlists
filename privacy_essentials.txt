@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 24 May 2024
+! Version: 11 June 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -262,7 +262,6 @@ $ping
 ||share.qvcemail.com^
 ||shutterstock.com^$3p
 ||simplecast.com^$3p
-||sinclairstoryline.com^$3p
 ||sitebot.ai^$3p
 ||skiocheck.com^$3p
 ||slack.com/api/promo.banner^
