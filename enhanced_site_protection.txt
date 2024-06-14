@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 2 January 2024
+! Version: 14 June 2024
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -43,7 +43,11 @@
 ! https://www.reddit.com/r/firefox/comments/17p68i7/set_networkidn_show_punycodetrue_to_protect/
 ||xn--$doc,frame
 
-!!! from https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+!!! Scam sites
+! https://github.com/yokoffing/filterlists/issues/147
+||rundfunkbeitrag.de
+
+!!! Credit for everything below goes to https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
 /^https:\/\/[-0-9a-z]{12,19}\.(?:com|life)\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=S1/$doc,domain=com|life
 
 ! very few legit things come in password-protected archives, and even fewer of them come in password protected archives with the password in the filename
