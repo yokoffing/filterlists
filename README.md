@@ -13,7 +13,7 @@
 
 ***
 
-# Recommended Filters for uBlock Origin
+# Recommended filters for uBlock Origin
 
 ![uBO lists May 2024](https://github.com/yokoffing/filterlists/assets/11689349/f1925d65-963f-4bb8-aebf-d083ee5f9825)
 
@@ -24,27 +24,29 @@
 
 # Block YouTube ads
 * uBlock Origin on Firefox should be okay.
-* If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite) on a Chromium browser, set **filtering mode** to **complete** for `youtube.com` and any other ad-invasive site.
+* If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite), open the popup panel and set the filtering mode to **Complete** on `youtube.com` and any other ad-invasive site.
+   * For more info, see our [new section](https://github.com/yokoffing/filterlists?tab=readme-ov-file#ublock-origin-lite) on uBlock Origin Lite.
 
 ***
 
 ### Content
-1) [Add Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
+1) [Add custom filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
     1) [Privacy](https://github.com/yokoffing/filterlists?tab=readme-ov-file#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security)
     4) [All-Purpose](https://github.com/yokoffing/filterlists?tab=readme-ov-file#all-purpose)
-2) [Setup Examples](https://github.com/yokoffing/filterlists?tab=readme-ov-file#setup-examples)
+2) [Examples](https://github.com/yokoffing/filterlists?tab=readme-ov-file#setup-examples)
     1) [Enhanced](https://github.com/yokoffing/filterlists?tab=readme-ov-file#enhanced)
     2) [Pro](https://github.com/yokoffing/filterlists?tab=readme-ov-file#pro)
     3) [Optimized](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized)
-3) [Block Content with Fewer Rules](https://github.com/yokoffing/filterlists?tab=readme-ov-file#block-content-with-fewer-rules)
-    1) [Disable Cosmetic Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#disable-cosmetic-filters)
-    2) [Optimized Lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized-lists)
-4) [Advanced Settings](https://github.com/yokoffing/filterlists?tab=readme-ov-file#advanced-settings)
-5) [FAQ](https://github.com/yokoffing/filterlists?tab=readme-ov-file#faq)
-6) [Additional Reading](https://github.com/yokoffing/filterlists?tab=readme-ov-file#reading)
-7) [Mentions](https://github.com/yokoffing/filterlists?tab=readme-ov-file#mentions)
+3) [Mobile adblocking: block content with fewer rules](https://github.com/yokoffing/filterlists?tab=readme-ov-file#block-content-with-fewer-rules)
+    1) [Disable cosmetic filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#disable-cosmetic-filters)
+    2) [Optimized lists](https://github.com/yokoffing/filterlists?tab=readme-ov-file#optimized-lists)
+4) [Advanced settings](https://github.com/yokoffing/filterlists?tab=readme-ov-file#advanced-settings)
+5) [uBlock Origin Lite](https://github.com/yokoffing/filterlists?tab=readme-ov-file#ublock-origin-lite)
+6) [FAQ](https://github.com/yokoffing/filterlists?tab=readme-ov-file#faq)
+7) [Additional reading](https://github.com/yokoffing/filterlists?tab=readme-ov-file#reading)
+8) [Mentions](https://github.com/yokoffing/filterlists?tab=readme-ov-file#mentions)
 
 ***
 
@@ -349,6 +351,38 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 | `cnameMaxTTL`                   | `720`       | cache CNAME aliases for `x` minutes                                                                  |
 | `filterAuthorMode`              | `true`      | enable [Dynamic Filtering](https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide)    |
 | `updateAssetBypassBrowserCache` | `true`      | bypass cache when manually fetching a filter list more often than every hour                         |
+
+***
+
+# uBlock Origin Lite
+
+[uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite) (uBOL) is a lightweight browser extension that blocks unwanted content on websites.
+
+The extension works efficiently by letting the browser do the heavy lifting, which means uBOL doesn't slow down your browsing experience or drain your device's resources.
+
+**After June 2024, Google Chrome users must switch to uBOL** due to changes in Chrome's extension platform. Users of other Chromium-based browsers like Microsoft Edge, Opera, and Vivaldi will likely need to make the same change soon after.
+
+uBOL has limited blocking capabilities because it doesn't ask for broad permissions to access and change website data. However, you can grant uBOL extra permissions to improve its blocking performance.
+
+### Default filtering mode
+
+To change uBOL's [default filtering mode](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=You%20can%20set%20the%20default%20filtering%20mode%20from%20uBOL%27s%20options%20page), follow these steps:
+
+1. Open uBOL's popup panel by clicking on its icon in your browser's toolbar.
+2. Click on the cogwheel icon (⚙️) to access the dashboard.
+3. Choose either **Optimal** or **Complete**.
+
+For the best balance between blocking unwanted content and low resource usage, set the default mode to **Optimal**. This will ensure better overall blocking performance without significantly impacting your browsing experience.
+
+If you don't want to fiddle with the settings ever again and aren't concerned about resource usage, then choose **Complete**.
+
+### Specific websites
+
+For sites with heavy ad-injection, like YouTube, you will need to open uBOL's popup panel and choose **Complete** to block unwanted content.
+
+To do this, [open uBOL's popup panel](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=To%20grant%20extended%20permissions%20on%20a%20given%20site%2C%20open%20the%20popup%20panel) on the site you're on and and set the filtering mode to **Complete**.
+
+You can also lower the filtering mode for a site by moving the slider to **Basic** or **No Filtering**.
 
 ***
 
