@@ -18,9 +18,18 @@
 ![uBO lists May 2024](https://github.com/yokoffing/filterlists/assets/11689349/f1925d65-963f-4bb8-aebf-d083ee5f9825)
 
 ***
+# Block Twitch ads
+
+* I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) userscript. This helps uBlock Origin block server-side ads.
+
+# Block YouTube ads
+* uBlock Origin on Firefox should be okay.
+* If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite) on a Chromium browser, set **filtering mode** to **complete** for `youtube.com` and any other ad-invasive site.
+
+***
 
 ### Content
-1) [How To Add Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
+1) [Add Custom Filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
     1) [Privacy](https://github.com/yokoffing/filterlists?tab=readme-ov-file#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security)
@@ -39,10 +48,10 @@
 
 ***
 
-# How To Add Custom Filters
+# How to Add Custom Filters
 
 ### uBlock Origin
-[Get](https://ublockorigin.com/) uBlock Origin (uBO), if you don't have it already.
+[Get uBlock Origin](https://ublockorigin.com/) (uBO), if you don't have it already.
 
 To import custom filters into uBlock Origin:
 
@@ -53,7 +62,7 @@ To import custom filters into uBlock Origin:
 > [!NOTE]
 > This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
 
-<details><summary>Other ad blockers</summary>
+**<details><summary>Click me to view instructions for other ad blockers</summary>**
     
 ### AdGuard
 To import custom filters into AdGuard:
@@ -103,14 +112,14 @@ To import custom filters into AdBlock:
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. These filter lists automatically remove tracking elements from URLs to protect your privacy when browsing the Internet.
 
-> [!TIP]
-> If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
-
 1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
 <br> This list is just the rules from the ClearURLs extension converted into a filterlist.
+
+> [!TIP]
+> If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
 
 ### Fonts
 
