@@ -20,10 +20,15 @@
 ***
 # Block Twitch ads
 
-* I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) userscript. This helps uBlock Origin block server-side ads.
+For Twitch adblock, I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) userscript. This helps uBlock Origin block server-side ads.
+
+You can also use Tampermonkey as a Twitch adblock solution.
 
 # Block YouTube ads
-* uBlock Origin on Firefox should be okay.
+
+Adblock not working on YouTube?
+
+* uBlock Origin on Firefox should be okay. If adblock is no longer working on YouTube, check the [subreddit](https://www.reddit.com/r/uBlockOrigin/).
 * If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite), open the popup panel and set the filtering mode to **Complete** on `youtube.com` and any other ad-invasive site.
    * For more info, see our [new section](https://github.com/yokoffing/filterlists?tab=readme-ov-file#ublock-origin-lite) on uBlock Origin Lite.
 
@@ -366,7 +371,7 @@ uBOL has limited blocking capabilities because it doesn't ask for broad permissi
 
 ### Default filtering mode
 
-To change uBOL's [default filtering mode](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=You%20can%20set%20the%20default%20filtering%20mode%20from%20uBOL%27s%20options%20page), follow these steps:
+To change uBOL's [default filtering mode](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=You%20can%20set%20the%20default%20filtering%20mode%20from%20uBOL%27s%20options%20page):
 
 1. Open uBOL's popup panel by clicking on its icon in your browser's toolbar.
 2. Click on the cogwheel icon (⚙️) to access the dashboard.
@@ -380,7 +385,12 @@ If you don't want to fiddle with the settings ever again and aren't concerned ab
 
 For sites with heavy ad-injection, like YouTube, you will need to open uBOL's popup panel and choose **Complete** to block unwanted content.
 
-To do this, [open uBOL's popup panel](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=To%20grant%20extended%20permissions%20on%20a%20given%20site%2C%20open%20the%20popup%20panel) on the site you're on and and set the filtering mode to **Complete**.
+To change the filtering level for a specific site:
+
+1. Navigate to the site (if you haven't already).
+2. Open uBOL's [popup panel](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite:~:text=To%20grant%20extended%20permissions%20on%20a%20given%20site%2C%20open%20the%20popup%20panel) on the site you're on.
+3. Set the filtering mode to **Complete**.
+4. The page will refresh and the changes will automatically take effect.
 
 You can also lower the filtering mode for a site by moving the slider to **Basic** or **No Filtering**.
 
@@ -390,6 +400,10 @@ You can also lower the filtering mode for a site by moving the slider to **Basic
 
 ### Which browser works best with uBO?
 [uBlock Origin](https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/) works [best](https://github.com/gorhill/uBlock/wiki/uBlock-Origin-works-best-on-Firefox) in Mozilla Firefox. The features supported only on [Firefox](https://www.mozilla.org/en-US/firefox/new/) include preventing unwanted [DNS requests](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#disable-prefetching) and CNAME [uncloaking](https://github.com/gorhill/uBlock/wiki/Dashboard:-Settings#uncloak-canonical-names).
+
+Starting June 2024, Google Chrome's extension platform will undergo changes that require users to transition from uBlock Origin (uBO) to uBO Lite (uBOL). It's expected that other Chromium-based browsers like Microsoft Edge, Opera, and Vivaldi, will follow suit shortly after.
+
+###  uBlock Origin Lite ?
 
 ### Should I use a content blocker if I have Pihole, NextDNS, ControlD, etc.?
 uBlock Origin can [do more](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) compared to when only blocking requests at the DNS-level, like using [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.<sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
