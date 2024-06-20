@@ -403,8 +403,6 @@ You can also lower the filtering mode for a site by moving the slider to **Basic
 
 Starting June 2024, Google Chrome's extension platform will undergo changes that require users to transition from uBlock Origin (uBO) to uBO Lite (uBOL). It's expected that other Chromium-based browsers like Microsoft Edge, Opera, and Vivaldi, will follow suit shortly after.
 
-###  uBlock Origin Lite ?
-
 ### Should I use a content blocker if I have Pihole, NextDNS, ControlD, etc.?
 uBlock Origin can [do more](https://github.com/gorhill/uBlock/wiki/About-%22Why-uBlock-Origin-works-so-much-better-than-Pi%E2%80%91hole-does%3F%22) compared to when only blocking requests at the DNS-level, like using [cosmetic filters](https://github.com/gorhill/uBlock/wiki/Does-uBlock-Origin-block-ads-or-just-hide-them%3F#cosmetic-filters) to hide first-party ads (e.g., [YouTube ads](https://discourse.pi-hole.net/t/how-do-i-block-ads-on-youtube/253)), [ad-placeholders](https://www.dslreports.com/forum/r33005057-How-to-block-the-spaces-taken-up-by-blocked-ads), web [annoyances]((https://reddit.com/r/nextdns/comments/t8qn8c/comment/hzqrrfa/?context=3)), etc.<sup>[1](https://help.nextdns.io/t/x2hzbps/using-nextdns-why-is-ublock-origin-still-catching-lots-of-ads)</sup>
 
