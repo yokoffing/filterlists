@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 3 May 2024
+! Version: 21 June 2024
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -1050,12 +1050,12 @@ twitter.com,x.com#?#div[role=group]:has(div[data-testid*=apple_sign_in]:only-of-
 twitter.com,x.com##.js-signup-call-out
 ! Twitter Mobile
 !! Aims to remove the login overlay prompt when browsing down an account's timeline
-mobile.twitter.com##.rn-13w96dm
-mobile.twitter.com##.rn-1kihuf0.rn-1awozwy
+mobile.twitter.com,,x.com##.rn-13w96dm
+mobile.twitter.com,,x.com##.rn-1kihuf0.rn-1awozwy
 !#if !adguard
 ! https://mobile.twitter.com/nasuno_Posi
 !! Removes the "Are you new on Twitter?" banner in the upper right of user timelines (Screen area has to be ≥~1400px wide)
-mobile.twitter.com##div[data-testid=sidebarColumn] section[aria-label][role=region]
+mobile.twitter.com,,x.com##div[data-testid=sidebarColumn] section[aria-label][role=region]
 !#endif
 
 ! BING
