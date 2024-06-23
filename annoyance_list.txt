@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 June 2024
+! Version: 23 June 2024
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -998,40 +998,40 @@ twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[ari
 
 ! [User] follows
 ! https://github.com/yokoffing/filterlists/issues/122#issuecomment-1828512994
-! twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
+! x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
 ! Follow/Recommended Topic | "[Name of Topic] See more"
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
 ! More Tweets
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
 ! Sidebar - Topics to follow
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
 ! Sidebar - Trending now/Trends for you
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="trending now" i]
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="trending now" i]
 ! Sidebar - Who to follow/You might like
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="who to follow" i]:upward(1)
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="who to follow" i]:upward(1)
 ! Sidebar - Relevant people
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="relevant people" i]:upward(1)
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="relevant people" i]:upward(1)
 ! Login popup
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
 !twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: auto !important;)
 ! from https://github.com/DandelionSprout/adfilt/blob/master/TwitterPureReadingExperience.txt
 ! Removes login nags
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
 !#if !adguard
 ! https://mobile.twitter.com/nasuno_Posi
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] section[aria-label][role=region]
+x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] section[aria-label][role=region]
 !#endif
 ! Promoted (Nov 2022)
 ! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
-twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
+x.com,twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
 
 ! Source: https://github.com/DandelionSprout/adfilt/commit/1efdbabb361af4dd05a24cf766d1dafc723ab02f
 !! Removes a "See What's Happening" prompt at the bottom of some tweet chains
 twitter.com,x.com#?#div[data-testid=primaryColumn] div:has(> div > div > a[href="/login"])
 !! Removes a login prompt when visiting "/intent/follow"-type links in mobile environments
 ! https://twitter.com/intent/follow?screen_name=mesitsu (13/04/2020)
-mobile.twitter.com,mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#a[href="/i/flow/signup"][dir=auto][role=link][data-focusable=true]:upward(7)
+x.com,mobile.twitter.com,mobile.twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?#a[href="/i/flow/signup"][dir=auto][role=link][data-focusable=true]:upward(7)
 !#if env_mobile
 twitter.com,x.com#?#a[href="/i/flow/signup"][dir=auto][role=link][data-focusable=true]:upward(7)
 !#endif
@@ -1050,12 +1050,12 @@ twitter.com,x.com#?#div[role=group]:has(div[data-testid*=apple_sign_in]:only-of-
 twitter.com,x.com##.js-signup-call-out
 ! Twitter Mobile
 !! Aims to remove the login overlay prompt when browsing down an account's timeline
-mobile.twitter.com,,x.com##.rn-13w96dm
-mobile.twitter.com,,x.com##.rn-1kihuf0.rn-1awozwy
+mobile.twitter.com,x.com##.rn-13w96dm
+mobile.twitter.com,x.com##.rn-1kihuf0.rn-1awozwy
 !#if !adguard
 ! https://mobile.twitter.com/nasuno_Posi
 !! Removes the "Are you new on Twitter?" banner in the upper right of user timelines (Screen area has to be ≥~1400px wide)
-mobile.twitter.com,,x.com##div[data-testid=sidebarColumn] section[aria-label][role=region]
+mobile.twitter.com,x.com##div[data-testid=sidebarColumn] section[aria-label][role=region]
 !#endif
 
 ! BING
