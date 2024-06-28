@@ -35,7 +35,7 @@ Adblock not working on YouTube?
 ***
 
 ### Content
-1) [Add custom filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
+1) [How to add custom filters](https://github.com/yokoffing/filterlists?tab=readme-ov-file#how-to-add-custom-filters)
     1) [Privacy](https://github.com/yokoffing/filterlists?tab=readme-ov-file#privacy)
     2) [Annoyances](https://github.com/yokoffing/filterlists?tab=readme-ov-file#annoyances)
     3) [Security](https://github.com/yokoffing/filterlists?tab=readme-ov-file#security)
@@ -55,7 +55,10 @@ Adblock not working on YouTube?
 
 ***
 
-# How to Add Custom Filters
+# How to add custom filters
+
+> [!NOTE]
+> This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
 
 ### uBlock Origin
 [Get uBlock Origin](https://ublockorigin.com/) (uBO), if you don't have it already.
@@ -65,11 +68,6 @@ To import custom filters into uBlock Origin:
 1. Click the **subscribe** link by one of the entries below.
 2. In the new tab that opens, click on **Subscribe** in the top right corner.
 3. Close tab, then repeat for other lists you want to add to uBO.
-
-> [!NOTE]
-> This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
-
-**<details><summary>Click me to view instructions for other ad blockers</summary>**
     
 ### AdGuard
 To import custom filters into AdGuard:
@@ -96,8 +94,6 @@ To import custom filters into AdBlock:
 2. In GitHub, click `Raw` on the right-hand side of the page.
 3. Copy+paste the URL to your preferred ad blocker.
 4. Follow your ad blocker's instructions for adding custom lists.
-
-</details>
 
 ***
 
