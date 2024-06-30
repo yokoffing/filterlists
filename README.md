@@ -87,6 +87,15 @@ To import custom filters into AdBlock:
 1. Click the **subscribe** link by one of the entries below.
 2. In the dialog box that pops up, press **OK**.
 
+### Brave Browser
+Add your own custom filter lists from different sources just copying/pasting the RAW URL and pressing save changes. **Do not use the subscribe link.**
+
+1. Click on the title of the list from the selections in this repo.
+2. On GitHub, select `Raw` on the right-hand side of the page.
+3. Copy the URL.
+4. In a separate tab, go to `brave://adblock` in the URL bar.
+5. Under **Add custom filter lists**, paste the URL and select **Add**.
+
 ### Other ad blockers
 **Do not use the subscribe link.** Instead, do the following:
 
