@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 15 June 2024
+! Version: 4 July 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -587,26 +587,6 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||dc.services.visualstudio.com/v2/track$badfilter,domain=outlook.office.com
 ||virtualearth.net/webservices/v*/loggingservice/loggingservice.svc/log?entry=$badfilter,domain=outlook.office.com
 
-! EasyPrivacy exceptions
-! https://github.com/easylist/easylist/issues/4023
-@@||instant.page^$3p
-
-! from https://raw.githubusercontent.com/Yuki2718/adblock/master/medium_mode/anti-allowlist.txt
-! EL
-/prebid1.$important,domain=9to5google.com|9to5mac.com|9to5toys.com|electrek.co|dronedj.com
-||accuweather.com/bundles/prebid.$important
-! May cause sign-in trouble for US IP
-||eventcom.api.np.km.playstation.net/event^$important
-||g.doubleclick.net/tag/js/gpt.js$important,domain=accuweather.com
-||networkworld.com/www/js/ads/$important
-@@||clients*.google.com/adsense/*?key=$domain=~calcalist.co.il|~gaytube.com|~mako.co.il|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~walla.co.il|~xtube.com|~ynet.co.il|~youjizz.com|~youporn.com|~youporngay.com,badfilter
-
-! EP
-||omtrdc.net/rest/$important
-||smetrics.aem.playstation.com^$important
-||walmart.com^*/logger^$xhr,important
-@@||s.yimg.com^*/advertisement/sponsor/promo/ad.png$image,domain=news.yahoo.com,badfilter
-
 ! NYT
 ! ||myaccount.nytimes.com^
 ||messaging-notifications.api.nytimes.com^
@@ -629,14 +609,6 @@ www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolde
 
 ! https://github.com/easylist/easylist/issues/16298
 ||connatix.com/scripts^
-!||connatix.com/scripts/facebook-pixel-script.js
-!||connatix.com/scripts/gaconnector.js
-!||connatix.com/scripts/microsoft-ad-script.js
-!||connatix.com/scripts/munchkin-script.js
-!||connatix.com/scripts/hotjar.js
-!||connatix.com/scripts/websights-script.js
-!||connatix.com/scripts/mkt-cke-script.js
-!||connatix.com/scripts/linkedin-script.js
 
 ! https://connatix.com/advertisers
 ||neverbounce.com^$3p
