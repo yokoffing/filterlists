@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 23 June 2024
+! Version: 4 July 2024
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -990,41 +990,68 @@ www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
 !#endif
 
 ! TWITTER
-! [Nov 2023] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
+! [July 2024] from https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_twitter
+
+! Follow/Recommended Topic | "[Name of Topic] See more"
+twitter.com,x.com##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
+! You might like (Suggested tweet)
+twitter.com,x.com##article [d$="2.66 6 1H5z"]:upward(article)
 ! My Timeline - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+twitter.com,x.com##[aria-label="Timeline: Your Home Timeline"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:first-child:has-text(/^Show \d\d? Tweets?$/)):not(:has(article, [href^="/i/status/"], [role="progressbar"]))
 ! Other Timelines - no inserted sections (Who to follow/Topics to follow, etc.)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="’s posts"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+twitter.com,x.com##[aria-label$="’s posts"] div[style^="transform: translateY"][style*="position: absolute;"]:not(:has(article, [href^="/i/status/"], [role="progressbar"]))
+
+! Analytics/Views button on tweets
+twitter.com,x.com##article [role=group] [href$="/analytics"]:upward(div:not(:only-child))
+! Views - the new placement in conversation view
+twitter.com,x.com##[aria-label="Timeline: Conversation"] [href*="/status/"] ~ span
 
 ! [User] follows
-! https://github.com/yokoffing/filterlists/issues/122#issuecomment-1828512994
-! x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
-! Follow/Recommended Topic | "[Name of Topic] See more"
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##article [aria-label^="Follow Topic"], article [aria-label^="Recommended Topic"]:upward(article)
-! More Tweets
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="Timeline: Conversation"] h2>div>span:has-text(/^More Tweets$/):upward([style^="transform"])~div
+twitter.com,x.com##article div>svg>g>[d^="M17.863 13.44c1.477"]:upward(article)
+! [User] liked
+twitter.com,x.com##article>div:first-child>div:first-child>div:first-child>div:first-child [d$="4.17-.514 6.67z"]:upward(article)
+! [User] Retweeted
+twitter.com,x.com##:is([aria-label="Timeline: Your Home Timeline"], [aria-label$="’s posts"]) article>div:first-child>div:first-child>div:first-child>div:first-child [d^="M4.75 3.79l4.603"]:upward(article):not(:has([data-testid="socialContext"]:has-text(/^You/)))
+
+! [User] recieved a reply
+twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))
+twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div
+! [User] recieved replies
+twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/))
+twitter.com,x.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"])
+! [User] replied
+twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))
+twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))+div
+
+! "Official" label on posts and profiles
+twitter.com,x.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:last-of-type)
+
+! Like and Retweet counts | Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
+twitter.com,x.com##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
+
+! Discover more / More Tweets - Conversation view suggestions
+twitter.com,x.com##[aria-label="Timeline: Conversation"] :is([data-testid="cellInnerDiv"]:has(h2:not(:only-child)), [data-testid="cellInnerDiv"]:has(h2:not(:only-child))~div)
+
+! Hidden posts - hide "Show additional replies" or "This tweet is from an account you've blocked/muted"
+twitter.com,x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] article [role="button"]:not([aria-label]):upward([data-testid="cellInnerDiv"])
+
+! Get verified
+twitter.com,x.com##[aria-label="Get Verified"]    
+! Live spaces
+twitter.com,x.com##[data-testid="sidebarColumn"] [data-testid="placementTracking"]:last-child:upward(1) 
 ! Sidebar - Topics to follow
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
-! Sidebar - Trending now/Trends for you
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label$="trending now" i]
+twitter.com,x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+! Sidebar - What's happening/Trending now/Trends for you
+twitter.com,x.com##[aria-label$="trending now" i]
 ! Sidebar - Who to follow/You might like
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="who to follow" i]:upward(1)
-! Sidebar - Relevant people
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[aria-label="relevant people" i]:upward(1)
-! Login popup
-!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
-!twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##html:style(overflow: auto !important;)
-! from https://github.com/DandelionSprout/adfilt/blob/master/TwitterPureReadingExperience.txt
-! Removes login nags
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion#?##layers > div[class*=" "]:first-of-type:has(a[href="/i/flow/signup"])
-!#if !adguard
-! https://mobile.twitter.com/nasuno_Posi
-x.com,twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid=sidebarColumn] section[aria-label][role=region]
-!#endif
-! Promoted (Nov 2022)
-! https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
-x.com,twitter.com##[data-testid="tweet"]:has-text(/Promoted$/)
+twitter.com,x.com##[aria-label="who to follow" i]:upward(1)
+
+! Login dialog
+twitter.com,x.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com,x.com##html:style(overflow: auto !important;)
+
+! App suggestion overlay
+twitter.com,x.com###layers>div:last-of-type:has-text(Switch to the app)
 
 ! Source: https://github.com/DandelionSprout/adfilt/commit/1efdbabb361af4dd05a24cf766d1dafc723ab02f
 !! Removes a "See What's Happening" prompt at the bottom of some tweet chains
