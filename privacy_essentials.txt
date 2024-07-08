@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 4 July 2024
+! Version: 8 July 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -502,7 +502,8 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ! ||getcatch.com^$3p
 ||js.getcatch.com^$3p
 ||pay.google.com^$3p
-||appleid.cdn-apple.com^
+||appleid.cdn-apple.com$domain=~apple.com|~icloud.com
+||applepay.cdn-apple.com$domain=~apple.com|~icloud.com
 ||payments-amazon.com^$3p
 ||affirm.com$3p
 ||afterpay.com^$3p
@@ -516,6 +517,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
 ||razorpay.com^$3p
+||quadpay.com^$3p
 ! Blocks Paypal and Express Checkouts using Shopify:
 ! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
