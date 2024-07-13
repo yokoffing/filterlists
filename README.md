@@ -77,7 +77,9 @@ To import custom filters into AdGuard:
 3. Toggle the box that says **Trusted**, then click **Subscribe**.
 
 ### AdBlock Plus
-To import custom filters into Adblock Plus:
+There is a branch specifically for Adblock Plus (ABP) syntax. Check it out [here](https://github.com/Metrokoto/filterlists-abp).
+
+To import custom filters into ABP:
 
 1. Click the **subscribe** link by one of the entries below.
 2. In the new tab that opens, select **Yes, Add This Filter List**.
