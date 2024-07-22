@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 22 July 2024
+! Version: 22 July 2024b
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -1018,6 +1018,7 @@ twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position:
 twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/reply$/))+div
 ! [User] recieved replies
 twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replies$/))
+! https://github.com/yokoffing/filterlists/issues/151
 ! twitter.com,x.com##article>div:first-child:not(:last-child):upward([style*="position: absolute"])
 ! [User] replied
 twitter.com,x.com##article [d$="183-3.51-8.183-8.01z"]:upward([style*="position: absolute"]):has([data-testid="socialContext"]:has-text(/replied$/))
@@ -1028,13 +1029,15 @@ twitter.com,x.com##[src$="/verified_stroke_1.png"]:upward(div:not(:empty)+div:la
 
 ! Like and Retweet counts
 ! Remove ` [data-testid="app-text-transition-container"]` to hide entire buttons
+! https://github.com/yokoffing/filterlists/issues/151
 ! twitter.com,x.com##[data-testid="retweet"] [data-testid="app-text-transition-container"], [data-testid="like"] [data-testid="app-text-transition-container"]
 
 ! Discover more / More Tweets - Conversation view suggestions
 twitter.com,x.com##[aria-label="Timeline: Conversation"] :is([data-testid="cellInnerDiv"]:has(h2:not(:only-child)), [data-testid="cellInnerDiv"]:has(h2:not(:only-child))~div)
 
 ! Hidden posts - hide "Show additional replies" or "This tweet is from an account you've blocked/muted"
-twitter.com,x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] article [role="button"]:not([aria-label]):upward([data-testid="cellInnerDiv"])
+! https://github.com/yokoffing/filterlists/issues/151
+! twitter.com,x.com##[aria-label="Timeline: Conversation"] [data-testid="cellInnerDiv"] article [role="button"]:not([aria-label]):upward([data-testid="cellInnerDiv"])
 
 ! Get verified
 twitter.com,x.com##[aria-label="Get Verified"]    
