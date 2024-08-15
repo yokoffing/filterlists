@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 14 August 2024
+! Version: 14 August 2024b
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -859,7 +859,7 @@ translate.google.com##.notification-area,.gt-cc:remove()
 ! https://www.reddit.com/r/uBlockOrigin/comments/1erm6mn/comment/li3nd3p/?context=3
 new.reddit.com##[data-testid="comment_author_link"][href="/user/AutoModerator/"]:upward(.Comment)
 old.reddit.com##.comment .author[href="https://old.reddit.com/user/AutoModerator"]:upward(.comment)
-www.reddit.com,sh.reddit.com##[data-id="user-hover-card"] a[href="/user/AutoModerator/"]:upward(shreddit-commen
+www.reddit.com,sh.reddit.com##[data-id="user-hover-card"] a[href="/user/AutoModerator/"]:upward(shreddit-comment)
 
 ! credit for most: https://www.reddit.com/r/uBlockOrigin/comments/vyb5an/got_tired_of_reddit_shoving_crap_in_the_header/
 ! Clean up the Reddit header bar:
