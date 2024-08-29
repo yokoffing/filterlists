@@ -195,7 +195,7 @@ Balanced approach for users with a low threshold for site issues:
 * (optional) Adds security protections from known badware domains
 
 #### Built-in lists
-In addition to the default lists, you should also enable:
+*In addition to the default lists, you should also enable:*
 1. AdGuard URL Tracking Protection
 2. EasyList/uBO - Cookie Notices
 3. EasyList - Social Widgets (if they bother you, or you don't use them)
@@ -217,11 +217,12 @@ Advanced apporach for users comfortable troubleshooting issues and reporting sit
 * (optional) Security protection against abused [TLDs](https://en.wikipedia.org/wiki/Top-level_domain)
 
 #### Built-in lists
-In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:
+*In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. (optional) AdGuard Tracking Protection, [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt)
 2. EasyList - Annoyances (all lists)
 
 #### Custom lists
+*In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
 2. Hagezi Pro Mini
 3. (optional) Block third-party fonts
