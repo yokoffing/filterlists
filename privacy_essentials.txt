@@ -3,19 +3,20 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 8 July 2024
+! Version: 9 September 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
 ! https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
 ! https://github.com/crssi/Firefox/blob/master/uBO-Deny.txt
-$ping
+! $ping
 .checkfront.com/lib/Control.Geocoder*.js$script
 .checkfront.com/reserve/lib/jquery.cookie*.js$script
 /fingerprintjs2$script
 /fp.js$script
 /loginmanager_sniff.js$script
 ! ||dailykarma.io^$3p
+! ||appleid.cdn-apple.com$domain=~apple.com|~icloud.com|~x.com|~twitter.com
 ||assets.dailykarma.io^$3p
 ||0dcde44a41.com^
 ||1105media.com^$3p
@@ -387,7 +388,7 @@ fmovies.*##+js(nosiif, try)
 @@||use.typekit.net^$script,font
 
 ! GOOGLE
-||accounts.google.com^$3p,domain=~youtube.com
+||accounts.google.com^$3p,domain=~youtube.com|~twitter.com|~x.com
 ||ampcid.google.com^$important
 ||contributor.google.com^$3p
 ||doubleclickbygoogle.com^$3p
@@ -502,8 +503,6 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ! ||getcatch.com^$3p
 ||js.getcatch.com^$3p
 ||pay.google.com^$3p
-||appleid.cdn-apple.com$domain=~apple.com|~icloud.com
-||applepay.cdn-apple.com$domain=~apple.com|~icloud.com
 ||payments-amazon.com^$3p
 ||affirm.com$3p
 ||afterpay.com^$3p
@@ -518,9 +517,6 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||preorder-now.herokuapp.com^$3p
 ||razorpay.com^$3p
 ||quadpay.com^$3p
-! Blocks Paypal and Express Checkouts using Shopify:
-! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
-||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
 ||shopcircleapp.co^$3p
@@ -532,6 +528,13 @@ platform.twitter.com##+js(cookie-remover, /^/)
 /ShopPay
 !||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
+
+! Blocks Paypal and Express Checkouts using Shopify:
+! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
+||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
+
+! Apple Pay
+! ||applepay.cdn-apple.com$domain=~apple.com|~icloud.com
 
 ! 3p PAYMENT / LOGIN
 ##shopify-payment-terms
