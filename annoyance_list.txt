@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 19 August 2024
+! Version: 4 September 2024
 ! Syntax: AdBlock
 
 wccftech.com##.related-story, .related-stories.aside
@@ -696,6 +696,7 @@ kellegram.xyz##.socials
 ! https://www.ghacks.net/2023/07/04/firefox-115-new-esr-base-and-some-add-ons-may-be-blocked-from-running-on-certain-sites
 ||readaloud.googleapis.com^$script
 ! Block players that usually play content not directly related to the page
+||elements.video^$3p
 ||redvideo.io^$domain=~redvideo.io
 !||cnevids.com^$3p,domain=~gq.com
 ||kaltura.com^$3p,domain=~financialaidtv.com
