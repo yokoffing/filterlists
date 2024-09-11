@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 9 September 2024
+! Version: 11 September 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -379,7 +379,7 @@ fmovies.*##+js(nosiif, try)
 @@||e.infogram.com^$subdocument
 @@||gravatar.com^$image,stylesheet
 @@||omara.cdn-cnj.si^$script
-@@||paypal.com^$subdocument,popup
+! @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
 @@||pov.spectrum.net^
 @@||udimg.com^$1p
@@ -530,8 +530,8 @@ platform.twitter.com##+js(cookie-remover, /^/)
 !||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 
 ! Blocks Paypal and Express Checkouts using Shopify:
-! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com
-||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
+! ||paypal.com^$3p,domain=~ebay.com|~paypal.com|~ticketmaster.com|~form.jotform.com
+! ||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com
 
 ! Apple Pay
 ! ||applepay.cdn-apple.com$domain=~apple.com|~icloud.com
