@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 12 September 2024
+! Version: 12 September 2024b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -17,6 +17,7 @@
 /loginmanager_sniff.js$script
 ! ||dailykarma.io^$3p
 ! ||appleid.cdn-apple.com$domain=~apple.com|~icloud.com|~x.com|~twitter.com
+||accessibly.app^$3p
 ||assets.dailykarma.io^$3p
 ||0dcde44a41.com^
 ||1105media.com^$3p
@@ -254,6 +255,7 @@
 ||sandsiv.com^$3p
 ||scroll.com^$3p
 ||sdk.asapp.com^
+||sealsubscriptions.com^$3p
 ||search.brave.com/api/feedback^
 ||secomapp.com^$3p
 ||secondego.com^$3p
@@ -287,6 +289,7 @@
 ||syndetics.com^$3p
 ||taboola.com^$3p
 ||tags.news.com.au^
+||talk.hyvor.com^$3p
 ||tawk.to^$3p
 ||teams.microsoft.com^$3p
 ||teletarget.ru^
@@ -379,6 +382,7 @@ fmovies.*##+js(nosiif, try)
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
 @@||gravatar.com^$image,stylesheet
+@@||mailchimp.com^$3p,~image
 @@||omara.cdn-cnj.si^$script
 ! @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
