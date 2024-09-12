@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 11 September 2024
+! Version: 12 September 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -79,7 +79,8 @@
 ||capturehighered.net^$3p
 ||cbox.ws^$3p
 ||cbsinteractive.com^$domain=~etonline.com
-||cdn.privacy.paramount.com^$3p
+! https://github.com/yokoffing/Betterfox/issues/322
+!||cdn.privacy.paramount.com^$3p
 ||cdn.ravenjs.com^$3p,script
 ||channelsight.com^$xhr
 ||chatango.com^$3p
