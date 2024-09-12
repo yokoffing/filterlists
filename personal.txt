@@ -3,15 +3,15 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 3 May 2024
+! Version: 12 September 2024
 ! Syntax: AdBlock
 
 ! EDU
 ||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
 
 ! THIRD-PARTY PAYMENT / LOGIN
-!||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com
-!||paypalobjects.com$domain=~ebay.com|~paypal.com|~ticketmaster.com
+||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com|~form.jotform.com|~paypalcredit.syf.com
+||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com|~paypalcredit.syf.com
 /PaypalExpressCheckout
 
 ! X (FORMERLY TWITTER)
