@@ -417,7 +417,8 @@ fmovies.*##+js(nosiif, try)
 ! ||youtube.com/error_204?^$xhr
 ! ||youtube.com/youtubei/v1/log_event^$xhr
 @@||accounts.google.*/ServiceLogin$subdocument
-@@||apis.google.com^$script,domain=content.googleapis.com|dropbox.com|pathbuilder2e.com
+@@||apis.google.com^
+! @@||apis.google.com^$script,domain=content.googleapis.com|dropbox.com|pathbuilder2e.com
 @@||appspot.com^$subdocument,domain=cloud.google.com
 @@||blogger.*.google.com^$domain=blogspot.com
 @@||blogger.*.google.com^$subdocument
