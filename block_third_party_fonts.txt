@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 2 October 2024
+! Version: 11 October 2024
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -11,7 +11,7 @@
 @@||amazonaws.com^$font,3p,domain=dollartree.com
 @@||googleapis.com/ajax/libs/webfont/$domain=typepad.com
 @@||fast.fonts.net/jsapi/$script
-! @@||fonts.googleapis.com$domain=abc.xyz|google.com|blog.google|blogger.com|browser.works|chromium.org|entertrained.app|freetaxusa.com|fmoviesz.to|gaggle.fun|googlesource.com|grow.google|groq.com|loanadministration.com|myeducator.com|nerdfonts.com|reedsy.com|reliaslearning.com|shop.flipperzero.one|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
+@@||fonts.googleapis.com$domain=abc.xyz|google.com|blog.google|blogger.com|browser.works|chromium.org|entertrained.app|freetaxusa.com|fmoviesz.to|gaggle.fun|googlesource.com|grow.google|groq.com|loanadministration.com|myeducator.com|nerdfonts.com|reedsy.com|reliaslearning.com|shop.flipperzero.one|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
 @@||fonts.gstatic.com$domain=about.google|ai.google|bloble.io|blog.google|blogger.com|cenreader.com|chrome.com|chromium.org|codingfont.com|dexscreener.com|entertrained.app|google.com|domains.google|googlesource.com|grow.google|groq.com|material.io|myeducator.com|nerdfonts.com|reedsy.com|reliaslearning.com|safety.google|socialworkers.org|toolbox.googleapps.com|vocabulary.com|web.dev|youtube.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
@@ -59,7 +59,8 @@
 ||fonts.bauernet.me^
 ||fonts.cdnfonts.com^$3p
 ||fonts.condenast.com^$script,3p
-! ||fonts.googleapis.com^ 
+! Blocking Google Font API may break some sites that rely on this script to load
+||fonts.googleapis.com^ 
 ||fonts.gotraffic.net^$script
 ||fonts.gstatic.com^$3p
 ||fonts.nymag.com^$script,3p
