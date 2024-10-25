@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 2 October 2024
+! Version: 25 October 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -144,7 +144,7 @@
 ||gravatar.com^$important
 ||gravity-software.com^$3p
 ||groupbycloud.com^$3p
-||guim.co.uk^$3p,script
+! ||guim.co.uk^$3p,script
 ||hawk-assets.co.uk^
 ||hawk-tech.co.uk^
 ||hawksearch.com^$3p
