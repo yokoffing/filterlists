@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 25 October 2024
+! Version: 7 November 2024
 ! Syntax: AdBlock
 
 geeksforgeeks.org##.widget-area, .article--recommended
@@ -79,7 +79,7 @@ howtogeek.com##.related-single, .sidebar-tabs, .sidebar-sticky, .article-footer-
 realnewsmichiana.com##.td_spot_img_all, .wpb_column.tdi_31.vc_column > .wpb_wrapper, .td-more-articles-box, .tdb-single-related-posts
 1010wcsi.com###secondary
 9anime.se##.header-group > .socials-group
-9to5google.com,9to5mac.com,9to5toys.com##.top-comment, .featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter, .post-content.med.container > ul, .post-body > ul, .xs.container.sidebar
+9to5google.com,9to5mac.com,9to5toys.com##.top-comment, .featured-items, .amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element.i-amphtml-layout-size-defined.i-amphtml-layout-intrinsic.amp-wp-enforced-sizes, .amp-wp-7023da7, .bg-wht-alt.comments-area, .related-guides-container, .show-promo.visitor-promo, .google-news-link, .post-meta > .icon-twitter
 aa.com.tr##.detay-benzerHaberler.row, .donotprint.sticky-top
 abc7.com##.inner.headlines-list.top-stories
 abcnews.go.com##.Article__Column--sidebar.Article__Column, .Inline__Headline__Stack.InlineElement--desktop.InlineElement--content-width.InlineElement, .CalloutLink
