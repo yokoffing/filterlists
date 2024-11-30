@@ -958,7 +958,7 @@ google.*##[id^="eob_"]
 ! https://www.bleepingcomputer.com/news/security/duckduckgo-now-blocks-google-sign-in-pop-ups-on-all-sites/
 ! https://github.com/yokoffing/filterlists/issues/75
 !||accounts.google.com/gsi/client$script,3p
-||accounts.google.com/gsi/$xhr,script,3p,domain=~auth.23andme.com
+||accounts.google.com/gsi/$xhr,script,3p,domain=~auth.23andme.com|~x.com
 
 ! REDDIT
 ! Hide Reddit 'Top Broadcast Now' & 'Top livestream'
