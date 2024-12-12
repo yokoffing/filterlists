@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 day (update frequency)
-! Version: 25 October 2024
+! Version: 12 December 2024
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -291,7 +291,7 @@
 ||tags.news.com.au^
 ||talk.hyvor.com^$3p
 ||tawk.to^$3p
-||teams.microsoft.com^$3p
+||teams.microsoft.com^$3p,domain=~microsoft.com|~office.com|~live.com
 ||teletarget.ru^
 ||thanhhd.com^$3p
 ||themessagecloud.com^$3p
