@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 16 March 2024
+! Version: 17 December 2024
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -22,12 +22,6 @@ www.youtube.com##ytd-reel-shelf-renderer
 
 ! Don't enter / exit fullscreen on double-click 
 www.youtube.com##+js(aeld, dblclick)
-
-! Hide Youtube mixes and radios
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(#video-title-link[href*="&start_radio=1"])
-www.youtube.com##ytd-search ytd-radio-renderer
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
-www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
 
 ! Hide View Products
 www.youtube.com##.ytp-suggested-action-badge-expanded
@@ -87,6 +81,55 @@ m.youtube.com##ytm-video-description-header-renderer button-view-model a[href^="
 ! Hide the copyright notice in the video description 
 www.youtube.com###description .ytd-watch-metadata #items:has(.ytd-video-description-music-section-renderer)
 m.youtube.com##ytm-video-description-music-section-renderer
+
+! Hide Youtube mixes and radios
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/#wiki_mixes_and_yt_playlists
+! Removes Mixes from the Main Page
+youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
+! Removes Mixes from the right side panel
+youtube.com##ytd-compact-radio-renderer
+! Removes Mixes from the right side panel (Dec 2024)
+youtube.com###related yt-lockup-view-model:has([href*="&start_radio=1&"])
+! Removes Mixes from search results
+youtube.com##ytd-radio-renderer
+! Removes Mixes from search results (Dec 2024)
+youtube.com##ytd-search yt-lockup-view-model:has([href$="&start_radio=1"][aria-label])
+! Removes Mixes from Video End Cards
+youtube.com##.ytp-videowall-still[data-is-mix="true"]
+
+! Removes "YouTube" (Music) playlists from the right side panel
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+
+! Hide Shorts
+! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/#wiki_shorts
+! YT Homepage and Subscriptions (Grid View) - Hide the Shorts section
+youtube.com##[is-shorts]
+! YT Menu - Hide the Shorts button
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+! YT Search - Hide Shorts
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Search, Channels, Subscriptions (List View) and Sidebar/Below Player Recommendations - Hide the Shorts sections
+www.youtube.com##ytd-reel-shelf-renderer
+! YT Channels - Hide the Shorts tab
+www.youtube.com##[tab-title="Shorts"]
+! YT Subscriptions - Hide Shorts - Grid View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - Hide Shorts - List View
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+! YT Subscriptions - New Layout - Hide Shorts
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+! YT Sidebar - Hide Shorts
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+
+! YT Mobile - Hide the Shorts Menu button
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts)
+! YT Mobile - Hide the Shorts sections
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer:has([d^="M17.77,10.32l-1.2"])
+! YT Mobile - Hide Shorts in search results
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORTS"])
+! YT Mobile - Hide the Shorts button on Channels
+m.youtube.com##[tab-title="Shorts"]
 
 !!! OPTIONAL
 ! Add to your personal filters and remove ! to activate
