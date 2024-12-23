@@ -958,10 +958,6 @@ google.*##+js(aeld, DOMContentLoaded, CONSENT)
 ! Google "People also searched for"
 google.*##[id^="eob_"]
 ! Annoying "Sign-in with Google" pop-ups
-! https://www.reddit.com/r/brave_browser/comments/uzzmp7/is_it_possible_block_the_sign_in_with_google/iaeqazb/
-! https://www.bleepingcomputer.com/news/security/duckduckgo-now-blocks-google-sign-in-pop-ups-on-all-sites/
-! https://github.com/yokoffing/filterlists/issues/75
-!||accounts.google.com/gsi/client$script,3p
 ||accounts.google.com/gsi/$xhr,script,3p,domain=~auth.23andme.com|~x.com
 
 ! REDDIT
