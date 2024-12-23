@@ -6,6 +6,9 @@
 ! Version: 23 December 2024
 ! Syntax: AdBlock
 
+winaero.com##.dbpa-message, #qcihrbv5, #secondary
+www.nytimes.com##.css-1r939ki
+seekingalpha.com##.VWnQb.md\:text-medium-r.sm\:text-center
 geeksforgeeks.org##.widget-area, .article--recommended
 wccftech.com##.related-story, .related-stories.aside
 mspoweruser.com##.left-sidebar
@@ -260,6 +263,7 @@ extremetech.com##.widget_recentpostswidget.widget
 eyerys.com##.region-sidebar-second.region
 f2movies.to###gift-top, .mb-3.alert, .file_realted-list.film_related
 fastcompany.com##.article__insert, .recirc
+fastcompany.com##div.fixed:has(> div img[alt='Collapse icon'])
 fayobserver.com##.gnt_em_vp__tavp.gnt_em, .gnt_m_fs.gnt_m, .gnt_n_sm__ne_a.gnt_n_sm_a, .gnt_n_sm_a
 fedscoop.com##.articles--noborder.articles
 fiercebiotech.com##.embedded-entity
