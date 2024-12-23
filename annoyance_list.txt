@@ -6,6 +6,9 @@
 ! Version: 23 December 2024
 ! Syntax: AdBlock
 
+winaero.com##.dbpa-message, #qcihrbv5, #secondary
+www.nytimes.com##.css-1r939ki
+seekingalpha.com##.VWnQb.md\:text-medium-r.sm\:text-center
 geeksforgeeks.org##.widget-area, .article--recommended
 wccftech.com##.related-story, .related-stories.aside
 mspoweruser.com##.left-sidebar
