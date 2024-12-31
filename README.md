@@ -159,7 +159,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
-4) [**WebSanitizer**](https://github.com/DestroyerBDT/WebSanitizer) (195 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DestroyerBDT/WebSanitizer/refs/heads/main/WebSanitizer.txt&title=WebSanitizer)
+4) [**WebSanitizer**](https://github.com/DestroyerBDT/WebSanitizer) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DestroyerBDT/WebSanitizer/refs/heads/main/WebSanitizer.txt&title=WebSanitizer)
 <br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
