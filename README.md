@@ -58,7 +58,7 @@ Adblock not working on YouTube?
 # How to add custom filters
 
 > [!NOTE]
-> This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
+> This repo is tailored specifically to uBlock Origin. I cannot guarantee filters will work in other ad blockers.
 
 ### uBlock Origin
 [Get uBlock Origin](https://ublockorigin.com/) (uBO), if you don't have it already.
@@ -67,7 +67,7 @@ To import custom filters into uBlock Origin:
 
 1. Click the **subscribe** link by one of the entries below.
 2. In the new tab that opens, click on **Subscribe** in the top right corner.
-3. Close tab, then repeat for other lists you want to add to uBO.
+3. Close the tab, then repeat for other lists you want to add to uBO.
     
 ### AdGuard
 To import custom filters into AdGuard:
@@ -158,6 +158,9 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
+
+4) [**WebSanitizer**](https://github.com/DestroyerBDT/WebSanitizer) (195 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DestroyerBDT/WebSanitizer/refs/heads/main/WebSanitizer.txt&title=WebSanitizer)
+<br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
 To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://github.com/bpc-clone/bpc_updates/releases). The blocklists are limited in what they can do and are therefore **optional**.
