@@ -7,7 +7,7 @@
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
+1) Prevent over-blocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
 2) Aim for [efficiency](https://brave.com/blog/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (use sane, quality resources).
 3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (avoid redundancy and bloat when possible).
 
@@ -135,7 +135,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
-<br> This list is just the rules from the ClearURLs extension converted into a filterlist.
+<br> This list is just the rules from the ClearURLs extension converted into a filter-list.
 
 > [!TIP]
 > If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
@@ -159,7 +159,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
-4) [**WebSanitizer**](https://github.com/DestroyerBDT/WebSanitizer) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DestroyerBDT/WebSanitizer/refs/heads/main/WebSanitizer.txt&title=WebSanitizer)
+4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
 <br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
