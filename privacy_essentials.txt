@@ -2,8 +2,8 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 4 day (update frequency)
-! Version: 17 December 2024
+! Expires: 4 days (update frequency)
+! Version: 10 January 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
