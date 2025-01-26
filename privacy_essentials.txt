@@ -316,7 +316,7 @@
 ||upscore.com^$3p
 ||urbanairship.com^$3p
 ||viafoura.co^
-||vk.com^$3p
+||vk.com^$3p,domain=~vk.me
 ||vuukle.com^$3p
 ||wibbitz.com^$3p
 ||widgets.automizely.com^$3p
