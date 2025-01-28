@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 26 January 2025
+! Version: 28 January 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -193,7 +193,7 @@
 ||marketingautomation.services^$3p
 ||marketo.com^
 ||maze.co^$3p
-||media.licdn.com^$domain=~linkedin.com
+||media.licdn.com^$domain=~licdn.com|~linkedin.com
 ||medium.com^$3p,~script,~image
 ||memberful.com^$3p
 ||metrics.foursixty.com^
