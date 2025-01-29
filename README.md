@@ -2,7 +2,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-orange)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![Hits]()](https://hits.seeyoufarm.com)
+[![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ***
 
@@ -452,7 +452,7 @@ The Minified lists are part of an Adblock Plus-hosted unofficial project that wa
     * How to block [div:nth-of-type](https://stackoverflow.com/questions/44664907/how-can-i-use-a-wildcard-in-ublock-origin)
 
 #### Security
-* [What's Your Cyberscore?](https://cybersecurity.ncsu.edu/home/whats-your-cyberscore/)
+* [What's Your Cyberscore?](https://web.archive.org/web/20240429094925/https://cybersecurity.ncsu.edu/home/whats-your-cyberscore/)
 
 ***
 
