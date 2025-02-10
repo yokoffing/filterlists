@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 28 January 2025
+! Version: 10 February 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -127,6 +127,7 @@
 ||flippback.com^$3p
 ||forbes.com^$3p,domain=quora.com
 ||foxnews.com^$3p,domain=~foxnews.com
+||fundraiseup.com^$3p
 ||future-fie-assets.co.uk^$3p
 ||future-fie.co.uk^
 ||future.net.uk^$3p,~script
