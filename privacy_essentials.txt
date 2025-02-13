@@ -2,8 +2,8 @@
 ! Title: 🔒 Privacy Essentials
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
-! Expires: 4 day (update frequency)
-! Version: 17 December 2024
+! Expires: 4 days (update frequency)
+! Version: 10 February 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -127,6 +127,7 @@
 ||flippback.com^$3p
 ||forbes.com^$3p,domain=quora.com
 ||foxnews.com^$3p,domain=~foxnews.com
+||fundraiseup.com^$3p
 ||future-fie-assets.co.uk^$3p
 ||future-fie.co.uk^
 ||future.net.uk^$3p,~script
@@ -193,7 +194,7 @@
 ||marketingautomation.services^$3p
 ||marketo.com^
 ||maze.co^$3p
-||media.licdn.com^$domain=~linkedin.com
+||media.licdn.com^$domain=~licdn.com|~linkedin.com
 ||medium.com^$3p,~script,~image
 ||memberful.com^$3p
 ||metrics.foursixty.com^
@@ -316,7 +317,7 @@
 ||upscore.com^$3p
 ||urbanairship.com^$3p
 ||viafoura.co^
-||vk.com^$3p
+||vk.com^$3p,domain=~vk.me
 ||vuukle.com^$3p
 ||wibbitz.com^$3p
 ||widgets.automizely.com^$3p
