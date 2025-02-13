@@ -20,15 +20,15 @@
 ***
 # Block Twitch ads
 
-For Twitch adblock, I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) userscript. This helps uBlock Origin block server-side ads.
+For Twitch adblock, I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) user-script. This helps uBlock Origin block server-side ads.
 
-You can also use Tampermonkey as a Twitch adblock solution.
+You can also use Tampermonkey as a Twitch AdBlock solution.
 
 # Block YouTube ads
 
-Adblock not working on YouTube?
+AdBlock not working on YouTube?
 
-* uBlock Origin on Firefox should be okay. If adblock is no longer working on YouTube, check the [subreddit](https://www.reddit.com/r/uBlockOrigin/).
+* uBlock Origin on Firefox should be okay. If AdBlock is no longer working on YouTube, check the [subreddit](https://www.reddit.com/r/uBlockOrigin/).
 * If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite), open the popup panel and set the filtering mode to **Complete** on `youtube.com` and any other ad-invasive site.
    * For more info, see our [new section](https://github.com/yokoffing/filterlists?tab=readme-ov-file#ublock-origin-lite) on uBlock Origin Lite.
 
@@ -159,7 +159,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
-4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | (215 rules) [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
+4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
 <br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
