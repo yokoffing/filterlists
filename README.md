@@ -159,7 +159,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
 
-4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | (210 rules) [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
+4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | (215 rules) [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
 <br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
