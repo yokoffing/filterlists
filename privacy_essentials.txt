@@ -3,7 +3,7 @@
 ! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 February 2025
+! Version: 21 February 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -142,7 +142,7 @@
 ||getsentry.com^$3p
 ||getsitecontrol.com^$3p
 ||gleamjs.io^
-||gravatar.com^$important
+||gravatar.com^$domain=~gravatar.com
 ||gravity-software.com^$3p
 ||groupbycloud.com^$3p
 ! ||guim.co.uk^$3p,script
@@ -374,12 +374,12 @@ fmovies.*##+js(nosiif, try)
 @@||dropboxstatic.com/*/social_icon$stylesheet,domain=dropbox.com
 @@||e.infogram.com/js/dist/embed.js$script
 @@||e.infogram.com^$subdocument
-@@||gravatar.com^$image,stylesheet
 @@||mailchimp.com^$3p,~image
 @@||omara.cdn-cnj.si^$script
 ! @@||paypal.com^$subdocument,popup
 @@||play.vidyard.com^$subdocument,script
 @@||pov.spectrum.net^
+@@||secure.gravatar.com^$image,stylesheet
 @@||udimg.com^$1p
 @@||udimg.com^$domain=urbandictionary.com
 ! https://github.com/yokoffing/filterlists/issues/98
