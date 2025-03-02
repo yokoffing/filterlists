@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 15 January 2025
+! Version: 2 March 2025
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -57,6 +57,7 @@
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
+||fonts.bunny.net^
 ||fonts.cdnfonts.com^$3p
 ||fonts.condenast.com^$script,3p
 ! Blocking Google Font API may break some sites that rely on this script to load
