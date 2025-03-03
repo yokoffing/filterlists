@@ -7,7 +7,7 @@
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
+1) Prevent over-blocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
 2) Aim for [efficiency](https://brave.com/blog/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (use sane, quality resources).
 3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (avoid redundancy and bloat when possible).
 
@@ -20,15 +20,15 @@
 ***
 # Block Twitch ads
 
-For Twitch adblock, I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) userscript. This helps uBlock Origin block server-side ads.
+For Twitch adblock, I use [Violentmonkey](https://violentmonkey.github.io/get-it/) with the [AdGuard Extra](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#adguard-extra) user-script. This helps uBlock Origin block server-side ads.
 
-You can also use Tampermonkey as a Twitch adblock solution.
+You can also use Tampermonkey as a Twitch AdBlock solution.
 
 # Block YouTube ads
 
-Adblock not working on YouTube?
+AdBlock not working on YouTube?
 
-* uBlock Origin on Firefox should be okay. If adblock is no longer working on YouTube, check the [subreddit](https://www.reddit.com/r/uBlockOrigin/).
+* uBlock Origin on Firefox should be okay. If AdBlock is no longer working on YouTube, check the [subreddit](https://www.reddit.com/r/uBlockOrigin/).
 * If using [uBlock Origin Lite](https://github.com/uBlockOrigin/uBOL-home?tab=readme-ov-file#ubo-lite), open the popup panel and set the filtering mode to **Complete** on `youtube.com` and any other ad-invasive site.
    * For more info, see our [new section](https://github.com/yokoffing/filterlists?tab=readme-ov-file#ublock-origin-lite) on uBlock Origin Lite.
 
@@ -58,7 +58,7 @@ Adblock not working on YouTube?
 # How to add custom filters
 
 > [!NOTE]
-> This repo is tailored to uBlock Origin specifically. I cannot guarantee filters will work in other ad blockers.
+> This repo is tailored specifically to uBlock Origin. I cannot guarantee filters will work in other ad blockers.
 
 ### uBlock Origin
 [Get uBlock Origin](https://ublockorigin.com/) (uBO), if you don't have it already.
@@ -67,7 +67,7 @@ To import custom filters into uBlock Origin:
 
 1. Click the **subscribe** link by one of the entries below.
 2. In the new tab that opens, click on **Subscribe** in the top right corner.
-3. Close tab, then repeat for other lists you want to add to uBO.
+3. Close the tab, then repeat for other lists you want to add to uBO.
     
 ### AdGuard
 To import custom filters into AdGuard:
@@ -135,7 +135,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
-<br> This list is just the rules from the ClearURLs extension converted into a filterlist.
+<br> This list is just the rules from the ClearURLs extension converted into a filter-list.
 
 > [!TIP]
 > If you find websites with tracking parameters or experience site issues, you can submit those [here](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new).
@@ -158,6 +158,9 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 3) [**YouTube Clear View**](https://github.com/yokoffing/filterlists/blob/main/youtube_clear_view.txt) (17 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/youtube_clear_view.txt&title=YouTube%20Clear%20View)
 <br> Cleans up some of the clutter on YouTube.
+
+4) [**CutClut**](https://github.com/DestroyerBDT/CutClut) | [subscribe](https://raw.githubusercontent.com/DestroyerBDT/CutClut/refs/heads/main/CutClut.txt)
+<br> Cleans websites by removing premium content ads, privacy policies, and other unnecessary elements
 
 ### Paywalls
 To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://github.com/bpc-clone/bpc_updates/releases). The blocklists are limited in what they can do and are therefore **optional**.
