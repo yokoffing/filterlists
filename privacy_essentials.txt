@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: 🔒 Privacy Essentials
-! Description: A curated list for advanced hardening. Minimize connections to third-party sites.
+! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 February 2025
+! Version: 3 March 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -520,7 +520,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||klarnacdn.net^$3p
 ||klarnaservices.com^$3p
 ||preorder-now.herokuapp.com^$3p
-||razorpay.com^$3p
+||razorpay.com^$3p,domain=~redtape.com
 ||quadpay.com^$3p
 ||shop.app^$3p
 ||shopbonsai.ca^$3p
