@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 March 2025
+! Version: 10 March 2025b
 ! Syntax: AdBlock
 
 linuxsecurity.com##.ins.inside-articles.authors-posts-wrap1, .acym_module_form, .authors-posts-wrapq, .sppb-column-addons
@@ -921,33 +921,15 @@ twitch.tv##.chat-room__content.jmUA-dj.Layout-sc-1xcs6mc-0 > div:nth-of-type(2)
 twitch.tv##.user-notice-line--highlighted.user-notice-line.ekipGw.InjectLayout-sc-1i43xsx-0
 
 ! FACEBOOK
-! FB Sponsored posts / 3 structures-matching filter / TEST version / Remove the `:style()` ending if no false positives found.
-! https://www.reddit.com/r/uBlockOrigin/comments/pjk3x3/getting_ads_on_fb_anyone_knows_how_to_block_this/
-! facebook.com##[role="feed"] span[id] a[href="#"]>span>span, [role="feed"] span[id] a[href="#"]>span>b:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div)
-! "Suggested for you"
-! https://www.reddit.com/r/uBlockOrigin/comments/pjmtma/facebook_suggested_for_you_old_code_doesnt_seem/
-! facebook.com##[role="feed"]>div:has-text(/^(Suggested|Recommended)/)
-
-! from https://www.reddit.com/r/uBlockOrigin/wiki/solutions
-! Why are these not included by default?
-
-! FACEBOOK
-! Ads in right column
-! facebook.com##div[data-pagelet="RightRail"] > div:not([data-visualcompletion]) > div > div[class]:has(> div[class] > div[class] div[class] > a[aria-label][href^="https://l.facebook.com/l.php?u="][target="_blank"])
-! Feb 2021 solution
-! facebook.com##div[role="complementary"] > div > div > div > div > div > span
-
-! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/#wiki_facebook
-! Suggested for you
-www.facebook.com##[aria-posinset] div:not(:only-child)>div:only-child>div:only-child>div:first-child[class=""]>div:not([data-0]):has-text(/^Suggested/):upward([aria-posinset])
+! [March 2025] https://www.reddit.com/r/uBlockOrigin/wiki/solutions/
 ! People You May Know
-www.facebook.com##[aria-posinset] [aria-label="See all"][href="/friends/"]:upward([aria-posinset])
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/friends/"]):style(height: 0 !important; overflow: hidden !important;)
 ! Suggested groups
-www.facebook.com##[aria-posinset] [aria-label="See more groups"][href="/groups/discover/"]:upward([aria-posinset])
-! Reels and short videos
-www.facebook.com##[aria-posinset] [aria-label="See more"][href="/reel/?s=ifu_see_more"]:upward([aria-posinset])
-! Marketplace
-facebook.com##[aria-label*="Marketplace"] object > a[href^="/ads/"] > span:not(:empty):upward(11)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([href="/groups/discover/"]):style(height: 0 !important; overflow: hidden !important;)
+! Reels and short videos (English UI)
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Reels"]):style(height: 0 !important; overflow: hidden !important;)
+! Suggested pages
+www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):has([aria-label="Suggested pages"]):style(height: 0 !important; overflow: hidden !important;)
 
 ! GOOGLE
 ! Google consent dialog, "before you continue"
