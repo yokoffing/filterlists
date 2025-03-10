@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 2 March 2025
+! Version: 10 March 2025
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -37,7 +37,7 @@
 @@/font-awesome
 @@||fontawesome.com^
 
-! Privacy-friendly drop-in replacement for Google Fonts
+! Privacy-friendly font providers
 ! [1] https://fonts.coollabs.io/
 ! [2] https://github.com/yokoffing/filterlists/commit/5037ef44f4e3e55ab3bc91d9aafd56febed58519#commitcomment-153461417
 @@||cdn.coollabs.io/fonts^
