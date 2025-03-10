@@ -39,8 +39,10 @@
 
 ! Privacy-friendly drop-in replacement for Google Fonts
 ! [1] https://fonts.coollabs.io/
+! [2] https://github.com/yokoffing/filterlists/commit/5037ef44f4e3e55ab3bc91d9aafd56febed58519#commitcomment-153461417
 @@||cdn.coollabs.io/fonts^
 @@||api.fonts.coollabs.io^
+@@||fonts.bunny.net^
 
 !!! DENYLIST
 /cdn-cgi/pe/bag2?*googleapis.com*webfont.js
@@ -57,7 +59,6 @@
 ||fontdeck.com^$3p
 ||fonts.advance.net^$3p
 ||fonts.bauernet.me^
-||fonts.bunny.net^
 ||fonts.cdnfonts.com^$3p
 ||fonts.condenast.com^$script,3p
 ! Blocking Google Font API may break some sites that rely on this script to load
