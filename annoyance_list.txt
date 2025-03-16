@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 10 March 2025b
+! Version: 16 March 2025
 ! Syntax: AdBlock
 
 linuxsecurity.com##.ins.inside-articles.authors-posts-wrap1, .acym_module_form, .authors-posts-wrapq, .sppb-column-addons
@@ -933,11 +933,12 @@ www.facebook.com##:is([aria-posinset],[aria-describedby]:not([aria-posinset])):h
 
 ! GOOGLE
 ! Google consent dialog, "before you continue"
-www.google.*##^script:has-text(consentCookiePayload)
-www.google.*##+js(acis, document.cookie, YES+)
-google.*##+js(aeld, DOMContentLoaded, CONSENT)
-! block subdomain request can generate breakage - disable network filter if you have any breakage
-||consent.google.com^
+! www.google.*##^script:has-text(consentCookiePayload)
+! google.*##+js(aeld, DOMContentLoaded, CONSENT)
+! https://github.com/yokoffing/filterlists/issues/187#issuecomment-2721288262
+! www.google.*##+js(acis, document.cookie, YES+)
+! blocked subdomain request can generate breakage - disable network filter if you have any breakage
+! ||consent.google.com^
 ! Google "People also searched for"
 google.*##[id^="eob_"]
 ! Annoying "Sign-in with Google" pop-ups
