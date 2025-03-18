@@ -380,9 +380,7 @@ Toggle on [advanced settings](https://github.com/gorhill/uBlock/wiki/Advanced-us
 
 The extension works efficiently by letting the browser do the heavy lifting, which means uBOL doesn't slow down your browsing experience or drain your device's resources.
 
-**After June 2024, Google Chrome users must switch to uBOL** due to changes in Chrome's extension platform. Users of other Chromium-based browsers like Microsoft Edge, Opera, and Vivaldi will likely need to make the same change soon after.
-
-uBOL has limited blocking capabilities because it doesn't ask for broad permissions to access and change website data. However, you can grant uBOL extra permissions to improve its blocking performance.
+**After June 2025, Google Chrome users must switch to uBOL** due to changes in Chrome's extension platform. uBOL has limited blocking capabilities because it doesn't ask for broad permissions to access and change website data. However, you can grant uBOL extra permissions to improve its blocking performance.
 
 ### Default filtering mode
 
