@@ -320,6 +320,14 @@ Another way to improve performance is to use alternative filter lists with fewer
 
 The rule counts below compare each optimized list to its original version in uBO. The numbers are a snapshot of the rule counts at the time of writing.
 
+### Example 
+
+When finished, your setup could look something like this:
+
+![339063016-fa0916c2-4e81-4f86-baaa-7f2bfb975fa0](https://github.com/user-attachments/assets/4b1a5d76-3876-4a42-8a8d-19d2f0269faf)
+
+Those who like to tinker may want to try this out, but you're better off just using the native lists. [YMMV](https://dictionary.cambridge.org/us/dictionary/english/ymmv)
+
 ### Ads
 
 1) **[Easylist (Optimized)](https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt)** (45k optimized vs. 82k rules) | [iOS version](https://filters.adtidy.org/ios/filters/101_optimized.txt) (28k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/101_optimized.txt&title=Easylist%20(Optimized))
@@ -350,6 +358,7 @@ The rule counts below compare each optimized list to its original version in uBO
 4) **[AdGuard Social Media filter (Optimized)](https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt)** (16k optimized vs. 21k rules) | [iOS version](https://filters.adtidy.org/ios/filters/4_optimized.txt) (7k rules)
  | [subscribe](https://subscribe.adblockplus.org/?location=https://filters.adtidy.org/extension/ublock/filters/4_optimized.txt&title=AdGuard%20Social%20Media%20filter%20(Optimized))
 <br> If you do not like numerous `Like` and `Tweet` buttons on all the popular websites on the Internet, then subscribe to this filter and you will not see them anymore.
+
 ***
 
 # Advanced Settings
