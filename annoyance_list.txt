@@ -3,9 +3,18 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 16 March 2025
+! Version: 22 March 2025
 ! Syntax: AdBlock
 
+androidpolice.com##.small.article-card.article.display-card, .article-widget-feed
+economist.com##aside
+dexerto.com##.mb-4.md\:border-neutral-grey-4.md\:border-b-4
+pcgamesn.com##.end, .sidebar-right-2k23
+smashingmagazine.com##.bnnr-list, .partners-sm-progress, .partners__native--smashing
+neowin.net##.promos, .widget-content, .post-nav-links, .comments
+eurogamer.net##.poll_container, .read-next, aside.aside.recommendation:nth-of-type(odd), aside.aside.recommendation:nth-of-type(even)
+techcrunch.com##.wp-block-group-is-layout-constrained.is-layout-constrained.wp-block-techcrunch-most-popular-posts
+404media.co##.sidebar
 linuxsecurity.com##.ins.inside-articles.authors-posts-wrap1, .acym_module_form, .authors-posts-wrapq, .sppb-column-addons
 winaero.com##.dbpa-message, #qcihrbv5, #secondary
 www.nytimes.com##.css-1r939ki
@@ -694,6 +703,7 @@ livescience.com##.buttons-social
 kellegram.xyz##.socials
 
 ! AUDIO/VIDEO PLAYERS
+||elements.video^$3p
 ! ||remixd.com^$3p
 ! https://www.gq.com/story/jason-belmonte-bowling-profile
 ||player.cnevids.com^
@@ -898,11 +908,14 @@ www.reddit.com##._23q1waDr4n_2fR5A7zcZzb.x0hiXHicn7r3BG9m1FJH4
 
 ! hide Moderators (sometimes)
 ! https://www.reddit.com/r/uBlockOrigin/comments/yfgxaw/in_new_reddit_how_do_i_remove_the_moderators_box/
-reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(4)
+www.reddit.com##div._2vEf-C2keJaBMY9qk_BxVn:nth-of-type(4)
 
 ! hide online status in menu
 ! https://www.reddit.com/r/uBlockOrigin/comments/wor4ov/anyone_know_how_to_block_the_online_status_menu/
 www.reddit.com##[role="menu"] button:has-text(Online Status)
+
+! Award button
+www.reddit.com##.block > award-button
 
 ! TWITCH
 ! from https://mypdns.org/my-external-stuff/ublockorigin-rules/-/tree/master/rules/blockrules.txt
@@ -1082,6 +1095,7 @@ github.com##.js-unwatch-suggestions
 
 ! Aggressive Fandom Wiki
 fandom.com##.wds-global-footer__main
+fandom.com##.article-share
 ! https://www.reddit.com/r/uBlockOrigin/comments/z0i6qy/aggressive_fandom_wiki_filter_set/
 
 !!! NYT
