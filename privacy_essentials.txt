@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 4 March 2025
+! Version: 22 March 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -90,6 +90,7 @@
 ||christianbook.com^$3p
 ||cigevo.uno^$3p
 ||cleantalk.org^
+||clipboardjs.com^$3p
 ||cloudinary.com^$3p,~image
 ||cnstrc.com^
 ||coinmarketcap.com^$3p
@@ -230,7 +231,6 @@
 ||origin.com^$3p,domain=origin.com
 ||outbrain.com^$3p
 ||p-n.io^$3p
-||paddle.com^$3p
 ||paht.tech^
 ||paisly.com^$3p
 ||paradox.ai^$all
@@ -284,6 +284,7 @@
 ||startpage.com/do/$image
 ||startpage.com/english/$image
 ||startpage.com/tst2/$image
+||storage.ko-fi.com^$3p
 ||stkbl.app^$3p
 ||streetmetrics.io^$3p
 ||strike.fox.com^$3p
