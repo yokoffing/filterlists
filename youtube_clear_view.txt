@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 17 December 2024
+! Version: 22 March 2025
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -99,6 +99,9 @@ youtube.com##.ytp-videowall-still[data-is-mix="true"]
 
 ! Removes "YouTube" (Music) playlists from the right side panel
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+
+! Donation
+youtube.com###donation-shelf
 
 ! Hide Shorts
 ! https://www.reddit.com/r/uBlockOrigin/wiki/solutions/youtube/#wiki_shorts
