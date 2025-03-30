@@ -3,15 +3,13 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 29 March 2025
+! Version: 30 March 2025
 ! Syntax: AdBlock
 
 !#if ext_ublock
 ||airtable.com/embed*$3p,frame,redirect=click2load.html
 ||art19.com/shows/$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
-!||codepen.io/$3p,frame,redirect=click2load.html
-!||cdpn.io/$3p,frame,redirect=click2load.html
 ||checkout.shopify.com/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
 ||dexscreener.com/$3p,frame,redirect=click2load.html
@@ -47,6 +45,7 @@
 ||podbean.com/player-v2/$3p,frame,redirect=click2load.html
 ||quizlet.com/$3p,frame,redirect=click2load.html
 ||reddit.com/mediaembed/$3p,frame,redirect=click2load.html
+||rutube.ru/play/embed/$3p,frame,redirect=click2load.html
 ||s3.amazonaws.com/embed.animoto.com/$3p,frame,redirect=click2load.html
 !#if env_chromium
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/3088
@@ -61,21 +60,23 @@
 ||twitch.tv^$3p,frame,redirect=click2load.html
 ||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||view.genial.ly$3p,frame,redirect=click2load.html
+||vk.com/video_ext$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
-!||youtube-nocookie.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-! https://github.com/yokoffing/filterlists/pull/167
-! https://github.com/yokoffing/filterlists/pull/193
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~theguardian.com|~songsterr.com
-! https://github.com/yokoffing/filterlists/issues/161
-||vk.com/video_ext$3p,frame,redirect=click2load.html
-||rutube.ru/play/embed/$3p,frame,redirect=click2load.html
 !#endif
 
+!!! OPTIONAL
+! ||embed.reddit.com^$3p,frame,redirect=click2load.html
+! ||tiktok.com/embed^$3p,frame,redirect=click2load.html
+
 !!! DO NOT BLOCK
+! ||cdpn.io/$3p,frame,redirect=click2load.html
+! ||codepen.io/$3p,frame,redirect=click2load.html
+
 ! Tiktok embeds, GIFs
-!||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
-!||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
+! ||cdn.embedly.com/widgets/$3p,frame,redirect=click2load.html
+! ||cdn.embedly.com/widgets/media.html*$3p,frame,redirect=click2load.html
 ! GIFs
-!||gfycat.com/$3p,frame,redirect=click2load.html
+! ||gfycat.com/$3p,frame,redirect=click2load.html
