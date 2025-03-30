@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 22 March 2025
+! Version: 30 March 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -317,7 +317,8 @@
 ||ubembed.com^
 ||upscore.com^$3p
 ||urbanairship.com^$3p
-||viafoura.co^
+||viafoura.co^$3p
+||viafoura.net^$3p
 ||vk.com^$3p,domain=~vk.me
 ||vuukle.com^$3p
 ||wibbitz.com^$3p
