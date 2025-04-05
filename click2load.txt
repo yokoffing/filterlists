@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 30 March 2025
+! Version: 5 April 2025
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -39,7 +39,7 @@
 ||player.hotmart.com/$3p,frame,redirect=click2load.html
 ||player.megaphone.fm/$3p,frame,redirect=click2load.html
 ||player.simplecast.com^$3p,frame,redirect=click2load.html
-||player.twitch.tv/$3p,frame,redirect=click2load.html
+||player.twitch.tv/$3p,frame,redirect=click2load.html,domain=~thebluealliance.com
 ||player.vimeo.com/video^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~openai.com|~video.search.yahoo.com|~window-swap.com
 ||playlist.megaphone.fm/$3p,frame,redirect=click2load.html
 ||podbean.com/player-v2/$3p,frame,redirect=click2load.html
@@ -57,14 +57,14 @@
 ||traderjoexyz.com/$3p,frame,redirect=click2load.html
 ||trinitymedia.ai/player/trinity-player.php*$3p,frame,redirect=click2load.html
 ||truthsocial.com^$3p,frame,redirect=click2load.html
-||twitch.tv^$3p,frame,redirect=click2load.html
+||twitch.tv^$3p,frame,redirect=click2load.html,domain=~thebluealliance.com
 ||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||vk.com/video_ext$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
 ||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
-||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~theguardian.com|~songsterr.com
+||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
 !#endif
 
 !!! OPTIONAL
