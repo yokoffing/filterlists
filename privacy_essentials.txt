@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 9 April 2025
+! Version: 9 April 2025b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -538,7 +538,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 /AdditionalGoogleAnalyticsScriptSandbox
 /GooglePayButton
 /FacebookPayButton
-/ShopPay
+! /ShopPay
 !||stripe.com^$3p,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 !||js.stripe.com^,domain=~curesarcoma.org|~koinly.io|~patreon.com|~nextdns.io|~controld.com|~quetext.com
 
