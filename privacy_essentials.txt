@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 9 April 2025c
+! Version: 11 April 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -324,7 +324,7 @@
 ||wibbitz.com^$3p
 ||widgets.automizely.com^$3p
 ||widgets.guidestar.org^
-||yahoo.com^$3p,~image,domain=~yahoo.com
+||yahoo.com^$3p,~image,domain=~aol.com|~yahoo.com
 ||yandex.ru^$3p,domain=~dzen.ru
 ||yottaa.com^$3p
 ||yottlyscript.com^$3p
