@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 11 April 2025
+! Version: 14 April 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -422,7 +422,7 @@ fmovies.*##+js(nosiif, try)
 @@||docs.google.com^$subdocument,domain=dropbox.com
 @@||drive.google.com^$image
 @@||google-analytics.com/analytics.js$script,domain=amainhobbies.com
-@@||google.com/maps/$subdocument
+! @@||google.com/maps/$subdocument
 @@||google.com/recaptcha
 ! @@||google.com/recaptcha/$subdocument
 ! @@||google.com/recaptcha/api.js$script
@@ -430,9 +430,9 @@ fmovies.*##+js(nosiif, try)
 @@||google*.^$domain=youtube.com|youtube-nocookie.com
 @@||google.com/uds/*visualization$script,stylesheet
 @@||gstaticadssl.*.google.com^$font
-@@||maps-api-ssl.google.com^$script,image
-@@||maps.google.*/maps$script,image
-@@||maps.googleapis.com/maps$script,image,xhr
+! @@||maps-api-ssl.google.com^$script,image
+! @@||maps.google.*/maps$script,image
+! @@||maps.googleapis.com/maps$script,image,xhr
 @@||mapsengine.google.com/map/embed$subdocument
 @@||youtube-ui.*.google.com^$subdocument,script
 @@||ytimg.*.google.com^$image
