@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 14 April 2025c
+! Version: 14 April 2025d
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -100,6 +100,7 @@
 ||consensu.org^$redirect=noopjs
 ||contentpass.net^
 ||coordinatedcub.com^$3p
+||custobar.com^$3p
 ||crazyrocket.io^$3p
 ||creditsyard.com^$3p
 ||d77cf8b870.com^
@@ -127,6 +128,7 @@
 ||feedgrabbr.com^$3p
 ||flippback.com^$3p
 ||forbes.com^$3p,domain=quora.com
+||freshworks.com^$3p
 ||foxnews.com^$3p,domain=~foxnews.com
 ||fundraiseup.com^$3p
 ||future-fie-assets.co.uk^$3p
