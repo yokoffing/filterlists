@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 26 March 2025
+! Version: 17 April 2025
 ! Syntax: AdBlock
 
 form.jotform.com##.formFooter-wrapper
@@ -871,6 +871,9 @@ torrentfreak.com##.widget_text, .o-widget--rotated.o-widget, .comments, .footer_
 translate.google.com##.notification-area,.gt-cc:remove()
 
 !!! REDDIT
+! Hide popover on Reddit username
+www.reddit.com##div#faceplate-tooltip
+
 ! Hide AutoModerator comments
 ! https://www.reddit.com/r/uBlockOrigin/comments/1erm6mn/comment/li3nd3p/?context=3
 new.reddit.com##[data-testid="comment_author_link"][href="/user/AutoModerator/"]:upward(.Comment)
