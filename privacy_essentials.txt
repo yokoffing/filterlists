@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 29 April 2025
+! Version: 29 April 2025b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -117,7 +117,7 @@
 ||dowjoneson.com^$3p
 ! ||dropbox-dns.com$domain=~dropbox.com|~dropbox-dns.com
 ! ||dropbox.com$domain=~dropbox.com|~dropbox-dns.com|~formswift.com
-||dropbox-dns.com^$3p,domain=~dropbox.com|~dropbox-dns.com
+||dropbox-dns.com^$3p,domain=~dropbox.com|~dropbox-dns.com|~formswift.com
 ||dropbox.com^$3p,domain=~dropbox.com|~dropbox-dns.com|~formswift.com
 ! ||dropboxusercontent.com$domain=~dropbox.com|~dropbox-dns.com|~uniquestream.net
 ||drtuber.desi^$3p
