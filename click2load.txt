@@ -10,6 +10,7 @@
 ||airtable.com/embed*$3p,frame,redirect=click2load.html
 ||art19.com/shows/$3p,frame,redirect=click2load.html
 ||bandcamp.com/EmbeddedPlayer/$3p,frame,redirect=click2load.html
+||embed.bsky.app^$3p,frame,redirect=click2load.html
 ||checkout.shopify.com/$3p,frame,redirect=click2load.html
 ||codepen.io/hubspot/embed/$3p,frame,redirect=click2load.html,domain=~theodinproject.com
 ||dexscreener.com/$3p,frame,redirect=click2load.html
