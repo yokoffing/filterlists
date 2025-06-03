@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: ✋ Antipaywall filters (without element hiding)
 ! Description: Curated list of antipaywall requests
-! Updated: 10 October 2023
+! Updated: 3 June 2025
 ! License: https://creativecommons.org/licenses/by/3.0
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
@@ -52,7 +52,8 @@
 ||myaccount.nytimes.com/auth/iframe/*&asset=RegiWall
 ||nytimes.com/unified_lire/
 ||nytimes.com/lire_ui/
-||assets.bwbx.io^*/fence/$script
+! https://github.com/yokoffing/filterlists/issues/229
+! ||assets.bwbx.io^*/fence/$script
 ||assets.bwbx.io^*/pianola/$script
 ||smartwall.theglobeandmail.com^
 ||cloudfront.net/prod/cloudfrontVideoTracker.png
