@@ -7,7 +7,7 @@
 ***
 
 # Guidelines
-1) Prevent overblocking by applying the law of [diminishing returns]() (always blocking more ≠ better blocking experience).
+1) Prevent overblocking by applying the law of [diminishing returns](https://miro.medium.com/v2/resize:fit:1206/1*lcOcxriV_II_lZuXQYLoXg.jpeg) (always blocking more ≠ better blocking experience).
 2) Aim for [efficiency](https://brave.com/blog/the-mounting-cost-of-stale-ad-blocking-rules/) without sacrificing quality (use sane, quality resources).
 3) Implement the [minimum](https://reddit.com/r/uBlockOrigin/wiki/index#wiki_which_filter_lists_should_i_select.3F) number of useful lists (avoid redundancy and bloat when possible).
 
