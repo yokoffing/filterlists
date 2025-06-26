@@ -138,7 +138,20 @@ m.youtube.com##[tab-title="Shorts"]
 ! Add to your personal filters and remove ! to activate
 
 ! Hide recommendation sidebar
-!www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+www.youtube.com##.yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+www.youtube.com##.ytd-masthead.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-only-default.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--text.yt-spec-button-shape-next
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+www.youtube.com##.ytp-autonav-toggle-button-container
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.ytp-button.ytp-subtitles-button
+www.youtube.com##.ytp-button.ytp-remote-button
+www.youtube.com##.ytd-ad-slot-renderer.style-scope > .ytd-page-top-ad-layout-renderer.style-scope
+www.youtube.com##.ytp-paid-content-overlay-link
+www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer.style-scope
 
 ! source: https://www.reddit.com/r/uBlockOrigin/comments/1bfv50f/what_is_the_difference/
 ! Video Overlay - annotations
