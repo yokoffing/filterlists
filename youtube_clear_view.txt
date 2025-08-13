@@ -3,7 +3,7 @@
 ! Description: Clean up YouTube clutter
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 22 March 2025
+! Version: 13 August 2025
 ! Syntax: AdBlock
 
 ! Hide the text label of the dislike/share/download/report/save buttons
@@ -27,7 +27,7 @@ www.youtube.com##+js(aeld, dblclick)
 www.youtube.com##.ytp-suggested-action-badge-expanded
 
 ! Hide Includes paid promotion
-www.youtube.com##.ytp-paid-content-overlay
+! www.youtube.com##.ytp-paid-content-overlay
 
 ! Hide upcoming Youtube videos
 www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="UPCOMING"])
