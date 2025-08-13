@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 29 April 2025
+! Version: 13 August 2025
 ! Syntax: AdBlock
 
 form.jotform.com##.formFooter-wrapper
@@ -750,7 +750,7 @@ delish.com##.video-player, .journey-unblur-content
 @@||jwpcdn.com/player/plugins/vast/$script
 @@||jwpcdn.com^$font
 !!! @@||jwpltx.com^$image
-@@||jwpsrv.com^$subdocument
+!@@||jwpsrv.com^$subdocument
 ! https://www.news24.com
 ! paywalled audio player
 ||oovvuu.io^$3p
