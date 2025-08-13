@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 29 August 2025b
+! Version: 29 August 2025c
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -159,7 +159,7 @@
 ||hotjar-analytics.com^
 ||hubspot.com^$3p
 ||hudo.com^$inline-script
-||iheart.com^$all,domain=~iheart.com
+||iheart.com^$3p,domain=~iheart.com
 ||incartupsell.com^$3p
 ||influglue.com^$3p
 ||inspectlet.com^$3p
