@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 29 April 2025b
+! Version: 29 August 2025
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -368,7 +368,8 @@ fmovies.*##+js(nosiif, try)
 @@||advertising.com^$1p
 @@||alexa.com^$1p
 @@||amzn.to^$1p
-@@||assets-jpcust.jwpsrv.com^$image
+!@@||assets-jpcust.jwpsrv.com^$image
+@@||assets-jpcust.jwpsrv.com^
 @@||bing.com/maps^
 @@||bing.com/api/maps^
 @@||r.bing.com/rp^
