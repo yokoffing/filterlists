@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 12 September 2024
+! Version: 22 August 2025
 ! Syntax: AdBlock
 
 ! EDU
@@ -94,5 +94,7 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
+! Other
+||gravatar.com^$important
 ! Hide Video Overlay - endscreen
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
