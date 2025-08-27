@@ -77,6 +77,8 @@ To import custom filters into AdGuard:
 3. Toggle the box that says **Trusted**, then click **Subscribe**.
 
 ### Brave Browser
+Brave uses the default uBlock Origin lists out-of-the-box.
+
 **Do not use the subscribe link.** Add your own custom filter lists from different sources just copying/pasting the `RAW` URL and pressing save changes. 
 
 1. Click on the title of the list from the selections in this repo.
