@@ -3,8 +3,11 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 22 August 2025
+! Version: 28 August 2025
 ! Syntax: AdBlock
+
+! Gravatar
+||gravatar.com^$important
 
 ! EDU
 ||login.microsoftonline.com^$subdocument,xhr,domain=~microsoftonline.com|~microsoft.com|~office365.com|~office.com|~bing.com|~live.com|~exlibrisgroup.com|~kanopy.com
@@ -94,7 +97,5 @@ www.youtube.com##.ytd-video-owner-renderer.style-scope > yt-button-shape
 ! Hide Comment count
 www.youtube.com##.ytd-comments-header-renderer.style-scope.count-text
 
-! Other
-||gravatar.com^$important
 ! Hide Video Overlay - endscreen
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
