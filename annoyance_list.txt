@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 13 August 2025
+! Version: 3 September 2025
 ! Syntax: AdBlock
 
 form.jotform.com##.formFooter-wrapper
@@ -198,7 +198,7 @@ cnet.com##.c-quizbanner_form.c-quizbanner, .myFinance-iframe
 cnet.com##.related-links
 cnil.fr##li.picto > [href="http://twitter.com/CNIL_en"] > .logo_mini_menu_titre_twitter
 cnn.com##.el__special--embed.el__storyelement--standard, .ticker-ribbon, #breaking-news-wrapper, #partner-zone, .RelatedArticle__component, .factbox_inline-small__standard.factbox_inline-small, .related-content--article.related-content, div.related-content_without-image
-cnn.com##.terms-of-service, .user-msg-flexbox.headerless.user-msg
+cnn.com##.terms-of-service, .user-msg-flexbox.headerless.user-msg, .related-content__link
 coindesk.com##.fFpIEz.newsletter-ctastyles__Wrapper-sc-1a47sbx-0
 coindesk.com##.fyPdeu.newsletter-ctastyles__Wrapper-sc-18e7dvj-0
 coingecko.com##div.p-4:nth-of-type(3), .tw-mb-16
