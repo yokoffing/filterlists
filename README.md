@@ -225,18 +225,18 @@ Advanced apporach for users comfortable troubleshooting issues and reporting sit
 
 #### Built-in lists
 *In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
-1. (optional) AdGuard Tracking Protection, [purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt)
-2. EasyList - Annoyances (all lists)
+1. EasyList - Annoyances (all lists)
 
 #### Custom lists
 *In addition to the default lists and everything under the [Enhanced setup](https://github.com/yokoffing/filterlists?tab=readme-ov-file#built-in-lists), you should also enable:*
 1. Privacy Essentials (on uBO, `yokoffing's click2load filters` is included)
-2. Hagezi Pro Mini
-3. (optional) Block third-party fonts
-4. yokoffing's Annoyance List
-5. Browse websites without logging in
-6. (optional) YouTube Clear View
-7. (optional) Most Abused TLDs 
+2. (optional) AdGuard Tracking Protection ([purposed for uBO](https://filters.adtidy.org/extension/ublock/filters/3.txt))
+3. Hagezi Pro Mini
+4. (optional) Block third-party fonts
+5. yokoffing's Annoyance List
+6. Browse websites without logging in
+7. (optional) YouTube Clear View
+8. (optional) Most Abused TLDs 
 
 ***
 
