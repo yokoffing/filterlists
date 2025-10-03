@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 3 September 2025
+! Version: 3 October 2025
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -65,6 +65,7 @@
 ||vimeo.com/event/$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
 ||view.genial.ly$3p,frame,redirect=click2load.html
 ||vk.com/video_ext$3p,frame,redirect=click2load.html
+||vk.ru/video_ext$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html
 ||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~video.search.yahoo.com
