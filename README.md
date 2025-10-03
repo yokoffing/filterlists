@@ -2,7 +2,6 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/yokoffing/filterlists)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-orange)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-yellow)
-[![Visitors](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2Ffilterlists%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ***
 
@@ -126,14 +125,14 @@ To import custom filters into AdBlock:
 2) [**yokoffing's click2load filters**](https://github.com/yokoffing/filterlists/blob/main/click2load.txt) (47 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/click2load.txt&title=yokoffing's%20click2load%20filters)
 <br> (**optional** if using `Privacy Essentials`) Turns many third-party audio and video players into [click-to-load](https://x.com/gorhill/status/1377613404794421258) placeholders which only load once a user clicks on it. This list speeds up page load, uses less bandwidth and browser resources, and reduces privacy exposure (by contacting fewer domains during page load). The player will load by clicking on the placeholder.
 
-3) :star: [**Hagezi Pro mini**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) (78k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt&title=Hagezi%20Pro%20mini)
-<br> A smaller version of the [Hagezi Pro DNS blocklist](https://github.com/hagezi/dns-blocklists#pro) optimized for web browsers (78k vs. 159k rules). The streamlined list excludes rules not pertinent to web browsing, like those blocking [IoT tracking](https://ovic.vic.gov.au/privacy/resources-for-organisations/internet-of-things-and-privacy-issues-and-challenges/#introduction) and [device telemetry](https://stackify.com/telemetry-tutorial/). This mini version blocks domains associated with ads, tracking, analytics, and badware.
+3) :star: [**Hagezi Pro mini**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/pro.mini.txt) (56k domains) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.mini.txt&title=Hagezi%20Pro%20mini)
+<br> A smaller version of the [Hagezi Pro DNS blocklist](https://github.com/hagezi/dns-blocklists#pro) optimized for web browsers (56k vs. 208k rules). The streamlined list excludes rules not pertinent to web browsing, like those blocking [IoT tracking](https://ovic.vic.gov.au/privacy/resources-for-organisations/internet-of-things-and-privacy-issues-and-challenges/#introduction) and [device telemetry](https://stackify.com/telemetry-tutorial/). This mini version blocks domains associated with ads, tracking, analytics, and badware.
 
 ### URL Tracking Parameters
 
 Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearurls-) to uBO. These filter lists automatically remove tracking elements from URLs to protect your privacy when browsing the Internet.
 
-1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
+1) :star: **[Actually Legitimate URL Shortener Tool](https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt)** (2.8k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt&title=Actually%20Legitimate%20URL%20Shortener%20Tool)
 <br> This list also [includes](https://github.com/DandelionSprout/adfilt/discussions/163?sort=old#discussioncomment-3956776) all entries from `AdGuard's URL Tracking Protection` as of October 2022, but you can use both lists.
 
 2) **[ClearURLs for uBO](https://github.com/DandelionSprout/adfilt/tree/master/ClearURLs%20for%20uBo)** (700 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt&title=ClearURLS%20for%20URLs)
@@ -144,7 +143,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 
 ### Fonts
 
-1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (70 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
+1) [**Block third-party fonts**](https://github.com/yokoffing/filterlists/blob/main/block_third_party_fonts.txt) (89 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/yokoffing/filterlists/main/block_third_party_fonts.txt&title=Block%20third-party%20fonts)
 <br> This filter blocks fonts from third-party domains, which improves page load speed and protects your privacy. There are built-in exceptions to minimize site issues, such as allowing for font icons. Overall, it's more flexible than blocking all third-party fonts outright (e.g., `$font,3p`).
 
 > [!NOTE]
@@ -185,8 +184,17 @@ High-risk sites can expose your device to threats. These lists can prevent that 
 
 ## All-Purpose
 
-1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo/blob/main/list.txt) (81k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
-<br> (**optional:** You may not want all these sub-filters, or you may prefer to use the separate lists) This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+A combo list bundles multiple filter lists into one. They pull updates from all the source lists and combine them.
+
+The trade-off is that you must rely on the combo list's maintainer. You are relying on them to refresh the list regularly. If they stop maintaining the list, your filtering becomes outdated.
+
+Check that the combo list is still actively maintained before you add it.
+
+1) [**uBlock combo list**](https://github.com/iam-py-test/uBlock-combo/blob/main/list.txt) (140k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/uBlock-combo/main/list.txt&title=uBlock%20combo%20list)
+<br> This list filters URL tracking [parameters](https://github.com/DandelionSprout/adfilt/discussions/163?sort=new) as well as malware, scams, and phishing. It combines the following lists: [Dandelion Sprout's Anti-Malware List](https://github.com/yokoffing/filterlists#security), [Actually Legitimate URL Shortener Tool](https://github.com/yokoffing/filterlists#url-tracking-parameters), [The malicious website blocklist](https://github.com/yokoffing/filterlists#security), and the [anti-typo list](https://github.com/iam-py-test/my_filters_001/blob/main/antitypo.txt).
+
+2) [**Hagezi COMBO "ALT-SUGGESTED-MINI" AdBlock List (Top-N Version)**](https://github.com/cbuijs/hagezi/blob/main/combo/alt-suggested-mini/domains.top-n.adblock) (37k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/cbuijs/hagezi/refs/heads/main/combo/alt-suggested-mini/domains.top-n.adblock&title=hagezi%20combo%20alt%20suggested%20mini%20list)
+<br> Combines Hagezi's [Ultimate mini](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#closed_book-multi-ultimate-mini-) and [TIF mini](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#tifmini) lists, and adds [Dynamic DNS](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#dyndns), [Badware Hoster](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#hoster), and [URL Shortener](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#urlshortener) lists. If you don't mind almost tripling the rule count, you can use the [non-mini version](https://raw.githubusercontent.com/cbuijs/hagezi/refs/heads/main/combo/alt-suggested/domains.top-n.adblock) which uses the full Ultimate and TIF lists. The `Top-N Version` contains only domains that have been found on Top 1/10M lists (Umbrella, Cloudflare, Tranco, Chrome, BuiltWith, Majestic, DomCop). For adblockers, I recommend sticking with this `domains.top-n.adblock` version. You can also explore the other combo [variants](https://github.com/cbuijs/hagezi/tree/main/combo). 
 
 ***
 
