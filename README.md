@@ -161,7 +161,7 @@ Add the functionality of [ClearURLs](https://github.com/ClearURLs/Addon#-clearur
 <br> Cleans up some of the clutter on YouTube.
 
 ### Paywalls
-To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://github.com/bpc-clone/bpc_updates/releases). The blocklists are limited in what they can do and are therefore **optional**.
+To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extension](https://gitflic.ru/user/magnolia1234). The blocklists are limited in what they can do and are therefore **optional**.
 
 1) **[Bypass Paywalls Clean filter](https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/?file=bpc-paywall-filter.txt&branch=main)** (960 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://gitflic.ru/project/magnolia1234/bypass-paywalls-clean-filters/blob/raw?file=bpc-paywall-filter.txt&title=Bypass%20Paywalls%20Clean%20filter)
 <br> You do not need this filterlist if you use the extension.
