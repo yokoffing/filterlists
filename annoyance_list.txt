@@ -28,7 +28,6 @@ search.brave.com##.download-cta
 infinite.tcgplayer.com##.subscribe-drawer
 techradar.com##.hawk-deal-widget-container
 psypost.org##em > strong, .jnews_related_post_container
-cloudflare.com##.ph3.items-center.flex-l, .bottom-0.fixed
 dev.to##.popover-billboard.crayons-sponsorship, .crayons-sponsorship
 pymnts.com##.adContainer, .pymnt_ads, .recommended-articles
 tcgplayer.com##.promo-banner.delay-wrapper
