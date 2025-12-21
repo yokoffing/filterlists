@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 November 2025
+! Version: 20 December 2025
 ! Syntax: AdBlock
 
 form.jotform.com##.formFooter-wrapper
@@ -1202,5 +1202,3 @@ vox.com##.c-article-footer
 wired.com##.callout--has-top-border.gYlOfh.GenericCalloutWrapper-zksK
 zdnet.com##p strong:has-text(/^SEE/):upward(p)
 zdnet.com##p strong:has-text(/^Also/):upward(p)
-
-!#include adult_annoyance_list.txt
