@@ -3,7 +3,7 @@
 ! Description: Block most third-party fonts. Allows for Material Icons and WOFF fonts in order to not break sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 21 November 2025
+! Version: 23 December 2025
 ! Syntax: AdBlock
 
 !!! ALLOWLIST
@@ -11,13 +11,15 @@
 @@||amazonaws.com^$font,3p,domain=dollartree.com|plex.tv
 @@||googleapis.com/ajax/libs/webfont/$domain=presentationzen.com|typepad.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com$domain=abc.xyz|advancedmd.com|android.com|blog.google|blogger.com|browser.works|chromium.org|cloud.digitalocean.com|entertrained.app|ext.to|freetaxusa.com|fmoviesz.to|gaggle.fun|google.com|googlesource.com|grow.google|groq.com|loanadministration.com|myeducator.com|nerdfonts.com|presentationzen.com|reedsy.com|reliaslearning.com|riverside.fm|shop.flipperzero.one|socialworkers.org|googleapps.com|vocabulary.com|web.dev|youtube.com
-@@||fonts.gstatic.com$3p,domain=about.google|ai.google|android.com|bloble.io|blog.google|blogger.com|cenreader.com|chrome.com|chromium.org|cloudskillsboost.google|codingfont.com|dexscreener.com|entertrained.app|domains.google|googlesource.com|grow.google|groq.com|material.io|myeducator.com|nerdfonts.com|reedsy.com|reliaslearning.com|safety.google|skills.google|socialworkers.org|textfx.withgoogle.com|toolbox.googleapps.com|vocabulary.com|web.dev|youtube.com|unit.ms|docs.google.com|sheets.google.com|slides.google.com|forms.google.com|myaccount.google.com|ogs.google.com|play.google.com
+@@||fonts.googleapis.com/css?$domain=abc.xyz|advancedmd.com|android.com|blog.google|blogger.com|brave.com|browser.works|chromium.org|cloud.digitalocean.com|dartpad.dev|entertrained.app|ext.to|fastcup.net|fmoviesz.to|freetaxusa.com|gaggle.fun|google.com|googleapps.com|googlesource.com|groq.com|grow.google|loanadministration.com|myeducator.com|nerdfonts.com|onlyfans.com|presentationzen.com|reedsy.com|reliaslearning.com|riverside.fm|shop.flipperzero.one|socialworkers.org|tensorflow.org|translate.google.cn|translate.google.co.id|translate.google.co.jp|translate.google.co.kr|translate.google.com.bd|translate.google.com.hk|translate.google.de|translate.google.es|translate.google.fr|translate.google.it|translate.google.pl|vocabulary.com|web.dev|youtube.com
+@@||fonts.gstatic.com^$domain=about.google|ai.google|android.com|bloble.io|blog.google|blogger.com|brave.com|cenreader.com|chrome.com|chromium.org|cloudskillsboost.google|codingfont.com|dartpad.dev|dexscreener.com|docs.google.com|domains.google|entertrained.app|floatplane.com|flutter.dev|forms.google.com|google.com|googlesource.com|groq.com|grow.google|material.io|myaccount.google.com|myeducator.com|nerdfonts.com|ogs.google.com|play.google.com|reedsy.com|regexpal.com|reliaslearning.com|safety.google|sheets.google.com|skills.google|slides.google.com|socialworkers.org|tensorflow.org|textfx.withgoogle.com|toolbox.googleapps.com|translate.google.cn|translate.google.co.id|translate.google.co.jp|translate.google.co.kr|translate.google.com.br|translate.google.com.hk|translate.google.com.ua|translate.google.de|translate.google.es|translate.google.fr|translate.google.it|translate.google.pl|translate.google.ru|unit.ms|vocabulary.com|web.dev|wunderground.com|youtube.com
 @@||fonts.gstatic.com/*/notoemoji/$image,xmlhttprequest,from=mail.google.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||myfonts.net$domain=myfonts.com
 @@||typekit.com$font
 @@||typekit.net$script,font
+@@||fonts.typekit.net^$domain=mpora.com
+@@||use.typekit.net^$domain=celyad.com|wellandgood.com
 
 ! Icon Packs
 @@/-icon
@@ -47,7 +49,7 @@
 @@||fontlay.com^
 
 ! Blocking Google Font API may prevent access to many sites
-||fonts.googleapis.com^
+||fonts.googleapis.com/css?
 ||googleapis.com/ajax/libs/webfont/$3p
 
 !!! DENYLIST
@@ -61,6 +63,7 @@
 ||disquscdn.com/next/assets/font/$3p
 ||edgefonts.net^$3p
 ||fast.fonts.com^$3p
+||fast.fonts.net^$3p
 ||font.sec.miui.com/font^$3p
 ||fonts.net$3p
 ||fontdeck.com^$3p
@@ -99,6 +102,8 @@
 ||squarecdn.com^$font,3p
 ||stamped.io/fonts/$font,3p
 ||typefront.com^$3p
+||typekit.com^$3p
+||typekit.net^$3p
 ||typesquare.com^$font,3p
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
@@ -117,6 +122,7 @@
 !$font,3p
 !/fonts/*.ttf$font,3p
 !||maxcdn.bootstrapcdn.com/font-awesome/$3p
+!@@||maxcdn.bootstrapcdn.com/font-awesome/$domain=climatemirror.org|spine-equip.ru
 !||maxcdn.bootstrapcdn.com^*/fonts/
 !/wp-$font,3p
 !||cdnjs.cloudflare.com/ajax/libs/font-awesome^$3p
