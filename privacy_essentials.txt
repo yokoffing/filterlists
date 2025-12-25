@@ -517,7 +517,7 @@ platform.twitter.com##+js(cookie-remover, /^/)
 ||static.rechargecdn.com^$3p
 ! ||getcatch.com^$3p
 ||js.getcatch.com^$3p
-||pay.google.com^$3p
+||pay.google.com^$3p,domain=~amtrak.com
 ||payments-amazon.com^$3p
 ||affirm.com$3p
 ||afterpay.com^$3p
