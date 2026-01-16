@@ -287,6 +287,7 @@
 ||socialshopwave.com^$3p
 ||spot.im^$3p
 ||startpage.com/do/$image
+@@||startpage.com/do/captcha$image
 ||startpage.com/english/$image
 ||startpage.com/tst2/$image
 ||storage.ko-fi.com^$3p
