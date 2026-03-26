@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 26 March 2026
+! Version: 26 March 2026b
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -73,6 +73,7 @@
 ||booster3000.si^$3p
 ||botframework.com^$3p
 ||branch.io^$3p
+||bsky.app^$3p
 ||budget.com^$3p
 ||buymeacoffee.com^$3p
 ||bytecache.ml^
