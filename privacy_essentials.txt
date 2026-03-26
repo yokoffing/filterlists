@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 26 March 2026b
+! Version: 26 March 2026c
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -338,6 +338,9 @@
 ||slickstream.com^$3p,domain=~slickstream.com
 ||sitescdn.net^$3p
 ||addsearch.com^$3p
+||geo.cprnearme.com^$3p
+||joinground.com^$3p
+||powr.io^$3p
 9anime.*##+js(nosiif, (t))
 fmovies.*##+js(nosiif, try)
 !!! https://github.com/uBlockOrigin/uAssets/commit/9c48940838eb4bff98f2a1a9b9cba1b92c3c8c9a
