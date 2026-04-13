@@ -179,13 +179,16 @@ To most effectively bypass paywalls, use the **Bypass Paywalls Clean** [extensio
 
 High-risk sites can expose your device to threats. These lists can prevent that by warning you before navigation or limiting what you can access.
 
-1) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) (213 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
+1) :new: [**High-Entropy NRDs (7-day)**](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#new-newly-registered-domains-nrddga-) (509k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dga7.txt&title=Hagezi%20High-Entropy%20NRDs%207-Day%20)
+<br> Targets newly registered domains (NRDs) from the past 7 days that exhibit structural randomness. "High entropy" describes domains that look like computer-generated gibberish, such as `qj9z2x5m0l.com`. Attackers use Domain Generation Algorithms (DGAs) to produce addresses daily so that infected devices can secretly "phone home" to [command servers](https://medium.com/@laurent.mandine/c2-role-in-cyber-attack-dde4710f2037). Note that this blocklist will not catch sophisticated phishing attacks that use readable dictionary words to mimic legitimate brands, such as `verizon-wireless-login.com`. Domains are provided by [Stamus Labs]( https://www.stamus-networks.com/stamus-labs/subscribe-to-threat-intel-feed).
+
+2) [**Most Abused TLDs**](https://github.com/hagezi/dns-blocklists/blob/main/adblock/spam-tlds-ublock.txt) (286 rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-ublock.txt&title=Most%20Abused%20TLDs)
 <br> Displays a warning before navigating to a site with an abused [TLD](https://en.wikipedia.org/wiki/Top-level_domain). Allows exceptions for legitimate sites. Merged from my own [Enhanced website protection](https://raw.githubusercontent.com/yokoffing/filterlists/main/enhanced_site_protection.txt) list, Dandelion Sprout's `Anti-Malware List`, LennyFox's `Block non-Latin TLDs` [list](https://github.com/LennyFox/Blocklists/blob/master/Block_non_latin_TLDs.txt), and [Spamhaus](https://www.spamhaus.org/reputation-statistics/cctlds/domains/) statistics.
 
-2) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (88k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List)
+3) **[Dandelion Sprout's Anti-Malware List](https://github.com/DandelionSprout/adfilt/blob/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)** (88k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt&title=Dandelion%20Sprout's%20Anti-Malware%20List)
 <br> This list blocks domains with high abuse rates and their search results. It also blocks domains involved in malware redirects, domain parking, and Windows [PUP](https://en.wikipedia.org/wiki/Potentially_unwanted_program) ads. It has many other subcategories that distinguish it from similar lists.
 
-3) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
+4) **[The malicious website blocklist](https://github.com/iam-py-test/my_filters_001/blob/main/antimalware.txt)** (38k rules) | [subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/iam-py-test/my_filters_001/main/antimalware.txt&title=The%20malicious%20website%20blocklist)
 <br> This version includes author comments, [vxvault.net's list](https://github.com/iam-py-test/vxvault_filter), the [anti-PUP list](https://github.com/iam-py-test/my_filters_001/blob/main/antipup.txt), and [additional rules](https://github.com/iam-py-test/my_filters_001/blob/main/special_lists/anti-malware-ubo-extension.txt) for uBO.
 
 ## All-Purpose
@@ -250,7 +253,8 @@ Advanced apporach for users comfortable troubleshooting issues and reporting sit
 5. yokoffing's Annoyance List
 6. Browse websites without logging in
 7. (optional) YouTube Clear View
-8. (optional) Most Abused TLDs 
+8. (optional) Most Abused TLDs
+9. High-Entropy NRDs (7-day)
 
 ***
 
