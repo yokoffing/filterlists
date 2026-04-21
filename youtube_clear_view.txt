@@ -65,7 +65,7 @@ www.youtube.com##ytd-video-meta-block + ytd-badge-supported-renderer
 ! Hide "smartimation" animations
 ! Hide the rainbow-colored border animation around the subscribe button
 ! https://github.com/yokoffing/filterlists/pull/117
-www.youtube.com##yt-smartimation > *:not(.smartimation__content)
+www.youtube.com##yt-smartimation > *:not(.ytSmartImationsContent)
 
 ! Prevent stats from live-updating
 ! https://github.com/yokoffing/filterlists/pull/113
