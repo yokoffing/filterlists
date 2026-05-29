@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 14 May 2026
+! Version: 29 May 2026
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -603,6 +603,12 @@ bing.com##+js(nosiif, logQueue, 10000)
 !#endif
 ! EP - needed for Bing rewards?
 @@||bing.com/rewardsapp/reportactivity?
+
+! MICROSOFT
+! Sharepoint breakage
+@@||microsoft.com^domain=sharepoint.com
+@@||live.com^domain=sharepoint.com
+@@||office.com^domain=sharepoint.com
 
 ! Microsoft Outlook breakage
 @@||pipe.aria.microsoft.com^$domain=outlook.live.com|outlook.office.com
