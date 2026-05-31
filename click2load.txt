@@ -3,7 +3,7 @@
 ! Description: To be used in uBlock Origin
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 6 May 2026
+! Version: 30 May 2026
 ! Syntax: AdBlock
 
 !#if ext_ublock
@@ -36,6 +36,7 @@
 ||infosec.exchange/$3p,frame,redirect=click2load.html
 ||instaread.co/player?$3p,frame,redirect=click2load.html
 ||loom.com/embed/$3p,frame,redirect=click2load.html
+||mail.ru/video/embed/$3p,frame,redirect=click2load.html
 ||ok.ru/videoembed^$3p,frame,redirect=click2load.html
 ||onedrive.live.com/embed^$3p,frame,redirect=click2load.html
 ||open.spotify.com/embed-podcast/$3p,frame,redirect=click2load.html
@@ -70,6 +71,7 @@
 ||vk.ru/video_ext$3p,frame,redirect=click2load.html
 ||volume.vox-cdn.com/embed/$3p,frame,redirect=click2load.html
 ||w.soundcloud.com/player/$3p,frame,redirect=click2load.html,domain=~listenbrainz.org
+||yandex.ru/video/*$3p,frame,redirect=click2load.html
 ||youtube-nocookie.com/embed^$3p,frame,redirect=click2load.html,domain=~bing.com|~google.com|~duckduckgo.com|~listenbrainz.org|~muitube.com|~video.search.yahoo.com
 ||youtube.com^$3p,frame,redirect=click2load.html,domain=~bing.com|~chatreplay.stream|~google.com|~duckduckgo.com|~listenbrainz.org|~video.search.yahoo.com|~w2g.tv|~thebluealliance.com|~theguardian.com|~songsterr.com
 !#endif
