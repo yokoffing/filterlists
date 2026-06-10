@@ -434,7 +434,7 @@ To change the filtering level for a specific site:
 You can also lower the filtering mode for a site by moving the slider to **Basic** or **No Filtering**.
 
 ### Recommended filters for uBlock Origin Lite
-![Screenshot_18-3-2025_12311_cimighlppcgcoapaliogpjjdehbnofhn](https://github.com/user-attachments/assets/0c81b92f-9209-4566-8c19-e0a4d9a33184)
+<img width="520" height="1072" alt="uboLite 6 9 2026" src="https://github.com/user-attachments/assets/82629223-7b6a-4582-982f-288544f82f5d" />
 
 ***
 
