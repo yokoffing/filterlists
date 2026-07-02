@@ -3,7 +3,7 @@
 ! Description: Filters I use myself but may cause unintended effects of other users. Mostly peculiar YouTube filters.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 7 days (update frequency)
-! Version: 28 August 2025
+! Version: 2 July 2026
 ! Syntax: AdBlock
 
 ! Gravatar
@@ -16,6 +16,24 @@
 ||paypal.com^$3p,domain=~ebay.com|~ticketmaster.com|~form.jotform.com|~paypalcredit.syf.com
 ||paypalobjects.com^$domain=~ebay.com|~paypal.com|~ticketmaster.com|~paypalcredit.syf.com
 /PaypalExpressCheckout
+
+! Non-latin TLDs
+! from https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1579896974
+/(://|^)[a-z0-9.-]{2,}\.xn--[a-z0-9]{4,}($|/)/
+
+! IDN Homograph Attack protection
+! Protect yourself from fake sites
+! Equivalent to network.IDN_show_punycode = false in Firefox
+! https://en.wikipedia.org/wiki/IDN_homograph_attack
+! https://www.reddit.com/r/firefox/comments/17p68i7/set_networkidn_show_punycodetrue_to_protect/
+||xn--$doc,frame,popup,domain=~xn----7sbb3acajbee5aggvnq.xn--90ais|~xn--80a2abbdd.xn--j1amh|~xn--gckvb8fzb.com
+
+! Block password protected archives with the password in the filename
+! false positives: website scanning services, malware sharing sites
+! Credit: https://github.com/iam-py-test/my_filters_001/blob/main/enhanced_protection.txt
+/\/Use_[a-zA-Z0-9]*_As_Passw0rdd\.rar$/$doc
+/\/Use_[a-zA-Z0-9]*_As_Password\.rar$/$doc
+/\/Passwords_2024_Setup_Full\.rar$/$doc
 
 ! X (FORMERLY TWITTER)
 ||t.co$domain=~twitter.com
