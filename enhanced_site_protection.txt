@@ -3,7 +3,7 @@
 ! Description: To be used in conjunction with Dandelion Sprout's Anti-Malware List, this filter will warn users before making top-site navigations that use the TLDs below. This list focuses on top-site navigations, not sub-requests. Please report exceptions to legitimate sites. Many exceptions come from bestplayerbot.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 19 March 2025b
+! Version: 2 July 2026
 ! Syntax: AdBlock
 
 !!! Malicious TLDs
@@ -37,11 +37,12 @@
 ! from https://github.com/hagezi/dns-blocklists/issues/143#issuecomment-1579896974
 /(://|^)[a-z0-9.-]{2,}\.xn--[a-z0-9]{4,}($|/)/
 
-! Punycode URLs
+! IDN Homograph Attack protection
 ! Protect yourself from fake sites
 ! Equivalent to network.IDN_show_punycode = false in Firefox
+! https://en.wikipedia.org/wiki/IDN_homograph_attack
 ! https://www.reddit.com/r/firefox/comments/17p68i7/set_networkidn_show_punycodetrue_to_protect/
-||xn--$doc,frame
+||xn--$doc,frame,popup,domain=~xn----7sbb3acajbee5aggvnq.xn--90ais|~xn--80a2abbdd.xn--j1amh|~xn--gckvb8fzb.com
 
 !!! Scam sites
 ! https://github.com/yokoffing/filterlists/issues/147
