@@ -3,7 +3,7 @@
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 30 June 2026
+! Version: 24 July 2026
 ! Syntax: AdBlock
 
 ! GENERAL BLOCKLIST
@@ -474,10 +474,10 @@ fmovies.*##+js(nosiif, try)
 ||graph.facebook.com/*?fields=supports_implicit_sdk_logging
 ! ||graph.facebook.com^$domain=~facebook.com|~instagram.com
 ! ||graph.instagram.com^$domain=~facebook.com|~instagram.com
-||instagram.com^$3p,~subdocument
-@@||instagram.com/p/$subdocument
-@@||instagram.com^$script
-@@||-instagram.*.facebook.com^$subdocument
+! ||instagram.com^$3p,~subdocument
+! @@||instagram.com/p/$subdocument
+! @@||instagram.com^$script
+! @@||-instagram.*.facebook.com^$subdocument
 
 ! TWITTER
 ||api.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
