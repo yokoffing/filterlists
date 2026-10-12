@@ -3,7 +3,7 @@
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 30 May 2026
+! Version: 12 October 2026
 ! Syntax: AdBlock
 
 form.jotform.com##.formFooter-wrapper
@@ -391,7 +391,7 @@ marketbeat.com##.d-print-none, .open-video-modal-button
 marketplace.org##.lazyloaded.c-simple-newsletter-subscribe, .mp-show-latest-episodes__body, .top-latest-stories, .jp-relatedposts, .original-content > .padded
 marketwatch.com##.article__footer.column--full.column, .region--aside.region, .fixed.container--trending.container
 marvelapp.com##.marginTop-l.paddingTop-xl.padding-l, .fixed-footer, .breakPointM-paddingTopBottom-s.bg-white.paddingLeftRight-m.display-inlineBlock.position-relative.breakPointM-inline
-mashable.com##.bg-warmgray-100.items-end.md\:flex-row.flex-col.flex.overflow-hidden.relative.px-4.mx-auto.mt-12.max-w-9xl, .md\:mb-16.md\:mt-12.mb-12.mt-8.font-sans.text-primary-400.max-w-3xl.mx-auto.w-full, section.max-w-8xl.mx-auto:nth-of-type(1), div.lg\:flex.justify-between.items-stretch.mx-auto.px-4.max-w-8xl, .related-stories
+! mashable.com##.bg-warmgray-100.items-end.md\:flex-row.flex-col.flex.overflow-hidden.relative.px-4.mx-auto.mt-12.max-w-9xl, .md\:mb-16.md\:mt-12.mb-12.mt-8.font-sans.text-primary-400.max-w-3xl.mx-auto.w-full, section.max-w-8xl.mx-auto:nth-of-type(1), div.lg\:flex.justify-between.items-stretch.mx-auto.px-4.max-w-8xl, .related-stories
 medium.com##.ky.ku.u.ut.aj.kw.kp.df.mj, .z.cw.s, .ug.uf.s.ue, .s.qn.qm
 mentalhelp.net##.articles-otp-cta-wrapper
 metro.co.uk##.sidebar.col-c, .zone-post-strip
@@ -1178,7 +1178,7 @@ ghacks.net##p strong:has-text(/^Tip/):upward(p)
 hollywoodreporter.com##.u-margin-b-3\@desktop-xl.u-margin-t-4\@desktop-xl.u-margin-tb-250.\/\/.injected-related-story
 hollywoodreporter.com##p strong:has-text(/^PHOTOS/):upward(p)
 hollywoodreporter.com##p strong:has-text(/^STORY/):upward(p)
-mashable.com##.md\:leading-7.md\:text-xl.leading-loose.text-lg.mt-8.font-sans.max-w-3xl.mx-auto.w-full
+! mashable.com##.md\:leading-7.md\:text-xl.leading-loose.text-lg.mt-8.font-sans.max-w-3xl.mx-auto.w-full
 msnbc.com##.styles_hasItems__jrj_I.styles_msnbcDailyRecircBody__M8npG
 nbcnews.com##.dn-print.related
 nbcnews.com##p strong:has-text(/^Download the/):upward(p)
