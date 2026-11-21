@@ -482,6 +482,7 @@ fmovies.*##+js(nosiif, try)
 ||api.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
 ||twitter.com^$3p,domain=~x.com
+||x.com^$3p,domain=~twitter.com
 ||syndication.twitter.com^
 ||t.co^$3p,domain=~x.com|~twitter.com
 !#if ext_ublock
