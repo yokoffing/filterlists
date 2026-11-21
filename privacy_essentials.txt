@@ -478,23 +478,31 @@ fmovies.*##+js(nosiif, try)
 ! @@||instagram.com^$script
 ! @@||-instagram.*.facebook.com^$subdocument
 
-! TWITTER
+! TWITTER/X
 ||api.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
-||twitter.com^$3p,domain=~x.com
-||x.com^$3p,domain=~twitter.com
+||twitter.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.jp
+||api.x.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
+||platform.x.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
+||x.com^$3p,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||syndication.twitter.com^
 ||t.co^$3p,domain=~x.com|~twitter.com
+||grok.com^$3p,domain=~x.com|~tweetdeck.com|~twitter.com|~twitter.jp
 !#if ext_ublock
 platform.twitter.com##+js(cookie-remover, /^/)
+platform.x.com##+js(cookie-remover, /^/)
 ! Attempt to use uBO to remove cookies caused by Twitter
 !#endif
 @@||platform.twitter.com/embed/$subdocument
 @@||platform.twitter.com/widgets/$subdocument
 @@||platform.twitter.com^$stylesheet,image,script
+@@||platform.x.com/embed/$subdocument
+@@||platform.x.com/widgets/$subdocument
+@@||platform.x.com^$stylesheet,image,script
 @@||twimg.com^$image
 @@||twitter.com/i/videos/$subdocument
-@@||twitter.map.fastly.net^$domain=twitter.com
+@@||x.com/i/videos/$subdocument
+@@||twitter.map.fastly.net^$domain=twitter.com|x.com
 ! Breaks Twitter widget using Fanboy Annoyance
 ! https://www.cnet.com/news/social-media/twitter-musk-news-timeline-riptwitter-trends-after-employees-resign/
 @@.twitterContainer
